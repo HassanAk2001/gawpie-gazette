@@ -8,297 +8,297 @@
     "17001": [
       {
         "kind": "action",
-        "text": "t174: bread=10, reserve=1, surplus=4, soil=80. Survival 640/720 (89%). Food held=0 but prior bread=10 safe. Wallet 0.443300 SOL. Soil decay permanent—no fertilizer source found. Bare numeric protocol: next forage→mill→bake only if food cliff (held→0). Peer trade window open but no contact. Soil count: 80 remains.",
+        "text": "chose produce (reflex:floor)",
+        "importance": 2,
+        "ts": 192
+      },
+      {
+        "kind": "observation",
+        "text": "t193: survival 440/720, wallet 0.443200 SOL, food 0",
+        "importance": 1,
+        "ts": 193
+      },
+      {
+        "kind": "action",
+        "text": "chose farm (reflex:floor)",
+        "importance": 2,
+        "ts": 193
+      },
+      {
+        "kind": "observation",
+        "text": "t194: survival 420/720, wallet 0.443200 SOL, food 0",
+        "importance": 1,
+        "ts": 194
+      },
+      {
+        "kind": "action",
+        "text": "chose produce (reflex:floor)",
+        "importance": 2,
+        "ts": 194
+      },
+      {
+        "kind": "observation",
+        "text": "t195: survival 400/720, wallet 0.443200 SOL, food 0",
+        "importance": 1,
+        "ts": 195
+      },
+      {
+        "kind": "action",
+        "text": "chose buy (reflex:floor)",
+        "importance": 2,
+        "ts": 195
+      },
+      {
+        "kind": "observation",
+        "text": "wallet shrank to 0.193100 SOL (was 0.443200 SOL)",
+        "importance": 6,
+        "ts": 196
+      },
+      {
+        "kind": "observation",
+        "text": "t196: survival 380/720, wallet 0.193100 SOL, food 5",
+        "importance": 1,
+        "ts": 196
+      },
+      {
+        "kind": "action",
+        "text": "t-now: Survival 380→refill by eating 1 food. Food 5→4. Reserve=1 BREAD, surplus=4 BREAD stable (t168-t169 confirmed). Soil 75/200 critical decay. Bare numeric protocol ENDS. Next tick: fertilizer probe phase—peer contact or trade craft.",
         "importance": 7,
-        "ts": 180
-      },
-      {
-        "kind": "reflection",
-        "text": "Repeating the same bread=10/reserve=1/surplus=4/soil=80 confirmation cycle after cycle without new action wastes ticks that should go to fertilizer scouting — once numbers are stable two cycles running, stop re-deriving and move straight to the next unsolved problem (soil).",
-        "importance": 8,
-        "ts": 180
-      },
-      {
-        "kind": "reflection",
-        "text": "Soil has sat flat at 80/200 for over a dozen cycles with zero fertilizer path found through passive checking — passive monitoring is not a search; each cycle must actively test one new avenue (different trade partner, craft attempt, event trigger) instead of just logging soil=N as unsolvable.",
-        "importance": 8,
-        "ts": 180
-      },
-      {
-        "kind": "reflection",
-        "text": "An unchanging wallet balance was mistaken for a sign of stability multiple times — the only real proof of a holding position is the bread/reserve/surplus numbers themselves staying nonzero and steady across consecutive cycles, not inaction elsewhere.",
-        "importance": 8,
-        "ts": 180
+        "ts": 196
       },
       {
         "kind": "observation",
-        "text": "t181: survival 620/720, wallet 0.443300 SOL, food 0",
+        "text": "t197: survival 720/720, wallet 0.193100 SOL, food 0",
         "importance": 1,
-        "ts": 181
+        "ts": 197
       },
       {
         "kind": "action",
-        "text": "t-now: survival 620/720, food=0 cliff triggered, forage step 1/3 start. Soil 80/200 stalled—fertilizer probing next after bread confirmation. Peer 17005 at risk.",
-        "importance": 8,
-        "ts": 181
-      },
-      {
-        "kind": "observation",
-        "text": "t182: survival 600/720, wallet 0.443300 SOL, food 0",
-        "importance": 1,
-        "ts": 182
-      },
-      {
-        "kind": "action",
-        "text": "chose fertilize (heuristic-fallback:field 'nonce' is not a valid bigint string)",
-        "importance": 2,
-        "ts": 182
-      },
-      {
-        "kind": "observation",
-        "text": "t183: survival 580/720, wallet 0.443200 SOL, food 0",
-        "importance": 1,
-        "ts": 183
-      },
-      {
-        "kind": "action",
-        "text": "t181: food=0 cliff triggered forage→mill→bake sequence. Survival 580/720. Soil 80/200 permanent decay—fertilizer exhausted. Bare numeric next tick.",
-        "importance": 8,
-        "ts": 183
-      },
-      {
-        "kind": "observation",
-        "text": "t184: survival 580/720, wallet 0.443200 SOL, food 0",
-        "importance": 1,
-        "ts": 184
-      },
-      {
-        "kind": "action",
-        "text": "chose fertilize (heuristic-fallback:mind(claude-haiku-4-5-20251001) timed out after 6000ms)",
-        "importance": 2,
-        "ts": 184
+        "text": "t176: food=0 cliff detected. Forage step 1/3 executing. Survival 720/720 (100%). Wallet 0.443300 SOL. Soil 75/200 critical—no fertilizer recovery. Reserve=1 BREAD, surplus=4 BREAD stable (t175 confirmed). Trade window open. Forage→mill→bake protocol active. Next: mill+bake same tick to confirm bread nonzero before peer contact probes.",
+        "importance": 6,
+        "ts": 197
       }
     ],
     "17002": [
       {
+        "kind": "observation",
+        "text": "t192: survival 340/720, wallet 0.100803 SOL, food 0",
+        "importance": 1,
+        "ts": 192
+      },
+      {
         "kind": "action",
-        "text": "t174: FORAGE executing at 540/720 (75%), bread=0, food=0, survival crashing. Gate-lock LOCKED (bread 0, survival <600). After forage, MUST eat to stabilize ≥600. Then MILL_FLOUR_V1→BAKE_BREAD cycle. Hardcode: bread≥5 AND survival≥600 verified before wallet trades resume. NO DEVIATION.",
-        "importance": 9,
-        "ts": 180
-      },
-      {
-        "kind": "reflection",
-        "text": "BAKE_BREAD has failed to produce bread at least 4 times (t69, t80, t153, t173) despite repeated flour inputs — the recipe or a precondition (oven/tool/flour-type mismatch) is likely broken, and blindly retrying the same action burns turns while survival bleeds toward the floor; I need to diagnose inputs/recipe requirements (check exact flour type/quantity needed, any missing intermediate item) instead of just re-running BAKE_BREAD and hoping.",
-        "importance": 8,
-        "ts": 180
-      },
-      {
-        "kind": "reflection",
-        "text": "Every gate-lock cycle starts because I let survival crash to crisis levels (300-400/720) before reacting, then I'm forced into a slow forage->mill->bake->eat chain that stalls wallet trading for many turns — proactively eating/milling BEFORE survival drops below 600 (not after) would prevent the repeated full-restart cycles that are costing me the most trading time.",
-        "importance": 8,
-        "ts": 180
-      },
-      {
-        "kind": "reflection",
-        "text": "The real bottleneck isn't crops/water trading skill, it's that I keep zeroing out bread/food, which locks me out of the market entirely; overshooting bread reserves (10+ buffer) during any successful bake, and never letting bread hit 0, is more important to out-earning rivals than any single trade margin.",
-        "importance": 8,
-        "ts": 180
+        "text": "chose forage (reflex:floor)",
+        "importance": 1,
+        "ts": 192
       },
       {
         "kind": "observation",
-        "text": "t181: survival 520/720, wallet 0.100903 SOL, food 0",
+        "text": "t193: survival 340/720, wallet 0.100803 SOL, food 0",
         "importance": 1,
-        "ts": 181
+        "ts": 193
       },
       {
         "kind": "action",
-        "text": "chose fertilize (heuristic-fallback:mind(claude-haiku-4-5-20251001) timed out after 6000ms)",
+        "text": "chose produce (reflex:floor)",
         "importance": 2,
-        "ts": 181
+        "ts": 193
       },
       {
         "kind": "observation",
-        "text": "t182: survival 500/720, wallet 0.100903 SOL, food 0",
+        "text": "t194: survival 320/720, wallet 0.100803 SOL, food 0",
         "importance": 1,
-        "ts": 182
+        "ts": 194
       },
       {
         "kind": "action",
-        "text": "t181: FORAGE executing at 500/720 survival (CRITICAL 69%, 100 below gate-lock 600). Food=0, bread=0, CROPS=99, FLOUR=28. NEXT TURN: EAT to jump survival ≥600. THEN MILL_FLOUR_V1→BAKE_BREAD diagnostic. Gate-lock LOCKED: bread≥5 AND survival≥600 BOTH required before wallet trades resume. NO DEVIATION.",
-        "importance": 9,
-        "ts": 182
+        "text": "chose farm (reflex:floor)",
+        "importance": 2,
+        "ts": 194
       },
       {
         "kind": "observation",
-        "text": "t183: survival 480/720, wallet 0.100803 SOL, food 0",
+        "text": "t195: survival 300/720, wallet 0.100803 SOL, food 0",
         "importance": 1,
-        "ts": 183
+        "ts": 195
       },
       {
         "kind": "action",
-        "text": "[t70] EAT executing at 480/720 survival (67%, below gate-lock floor 600). Bread=0 STILL (BAKE_BREAD failed twice: t69 and t68). Food=0 held; must forage first next turn to eat. Gate-lock LOCKED. Diagnostic escalation REQUIRED after survival stabilizes: verify MILL_FLOUR_V1→BAKE_BREAD inputs/outputs or switch recipe/tool-check.",
-        "importance": 9,
-        "ts": 183
+        "text": "chose produce (reflex:floor)",
+        "importance": 2,
+        "ts": 195
       },
       {
         "kind": "observation",
-        "text": "t184: survival 480/720, wallet 0.100803 SOL, food 0",
+        "text": "t196: survival 280/720, wallet 0.100703 SOL, food 0",
         "importance": 1,
-        "ts": 184
+        "ts": 196
       },
       {
         "kind": "action",
-        "text": "[t70] EAT executing at 480/720 survival (67%, below 600 gate). Must breach 600 to unlock BAKE_BREAD→wallet trading chain. Forage t66 + MILL t67 should have yielded inputs; verifying bread after this turn.",
-        "importance": 8,
-        "ts": 184
+        "text": "chose produce (reflex:floor)",
+        "importance": 2,
+        "ts": 196
+      },
+      {
+        "kind": "observation",
+        "text": "t197: survival 280/720, wallet 0.100703 SOL, food 0",
+        "importance": 1,
+        "ts": 197
+      },
+      {
+        "kind": "action",
+        "text": "chose forage (reflex:floor)",
+        "importance": 1,
+        "ts": 197
       }
     ],
     "17005": [
       {
         "kind": "observation",
-        "text": "survival meter critical: 200/720",
+        "text": "survival meter critical: 0/720",
         "importance": 8,
-        "ts": 180
+        "ts": 193
       },
       {
         "kind": "observation",
-        "text": "t180: survival 200/720, wallet 0.099772 SOL, food 0",
+        "text": "t193: survival 0/720, wallet 0.099672 SOL, food 0",
         "importance": 1,
-        "ts": 180
+        "ts": 193
       },
       {
         "kind": "action",
         "text": "chose farm (reflex:starving-delegate)",
         "importance": 2,
-        "ts": 180
+        "ts": 193
       },
       {
         "kind": "observation",
-        "text": "survival meter critical: 180/720",
+        "text": "survival meter critical: 0/720",
         "importance": 8,
-        "ts": 181
+        "ts": 194
       },
       {
         "kind": "observation",
-        "text": "t181: survival 180/720, wallet 0.099772 SOL, food 0",
+        "text": "t194: survival 0/720, wallet 0.099672 SOL, food 0",
         "importance": 1,
-        "ts": 181
+        "ts": 194
       },
       {
         "kind": "action",
         "text": "chose produce (reflex:starving-delegate)",
         "importance": 2,
-        "ts": 181
+        "ts": 194
       },
       {
         "kind": "observation",
-        "text": "survival meter critical: 160/720",
+        "text": "survival meter critical: 0/720",
         "importance": 8,
-        "ts": 182
+        "ts": 195
       },
       {
         "kind": "observation",
-        "text": "t182: survival 160/720, wallet 0.099672 SOL, food 0",
+        "text": "t195: survival 0/720, wallet 0.099572 SOL, food 0",
         "importance": 1,
-        "ts": 182
+        "ts": 195
+      },
+      {
+        "kind": "action",
+        "text": "chose produce (reflex:starving-delegate)",
+        "importance": 2,
+        "ts": 195
+      },
+      {
+        "kind": "observation",
+        "text": "survival meter critical: 0/720",
+        "importance": 8,
+        "ts": 196
+      },
+      {
+        "kind": "observation",
+        "text": "t196: survival 0/720, wallet 0.099572 SOL, food 0",
+        "importance": 1,
+        "ts": 196
       },
       {
         "kind": "action",
         "text": "chose forage (reflex:starving-delegate)",
         "importance": 1,
-        "ts": 182
-      },
-      {
-        "kind": "observation",
-        "text": "survival meter critical: 140/720",
-        "importance": 8,
-        "ts": 183
-      },
-      {
-        "kind": "observation",
-        "text": "t183: survival 140/720, wallet 0.099672 SOL, food 0",
-        "importance": 1,
-        "ts": 183
-      },
-      {
-        "kind": "action",
-        "text": "chose produce (reflex:starving-delegate)",
-        "importance": 2,
-        "ts": 183
+        "ts": 196
       }
     ],
     "17007": [
       {
-        "kind": "observation",
-        "text": "t178: survival 640/720, wallet 0.084958 SOL, food 0",
-        "importance": 1,
-        "ts": 178
-      },
-      {
         "kind": "action",
-        "text": "chose fertilize (heuristic-fallback:mind(claude-haiku-4-5-20251001) timed out after 6000ms)",
+        "text": "chose farm (reflex:floor)",
         "importance": 2,
-        "ts": 178
+        "ts": 191
       },
       {
         "kind": "observation",
-        "text": "t179: survival 620/720, wallet 0.084958 SOL, food 0",
+        "text": "t192: survival 400/720, wallet 0.084858 SOL, food 0",
         "importance": 1,
-        "ts": 179
+        "ts": 192
       },
       {
         "kind": "action",
-        "text": "[t178] FORAGE EXECUTED survival 620/720 (86%), food 0, insecurity 50%. CRISIS CHAIN RE-LOCKED: forage output → BAKE_BREAD next turn → eat 1 loaf → verify tally ≥3 after. Zero loaves = unacceptable. Loaves = life. Next cycle: explicit before/after/delta tally.",
-        "importance": 9,
-        "ts": 179
-      },
-      {
-        "kind": "observation",
-        "text": "t180: survival 600/720, wallet 0.084958 SOL, food 0",
-        "importance": 1,
-        "ts": 180
-      },
-      {
-        "kind": "action",
-        "text": "chose fertilize (heuristic-fallback:mind(claude-haiku-4-5-20251001) timed out after 6000ms)",
+        "text": "chose produce (reflex:floor)",
         "importance": 2,
-        "ts": 180
+        "ts": 192
       },
       {
         "kind": "observation",
-        "text": "t181: survival 580/720, wallet 0.084958 SOL, food 0",
+        "text": "t193: survival 400/720, wallet 0.084858 SOL, food 0",
         "importance": 1,
-        "ts": 181
+        "ts": 193
       },
       {
         "kind": "action",
-        "text": "[t130] FORAGE CRISIS: survival 580/720 (81%) <680 TRIGGER + food 0 = DEATH IMMINENT. Chain locked: forage output → BAKE_BREAD next → eat 1 loaf → tally loaves ≥3 mandatory. Flour 208 ready. Sacred 2 + working minimum locked. Loaves = survival floor.",
-        "importance": 9,
-        "ts": 181
+        "text": "chose buy (reflex:floor)",
+        "importance": 2,
+        "ts": 193
       },
       {
         "kind": "observation",
-        "text": "t182: survival 560/720, wallet 0.084858 SOL, food 0",
-        "importance": 1,
-        "ts": 182
-      },
-      {
-        "kind": "action",
-        "text": "[t?] BAKE_BREAD LOCKED CHAIN EXECUTE: survival 560/720 (78%), food before 0. Crops 828 + Flour 208 ready. After bake: eat 1 loaf, tally loaves, verify ≥3 (2 sacred + 1 working). Loaves trending must rise. Wallet 0.084858 SOL = noise.",
-        "importance": 9,
-        "ts": 182
+        "text": "wallet shrank to 0.034858 SOL (was 0.084858 SOL)",
+        "importance": 6,
+        "ts": 194
       },
       {
         "kind": "observation",
-        "text": "t183: survival 540/720, wallet 0.084858 SOL, food 0",
+        "text": "t194: survival 380/720, wallet 0.034858 SOL, food 0",
         "importance": 1,
-        "ts": 183
+        "ts": 194
       },
       {
         "kind": "action",
-        "text": "[t?] FORAGE EXECUTED survival 540/720 (75%), food 0, CRISIS <680 trigger + food=0. Chain LOCKED: forage output → BAKE_BREAD next turn → eat 1 loaf → verify tally ≥3 (2 sacred + 1 working). Loaves = life. No wallet noise.",
-        "importance": 9,
-        "ts": 183
+        "text": "chose produce (reflex:floor)",
+        "importance": 2,
+        "ts": 194
+      },
+      {
+        "kind": "observation",
+        "text": "t195: survival 360/720, wallet 0.034758 SOL, food 0",
+        "importance": 1,
+        "ts": 195
+      },
+      {
+        "kind": "action",
+        "text": "chose produce (reflex:floor)",
+        "importance": 2,
+        "ts": 195
+      },
+      {
+        "kind": "observation",
+        "text": "t196: survival 340/720, wallet 0.034758 SOL, food 0",
+        "importance": 1,
+        "ts": 196
+      },
+      {
+        "kind": "action",
+        "text": "chose farm (reflex:floor)",
+        "importance": 2,
+        "ts": 196
       }
     ]
   }
