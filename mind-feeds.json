@@ -10,73 +10,73 @@
         "kind": "observation",
         "text": "survival meter critical: 0/720",
         "importance": 8,
-        "ts": 248
+        "ts": 260
       },
       {
         "kind": "observation",
-        "text": "t248: survival 0/720, wallet 0.192800 SOL, food 0",
+        "text": "t260: survival 0/720, wallet 0.192700 SOL, food 0",
         "importance": 1,
-        "ts": 248
+        "ts": 260
       },
       {
         "kind": "action",
         "text": "chose produce (reflex:starving-delegate)",
         "importance": 2,
-        "ts": 248
+        "ts": 260
       },
       {
         "kind": "observation",
         "text": "survival meter critical: 0/720",
         "importance": 8,
-        "ts": 249
+        "ts": 261
       },
       {
         "kind": "observation",
-        "text": "t249: survival 0/720, wallet 0.192700 SOL, food 0",
+        "text": "t261: survival 0/720, wallet 0.192700 SOL, food 0",
         "importance": 1,
-        "ts": 249
+        "ts": 261
       },
       {
         "kind": "action",
         "text": "chose forage (reflex:starving-delegate)",
         "importance": 1,
-        "ts": 249
+        "ts": 261
       },
       {
         "kind": "observation",
         "text": "survival meter critical: 0/720",
         "importance": 8,
-        "ts": 250
+        "ts": 262
       },
       {
         "kind": "observation",
-        "text": "t250: survival 0/720, wallet 0.192700 SOL, food 0",
+        "text": "t262: survival 0/720, wallet 0.192700 SOL, food 0",
         "importance": 1,
-        "ts": 250
+        "ts": 262
       },
       {
         "kind": "action",
         "text": "chose produce (reflex:starving-delegate)",
         "importance": 2,
-        "ts": 250
+        "ts": 262
       },
       {
         "kind": "observation",
         "text": "survival meter critical: 0/720",
         "importance": 8,
-        "ts": 251
+        "ts": 263
       },
       {
         "kind": "observation",
-        "text": "t251: survival 0/720, wallet 0.192700 SOL, food 0",
+        "text": "t263: survival 0/720, wallet 0.192600 SOL, food 0",
         "importance": 1,
-        "ts": 251
+        "ts": 263
       },
       {
         "kind": "action",
-        "text": "chose forage (reflex:starving-delegate)",
-        "importance": 1,
-        "ts": 251
+        "text": "chose farm (reflex:starving-delegate)",
+        "importance": 2,
+        "ts": 263
       }
     ],
     "17002": [
