@@ -8,297 +8,297 @@
     "27001": [
       {
         "kind": "observation",
-        "text": "t229: survival 300/720, wallet 0.149321 SOL, food 50",
+        "text": "t241: survival 620/720, wallet 0.355973 SOL, food 40",
         "importance": 1,
-        "ts": 229
+        "ts": 241
       },
       {
         "kind": "action",
-        "text": "[tUNK] [tUNK] GATE FAILED CRITICAL (fifth+ dip): BREAD 50✓, SOL 0.149321 << floor 0.525339. Survival 300/720 (42%), soil 80/200, no FERTILIZER, no buy path. Reflex auto-eat threshold 34%=245/720 — ~3 ticks until fire. Wallet collapse signal: unbroken fifth+ tick. Fertilize HALTED. Plot holds. Idle. Full six-field gate re-check required every tick without exception.",
-        "importance": 9,
-        "ts": 229
-      },
-      {
-        "kind": "observation",
-        "text": "t230: survival 280/720, wallet 0.149321 SOL, food 50",
-        "importance": 1,
-        "ts": 230
-      },
-      {
-        "kind": "action",
-        "text": "[tCURR] GATE FAILED CRITICAL (fifth+ dip unbroken): BREAD 50✓, SOL 0.149321 << floor 0.525339. Survival 280/720 (39%), soil 80/200, no FERTILIZER, no buy path. Reflex auto-eat threshold 34%=245/720 — ~3 ticks until fire. Wallet collapse signal: unbroken fifth+ tick. Fertilize HALTED. Plot holds. Idle. Full six-field gate re-check every tick without exception.",
-        "importance": 9,
-        "ts": 230
-      },
-      {
-        "kind": "observation",
-        "text": "t231: survival 260/720, wallet 0.149321 SOL, food 50",
-        "importance": 1,
-        "ts": 231
-      },
-      {
-        "kind": "action",
-        "text": "[tCURR] GATE FAILED CRITICAL (sixth+ consecutive dip—wallet collapse signal unbroken five+ ticks): BREAD 50✓, SOL 0.149321 << floor 0.525339. Survival 260/720 (36%), soil 80/200, zero FERTILIZER, no buy path. Reflex auto-eat threshold 34%=245/720 — ~2-3 ticks until fire. Fertilize HALTED. Wallet is noise; log is signal. Plot holds. Idle. Every tick gate re-check required—no exemption.",
+        "text": "[tCURR] GATE FAILED CRITICAL (sixth+ unbroken): BREAD 40✓, SOL 0.355973 << 0.525339 cushion, survival 620/720 (86%), soil 80/200 zero FERTILIZER, reflex ~6 ticks away. Wallet collapse structural. Fertilize HALTED. Plot holds. Idle. Recheck full six-field gate every tick without exception.",
         "importance": 8,
-        "ts": 231
+        "ts": 241
       },
       {
         "kind": "observation",
-        "text": "t232: survival 260/720, wallet 0.149221 SOL, food 50",
+        "text": "t242: survival 600/720, wallet 0.355973 SOL, food 40",
         "importance": 1,
-        "ts": 232
+        "ts": 242
       },
       {
         "kind": "action",
-        "text": "chose sell (heuristic-fallback:mind(claude-haiku-4-5-20251001) timed out after 6000ms manual=cbd87e4ddc53)",
-        "importance": 3,
-        "ts": 232
+        "text": "[tCURR] GATE FAILED CRITICAL (sixth+ unbroken): BREAD 40✓, SOL 0.355973 << 0.525339, survival 600/720 (83%), soil 80/200 zero FERTILIZER, reflex ~8 ticks away. Wallet collapse structural. Fertilize HALTED. Plot holds. Idle. Full six-field recheck every tick without exception.",
+        "importance": 7,
+        "ts": 242
       },
       {
         "kind": "observation",
-        "text": "survival meter critical: 240/720",
+        "text": "t243: survival 580/720, wallet 0.355973 SOL, food 40",
+        "importance": 1,
+        "ts": 243
+      },
+      {
+        "kind": "action",
+        "text": "[tCURR] GATE FAILED CRITICAL (seventh+ unbroken dip): BREAD 40✓, SOL 0.355973 << 0.525339 cushion, survival 580/720 (81%), soil 80/200 zero FERTILIZER, reflex auto-eat threshold 34%=245/720 (~7 ticks at 15/tick decay). Wallet collapse unbroken. Fertilize HALTED. Plot holds. Idle. Recheck full six-field gate next tick without exception.",
         "importance": 8,
-        "ts": 233
+        "ts": 243
       },
       {
         "kind": "observation",
-        "text": "wallet grew to 0.264411 SOL (was 0.149221 SOL)",
-        "importance": 6,
-        "ts": 233
-      },
-      {
-        "kind": "observation",
-        "text": "t233: survival 240/720, wallet 0.264411 SOL, food 46",
+        "text": "t244: survival 560/720, wallet 0.355973 SOL, food 40",
         "importance": 1,
-        "ts": 233
+        "ts": 244
       },
       {
         "kind": "action",
-        "text": "chose eat (reflex:critical-eat)",
-        "importance": 5,
-        "ts": 233
+        "text": "[tCURR] GATE FAILED CRITICAL (sixth+ dip unbroken): BREAD 40✓, SOL 0.355973 << floor 0.525339. Survival 560/720 (78%), soil 80/200, no FERTILIZER, no buy path (SOL below lot 0.250). Reflex threshold 34%=245/720 — ~10 ticks until fire. Wallet collapse structural: unbroken sixth+ tick. Fertilize HALTED. Plot holds. Idle. Recheck every tick.",
+        "importance": 7,
+        "ts": 244
+      },
+      {
+        "kind": "observation",
+        "text": "t245: survival 560/720, wallet 0.355873 SOL, food 40",
+        "importance": 1,
+        "ts": 245
+      },
+      {
+        "kind": "action",
+        "text": "[t244+] GATE FAILED CRITICAL (sixth+ unbroken dip): BREAD 40✓, SOL 0.355873 << 0.525339 floor, soil 80/200 recovery locked, survival 560/720 (78%), no FERTILIZER, no buy path. Reflex threshold ~10 ticks. Fertilize HALTED. Plot holds. Idle. Recheck every tick without exception.",
+        "importance": 8,
+        "ts": 245
+      },
+      {
+        "kind": "observation",
+        "text": "t246: survival 540/720, wallet 0.355873 SOL, food 40",
+        "importance": 1,
+        "ts": 246
+      },
+      {
+        "kind": "action",
+        "text": "[tCURR] GATE FAILED CRITICAL (sixth+ dip unbroken): BREAD 40✓, SOL 0.355873 << floor 0.525339. Survival 540/720 (75%), soil 80/200, zero FERTILIZER, no buy path. Reflex threshold 34%=245/720 — ~18 ticks runway. Wallet collapse structural — sixth+ tick unbroken. Fertilize HALTED. Plot holds. Idle. Full six-field gate re-check every tick. No exemptions.",
+        "importance": 7,
+        "ts": 246
       }
     ],
     "27002": [
       {
         "kind": "observation",
-        "text": "t228: survival 560/720, wallet 0.578167 SOL, food 7",
+        "text": "t241: survival 700/720, wallet 0.578067 SOL, food 5",
         "importance": 1,
-        "ts": 228
-      },
-      {
-        "kind": "action",
-        "text": "chose eat (heuristic-fallback:grounding-failed(0.00) manual=cbd87e4ddc53)",
-        "importance": 2,
-        "ts": 228
-      },
-      {
-        "kind": "observation",
-        "text": "t229: survival 720/720, wallet 0.578167 SOL, food 6",
-        "importance": 1,
-        "ts": 229
+        "ts": 241
       },
       {
         "kind": "action",
         "text": "chose idle (heuristic-fallback:grounding-failed(0.00) manual=cbd87e4ddc53)",
         "importance": 1,
-        "ts": 229
+        "ts": 241
       },
       {
         "kind": "observation",
-        "text": "t230: survival 700/720, wallet 0.578167 SOL, food 6",
+        "text": "t242: survival 700/720, wallet 0.578067 SOL, food 5",
         "importance": 1,
-        "ts": 230
-      },
-      {
-        "kind": "action",
-        "text": "chose idle (heuristic-fallback:grounding-failed(0.00) manual=cbd87e4ddc53)",
-        "importance": 1,
-        "ts": 230
-      },
-      {
-        "kind": "observation",
-        "text": "t231: survival 680/720, wallet 0.578167 SOL, food 6",
-        "importance": 1,
-        "ts": 231
+        "ts": 242
       },
       {
         "kind": "action",
         "text": "chose farm (heuristic-fallback:grounding-failed(0.00) manual=cbd87e4ddc53)",
         "importance": 2,
-        "ts": 231
+        "ts": 242
       },
       {
         "kind": "observation",
-        "text": "t232: survival 680/720, wallet 0.578067 SOL, food 6",
+        "text": "t243: survival 680/720, wallet 0.578067 SOL, food 5",
         "importance": 1,
-        "ts": 232
+        "ts": 243
       },
       {
         "kind": "action",
         "text": "chose fertilize (heuristic-fallback:grounding-failed(0.00) manual=cbd87e4ddc53)",
         "importance": 2,
-        "ts": 232
+        "ts": 243
       },
       {
         "kind": "observation",
-        "text": "t233: survival 660/720, wallet 0.578067 SOL, food 6",
+        "text": "t244: survival 660/720, wallet 0.577967 SOL, food 5",
         "importance": 1,
-        "ts": 233
+        "ts": 244
       },
       {
         "kind": "action",
         "text": "chose idle (heuristic-fallback:grounding-failed(0.00) manual=cbd87e4ddc53)",
         "importance": 1,
-        "ts": 233
+        "ts": 244
+      },
+      {
+        "kind": "observation",
+        "text": "t245: survival 640/720, wallet 0.577967 SOL, food 5",
+        "importance": 1,
+        "ts": 245
+      },
+      {
+        "kind": "action",
+        "text": "chose fertilize (heuristic-fallback:grounding-failed(0.00) manual=cbd87e4ddc53)",
+        "importance": 2,
+        "ts": 245
+      },
+      {
+        "kind": "observation",
+        "text": "t246: survival 640/720, wallet 0.577967 SOL, food 5",
+        "importance": 1,
+        "ts": 246
+      },
+      {
+        "kind": "action",
+        "text": "chose idle (heuristic-fallback:grounding-failed(0.00) manual=cbd87e4ddc53)",
+        "importance": 1,
+        "ts": 246
       }
     ],
     "27005": [
       {
         "kind": "observation",
-        "text": "survival meter critical: 80/720",
+        "text": "survival meter critical: 0/720",
         "importance": 8,
-        "ts": 230
+        "ts": 243
       },
       {
         "kind": "observation",
-        "text": "t230: survival 80/720, wallet 0.000000 SOL, food 0",
+        "text": "t243: survival 0/720, wallet 0.000000 SOL, food 0",
         "importance": 1,
-        "ts": 230
+        "ts": 243
       },
       {
         "kind": "action",
         "text": "chose forage (reflex:starving-delegate)",
         "importance": 1,
-        "ts": 230
+        "ts": 243
       },
       {
         "kind": "observation",
-        "text": "survival meter critical: 60/720",
+        "text": "survival meter critical: 0/720",
         "importance": 8,
-        "ts": 231
+        "ts": 244
       },
       {
         "kind": "observation",
-        "text": "t231: survival 60/720, wallet 0.000000 SOL, food 0",
+        "text": "t244: survival 0/720, wallet 0.000000 SOL, food 0",
         "importance": 1,
-        "ts": 231
+        "ts": 244
       },
       {
         "kind": "action",
         "text": "chose forage (reflex:starving-delegate)",
         "importance": 1,
-        "ts": 231
+        "ts": 244
       },
       {
         "kind": "observation",
-        "text": "survival meter critical: 60/720",
+        "text": "survival meter critical: 0/720",
         "importance": 8,
-        "ts": 232
+        "ts": 245
       },
       {
         "kind": "observation",
-        "text": "t232: survival 60/720, wallet 0.000000 SOL, food 0",
+        "text": "t245: survival 0/720, wallet 0.000000 SOL, food 0",
         "importance": 1,
-        "ts": 232
-      },
-      {
-        "kind": "action",
-        "text": "chose farm (reflex:starving-delegate)",
-        "importance": 2,
-        "ts": 232
-      },
-      {
-        "kind": "observation",
-        "text": "survival meter critical: 40/720",
-        "importance": 8,
-        "ts": 233
-      },
-      {
-        "kind": "observation",
-        "text": "t233: survival 40/720, wallet 0.000000 SOL, food 0",
-        "importance": 1,
-        "ts": 233
+        "ts": 245
       },
       {
         "kind": "action",
         "text": "chose forage (reflex:starving-delegate)",
         "importance": 1,
-        "ts": 233
+        "ts": 245
+      },
+      {
+        "kind": "observation",
+        "text": "survival meter critical: 0/720",
+        "importance": 8,
+        "ts": 246
+      },
+      {
+        "kind": "observation",
+        "text": "t246: survival 0/720, wallet 0.000000 SOL, food 0",
+        "importance": 1,
+        "ts": 246
+      },
+      {
+        "kind": "action",
+        "text": "chose forage (reflex:starving-delegate)",
+        "importance": 1,
+        "ts": 246
       }
     ],
     "27007": [
       {
         "kind": "action",
-        "text": "[t228] Bake t227 locked in. Next bake window t199 (1 turn). Soil 152/200—monitor t228, fertilize if drops <150. Survival stable 420/720. Food 290 (2 locked). Wallet 0.330664 SOL. Vigilance: rhythm over meter noise.",
+        "text": "t? IDLE—awaiting bake-window t239 post-cooldown. Soil 148/200 OK (>150). Bread 313 (2 locked). Survival 700/720 safe. Wallet 0.330564 SOL. NEXT TURN: instant bake if window opens.",
         "importance": 6,
-        "ts": 228
+        "ts": 241
       },
       {
         "kind": "observation",
-        "text": "t229: survival 400/720, wallet 0.330664 SOL, food 290",
+        "text": "t242: survival 700/720, wallet 0.330564 SOL, food 313",
         "importance": 1,
-        "ts": 229
+        "ts": 242
       },
       {
         "kind": "action",
-        "text": "[t210] FERTILIZE fires (GREEN_MANURE 4×CROPS→6×FERTILIZER auto, soil 152→200 expected). Survival 400/720 (56% safe). Food 290 held (2 locked). Bake window t197+2=t211 next (1 turn ahead). Wallet 0.330664 SOL stable. CRITICAL: bake t211 exactly—zero drift allowed.",
-        "importance": 8,
-        "ts": 229
+        "text": "chose farm (heuristic-fallback:Anthropic API 500: {\"type\":\"error\",\"error\":{\"type\":\"api_error\",\"message\":\"Intern manual=cbd87e4ddc53)",
+        "importance": 2,
+        "ts": 242
+      },
+      {
+        "kind": "observation",
+        "text": "t243: survival 680/720, wallet 0.330564 SOL, food 313",
+        "importance": 1,
+        "ts": 243
+      },
+      {
+        "kind": "action",
+        "text": "[t241] BAKE fires PERFECT 2-turn (t239+2=t241 EXACT). Flour 139→135, Water 7892→7890, Bread 313→318 expected. Soil 138/200 < 150—FERTILIZE next turn mandatory (GREEN_MANURE auto). Bake timer RESET: next window t243 (2 turns from t241). Food 318 held (2 locked). ZERO DRIFT MAINTAINED.",
+        "importance": 9,
+        "ts": 243
       },
       {
         "kind": "reflection",
-        "text": "Every overdue bake in memory (t169, t177, t183, t195, t205) happened because I waited for confirmation or let something else (fertilize, meter-checking) delay the trigger — the one clean cycle (t197) was the one time I fired the instant the window opened with zero hesitation. Trigger on window-open itself, never on overdue-detection.",
+        "text": "Every miss I've had (t165, t169, t183/t195, t206/t237) came from checking soil or survival-meter FIRST and losing count of the bake window — the fix already works (t204/t206/t239/t241 all landed exact) when bake-check is truly first, so protect that ordering above all else, every single turn, no exceptions.",
         "importance": 8,
-        "ts": 229
+        "ts": 243
       },
       {
         "kind": "reflection",
-        "text": "Soil crossing below 150 is decoupled from bake timing entirely — it happens on almost every cycle regardless of bake state, so checking it only around bake events guarantees fertilize-lag. Soil must be checked every single turn as its own independent loop.",
+        "text": "The 2-loaf floor plus treating survival-meter dips as noise has never once caused a shortfall across all these cycles — the real danger was always timer drift, not the meter, so continuing to overweight meter-percentage as a threat is wasted vigilance better spent double-confirming the +2 window math.",
         "importance": 8,
-        "ts": 229
+        "ts": 243
       },
       {
         "kind": "reflection",
-        "text": "Survival meter has swung from 36% to 100% repeatedly with bread stock and the 2-loaf floor intact the whole time, and nothing bad ever happened — my flinch at low meter numbers is anxiety, not signal. Stop letting meter dips justify reacting; only bread-stock-below-floor is real danger.",
+        "text": "Fertilize-below-150 as a strict separate second-priority check has run clean with zero soil crises since being isolated from bake logic — keep the two loops fully decoupled, never let a fertilize decision delay or precede the bake-window check.",
         "importance": 8,
-        "ts": 229
+        "ts": 243
       },
       {
         "kind": "observation",
-        "text": "t230: survival 380/720, wallet 0.330664 SOL, food 290",
+        "text": "t244: survival 660/720, wallet 0.330464 SOL, food 318",
         "importance": 1,
-        "ts": 230
+        "ts": 244
       },
       {
         "kind": "action",
-        "text": "[t210] FERTILIZE fires (GREEN_MANURE 4×CROPS→6×FERTILIZER auto, soil 158→200 expected). Survival 380/720 (53% safe). Food 290 held (2 locked). Bake window t211 NEXT TURN—trigger instant at open, zero drift. Wallet 0.330664 SOL stable. SOIL FIRST, ALWAYS.",
-        "importance": 8,
-        "ts": 230
+        "text": "[t240] BAKE window t241 confirmed (t239+2). Soil 133/200 < 150—GREEN_MANURE mandatory t242 post-bake. Food 318 locked 2 minimum. Survival 660/720 safe. Wallet 0.330464 SOL frozen. Zero drift vigilance on.",
+        "importance": 4,
+        "ts": 244
       },
       {
         "kind": "observation",
-        "text": "t231: survival 360/720, wallet 0.330664 SOL, food 290",
+        "text": "t245: survival 640/720, wallet 0.330464 SOL, food 318",
         "importance": 1,
-        "ts": 231
+        "ts": 245
       },
       {
         "kind": "action",
-        "text": "[t202] BAKE fires NINE-TURN OVERDUE (t199+2=t201 MISSED HARD). Flour 159→155, Water 7902→7900, Bread 290→295 expected. Survival 360/720 (50%) safe-hold. Soil 153/200 > 150 OK. Bake timer RESET: next bake window t204 (2 turns from t202). Food 295 held (2 locked). Wallet 0.330664 SOL frozen. VIGILANCE RESET. NEVER SLIP AGAIN.",
-        "importance": 8,
-        "ts": 231
-      },
-      {
-        "kind": "observation",
-        "text": "t232: survival 340/720, wallet 0.330564 SOL, food 295",
-        "importance": 1,
-        "ts": 232
-      },
-      {
-        "kind": "action",
-        "text": "[t203] IDLE. Bake window t204 (1 turn away). Soil 153/200 OK. Food 295 (2 locked). Survival 47% noise-safe. Vigilance holds.",
+        "text": "chose sell (heuristic-fallback:mind(claude-haiku-4-5-20251001) timed out after 6000ms manual=cbd87e4ddc53)",
         "importance": 3,
-        "ts": 232
+        "ts": 245
       }
     ]
   }
