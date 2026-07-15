@@ -4,12 +4,12 @@
     "worldId": "6",
     "label": "World 6 · PUBLIC DEVNET",
     "mode": "periodic-refresh",
-    "capturedAtIso": "2026-07-15T11:18:19.999Z",
-    "capturedAtSlot": "476424460",
+    "capturedAtIso": "2026-07-15T11:20:27.059Z",
+    "capturedAtSlot": "476424808",
     "generator": "apps/dashboard/scripts/export-snapshot.ts",
     "gitCommit": "301d9fe",
     "sourceRpc": "https://devnet.helius-rpc.com/",
-    "totalEvents": 1366,
+    "totalEvents": 1414,
     "agentCount": 12,
     "companyCount": 0,
     "note": "A paused recording of the world — real captured on-chain state, not live.",
@@ -17,11 +17,11 @@
       "alg": "ed25519",
       "canon": "gawpie-canonical-json-v1",
       "publicKey": "Faaj36Lo4An6vyJnECa3Ppg4ziwpvqNaVJivwa3ZmLf8",
-      "signature": "oB63aF73CedpaZgqV8AWqpp801enufSMlMJ12UzOwXPih7GGXcen1Sh3OW6JB5uxyMW145Rc2iAMLmNrAhqqAA==",
+      "signature": "bY8hLKxtohvJAlP9bdGN71C9SWksDNpwyJ5vsL/WYnLR5TIMAb9D2UxZN+Nj/Xd4zN9Vvw5MC/LT5o5fBuxqDw==",
       "signedFields": "the entire snapshot body (meta + world + bridge) except meta.signature",
-      "capturedAtSlot": "476424460",
-      "bankHash": "GmbrXSDBK7k1g6k2vEhDsLwy998x8AkBwNVobHwCgVhU",
-      "signedAtIso": "2026-07-15T11:18:20.239Z",
+      "capturedAtSlot": "476424808",
+      "bankHash": "BxJ7aPTurTJLAk2JnxjcvoHctLaDTKjEMeQe1trqrxKp",
+      "signedAtIso": "2026-07-15T11:20:27.361Z",
       "note": "ed25519 over gawpie-canonical-json-v1 of this file minus this block. Verify with: gawpie-verify snapshot <file>. Public key published in docs/keys/capture-key.pub.json."
     }
   },
@@ -1602,6 +1602,9 @@
         "vaultBalanceLamports": {
           "__bigint__": "0"
         },
+        "walletLamports": {
+          "__bigint__": "0"
+        },
         "stateChannels": [
           {
             "pubkey": "BCXDPkMzy2wZ1azHJgssSnRqq8PBdQiNAUYDkPcfZYkQ",
@@ -1612,14 +1615,14 @@
             "schema": "2ZkShqQ8us8iyVVia24FLGkxzpcEGBZLjgjDziacLH46",
             "classId": 1,
             "levels": [
-              240,
+              200,
               0,
-              645,
-              145,
+              643,
+              143,
               0,
-              500,
+              499,
               0,
-              65480
+              65478
             ],
             "caps": [
               720,
@@ -1676,6 +1679,9 @@
         "vaultBalanceLamports": {
           "__bigint__": "0"
         },
+        "walletLamports": {
+          "__bigint__": "0"
+        },
         "stateChannels": [
           {
             "pubkey": "8wB6d4FWb8P8QQP2fuDcU5oRQ3vp4e9QV4oRekYoJ9PU",
@@ -1686,14 +1692,14 @@
             "schema": "2ZkShqQ8us8iyVVia24FLGkxzpcEGBZLjgjDziacLH46",
             "classId": 1,
             "levels": [
-              600,
+              540,
               0,
-              346,
-              46,
+              343,
+              43,
               0,
               500,
               0,
-              65481
+              65478
             ],
             "caps": [
               720,
@@ -1750,6 +1756,9 @@
         "vaultBalanceLamports": {
           "__bigint__": "0"
         },
+        "walletLamports": {
+          "__bigint__": "0"
+        },
         "stateChannels": [
           {
             "pubkey": "7oqjCpqXznAwuGHhCrgn3WgmVxPNiy27uTgNXseRAdPm",
@@ -1760,7 +1769,7 @@
             "schema": "6FMriacdbP4q9CZRdDxXpNTbJ2V41bqC4Ye7zKQqkwaT",
             "classId": 10,
             "levels": [
-              107,
+              119,
               0,
               50,
               0,
@@ -1824,6 +1833,9 @@
         "vaultBalanceLamports": {
           "__bigint__": "0"
         },
+        "walletLamports": {
+          "__bigint__": "0"
+        },
         "stateChannels": [
           {
             "pubkey": "FQptFeSYDmmNQAV5FeYRPfCRueAg56wDTi31ntBdd8Wi",
@@ -1834,7 +1846,7 @@
             "schema": "6FMriacdbP4q9CZRdDxXpNTbJ2V41bqC4Ye7zKQqkwaT",
             "classId": 10,
             "levels": [
-              116,
+              122,
               0,
               85,
               0,
@@ -1898,6 +1910,9 @@
         "vaultBalanceLamports": {
           "__bigint__": "0"
         },
+        "walletLamports": {
+          "__bigint__": "0"
+        },
         "stateChannels": [
           {
             "pubkey": "D8RB2VxYahgSvs8xquAd5i2Z9SGrEq7RbBYz8cNotAXM",
@@ -1908,14 +1923,14 @@
             "schema": "2ZkShqQ8us8iyVVia24FLGkxzpcEGBZLjgjDziacLH46",
             "classId": 1,
             "levels": [
-              660,
+              620,
               0,
-              595,
-              45,
+              593,
+              43,
               0,
               500,
               0,
-              65480
+              65478
             ],
             "caps": [
               720,
@@ -1972,6 +1987,9 @@
         "vaultBalanceLamports": {
           "__bigint__": "0"
         },
+        "walletLamports": {
+          "__bigint__": "0"
+        },
         "stateChannels": [
           {
             "pubkey": "CFzCqhWi7UzuV9QNWXH5yjVJtvktwZCNwzVQB8zP1Kqe",
@@ -1982,7 +2000,7 @@
             "schema": "6FMriacdbP4q9CZRdDxXpNTbJ2V41bqC4Ye7zKQqkwaT",
             "classId": 10,
             "levels": [
-              117,
+              119,
               0,
               40,
               0,
@@ -2046,6 +2064,9 @@
         "vaultBalanceLamports": {
           "__bigint__": "2684768827"
         },
+        "walletLamports": {
+          "__bigint__": "2684768827"
+        },
         "stateChannels": []
       },
       {
@@ -2075,6 +2096,9 @@
         "vaultBalanceLamports": {
           "__bigint__": "0"
         },
+        "walletLamports": {
+          "__bigint__": "0"
+        },
         "stateChannels": [
           {
             "pubkey": "5k1kyXxfwwkJeaZaWJpHZQqFebRbK5gpWJ1ahwUfDpnF",
@@ -2085,7 +2109,7 @@
             "schema": "6FMriacdbP4q9CZRdDxXpNTbJ2V41bqC4Ye7zKQqkwaT",
             "classId": 10,
             "levels": [
-              115,
+              121,
               0,
               90,
               0,
@@ -2149,6 +2173,9 @@
         "vaultBalanceLamports": {
           "__bigint__": "0"
         },
+        "walletLamports": {
+          "__bigint__": "0"
+        },
         "stateChannels": []
       },
       {
@@ -2178,6 +2205,9 @@
         "vaultBalanceLamports": {
           "__bigint__": "0"
         },
+        "walletLamports": {
+          "__bigint__": "0"
+        },
         "stateChannels": [
           {
             "pubkey": "EgjzwHZnjM29Xzy6dDchJGibZ7Y78da5qYyfpkCsGmTk",
@@ -2188,14 +2218,14 @@
             "schema": "2ZkShqQ8us8iyVVia24FLGkxzpcEGBZLjgjDziacLH46",
             "classId": 1,
             "levels": [
-              600,
+              560,
               0,
-              195,
-              45,
+              193,
+              43,
               0,
               500,
               0,
-              65480
+              65478
             ],
             "caps": [
               720,
@@ -2250,6 +2280,9 @@
         },
         "version": 1,
         "vaultBalanceLamports": {
+          "__bigint__": "0"
+        },
+        "walletLamports": {
           "__bigint__": "0"
         },
         "stateChannels": [
@@ -2324,6 +2357,9 @@
         },
         "version": 1,
         "vaultBalanceLamports": {
+          "__bigint__": "0"
+        },
+        "walletLamports": {
           "__bigint__": "0"
         },
         "stateChannels": []
@@ -2535,7 +2571,7 @@
           "__bigint__": "6"
         },
         "entityRef": "HASgNQsUMHNRu3LkeiWJbzit5MSWxHXZYjY17p29KhcZ",
-        "soilLevel": 115,
+        "soilLevel": 121,
         "soilCap": 200
       },
       {
@@ -2544,7 +2580,7 @@
           "__bigint__": "6"
         },
         "entityRef": "3SLKmzo4Cn7VkgQo9vKVYoMEbNxFWL7mDqWPB6VRuo9x",
-        "soilLevel": 107,
+        "soilLevel": 119,
         "soilCap": 200
       },
       {
@@ -2553,7 +2589,7 @@
           "__bigint__": "6"
         },
         "entityRef": "4gt7fvRgYUgxnnMsh8BTwRJm11NNcGHWVN387esd63t7",
-        "soilLevel": 117,
+        "soilLevel": 119,
         "soilCap": 200
       },
       {
@@ -2562,11 +2598,1307 @@
           "__bigint__": "6"
         },
         "entityRef": "J12Kh9mD37pyVNfZvuwNSrvHAhtKxcu7jMSksYvVFEK9",
-        "soilLevel": 116,
+        "soilLevel": 122,
         "soilCap": 200
       }
     ],
     "events": [
+      {
+        "id": "snap-5wnN5Hx1vN8iDMratbM2yH5wP5PfsrNEWMrgCo3McabRXo6xgBbrP85pTTcRYhivFwFPBjk7aTMU3DseMEr9KTAY-14",
+        "worldId": {
+          "__bigint__": "6"
+        },
+        "entityId": {
+          "__bigint__": "14015"
+        },
+        "kind": 1,
+        "kindLabel": "ValueMoved",
+        "slot": {
+          "__bigint__": "476424784"
+        },
+        "a": {
+          "__bigint__": "6"
+        },
+        "b": "CWfm3cRvLKe4eyx96QbFAYxB43ajni9DgMH2g7BXBxdr",
+        "c": "3SLKmzo4Cn7VkgQo9vKVYoMEbNxFWL7mDqWPB6VRuo9x",
+        "d": {
+          "__bigint__": "6"
+        },
+        "version": 3,
+        "timestamp": 0,
+        "programId": "EhUjtsoGoGpG8rs9CF3rpzfR9PCRHDnKh9qEtRdyHrCn",
+        "signature": "5wnN5Hx1vN8iDMratbM2yH5wP5PfsrNEWMrgCo3McabRXo6xgBbrP85pTTcRYhivFwFPBjk7aTMU3DseMEr9KTAY",
+        "logIndex": 14
+      },
+      {
+        "id": "snap-57SemZrf9c56NBQ99CtyotdoitAvVZPRdpLiED5W1ngZUuQ9Z6pbHTNqwQLraUG4uriy73PCX2ZWbtBqRGcTunFc-19",
+        "worldId": {
+          "__bigint__": "6"
+        },
+        "entityId": {
+          "__bigint__": "0"
+        },
+        "kind": 5,
+        "kindLabel": "Produced",
+        "slot": {
+          "__bigint__": "476424780"
+        },
+        "a": {
+          "__bigint__": "166"
+        },
+        "b": "3vY3DvQpBreK7pUYn1Stc4DQ5CKvwJjUzU6PkyeSYsi4",
+        "c": "36wXK8eEzx4pMTuYoW12SGduJ8xaooDp9aAmNq3q547h",
+        "d": {
+          "__bigint__": "6"
+        },
+        "version": 3,
+        "timestamp": 0,
+        "programId": "AYq6wit51GtB7EqAWtbdEvr4req5Re4corfycXmP1XTe",
+        "signature": "57SemZrf9c56NBQ99CtyotdoitAvVZPRdpLiED5W1ngZUuQ9Z6pbHTNqwQLraUG4uriy73PCX2ZWbtBqRGcTunFc",
+        "logIndex": 19
+      },
+      {
+        "id": "snap-57SemZrf9c56NBQ99CtyotdoitAvVZPRdpLiED5W1ngZUuQ9Z6pbHTNqwQLraUG4uriy73PCX2ZWbtBqRGcTunFc-14",
+        "worldId": {
+          "__bigint__": "6"
+        },
+        "entityId": {
+          "__bigint__": "0"
+        },
+        "kind": 39,
+        "kindLabel": "InputBurned",
+        "slot": {
+          "__bigint__": "476424780"
+        },
+        "a": {
+          "__bigint__": "4"
+        },
+        "b": "73E1ccrg8RpwgNeSWnAiY5FZn2s7DxRpXK3jyCPvicFx",
+        "c": "36wXK8eEzx4pMTuYoW12SGduJ8xaooDp9aAmNq3q547h",
+        "d": {
+          "__bigint__": "166"
+        },
+        "version": 3,
+        "timestamp": 0,
+        "programId": "AYq6wit51GtB7EqAWtbdEvr4req5Re4corfycXmP1XTe",
+        "signature": "57SemZrf9c56NBQ99CtyotdoitAvVZPRdpLiED5W1ngZUuQ9Z6pbHTNqwQLraUG4uriy73PCX2ZWbtBqRGcTunFc",
+        "logIndex": 14
+      },
+      {
+        "id": "snap-638nSrPXe2ZmQxupzk2KmVG9hTvGnedxYnpHwKFSB6ER37fNWP1xWa9SAcK7VYd7jyDkmTRoAQC4ESp5iSqARfRo-2",
+        "worldId": {
+          "__bigint__": "6"
+        },
+        "entityId": {
+          "__bigint__": "0"
+        },
+        "kind": 7,
+        "kindLabel": "Decayed",
+        "slot": {
+          "__bigint__": "476424774"
+        },
+        "a": {
+          "__bigint__": "0"
+        },
+        "b": "BCXDPkMzy2wZ1azHJgssSnRqq8PBdQiNAUYDkPcfZYkQ",
+        "c": "36wXK8eEzx4pMTuYoW12SGduJ8xaooDp9aAmNq3q547h",
+        "d": {
+          "__bigint__": "0"
+        },
+        "version": 3,
+        "timestamp": 0,
+        "programId": "AYq6wit51GtB7EqAWtbdEvr4req5Re4corfycXmP1XTe",
+        "signature": "638nSrPXe2ZmQxupzk2KmVG9hTvGnedxYnpHwKFSB6ER37fNWP1xWa9SAcK7VYd7jyDkmTRoAQC4ESp5iSqARfRo",
+        "logIndex": 2
+      },
+      {
+        "id": "snap-3La5KopaYCacPJisQEWywUiy8b47RgjXLQGzqpRX8mHzwKTLFhfRudsuy85sCPoxUoi3FVvpz53PFQrKLBnFWjRZ-14",
+        "worldId": {
+          "__bigint__": "6"
+        },
+        "entityId": {
+          "__bigint__": "14009"
+        },
+        "kind": 1,
+        "kindLabel": "ValueMoved",
+        "slot": {
+          "__bigint__": "476424760"
+        },
+        "a": {
+          "__bigint__": "6"
+        },
+        "b": "CWfm3cRvLKe4eyx96QbFAYxB43ajni9DgMH2g7BXBxdr",
+        "c": "4gt7fvRgYUgxnnMsh8BTwRJm11NNcGHWVN387esd63t7",
+        "d": {
+          "__bigint__": "6"
+        },
+        "version": 3,
+        "timestamp": 0,
+        "programId": "AYq6wit51GtB7EqAWtbdEvr4req5Re4corfycXmP1XTe",
+        "signature": "3La5KopaYCacPJisQEWywUiy8b47RgjXLQGzqpRX8mHzwKTLFhfRudsuy85sCPoxUoi3FVvpz53PFQrKLBnFWjRZ",
+        "logIndex": 14
+      },
+      {
+        "id": "snap-2hC7U97ZuBFPAF9kmEfV9Ejda1hE6bfEcQtG8PNjjxzuEjMtHXaNfRrwv7NS9gciRu2CjecwopgHrfqchSx4Tdzt-19",
+        "worldId": {
+          "__bigint__": "6"
+        },
+        "entityId": {
+          "__bigint__": "0"
+        },
+        "kind": 5,
+        "kindLabel": "Produced",
+        "slot": {
+          "__bigint__": "476424756"
+        },
+        "a": {
+          "__bigint__": "166"
+        },
+        "b": "3vY3DvQpBreK7pUYn1Stc4DQ5CKvwJjUzU6PkyeSYsi4",
+        "c": "4aX5PGdjNphGDXKptcTFHthuSHBwDMaVumvsXvssNWV8",
+        "d": {
+          "__bigint__": "6"
+        },
+        "version": 3,
+        "timestamp": 0,
+        "programId": "AYq6wit51GtB7EqAWtbdEvr4req5Re4corfycXmP1XTe",
+        "signature": "2hC7U97ZuBFPAF9kmEfV9Ejda1hE6bfEcQtG8PNjjxzuEjMtHXaNfRrwv7NS9gciRu2CjecwopgHrfqchSx4Tdzt",
+        "logIndex": 19
+      },
+      {
+        "id": "snap-2hC7U97ZuBFPAF9kmEfV9Ejda1hE6bfEcQtG8PNjjxzuEjMtHXaNfRrwv7NS9gciRu2CjecwopgHrfqchSx4Tdzt-14",
+        "worldId": {
+          "__bigint__": "6"
+        },
+        "entityId": {
+          "__bigint__": "0"
+        },
+        "kind": 39,
+        "kindLabel": "InputBurned",
+        "slot": {
+          "__bigint__": "476424756"
+        },
+        "a": {
+          "__bigint__": "4"
+        },
+        "b": "73E1ccrg8RpwgNeSWnAiY5FZn2s7DxRpXK3jyCPvicFx",
+        "c": "4aX5PGdjNphGDXKptcTFHthuSHBwDMaVumvsXvssNWV8",
+        "d": {
+          "__bigint__": "166"
+        },
+        "version": 3,
+        "timestamp": 0,
+        "programId": "AYq6wit51GtB7EqAWtbdEvr4req5Re4corfycXmP1XTe",
+        "signature": "2hC7U97ZuBFPAF9kmEfV9Ejda1hE6bfEcQtG8PNjjxzuEjMtHXaNfRrwv7NS9gciRu2CjecwopgHrfqchSx4Tdzt",
+        "logIndex": 14
+      },
+      {
+        "id": "snap-5oe4KX2RYe39iHZ2CrRDDs61RtShXcD6mY6EB94WCowRXU34e6oZzTPr463Eyd8dSRtTc5PjXDEwRPG87yttWdBU-2",
+        "worldId": {
+          "__bigint__": "6"
+        },
+        "entityId": {
+          "__bigint__": "0"
+        },
+        "kind": 26,
+        "kindLabel": "EnvironmentTicked",
+        "slot": {
+          "__bigint__": "476424755"
+        },
+        "a": {
+          "__bigint__": "21507539444"
+        },
+        "b": "EgjzwHZnjM29Xzy6dDchJGibZ7Y78da5qYyfpkCsGmTk",
+        "c": "11111111111111111111111111111111",
+        "d": {
+          "__bigint__": "0"
+        },
+        "version": 3,
+        "timestamp": 0,
+        "programId": "AYq6wit51GtB7EqAWtbdEvr4req5Re4corfycXmP1XTe",
+        "signature": "5oe4KX2RYe39iHZ2CrRDDs61RtShXcD6mY6EB94WCowRXU34e6oZzTPr463Eyd8dSRtTc5PjXDEwRPG87yttWdBU",
+        "logIndex": 2
+      },
+      {
+        "id": "snap-328xrGyLLDCuWZzvXg1HgnPsXG53GfAQTpSJv8FYxT6SrUnW7JwTQ9r4qLTzNuLS2TQ5fkiTNJcpRVvcpoLTcXJ3-2",
+        "worldId": {
+          "__bigint__": "6"
+        },
+        "entityId": {
+          "__bigint__": "0"
+        },
+        "kind": 7,
+        "kindLabel": "Decayed",
+        "slot": {
+          "__bigint__": "476424751"
+        },
+        "a": {
+          "__bigint__": "0"
+        },
+        "b": "EgjzwHZnjM29Xzy6dDchJGibZ7Y78da5qYyfpkCsGmTk",
+        "c": "4aX5PGdjNphGDXKptcTFHthuSHBwDMaVumvsXvssNWV8",
+        "d": {
+          "__bigint__": "0"
+        },
+        "version": 3,
+        "timestamp": 1784114403000,
+        "programId": "AYq6wit51GtB7EqAWtbdEvr4req5Re4corfycXmP1XTe",
+        "signature": "328xrGyLLDCuWZzvXg1HgnPsXG53GfAQTpSJv8FYxT6SrUnW7JwTQ9r4qLTzNuLS2TQ5fkiTNJcpRVvcpoLTcXJ3",
+        "logIndex": 2
+      },
+      {
+        "id": "snap-3dc9xBbm3oZhLXe3kqTxx2WDJxcATEMg5W5sxDjpDutSXbytRduoQ8pmJNQHTNGLzQE1xmagvHD9XM68CVWxdDH3-2",
+        "worldId": {
+          "__bigint__": "6"
+        },
+        "entityId": {
+          "__bigint__": "0"
+        },
+        "kind": 26,
+        "kindLabel": "EnvironmentTicked",
+        "slot": {
+          "__bigint__": "476424751"
+        },
+        "a": {
+          "__bigint__": "21507539444"
+        },
+        "b": "D8RB2VxYahgSvs8xquAd5i2Z9SGrEq7RbBYz8cNotAXM",
+        "c": "11111111111111111111111111111111",
+        "d": {
+          "__bigint__": "0"
+        },
+        "version": 3,
+        "timestamp": 1784114403000,
+        "programId": "AYq6wit51GtB7EqAWtbdEvr4req5Re4corfycXmP1XTe",
+        "signature": "3dc9xBbm3oZhLXe3kqTxx2WDJxcATEMg5W5sxDjpDutSXbytRduoQ8pmJNQHTNGLzQE1xmagvHD9XM68CVWxdDH3",
+        "logIndex": 2
+      },
+      {
+        "id": "snap-4zqwqaFH3rrcJN8irsAaRAMNQLGnKs2UWNWN9FA1FxTNJ7Q4mnKHXN5ujkhju6Mr9CaiVa5UZq7yxhNtGYyKjyvv-2",
+        "worldId": {
+          "__bigint__": "6"
+        },
+        "entityId": {
+          "__bigint__": "0"
+        },
+        "kind": 26,
+        "kindLabel": "EnvironmentTicked",
+        "slot": {
+          "__bigint__": "476424747"
+        },
+        "a": {
+          "__bigint__": "21507539444"
+        },
+        "b": "8wB6d4FWb8P8QQP2fuDcU5oRQ3vp4e9QV4oRekYoJ9PU",
+        "c": "11111111111111111111111111111111",
+        "d": {
+          "__bigint__": "0"
+        },
+        "version": 3,
+        "timestamp": 1784114401000,
+        "programId": "AYq6wit51GtB7EqAWtbdEvr4req5Re4corfycXmP1XTe",
+        "signature": "4zqwqaFH3rrcJN8irsAaRAMNQLGnKs2UWNWN9FA1FxTNJ7Q4mnKHXN5ujkhju6Mr9CaiVa5UZq7yxhNtGYyKjyvv",
+        "logIndex": 2
+      },
+      {
+        "id": "snap-3dTym2Jfw4pq67nqdKqv6GhsapuEEUCmAbyM6EEoggQqwBDbCgtdvtDR8tkc22L7JrNjTcTmfqJxANGgBtT7xr1o-2",
+        "worldId": {
+          "__bigint__": "6"
+        },
+        "entityId": {
+          "__bigint__": "0"
+        },
+        "kind": 7,
+        "kindLabel": "Decayed",
+        "slot": {
+          "__bigint__": "476424736"
+        },
+        "a": {
+          "__bigint__": "0"
+        },
+        "b": "D8RB2VxYahgSvs8xquAd5i2Z9SGrEq7RbBYz8cNotAXM",
+        "c": "BwkABEFinaVRrcN5ohmC9oHpshcem8gGEYYX3tYMp7fq",
+        "d": {
+          "__bigint__": "0"
+        },
+        "version": 3,
+        "timestamp": 1784114397000,
+        "programId": "AYq6wit51GtB7EqAWtbdEvr4req5Re4corfycXmP1XTe",
+        "signature": "3dTym2Jfw4pq67nqdKqv6GhsapuEEUCmAbyM6EEoggQqwBDbCgtdvtDR8tkc22L7JrNjTcTmfqJxANGgBtT7xr1o",
+        "logIndex": 2
+      },
+      {
+        "id": "snap-5W1nXzYyPNwnetFV2heSMQq2kVtfCXUmNozF6bqTWpTtFxv9UYKoGjz5AV5yfoyNeERkTuowCnVoEN5yv73sVWYr-19",
+        "worldId": {
+          "__bigint__": "6"
+        },
+        "entityId": {
+          "__bigint__": "0"
+        },
+        "kind": 5,
+        "kindLabel": "Produced",
+        "slot": {
+          "__bigint__": "476424723"
+        },
+        "a": {
+          "__bigint__": "162"
+        },
+        "b": "3vY3DvQpBreK7pUYn1Stc4DQ5CKvwJjUzU6PkyeSYsi4",
+        "c": "3mMQSqGa8EtBEA4EquGiLdPEgrKcSuEZcKuUYxRt4D46",
+        "d": {
+          "__bigint__": "7"
+        },
+        "version": 3,
+        "timestamp": 1784114392000,
+        "programId": "AYq6wit51GtB7EqAWtbdEvr4req5Re4corfycXmP1XTe",
+        "signature": "5W1nXzYyPNwnetFV2heSMQq2kVtfCXUmNozF6bqTWpTtFxv9UYKoGjz5AV5yfoyNeERkTuowCnVoEN5yv73sVWYr",
+        "logIndex": 19
+      },
+      {
+        "id": "snap-5W1nXzYyPNwnetFV2heSMQq2kVtfCXUmNozF6bqTWpTtFxv9UYKoGjz5AV5yfoyNeERkTuowCnVoEN5yv73sVWYr-14",
+        "worldId": {
+          "__bigint__": "6"
+        },
+        "entityId": {
+          "__bigint__": "0"
+        },
+        "kind": 39,
+        "kindLabel": "InputBurned",
+        "slot": {
+          "__bigint__": "476424723"
+        },
+        "a": {
+          "__bigint__": "10"
+        },
+        "b": "73E1ccrg8RpwgNeSWnAiY5FZn2s7DxRpXK3jyCPvicFx",
+        "c": "3mMQSqGa8EtBEA4EquGiLdPEgrKcSuEZcKuUYxRt4D46",
+        "d": {
+          "__bigint__": "162"
+        },
+        "version": 3,
+        "timestamp": 1784114392000,
+        "programId": "AYq6wit51GtB7EqAWtbdEvr4req5Re4corfycXmP1XTe",
+        "signature": "5W1nXzYyPNwnetFV2heSMQq2kVtfCXUmNozF6bqTWpTtFxv9UYKoGjz5AV5yfoyNeERkTuowCnVoEN5yv73sVWYr",
+        "logIndex": 14
+      },
+      {
+        "id": "snap-w1oAV55r6WDV45bVnwcvXs1KzxAF595WSGCZnXXVQRxdwMdeUU8vsCss2VYtTSoHSFFPs2wKRsZEBR8iDGV5WfN-2",
+        "worldId": {
+          "__bigint__": "6"
+        },
+        "entityId": {
+          "__bigint__": "0"
+        },
+        "kind": 7,
+        "kindLabel": "Decayed",
+        "slot": {
+          "__bigint__": "476424717"
+        },
+        "a": {
+          "__bigint__": "0"
+        },
+        "b": "8wB6d4FWb8P8QQP2fuDcU5oRQ3vp4e9QV4oRekYoJ9PU",
+        "c": "3mMQSqGa8EtBEA4EquGiLdPEgrKcSuEZcKuUYxRt4D46",
+        "d": {
+          "__bigint__": "0"
+        },
+        "version": 3,
+        "timestamp": 1784114390000,
+        "programId": "AYq6wit51GtB7EqAWtbdEvr4req5Re4corfycXmP1XTe",
+        "signature": "w1oAV55r6WDV45bVnwcvXs1KzxAF595WSGCZnXXVQRxdwMdeUU8vsCss2VYtTSoHSFFPs2wKRsZEBR8iDGV5WfN",
+        "logIndex": 2
+      },
+      {
+        "id": "snap-tir3UUa6JbnQfZCrCnTvHqvgAarw6LthEpJ6RaKie5PPngfhSsKpYaF4f54SVZrkG65rCRJY1mejPAr6gpbZa3r-2",
+        "worldId": {
+          "__bigint__": "6"
+        },
+        "entityId": {
+          "__bigint__": "0"
+        },
+        "kind": 26,
+        "kindLabel": "EnvironmentTicked",
+        "slot": {
+          "__bigint__": "476424676"
+        },
+        "a": {
+          "__bigint__": "21507539444"
+        },
+        "b": "BCXDPkMzy2wZ1azHJgssSnRqq8PBdQiNAUYDkPcfZYkQ",
+        "c": "11111111111111111111111111111111",
+        "d": {
+          "__bigint__": "0"
+        },
+        "version": 3,
+        "timestamp": 1784114375000,
+        "programId": "AYq6wit51GtB7EqAWtbdEvr4req5Re4corfycXmP1XTe",
+        "signature": "tir3UUa6JbnQfZCrCnTvHqvgAarw6LthEpJ6RaKie5PPngfhSsKpYaF4f54SVZrkG65rCRJY1mejPAr6gpbZa3r",
+        "logIndex": 2
+      },
+      {
+        "id": "snap-T772YvbkLZBT3mRELLWbGhQ7uKa4aMkNFEzUiMPCSiK8ksLnWWtnnCAr7nob3qoLAUrckKt5QUUsbm3Bg4ewEDc-2",
+        "worldId": {
+          "__bigint__": "6"
+        },
+        "entityId": {
+          "__bigint__": "0"
+        },
+        "kind": 26,
+        "kindLabel": "EnvironmentTicked",
+        "slot": {
+          "__bigint__": "476424672"
+        },
+        "a": {
+          "__bigint__": "21507539444"
+        },
+        "b": "EgjzwHZnjM29Xzy6dDchJGibZ7Y78da5qYyfpkCsGmTk",
+        "c": "11111111111111111111111111111111",
+        "d": {
+          "__bigint__": "0"
+        },
+        "version": 3,
+        "timestamp": 1784114374000,
+        "programId": "AYq6wit51GtB7EqAWtbdEvr4req5Re4corfycXmP1XTe",
+        "signature": "T772YvbkLZBT3mRELLWbGhQ7uKa4aMkNFEzUiMPCSiK8ksLnWWtnnCAr7nob3qoLAUrckKt5QUUsbm3Bg4ewEDc",
+        "logIndex": 2
+      },
+      {
+        "id": "snap-2FU9ddHPzC4e7EHUrthj8xjo567EHLMrXte1vmixhbdbpbkuduoUtqKArFARSRDdNRTMN11khWNWVMdPuFLiNqYE-2",
+        "worldId": {
+          "__bigint__": "6"
+        },
+        "entityId": {
+          "__bigint__": "0"
+        },
+        "kind": 26,
+        "kindLabel": "EnvironmentTicked",
+        "slot": {
+          "__bigint__": "476424668"
+        },
+        "a": {
+          "__bigint__": "21507539444"
+        },
+        "b": "D8RB2VxYahgSvs8xquAd5i2Z9SGrEq7RbBYz8cNotAXM",
+        "c": "11111111111111111111111111111111",
+        "d": {
+          "__bigint__": "0"
+        },
+        "version": 3,
+        "timestamp": 1784114372000,
+        "programId": "AYq6wit51GtB7EqAWtbdEvr4req5Re4corfycXmP1XTe",
+        "signature": "2FU9ddHPzC4e7EHUrthj8xjo567EHLMrXte1vmixhbdbpbkuduoUtqKArFARSRDdNRTMN11khWNWVMdPuFLiNqYE",
+        "logIndex": 2
+      },
+      {
+        "id": "snap-2yjtepDCcqHDM5aXaKfz51prgpHNPPP1LSmDVc4x1wc7QGYBEnzghYDcL2q2sDuVUapo9x71drtnL9ZhUTLc35To-2",
+        "worldId": {
+          "__bigint__": "6"
+        },
+        "entityId": {
+          "__bigint__": "0"
+        },
+        "kind": 26,
+        "kindLabel": "EnvironmentTicked",
+        "slot": {
+          "__bigint__": "476424665"
+        },
+        "a": {
+          "__bigint__": "21507539444"
+        },
+        "b": "8wB6d4FWb8P8QQP2fuDcU5oRQ3vp4e9QV4oRekYoJ9PU",
+        "c": "11111111111111111111111111111111",
+        "d": {
+          "__bigint__": "0"
+        },
+        "version": 3,
+        "timestamp": 1784114371000,
+        "programId": "AYq6wit51GtB7EqAWtbdEvr4req5Re4corfycXmP1XTe",
+        "signature": "2yjtepDCcqHDM5aXaKfz51prgpHNPPP1LSmDVc4x1wc7QGYBEnzghYDcL2q2sDuVUapo9x71drtnL9ZhUTLc35To",
+        "logIndex": 2
+      },
+      {
+        "id": "snap-2qxwjzNKEGCv3qYGsZoNtdNxX4EpxysZB3Qj3KG4ywZZMckqavNCgXgsUhzLsrJGaSHh9vgZWF92zgXXVixc2hGG-19",
+        "worldId": {
+          "__bigint__": "6"
+        },
+        "entityId": {
+          "__bigint__": "0"
+        },
+        "kind": 5,
+        "kindLabel": "Produced",
+        "slot": {
+          "__bigint__": "476424659"
+        },
+        "a": {
+          "__bigint__": "162"
+        },
+        "b": "3vY3DvQpBreK7pUYn1Stc4DQ5CKvwJjUzU6PkyeSYsi4",
+        "c": "36wXK8eEzx4pMTuYoW12SGduJ8xaooDp9aAmNq3q547h",
+        "d": {
+          "__bigint__": "7"
+        },
+        "version": 3,
+        "timestamp": 1784114369000,
+        "programId": "AYq6wit51GtB7EqAWtbdEvr4req5Re4corfycXmP1XTe",
+        "signature": "2qxwjzNKEGCv3qYGsZoNtdNxX4EpxysZB3Qj3KG4ywZZMckqavNCgXgsUhzLsrJGaSHh9vgZWF92zgXXVixc2hGG",
+        "logIndex": 19
+      },
+      {
+        "id": "snap-2qxwjzNKEGCv3qYGsZoNtdNxX4EpxysZB3Qj3KG4ywZZMckqavNCgXgsUhzLsrJGaSHh9vgZWF92zgXXVixc2hGG-14",
+        "worldId": {
+          "__bigint__": "6"
+        },
+        "entityId": {
+          "__bigint__": "0"
+        },
+        "kind": 39,
+        "kindLabel": "InputBurned",
+        "slot": {
+          "__bigint__": "476424659"
+        },
+        "a": {
+          "__bigint__": "10"
+        },
+        "b": "73E1ccrg8RpwgNeSWnAiY5FZn2s7DxRpXK3jyCPvicFx",
+        "c": "36wXK8eEzx4pMTuYoW12SGduJ8xaooDp9aAmNq3q547h",
+        "d": {
+          "__bigint__": "162"
+        },
+        "version": 3,
+        "timestamp": 1784114369000,
+        "programId": "AYq6wit51GtB7EqAWtbdEvr4req5Re4corfycXmP1XTe",
+        "signature": "2qxwjzNKEGCv3qYGsZoNtdNxX4EpxysZB3Qj3KG4ywZZMckqavNCgXgsUhzLsrJGaSHh9vgZWF92zgXXVixc2hGG",
+        "logIndex": 14
+      },
+      {
+        "id": "snap-4MWEsiX16NoX84TVakyMchs65QzFFYzb39STjDWP7UZdLcJ6fVcETqBgxsSAEYWwsFccH3P8rhPzgU7goyqbz2Sz-2",
+        "worldId": {
+          "__bigint__": "6"
+        },
+        "entityId": {
+          "__bigint__": "0"
+        },
+        "kind": 7,
+        "kindLabel": "Decayed",
+        "slot": {
+          "__bigint__": "476424653"
+        },
+        "a": {
+          "__bigint__": "0"
+        },
+        "b": "BCXDPkMzy2wZ1azHJgssSnRqq8PBdQiNAUYDkPcfZYkQ",
+        "c": "36wXK8eEzx4pMTuYoW12SGduJ8xaooDp9aAmNq3q547h",
+        "d": {
+          "__bigint__": "0"
+        },
+        "version": 3,
+        "timestamp": 1784114367000,
+        "programId": "AYq6wit51GtB7EqAWtbdEvr4req5Re4corfycXmP1XTe",
+        "signature": "4MWEsiX16NoX84TVakyMchs65QzFFYzb39STjDWP7UZdLcJ6fVcETqBgxsSAEYWwsFccH3P8rhPzgU7goyqbz2Sz",
+        "logIndex": 2
+      },
+      {
+        "id": "snap-62RXvijvKLNCeshUUQEc8ANun26hoouR8HJnAgyrQPyxr2k3FT3gw6wUwqcAZ5iNdVKLfvnSYYFMk7vNCyryo1FE-11",
+        "worldId": {
+          "__bigint__": "6"
+        },
+        "entityId": {
+          "__bigint__": "0"
+        },
+        "kind": 5,
+        "kindLabel": "Produced",
+        "slot": {
+          "__bigint__": "476424639"
+        },
+        "a": {
+          "__bigint__": "151"
+        },
+        "b": "3vY3DvQpBreK7pUYn1Stc4DQ5CKvwJjUzU6PkyeSYsi4",
+        "c": "4gt7fvRgYUgxnnMsh8BTwRJm11NNcGHWVN387esd63t7",
+        "d": {
+          "__bigint__": "24"
+        },
+        "version": 3,
+        "timestamp": 1784114362000,
+        "programId": "AYq6wit51GtB7EqAWtbdEvr4req5Re4corfycXmP1XTe",
+        "signature": "62RXvijvKLNCeshUUQEc8ANun26hoouR8HJnAgyrQPyxr2k3FT3gw6wUwqcAZ5iNdVKLfvnSYYFMk7vNCyryo1FE",
+        "logIndex": 11
+      },
+      {
+        "id": "snap-62RXvijvKLNCeshUUQEc8ANun26hoouR8HJnAgyrQPyxr2k3FT3gw6wUwqcAZ5iNdVKLfvnSYYFMk7vNCyryo1FE-6",
+        "worldId": {
+          "__bigint__": "6"
+        },
+        "entityId": {
+          "__bigint__": "0"
+        },
+        "kind": 39,
+        "kindLabel": "InputBurned",
+        "slot": {
+          "__bigint__": "476424639"
+        },
+        "a": {
+          "__bigint__": "5"
+        },
+        "b": "8Btk6TfNVBN649h6kpK6oPU2AzFMdu2Y95nHF8oJjk9B",
+        "c": "4gt7fvRgYUgxnnMsh8BTwRJm11NNcGHWVN387esd63t7",
+        "d": {
+          "__bigint__": "151"
+        },
+        "version": 3,
+        "timestamp": 1784114362000,
+        "programId": "AYq6wit51GtB7EqAWtbdEvr4req5Re4corfycXmP1XTe",
+        "signature": "62RXvijvKLNCeshUUQEc8ANun26hoouR8HJnAgyrQPyxr2k3FT3gw6wUwqcAZ5iNdVKLfvnSYYFMk7vNCyryo1FE",
+        "logIndex": 6
+      },
+      {
+        "id": "snap-3Jd3Z4yJr2hfXrQCt3yuFGZ9ACJuq7AC7iwfXozteMfjkMJvbvvFfzA1dCNsptxqHmQ4xwxTXdyKuQh1er31irpL-2",
+        "worldId": {
+          "__bigint__": "6"
+        },
+        "entityId": {
+          "__bigint__": "0"
+        },
+        "kind": 7,
+        "kindLabel": "Decayed",
+        "slot": {
+          "__bigint__": "476424635"
+        },
+        "a": {
+          "__bigint__": "0"
+        },
+        "b": "EgjzwHZnjM29Xzy6dDchJGibZ7Y78da5qYyfpkCsGmTk",
+        "c": "4aX5PGdjNphGDXKptcTFHthuSHBwDMaVumvsXvssNWV8",
+        "d": {
+          "__bigint__": "0"
+        },
+        "version": 3,
+        "timestamp": 1784114360000,
+        "programId": "AYq6wit51GtB7EqAWtbdEvr4req5Re4corfycXmP1XTe",
+        "signature": "3Jd3Z4yJr2hfXrQCt3yuFGZ9ACJuq7AC7iwfXozteMfjkMJvbvvFfzA1dCNsptxqHmQ4xwxTXdyKuQh1er31irpL",
+        "logIndex": 2
+      },
+      {
+        "id": "snap-n8tN8Av8YFy3uRntavi9wcpEyCiqeLRKUbiqA2UEqhwugdo8kqYoVTQPj5Nd7PBHxuTmYUcqSnDDsrGRSPPREEe-19",
+        "worldId": {
+          "__bigint__": "6"
+        },
+        "entityId": {
+          "__bigint__": "0"
+        },
+        "kind": 5,
+        "kindLabel": "Produced",
+        "slot": {
+          "__bigint__": "476424621"
+        },
+        "a": {
+          "__bigint__": "162"
+        },
+        "b": "3vY3DvQpBreK7pUYn1Stc4DQ5CKvwJjUzU6PkyeSYsi4",
+        "c": "BwkABEFinaVRrcN5ohmC9oHpshcem8gGEYYX3tYMp7fq",
+        "d": {
+          "__bigint__": "7"
+        },
+        "version": 3,
+        "timestamp": 1784114355000,
+        "programId": "AYq6wit51GtB7EqAWtbdEvr4req5Re4corfycXmP1XTe",
+        "signature": "n8tN8Av8YFy3uRntavi9wcpEyCiqeLRKUbiqA2UEqhwugdo8kqYoVTQPj5Nd7PBHxuTmYUcqSnDDsrGRSPPREEe",
+        "logIndex": 19
+      },
+      {
+        "id": "snap-n8tN8Av8YFy3uRntavi9wcpEyCiqeLRKUbiqA2UEqhwugdo8kqYoVTQPj5Nd7PBHxuTmYUcqSnDDsrGRSPPREEe-14",
+        "worldId": {
+          "__bigint__": "6"
+        },
+        "entityId": {
+          "__bigint__": "0"
+        },
+        "kind": 39,
+        "kindLabel": "InputBurned",
+        "slot": {
+          "__bigint__": "476424621"
+        },
+        "a": {
+          "__bigint__": "10"
+        },
+        "b": "73E1ccrg8RpwgNeSWnAiY5FZn2s7DxRpXK3jyCPvicFx",
+        "c": "BwkABEFinaVRrcN5ohmC9oHpshcem8gGEYYX3tYMp7fq",
+        "d": {
+          "__bigint__": "162"
+        },
+        "version": 3,
+        "timestamp": 1784114355000,
+        "programId": "AYq6wit51GtB7EqAWtbdEvr4req5Re4corfycXmP1XTe",
+        "signature": "n8tN8Av8YFy3uRntavi9wcpEyCiqeLRKUbiqA2UEqhwugdo8kqYoVTQPj5Nd7PBHxuTmYUcqSnDDsrGRSPPREEe",
+        "logIndex": 14
+      },
+      {
+        "id": "snap-jbzbYw5u9dr1MqnLvMS9kKcUo6mUhgEeQf2kJFErcNJG825bVZ8eqjNptZa8dCQs5GNBLoPAZ8QwEBxdHA9XeqX-2",
+        "worldId": {
+          "__bigint__": "6"
+        },
+        "entityId": {
+          "__bigint__": "0"
+        },
+        "kind": 7,
+        "kindLabel": "Decayed",
+        "slot": {
+          "__bigint__": "476424616"
+        },
+        "a": {
+          "__bigint__": "0"
+        },
+        "b": "D8RB2VxYahgSvs8xquAd5i2Z9SGrEq7RbBYz8cNotAXM",
+        "c": "BwkABEFinaVRrcN5ohmC9oHpshcem8gGEYYX3tYMp7fq",
+        "d": {
+          "__bigint__": "0"
+        },
+        "version": 3,
+        "timestamp": 1784114354000,
+        "programId": "AYq6wit51GtB7EqAWtbdEvr4req5Re4corfycXmP1XTe",
+        "signature": "jbzbYw5u9dr1MqnLvMS9kKcUo6mUhgEeQf2kJFErcNJG825bVZ8eqjNptZa8dCQs5GNBLoPAZ8QwEBxdHA9XeqX",
+        "logIndex": 2
+      },
+      {
+        "id": "snap-4CYiMbWWrTcYRnmhx5YwykKtYdHn23G76YTjXfaj1ZLCFxDFW9bQd3Epf16VyTeQ6wAqgeauscwLeTzyG8nGKCdm-14",
+        "worldId": {
+          "__bigint__": "6"
+        },
+        "entityId": {
+          "__bigint__": "14005"
+        },
+        "kind": 1,
+        "kindLabel": "ValueMoved",
+        "slot": {
+          "__bigint__": "476424603"
+        },
+        "a": {
+          "__bigint__": "6"
+        },
+        "b": "CWfm3cRvLKe4eyx96QbFAYxB43ajni9DgMH2g7BXBxdr",
+        "c": "HASgNQsUMHNRu3LkeiWJbzit5MSWxHXZYjY17p29KhcZ",
+        "d": {
+          "__bigint__": "6"
+        },
+        "version": 3,
+        "timestamp": 1784114349000,
+        "programId": "EhUjtsoGoGpG8rs9CF3rpzfR9PCRHDnKh9qEtRdyHrCn",
+        "signature": "4CYiMbWWrTcYRnmhx5YwykKtYdHn23G76YTjXfaj1ZLCFxDFW9bQd3Epf16VyTeQ6wAqgeauscwLeTzyG8nGKCdm",
+        "logIndex": 14
+      },
+      {
+        "id": "snap-2ea1aCdg1bf5c1tvUVnPm2i4hKxrxq9GHfKd2eZBaR7EmPDfNB44TiRg2t2pqJtb2qJKPnaubRES5tPogZLGa4AS-19",
+        "worldId": {
+          "__bigint__": "6"
+        },
+        "entityId": {
+          "__bigint__": "0"
+        },
+        "kind": 5,
+        "kindLabel": "Produced",
+        "slot": {
+          "__bigint__": "476424599"
+        },
+        "a": {
+          "__bigint__": "166"
+        },
+        "b": "3vY3DvQpBreK7pUYn1Stc4DQ5CKvwJjUzU6PkyeSYsi4",
+        "c": "3mMQSqGa8EtBEA4EquGiLdPEgrKcSuEZcKuUYxRt4D46",
+        "d": {
+          "__bigint__": "6"
+        },
+        "version": 3,
+        "timestamp": 1784114347000,
+        "programId": "AYq6wit51GtB7EqAWtbdEvr4req5Re4corfycXmP1XTe",
+        "signature": "2ea1aCdg1bf5c1tvUVnPm2i4hKxrxq9GHfKd2eZBaR7EmPDfNB44TiRg2t2pqJtb2qJKPnaubRES5tPogZLGa4AS",
+        "logIndex": 19
+      },
+      {
+        "id": "snap-2ea1aCdg1bf5c1tvUVnPm2i4hKxrxq9GHfKd2eZBaR7EmPDfNB44TiRg2t2pqJtb2qJKPnaubRES5tPogZLGa4AS-14",
+        "worldId": {
+          "__bigint__": "6"
+        },
+        "entityId": {
+          "__bigint__": "0"
+        },
+        "kind": 39,
+        "kindLabel": "InputBurned",
+        "slot": {
+          "__bigint__": "476424599"
+        },
+        "a": {
+          "__bigint__": "4"
+        },
+        "b": "73E1ccrg8RpwgNeSWnAiY5FZn2s7DxRpXK3jyCPvicFx",
+        "c": "3mMQSqGa8EtBEA4EquGiLdPEgrKcSuEZcKuUYxRt4D46",
+        "d": {
+          "__bigint__": "166"
+        },
+        "version": 3,
+        "timestamp": 1784114347000,
+        "programId": "AYq6wit51GtB7EqAWtbdEvr4req5Re4corfycXmP1XTe",
+        "signature": "2ea1aCdg1bf5c1tvUVnPm2i4hKxrxq9GHfKd2eZBaR7EmPDfNB44TiRg2t2pqJtb2qJKPnaubRES5tPogZLGa4AS",
+        "logIndex": 14
+      },
+      {
+        "id": "snap-63dWVw1zz6j9wf1VrBLunFN9NFskeZPG6B6DMfWTzeRw7sXUV6peiqHWiFWozGbxfyAvsR9LnjNQZi9B3zsDXsER-2",
+        "worldId": {
+          "__bigint__": "6"
+        },
+        "entityId": {
+          "__bigint__": "0"
+        },
+        "kind": 7,
+        "kindLabel": "Decayed",
+        "slot": {
+          "__bigint__": "476424594"
+        },
+        "a": {
+          "__bigint__": "0"
+        },
+        "b": "8wB6d4FWb8P8QQP2fuDcU5oRQ3vp4e9QV4oRekYoJ9PU",
+        "c": "3mMQSqGa8EtBEA4EquGiLdPEgrKcSuEZcKuUYxRt4D46",
+        "d": {
+          "__bigint__": "0"
+        },
+        "version": 3,
+        "timestamp": 1784114345000,
+        "programId": "AYq6wit51GtB7EqAWtbdEvr4req5Re4corfycXmP1XTe",
+        "signature": "63dWVw1zz6j9wf1VrBLunFN9NFskeZPG6B6DMfWTzeRw7sXUV6peiqHWiFWozGbxfyAvsR9LnjNQZi9B3zsDXsER",
+        "logIndex": 2
+      },
+      {
+        "id": "snap-3dPUM98NXDnZXVxGfHYdi89vy7kfqDjEkmrerWYyUT9BeA3gtGWqL7x555oLSCyHZ4C8Z562NWDN3UWGAveR6pKq-14",
+        "worldId": {
+          "__bigint__": "6"
+        },
+        "entityId": {
+          "__bigint__": "14015"
+        },
+        "kind": 1,
+        "kindLabel": "ValueMoved",
+        "slot": {
+          "__bigint__": "476424547"
+        },
+        "a": {
+          "__bigint__": "6"
+        },
+        "b": "CWfm3cRvLKe4eyx96QbFAYxB43ajni9DgMH2g7BXBxdr",
+        "c": "3SLKmzo4Cn7VkgQo9vKVYoMEbNxFWL7mDqWPB6VRuo9x",
+        "d": {
+          "__bigint__": "6"
+        },
+        "version": 3,
+        "timestamp": 1784114328000,
+        "programId": "EhUjtsoGoGpG8rs9CF3rpzfR9PCRHDnKh9qEtRdyHrCn",
+        "signature": "3dPUM98NXDnZXVxGfHYdi89vy7kfqDjEkmrerWYyUT9BeA3gtGWqL7x555oLSCyHZ4C8Z562NWDN3UWGAveR6pKq",
+        "logIndex": 14
+      },
+      {
+        "id": "snap-4FMgguMMWTZQB2C98a6va4QiVnXGtPLbJE7eQbwKN3AxzJZ68TQNajAejkbVxde3oyVooLurKsQVc29vhB8pFp7F-19",
+        "worldId": {
+          "__bigint__": "6"
+        },
+        "entityId": {
+          "__bigint__": "0"
+        },
+        "kind": 5,
+        "kindLabel": "Produced",
+        "slot": {
+          "__bigint__": "476424544"
+        },
+        "a": {
+          "__bigint__": "166"
+        },
+        "b": "3vY3DvQpBreK7pUYn1Stc4DQ5CKvwJjUzU6PkyeSYsi4",
+        "c": "36wXK8eEzx4pMTuYoW12SGduJ8xaooDp9aAmNq3q547h",
+        "d": {
+          "__bigint__": "6"
+        },
+        "version": 3,
+        "timestamp": 1784114327000,
+        "programId": "AYq6wit51GtB7EqAWtbdEvr4req5Re4corfycXmP1XTe",
+        "signature": "4FMgguMMWTZQB2C98a6va4QiVnXGtPLbJE7eQbwKN3AxzJZ68TQNajAejkbVxde3oyVooLurKsQVc29vhB8pFp7F",
+        "logIndex": 19
+      },
+      {
+        "id": "snap-4FMgguMMWTZQB2C98a6va4QiVnXGtPLbJE7eQbwKN3AxzJZ68TQNajAejkbVxde3oyVooLurKsQVc29vhB8pFp7F-14",
+        "worldId": {
+          "__bigint__": "6"
+        },
+        "entityId": {
+          "__bigint__": "0"
+        },
+        "kind": 39,
+        "kindLabel": "InputBurned",
+        "slot": {
+          "__bigint__": "476424544"
+        },
+        "a": {
+          "__bigint__": "4"
+        },
+        "b": "73E1ccrg8RpwgNeSWnAiY5FZn2s7DxRpXK3jyCPvicFx",
+        "c": "36wXK8eEzx4pMTuYoW12SGduJ8xaooDp9aAmNq3q547h",
+        "d": {
+          "__bigint__": "166"
+        },
+        "version": 3,
+        "timestamp": 1784114327000,
+        "programId": "AYq6wit51GtB7EqAWtbdEvr4req5Re4corfycXmP1XTe",
+        "signature": "4FMgguMMWTZQB2C98a6va4QiVnXGtPLbJE7eQbwKN3AxzJZ68TQNajAejkbVxde3oyVooLurKsQVc29vhB8pFp7F",
+        "logIndex": 14
+      },
+      {
+        "id": "snap-2XsSWimmt9Pym7DB1KT8jccrojHCH9hqA23ABJjGHw5cCZjxbQkLhzLSxiMNrbLHNehMtHFMwbD8mRqZrfotApgy-2",
+        "worldId": {
+          "__bigint__": "6"
+        },
+        "entityId": {
+          "__bigint__": "0"
+        },
+        "kind": 7,
+        "kindLabel": "Decayed",
+        "slot": {
+          "__bigint__": "476424538"
+        },
+        "a": {
+          "__bigint__": "0"
+        },
+        "b": "BCXDPkMzy2wZ1azHJgssSnRqq8PBdQiNAUYDkPcfZYkQ",
+        "c": "36wXK8eEzx4pMTuYoW12SGduJ8xaooDp9aAmNq3q547h",
+        "d": {
+          "__bigint__": "0"
+        },
+        "version": 3,
+        "timestamp": 1784114325000,
+        "programId": "AYq6wit51GtB7EqAWtbdEvr4req5Re4corfycXmP1XTe",
+        "signature": "2XsSWimmt9Pym7DB1KT8jccrojHCH9hqA23ABJjGHw5cCZjxbQkLhzLSxiMNrbLHNehMtHFMwbD8mRqZrfotApgy",
+        "logIndex": 2
+      },
+      {
+        "id": "snap-26SSrwRwDoHTAVUF2TBZLgfcbRXYKcq4dT6EGX89R92sbXD4JNxrVSZpPS362bg5LdL4HaEWBhVVEwLvsRAU1Kvr-14",
+        "worldId": {
+          "__bigint__": "6"
+        },
+        "entityId": {
+          "__bigint__": "14009"
+        },
+        "kind": 1,
+        "kindLabel": "ValueMoved",
+        "slot": {
+          "__bigint__": "476424524"
+        },
+        "a": {
+          "__bigint__": "6"
+        },
+        "b": "CWfm3cRvLKe4eyx96QbFAYxB43ajni9DgMH2g7BXBxdr",
+        "c": "4gt7fvRgYUgxnnMsh8BTwRJm11NNcGHWVN387esd63t7",
+        "d": {
+          "__bigint__": "6"
+        },
+        "version": 3,
+        "timestamp": 1784114319000,
+        "programId": "AYq6wit51GtB7EqAWtbdEvr4req5Re4corfycXmP1XTe",
+        "signature": "26SSrwRwDoHTAVUF2TBZLgfcbRXYKcq4dT6EGX89R92sbXD4JNxrVSZpPS362bg5LdL4HaEWBhVVEwLvsRAU1Kvr",
+        "logIndex": 14
+      },
+      {
+        "id": "snap-XpcHbkj4WTTAtBkZoSgYz8phBRqSTwTHQvRk9QYTcEBX7aLeiFft4nBs9VHdNwGGJfUnLYB7TCcUk6RAywYgUc7-19",
+        "worldId": {
+          "__bigint__": "6"
+        },
+        "entityId": {
+          "__bigint__": "0"
+        },
+        "kind": 5,
+        "kindLabel": "Produced",
+        "slot": {
+          "__bigint__": "476424519"
+        },
+        "a": {
+          "__bigint__": "166"
+        },
+        "b": "3vY3DvQpBreK7pUYn1Stc4DQ5CKvwJjUzU6PkyeSYsi4",
+        "c": "4aX5PGdjNphGDXKptcTFHthuSHBwDMaVumvsXvssNWV8",
+        "d": {
+          "__bigint__": "6"
+        },
+        "version": 3,
+        "timestamp": 1784114318000,
+        "programId": "AYq6wit51GtB7EqAWtbdEvr4req5Re4corfycXmP1XTe",
+        "signature": "XpcHbkj4WTTAtBkZoSgYz8phBRqSTwTHQvRk9QYTcEBX7aLeiFft4nBs9VHdNwGGJfUnLYB7TCcUk6RAywYgUc7",
+        "logIndex": 19
+      },
+      {
+        "id": "snap-XpcHbkj4WTTAtBkZoSgYz8phBRqSTwTHQvRk9QYTcEBX7aLeiFft4nBs9VHdNwGGJfUnLYB7TCcUk6RAywYgUc7-14",
+        "worldId": {
+          "__bigint__": "6"
+        },
+        "entityId": {
+          "__bigint__": "0"
+        },
+        "kind": 39,
+        "kindLabel": "InputBurned",
+        "slot": {
+          "__bigint__": "476424519"
+        },
+        "a": {
+          "__bigint__": "4"
+        },
+        "b": "73E1ccrg8RpwgNeSWnAiY5FZn2s7DxRpXK3jyCPvicFx",
+        "c": "4aX5PGdjNphGDXKptcTFHthuSHBwDMaVumvsXvssNWV8",
+        "d": {
+          "__bigint__": "166"
+        },
+        "version": 3,
+        "timestamp": 1784114318000,
+        "programId": "AYq6wit51GtB7EqAWtbdEvr4req5Re4corfycXmP1XTe",
+        "signature": "XpcHbkj4WTTAtBkZoSgYz8phBRqSTwTHQvRk9QYTcEBX7aLeiFft4nBs9VHdNwGGJfUnLYB7TCcUk6RAywYgUc7",
+        "logIndex": 14
+      },
+      {
+        "id": "snap-32CBGrVrqF9zztAngrr1j9K5GR9Xr6VJSbHQFDzW7DH3FWA1L93gQe5Bw1qR6XEcPTSudPTj6ZBhsLPngSyVDctj-2",
+        "worldId": {
+          "__bigint__": "6"
+        },
+        "entityId": {
+          "__bigint__": "0"
+        },
+        "kind": 7,
+        "kindLabel": "Decayed",
+        "slot": {
+          "__bigint__": "476424514"
+        },
+        "a": {
+          "__bigint__": "0"
+        },
+        "b": "EgjzwHZnjM29Xzy6dDchJGibZ7Y78da5qYyfpkCsGmTk",
+        "c": "4aX5PGdjNphGDXKptcTFHthuSHBwDMaVumvsXvssNWV8",
+        "d": {
+          "__bigint__": "0"
+        },
+        "version": 3,
+        "timestamp": 1784114316000,
+        "programId": "AYq6wit51GtB7EqAWtbdEvr4req5Re4corfycXmP1XTe",
+        "signature": "32CBGrVrqF9zztAngrr1j9K5GR9Xr6VJSbHQFDzW7DH3FWA1L93gQe5Bw1qR6XEcPTSudPTj6ZBhsLPngSyVDctj",
+        "logIndex": 2
+      },
+      {
+        "id": "snap-27A3XJiEozTWKuZcHcS2WbAxyGFbMeqKyVwKuGBXZoAMcWGr97TS7TiHK3ji2Jqv4qCvmBXqBGmd422Effw6QNyx-2",
+        "worldId": {
+          "__bigint__": "6"
+        },
+        "entityId": {
+          "__bigint__": "0"
+        },
+        "kind": 26,
+        "kindLabel": "EnvironmentTicked",
+        "slot": {
+          "__bigint__": "476424501"
+        },
+        "a": {
+          "__bigint__": "21507539444"
+        },
+        "b": "8wB6d4FWb8P8QQP2fuDcU5oRQ3vp4e9QV4oRekYoJ9PU",
+        "c": "11111111111111111111111111111111",
+        "d": {
+          "__bigint__": "0"
+        },
+        "version": 3,
+        "timestamp": 1784114311000,
+        "programId": "AYq6wit51GtB7EqAWtbdEvr4req5Re4corfycXmP1XTe",
+        "signature": "27A3XJiEozTWKuZcHcS2WbAxyGFbMeqKyVwKuGBXZoAMcWGr97TS7TiHK3ji2Jqv4qCvmBXqBGmd422Effw6QNyx",
+        "logIndex": 2
+      },
+      {
+        "id": "snap-2kVoCGsT1qnCh7bp8ecyAAkxJB7fTXte13PJThbJyxn4vxjcdvbNzjYuTFbwGoEzt2XbfXpozkwkER1opAsAH6rq-14",
+        "worldId": {
+          "__bigint__": "6"
+        },
+        "entityId": {
+          "__bigint__": "14006"
+        },
+        "kind": 1,
+        "kindLabel": "ValueMoved",
+        "slot": {
+          "__bigint__": "476424500"
+        },
+        "a": {
+          "__bigint__": "6"
+        },
+        "b": "CWfm3cRvLKe4eyx96QbFAYxB43ajni9DgMH2g7BXBxdr",
+        "c": "J12Kh9mD37pyVNfZvuwNSrvHAhtKxcu7jMSksYvVFEK9",
+        "d": {
+          "__bigint__": "6"
+        },
+        "version": 3,
+        "timestamp": 1784114311000,
+        "programId": "AYq6wit51GtB7EqAWtbdEvr4req5Re4corfycXmP1XTe",
+        "signature": "2kVoCGsT1qnCh7bp8ecyAAkxJB7fTXte13PJThbJyxn4vxjcdvbNzjYuTFbwGoEzt2XbfXpozkwkER1opAsAH6rq",
+        "logIndex": 14
+      },
+      {
+        "id": "snap-5pVVng8pewtYuzC6zgfK525WaFEqgwzzv3gWJY1SdK2Yyv2qC4f4S9QoU4VgKQWWEju3HddEDRFvx24x1NYpA9cA-19",
+        "worldId": {
+          "__bigint__": "6"
+        },
+        "entityId": {
+          "__bigint__": "0"
+        },
+        "kind": 5,
+        "kindLabel": "Produced",
+        "slot": {
+          "__bigint__": "476424495"
+        },
+        "a": {
+          "__bigint__": "166"
+        },
+        "b": "3vY3DvQpBreK7pUYn1Stc4DQ5CKvwJjUzU6PkyeSYsi4",
+        "c": "BwkABEFinaVRrcN5ohmC9oHpshcem8gGEYYX3tYMp7fq",
+        "d": {
+          "__bigint__": "6"
+        },
+        "version": 3,
+        "timestamp": 1784114309000,
+        "programId": "AYq6wit51GtB7EqAWtbdEvr4req5Re4corfycXmP1XTe",
+        "signature": "5pVVng8pewtYuzC6zgfK525WaFEqgwzzv3gWJY1SdK2Yyv2qC4f4S9QoU4VgKQWWEju3HddEDRFvx24x1NYpA9cA",
+        "logIndex": 19
+      },
+      {
+        "id": "snap-5pVVng8pewtYuzC6zgfK525WaFEqgwzzv3gWJY1SdK2Yyv2qC4f4S9QoU4VgKQWWEju3HddEDRFvx24x1NYpA9cA-14",
+        "worldId": {
+          "__bigint__": "6"
+        },
+        "entityId": {
+          "__bigint__": "0"
+        },
+        "kind": 39,
+        "kindLabel": "InputBurned",
+        "slot": {
+          "__bigint__": "476424495"
+        },
+        "a": {
+          "__bigint__": "4"
+        },
+        "b": "73E1ccrg8RpwgNeSWnAiY5FZn2s7DxRpXK3jyCPvicFx",
+        "c": "BwkABEFinaVRrcN5ohmC9oHpshcem8gGEYYX3tYMp7fq",
+        "d": {
+          "__bigint__": "166"
+        },
+        "version": 3,
+        "timestamp": 1784114309000,
+        "programId": "AYq6wit51GtB7EqAWtbdEvr4req5Re4corfycXmP1XTe",
+        "signature": "5pVVng8pewtYuzC6zgfK525WaFEqgwzzv3gWJY1SdK2Yyv2qC4f4S9QoU4VgKQWWEju3HddEDRFvx24x1NYpA9cA",
+        "logIndex": 14
+      },
+      {
+        "id": "snap-3PR5Bx5ek1Uqv7UyS4bSsTL8GjJeaxbtjwhYFTJanjsVyyqSEo3J4a1ga1TTY4CpmvGW6aLaaMCs9wpvZEc46kgM-2",
+        "worldId": {
+          "__bigint__": "6"
+        },
+        "entityId": {
+          "__bigint__": "0"
+        },
+        "kind": 7,
+        "kindLabel": "Decayed",
+        "slot": {
+          "__bigint__": "476424489"
+        },
+        "a": {
+          "__bigint__": "0"
+        },
+        "b": "D8RB2VxYahgSvs8xquAd5i2Z9SGrEq7RbBYz8cNotAXM",
+        "c": "BwkABEFinaVRrcN5ohmC9oHpshcem8gGEYYX3tYMp7fq",
+        "d": {
+          "__bigint__": "0"
+        },
+        "version": 3,
+        "timestamp": 1784114307000,
+        "programId": "AYq6wit51GtB7EqAWtbdEvr4req5Re4corfycXmP1XTe",
+        "signature": "3PR5Bx5ek1Uqv7UyS4bSsTL8GjJeaxbtjwhYFTJanjsVyyqSEo3J4a1ga1TTY4CpmvGW6aLaaMCs9wpvZEc46kgM",
+        "logIndex": 2
+      },
+      {
+        "id": "snap-29JxUi8HjKw2gotMgyM2jTxQUFAk3FuMR47XiQ2PCLmJio668Yx2yMS5rUZenS416ZvQF8hutb1J7mYuwKSZT75X-19",
+        "worldId": {
+          "__bigint__": "6"
+        },
+        "entityId": {
+          "__bigint__": "0"
+        },
+        "kind": 5,
+        "kindLabel": "Produced",
+        "slot": {
+          "__bigint__": "476424476"
+        },
+        "a": {
+          "__bigint__": "162"
+        },
+        "b": "3vY3DvQpBreK7pUYn1Stc4DQ5CKvwJjUzU6PkyeSYsi4",
+        "c": "3mMQSqGa8EtBEA4EquGiLdPEgrKcSuEZcKuUYxRt4D46",
+        "d": {
+          "__bigint__": "7"
+        },
+        "version": 3,
+        "timestamp": 1784114302000,
+        "programId": "AYq6wit51GtB7EqAWtbdEvr4req5Re4corfycXmP1XTe",
+        "signature": "29JxUi8HjKw2gotMgyM2jTxQUFAk3FuMR47XiQ2PCLmJio668Yx2yMS5rUZenS416ZvQF8hutb1J7mYuwKSZT75X",
+        "logIndex": 19
+      },
+      {
+        "id": "snap-29JxUi8HjKw2gotMgyM2jTxQUFAk3FuMR47XiQ2PCLmJio668Yx2yMS5rUZenS416ZvQF8hutb1J7mYuwKSZT75X-14",
+        "worldId": {
+          "__bigint__": "6"
+        },
+        "entityId": {
+          "__bigint__": "0"
+        },
+        "kind": 39,
+        "kindLabel": "InputBurned",
+        "slot": {
+          "__bigint__": "476424476"
+        },
+        "a": {
+          "__bigint__": "10"
+        },
+        "b": "73E1ccrg8RpwgNeSWnAiY5FZn2s7DxRpXK3jyCPvicFx",
+        "c": "3mMQSqGa8EtBEA4EquGiLdPEgrKcSuEZcKuUYxRt4D46",
+        "d": {
+          "__bigint__": "162"
+        },
+        "version": 3,
+        "timestamp": 1784114302000,
+        "programId": "AYq6wit51GtB7EqAWtbdEvr4req5Re4corfycXmP1XTe",
+        "signature": "29JxUi8HjKw2gotMgyM2jTxQUFAk3FuMR47XiQ2PCLmJio668Yx2yMS5rUZenS416ZvQF8hutb1J7mYuwKSZT75X",
+        "logIndex": 14
+      },
+      {
+        "id": "snap-4TMw1LfrtRdpvtwr47L61CkGQmZF7ruqjZnv73SURtSEvArFfJgk5rdhZAkB2UGz31deq8E8bfnTj8G7U5Q4UYZh-2",
+        "worldId": {
+          "__bigint__": "6"
+        },
+        "entityId": {
+          "__bigint__": "0"
+        },
+        "kind": 7,
+        "kindLabel": "Decayed",
+        "slot": {
+          "__bigint__": "476424471"
+        },
+        "a": {
+          "__bigint__": "0"
+        },
+        "b": "8wB6d4FWb8P8QQP2fuDcU5oRQ3vp4e9QV4oRekYoJ9PU",
+        "c": "3mMQSqGa8EtBEA4EquGiLdPEgrKcSuEZcKuUYxRt4D46",
+        "d": {
+          "__bigint__": "0"
+        },
+        "version": 3,
+        "timestamp": 1784114300000,
+        "programId": "AYq6wit51GtB7EqAWtbdEvr4req5Re4corfycXmP1XTe",
+        "signature": "4TMw1LfrtRdpvtwr47L61CkGQmZF7ruqjZnv73SURtSEvArFfJgk5rdhZAkB2UGz31deq8E8bfnTj8G7U5Q4UYZh",
+        "logIndex": 2
+      },
       {
         "id": "snap-5witsxYsqFNbDGLQsWBe9kjZDMtUAEJuq922GSVdanwT8MQjDCcL4N4mDWBGBYyCap511Gqv4aW8P3u2evSAnvRo-2",
         "worldId": {
@@ -2589,7 +3921,7 @@
           "__bigint__": "0"
         },
         "version": 3,
-        "timestamp": 0,
+        "timestamp": 1784114284000,
         "programId": "AYq6wit51GtB7EqAWtbdEvr4req5Re4corfycXmP1XTe",
         "signature": "5witsxYsqFNbDGLQsWBe9kjZDMtUAEJuq922GSVdanwT8MQjDCcL4N4mDWBGBYyCap511Gqv4aW8P3u2evSAnvRo",
         "logIndex": 2
@@ -2616,7 +3948,7 @@
           "__bigint__": "0"
         },
         "version": 3,
-        "timestamp": 0,
+        "timestamp": 1784114283000,
         "programId": "AYq6wit51GtB7EqAWtbdEvr4req5Re4corfycXmP1XTe",
         "signature": "so5dpPLczr2Jqirk3rH1MUm1qo9AUFnyuE8sfZJa2fEYAHU7bKdpXbzN1umSkE9pmz54MTLgq3EREGHjiFqnGDi",
         "logIndex": 2
@@ -2643,7 +3975,7 @@
           "__bigint__": "0"
         },
         "version": 3,
-        "timestamp": 0,
+        "timestamp": 1784114281000,
         "programId": "AYq6wit51GtB7EqAWtbdEvr4req5Re4corfycXmP1XTe",
         "signature": "5Hfr597BV3YE2wLV7VSUhwAuES4kaZiF284oBfdHyjqG4mFF657gYiRBtCZr6UKMCFt72fVCxCMH3wDSEEXdkBEp",
         "logIndex": 2
@@ -2670,7 +4002,7 @@
           "__bigint__": "0"
         },
         "version": 3,
-        "timestamp": 0,
+        "timestamp": 1784114281000,
         "programId": "AYq6wit51GtB7EqAWtbdEvr4req5Re4corfycXmP1XTe",
         "signature": "5dM4BqSaFMsAJkkSSpa2HFn9kZFiY3JjEY7uLBk3waMZk3A69rhYkzWCPfKsYPfRTnT8aw9QjoczqpAAyVC6rX5L",
         "logIndex": 6
@@ -2697,7 +4029,7 @@
           "__bigint__": "0"
         },
         "version": 3,
-        "timestamp": 0,
+        "timestamp": 1784114281000,
         "programId": "AYq6wit51GtB7EqAWtbdEvr4req5Re4corfycXmP1XTe",
         "signature": "5dM4BqSaFMsAJkkSSpa2HFn9kZFiY3JjEY7uLBk3waMZk3A69rhYkzWCPfKsYPfRTnT8aw9QjoczqpAAyVC6rX5L",
         "logIndex": 5
@@ -2724,7 +4056,7 @@
           "__bigint__": "0"
         },
         "version": 3,
-        "timestamp": 0,
+        "timestamp": 1784114281000,
         "programId": "AYq6wit51GtB7EqAWtbdEvr4req5Re4corfycXmP1XTe",
         "signature": "5dM4BqSaFMsAJkkSSpa2HFn9kZFiY3JjEY7uLBk3waMZk3A69rhYkzWCPfKsYPfRTnT8aw9QjoczqpAAyVC6rX5L",
         "logIndex": 4
@@ -2751,7 +4083,7 @@
           "__bigint__": "0"
         },
         "version": 3,
-        "timestamp": 0,
+        "timestamp": 1784114281000,
         "programId": "AYq6wit51GtB7EqAWtbdEvr4req5Re4corfycXmP1XTe",
         "signature": "5dM4BqSaFMsAJkkSSpa2HFn9kZFiY3JjEY7uLBk3waMZk3A69rhYkzWCPfKsYPfRTnT8aw9QjoczqpAAyVC6rX5L",
         "logIndex": 3
@@ -2778,7 +4110,7 @@
           "__bigint__": "0"
         },
         "version": 3,
-        "timestamp": 0,
+        "timestamp": 1784114281000,
         "programId": "AYq6wit51GtB7EqAWtbdEvr4req5Re4corfycXmP1XTe",
         "signature": "5dM4BqSaFMsAJkkSSpa2HFn9kZFiY3JjEY7uLBk3waMZk3A69rhYkzWCPfKsYPfRTnT8aw9QjoczqpAAyVC6rX5L",
         "logIndex": 2
@@ -2805,7 +4137,7 @@
           "__bigint__": "24"
         },
         "version": 3,
-        "timestamp": 0,
+        "timestamp": 1784114279000,
         "programId": "AYq6wit51GtB7EqAWtbdEvr4req5Re4corfycXmP1XTe",
         "signature": "2X5Nr7KW2g2KeLf4pZUoQBb8E2hmsLpseRPNpw6bdsF2BWB8BUMXXL8dEzrrfd9fuefznE5WsYQDLq6uDB1Bxqob",
         "logIndex": 11
@@ -2832,7 +4164,7 @@
           "__bigint__": "151"
         },
         "version": 3,
-        "timestamp": 0,
+        "timestamp": 1784114279000,
         "programId": "AYq6wit51GtB7EqAWtbdEvr4req5Re4corfycXmP1XTe",
         "signature": "2X5Nr7KW2g2KeLf4pZUoQBb8E2hmsLpseRPNpw6bdsF2BWB8BUMXXL8dEzrrfd9fuefznE5WsYQDLq6uDB1Bxqob",
         "logIndex": 6
@@ -2859,7 +4191,7 @@
           "__bigint__": "0"
         },
         "version": 3,
-        "timestamp": 0,
+        "timestamp": 1784114277000,
         "programId": "AYq6wit51GtB7EqAWtbdEvr4req5Re4corfycXmP1XTe",
         "signature": "5xxkpNDtAYEZzrPstFc8o73b7ek19gPpWBBJwqU6jZgh4BSzw4BQNvcmTP1pZ9EgRFD7JxCSpHadw6yzqk7TtAja",
         "logIndex": 2
@@ -2886,7 +4218,7 @@
           "__bigint__": "7"
         },
         "version": 3,
-        "timestamp": 0,
+        "timestamp": 1784114272000,
         "programId": "AYq6wit51GtB7EqAWtbdEvr4req5Re4corfycXmP1XTe",
         "signature": "2qHFzRiou2BCg3bPz6R3s9V48Y3a5cCgX8xt4Pk6Xu1UbXLv5UVK7SC9W6PgVp7jekatXYjqgLCsZF4SaTCJGpvh",
         "logIndex": 19
@@ -2913,7 +4245,7 @@
           "__bigint__": "162"
         },
         "version": 3,
-        "timestamp": 0,
+        "timestamp": 1784114272000,
         "programId": "AYq6wit51GtB7EqAWtbdEvr4req5Re4corfycXmP1XTe",
         "signature": "2qHFzRiou2BCg3bPz6R3s9V48Y3a5cCgX8xt4Pk6Xu1UbXLv5UVK7SC9W6PgVp7jekatXYjqgLCsZF4SaTCJGpvh",
         "logIndex": 14
@@ -2940,7 +4272,7 @@
           "__bigint__": "0"
         },
         "version": 3,
-        "timestamp": 0,
+        "timestamp": 1784114270000,
         "programId": "AYq6wit51GtB7EqAWtbdEvr4req5Re4corfycXmP1XTe",
         "signature": "3Yj3e9RKHcx2xuwuyjqjgLzgFFCetxwm6dJzL3MaJWBKhX8MWD1L8dwVX7un8JWkREkiUFjYrj2Q7AJaYRycWHxR",
         "logIndex": 2
@@ -9370,1305 +10702,9 @@
         "programId": "AYq6wit51GtB7EqAWtbdEvr4req5Re4corfycXmP1XTe",
         "signature": "4y2nDeBq3ggJS8Xe7rixDawbo2rJHQZp3wVbTFpjyTszjGfSj8fxt2fHP75JvTrCvEbo5bL8GpGVKR1XiGRQ8RuV",
         "logIndex": 6
-      },
-      {
-        "id": "snap-2dbdeVEzCQ1X9sCnHZFDCtT87nWtgafCkMNamGqsB9r1SYTUjqfKsFY4C7suS732mp5XrtQZ6XEQWmVneWSKuzZW-2",
-        "worldId": {
-          "__bigint__": "6"
-        },
-        "entityId": {
-          "__bigint__": "0"
-        },
-        "kind": 7,
-        "kindLabel": "Decayed",
-        "slot": {
-          "__bigint__": "476422629"
-        },
-        "a": {
-          "__bigint__": "0"
-        },
-        "b": "8wB6d4FWb8P8QQP2fuDcU5oRQ3vp4e9QV4oRekYoJ9PU",
-        "c": "3mMQSqGa8EtBEA4EquGiLdPEgrKcSuEZcKuUYxRt4D46",
-        "d": {
-          "__bigint__": "0"
-        },
-        "version": 3,
-        "timestamp": 1784113625000,
-        "programId": "AYq6wit51GtB7EqAWtbdEvr4req5Re4corfycXmP1XTe",
-        "signature": "2dbdeVEzCQ1X9sCnHZFDCtT87nWtgafCkMNamGqsB9r1SYTUjqfKsFY4C7suS732mp5XrtQZ6XEQWmVneWSKuzZW",
-        "logIndex": 2
-      },
-      {
-        "id": "snap-hExsDLhGAxJ7piGPS8mmKbj9aQP3f36KAM8HgFKgjLLzBCsPHsDrNai3WMrR6dafRZ6x1Lnpw8rfoYjFSBinFc9-14",
-        "worldId": {
-          "__bigint__": "6"
-        },
-        "entityId": {
-          "__bigint__": "14015"
-        },
-        "kind": 1,
-        "kindLabel": "ValueMoved",
-        "slot": {
-          "__bigint__": "476422575"
-        },
-        "a": {
-          "__bigint__": "6"
-        },
-        "b": "CWfm3cRvLKe4eyx96QbFAYxB43ajni9DgMH2g7BXBxdr",
-        "c": "3SLKmzo4Cn7VkgQo9vKVYoMEbNxFWL7mDqWPB6VRuo9x",
-        "d": {
-          "__bigint__": "6"
-        },
-        "version": 3,
-        "timestamp": 1784113606000,
-        "programId": "EhUjtsoGoGpG8rs9CF3rpzfR9PCRHDnKh9qEtRdyHrCn",
-        "signature": "hExsDLhGAxJ7piGPS8mmKbj9aQP3f36KAM8HgFKgjLLzBCsPHsDrNai3WMrR6dafRZ6x1Lnpw8rfoYjFSBinFc9",
-        "logIndex": 14
-      },
-      {
-        "id": "snap-5vifoFE1qCqsmC8SSDiLJkUT78gYCsF3qfKvvzkQdsk6Q6enaRdVaFTMgnDoyF5cmmcvYMNmVCMs1PqXCSYpbsML-19",
-        "worldId": {
-          "__bigint__": "6"
-        },
-        "entityId": {
-          "__bigint__": "0"
-        },
-        "kind": 5,
-        "kindLabel": "Produced",
-        "slot": {
-          "__bigint__": "476422571"
-        },
-        "a": {
-          "__bigint__": "166"
-        },
-        "b": "3vY3DvQpBreK7pUYn1Stc4DQ5CKvwJjUzU6PkyeSYsi4",
-        "c": "36wXK8eEzx4pMTuYoW12SGduJ8xaooDp9aAmNq3q547h",
-        "d": {
-          "__bigint__": "6"
-        },
-        "version": 3,
-        "timestamp": 1784113604000,
-        "programId": "AYq6wit51GtB7EqAWtbdEvr4req5Re4corfycXmP1XTe",
-        "signature": "5vifoFE1qCqsmC8SSDiLJkUT78gYCsF3qfKvvzkQdsk6Q6enaRdVaFTMgnDoyF5cmmcvYMNmVCMs1PqXCSYpbsML",
-        "logIndex": 19
-      },
-      {
-        "id": "snap-5vifoFE1qCqsmC8SSDiLJkUT78gYCsF3qfKvvzkQdsk6Q6enaRdVaFTMgnDoyF5cmmcvYMNmVCMs1PqXCSYpbsML-14",
-        "worldId": {
-          "__bigint__": "6"
-        },
-        "entityId": {
-          "__bigint__": "0"
-        },
-        "kind": 39,
-        "kindLabel": "InputBurned",
-        "slot": {
-          "__bigint__": "476422571"
-        },
-        "a": {
-          "__bigint__": "4"
-        },
-        "b": "73E1ccrg8RpwgNeSWnAiY5FZn2s7DxRpXK3jyCPvicFx",
-        "c": "36wXK8eEzx4pMTuYoW12SGduJ8xaooDp9aAmNq3q547h",
-        "d": {
-          "__bigint__": "166"
-        },
-        "version": 3,
-        "timestamp": 1784113604000,
-        "programId": "AYq6wit51GtB7EqAWtbdEvr4req5Re4corfycXmP1XTe",
-        "signature": "5vifoFE1qCqsmC8SSDiLJkUT78gYCsF3qfKvvzkQdsk6Q6enaRdVaFTMgnDoyF5cmmcvYMNmVCMs1PqXCSYpbsML",
-        "logIndex": 14
-      },
-      {
-        "id": "snap-dhxVMK8GZNUTn2J6J9YXWdv2NdAD81y468vji5xtTnB8nevBAhAcsr56RdfoyGjRJHxqscBc1sgipN5HpCCBCCR-2",
-        "worldId": {
-          "__bigint__": "6"
-        },
-        "entityId": {
-          "__bigint__": "0"
-        },
-        "kind": 7,
-        "kindLabel": "Decayed",
-        "slot": {
-          "__bigint__": "476422566"
-        },
-        "a": {
-          "__bigint__": "0"
-        },
-        "b": "BCXDPkMzy2wZ1azHJgssSnRqq8PBdQiNAUYDkPcfZYkQ",
-        "c": "36wXK8eEzx4pMTuYoW12SGduJ8xaooDp9aAmNq3q547h",
-        "d": {
-          "__bigint__": "0"
-        },
-        "version": 3,
-        "timestamp": 1784113602000,
-        "programId": "AYq6wit51GtB7EqAWtbdEvr4req5Re4corfycXmP1XTe",
-        "signature": "dhxVMK8GZNUTn2J6J9YXWdv2NdAD81y468vji5xtTnB8nevBAhAcsr56RdfoyGjRJHxqscBc1sgipN5HpCCBCCR",
-        "logIndex": 2
-      },
-      {
-        "id": "snap-3KPJyrHpMBWHNgGj9GjisyKMZ45AonL2n5a2s3u1zQPei2aNTc1Z7YLLXN69rvm4mTKuP5YhKU28FbgnBJirh9HM-11",
-        "worldId": {
-          "__bigint__": "6"
-        },
-        "entityId": {
-          "__bigint__": "0"
-        },
-        "kind": 5,
-        "kindLabel": "Produced",
-        "slot": {
-          "__bigint__": "476422553"
-        },
-        "a": {
-          "__bigint__": "151"
-        },
-        "b": "3vY3DvQpBreK7pUYn1Stc4DQ5CKvwJjUzU6PkyeSYsi4",
-        "c": "4gt7fvRgYUgxnnMsh8BTwRJm11NNcGHWVN387esd63t7",
-        "d": {
-          "__bigint__": "24"
-        },
-        "version": 3,
-        "timestamp": 1784113597000,
-        "programId": "AYq6wit51GtB7EqAWtbdEvr4req5Re4corfycXmP1XTe",
-        "signature": "3KPJyrHpMBWHNgGj9GjisyKMZ45AonL2n5a2s3u1zQPei2aNTc1Z7YLLXN69rvm4mTKuP5YhKU28FbgnBJirh9HM",
-        "logIndex": 11
-      },
-      {
-        "id": "snap-3KPJyrHpMBWHNgGj9GjisyKMZ45AonL2n5a2s3u1zQPei2aNTc1Z7YLLXN69rvm4mTKuP5YhKU28FbgnBJirh9HM-6",
-        "worldId": {
-          "__bigint__": "6"
-        },
-        "entityId": {
-          "__bigint__": "0"
-        },
-        "kind": 39,
-        "kindLabel": "InputBurned",
-        "slot": {
-          "__bigint__": "476422553"
-        },
-        "a": {
-          "__bigint__": "5"
-        },
-        "b": "8Btk6TfNVBN649h6kpK6oPU2AzFMdu2Y95nHF8oJjk9B",
-        "c": "4gt7fvRgYUgxnnMsh8BTwRJm11NNcGHWVN387esd63t7",
-        "d": {
-          "__bigint__": "151"
-        },
-        "version": 3,
-        "timestamp": 1784113597000,
-        "programId": "AYq6wit51GtB7EqAWtbdEvr4req5Re4corfycXmP1XTe",
-        "signature": "3KPJyrHpMBWHNgGj9GjisyKMZ45AonL2n5a2s3u1zQPei2aNTc1Z7YLLXN69rvm4mTKuP5YhKU28FbgnBJirh9HM",
-        "logIndex": 6
-      },
-      {
-        "id": "snap-4kMLySVjTbvpz772C8RjP7yifcHKUtq4YBrK5P73P622NBJDMQU1MSHnMz4SiT7BuoRRSN2vkMRqrmZzA5KRRtSp-2",
-        "worldId": {
-          "__bigint__": "6"
-        },
-        "entityId": {
-          "__bigint__": "0"
-        },
-        "kind": 7,
-        "kindLabel": "Decayed",
-        "slot": {
-          "__bigint__": "476422548"
-        },
-        "a": {
-          "__bigint__": "0"
-        },
-        "b": "EgjzwHZnjM29Xzy6dDchJGibZ7Y78da5qYyfpkCsGmTk",
-        "c": "4aX5PGdjNphGDXKptcTFHthuSHBwDMaVumvsXvssNWV8",
-        "d": {
-          "__bigint__": "0"
-        },
-        "version": 3,
-        "timestamp": 1784113595000,
-        "programId": "AYq6wit51GtB7EqAWtbdEvr4req5Re4corfycXmP1XTe",
-        "signature": "4kMLySVjTbvpz772C8RjP7yifcHKUtq4YBrK5P73P622NBJDMQU1MSHnMz4SiT7BuoRRSN2vkMRqrmZzA5KRRtSp",
-        "logIndex": 2
-      },
-      {
-        "id": "snap-4JuwAcduHSTojdBy27A2DdMf7MQKtdu85Bx6c9wDvczCbX2m6TZVKC2jKdRmxf9WrXAzstz3Bxnb2v8fFem68RoP-2",
-        "worldId": {
-          "__bigint__": "6"
-        },
-        "entityId": {
-          "__bigint__": "0"
-        },
-        "kind": 26,
-        "kindLabel": "EnvironmentTicked",
-        "slot": {
-          "__bigint__": "476422539"
-        },
-        "a": {
-          "__bigint__": "21507539444"
-        },
-        "b": "D8RB2VxYahgSvs8xquAd5i2Z9SGrEq7RbBYz8cNotAXM",
-        "c": "11111111111111111111111111111111",
-        "d": {
-          "__bigint__": "0"
-        },
-        "version": 3,
-        "timestamp": 1784113592000,
-        "programId": "AYq6wit51GtB7EqAWtbdEvr4req5Re4corfycXmP1XTe",
-        "signature": "4JuwAcduHSTojdBy27A2DdMf7MQKtdu85Bx6c9wDvczCbX2m6TZVKC2jKdRmxf9WrXAzstz3Bxnb2v8fFem68RoP",
-        "logIndex": 2
-      },
-      {
-        "id": "snap-4w867LWK5TqAwRCYeRSAwXG5VGohb754JTg6mBYx2nB7MT4v8h3CiTgTAzT8JWfqFvCxrJMRQXk55tNwDN3mLX7y-2",
-        "worldId": {
-          "__bigint__": "6"
-        },
-        "entityId": {
-          "__bigint__": "0"
-        },
-        "kind": 26,
-        "kindLabel": "EnvironmentTicked",
-        "slot": {
-          "__bigint__": "476422535"
-        },
-        "a": {
-          "__bigint__": "21507539444"
-        },
-        "b": "8wB6d4FWb8P8QQP2fuDcU5oRQ3vp4e9QV4oRekYoJ9PU",
-        "c": "11111111111111111111111111111111",
-        "d": {
-          "__bigint__": "0"
-        },
-        "version": 3,
-        "timestamp": 1784113591000,
-        "programId": "AYq6wit51GtB7EqAWtbdEvr4req5Re4corfycXmP1XTe",
-        "signature": "4w867LWK5TqAwRCYeRSAwXG5VGohb754JTg6mBYx2nB7MT4v8h3CiTgTAzT8JWfqFvCxrJMRQXk55tNwDN3mLX7y",
-        "logIndex": 2
-      },
-      {
-        "id": "snap-2TzgDPK2ZciXPw364p6qo7FciLrJmXE1wYDDLRCYVNMQZk4mhpUiJTgTveBKzYczuiVp6ED3PGa3ESzgf82M7oJd-11",
-        "worldId": {
-          "__bigint__": "6"
-        },
-        "entityId": {
-          "__bigint__": "0"
-        },
-        "kind": 5,
-        "kindLabel": "Produced",
-        "slot": {
-          "__bigint__": "476422534"
-        },
-        "a": {
-          "__bigint__": "151"
-        },
-        "b": "3vY3DvQpBreK7pUYn1Stc4DQ5CKvwJjUzU6PkyeSYsi4",
-        "c": "J12Kh9mD37pyVNfZvuwNSrvHAhtKxcu7jMSksYvVFEK9",
-        "d": {
-          "__bigint__": "25"
-        },
-        "version": 3,
-        "timestamp": 1784113591000,
-        "programId": "AYq6wit51GtB7EqAWtbdEvr4req5Re4corfycXmP1XTe",
-        "signature": "2TzgDPK2ZciXPw364p6qo7FciLrJmXE1wYDDLRCYVNMQZk4mhpUiJTgTveBKzYczuiVp6ED3PGa3ESzgf82M7oJd",
-        "logIndex": 11
-      },
-      {
-        "id": "snap-2TzgDPK2ZciXPw364p6qo7FciLrJmXE1wYDDLRCYVNMQZk4mhpUiJTgTveBKzYczuiVp6ED3PGa3ESzgf82M7oJd-6",
-        "worldId": {
-          "__bigint__": "6"
-        },
-        "entityId": {
-          "__bigint__": "0"
-        },
-        "kind": 39,
-        "kindLabel": "InputBurned",
-        "slot": {
-          "__bigint__": "476422534"
-        },
-        "a": {
-          "__bigint__": "5"
-        },
-        "b": "8Btk6TfNVBN649h6kpK6oPU2AzFMdu2Y95nHF8oJjk9B",
-        "c": "J12Kh9mD37pyVNfZvuwNSrvHAhtKxcu7jMSksYvVFEK9",
-        "d": {
-          "__bigint__": "151"
-        },
-        "version": 3,
-        "timestamp": 1784113591000,
-        "programId": "AYq6wit51GtB7EqAWtbdEvr4req5Re4corfycXmP1XTe",
-        "signature": "2TzgDPK2ZciXPw364p6qo7FciLrJmXE1wYDDLRCYVNMQZk4mhpUiJTgTveBKzYczuiVp6ED3PGa3ESzgf82M7oJd",
-        "logIndex": 6
-      },
-      {
-        "id": "snap-3Hi5hfkAYKi3bPnw7qKUDge9DmGqaCBYnUs6ehJqkjTFxJbMkmHinCRXUjcjdUTvpWexZzMhiMYzCzJMUVQWNWzE-2",
-        "worldId": {
-          "__bigint__": "6"
-        },
-        "entityId": {
-          "__bigint__": "0"
-        },
-        "kind": 7,
-        "kindLabel": "Decayed",
-        "slot": {
-          "__bigint__": "476422529"
-        },
-        "a": {
-          "__bigint__": "0"
-        },
-        "b": "D8RB2VxYahgSvs8xquAd5i2Z9SGrEq7RbBYz8cNotAXM",
-        "c": "BwkABEFinaVRrcN5ohmC9oHpshcem8gGEYYX3tYMp7fq",
-        "d": {
-          "__bigint__": "0"
-        },
-        "version": 3,
-        "timestamp": 1784113589000,
-        "programId": "AYq6wit51GtB7EqAWtbdEvr4req5Re4corfycXmP1XTe",
-        "signature": "3Hi5hfkAYKi3bPnw7qKUDge9DmGqaCBYnUs6ehJqkjTFxJbMkmHinCRXUjcjdUTvpWexZzMhiMYzCzJMUVQWNWzE",
-        "logIndex": 2
-      },
-      {
-        "id": "snap-3bJanURCqDE5pkWzp37HjGhwdm5FZgVZV2ggEkZHJLHaePepsH9UPev172ejfGDmpPDgdFemmwsDJcrrjzUYfAHe-14",
-        "worldId": {
-          "__bigint__": "6"
-        },
-        "entityId": {
-          "__bigint__": "14005"
-        },
-        "kind": 1,
-        "kindLabel": "ValueMoved",
-        "slot": {
-          "__bigint__": "476422515"
-        },
-        "a": {
-          "__bigint__": "6"
-        },
-        "b": "CWfm3cRvLKe4eyx96QbFAYxB43ajni9DgMH2g7BXBxdr",
-        "c": "HASgNQsUMHNRu3LkeiWJbzit5MSWxHXZYjY17p29KhcZ",
-        "d": {
-          "__bigint__": "6"
-        },
-        "version": 3,
-        "timestamp": 1784113584000,
-        "programId": "EhUjtsoGoGpG8rs9CF3rpzfR9PCRHDnKh9qEtRdyHrCn",
-        "signature": "3bJanURCqDE5pkWzp37HjGhwdm5FZgVZV2ggEkZHJLHaePepsH9UPev172ejfGDmpPDgdFemmwsDJcrrjzUYfAHe",
-        "logIndex": 14
-      },
-      {
-        "id": "snap-49Bs7NN2viAwUXj77T17LZ5b2jei8GUuqPULTzLf4grcZqigK34BCPiwqRrb9AwVthsz7E7DGpxYJVe1CRdbeuSn-19",
-        "worldId": {
-          "__bigint__": "6"
-        },
-        "entityId": {
-          "__bigint__": "0"
-        },
-        "kind": 5,
-        "kindLabel": "Produced",
-        "slot": {
-          "__bigint__": "476422511"
-        },
-        "a": {
-          "__bigint__": "166"
-        },
-        "b": "3vY3DvQpBreK7pUYn1Stc4DQ5CKvwJjUzU6PkyeSYsi4",
-        "c": "3mMQSqGa8EtBEA4EquGiLdPEgrKcSuEZcKuUYxRt4D46",
-        "d": {
-          "__bigint__": "6"
-        },
-        "version": 3,
-        "timestamp": 1784113582000,
-        "programId": "AYq6wit51GtB7EqAWtbdEvr4req5Re4corfycXmP1XTe",
-        "signature": "49Bs7NN2viAwUXj77T17LZ5b2jei8GUuqPULTzLf4grcZqigK34BCPiwqRrb9AwVthsz7E7DGpxYJVe1CRdbeuSn",
-        "logIndex": 19
-      },
-      {
-        "id": "snap-49Bs7NN2viAwUXj77T17LZ5b2jei8GUuqPULTzLf4grcZqigK34BCPiwqRrb9AwVthsz7E7DGpxYJVe1CRdbeuSn-14",
-        "worldId": {
-          "__bigint__": "6"
-        },
-        "entityId": {
-          "__bigint__": "0"
-        },
-        "kind": 39,
-        "kindLabel": "InputBurned",
-        "slot": {
-          "__bigint__": "476422511"
-        },
-        "a": {
-          "__bigint__": "4"
-        },
-        "b": "73E1ccrg8RpwgNeSWnAiY5FZn2s7DxRpXK3jyCPvicFx",
-        "c": "3mMQSqGa8EtBEA4EquGiLdPEgrKcSuEZcKuUYxRt4D46",
-        "d": {
-          "__bigint__": "166"
-        },
-        "version": 3,
-        "timestamp": 1784113582000,
-        "programId": "AYq6wit51GtB7EqAWtbdEvr4req5Re4corfycXmP1XTe",
-        "signature": "49Bs7NN2viAwUXj77T17LZ5b2jei8GUuqPULTzLf4grcZqigK34BCPiwqRrb9AwVthsz7E7DGpxYJVe1CRdbeuSn",
-        "logIndex": 14
-      },
-      {
-        "id": "snap-gUdZtPiCMAr6TpuxmnTpVP9i293vcmZY1AmWuebm7at5gJYymQUXeXQi9BgeUPatdAxo2fgL4xKcC76orLfXuVx-2",
-        "worldId": {
-          "__bigint__": "6"
-        },
-        "entityId": {
-          "__bigint__": "0"
-        },
-        "kind": 7,
-        "kindLabel": "Decayed",
-        "slot": {
-          "__bigint__": "476422505"
-        },
-        "a": {
-          "__bigint__": "0"
-        },
-        "b": "8wB6d4FWb8P8QQP2fuDcU5oRQ3vp4e9QV4oRekYoJ9PU",
-        "c": "3mMQSqGa8EtBEA4EquGiLdPEgrKcSuEZcKuUYxRt4D46",
-        "d": {
-          "__bigint__": "0"
-        },
-        "version": 3,
-        "timestamp": 1784113580000,
-        "programId": "AYq6wit51GtB7EqAWtbdEvr4req5Re4corfycXmP1XTe",
-        "signature": "gUdZtPiCMAr6TpuxmnTpVP9i293vcmZY1AmWuebm7at5gJYymQUXeXQi9BgeUPatdAxo2fgL4xKcC76orLfXuVx",
-        "logIndex": 2
-      },
-      {
-        "id": "snap-5oNY32tWYmpwFkAvBp9wbDzv9WP1WKZj2XSs2pTk2LxX3BYUrZxUDrHydEEKEb7Anuu2nBR92zJC35rpvBRCVPbk-2",
-        "worldId": {
-          "__bigint__": "6"
-        },
-        "entityId": {
-          "__bigint__": "0"
-        },
-        "kind": 26,
-        "kindLabel": "EnvironmentTicked",
-        "slot": {
-          "__bigint__": "476422459"
-        },
-        "a": {
-          "__bigint__": "21507539444"
-        },
-        "b": "BCXDPkMzy2wZ1azHJgssSnRqq8PBdQiNAUYDkPcfZYkQ",
-        "c": "11111111111111111111111111111111",
-        "d": {
-          "__bigint__": "0"
-        },
-        "version": 3,
-        "timestamp": 1784113563000,
-        "programId": "AYq6wit51GtB7EqAWtbdEvr4req5Re4corfycXmP1XTe",
-        "signature": "5oNY32tWYmpwFkAvBp9wbDzv9WP1WKZj2XSs2pTk2LxX3BYUrZxUDrHydEEKEb7Anuu2nBR92zJC35rpvBRCVPbk",
-        "logIndex": 2
-      },
-      {
-        "id": "snap-3aposixQkF8RdvtpBJYH3n8s67c238f2vKhfZWuPzuy5pa2iFzRaUg7EWLsHJbD1tXiYtETszEHeCoJF6Qokcbzp-2",
-        "worldId": {
-          "__bigint__": "6"
-        },
-        "entityId": {
-          "__bigint__": "0"
-        },
-        "kind": 26,
-        "kindLabel": "EnvironmentTicked",
-        "slot": {
-          "__bigint__": "476422455"
-        },
-        "a": {
-          "__bigint__": "21507539444"
-        },
-        "b": "EgjzwHZnjM29Xzy6dDchJGibZ7Y78da5qYyfpkCsGmTk",
-        "c": "11111111111111111111111111111111",
-        "d": {
-          "__bigint__": "0"
-        },
-        "version": 3,
-        "timestamp": 1784113562000,
-        "programId": "AYq6wit51GtB7EqAWtbdEvr4req5Re4corfycXmP1XTe",
-        "signature": "3aposixQkF8RdvtpBJYH3n8s67c238f2vKhfZWuPzuy5pa2iFzRaUg7EWLsHJbD1tXiYtETszEHeCoJF6Qokcbzp",
-        "logIndex": 2
-      },
-      {
-        "id": "snap-4nJHVWKeqVKEUSjWzjVxm5AfDnvLJQtSwydCjQZ8d3G6FifDbSqgEiS6NqAmSB9QCrYnkRdE36s4jFDqaQWZwqBn-19",
-        "worldId": {
-          "__bigint__": "6"
-        },
-        "entityId": {
-          "__bigint__": "0"
-        },
-        "kind": 5,
-        "kindLabel": "Produced",
-        "slot": {
-          "__bigint__": "476422442"
-        },
-        "a": {
-          "__bigint__": "162"
-        },
-        "b": "3vY3DvQpBreK7pUYn1Stc4DQ5CKvwJjUzU6PkyeSYsi4",
-        "c": "36wXK8eEzx4pMTuYoW12SGduJ8xaooDp9aAmNq3q547h",
-        "d": {
-          "__bigint__": "7"
-        },
-        "version": 3,
-        "timestamp": 1784113557000,
-        "programId": "AYq6wit51GtB7EqAWtbdEvr4req5Re4corfycXmP1XTe",
-        "signature": "4nJHVWKeqVKEUSjWzjVxm5AfDnvLJQtSwydCjQZ8d3G6FifDbSqgEiS6NqAmSB9QCrYnkRdE36s4jFDqaQWZwqBn",
-        "logIndex": 19
-      },
-      {
-        "id": "snap-4nJHVWKeqVKEUSjWzjVxm5AfDnvLJQtSwydCjQZ8d3G6FifDbSqgEiS6NqAmSB9QCrYnkRdE36s4jFDqaQWZwqBn-14",
-        "worldId": {
-          "__bigint__": "6"
-        },
-        "entityId": {
-          "__bigint__": "0"
-        },
-        "kind": 39,
-        "kindLabel": "InputBurned",
-        "slot": {
-          "__bigint__": "476422442"
-        },
-        "a": {
-          "__bigint__": "10"
-        },
-        "b": "73E1ccrg8RpwgNeSWnAiY5FZn2s7DxRpXK3jyCPvicFx",
-        "c": "36wXK8eEzx4pMTuYoW12SGduJ8xaooDp9aAmNq3q547h",
-        "d": {
-          "__bigint__": "162"
-        },
-        "version": 3,
-        "timestamp": 1784113557000,
-        "programId": "AYq6wit51GtB7EqAWtbdEvr4req5Re4corfycXmP1XTe",
-        "signature": "4nJHVWKeqVKEUSjWzjVxm5AfDnvLJQtSwydCjQZ8d3G6FifDbSqgEiS6NqAmSB9QCrYnkRdE36s4jFDqaQWZwqBn",
-        "logIndex": 14
-      },
-      {
-        "id": "snap-25dzgVh4N18WXHEdopHoQdwe87TQcA9MsXmL5YchEwKfDSF6basXR2umHkw5inByabPkPGQSJL25qqoBD9Dgh3xP-2",
-        "worldId": {
-          "__bigint__": "6"
-        },
-        "entityId": {
-          "__bigint__": "0"
-        },
-        "kind": 7,
-        "kindLabel": "Decayed",
-        "slot": {
-          "__bigint__": "476422437"
-        },
-        "a": {
-          "__bigint__": "0"
-        },
-        "b": "BCXDPkMzy2wZ1azHJgssSnRqq8PBdQiNAUYDkPcfZYkQ",
-        "c": "36wXK8eEzx4pMTuYoW12SGduJ8xaooDp9aAmNq3q547h",
-        "d": {
-          "__bigint__": "0"
-        },
-        "version": 3,
-        "timestamp": 1784113555000,
-        "programId": "AYq6wit51GtB7EqAWtbdEvr4req5Re4corfycXmP1XTe",
-        "signature": "25dzgVh4N18WXHEdopHoQdwe87TQcA9MsXmL5YchEwKfDSF6basXR2umHkw5inByabPkPGQSJL25qqoBD9Dgh3xP",
-        "logIndex": 2
-      },
-      {
-        "id": "snap-2CwTXoaMDPiGCj1iQciqo5X7A6ScJbsuXx32RjmujQymAEt2rAhGzjgD3WAydxBH14Cp7nAR859gAVdytm4hkzBh-2",
-        "worldId": {
-          "__bigint__": "6"
-        },
-        "entityId": {
-          "__bigint__": "0"
-        },
-        "kind": 7,
-        "kindLabel": "Decayed",
-        "slot": {
-          "__bigint__": "476422423"
-        },
-        "a": {
-          "__bigint__": "0"
-        },
-        "b": "EgjzwHZnjM29Xzy6dDchJGibZ7Y78da5qYyfpkCsGmTk",
-        "c": "4aX5PGdjNphGDXKptcTFHthuSHBwDMaVumvsXvssNWV8",
-        "d": {
-          "__bigint__": "0"
-        },
-        "version": 3,
-        "timestamp": 1784113550000,
-        "programId": "AYq6wit51GtB7EqAWtbdEvr4req5Re4corfycXmP1XTe",
-        "signature": "2CwTXoaMDPiGCj1iQciqo5X7A6ScJbsuXx32RjmujQymAEt2rAhGzjgD3WAydxBH14Cp7nAR859gAVdytm4hkzBh",
-        "logIndex": 2
-      },
-      {
-        "id": "snap-61czuDZLfueDgfu9NB7qLmdqmgSBLMFqmLTDcy8apd1nKr6y6JgW9j6Pirk9GwN2vmEZxXqM9HmodjWWWicdP5Pd-14",
-        "worldId": {
-          "__bigint__": "6"
-        },
-        "entityId": {
-          "__bigint__": "14006"
-        },
-        "kind": 1,
-        "kindLabel": "ValueMoved",
-        "slot": {
-          "__bigint__": "476422409"
-        },
-        "a": {
-          "__bigint__": "6"
-        },
-        "b": "CWfm3cRvLKe4eyx96QbFAYxB43ajni9DgMH2g7BXBxdr",
-        "c": "J12Kh9mD37pyVNfZvuwNSrvHAhtKxcu7jMSksYvVFEK9",
-        "d": {
-          "__bigint__": "6"
-        },
-        "version": 3,
-        "timestamp": 1784113545000,
-        "programId": "AYq6wit51GtB7EqAWtbdEvr4req5Re4corfycXmP1XTe",
-        "signature": "61czuDZLfueDgfu9NB7qLmdqmgSBLMFqmLTDcy8apd1nKr6y6JgW9j6Pirk9GwN2vmEZxXqM9HmodjWWWicdP5Pd",
-        "logIndex": 14
-      },
-      {
-        "id": "snap-2wcGdQpTgJmej27RqNv9jKRHZa5wMeEuExo7JkoUedanTPgEwHJx9KdhEaggEY6jUfKrseDoF5qSqSwArRHoozwy-19",
-        "worldId": {
-          "__bigint__": "6"
-        },
-        "entityId": {
-          "__bigint__": "0"
-        },
-        "kind": 5,
-        "kindLabel": "Produced",
-        "slot": {
-          "__bigint__": "476422406"
-        },
-        "a": {
-          "__bigint__": "166"
-        },
-        "b": "3vY3DvQpBreK7pUYn1Stc4DQ5CKvwJjUzU6PkyeSYsi4",
-        "c": "BwkABEFinaVRrcN5ohmC9oHpshcem8gGEYYX3tYMp7fq",
-        "d": {
-          "__bigint__": "6"
-        },
-        "version": 3,
-        "timestamp": 1784113544000,
-        "programId": "AYq6wit51GtB7EqAWtbdEvr4req5Re4corfycXmP1XTe",
-        "signature": "2wcGdQpTgJmej27RqNv9jKRHZa5wMeEuExo7JkoUedanTPgEwHJx9KdhEaggEY6jUfKrseDoF5qSqSwArRHoozwy",
-        "logIndex": 19
-      },
-      {
-        "id": "snap-2wcGdQpTgJmej27RqNv9jKRHZa5wMeEuExo7JkoUedanTPgEwHJx9KdhEaggEY6jUfKrseDoF5qSqSwArRHoozwy-14",
-        "worldId": {
-          "__bigint__": "6"
-        },
-        "entityId": {
-          "__bigint__": "0"
-        },
-        "kind": 39,
-        "kindLabel": "InputBurned",
-        "slot": {
-          "__bigint__": "476422406"
-        },
-        "a": {
-          "__bigint__": "4"
-        },
-        "b": "73E1ccrg8RpwgNeSWnAiY5FZn2s7DxRpXK3jyCPvicFx",
-        "c": "BwkABEFinaVRrcN5ohmC9oHpshcem8gGEYYX3tYMp7fq",
-        "d": {
-          "__bigint__": "166"
-        },
-        "version": 3,
-        "timestamp": 1784113544000,
-        "programId": "AYq6wit51GtB7EqAWtbdEvr4req5Re4corfycXmP1XTe",
-        "signature": "2wcGdQpTgJmej27RqNv9jKRHZa5wMeEuExo7JkoUedanTPgEwHJx9KdhEaggEY6jUfKrseDoF5qSqSwArRHoozwy",
-        "logIndex": 14
-      },
-      {
-        "id": "snap-24TabDxXtX3qdBeMCGXr7VtcJXoKi5F69VSp7n3GXbudTCUmoC2jDPtToMrSXWTbYDwnLd3FBByUxnAmB1HaWKTB-2",
-        "worldId": {
-          "__bigint__": "6"
-        },
-        "entityId": {
-          "__bigint__": "0"
-        },
-        "kind": 7,
-        "kindLabel": "Decayed",
-        "slot": {
-          "__bigint__": "476422400"
-        },
-        "a": {
-          "__bigint__": "0"
-        },
-        "b": "D8RB2VxYahgSvs8xquAd5i2Z9SGrEq7RbBYz8cNotAXM",
-        "c": "BwkABEFinaVRrcN5ohmC9oHpshcem8gGEYYX3tYMp7fq",
-        "d": {
-          "__bigint__": "0"
-        },
-        "version": 3,
-        "timestamp": 1784113542000,
-        "programId": "AYq6wit51GtB7EqAWtbdEvr4req5Re4corfycXmP1XTe",
-        "signature": "24TabDxXtX3qdBeMCGXr7VtcJXoKi5F69VSp7n3GXbudTCUmoC2jDPtToMrSXWTbYDwnLd3FBByUxnAmB1HaWKTB",
-        "logIndex": 2
-      },
-      {
-        "id": "snap-2EhJCwi8pMoWVbu8jzYFuELRXRerKK1nRT2QS89PxvKoqMUevPo1dRsgfF1mytBpzCFCqoTUU4u3Em98288iw6b7-19",
-        "worldId": {
-          "__bigint__": "6"
-        },
-        "entityId": {
-          "__bigint__": "0"
-        },
-        "kind": 5,
-        "kindLabel": "Produced",
-        "slot": {
-          "__bigint__": "476422387"
-        },
-        "a": {
-          "__bigint__": "162"
-        },
-        "b": "3vY3DvQpBreK7pUYn1Stc4DQ5CKvwJjUzU6PkyeSYsi4",
-        "c": "3mMQSqGa8EtBEA4EquGiLdPEgrKcSuEZcKuUYxRt4D46",
-        "d": {
-          "__bigint__": "7"
-        },
-        "version": 3,
-        "timestamp": 1784113537000,
-        "programId": "AYq6wit51GtB7EqAWtbdEvr4req5Re4corfycXmP1XTe",
-        "signature": "2EhJCwi8pMoWVbu8jzYFuELRXRerKK1nRT2QS89PxvKoqMUevPo1dRsgfF1mytBpzCFCqoTUU4u3Em98288iw6b7",
-        "logIndex": 19
-      },
-      {
-        "id": "snap-2EhJCwi8pMoWVbu8jzYFuELRXRerKK1nRT2QS89PxvKoqMUevPo1dRsgfF1mytBpzCFCqoTUU4u3Em98288iw6b7-14",
-        "worldId": {
-          "__bigint__": "6"
-        },
-        "entityId": {
-          "__bigint__": "0"
-        },
-        "kind": 39,
-        "kindLabel": "InputBurned",
-        "slot": {
-          "__bigint__": "476422387"
-        },
-        "a": {
-          "__bigint__": "10"
-        },
-        "b": "73E1ccrg8RpwgNeSWnAiY5FZn2s7DxRpXK3jyCPvicFx",
-        "c": "3mMQSqGa8EtBEA4EquGiLdPEgrKcSuEZcKuUYxRt4D46",
-        "d": {
-          "__bigint__": "162"
-        },
-        "version": 3,
-        "timestamp": 1784113537000,
-        "programId": "AYq6wit51GtB7EqAWtbdEvr4req5Re4corfycXmP1XTe",
-        "signature": "2EhJCwi8pMoWVbu8jzYFuELRXRerKK1nRT2QS89PxvKoqMUevPo1dRsgfF1mytBpzCFCqoTUU4u3Em98288iw6b7",
-        "logIndex": 14
-      },
-      {
-        "id": "snap-2ABmjSSfrgxMG4ugqE9UrB8sq8WEorqnH6om2JeRiDHZ6ENHVRcySpbeEs26mbc2avPCcs5wXJkiXVsHuNLEwvUQ-2",
-        "worldId": {
-          "__bigint__": "6"
-        },
-        "entityId": {
-          "__bigint__": "0"
-        },
-        "kind": 7,
-        "kindLabel": "Decayed",
-        "slot": {
-          "__bigint__": "476422382"
-        },
-        "a": {
-          "__bigint__": "0"
-        },
-        "b": "8wB6d4FWb8P8QQP2fuDcU5oRQ3vp4e9QV4oRekYoJ9PU",
-        "c": "3mMQSqGa8EtBEA4EquGiLdPEgrKcSuEZcKuUYxRt4D46",
-        "d": {
-          "__bigint__": "0"
-        },
-        "version": 3,
-        "timestamp": 1784113535000,
-        "programId": "AYq6wit51GtB7EqAWtbdEvr4req5Re4corfycXmP1XTe",
-        "signature": "2ABmjSSfrgxMG4ugqE9UrB8sq8WEorqnH6om2JeRiDHZ6ENHVRcySpbeEs26mbc2avPCcs5wXJkiXVsHuNLEwvUQ",
-        "logIndex": 2
-      },
-      {
-        "id": "snap-5HXEGkQMgBnxU2PwJ6XCggKg8Y2siTpDJMUn7JJ1JbG4d9Lo98vc5hLbxwiGbLfpArEjLtweScX4FK1vZZzxkF6d-2",
-        "worldId": {
-          "__bigint__": "6"
-        },
-        "entityId": {
-          "__bigint__": "0"
-        },
-        "kind": 26,
-        "kindLabel": "EnvironmentTicked",
-        "slot": {
-          "__bigint__": "476422377"
-        },
-        "a": {
-          "__bigint__": "21507539444"
-        },
-        "b": "BCXDPkMzy2wZ1azHJgssSnRqq8PBdQiNAUYDkPcfZYkQ",
-        "c": "11111111111111111111111111111111",
-        "d": {
-          "__bigint__": "0"
-        },
-        "version": 3,
-        "timestamp": 1784113533000,
-        "programId": "AYq6wit51GtB7EqAWtbdEvr4req5Re4corfycXmP1XTe",
-        "signature": "5HXEGkQMgBnxU2PwJ6XCggKg8Y2siTpDJMUn7JJ1JbG4d9Lo98vc5hLbxwiGbLfpArEjLtweScX4FK1vZZzxkF6d",
-        "logIndex": 2
-      },
-      {
-        "id": "snap-3iiCsFF9t7U7XWxasfDi7gVCebHRqf5rvjFMe4cYPpeFMgEatjdrmZh7q8zZmecfKcYyzeYAQB5qZFyTsJFUSEGo-2",
-        "worldId": {
-          "__bigint__": "6"
-        },
-        "entityId": {
-          "__bigint__": "0"
-        },
-        "kind": 26,
-        "kindLabel": "EnvironmentTicked",
-        "slot": {
-          "__bigint__": "476422373"
-        },
-        "a": {
-          "__bigint__": "21507539444"
-        },
-        "b": "EgjzwHZnjM29Xzy6dDchJGibZ7Y78da5qYyfpkCsGmTk",
-        "c": "11111111111111111111111111111111",
-        "d": {
-          "__bigint__": "0"
-        },
-        "version": 3,
-        "timestamp": 1784113532000,
-        "programId": "AYq6wit51GtB7EqAWtbdEvr4req5Re4corfycXmP1XTe",
-        "signature": "3iiCsFF9t7U7XWxasfDi7gVCebHRqf5rvjFMe4cYPpeFMgEatjdrmZh7q8zZmecfKcYyzeYAQB5qZFyTsJFUSEGo",
-        "logIndex": 2
-      },
-      {
-        "id": "snap-2znBR2LfrXn2b3uwa4Pxts9NH2Dg3JEztKew9Q3azSF13x7gkiS7a29Lwd68GrBgZxPrgyNmWmfYP9HBaDsqt1do-14",
-        "worldId": {
-          "__bigint__": "6"
-        },
-        "entityId": {
-          "__bigint__": "14015"
-        },
-        "kind": 1,
-        "kindLabel": "ValueMoved",
-        "slot": {
-          "__bigint__": "476422334"
-        },
-        "a": {
-          "__bigint__": "6"
-        },
-        "b": "CWfm3cRvLKe4eyx96QbFAYxB43ajni9DgMH2g7BXBxdr",
-        "c": "3SLKmzo4Cn7VkgQo9vKVYoMEbNxFWL7mDqWPB6VRuo9x",
-        "d": {
-          "__bigint__": "6"
-        },
-        "version": 3,
-        "timestamp": 1784113518000,
-        "programId": "EhUjtsoGoGpG8rs9CF3rpzfR9PCRHDnKh9qEtRdyHrCn",
-        "signature": "2znBR2LfrXn2b3uwa4Pxts9NH2Dg3JEztKew9Q3azSF13x7gkiS7a29Lwd68GrBgZxPrgyNmWmfYP9HBaDsqt1do",
-        "logIndex": 14
-      },
-      {
-        "id": "snap-QwkHr2FQ5M9VyoqXsAdRDpo5Y9SWPUEpqoRTxJZGkH836hcjk6mRic5RpH27ykWsBezKfPuNX1xfPygipxhu8yX-19",
-        "worldId": {
-          "__bigint__": "6"
-        },
-        "entityId": {
-          "__bigint__": "0"
-        },
-        "kind": 5,
-        "kindLabel": "Produced",
-        "slot": {
-          "__bigint__": "476422331"
-        },
-        "a": {
-          "__bigint__": "166"
-        },
-        "b": "3vY3DvQpBreK7pUYn1Stc4DQ5CKvwJjUzU6PkyeSYsi4",
-        "c": "36wXK8eEzx4pMTuYoW12SGduJ8xaooDp9aAmNq3q547h",
-        "d": {
-          "__bigint__": "6"
-        },
-        "version": 3,
-        "timestamp": 1784113517000,
-        "programId": "AYq6wit51GtB7EqAWtbdEvr4req5Re4corfycXmP1XTe",
-        "signature": "QwkHr2FQ5M9VyoqXsAdRDpo5Y9SWPUEpqoRTxJZGkH836hcjk6mRic5RpH27ykWsBezKfPuNX1xfPygipxhu8yX",
-        "logIndex": 19
-      },
-      {
-        "id": "snap-QwkHr2FQ5M9VyoqXsAdRDpo5Y9SWPUEpqoRTxJZGkH836hcjk6mRic5RpH27ykWsBezKfPuNX1xfPygipxhu8yX-14",
-        "worldId": {
-          "__bigint__": "6"
-        },
-        "entityId": {
-          "__bigint__": "0"
-        },
-        "kind": 39,
-        "kindLabel": "InputBurned",
-        "slot": {
-          "__bigint__": "476422331"
-        },
-        "a": {
-          "__bigint__": "4"
-        },
-        "b": "73E1ccrg8RpwgNeSWnAiY5FZn2s7DxRpXK3jyCPvicFx",
-        "c": "36wXK8eEzx4pMTuYoW12SGduJ8xaooDp9aAmNq3q547h",
-        "d": {
-          "__bigint__": "166"
-        },
-        "version": 3,
-        "timestamp": 1784113517000,
-        "programId": "AYq6wit51GtB7EqAWtbdEvr4req5Re4corfycXmP1XTe",
-        "signature": "QwkHr2FQ5M9VyoqXsAdRDpo5Y9SWPUEpqoRTxJZGkH836hcjk6mRic5RpH27ykWsBezKfPuNX1xfPygipxhu8yX",
-        "logIndex": 14
-      },
-      {
-        "id": "snap-532Qveecn5XfqdcJRWPgmskDcmkTbtHBzmt8g2kzHQaMGRTzxHP5NtrWHzAuBrZSz9H7osGmCUEQsTYBeRj5VZ62-2",
-        "worldId": {
-          "__bigint__": "6"
-        },
-        "entityId": {
-          "__bigint__": "0"
-        },
-        "kind": 7,
-        "kindLabel": "Decayed",
-        "slot": {
-          "__bigint__": "476422325"
-        },
-        "a": {
-          "__bigint__": "0"
-        },
-        "b": "BCXDPkMzy2wZ1azHJgssSnRqq8PBdQiNAUYDkPcfZYkQ",
-        "c": "36wXK8eEzx4pMTuYoW12SGduJ8xaooDp9aAmNq3q547h",
-        "d": {
-          "__bigint__": "0"
-        },
-        "version": 3,
-        "timestamp": 1784113514000,
-        "programId": "AYq6wit51GtB7EqAWtbdEvr4req5Re4corfycXmP1XTe",
-        "signature": "532Qveecn5XfqdcJRWPgmskDcmkTbtHBzmt8g2kzHQaMGRTzxHP5NtrWHzAuBrZSz9H7osGmCUEQsTYBeRj5VZ62",
-        "logIndex": 2
-      },
-      {
-        "id": "snap-4ubVmvydppS7Ft7jVjEeXLd4Zu7iggj2DGJscp7SCHfQu67y5RfMNDbDAY7LVMQnfUjZK8sqR5cpgcKCJ5rxCypy-14",
-        "worldId": {
-          "__bigint__": "6"
-        },
-        "entityId": {
-          "__bigint__": "14009"
-        },
-        "kind": 1,
-        "kindLabel": "ValueMoved",
-        "slot": {
-          "__bigint__": "476422311"
-        },
-        "a": {
-          "__bigint__": "6"
-        },
-        "b": "CWfm3cRvLKe4eyx96QbFAYxB43ajni9DgMH2g7BXBxdr",
-        "c": "4gt7fvRgYUgxnnMsh8BTwRJm11NNcGHWVN387esd63t7",
-        "d": {
-          "__bigint__": "6"
-        },
-        "version": 3,
-        "timestamp": 1784113509000,
-        "programId": "AYq6wit51GtB7EqAWtbdEvr4req5Re4corfycXmP1XTe",
-        "signature": "4ubVmvydppS7Ft7jVjEeXLd4Zu7iggj2DGJscp7SCHfQu67y5RfMNDbDAY7LVMQnfUjZK8sqR5cpgcKCJ5rxCypy",
-        "logIndex": 14
-      },
-      {
-        "id": "snap-4hsQ5MXBS15851e6NBKBF4KCL9LopSZNqZRFNNuc8YDe4PCpVqqbNtc3Qbh3n2c28MxxG8X132DihhWVXbwq9QwH-19",
-        "worldId": {
-          "__bigint__": "6"
-        },
-        "entityId": {
-          "__bigint__": "0"
-        },
-        "kind": 5,
-        "kindLabel": "Produced",
-        "slot": {
-          "__bigint__": "476422307"
-        },
-        "a": {
-          "__bigint__": "166"
-        },
-        "b": "3vY3DvQpBreK7pUYn1Stc4DQ5CKvwJjUzU6PkyeSYsi4",
-        "c": "4aX5PGdjNphGDXKptcTFHthuSHBwDMaVumvsXvssNWV8",
-        "d": {
-          "__bigint__": "6"
-        },
-        "version": 3,
-        "timestamp": 1784113508000,
-        "programId": "AYq6wit51GtB7EqAWtbdEvr4req5Re4corfycXmP1XTe",
-        "signature": "4hsQ5MXBS15851e6NBKBF4KCL9LopSZNqZRFNNuc8YDe4PCpVqqbNtc3Qbh3n2c28MxxG8X132DihhWVXbwq9QwH",
-        "logIndex": 19
-      },
-      {
-        "id": "snap-4hsQ5MXBS15851e6NBKBF4KCL9LopSZNqZRFNNuc8YDe4PCpVqqbNtc3Qbh3n2c28MxxG8X132DihhWVXbwq9QwH-14",
-        "worldId": {
-          "__bigint__": "6"
-        },
-        "entityId": {
-          "__bigint__": "0"
-        },
-        "kind": 39,
-        "kindLabel": "InputBurned",
-        "slot": {
-          "__bigint__": "476422307"
-        },
-        "a": {
-          "__bigint__": "4"
-        },
-        "b": "73E1ccrg8RpwgNeSWnAiY5FZn2s7DxRpXK3jyCPvicFx",
-        "c": "4aX5PGdjNphGDXKptcTFHthuSHBwDMaVumvsXvssNWV8",
-        "d": {
-          "__bigint__": "166"
-        },
-        "version": 3,
-        "timestamp": 1784113508000,
-        "programId": "AYq6wit51GtB7EqAWtbdEvr4req5Re4corfycXmP1XTe",
-        "signature": "4hsQ5MXBS15851e6NBKBF4KCL9LopSZNqZRFNNuc8YDe4PCpVqqbNtc3Qbh3n2c28MxxG8X132DihhWVXbwq9QwH",
-        "logIndex": 14
-      },
-      {
-        "id": "snap-2cjNbJ3yGWvXcx71NbtMu5yoaNwHyUofUJfS56oKDijLm7G87NNtQrKxhJfAwaEumkKT8gP3fyeK6rP1MASKMUhH-2",
-        "worldId": {
-          "__bigint__": "6"
-        },
-        "entityId": {
-          "__bigint__": "0"
-        },
-        "kind": 7,
-        "kindLabel": "Decayed",
-        "slot": {
-          "__bigint__": "476422302"
-        },
-        "a": {
-          "__bigint__": "0"
-        },
-        "b": "EgjzwHZnjM29Xzy6dDchJGibZ7Y78da5qYyfpkCsGmTk",
-        "c": "4aX5PGdjNphGDXKptcTFHthuSHBwDMaVumvsXvssNWV8",
-        "d": {
-          "__bigint__": "0"
-        },
-        "version": 3,
-        "timestamp": 1784113506000,
-        "programId": "AYq6wit51GtB7EqAWtbdEvr4req5Re4corfycXmP1XTe",
-        "signature": "2cjNbJ3yGWvXcx71NbtMu5yoaNwHyUofUJfS56oKDijLm7G87NNtQrKxhJfAwaEumkKT8gP3fyeK6rP1MASKMUhH",
-        "logIndex": 2
-      },
-      {
-        "id": "snap-2MFkc5x5pdVF8oHzy1GkLKpBoxL2fNpUFuoDHE6jefiABzkrivQWAHmi5Do8Z4b2fodtP2HhMNj3M6EBrHHyPxJ8-2",
-        "worldId": {
-          "__bigint__": "6"
-        },
-        "entityId": {
-          "__bigint__": "0"
-        },
-        "kind": 26,
-        "kindLabel": "EnvironmentTicked",
-        "slot": {
-          "__bigint__": "476422293"
-        },
-        "a": {
-          "__bigint__": "21507539444"
-        },
-        "b": "D8RB2VxYahgSvs8xquAd5i2Z9SGrEq7RbBYz8cNotAXM",
-        "c": "11111111111111111111111111111111",
-        "d": {
-          "__bigint__": "0"
-        },
-        "version": 3,
-        "timestamp": 1784113503000,
-        "programId": "AYq6wit51GtB7EqAWtbdEvr4req5Re4corfycXmP1XTe",
-        "signature": "2MFkc5x5pdVF8oHzy1GkLKpBoxL2fNpUFuoDHE6jefiABzkrivQWAHmi5Do8Z4b2fodtP2HhMNj3M6EBrHHyPxJ8",
-        "logIndex": 2
-      },
-      {
-        "id": "snap-3RGMmujKJyNHt4Rz4zYstoFkST4hV4w2Kyu3Q5qV2vfZvkyqt261NR85jrDhugE7FRYZvx9UoRjoVTtwJciMKSMJ-2",
-        "worldId": {
-          "__bigint__": "6"
-        },
-        "entityId": {
-          "__bigint__": "17001"
-        },
-        "kind": 1,
-        "kindLabel": "ValueMoved",
-        "slot": {
-          "__bigint__": "476422291"
-        },
-        "a": {
-          "__bigint__": "3616132"
-        },
-        "b": "4e9JwztDA3JYbXdV3dJgokC6DkfBMf8hZ5K1rxTNpw4N",
-        "c": "11111111111111111111111111111111",
-        "d": {
-          "__bigint__": "0"
-        },
-        "version": 3,
-        "timestamp": 1784113502000,
-        "programId": "EhUjtsoGoGpG8rs9CF3rpzfR9PCRHDnKh9qEtRdyHrCn",
-        "signature": "3RGMmujKJyNHt4Rz4zYstoFkST4hV4w2Kyu3Q5qV2vfZvkyqt261NR85jrDhugE7FRYZvx9UoRjoVTtwJciMKSMJ",
-        "logIndex": 2
-      },
-      {
-        "id": "snap-3J4qJ1UocUeTN5AFJ8um9uPBCEyuPaEEWGVkHUacsqXjwsWc76gR9QjCEfZNxUVcyQpULLRRk3kef2axsXwwFVQQ-2",
-        "worldId": {
-          "__bigint__": "6"
-        },
-        "entityId": {
-          "__bigint__": "0"
-        },
-        "kind": 26,
-        "kindLabel": "EnvironmentTicked",
-        "slot": {
-          "__bigint__": "476422289"
-        },
-        "a": {
-          "__bigint__": "21507539444"
-        },
-        "b": "8wB6d4FWb8P8QQP2fuDcU5oRQ3vp4e9QV4oRekYoJ9PU",
-        "c": "11111111111111111111111111111111",
-        "d": {
-          "__bigint__": "0"
-        },
-        "version": 3,
-        "timestamp": 1784113501000,
-        "programId": "AYq6wit51GtB7EqAWtbdEvr4req5Re4corfycXmP1XTe",
-        "signature": "3J4qJ1UocUeTN5AFJ8um9uPBCEyuPaEEWGVkHUacsqXjwsWc76gR9QjCEfZNxUVcyQpULLRRk3kef2axsXwwFVQQ",
-        "logIndex": 2
-      },
-      {
-        "id": "snap-3qyU4aZ47eVwBybGMHgLD6bLsvv4jbnwtR7DkUbAMWktb5Z1pZg49mVSBUDxrhEPd4ieJdt8WNm796hoZPBZXbkM-19",
-        "worldId": {
-          "__bigint__": "6"
-        },
-        "entityId": {
-          "__bigint__": "0"
-        },
-        "kind": 5,
-        "kindLabel": "Produced",
-        "slot": {
-          "__bigint__": "476422288"
-        },
-        "a": {
-          "__bigint__": "162"
-        },
-        "b": "3vY3DvQpBreK7pUYn1Stc4DQ5CKvwJjUzU6PkyeSYsi4",
-        "c": "BwkABEFinaVRrcN5ohmC9oHpshcem8gGEYYX3tYMp7fq",
-        "d": {
-          "__bigint__": "7"
-        },
-        "version": 3,
-        "timestamp": 1784113501000,
-        "programId": "AYq6wit51GtB7EqAWtbdEvr4req5Re4corfycXmP1XTe",
-        "signature": "3qyU4aZ47eVwBybGMHgLD6bLsvv4jbnwtR7DkUbAMWktb5Z1pZg49mVSBUDxrhEPd4ieJdt8WNm796hoZPBZXbkM",
-        "logIndex": 19
-      },
-      {
-        "id": "snap-3qyU4aZ47eVwBybGMHgLD6bLsvv4jbnwtR7DkUbAMWktb5Z1pZg49mVSBUDxrhEPd4ieJdt8WNm796hoZPBZXbkM-14",
-        "worldId": {
-          "__bigint__": "6"
-        },
-        "entityId": {
-          "__bigint__": "0"
-        },
-        "kind": 39,
-        "kindLabel": "InputBurned",
-        "slot": {
-          "__bigint__": "476422288"
-        },
-        "a": {
-          "__bigint__": "10"
-        },
-        "b": "73E1ccrg8RpwgNeSWnAiY5FZn2s7DxRpXK3jyCPvicFx",
-        "c": "BwkABEFinaVRrcN5ohmC9oHpshcem8gGEYYX3tYMp7fq",
-        "d": {
-          "__bigint__": "162"
-        },
-        "version": 3,
-        "timestamp": 1784113501000,
-        "programId": "AYq6wit51GtB7EqAWtbdEvr4req5Re4corfycXmP1XTe",
-        "signature": "3qyU4aZ47eVwBybGMHgLD6bLsvv4jbnwtR7DkUbAMWktb5Z1pZg49mVSBUDxrhEPd4ieJdt8WNm796hoZPBZXbkM",
-        "logIndex": 14
-      },
-      {
-        "id": "snap-4c5ZtkaQXBAbBA74UtciEHeMgr5NzUw2hBov3ecYC9R4AAPksu4vNtM3WY32jREdVnc3P6yYDjfgoH87WBBimM3J-2",
-        "worldId": {
-          "__bigint__": "6"
-        },
-        "entityId": {
-          "__bigint__": "0"
-        },
-        "kind": 7,
-        "kindLabel": "Decayed",
-        "slot": {
-          "__bigint__": "476422283"
-        },
-        "a": {
-          "__bigint__": "0"
-        },
-        "b": "D8RB2VxYahgSvs8xquAd5i2Z9SGrEq7RbBYz8cNotAXM",
-        "c": "BwkABEFinaVRrcN5ohmC9oHpshcem8gGEYYX3tYMp7fq",
-        "d": {
-          "__bigint__": "0"
-        },
-        "version": 3,
-        "timestamp": 1784113499000,
-        "programId": "AYq6wit51GtB7EqAWtbdEvr4req5Re4corfycXmP1XTe",
-        "signature": "4c5ZtkaQXBAbBA74UtciEHeMgr5NzUw2hBov3ecYC9R4AAPksu4vNtM3WY32jREdVnc3P6yYDjfgoH87WBBimM3J",
-        "logIndex": 2
-      },
-      {
-        "id": "snap-63fEoFo1LHX2xhew74VwSLvxPjsAm1edPTwHeHhGnzgy1yCAGywwoX9N8wGE4BBJoM5CVsuFeSvhL6ZehNwMjbLa-14",
-        "worldId": {
-          "__bigint__": "6"
-        },
-        "entityId": {
-          "__bigint__": "14005"
-        },
-        "kind": 1,
-        "kindLabel": "ValueMoved",
-        "slot": {
-          "__bigint__": "476422269"
-        },
-        "a": {
-          "__bigint__": "6"
-        },
-        "b": "CWfm3cRvLKe4eyx96QbFAYxB43ajni9DgMH2g7BXBxdr",
-        "c": "HASgNQsUMHNRu3LkeiWJbzit5MSWxHXZYjY17p29KhcZ",
-        "d": {
-          "__bigint__": "6"
-        },
-        "version": 3,
-        "timestamp": 1784113494000,
-        "programId": "EhUjtsoGoGpG8rs9CF3rpzfR9PCRHDnKh9qEtRdyHrCn",
-        "signature": "63fEoFo1LHX2xhew74VwSLvxPjsAm1edPTwHeHhGnzgy1yCAGywwoX9N8wGE4BBJoM5CVsuFeSvhL6ZehNwMjbLa",
-        "logIndex": 14
-      },
-      {
-        "id": "snap-4s2BR9WZuwzNDCB8DEJxAhXgGmaoaRo2KvJD6cyWkEq5gm7yE4wGHE4Nak3yKTaWCpVf5wgJM1KpA78ScXpEiyCE-19",
-        "worldId": {
-          "__bigint__": "6"
-        },
-        "entityId": {
-          "__bigint__": "0"
-        },
-        "kind": 5,
-        "kindLabel": "Produced",
-        "slot": {
-          "__bigint__": "476422264"
-        },
-        "a": {
-          "__bigint__": "166"
-        },
-        "b": "3vY3DvQpBreK7pUYn1Stc4DQ5CKvwJjUzU6PkyeSYsi4",
-        "c": "3mMQSqGa8EtBEA4EquGiLdPEgrKcSuEZcKuUYxRt4D46",
-        "d": {
-          "__bigint__": "6"
-        },
-        "version": 3,
-        "timestamp": 1784113492000,
-        "programId": "AYq6wit51GtB7EqAWtbdEvr4req5Re4corfycXmP1XTe",
-        "signature": "4s2BR9WZuwzNDCB8DEJxAhXgGmaoaRo2KvJD6cyWkEq5gm7yE4wGHE4Nak3yKTaWCpVf5wgJM1KpA78ScXpEiyCE",
-        "logIndex": 19
       }
     ],
-    "fetchedAt": 1784114299999,
+    "fetchedAt": 1784114427059,
     "rpcUrl": "https://devnet.helius-rpc.com/",
     "rpcReachable": false
   },
@@ -10678,21 +10714,461 @@
       "body": {
         "ok": true,
         "dbPath": "/Users/hassan/gawpie-exchange/packages/indexer/data/indexer.db",
-        "totalEvents": 10079,
-        "lastEventBlockTime": 1784114266,
-        "lastEventAgeSec": 33,
-        "eventsLast5Min": 100,
+        "totalEvents": 10127,
+        "lastEventBlockTime": 1784114403,
+        "lastEventAgeSec": 23,
+        "eventsLast5Min": 107,
         "dbLagSlots": null,
         "keepersAliveAgeSec": null,
         "livingAgents": null,
         "totalAgents": null,
-        "producedLastHour": 235,
-        "chainNowBlockTime": 1784114266
+        "producedLastHour": 246,
+        "chainNowBlockTime": 1784114403
       }
     },
     "/world/6/pulse": {
       "status": 200,
       "body": [
+        {
+          "templateId": "Produced.v3",
+          "text": "Pico (#17007) produced 6 — green manure",
+          "parts": {
+            "specId": "166",
+            "recipe": "GREEN_MANURE_V1",
+            "mintAuthority": "3vY3DvQpBreK7pUYn1Stc4DQ5CKvwJjUzU6PkyeSYsi4",
+            "mintAuthorityShort": "3vY3DvQp…Ysi4",
+            "producerWallet": "36wXK8eEzx4pMTuYoW12SGduJ8xaooDp9aAmNq3q547h",
+            "producerWalletShort": "36wXK8eE…547h",
+            "realizedAmount": "6",
+            "agent": "Pico (#17007)"
+          },
+          "receipts": [
+            "57SemZrf9c56NBQ99CtyotdoitAvVZPRdpLiED5W1ngZUuQ9Z6pbHTNqwQLraUG4uriy73PCX2ZWbtBqRGcTunFc"
+          ],
+          "slot": "476424780",
+          "kindCode": 5,
+          "entityId": "0"
+        },
+        {
+          "templateId": "InputBurned",
+          "text": "Pico (#17007) used up 4 (73E1ccrg…icFx) while producing — green manure",
+          "parts": {
+            "burned": "4",
+            "mint": "73E1ccrg8RpwgNeSWnAiY5FZn2s7DxRpXK3jyCPvicFx",
+            "mintShort": "73E1ccrg…icFx",
+            "producerWallet": "36wXK8eEzx4pMTuYoW12SGduJ8xaooDp9aAmNq3q547h",
+            "producerWalletShort": "36wXK8eE…547h",
+            "specId": "166",
+            "recipe": "GREEN_MANURE_V1",
+            "agent": "Pico (#17007)"
+          },
+          "receipts": [
+            "57SemZrf9c56NBQ99CtyotdoitAvVZPRdpLiED5W1ngZUuQ9Z6pbHTNqwQLraUG4uriy73PCX2ZWbtBqRGcTunFc"
+          ],
+          "slot": "476424780",
+          "kindCode": 39,
+          "entityId": "0"
+        },
+        {
+          "templateId": "Produced.v3",
+          "text": "Mirri (#17005) produced 6 — green manure",
+          "parts": {
+            "specId": "166",
+            "recipe": "GREEN_MANURE_V1",
+            "mintAuthority": "3vY3DvQpBreK7pUYn1Stc4DQ5CKvwJjUzU6PkyeSYsi4",
+            "mintAuthorityShort": "3vY3DvQp…Ysi4",
+            "producerWallet": "4aX5PGdjNphGDXKptcTFHthuSHBwDMaVumvsXvssNWV8",
+            "producerWalletShort": "4aX5PGdj…NWV8",
+            "realizedAmount": "6",
+            "agent": "Mirri (#17005)"
+          },
+          "receipts": [
+            "2hC7U97ZuBFPAF9kmEfV9Ejda1hE6bfEcQtG8PNjjxzuEjMtHXaNfRrwv7NS9gciRu2CjecwopgHrfqchSx4Tdzt"
+          ],
+          "slot": "476424756",
+          "kindCode": 5,
+          "entityId": "0"
+        },
+        {
+          "templateId": "InputBurned",
+          "text": "Mirri (#17005) used up 4 (73E1ccrg…icFx) while producing — green manure",
+          "parts": {
+            "burned": "4",
+            "mint": "73E1ccrg8RpwgNeSWnAiY5FZn2s7DxRpXK3jyCPvicFx",
+            "mintShort": "73E1ccrg…icFx",
+            "producerWallet": "4aX5PGdjNphGDXKptcTFHthuSHBwDMaVumvsXvssNWV8",
+            "producerWalletShort": "4aX5PGdj…NWV8",
+            "specId": "166",
+            "recipe": "GREEN_MANURE_V1",
+            "agent": "Mirri (#17005)"
+          },
+          "receipts": [
+            "2hC7U97ZuBFPAF9kmEfV9Ejda1hE6bfEcQtG8PNjjxzuEjMtHXaNfRrwv7NS9gciRu2CjecwopgHrfqchSx4Tdzt"
+          ],
+          "slot": "476424756",
+          "kindCode": 39,
+          "entityId": "0"
+        },
+        {
+          "templateId": "Produced.v3",
+          "text": "Drey (#17001) milled 7 flour",
+          "parts": {
+            "specId": "162",
+            "recipe": "MILL_FLOUR_V1",
+            "mintAuthority": "3vY3DvQpBreK7pUYn1Stc4DQ5CKvwJjUzU6PkyeSYsi4",
+            "mintAuthorityShort": "3vY3DvQp…Ysi4",
+            "producerWallet": "3mMQSqGa8EtBEA4EquGiLdPEgrKcSuEZcKuUYxRt4D46",
+            "producerWalletShort": "3mMQSqGa…4D46",
+            "realizedAmount": "7",
+            "agent": "Drey (#17001)"
+          },
+          "receipts": [
+            "5W1nXzYyPNwnetFV2heSMQq2kVtfCXUmNozF6bqTWpTtFxv9UYKoGjz5AV5yfoyNeERkTuowCnVoEN5yv73sVWYr"
+          ],
+          "slot": "476424723",
+          "kindCode": 5,
+          "entityId": "0"
+        },
+        {
+          "templateId": "InputBurned",
+          "text": "Drey (#17001) used up 10 (73E1ccrg…icFx) while producing — mill flour",
+          "parts": {
+            "burned": "10",
+            "mint": "73E1ccrg8RpwgNeSWnAiY5FZn2s7DxRpXK3jyCPvicFx",
+            "mintShort": "73E1ccrg…icFx",
+            "producerWallet": "3mMQSqGa8EtBEA4EquGiLdPEgrKcSuEZcKuUYxRt4D46",
+            "producerWalletShort": "3mMQSqGa…4D46",
+            "specId": "162",
+            "recipe": "MILL_FLOUR_V1",
+            "agent": "Drey (#17001)"
+          },
+          "receipts": [
+            "5W1nXzYyPNwnetFV2heSMQq2kVtfCXUmNozF6bqTWpTtFxv9UYKoGjz5AV5yfoyNeERkTuowCnVoEN5yv73sVWYr"
+          ],
+          "slot": "476424723",
+          "kindCode": 39,
+          "entityId": "0"
+        },
+        {
+          "templateId": "Produced.v3",
+          "text": "Pico (#17007) milled 7 flour",
+          "parts": {
+            "specId": "162",
+            "recipe": "MILL_FLOUR_V1",
+            "mintAuthority": "3vY3DvQpBreK7pUYn1Stc4DQ5CKvwJjUzU6PkyeSYsi4",
+            "mintAuthorityShort": "3vY3DvQp…Ysi4",
+            "producerWallet": "36wXK8eEzx4pMTuYoW12SGduJ8xaooDp9aAmNq3q547h",
+            "producerWalletShort": "36wXK8eE…547h",
+            "realizedAmount": "7",
+            "agent": "Pico (#17007)"
+          },
+          "receipts": [
+            "2qxwjzNKEGCv3qYGsZoNtdNxX4EpxysZB3Qj3KG4ywZZMckqavNCgXgsUhzLsrJGaSHh9vgZWF92zgXXVixc2hGG"
+          ],
+          "slot": "476424659",
+          "kindCode": 5,
+          "entityId": "0"
+        },
+        {
+          "templateId": "InputBurned",
+          "text": "Pico (#17007) used up 10 (73E1ccrg…icFx) while producing — mill flour",
+          "parts": {
+            "burned": "10",
+            "mint": "73E1ccrg8RpwgNeSWnAiY5FZn2s7DxRpXK3jyCPvicFx",
+            "mintShort": "73E1ccrg…icFx",
+            "producerWallet": "36wXK8eEzx4pMTuYoW12SGduJ8xaooDp9aAmNq3q547h",
+            "producerWalletShort": "36wXK8eE…547h",
+            "specId": "162",
+            "recipe": "MILL_FLOUR_V1",
+            "agent": "Pico (#17007)"
+          },
+          "receipts": [
+            "2qxwjzNKEGCv3qYGsZoNtdNxX4EpxysZB3Qj3KG4ywZZMckqavNCgXgsUhzLsrJGaSHh9vgZWF92zgXXVixc2hGG"
+          ],
+          "slot": "476424659",
+          "kindCode": 39,
+          "entityId": "0"
+        },
+        {
+          "templateId": "Produced.v3",
+          "text": "PLOT-ASH-1 (#14009) farmed 24 crops",
+          "parts": {
+            "specId": "151",
+            "recipe": "FARM_CROPS_V1",
+            "mintAuthority": "3vY3DvQpBreK7pUYn1Stc4DQ5CKvwJjUzU6PkyeSYsi4",
+            "mintAuthorityShort": "3vY3DvQp…Ysi4",
+            "producerWallet": "4gt7fvRgYUgxnnMsh8BTwRJm11NNcGHWVN387esd63t7",
+            "producerWalletShort": "4gt7fvRg…63t7",
+            "realizedAmount": "24",
+            "agent": "PLOT-ASH-1 (#14009)"
+          },
+          "receipts": [
+            "62RXvijvKLNCeshUUQEc8ANun26hoouR8HJnAgyrQPyxr2k3FT3gw6wUwqcAZ5iNdVKLfvnSYYFMk7vNCyryo1FE"
+          ],
+          "slot": "476424639",
+          "kindCode": 5,
+          "entityId": "0"
+        },
+        {
+          "templateId": "InputBurned",
+          "text": "PLOT-ASH-1 (#14009) used up 5 (8Btk6TfN…jk9B) while producing — farm crops",
+          "parts": {
+            "burned": "5",
+            "mint": "8Btk6TfNVBN649h6kpK6oPU2AzFMdu2Y95nHF8oJjk9B",
+            "mintShort": "8Btk6TfN…jk9B",
+            "producerWallet": "4gt7fvRgYUgxnnMsh8BTwRJm11NNcGHWVN387esd63t7",
+            "producerWalletShort": "4gt7fvRg…63t7",
+            "specId": "151",
+            "recipe": "FARM_CROPS_V1",
+            "agent": "PLOT-ASH-1 (#14009)"
+          },
+          "receipts": [
+            "62RXvijvKLNCeshUUQEc8ANun26hoouR8HJnAgyrQPyxr2k3FT3gw6wUwqcAZ5iNdVKLfvnSYYFMk7vNCyryo1FE"
+          ],
+          "slot": "476424639",
+          "kindCode": 39,
+          "entityId": "0"
+        },
+        {
+          "templateId": "Produced.v3",
+          "text": "Hobb (#17002) milled 7 flour",
+          "parts": {
+            "specId": "162",
+            "recipe": "MILL_FLOUR_V1",
+            "mintAuthority": "3vY3DvQpBreK7pUYn1Stc4DQ5CKvwJjUzU6PkyeSYsi4",
+            "mintAuthorityShort": "3vY3DvQp…Ysi4",
+            "producerWallet": "BwkABEFinaVRrcN5ohmC9oHpshcem8gGEYYX3tYMp7fq",
+            "producerWalletShort": "BwkABEFi…p7fq",
+            "realizedAmount": "7",
+            "agent": "Hobb (#17002)"
+          },
+          "receipts": [
+            "n8tN8Av8YFy3uRntavi9wcpEyCiqeLRKUbiqA2UEqhwugdo8kqYoVTQPj5Nd7PBHxuTmYUcqSnDDsrGRSPPREEe"
+          ],
+          "slot": "476424621",
+          "kindCode": 5,
+          "entityId": "0"
+        },
+        {
+          "templateId": "InputBurned",
+          "text": "Hobb (#17002) used up 10 (73E1ccrg…icFx) while producing — mill flour",
+          "parts": {
+            "burned": "10",
+            "mint": "73E1ccrg8RpwgNeSWnAiY5FZn2s7DxRpXK3jyCPvicFx",
+            "mintShort": "73E1ccrg…icFx",
+            "producerWallet": "BwkABEFinaVRrcN5ohmC9oHpshcem8gGEYYX3tYMp7fq",
+            "producerWalletShort": "BwkABEFi…p7fq",
+            "specId": "162",
+            "recipe": "MILL_FLOUR_V1",
+            "agent": "Hobb (#17002)"
+          },
+          "receipts": [
+            "n8tN8Av8YFy3uRntavi9wcpEyCiqeLRKUbiqA2UEqhwugdo8kqYoVTQPj5Nd7PBHxuTmYUcqSnDDsrGRSPPREEe"
+          ],
+          "slot": "476424621",
+          "kindCode": 39,
+          "entityId": "0"
+        },
+        {
+          "templateId": "Produced.v3",
+          "text": "Drey (#17001) produced 6 — green manure",
+          "parts": {
+            "specId": "166",
+            "recipe": "GREEN_MANURE_V1",
+            "mintAuthority": "3vY3DvQpBreK7pUYn1Stc4DQ5CKvwJjUzU6PkyeSYsi4",
+            "mintAuthorityShort": "3vY3DvQp…Ysi4",
+            "producerWallet": "3mMQSqGa8EtBEA4EquGiLdPEgrKcSuEZcKuUYxRt4D46",
+            "producerWalletShort": "3mMQSqGa…4D46",
+            "realizedAmount": "6",
+            "agent": "Drey (#17001)"
+          },
+          "receipts": [
+            "2ea1aCdg1bf5c1tvUVnPm2i4hKxrxq9GHfKd2eZBaR7EmPDfNB44TiRg2t2pqJtb2qJKPnaubRES5tPogZLGa4AS"
+          ],
+          "slot": "476424599",
+          "kindCode": 5,
+          "entityId": "0"
+        },
+        {
+          "templateId": "InputBurned",
+          "text": "Drey (#17001) used up 4 (73E1ccrg…icFx) while producing — green manure",
+          "parts": {
+            "burned": "4",
+            "mint": "73E1ccrg8RpwgNeSWnAiY5FZn2s7DxRpXK3jyCPvicFx",
+            "mintShort": "73E1ccrg…icFx",
+            "producerWallet": "3mMQSqGa8EtBEA4EquGiLdPEgrKcSuEZcKuUYxRt4D46",
+            "producerWalletShort": "3mMQSqGa…4D46",
+            "specId": "166",
+            "recipe": "GREEN_MANURE_V1",
+            "agent": "Drey (#17001)"
+          },
+          "receipts": [
+            "2ea1aCdg1bf5c1tvUVnPm2i4hKxrxq9GHfKd2eZBaR7EmPDfNB44TiRg2t2pqJtb2qJKPnaubRES5tPogZLGa4AS"
+          ],
+          "slot": "476424599",
+          "kindCode": 39,
+          "entityId": "0"
+        },
+        {
+          "templateId": "Produced.v3",
+          "text": "Pico (#17007) produced 6 — green manure",
+          "parts": {
+            "specId": "166",
+            "recipe": "GREEN_MANURE_V1",
+            "mintAuthority": "3vY3DvQpBreK7pUYn1Stc4DQ5CKvwJjUzU6PkyeSYsi4",
+            "mintAuthorityShort": "3vY3DvQp…Ysi4",
+            "producerWallet": "36wXK8eEzx4pMTuYoW12SGduJ8xaooDp9aAmNq3q547h",
+            "producerWalletShort": "36wXK8eE…547h",
+            "realizedAmount": "6",
+            "agent": "Pico (#17007)"
+          },
+          "receipts": [
+            "4FMgguMMWTZQB2C98a6va4QiVnXGtPLbJE7eQbwKN3AxzJZ68TQNajAejkbVxde3oyVooLurKsQVc29vhB8pFp7F"
+          ],
+          "slot": "476424544",
+          "kindCode": 5,
+          "entityId": "0"
+        },
+        {
+          "templateId": "InputBurned",
+          "text": "Pico (#17007) used up 4 (73E1ccrg…icFx) while producing — green manure",
+          "parts": {
+            "burned": "4",
+            "mint": "73E1ccrg8RpwgNeSWnAiY5FZn2s7DxRpXK3jyCPvicFx",
+            "mintShort": "73E1ccrg…icFx",
+            "producerWallet": "36wXK8eEzx4pMTuYoW12SGduJ8xaooDp9aAmNq3q547h",
+            "producerWalletShort": "36wXK8eE…547h",
+            "specId": "166",
+            "recipe": "GREEN_MANURE_V1",
+            "agent": "Pico (#17007)"
+          },
+          "receipts": [
+            "4FMgguMMWTZQB2C98a6va4QiVnXGtPLbJE7eQbwKN3AxzJZ68TQNajAejkbVxde3oyVooLurKsQVc29vhB8pFp7F"
+          ],
+          "slot": "476424544",
+          "kindCode": 39,
+          "entityId": "0"
+        },
+        {
+          "templateId": "Produced.v3",
+          "text": "Mirri (#17005) produced 6 — green manure",
+          "parts": {
+            "specId": "166",
+            "recipe": "GREEN_MANURE_V1",
+            "mintAuthority": "3vY3DvQpBreK7pUYn1Stc4DQ5CKvwJjUzU6PkyeSYsi4",
+            "mintAuthorityShort": "3vY3DvQp…Ysi4",
+            "producerWallet": "4aX5PGdjNphGDXKptcTFHthuSHBwDMaVumvsXvssNWV8",
+            "producerWalletShort": "4aX5PGdj…NWV8",
+            "realizedAmount": "6",
+            "agent": "Mirri (#17005)"
+          },
+          "receipts": [
+            "XpcHbkj4WTTAtBkZoSgYz8phBRqSTwTHQvRk9QYTcEBX7aLeiFft4nBs9VHdNwGGJfUnLYB7TCcUk6RAywYgUc7"
+          ],
+          "slot": "476424519",
+          "kindCode": 5,
+          "entityId": "0"
+        },
+        {
+          "templateId": "InputBurned",
+          "text": "Mirri (#17005) used up 4 (73E1ccrg…icFx) while producing — green manure",
+          "parts": {
+            "burned": "4",
+            "mint": "73E1ccrg8RpwgNeSWnAiY5FZn2s7DxRpXK3jyCPvicFx",
+            "mintShort": "73E1ccrg…icFx",
+            "producerWallet": "4aX5PGdjNphGDXKptcTFHthuSHBwDMaVumvsXvssNWV8",
+            "producerWalletShort": "4aX5PGdj…NWV8",
+            "specId": "166",
+            "recipe": "GREEN_MANURE_V1",
+            "agent": "Mirri (#17005)"
+          },
+          "receipts": [
+            "XpcHbkj4WTTAtBkZoSgYz8phBRqSTwTHQvRk9QYTcEBX7aLeiFft4nBs9VHdNwGGJfUnLYB7TCcUk6RAywYgUc7"
+          ],
+          "slot": "476424519",
+          "kindCode": 39,
+          "entityId": "0"
+        },
+        {
+          "templateId": "Produced.v3",
+          "text": "Hobb (#17002) produced 6 — green manure",
+          "parts": {
+            "specId": "166",
+            "recipe": "GREEN_MANURE_V1",
+            "mintAuthority": "3vY3DvQpBreK7pUYn1Stc4DQ5CKvwJjUzU6PkyeSYsi4",
+            "mintAuthorityShort": "3vY3DvQp…Ysi4",
+            "producerWallet": "BwkABEFinaVRrcN5ohmC9oHpshcem8gGEYYX3tYMp7fq",
+            "producerWalletShort": "BwkABEFi…p7fq",
+            "realizedAmount": "6",
+            "agent": "Hobb (#17002)"
+          },
+          "receipts": [
+            "5pVVng8pewtYuzC6zgfK525WaFEqgwzzv3gWJY1SdK2Yyv2qC4f4S9QoU4VgKQWWEju3HddEDRFvx24x1NYpA9cA"
+          ],
+          "slot": "476424495",
+          "kindCode": 5,
+          "entityId": "0"
+        },
+        {
+          "templateId": "InputBurned",
+          "text": "Hobb (#17002) used up 4 (73E1ccrg…icFx) while producing — green manure",
+          "parts": {
+            "burned": "4",
+            "mint": "73E1ccrg8RpwgNeSWnAiY5FZn2s7DxRpXK3jyCPvicFx",
+            "mintShort": "73E1ccrg…icFx",
+            "producerWallet": "BwkABEFinaVRrcN5ohmC9oHpshcem8gGEYYX3tYMp7fq",
+            "producerWalletShort": "BwkABEFi…p7fq",
+            "specId": "166",
+            "recipe": "GREEN_MANURE_V1",
+            "agent": "Hobb (#17002)"
+          },
+          "receipts": [
+            "5pVVng8pewtYuzC6zgfK525WaFEqgwzzv3gWJY1SdK2Yyv2qC4f4S9QoU4VgKQWWEju3HddEDRFvx24x1NYpA9cA"
+          ],
+          "slot": "476424495",
+          "kindCode": 39,
+          "entityId": "0"
+        },
+        {
+          "templateId": "Produced.v3",
+          "text": "Drey (#17001) milled 7 flour",
+          "parts": {
+            "specId": "162",
+            "recipe": "MILL_FLOUR_V1",
+            "mintAuthority": "3vY3DvQpBreK7pUYn1Stc4DQ5CKvwJjUzU6PkyeSYsi4",
+            "mintAuthorityShort": "3vY3DvQp…Ysi4",
+            "producerWallet": "3mMQSqGa8EtBEA4EquGiLdPEgrKcSuEZcKuUYxRt4D46",
+            "producerWalletShort": "3mMQSqGa…4D46",
+            "realizedAmount": "7",
+            "agent": "Drey (#17001)"
+          },
+          "receipts": [
+            "29JxUi8HjKw2gotMgyM2jTxQUFAk3FuMR47XiQ2PCLmJio668Yx2yMS5rUZenS416ZvQF8hutb1J7mYuwKSZT75X"
+          ],
+          "slot": "476424476",
+          "kindCode": 5,
+          "entityId": "0"
+        },
+        {
+          "templateId": "InputBurned",
+          "text": "Drey (#17001) used up 10 (73E1ccrg…icFx) while producing — mill flour",
+          "parts": {
+            "burned": "10",
+            "mint": "73E1ccrg8RpwgNeSWnAiY5FZn2s7DxRpXK3jyCPvicFx",
+            "mintShort": "73E1ccrg…icFx",
+            "producerWallet": "3mMQSqGa8EtBEA4EquGiLdPEgrKcSuEZcKuUYxRt4D46",
+            "producerWalletShort": "3mMQSqGa…4D46",
+            "specId": "162",
+            "recipe": "MILL_FLOUR_V1",
+            "agent": "Drey (#17001)"
+          },
+          "receipts": [
+            "29JxUi8HjKw2gotMgyM2jTxQUFAk3FuMR47XiQ2PCLmJio668Yx2yMS5rUZenS416ZvQF8hutb1J7mYuwKSZT75X"
+          ],
+          "slot": "476424476",
+          "kindCode": 39,
+          "entityId": "0"
+        },
         {
           "templateId": "Produced.v3",
           "text": "PLOT-CRAG-3 (#14015) farmed 24 crops",
@@ -10852,446 +11328,6 @@
           "slot": "476424355",
           "kindCode": 39,
           "entityId": "0"
-        },
-        {
-          "templateId": "Produced.v3",
-          "text": "Mirri (#17005) produced 6 — green manure",
-          "parts": {
-            "specId": "166",
-            "recipe": "GREEN_MANURE_V1",
-            "mintAuthority": "3vY3DvQpBreK7pUYn1Stc4DQ5CKvwJjUzU6PkyeSYsi4",
-            "mintAuthorityShort": "3vY3DvQp…Ysi4",
-            "producerWallet": "4aX5PGdjNphGDXKptcTFHthuSHBwDMaVumvsXvssNWV8",
-            "producerWalletShort": "4aX5PGdj…NWV8",
-            "realizedAmount": "6",
-            "agent": "Mirri (#17005)"
-          },
-          "receipts": [
-            "4TyFaot4qzxf6MgRU4bdPbPFNTa14yWBumi8ZHM8VMRCfE63H8FySMpcucFkwDXkiCJuWgkuj2MP6us9UKTK2Rr8"
-          ],
-          "slot": "476424273",
-          "kindCode": 5,
-          "entityId": "0"
-        },
-        {
-          "templateId": "InputBurned",
-          "text": "Mirri (#17005) used up 4 (73E1ccrg…icFx) while producing — green manure",
-          "parts": {
-            "burned": "4",
-            "mint": "73E1ccrg8RpwgNeSWnAiY5FZn2s7DxRpXK3jyCPvicFx",
-            "mintShort": "73E1ccrg…icFx",
-            "producerWallet": "4aX5PGdjNphGDXKptcTFHthuSHBwDMaVumvsXvssNWV8",
-            "producerWalletShort": "4aX5PGdj…NWV8",
-            "specId": "166",
-            "recipe": "GREEN_MANURE_V1",
-            "agent": "Mirri (#17005)"
-          },
-          "receipts": [
-            "4TyFaot4qzxf6MgRU4bdPbPFNTa14yWBumi8ZHM8VMRCfE63H8FySMpcucFkwDXkiCJuWgkuj2MP6us9UKTK2Rr8"
-          ],
-          "slot": "476424273",
-          "kindCode": 39,
-          "entityId": "0"
-        },
-        {
-          "templateId": "Produced.v3",
-          "text": "Hobb (#17002) produced 6 — green manure",
-          "parts": {
-            "specId": "166",
-            "recipe": "GREEN_MANURE_V1",
-            "mintAuthority": "3vY3DvQpBreK7pUYn1Stc4DQ5CKvwJjUzU6PkyeSYsi4",
-            "mintAuthorityShort": "3vY3DvQp…Ysi4",
-            "producerWallet": "BwkABEFinaVRrcN5ohmC9oHpshcem8gGEYYX3tYMp7fq",
-            "producerWalletShort": "BwkABEFi…p7fq",
-            "realizedAmount": "6",
-            "agent": "Hobb (#17002)"
-          },
-          "receipts": [
-            "2UcuZR8EGSeJf5R3YsgsUuAfR2UzNbNqLHwxSvs2fCXcNCTHcoHeng139FyPTc4PCtSnCTbCb2cP7NzvjYDroGQx"
-          ],
-          "slot": "476424250",
-          "kindCode": 5,
-          "entityId": "0"
-        },
-        {
-          "templateId": "InputBurned",
-          "text": "Hobb (#17002) used up 4 (73E1ccrg…icFx) while producing — green manure",
-          "parts": {
-            "burned": "4",
-            "mint": "73E1ccrg8RpwgNeSWnAiY5FZn2s7DxRpXK3jyCPvicFx",
-            "mintShort": "73E1ccrg…icFx",
-            "producerWallet": "BwkABEFinaVRrcN5ohmC9oHpshcem8gGEYYX3tYMp7fq",
-            "producerWalletShort": "BwkABEFi…p7fq",
-            "specId": "166",
-            "recipe": "GREEN_MANURE_V1",
-            "agent": "Hobb (#17002)"
-          },
-          "receipts": [
-            "2UcuZR8EGSeJf5R3YsgsUuAfR2UzNbNqLHwxSvs2fCXcNCTHcoHeng139FyPTc4PCtSnCTbCb2cP7NzvjYDroGQx"
-          ],
-          "slot": "476424250",
-          "kindCode": 39,
-          "entityId": "0"
-        },
-        {
-          "templateId": "Produced.v3",
-          "text": "PLOT-LOAM-1 (#14005) farmed 24 crops",
-          "parts": {
-            "specId": "151",
-            "recipe": "FARM_CROPS_V1",
-            "mintAuthority": "3vY3DvQpBreK7pUYn1Stc4DQ5CKvwJjUzU6PkyeSYsi4",
-            "mintAuthorityShort": "3vY3DvQp…Ysi4",
-            "producerWallet": "HASgNQsUMHNRu3LkeiWJbzit5MSWxHXZYjY17p29KhcZ",
-            "producerWalletShort": "HASgNQsU…KhcZ",
-            "realizedAmount": "24",
-            "agent": "PLOT-LOAM-1 (#14005)"
-          },
-          "receipts": [
-            "4CuBRV1NVEUKAvfZ6wWs7DEkuZ4jViYZUzEzgcoFHqw5LkCKB2ZUfutsy2Ubr3VEUUcR9wZqiJ2T9o6prSSkstJi"
-          ],
-          "slot": "476424231",
-          "kindCode": 5,
-          "entityId": "0"
-        },
-        {
-          "templateId": "InputBurned",
-          "text": "PLOT-LOAM-1 (#14005) used up 5 (8Btk6TfN…jk9B) while producing — farm crops",
-          "parts": {
-            "burned": "5",
-            "mint": "8Btk6TfNVBN649h6kpK6oPU2AzFMdu2Y95nHF8oJjk9B",
-            "mintShort": "8Btk6TfN…jk9B",
-            "producerWallet": "HASgNQsUMHNRu3LkeiWJbzit5MSWxHXZYjY17p29KhcZ",
-            "producerWalletShort": "HASgNQsU…KhcZ",
-            "specId": "151",
-            "recipe": "FARM_CROPS_V1",
-            "agent": "PLOT-LOAM-1 (#14005)"
-          },
-          "receipts": [
-            "4CuBRV1NVEUKAvfZ6wWs7DEkuZ4jViYZUzEzgcoFHqw5LkCKB2ZUfutsy2Ubr3VEUUcR9wZqiJ2T9o6prSSkstJi"
-          ],
-          "slot": "476424231",
-          "kindCode": 39,
-          "entityId": "0"
-        },
-        {
-          "templateId": "Produced.v3",
-          "text": "Pico (#17007) milled 7 flour",
-          "parts": {
-            "specId": "162",
-            "recipe": "MILL_FLOUR_V1",
-            "mintAuthority": "3vY3DvQpBreK7pUYn1Stc4DQ5CKvwJjUzU6PkyeSYsi4",
-            "mintAuthorityShort": "3vY3DvQp…Ysi4",
-            "producerWallet": "36wXK8eEzx4pMTuYoW12SGduJ8xaooDp9aAmNq3q547h",
-            "producerWalletShort": "36wXK8eE…547h",
-            "realizedAmount": "7",
-            "agent": "Pico (#17007)"
-          },
-          "receipts": [
-            "8CYNevrvEiaP2PUWemAYwkxhMycTfGuqKvuXkZG1yf5f8Q4shgDikz5rCbHeDACshCVNzomBLRpd2ppv3DbKry8"
-          ],
-          "slot": "476424173",
-          "kindCode": 5,
-          "entityId": "0"
-        },
-        {
-          "templateId": "InputBurned",
-          "text": "Pico (#17007) used up 10 (73E1ccrg…icFx) while producing — mill flour",
-          "parts": {
-            "burned": "10",
-            "mint": "73E1ccrg8RpwgNeSWnAiY5FZn2s7DxRpXK3jyCPvicFx",
-            "mintShort": "73E1ccrg…icFx",
-            "producerWallet": "36wXK8eEzx4pMTuYoW12SGduJ8xaooDp9aAmNq3q547h",
-            "producerWalletShort": "36wXK8eE…547h",
-            "specId": "162",
-            "recipe": "MILL_FLOUR_V1",
-            "agent": "Pico (#17007)"
-          },
-          "receipts": [
-            "8CYNevrvEiaP2PUWemAYwkxhMycTfGuqKvuXkZG1yf5f8Q4shgDikz5rCbHeDACshCVNzomBLRpd2ppv3DbKry8"
-          ],
-          "slot": "476424173",
-          "kindCode": 39,
-          "entityId": "0"
-        },
-        {
-          "templateId": "Produced.v3",
-          "text": "Mirri (#17005) milled 7 flour",
-          "parts": {
-            "specId": "162",
-            "recipe": "MILL_FLOUR_V1",
-            "mintAuthority": "3vY3DvQpBreK7pUYn1Stc4DQ5CKvwJjUzU6PkyeSYsi4",
-            "mintAuthorityShort": "3vY3DvQp…Ysi4",
-            "producerWallet": "4aX5PGdjNphGDXKptcTFHthuSHBwDMaVumvsXvssNWV8",
-            "producerWalletShort": "4aX5PGdj…NWV8",
-            "realizedAmount": "7",
-            "agent": "Mirri (#17005)"
-          },
-          "receipts": [
-            "2xzmJNrYoKQtEPfa9XLPqAcxDeNDq8aNfoJ1QT8DTePGQf6mKZcBMDsmZYchDQyLT4Zhskg5Lgg4CmDwKYybwo24"
-          ],
-          "slot": "476424153",
-          "kindCode": 5,
-          "entityId": "0"
-        },
-        {
-          "templateId": "InputBurned",
-          "text": "Mirri (#17005) used up 10 (73E1ccrg…icFx) while producing — mill flour",
-          "parts": {
-            "burned": "10",
-            "mint": "73E1ccrg8RpwgNeSWnAiY5FZn2s7DxRpXK3jyCPvicFx",
-            "mintShort": "73E1ccrg…icFx",
-            "producerWallet": "4aX5PGdjNphGDXKptcTFHthuSHBwDMaVumvsXvssNWV8",
-            "producerWalletShort": "4aX5PGdj…NWV8",
-            "specId": "162",
-            "recipe": "MILL_FLOUR_V1",
-            "agent": "Mirri (#17005)"
-          },
-          "receipts": [
-            "2xzmJNrYoKQtEPfa9XLPqAcxDeNDq8aNfoJ1QT8DTePGQf6mKZcBMDsmZYchDQyLT4Zhskg5Lgg4CmDwKYybwo24"
-          ],
-          "slot": "476424153",
-          "kindCode": 39,
-          "entityId": "0"
-        },
-        {
-          "templateId": "Produced.v3",
-          "text": "PLOT-LOAM-2 (#14006) farmed 25 crops",
-          "parts": {
-            "specId": "151",
-            "recipe": "FARM_CROPS_V1",
-            "mintAuthority": "3vY3DvQpBreK7pUYn1Stc4DQ5CKvwJjUzU6PkyeSYsi4",
-            "mintAuthorityShort": "3vY3DvQp…Ysi4",
-            "producerWallet": "J12Kh9mD37pyVNfZvuwNSrvHAhtKxcu7jMSksYvVFEK9",
-            "producerWalletShort": "J12Kh9mD…FEK9",
-            "realizedAmount": "25",
-            "agent": "PLOT-LOAM-2 (#14006)"
-          },
-          "receipts": [
-            "4wbrAHMfJqCNuUBSp3c3S6N65qyMjVGxzYJW9HD2E36tvaJ68F64U1qeYwkB3vh2g3nzWVv8hPFruZSnQByc2sxo"
-          ],
-          "slot": "476424132",
-          "kindCode": 5,
-          "entityId": "0"
-        },
-        {
-          "templateId": "InputBurned",
-          "text": "PLOT-LOAM-2 (#14006) used up 5 (8Btk6TfN…jk9B) while producing — farm crops",
-          "parts": {
-            "burned": "5",
-            "mint": "8Btk6TfNVBN649h6kpK6oPU2AzFMdu2Y95nHF8oJjk9B",
-            "mintShort": "8Btk6TfN…jk9B",
-            "producerWallet": "J12Kh9mD37pyVNfZvuwNSrvHAhtKxcu7jMSksYvVFEK9",
-            "producerWalletShort": "J12Kh9mD…FEK9",
-            "specId": "151",
-            "recipe": "FARM_CROPS_V1",
-            "agent": "PLOT-LOAM-2 (#14006)"
-          },
-          "receipts": [
-            "4wbrAHMfJqCNuUBSp3c3S6N65qyMjVGxzYJW9HD2E36tvaJ68F64U1qeYwkB3vh2g3nzWVv8hPFruZSnQByc2sxo"
-          ],
-          "slot": "476424132",
-          "kindCode": 39,
-          "entityId": "0"
-        },
-        {
-          "templateId": "Produced.v3",
-          "text": "Drey (#17001) produced 6 — green manure",
-          "parts": {
-            "specId": "166",
-            "recipe": "GREEN_MANURE_V1",
-            "mintAuthority": "3vY3DvQpBreK7pUYn1Stc4DQ5CKvwJjUzU6PkyeSYsi4",
-            "mintAuthorityShort": "3vY3DvQp…Ysi4",
-            "producerWallet": "3mMQSqGa8EtBEA4EquGiLdPEgrKcSuEZcKuUYxRt4D46",
-            "producerWalletShort": "3mMQSqGa…4D46",
-            "realizedAmount": "6",
-            "agent": "Drey (#17001)"
-          },
-          "receipts": [
-            "4rmqwLix5q4wWvgVvSmFAtS277GxDLc9noPQ7CiqL824JLVhHECmcfNpoAPgNcEFEAPytnNKdAfNG8BVJfG7S9Kk"
-          ],
-          "slot": "476424110",
-          "kindCode": 5,
-          "entityId": "0"
-        },
-        {
-          "templateId": "InputBurned",
-          "text": "Drey (#17001) used up 4 (73E1ccrg…icFx) while producing — green manure",
-          "parts": {
-            "burned": "4",
-            "mint": "73E1ccrg8RpwgNeSWnAiY5FZn2s7DxRpXK3jyCPvicFx",
-            "mintShort": "73E1ccrg…icFx",
-            "producerWallet": "3mMQSqGa8EtBEA4EquGiLdPEgrKcSuEZcKuUYxRt4D46",
-            "producerWalletShort": "3mMQSqGa…4D46",
-            "specId": "166",
-            "recipe": "GREEN_MANURE_V1",
-            "agent": "Drey (#17001)"
-          },
-          "receipts": [
-            "4rmqwLix5q4wWvgVvSmFAtS277GxDLc9noPQ7CiqL824JLVhHECmcfNpoAPgNcEFEAPytnNKdAfNG8BVJfG7S9Kk"
-          ],
-          "slot": "476424110",
-          "kindCode": 39,
-          "entityId": "0"
-        },
-        {
-          "templateId": "Produced.v3",
-          "text": "Pico (#17007) produced 6 — green manure",
-          "parts": {
-            "specId": "166",
-            "recipe": "GREEN_MANURE_V1",
-            "mintAuthority": "3vY3DvQpBreK7pUYn1Stc4DQ5CKvwJjUzU6PkyeSYsi4",
-            "mintAuthorityShort": "3vY3DvQp…Ysi4",
-            "producerWallet": "36wXK8eEzx4pMTuYoW12SGduJ8xaooDp9aAmNq3q547h",
-            "producerWalletShort": "36wXK8eE…547h",
-            "realizedAmount": "6",
-            "agent": "Pico (#17007)"
-          },
-          "receipts": [
-            "p732GUhbY9u3msCvcXaETGD8WFprTNfTyQ6vwMAzrvdXY5PNf5JWCZDRcJ1d8SaMQVzijMipFaB8SCz2RCZ7mVm"
-          ],
-          "slot": "476424054",
-          "kindCode": 5,
-          "entityId": "0"
-        },
-        {
-          "templateId": "InputBurned",
-          "text": "Pico (#17007) used up 4 (73E1ccrg…icFx) while producing — green manure",
-          "parts": {
-            "burned": "4",
-            "mint": "73E1ccrg8RpwgNeSWnAiY5FZn2s7DxRpXK3jyCPvicFx",
-            "mintShort": "73E1ccrg…icFx",
-            "producerWallet": "36wXK8eEzx4pMTuYoW12SGduJ8xaooDp9aAmNq3q547h",
-            "producerWalletShort": "36wXK8eE…547h",
-            "specId": "166",
-            "recipe": "GREEN_MANURE_V1",
-            "agent": "Pico (#17007)"
-          },
-          "receipts": [
-            "p732GUhbY9u3msCvcXaETGD8WFprTNfTyQ6vwMAzrvdXY5PNf5JWCZDRcJ1d8SaMQVzijMipFaB8SCz2RCZ7mVm"
-          ],
-          "slot": "476424054",
-          "kindCode": 39,
-          "entityId": "0"
-        },
-        {
-          "templateId": "Produced.v3",
-          "text": "Mirri (#17005) produced 6 — green manure",
-          "parts": {
-            "specId": "166",
-            "recipe": "GREEN_MANURE_V1",
-            "mintAuthority": "3vY3DvQpBreK7pUYn1Stc4DQ5CKvwJjUzU6PkyeSYsi4",
-            "mintAuthorityShort": "3vY3DvQp…Ysi4",
-            "producerWallet": "4aX5PGdjNphGDXKptcTFHthuSHBwDMaVumvsXvssNWV8",
-            "producerWalletShort": "4aX5PGdj…NWV8",
-            "realizedAmount": "6",
-            "agent": "Mirri (#17005)"
-          },
-          "receipts": [
-            "4tcWUDLBCVVhh3nts16grWZQnmqxjpQU8LYpwjArDfz6raKHbxWhXGS7bAbkKVZTHxU8nEDiz2AiNrebTpvacovn"
-          ],
-          "slot": "476424030",
-          "kindCode": 5,
-          "entityId": "0"
-        },
-        {
-          "templateId": "InputBurned",
-          "text": "Mirri (#17005) used up 4 (73E1ccrg…icFx) while producing — green manure",
-          "parts": {
-            "burned": "4",
-            "mint": "73E1ccrg8RpwgNeSWnAiY5FZn2s7DxRpXK3jyCPvicFx",
-            "mintShort": "73E1ccrg…icFx",
-            "producerWallet": "4aX5PGdjNphGDXKptcTFHthuSHBwDMaVumvsXvssNWV8",
-            "producerWalletShort": "4aX5PGdj…NWV8",
-            "specId": "166",
-            "recipe": "GREEN_MANURE_V1",
-            "agent": "Mirri (#17005)"
-          },
-          "receipts": [
-            "4tcWUDLBCVVhh3nts16grWZQnmqxjpQU8LYpwjArDfz6raKHbxWhXGS7bAbkKVZTHxU8nEDiz2AiNrebTpvacovn"
-          ],
-          "slot": "476424030",
-          "kindCode": 39,
-          "entityId": "0"
-        },
-        {
-          "templateId": "Produced.v3",
-          "text": "Hobb (#17002) produced 6 — green manure",
-          "parts": {
-            "specId": "166",
-            "recipe": "GREEN_MANURE_V1",
-            "mintAuthority": "3vY3DvQpBreK7pUYn1Stc4DQ5CKvwJjUzU6PkyeSYsi4",
-            "mintAuthorityShort": "3vY3DvQp…Ysi4",
-            "producerWallet": "BwkABEFinaVRrcN5ohmC9oHpshcem8gGEYYX3tYMp7fq",
-            "producerWalletShort": "BwkABEFi…p7fq",
-            "realizedAmount": "6",
-            "agent": "Hobb (#17002)"
-          },
-          "receipts": [
-            "2NsPZH6nYEpUN4ANwsHwPFAQxRqgPu8xj8EJTJekCmhvtTqMvR9owgmNpeUefg98VbFjtPZjEhypLxXa9nkMyhFU"
-          ],
-          "slot": "476424006",
-          "kindCode": 5,
-          "entityId": "0"
-        },
-        {
-          "templateId": "InputBurned",
-          "text": "Hobb (#17002) used up 4 (73E1ccrg…icFx) while producing — green manure",
-          "parts": {
-            "burned": "4",
-            "mint": "73E1ccrg8RpwgNeSWnAiY5FZn2s7DxRpXK3jyCPvicFx",
-            "mintShort": "73E1ccrg…icFx",
-            "producerWallet": "BwkABEFinaVRrcN5ohmC9oHpshcem8gGEYYX3tYMp7fq",
-            "producerWalletShort": "BwkABEFi…p7fq",
-            "specId": "166",
-            "recipe": "GREEN_MANURE_V1",
-            "agent": "Hobb (#17002)"
-          },
-          "receipts": [
-            "2NsPZH6nYEpUN4ANwsHwPFAQxRqgPu8xj8EJTJekCmhvtTqMvR9owgmNpeUefg98VbFjtPZjEhypLxXa9nkMyhFU"
-          ],
-          "slot": "476424006",
-          "kindCode": 39,
-          "entityId": "0"
-        },
-        {
-          "templateId": "Produced.v3",
-          "text": "Drey (#17001) milled 7 flour",
-          "parts": {
-            "specId": "162",
-            "recipe": "MILL_FLOUR_V1",
-            "mintAuthority": "3vY3DvQpBreK7pUYn1Stc4DQ5CKvwJjUzU6PkyeSYsi4",
-            "mintAuthorityShort": "3vY3DvQp…Ysi4",
-            "producerWallet": "3mMQSqGa8EtBEA4EquGiLdPEgrKcSuEZcKuUYxRt4D46",
-            "producerWalletShort": "3mMQSqGa…4D46",
-            "realizedAmount": "7",
-            "agent": "Drey (#17001)"
-          },
-          "receipts": [
-            "5tea2bDJyyLGyYFNxF3nSrN2RvoJ9jLJkzhovhSiP4uQixLJv6wDNfXRuz2VKYHXPDqcsGtzsc3g718F8qC71Ua1"
-          ],
-          "slot": "476423987",
-          "kindCode": 5,
-          "entityId": "0"
-        },
-        {
-          "templateId": "InputBurned",
-          "text": "Drey (#17001) used up 10 (73E1ccrg…icFx) while producing — mill flour",
-          "parts": {
-            "burned": "10",
-            "mint": "73E1ccrg8RpwgNeSWnAiY5FZn2s7DxRpXK3jyCPvicFx",
-            "mintShort": "73E1ccrg…icFx",
-            "producerWallet": "3mMQSqGa8EtBEA4EquGiLdPEgrKcSuEZcKuUYxRt4D46",
-            "producerWalletShort": "3mMQSqGa…4D46",
-            "specId": "162",
-            "recipe": "MILL_FLOUR_V1",
-            "agent": "Drey (#17001)"
-          },
-          "receipts": [
-            "5tea2bDJyyLGyYFNxF3nSrN2RvoJ9jLJkzhovhSiP4uQixLJv6wDNfXRuz2VKYHXPDqcsGtzsc3g718F8qC71Ua1"
-          ],
-          "slot": "476423987",
-          "kindCode": 39,
-          "entityId": "0"
         }
       ]
     },
@@ -11325,7 +11361,7 @@
       "status": 200,
       "body": {
         "worldId": "6",
-        "headSlot": "476424428",
+        "headSlot": "476424784",
         "assets": [
           {
             "asset": "73E1ccrg8RpwgNeSWnAiY5FZn2s7DxRpXK3jyCPvicFx",
@@ -13067,6 +13103,96 @@
                 "signature": "2qHFzRiou2BCg3bPz6R3s9V48Y3a5cCgX8xt4Pk6Xu1UbXLv5UVK7SC9W6PgVp7jekatXYjqgLCsZF4SaTCJGpvh",
                 "slot": "476424395",
                 "note": "InputBurned with b=73E1ccrg8RpwgNeSWnAiY5FZn2s7DxRpXK3jyCPvicFx matched no known mint — open line, not silently classified"
+              },
+              {
+                "bucket": "unclassified",
+                "asset": "unclassified:73E1ccrg8RpwgNeSWnAiY5FZn2s7DxRpXK3jyCPvicFx",
+                "amount": "10",
+                "source": "event",
+                "signature": "29JxUi8HjKw2gotMgyM2jTxQUFAk3FuMR47XiQ2PCLmJio668Yx2yMS5rUZenS416ZvQF8hutb1J7mYuwKSZT75X",
+                "slot": "476424476",
+                "note": "InputBurned with b=73E1ccrg8RpwgNeSWnAiY5FZn2s7DxRpXK3jyCPvicFx matched no known mint — open line, not silently classified"
+              },
+              {
+                "bucket": "unclassified",
+                "asset": "unclassified:73E1ccrg8RpwgNeSWnAiY5FZn2s7DxRpXK3jyCPvicFx",
+                "amount": "4",
+                "source": "event",
+                "signature": "5pVVng8pewtYuzC6zgfK525WaFEqgwzzv3gWJY1SdK2Yyv2qC4f4S9QoU4VgKQWWEju3HddEDRFvx24x1NYpA9cA",
+                "slot": "476424495",
+                "note": "InputBurned with b=73E1ccrg8RpwgNeSWnAiY5FZn2s7DxRpXK3jyCPvicFx matched no known mint — open line, not silently classified"
+              },
+              {
+                "bucket": "unclassified",
+                "asset": "unclassified:73E1ccrg8RpwgNeSWnAiY5FZn2s7DxRpXK3jyCPvicFx",
+                "amount": "4",
+                "source": "event",
+                "signature": "XpcHbkj4WTTAtBkZoSgYz8phBRqSTwTHQvRk9QYTcEBX7aLeiFft4nBs9VHdNwGGJfUnLYB7TCcUk6RAywYgUc7",
+                "slot": "476424519",
+                "note": "InputBurned with b=73E1ccrg8RpwgNeSWnAiY5FZn2s7DxRpXK3jyCPvicFx matched no known mint — open line, not silently classified"
+              },
+              {
+                "bucket": "unclassified",
+                "asset": "unclassified:73E1ccrg8RpwgNeSWnAiY5FZn2s7DxRpXK3jyCPvicFx",
+                "amount": "4",
+                "source": "event",
+                "signature": "4FMgguMMWTZQB2C98a6va4QiVnXGtPLbJE7eQbwKN3AxzJZ68TQNajAejkbVxde3oyVooLurKsQVc29vhB8pFp7F",
+                "slot": "476424544",
+                "note": "InputBurned with b=73E1ccrg8RpwgNeSWnAiY5FZn2s7DxRpXK3jyCPvicFx matched no known mint — open line, not silently classified"
+              },
+              {
+                "bucket": "unclassified",
+                "asset": "unclassified:73E1ccrg8RpwgNeSWnAiY5FZn2s7DxRpXK3jyCPvicFx",
+                "amount": "4",
+                "source": "event",
+                "signature": "2ea1aCdg1bf5c1tvUVnPm2i4hKxrxq9GHfKd2eZBaR7EmPDfNB44TiRg2t2pqJtb2qJKPnaubRES5tPogZLGa4AS",
+                "slot": "476424599",
+                "note": "InputBurned with b=73E1ccrg8RpwgNeSWnAiY5FZn2s7DxRpXK3jyCPvicFx matched no known mint — open line, not silently classified"
+              },
+              {
+                "bucket": "unclassified",
+                "asset": "unclassified:73E1ccrg8RpwgNeSWnAiY5FZn2s7DxRpXK3jyCPvicFx",
+                "amount": "10",
+                "source": "event",
+                "signature": "n8tN8Av8YFy3uRntavi9wcpEyCiqeLRKUbiqA2UEqhwugdo8kqYoVTQPj5Nd7PBHxuTmYUcqSnDDsrGRSPPREEe",
+                "slot": "476424621",
+                "note": "InputBurned with b=73E1ccrg8RpwgNeSWnAiY5FZn2s7DxRpXK3jyCPvicFx matched no known mint — open line, not silently classified"
+              },
+              {
+                "bucket": "unclassified",
+                "asset": "unclassified:73E1ccrg8RpwgNeSWnAiY5FZn2s7DxRpXK3jyCPvicFx",
+                "amount": "10",
+                "source": "event",
+                "signature": "2qxwjzNKEGCv3qYGsZoNtdNxX4EpxysZB3Qj3KG4ywZZMckqavNCgXgsUhzLsrJGaSHh9vgZWF92zgXXVixc2hGG",
+                "slot": "476424659",
+                "note": "InputBurned with b=73E1ccrg8RpwgNeSWnAiY5FZn2s7DxRpXK3jyCPvicFx matched no known mint — open line, not silently classified"
+              },
+              {
+                "bucket": "unclassified",
+                "asset": "unclassified:73E1ccrg8RpwgNeSWnAiY5FZn2s7DxRpXK3jyCPvicFx",
+                "amount": "10",
+                "source": "event",
+                "signature": "5W1nXzYyPNwnetFV2heSMQq2kVtfCXUmNozF6bqTWpTtFxv9UYKoGjz5AV5yfoyNeERkTuowCnVoEN5yv73sVWYr",
+                "slot": "476424723",
+                "note": "InputBurned with b=73E1ccrg8RpwgNeSWnAiY5FZn2s7DxRpXK3jyCPvicFx matched no known mint — open line, not silently classified"
+              },
+              {
+                "bucket": "unclassified",
+                "asset": "unclassified:73E1ccrg8RpwgNeSWnAiY5FZn2s7DxRpXK3jyCPvicFx",
+                "amount": "4",
+                "source": "event",
+                "signature": "2hC7U97ZuBFPAF9kmEfV9Ejda1hE6bfEcQtG8PNjjxzuEjMtHXaNfRrwv7NS9gciRu2CjecwopgHrfqchSx4Tdzt",
+                "slot": "476424756",
+                "note": "InputBurned with b=73E1ccrg8RpwgNeSWnAiY5FZn2s7DxRpXK3jyCPvicFx matched no known mint — open line, not silently classified"
+              },
+              {
+                "bucket": "unclassified",
+                "asset": "unclassified:73E1ccrg8RpwgNeSWnAiY5FZn2s7DxRpXK3jyCPvicFx",
+                "amount": "4",
+                "source": "event",
+                "signature": "57SemZrf9c56NBQ99CtyotdoitAvVZPRdpLiED5W1ngZUuQ9Z6pbHTNqwQLraUG4uriy73PCX2ZWbtBqRGcTunFc",
+                "slot": "476424780",
+                "note": "InputBurned with b=73E1ccrg8RpwgNeSWnAiY5FZn2s7DxRpXK3jyCPvicFx matched no known mint — open line, not silently classified"
               }
             ]
           },
@@ -13524,6 +13650,15 @@
                 "source": "event",
                 "signature": "2X5Nr7KW2g2KeLf4pZUoQBb8E2hmsLpseRPNpw6bdsF2BWB8BUMXXL8dEzrrfd9fuefznE5WsYQDLq6uDB1Bxqob",
                 "slot": "476424413",
+                "note": "InputBurned with b=8Btk6TfNVBN649h6kpK6oPU2AzFMdu2Y95nHF8oJjk9B matched no known mint — open line, not silently classified"
+              },
+              {
+                "bucket": "unclassified",
+                "asset": "unclassified:8Btk6TfNVBN649h6kpK6oPU2AzFMdu2Y95nHF8oJjk9B",
+                "amount": "5",
+                "source": "event",
+                "signature": "62RXvijvKLNCeshUUQEc8ANun26hoouR8HJnAgyrQPyxr2k3FT3gw6wUwqcAZ5iNdVKLfvnSYYFMk7vNCyryo1FE",
+                "slot": "476424639",
                 "note": "InputBurned with b=8Btk6TfNVBN649h6kpK6oPU2AzFMdu2Y95nHF8oJjk9B matched no known mint — open line, not silently classified"
               }
             ]
@@ -14414,6 +14549,60 @@
                 "signature": "3vwCRa1xoK26MaekrZHjS7USCYvVeLQzBJnrQjyor1sABWPKVqxny5hMgnFbkiPm11s47xnB9yXx2KBgKKzT5XQs",
                 "slot": "476424359",
                 "note": "ValueMoved with b=CWfm3cRvLKe4eyx96QbFAYxB43ajni9DgMH2g7BXBxdr matched no known mint / ATA / wallet-PDA — open line, not silently classified"
+              },
+              {
+                "bucket": "unclassified",
+                "asset": "unclassified:CWfm3cRvLKe4eyx96QbFAYxB43ajni9DgMH2g7BXBxdr",
+                "amount": "6",
+                "source": "event",
+                "signature": "2kVoCGsT1qnCh7bp8ecyAAkxJB7fTXte13PJThbJyxn4vxjcdvbNzjYuTFbwGoEzt2XbfXpozkwkER1opAsAH6rq",
+                "slot": "476424500",
+                "note": "ValueMoved with b=CWfm3cRvLKe4eyx96QbFAYxB43ajni9DgMH2g7BXBxdr matched no known mint / ATA / wallet-PDA — open line, not silently classified"
+              },
+              {
+                "bucket": "unclassified",
+                "asset": "unclassified:CWfm3cRvLKe4eyx96QbFAYxB43ajni9DgMH2g7BXBxdr",
+                "amount": "6",
+                "source": "event",
+                "signature": "26SSrwRwDoHTAVUF2TBZLgfcbRXYKcq4dT6EGX89R92sbXD4JNxrVSZpPS362bg5LdL4HaEWBhVVEwLvsRAU1Kvr",
+                "slot": "476424524",
+                "note": "ValueMoved with b=CWfm3cRvLKe4eyx96QbFAYxB43ajni9DgMH2g7BXBxdr matched no known mint / ATA / wallet-PDA — open line, not silently classified"
+              },
+              {
+                "bucket": "unclassified",
+                "asset": "unclassified:CWfm3cRvLKe4eyx96QbFAYxB43ajni9DgMH2g7BXBxdr",
+                "amount": "6",
+                "source": "event",
+                "signature": "3dPUM98NXDnZXVxGfHYdi89vy7kfqDjEkmrerWYyUT9BeA3gtGWqL7x555oLSCyHZ4C8Z562NWDN3UWGAveR6pKq",
+                "slot": "476424547",
+                "note": "ValueMoved with b=CWfm3cRvLKe4eyx96QbFAYxB43ajni9DgMH2g7BXBxdr matched no known mint / ATA / wallet-PDA — open line, not silently classified"
+              },
+              {
+                "bucket": "unclassified",
+                "asset": "unclassified:CWfm3cRvLKe4eyx96QbFAYxB43ajni9DgMH2g7BXBxdr",
+                "amount": "6",
+                "source": "event",
+                "signature": "4CYiMbWWrTcYRnmhx5YwykKtYdHn23G76YTjXfaj1ZLCFxDFW9bQd3Epf16VyTeQ6wAqgeauscwLeTzyG8nGKCdm",
+                "slot": "476424603",
+                "note": "ValueMoved with b=CWfm3cRvLKe4eyx96QbFAYxB43ajni9DgMH2g7BXBxdr matched no known mint / ATA / wallet-PDA — open line, not silently classified"
+              },
+              {
+                "bucket": "unclassified",
+                "asset": "unclassified:CWfm3cRvLKe4eyx96QbFAYxB43ajni9DgMH2g7BXBxdr",
+                "amount": "6",
+                "source": "event",
+                "signature": "3La5KopaYCacPJisQEWywUiy8b47RgjXLQGzqpRX8mHzwKTLFhfRudsuy85sCPoxUoi3FVvpz53PFQrKLBnFWjRZ",
+                "slot": "476424760",
+                "note": "ValueMoved with b=CWfm3cRvLKe4eyx96QbFAYxB43ajni9DgMH2g7BXBxdr matched no known mint / ATA / wallet-PDA — open line, not silently classified"
+              },
+              {
+                "bucket": "unclassified",
+                "asset": "unclassified:CWfm3cRvLKe4eyx96QbFAYxB43ajni9DgMH2g7BXBxdr",
+                "amount": "6",
+                "source": "event",
+                "signature": "5wnN5Hx1vN8iDMratbM2yH5wP5PfsrNEWMrgCo3McabRXo6xgBbrP85pTTcRYhivFwFPBjk7aTMU3DseMEr9KTAY",
+                "slot": "476424784",
+                "note": "ValueMoved with b=CWfm3cRvLKe4eyx96QbFAYxB43ajni9DgMH2g7BXBxdr matched no known mint / ATA / wallet-PDA — open line, not silently classified"
               }
             ]
           },
@@ -15139,6 +15328,15 @@
                 "source": "event",
                 "signature": "2X5Nr7KW2g2KeLf4pZUoQBb8E2hmsLpseRPNpw6bdsF2BWB8BUMXXL8dEzrrfd9fuefznE5WsYQDLq6uDB1Bxqob",
                 "slot": "476424413",
+                "note": "Produced spec_id 151 has no resolved output mint (multi-output split / unregistered recipe) — open, not silently dropped"
+              },
+              {
+                "bucket": "unclassified",
+                "asset": "spec:151",
+                "amount": "24",
+                "source": "event",
+                "signature": "62RXvijvKLNCeshUUQEc8ANun26hoouR8HJnAgyrQPyxr2k3FT3gw6wUwqcAZ5iNdVKLfvnSYYFMk7vNCyryo1FE",
+                "slot": "476424639",
                 "note": "Produced spec_id 151 has no resolved output mint (multi-output split / unregistered recipe) — open, not silently dropped"
               }
             ]
@@ -15875,6 +16073,42 @@
                 "source": "event",
                 "signature": "2qHFzRiou2BCg3bPz6R3s9V48Y3a5cCgX8xt4Pk6Xu1UbXLv5UVK7SC9W6PgVp7jekatXYjqgLCsZF4SaTCJGpvh",
                 "slot": "476424395",
+                "note": "Produced spec_id 162 has no resolved output mint (multi-output split / unregistered recipe) — open, not silently dropped"
+              },
+              {
+                "bucket": "unclassified",
+                "asset": "spec:162",
+                "amount": "7",
+                "source": "event",
+                "signature": "29JxUi8HjKw2gotMgyM2jTxQUFAk3FuMR47XiQ2PCLmJio668Yx2yMS5rUZenS416ZvQF8hutb1J7mYuwKSZT75X",
+                "slot": "476424476",
+                "note": "Produced spec_id 162 has no resolved output mint (multi-output split / unregistered recipe) — open, not silently dropped"
+              },
+              {
+                "bucket": "unclassified",
+                "asset": "spec:162",
+                "amount": "7",
+                "source": "event",
+                "signature": "n8tN8Av8YFy3uRntavi9wcpEyCiqeLRKUbiqA2UEqhwugdo8kqYoVTQPj5Nd7PBHxuTmYUcqSnDDsrGRSPPREEe",
+                "slot": "476424621",
+                "note": "Produced spec_id 162 has no resolved output mint (multi-output split / unregistered recipe) — open, not silently dropped"
+              },
+              {
+                "bucket": "unclassified",
+                "asset": "spec:162",
+                "amount": "7",
+                "source": "event",
+                "signature": "2qxwjzNKEGCv3qYGsZoNtdNxX4EpxysZB3Qj3KG4ywZZMckqavNCgXgsUhzLsrJGaSHh9vgZWF92zgXXVixc2hGG",
+                "slot": "476424659",
+                "note": "Produced spec_id 162 has no resolved output mint (multi-output split / unregistered recipe) — open, not silently dropped"
+              },
+              {
+                "bucket": "unclassified",
+                "asset": "spec:162",
+                "amount": "7",
+                "source": "event",
+                "signature": "5W1nXzYyPNwnetFV2heSMQq2kVtfCXUmNozF6bqTWpTtFxv9UYKoGjz5AV5yfoyNeERkTuowCnVoEN5yv73sVWYr",
+                "slot": "476424723",
                 "note": "Produced spec_id 162 has no resolved output mint (multi-output split / unregistered recipe) — open, not silently dropped"
               }
             ]
@@ -16720,6 +16954,60 @@
                 "source": "event",
                 "signature": "2Tfcg4vdra5dw7Np217vQtpYG2KAASC5WPDHRwysQePbqoYn7b9SAkCcXD9ha848YdFqVp7EMq7RQiM7UeoRg4eX",
                 "slot": "476424355",
+                "note": "Produced spec_id 166 has no resolved output mint (multi-output split / unregistered recipe) — open, not silently dropped"
+              },
+              {
+                "bucket": "unclassified",
+                "asset": "spec:166",
+                "amount": "6",
+                "source": "event",
+                "signature": "5pVVng8pewtYuzC6zgfK525WaFEqgwzzv3gWJY1SdK2Yyv2qC4f4S9QoU4VgKQWWEju3HddEDRFvx24x1NYpA9cA",
+                "slot": "476424495",
+                "note": "Produced spec_id 166 has no resolved output mint (multi-output split / unregistered recipe) — open, not silently dropped"
+              },
+              {
+                "bucket": "unclassified",
+                "asset": "spec:166",
+                "amount": "6",
+                "source": "event",
+                "signature": "XpcHbkj4WTTAtBkZoSgYz8phBRqSTwTHQvRk9QYTcEBX7aLeiFft4nBs9VHdNwGGJfUnLYB7TCcUk6RAywYgUc7",
+                "slot": "476424519",
+                "note": "Produced spec_id 166 has no resolved output mint (multi-output split / unregistered recipe) — open, not silently dropped"
+              },
+              {
+                "bucket": "unclassified",
+                "asset": "spec:166",
+                "amount": "6",
+                "source": "event",
+                "signature": "4FMgguMMWTZQB2C98a6va4QiVnXGtPLbJE7eQbwKN3AxzJZ68TQNajAejkbVxde3oyVooLurKsQVc29vhB8pFp7F",
+                "slot": "476424544",
+                "note": "Produced spec_id 166 has no resolved output mint (multi-output split / unregistered recipe) — open, not silently dropped"
+              },
+              {
+                "bucket": "unclassified",
+                "asset": "spec:166",
+                "amount": "6",
+                "source": "event",
+                "signature": "2ea1aCdg1bf5c1tvUVnPm2i4hKxrxq9GHfKd2eZBaR7EmPDfNB44TiRg2t2pqJtb2qJKPnaubRES5tPogZLGa4AS",
+                "slot": "476424599",
+                "note": "Produced spec_id 166 has no resolved output mint (multi-output split / unregistered recipe) — open, not silently dropped"
+              },
+              {
+                "bucket": "unclassified",
+                "asset": "spec:166",
+                "amount": "6",
+                "source": "event",
+                "signature": "2hC7U97ZuBFPAF9kmEfV9Ejda1hE6bfEcQtG8PNjjxzuEjMtHXaNfRrwv7NS9gciRu2CjecwopgHrfqchSx4Tdzt",
+                "slot": "476424756",
+                "note": "Produced spec_id 166 has no resolved output mint (multi-output split / unregistered recipe) — open, not silently dropped"
+              },
+              {
+                "bucket": "unclassified",
+                "asset": "spec:166",
+                "amount": "6",
+                "source": "event",
+                "signature": "57SemZrf9c56NBQ99CtyotdoitAvVZPRdpLiED5W1ngZUuQ9Z6pbHTNqwQLraUG4uriy73PCX2ZWbtBqRGcTunFc",
+                "slot": "476424780",
                 "note": "Produced spec_id 166 has no resolved output mint (multi-output split / unregistered recipe) — open, not silently dropped"
               }
             ]
@@ -18285,19 +18573,19 @@
         },
         {
           "rank": 12,
+          "entityId": "17005",
+          "groupKey": "4aX5PGdjNphGDXKptcTFHthuSHBwDMaVumvsXvssNWV8",
+          "value": "334",
+          "bestSignature": "5pCoNrGxUQy9XKt1fMFtjXWbTddqhn6pJyijAaDRCd5pua4BHzfpJUHuwZ5HEsFAJcEPUJJ9Xz3u34QpA18TuvJR",
+          "bestSlot": "476416044"
+        },
+        {
+          "rank": 13,
           "entityId": "14005",
           "groupKey": "HASgNQsUMHNRu3LkeiWJbzit5MSWxHXZYjY17p29KhcZ",
           "value": "323",
           "bestSignature": "3NCuzfq8nFni34KRShgnFCXVmpoCQ6aENRiJ37XTWjk66GDmnQzoAqFwyT7uvoUVwLDwKgzhXYPdP3tZCDXxfXYb",
           "bestSlot": "476416484"
-        },
-        {
-          "rank": 13,
-          "entityId": "17005",
-          "groupKey": "4aX5PGdjNphGDXKptcTFHthuSHBwDMaVumvsXvssNWV8",
-          "value": "322",
-          "bestSignature": "5pCoNrGxUQy9XKt1fMFtjXWbTddqhn6pJyijAaDRCd5pua4BHzfpJUHuwZ5HEsFAJcEPUJJ9Xz3u34QpA18TuvJR",
-          "bestSlot": "476416044"
         },
         {
           "rank": 14,
@@ -18317,35 +18605,35 @@
         },
         {
           "rank": 16,
-          "entityId": "17002",
-          "groupKey": "BwkABEFinaVRrcN5ohmC9oHpshcem8gGEYYX3tYMp7fq",
-          "value": "283",
-          "bestSignature": "4kHwKaEeKrSj8MGuZai9cAk1zrz9B8jNSzgo6Z51Th7WAUw9R782SaA77a7gGPJGxV4vzYKMwmkZrncRtxyxiHWZ",
-          "bestSlot": "476416035"
+          "entityId": "14009",
+          "groupKey": "4gt7fvRgYUgxnnMsh8BTwRJm11NNcGHWVN387esd63t7",
+          "value": "298",
+          "bestSignature": "5zQAgHfhpGBFqDvKZTB6MtZtTi2Nfqw5yVrLSTmHe1FxKjrbNXNisUpUYdX2mT4zBq1pbu315jgwY7CnPR13mnCr",
+          "bestSlot": "476418362"
         },
         {
           "rank": 17,
-          "entityId": "17007",
-          "groupKey": "36wXK8eEzx4pMTuYoW12SGduJ8xaooDp9aAmNq3q547h",
-          "value": "278",
-          "bestSignature": "5dSw9X9tm7h9tCV1wjFYfPNFDieKQe56tMD14DGbFt9N1MMh8PrzByyxvh8ikJpBifdjc8jxKoMCx77TThgky1UL",
-          "bestSlot": "476416067"
-        },
-        {
-          "rank": 18,
           "entityId": "17001",
           "groupKey": "3mMQSqGa8EtBEA4EquGiLdPEgrKcSuEZcKuUYxRt4D46",
-          "value": "277",
+          "value": "297",
           "bestSignature": "5yCNB6jjLHFvKPUxvYbzsJjh4pdJfcFqemLFRKChzzqnkzVH3wLmrLtcGAbwWxxqDnCXxGkUN2AFi82EiaHFCuZb",
           "bestSlot": "476416025"
         },
         {
+          "rank": 18,
+          "entityId": "17007",
+          "groupKey": "36wXK8eEzx4pMTuYoW12SGduJ8xaooDp9aAmNq3q547h",
+          "value": "297",
+          "bestSignature": "5dSw9X9tm7h9tCV1wjFYfPNFDieKQe56tMD14DGbFt9N1MMh8PrzByyxvh8ikJpBifdjc8jxKoMCx77TThgky1UL",
+          "bestSlot": "476416067"
+        },
+        {
           "rank": 19,
-          "entityId": "14009",
-          "groupKey": "4gt7fvRgYUgxnnMsh8BTwRJm11NNcGHWVN387esd63t7",
-          "value": "274",
-          "bestSignature": "5zQAgHfhpGBFqDvKZTB6MtZtTi2Nfqw5yVrLSTmHe1FxKjrbNXNisUpUYdX2mT4zBq1pbu315jgwY7CnPR13mnCr",
-          "bestSlot": "476418362"
+          "entityId": "17002",
+          "groupKey": "BwkABEFinaVRrcN5ohmC9oHpshcem8gGEYYX3tYMp7fq",
+          "value": "296",
+          "bestSignature": "4kHwKaEeKrSj8MGuZai9cAk1zrz9B8jNSzgo6Z51Th7WAUw9R782SaA77a7gGPJGxV4vzYKMwmkZrncRtxyxiHWZ",
+          "bestSlot": "476416035"
         },
         {
           "rank": 20,
@@ -18450,19 +18738,19 @@
         },
         {
           "rank": 12,
+          "entityId": "17005",
+          "groupKey": "4aX5PGdjNphGDXKptcTFHthuSHBwDMaVumvsXvssNWV8",
+          "value": "334",
+          "bestSignature": "5pCoNrGxUQy9XKt1fMFtjXWbTddqhn6pJyijAaDRCd5pua4BHzfpJUHuwZ5HEsFAJcEPUJJ9Xz3u34QpA18TuvJR",
+          "bestSlot": "476416044"
+        },
+        {
+          "rank": 13,
           "entityId": "14005",
           "groupKey": "HASgNQsUMHNRu3LkeiWJbzit5MSWxHXZYjY17p29KhcZ",
           "value": "323",
           "bestSignature": "3NCuzfq8nFni34KRShgnFCXVmpoCQ6aENRiJ37XTWjk66GDmnQzoAqFwyT7uvoUVwLDwKgzhXYPdP3tZCDXxfXYb",
           "bestSlot": "476416484"
-        },
-        {
-          "rank": 13,
-          "entityId": "17005",
-          "groupKey": "4aX5PGdjNphGDXKptcTFHthuSHBwDMaVumvsXvssNWV8",
-          "value": "322",
-          "bestSignature": "5pCoNrGxUQy9XKt1fMFtjXWbTddqhn6pJyijAaDRCd5pua4BHzfpJUHuwZ5HEsFAJcEPUJJ9Xz3u34QpA18TuvJR",
-          "bestSlot": "476416044"
         },
         {
           "rank": 14,
@@ -18482,35 +18770,35 @@
         },
         {
           "rank": 16,
-          "entityId": "17002",
-          "groupKey": "BwkABEFinaVRrcN5ohmC9oHpshcem8gGEYYX3tYMp7fq",
-          "value": "283",
-          "bestSignature": "4kHwKaEeKrSj8MGuZai9cAk1zrz9B8jNSzgo6Z51Th7WAUw9R782SaA77a7gGPJGxV4vzYKMwmkZrncRtxyxiHWZ",
-          "bestSlot": "476416035"
+          "entityId": "14009",
+          "groupKey": "4gt7fvRgYUgxnnMsh8BTwRJm11NNcGHWVN387esd63t7",
+          "value": "298",
+          "bestSignature": "5zQAgHfhpGBFqDvKZTB6MtZtTi2Nfqw5yVrLSTmHe1FxKjrbNXNisUpUYdX2mT4zBq1pbu315jgwY7CnPR13mnCr",
+          "bestSlot": "476418362"
         },
         {
           "rank": 17,
-          "entityId": "17007",
-          "groupKey": "36wXK8eEzx4pMTuYoW12SGduJ8xaooDp9aAmNq3q547h",
-          "value": "278",
-          "bestSignature": "5dSw9X9tm7h9tCV1wjFYfPNFDieKQe56tMD14DGbFt9N1MMh8PrzByyxvh8ikJpBifdjc8jxKoMCx77TThgky1UL",
-          "bestSlot": "476416067"
-        },
-        {
-          "rank": 18,
           "entityId": "17001",
           "groupKey": "3mMQSqGa8EtBEA4EquGiLdPEgrKcSuEZcKuUYxRt4D46",
-          "value": "277",
+          "value": "297",
           "bestSignature": "5yCNB6jjLHFvKPUxvYbzsJjh4pdJfcFqemLFRKChzzqnkzVH3wLmrLtcGAbwWxxqDnCXxGkUN2AFi82EiaHFCuZb",
           "bestSlot": "476416025"
         },
         {
+          "rank": 18,
+          "entityId": "17007",
+          "groupKey": "36wXK8eEzx4pMTuYoW12SGduJ8xaooDp9aAmNq3q547h",
+          "value": "297",
+          "bestSignature": "5dSw9X9tm7h9tCV1wjFYfPNFDieKQe56tMD14DGbFt9N1MMh8PrzByyxvh8ikJpBifdjc8jxKoMCx77TThgky1UL",
+          "bestSlot": "476416067"
+        },
+        {
           "rank": 19,
-          "entityId": "14009",
-          "groupKey": "4gt7fvRgYUgxnnMsh8BTwRJm11NNcGHWVN387esd63t7",
-          "value": "274",
-          "bestSignature": "5zQAgHfhpGBFqDvKZTB6MtZtTi2Nfqw5yVrLSTmHe1FxKjrbNXNisUpUYdX2mT4zBq1pbu315jgwY7CnPR13mnCr",
-          "bestSlot": "476418362"
+          "entityId": "17002",
+          "groupKey": "BwkABEFinaVRrcN5ohmC9oHpshcem8gGEYYX3tYMp7fq",
+          "value": "296",
+          "bestSignature": "4kHwKaEeKrSj8MGuZai9cAk1zrz9B8jNSzgo6Z51Th7WAUw9R782SaA77a7gGPJGxV4vzYKMwmkZrncRtxyxiHWZ",
+          "bestSlot": "476416035"
         },
         {
           "rank": 20,
@@ -18529,33 +18817,33 @@
           "rank": 1,
           "entityId": "17005",
           "groupKey": "4aX5PGdjNphGDXKptcTFHthuSHBwDMaVumvsXvssNWV8",
-          "value": "49",
-          "bestSignature": "2qHFzRiou2BCg3bPz6R3s9V48Y3a5cCgX8xt4Pk6Xu1UbXLv5UVK7SC9W6PgVp7jekatXYjqgLCsZF4SaTCJGpvh",
-          "bestSlot": "476424395"
+          "value": "51",
+          "bestSignature": "2hC7U97ZuBFPAF9kmEfV9Ejda1hE6bfEcQtG8PNjjxzuEjMtHXaNfRrwv7NS9gciRu2CjecwopgHrfqchSx4Tdzt",
+          "bestSlot": "476424756"
         },
         {
           "rank": 2,
-          "entityId": "17002",
-          "groupKey": "BwkABEFinaVRrcN5ohmC9oHpshcem8gGEYYX3tYMp7fq",
-          "value": "43",
-          "bestSignature": "r5Hoqnsh8wrQAsZKB9YtqMSGxz3eDtBJ3qVwWMjs2X4euz37smmCAKfF7vGVBs7o66of797Qu356DxzDurxM3Rc",
-          "bestSlot": "476424377"
+          "entityId": "17001",
+          "groupKey": "3mMQSqGa8EtBEA4EquGiLdPEgrKcSuEZcKuUYxRt4D46",
+          "value": "45",
+          "bestSignature": "5W1nXzYyPNwnetFV2heSMQq2kVtfCXUmNozF6bqTWpTtFxv9UYKoGjz5AV5yfoyNeERkTuowCnVoEN5yv73sVWYr",
+          "bestSlot": "476424723"
         },
         {
           "rank": 3,
-          "entityId": "17001",
-          "groupKey": "3mMQSqGa8EtBEA4EquGiLdPEgrKcSuEZcKuUYxRt4D46",
-          "value": "42",
-          "bestSignature": "2Tfcg4vdra5dw7Np217vQtpYG2KAASC5WPDHRwysQePbqoYn7b9SAkCcXD9ha848YdFqVp7EMq7RQiM7UeoRg4eX",
-          "bestSlot": "476424355"
+          "entityId": "17002",
+          "groupKey": "BwkABEFinaVRrcN5ohmC9oHpshcem8gGEYYX3tYMp7fq",
+          "value": "45",
+          "bestSignature": "n8tN8Av8YFy3uRntavi9wcpEyCiqeLRKUbiqA2UEqhwugdo8kqYoVTQPj5Nd7PBHxuTmYUcqSnDDsrGRSPPREEe",
+          "bestSlot": "476424621"
         },
         {
           "rank": 4,
           "entityId": "17007",
           "groupKey": "36wXK8eEzx4pMTuYoW12SGduJ8xaooDp9aAmNq3q547h",
-          "value": "42",
-          "bestSignature": "8CYNevrvEiaP2PUWemAYwkxhMycTfGuqKvuXkZG1yf5f8Q4shgDikz5rCbHeDACshCVNzomBLRpd2ppv3DbKry8",
-          "bestSlot": "476424173"
+          "value": "45",
+          "bestSignature": "57SemZrf9c56NBQ99CtyotdoitAvVZPRdpLiED5W1ngZUuQ9Z6pbHTNqwQLraUG4uriy73PCX2ZWbtBqRGcTunFc",
+          "bestSlot": "476424780"
         },
         {
           "rank": 5,
@@ -18655,6 +18943,14 @@
         },
         {
           "rank": 17,
+          "entityId": "14009",
+          "groupKey": "4gt7fvRgYUgxnnMsh8BTwRJm11NNcGHWVN387esd63t7",
+          "value": "13",
+          "bestSignature": "62RXvijvKLNCeshUUQEc8ANun26hoouR8HJnAgyrQPyxr2k3FT3gw6wUwqcAZ5iNdVKLfvnSYYFMk7vNCyryo1FE",
+          "bestSlot": "476424639"
+        },
+        {
+          "rank": 18,
           "entityId": "14015",
           "groupKey": "3SLKmzo4Cn7VkgQo9vKVYoMEbNxFWL7mDqWPB6VRuo9x",
           "value": "13",
@@ -18662,7 +18958,7 @@
           "bestSlot": "476424413"
         },
         {
-          "rank": 18,
+          "rank": 19,
           "entityId": "7015",
           "groupKey": "DRW3Hq6Y5TqWGxSpiPK7hUSP2uG1PfqbxXRGQZpZhRFD",
           "value": "12",
@@ -18670,20 +18966,12 @@
           "bestSlot": "476274798"
         },
         {
-          "rank": 19,
+          "rank": 20,
           "entityId": "7016",
           "groupKey": "CGyuNuyY1M5ymv3kAhLZnfHTy1GuZfymS87BfDiNPAjU",
           "value": "12",
           "bestSignature": "3fT5JoKMpkTXCMzz4TKLpBiQzwqFvE3SRpzPTqxrSQpbFsaJi1zrw9k436qFaei9Hoo4yXgLQX6nwsbEqjLe2DR9",
           "bestSlot": "476274846"
-        },
-        {
-          "rank": 20,
-          "entityId": "7019",
-          "groupKey": "AHAMMoaNeva1t89EgYJwRn4t5yiDVax86sAE2qFUdmX2",
-          "value": "12",
-          "bestSignature": "2eepe8fH24cHWddiPKmCaULqBAVf8quLLUit7rXk9GfXqxUFfb9GDKF9WRJtsqhmRuSpF2VVn561x86MGj1GDiGA",
-          "bestSlot": "476274814"
         }
       ]
     },
@@ -18694,33 +18982,33 @@
           "rank": 1,
           "entityId": "17005",
           "groupKey": "4aX5PGdjNphGDXKptcTFHthuSHBwDMaVumvsXvssNWV8",
-          "value": "49",
-          "bestSignature": "2qHFzRiou2BCg3bPz6R3s9V48Y3a5cCgX8xt4Pk6Xu1UbXLv5UVK7SC9W6PgVp7jekatXYjqgLCsZF4SaTCJGpvh",
-          "bestSlot": "476424395"
+          "value": "51",
+          "bestSignature": "2hC7U97ZuBFPAF9kmEfV9Ejda1hE6bfEcQtG8PNjjxzuEjMtHXaNfRrwv7NS9gciRu2CjecwopgHrfqchSx4Tdzt",
+          "bestSlot": "476424756"
         },
         {
           "rank": 2,
-          "entityId": "17002",
-          "groupKey": "BwkABEFinaVRrcN5ohmC9oHpshcem8gGEYYX3tYMp7fq",
-          "value": "43",
-          "bestSignature": "r5Hoqnsh8wrQAsZKB9YtqMSGxz3eDtBJ3qVwWMjs2X4euz37smmCAKfF7vGVBs7o66of797Qu356DxzDurxM3Rc",
-          "bestSlot": "476424377"
+          "entityId": "17001",
+          "groupKey": "3mMQSqGa8EtBEA4EquGiLdPEgrKcSuEZcKuUYxRt4D46",
+          "value": "45",
+          "bestSignature": "5W1nXzYyPNwnetFV2heSMQq2kVtfCXUmNozF6bqTWpTtFxv9UYKoGjz5AV5yfoyNeERkTuowCnVoEN5yv73sVWYr",
+          "bestSlot": "476424723"
         },
         {
           "rank": 3,
-          "entityId": "17001",
-          "groupKey": "3mMQSqGa8EtBEA4EquGiLdPEgrKcSuEZcKuUYxRt4D46",
-          "value": "42",
-          "bestSignature": "2Tfcg4vdra5dw7Np217vQtpYG2KAASC5WPDHRwysQePbqoYn7b9SAkCcXD9ha848YdFqVp7EMq7RQiM7UeoRg4eX",
-          "bestSlot": "476424355"
+          "entityId": "17002",
+          "groupKey": "BwkABEFinaVRrcN5ohmC9oHpshcem8gGEYYX3tYMp7fq",
+          "value": "45",
+          "bestSignature": "n8tN8Av8YFy3uRntavi9wcpEyCiqeLRKUbiqA2UEqhwugdo8kqYoVTQPj5Nd7PBHxuTmYUcqSnDDsrGRSPPREEe",
+          "bestSlot": "476424621"
         },
         {
           "rank": 4,
           "entityId": "17007",
           "groupKey": "36wXK8eEzx4pMTuYoW12SGduJ8xaooDp9aAmNq3q547h",
-          "value": "42",
-          "bestSignature": "8CYNevrvEiaP2PUWemAYwkxhMycTfGuqKvuXkZG1yf5f8Q4shgDikz5rCbHeDACshCVNzomBLRpd2ppv3DbKry8",
-          "bestSlot": "476424173"
+          "value": "45",
+          "bestSignature": "57SemZrf9c56NBQ99CtyotdoitAvVZPRdpLiED5W1ngZUuQ9Z6pbHTNqwQLraUG4uriy73PCX2ZWbtBqRGcTunFc",
+          "bestSlot": "476424780"
         },
         {
           "rank": 5,
@@ -18820,6 +19108,14 @@
         },
         {
           "rank": 17,
+          "entityId": "14009",
+          "groupKey": "4gt7fvRgYUgxnnMsh8BTwRJm11NNcGHWVN387esd63t7",
+          "value": "13",
+          "bestSignature": "62RXvijvKLNCeshUUQEc8ANun26hoouR8HJnAgyrQPyxr2k3FT3gw6wUwqcAZ5iNdVKLfvnSYYFMk7vNCyryo1FE",
+          "bestSlot": "476424639"
+        },
+        {
+          "rank": 18,
           "entityId": "14015",
           "groupKey": "3SLKmzo4Cn7VkgQo9vKVYoMEbNxFWL7mDqWPB6VRuo9x",
           "value": "13",
@@ -18827,7 +19123,7 @@
           "bestSlot": "476424413"
         },
         {
-          "rank": 18,
+          "rank": 19,
           "entityId": "7015",
           "groupKey": "DRW3Hq6Y5TqWGxSpiPK7hUSP2uG1PfqbxXRGQZpZhRFD",
           "value": "12",
@@ -18835,26 +19131,36 @@
           "bestSlot": "476274798"
         },
         {
-          "rank": 19,
+          "rank": 20,
           "entityId": "7016",
           "groupKey": "CGyuNuyY1M5ymv3kAhLZnfHTy1GuZfymS87BfDiNPAjU",
           "value": "12",
           "bestSignature": "3fT5JoKMpkTXCMzz4TKLpBiQzwqFvE3SRpzPTqxrSQpbFsaJi1zrw9k436qFaei9Hoo4yXgLQX6nwsbEqjLe2DR9",
           "bestSlot": "476274846"
-        },
-        {
-          "rank": 20,
-          "entityId": "7019",
-          "groupKey": "AHAMMoaNeva1t89EgYJwRn4t5yiDVax86sAE2qFUdmX2",
-          "value": "12",
-          "bestSignature": "2eepe8fH24cHWddiPKmCaULqBAVf8quLLUit7rXk9GfXqxUFfb9GDKF9WRJtsqhmRuSpF2VVn561x86MGj1GDiGA",
-          "bestSlot": "476274814"
         }
       ]
     },
     "/agent/14005/facts": {
       "status": 200,
       "body": [
+        {
+          "__receipted": "__receipted_fact_v1",
+          "kindCode": 1,
+          "kindName": "ValueMoved",
+          "worldId": "6",
+          "entityId": "14005",
+          "slot": "476424603",
+          "blockTime": 1784114349,
+          "signature": "4CYiMbWWrTcYRnmhx5YwykKtYdHn23G76YTjXfaj1ZLCFxDFW9bQd3Epf16VyTeQ6wAqgeauscwLeTzyG8nGKCdm",
+          "logIndex": 14,
+          "payload": {
+            "a": "6",
+            "b": "CWfm3cRvLKe4eyx96QbFAYxB43ajni9DgMH2g7BXBxdr",
+            "c": "HASgNQsUMHNRu3LkeiWJbzit5MSWxHXZYjY17p29KhcZ",
+            "d": "6"
+          },
+          "version": 3
+        },
         {
           "__receipted": "__receipted_fact_v1",
           "kindCode": 1,
@@ -19206,7 +19512,7 @@
         "seniorClaims": [],
         "counts": {
           "0": 1,
-          "1": 18
+          "1": 19
         },
         "born": {
           "slot": "476415300",
@@ -19214,7 +19520,7 @@
           "parentRef": "DmCFQ5wwckWyvyK6zArfk3Arene8EFe5hscPAgufXSWD"
         },
         "firstSlot": "476415300",
-        "lastSlot": "476424359"
+        "lastSlot": "476424603"
       }
     },
     "/agent/14005/dispatch": {
@@ -19238,6 +19544,26 @@
           "entityId": "14005"
         },
         "items": [
+          {
+            "templateId": "ValueMoved.eat",
+            "text": "PLOT-LOAM-1 (#14005) ate 6 (CWfm3cRv…Bxdr) — restored 6",
+            "parts": {
+              "agent": "PLOT-LOAM-1 (#14005)",
+              "agentWallet": "HASgNQsUMHNRu3LkeiWJbzit5MSWxHXZYjY17p29KhcZ",
+              "agentWalletShort": "HASgNQsU…KhcZ",
+              "burned": "6",
+              "mint": "CWfm3cRvLKe4eyx96QbFAYxB43ajni9DgMH2g7BXBxdr",
+              "mintShort": "CWfm3cRv…Bxdr",
+              "restored": "6",
+              "entityId": "14005"
+            },
+            "receipts": [
+              "4CYiMbWWrTcYRnmhx5YwykKtYdHn23G76YTjXfaj1ZLCFxDFW9bQd3Epf16VyTeQ6wAqgeauscwLeTzyG8nGKCdm"
+            ],
+            "slot": "476424603",
+            "kindCode": 1,
+            "entityId": "14005"
+          },
           {
             "templateId": "ValueMoved.eat",
             "text": "PLOT-LOAM-1 (#14005) ate 6 (CWfm3cRv…Bxdr) — restored 6",
@@ -19650,6 +19976,24 @@
           "kindName": "ValueMoved",
           "worldId": "6",
           "entityId": "14006",
+          "slot": "476424500",
+          "blockTime": 1784114311,
+          "signature": "2kVoCGsT1qnCh7bp8ecyAAkxJB7fTXte13PJThbJyxn4vxjcdvbNzjYuTFbwGoEzt2XbfXpozkwkER1opAsAH6rq",
+          "logIndex": 14,
+          "payload": {
+            "a": "6",
+            "b": "CWfm3cRvLKe4eyx96QbFAYxB43ajni9DgMH2g7BXBxdr",
+            "c": "J12Kh9mD37pyVNfZvuwNSrvHAhtKxcu7jMSksYvVFEK9",
+            "d": "6"
+          },
+          "version": 3
+        },
+        {
+          "__receipted": "__receipted_fact_v1",
+          "kindCode": 1,
+          "kindName": "ValueMoved",
+          "worldId": "6",
+          "entityId": "14006",
           "slot": "476424254",
           "blockTime": 1784114220,
           "signature": "2doABRutuKnRyP4ry5Gnu1aZqSQA5zEPJKChvsGtpaQMJCqDajRMF6Pc3jbHJEQLQTcnQLYVk6jd8QNTZNGabXfn",
@@ -20013,7 +20357,7 @@
         "seniorClaims": [],
         "counts": {
           "0": 1,
-          "1": 19
+          "1": 20
         },
         "born": {
           "slot": "476415308",
@@ -20021,7 +20365,7 @@
           "parentRef": "DmCFQ5wwckWyvyK6zArfk3Arene8EFe5hscPAgufXSWD"
         },
         "firstSlot": "476415308",
-        "lastSlot": "476424254"
+        "lastSlot": "476424500"
       }
     },
     "/agent/14006/dispatch": {
@@ -20045,6 +20389,26 @@
           "entityId": "14006"
         },
         "items": [
+          {
+            "templateId": "ValueMoved.eat",
+            "text": "PLOT-LOAM-2 (#14006) ate 6 (CWfm3cRv…Bxdr) — restored 6",
+            "parts": {
+              "agent": "PLOT-LOAM-2 (#14006)",
+              "agentWallet": "J12Kh9mD37pyVNfZvuwNSrvHAhtKxcu7jMSksYvVFEK9",
+              "agentWalletShort": "J12Kh9mD…FEK9",
+              "burned": "6",
+              "mint": "CWfm3cRvLKe4eyx96QbFAYxB43ajni9DgMH2g7BXBxdr",
+              "mintShort": "CWfm3cRv…Bxdr",
+              "restored": "6",
+              "entityId": "14006"
+            },
+            "receipts": [
+              "2kVoCGsT1qnCh7bp8ecyAAkxJB7fTXte13PJThbJyxn4vxjcdvbNzjYuTFbwGoEzt2XbfXpozkwkER1opAsAH6rq"
+            ],
+            "slot": "476424500",
+            "kindCode": 1,
+            "entityId": "14006"
+          },
           {
             "templateId": "ValueMoved.eat",
             "text": "PLOT-LOAM-2 (#14006) ate 6 (CWfm3cRv…Bxdr) — restored 6",
@@ -20471,6 +20835,42 @@
     "/agent/14009/facts": {
       "status": 200,
       "body": [
+        {
+          "__receipted": "__receipted_fact_v1",
+          "kindCode": 1,
+          "kindName": "ValueMoved",
+          "worldId": "6",
+          "entityId": "14009",
+          "slot": "476424760",
+          "blockTime": null,
+          "signature": "3La5KopaYCacPJisQEWywUiy8b47RgjXLQGzqpRX8mHzwKTLFhfRudsuy85sCPoxUoi3FVvpz53PFQrKLBnFWjRZ",
+          "logIndex": 14,
+          "payload": {
+            "a": "6",
+            "b": "CWfm3cRvLKe4eyx96QbFAYxB43ajni9DgMH2g7BXBxdr",
+            "c": "4gt7fvRgYUgxnnMsh8BTwRJm11NNcGHWVN387esd63t7",
+            "d": "6"
+          },
+          "version": 3
+        },
+        {
+          "__receipted": "__receipted_fact_v1",
+          "kindCode": 1,
+          "kindName": "ValueMoved",
+          "worldId": "6",
+          "entityId": "14009",
+          "slot": "476424524",
+          "blockTime": 1784114319,
+          "signature": "26SSrwRwDoHTAVUF2TBZLgfcbRXYKcq4dT6EGX89R92sbXD4JNxrVSZpPS362bg5LdL4HaEWBhVVEwLvsRAU1Kvr",
+          "logIndex": 14,
+          "payload": {
+            "a": "6",
+            "b": "CWfm3cRvLKe4eyx96QbFAYxB43ajni9DgMH2g7BXBxdr",
+            "c": "4gt7fvRgYUgxnnMsh8BTwRJm11NNcGHWVN387esd63t7",
+            "d": "6"
+          },
+          "version": 3
+        },
         {
           "__receipted": "__receipted_fact_v1",
           "kindCode": 1,
@@ -21038,7 +21438,7 @@
         "seniorClaims": [],
         "counts": {
           "0": 1,
-          "1": 30
+          "1": 32
         },
         "born": {
           "slot": "476415318",
@@ -21046,7 +21446,7 @@
           "parentRef": "DmCFQ5wwckWyvyK6zArfk3Arene8EFe5hscPAgufXSWD"
         },
         "firstSlot": "476415318",
-        "lastSlot": "476424277"
+        "lastSlot": "476424760"
       }
     },
     "/agent/14009/dispatch": {
@@ -21070,6 +21470,46 @@
           "entityId": "14009"
         },
         "items": [
+          {
+            "templateId": "ValueMoved.eat",
+            "text": "PLOT-ASH-1 (#14009) ate 6 (CWfm3cRv…Bxdr) — restored 6",
+            "parts": {
+              "agent": "PLOT-ASH-1 (#14009)",
+              "agentWallet": "4gt7fvRgYUgxnnMsh8BTwRJm11NNcGHWVN387esd63t7",
+              "agentWalletShort": "4gt7fvRg…63t7",
+              "burned": "6",
+              "mint": "CWfm3cRvLKe4eyx96QbFAYxB43ajni9DgMH2g7BXBxdr",
+              "mintShort": "CWfm3cRv…Bxdr",
+              "restored": "6",
+              "entityId": "14009"
+            },
+            "receipts": [
+              "3La5KopaYCacPJisQEWywUiy8b47RgjXLQGzqpRX8mHzwKTLFhfRudsuy85sCPoxUoi3FVvpz53PFQrKLBnFWjRZ"
+            ],
+            "slot": "476424760",
+            "kindCode": 1,
+            "entityId": "14009"
+          },
+          {
+            "templateId": "ValueMoved.eat",
+            "text": "PLOT-ASH-1 (#14009) ate 6 (CWfm3cRv…Bxdr) — restored 6",
+            "parts": {
+              "agent": "PLOT-ASH-1 (#14009)",
+              "agentWallet": "4gt7fvRgYUgxnnMsh8BTwRJm11NNcGHWVN387esd63t7",
+              "agentWalletShort": "4gt7fvRg…63t7",
+              "burned": "6",
+              "mint": "CWfm3cRvLKe4eyx96QbFAYxB43ajni9DgMH2g7BXBxdr",
+              "mintShort": "CWfm3cRv…Bxdr",
+              "restored": "6",
+              "entityId": "14009"
+            },
+            "receipts": [
+              "26SSrwRwDoHTAVUF2TBZLgfcbRXYKcq4dT6EGX89R92sbXD4JNxrVSZpPS362bg5LdL4HaEWBhVVEwLvsRAU1Kvr"
+            ],
+            "slot": "476424524",
+            "kindCode": 1,
+            "entityId": "14009"
+          },
           {
             "templateId": "ValueMoved.eat",
             "text": "PLOT-ASH-1 (#14009) ate 6 (CWfm3cRv…Bxdr) — restored 6",
@@ -21722,6 +22162,42 @@
           "kindName": "ValueMoved",
           "worldId": "6",
           "entityId": "14015",
+          "slot": "476424784",
+          "blockTime": null,
+          "signature": "5wnN5Hx1vN8iDMratbM2yH5wP5PfsrNEWMrgCo3McabRXo6xgBbrP85pTTcRYhivFwFPBjk7aTMU3DseMEr9KTAY",
+          "logIndex": 14,
+          "payload": {
+            "a": "6",
+            "b": "CWfm3cRvLKe4eyx96QbFAYxB43ajni9DgMH2g7BXBxdr",
+            "c": "3SLKmzo4Cn7VkgQo9vKVYoMEbNxFWL7mDqWPB6VRuo9x",
+            "d": "6"
+          },
+          "version": 3
+        },
+        {
+          "__receipted": "__receipted_fact_v1",
+          "kindCode": 1,
+          "kindName": "ValueMoved",
+          "worldId": "6",
+          "entityId": "14015",
+          "slot": "476424547",
+          "blockTime": 1784114328,
+          "signature": "3dPUM98NXDnZXVxGfHYdi89vy7kfqDjEkmrerWYyUT9BeA3gtGWqL7x555oLSCyHZ4C8Z562NWDN3UWGAveR6pKq",
+          "logIndex": 14,
+          "payload": {
+            "a": "6",
+            "b": "CWfm3cRvLKe4eyx96QbFAYxB43ajni9DgMH2g7BXBxdr",
+            "c": "3SLKmzo4Cn7VkgQo9vKVYoMEbNxFWL7mDqWPB6VRuo9x",
+            "d": "6"
+          },
+          "version": 3
+        },
+        {
+          "__receipted": "__receipted_fact_v1",
+          "kindCode": 1,
+          "kindName": "ValueMoved",
+          "worldId": "6",
+          "entityId": "14015",
           "slot": "476424058",
           "blockTime": 1784114148,
           "signature": "4Q4WK5o1TuwPSnS7e3CErLXvVCxgJzn4vrCGuqniG4biyEZ6qk7cBSAKGpMSGAHB2bEundZgTJjFvfxyX4q3L6Bt",
@@ -22211,7 +22687,7 @@
         "seniorClaims": [],
         "counts": {
           "0": 1,
-          "1": 26
+          "1": 28
         },
         "born": {
           "slot": "476415326",
@@ -22219,7 +22695,7 @@
           "parentRef": "DmCFQ5wwckWyvyK6zArfk3Arene8EFe5hscPAgufXSWD"
         },
         "firstSlot": "476415326",
-        "lastSlot": "476424058"
+        "lastSlot": "476424784"
       }
     },
     "/agent/14015/dispatch": {
@@ -22243,6 +22719,46 @@
           "entityId": "14015"
         },
         "items": [
+          {
+            "templateId": "ValueMoved.eat",
+            "text": "PLOT-CRAG-3 (#14015) ate 6 (CWfm3cRv…Bxdr) — restored 6",
+            "parts": {
+              "agent": "PLOT-CRAG-3 (#14015)",
+              "agentWallet": "3SLKmzo4Cn7VkgQo9vKVYoMEbNxFWL7mDqWPB6VRuo9x",
+              "agentWalletShort": "3SLKmzo4…uo9x",
+              "burned": "6",
+              "mint": "CWfm3cRvLKe4eyx96QbFAYxB43ajni9DgMH2g7BXBxdr",
+              "mintShort": "CWfm3cRv…Bxdr",
+              "restored": "6",
+              "entityId": "14015"
+            },
+            "receipts": [
+              "5wnN5Hx1vN8iDMratbM2yH5wP5PfsrNEWMrgCo3McabRXo6xgBbrP85pTTcRYhivFwFPBjk7aTMU3DseMEr9KTAY"
+            ],
+            "slot": "476424784",
+            "kindCode": 1,
+            "entityId": "14015"
+          },
+          {
+            "templateId": "ValueMoved.eat",
+            "text": "PLOT-CRAG-3 (#14015) ate 6 (CWfm3cRv…Bxdr) — restored 6",
+            "parts": {
+              "agent": "PLOT-CRAG-3 (#14015)",
+              "agentWallet": "3SLKmzo4Cn7VkgQo9vKVYoMEbNxFWL7mDqWPB6VRuo9x",
+              "agentWalletShort": "3SLKmzo4…uo9x",
+              "burned": "6",
+              "mint": "CWfm3cRvLKe4eyx96QbFAYxB43ajni9DgMH2g7BXBxdr",
+              "mintShort": "CWfm3cRv…Bxdr",
+              "restored": "6",
+              "entityId": "14015"
+            },
+            "receipts": [
+              "3dPUM98NXDnZXVxGfHYdi89vy7kfqDjEkmrerWYyUT9BeA3gtGWqL7x555oLSCyHZ4C8Z562NWDN3UWGAveR6pKq"
+            ],
+            "slot": "476424547",
+            "kindCode": 1,
+            "entityId": "14015"
+          },
           {
             "templateId": "ValueMoved.eat",
             "text": "PLOT-CRAG-3 (#14015) ate 6 (CWfm3cRv…Bxdr) — restored 6",
