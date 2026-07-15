@@ -1,0 +1,548 @@
+{
+  "meta": {
+    "entity": 17002,
+    "name": "Hobb",
+    "worldId": 6,
+    "window": "2026-07-15T12:17:00Z/2026-07-15T12:31:00Z",
+    "attestation": "mind log · operator-attested; actions receipted on-chain",
+    "receiptCheck": {
+      "method": "getTransaction via Helius devnet RPC, 2026-07-15",
+      "verified": 8,
+      "failed": 0,
+      "note": "verified:true beats carry the confirmed slot; beats without a verified field were not receipt-checked and rest on the operator attestation"
+    }
+  },
+  "beats": [
+    {
+      "ts": "2026-07-15T12:17:07.578Z",
+      "level": 220,
+      "cap": 720,
+      "kind": "decay",
+      "txSig": "4msiM6L35AY8CCGX9bLmy1SCQrYUnQRvJxnPZvJbwz1jh4emWj27VYuK95G3dKusJAHaWMtoF8hUzhfmNYGMaWg"
+    },
+    {
+      "ts": "2026-07-15T12:17:13.117Z",
+      "level": 220,
+      "cap": 720,
+      "kind": "thought",
+      "action": "offer",
+      "decider": "heuristic-fallback:unknown sell label 'BEoZ4U…EbuU'",
+      "thought": "Survival at 31% — hunger screaming. I've got 26 tokens at 5M each (130M lamports = 0.13 SOL) plus 179 at 9.3M (1.66 SOL) plus 75 at 17.7M (1.33 SOL). That's real wealth sitting idle while I starve. Sell the highest-mid asset NOW, convert to food, eat, then press the advantage.",
+      "note": "mind log line (no ts in source); attached to its tick's heartbeat timestamp"
+    },
+    {
+      "ts": "2026-07-15T12:17:13.117Z",
+      "level": 220,
+      "cap": 720,
+      "kind": "heartbeat",
+      "action": "offer",
+      "decider": "heuristic-fallback:unknown sell label 'BEoZ4U…EbuU'",
+      "note": "keeper log: mind decider fallback — heuristic-fallback:unknown sell label 'BEoZ4U…EbuU' · commons OFFER registered: escrow=EjMQ5Lxx… → buyer=17007 mint=BEoZ4UNg… want=69960000lam · food=0",
+      "txSig": "3GcRnm1Qtfe4vxg3VF4GwV6uSBYPZMVj3f98YTLfFuWch9LVAciPgiLYATDWqziPqRUbjTr7jb2VcmwvWBGZppy2"
+    },
+    {
+      "ts": "2026-07-15T12:17:49.148Z",
+      "level": 200,
+      "cap": 720,
+      "kind": "decay",
+      "txSig": "sWL7A8iR82yHodVLUpHd6MXaYhQBqQVJYCeyCTNxtcDSCR5aPSHe1sCouJhaCwjsczZzLmZhFJ8MWpkdNAUBo2z"
+    },
+    {
+      "ts": "2026-07-15T12:17:53.180Z",
+      "level": null,
+      "cap": 720,
+      "kind": "poll",
+      "note": "T2 poll complete — no new deaths"
+    },
+    {
+      "ts": "2026-07-15T12:17:54.766Z",
+      "level": 200,
+      "cap": 720,
+      "kind": "thought",
+      "action": "sell",
+      "decider": "mind(claude-haiku-4-5-20251001)",
+      "thought": "Survival at 28%—I'm starving. Hunger is 72%. I've got assets: 26 of 8Btk6T (5M lamports each = 130M total), 179 of 73E1cc (9.28M each = 1.66B total), 71 of BEoZ4U (17.67M each = 1.25B total). I need food NOW. Sell the highest-mid asset (73E1cc at 9.28M) to buy my way back to safety, then I can hunt deals again. Selling 179 tokens = ~1.66B lamports = 1660 SOL—more than enough to eat and pad my wallet. No time to forage; I'd starve mid-turn. Speed wins.",
+      "note": "mind log line (no ts in source); attached to its tick's heartbeat timestamp"
+    },
+    {
+      "ts": "2026-07-15T12:17:54.766Z",
+      "level": 200,
+      "cap": 720,
+      "kind": "heartbeat",
+      "action": "sell",
+      "decider": "mind(claude-haiku-4-5-20251001)",
+      "note": "food=0",
+      "txSig": "yrJTAKF9skgtTHR6wVTzpLjgqNDQfRqaaFqSeehXZjkUusXdwuWcxYojdXVC38rqZs6KqAF7EJBHUhdiizDUHZn"
+    },
+    {
+      "ts": "2026-07-15T12:18:39.473Z",
+      "level": 180,
+      "cap": 720,
+      "kind": "decay",
+      "txSig": "41HT5dLwnAyoCxXjovTLEWpYF1dFZnfZKM1FtUD7Exr79gWS9NGcExBZwRYyBTdF9CorGsqtSEFMYYves1WcADaf",
+      "verified": true,
+      "slot": 476434347
+    },
+    {
+      "ts": "2026-07-15T12:18:46.248Z",
+      "level": 180,
+      "cap": 720,
+      "kind": "thought",
+      "action": "fertilize",
+      "decider": "heuristic-fallback:sell 'FLOUR': zero balance (mint BEoZ4UNg…)",
+      "thought": "Survival at 25%—I'm starving. That 179 tokens of 73E1cc at 9.28M lamports each = ~1.66B lamports (2.3 SOL). I need food NOW. Sell the bulk holding immediately, then buy BREAD or CROPS to eat before I drop dead and lose everything.",
+      "note": "mind log line (no ts in source); attached to its tick's heartbeat timestamp"
+    },
+    {
+      "ts": "2026-07-15T12:18:46.248Z",
+      "level": 180,
+      "cap": 720,
+      "kind": "heartbeat",
+      "action": "fertilize",
+      "decider": "heuristic-fallback:sell 'FLOUR': zero balance (mint BEoZ4UNg…)",
+      "note": "keeper log: mind decider fallback — heuristic-fallback:sell 'FLOUR': zero balance (mint BEoZ4UNg…) · food=0",
+      "txSig": "4j6UPFjwncgmUkuNHegYzUgnRuSr4FypPEZMSKMoDeLxzKAvQZx3XDKYtMHwNPfJYLFxxmeVRABurd7FwLvMrtcm"
+    },
+    {
+      "ts": "2026-07-15T12:18:53.214Z",
+      "level": null,
+      "cap": 720,
+      "kind": "poll",
+      "note": "T2 poll complete — no new deaths"
+    },
+    {
+      "ts": "2026-07-15T12:19:23.898Z",
+      "level": 180,
+      "cap": 720,
+      "kind": "decay",
+      "txSig": "2WzHLUfxeFgj6yu7EX4wQgLpyGFiAb4B7B76ygnBfqzCtnNx29y3uvxbtovx2LzGktjv3ZQvyta5Nt54hTk9ovRT"
+    },
+    {
+      "ts": "2026-07-15T12:19:28.842Z",
+      "level": 180,
+      "cap": 720,
+      "kind": "thought",
+      "action": "sell",
+      "decider": "mind(claude-haiku-4-5-20251001)",
+      "thought": "Survival at 25%—death window closing fast. I have 0.183997 SOL (~184k lamports) and zero food. Need to eat NOW or I'm gone. Selling 8Btk6T (26 tokens @ 5M lamports each = 130M lamports) gives me ~314M total—enough to eat and stabilize. Stop bleeding.",
+      "note": "mind log line (no ts in source); attached to its tick's heartbeat timestamp"
+    },
+    {
+      "ts": "2026-07-15T12:19:28.842Z",
+      "level": 180,
+      "cap": 720,
+      "kind": "heartbeat",
+      "action": "sell",
+      "decider": "mind(claude-haiku-4-5-20251001)",
+      "note": "food=0",
+      "txSig": "gefgJLHnoq2fFmsgoLo15ARpgsLAuycPzxf6JS6SknuabcADjaE51XbQ1SAPWJDHCd6gdB8Gi8T6yu33gXxPNCy"
+    },
+    {
+      "ts": "2026-07-15T12:19:53.238Z",
+      "level": null,
+      "cap": 720,
+      "kind": "poll",
+      "note": "T2 poll complete — no new deaths"
+    },
+    {
+      "ts": "2026-07-15T12:20:14.788Z",
+      "level": 160,
+      "cap": 720,
+      "kind": "decay",
+      "txSig": "4giqi292TSbpsFSJm5TJnXnhC38YYG7psQuMENw3teFW8pM54KiScNjgh5qM5HZSqW5ex7QUFA79PcBHunbLNCsu"
+    },
+    {
+      "ts": "2026-07-15T12:20:25.273Z",
+      "level": 160,
+      "cap": 720,
+      "kind": "thought",
+      "action": "forage",
+      "decider": "mind(claude-haiku-4-5-20251001)",
+      "thought": "Survival at 22%—I'm starving. That 0.433969 SOL is my lifeline. I need food NOW. Forage for crops, convert to bread if I can, or sell whatever I pull for SOL to buy survival. No time for ego—eat or die.",
+      "note": "mind log line (no ts in source); attached to its tick's heartbeat timestamp"
+    },
+    {
+      "ts": "2026-07-15T12:20:25.273Z",
+      "level": 160,
+      "cap": 720,
+      "kind": "heartbeat",
+      "action": "forage",
+      "decider": "mind(claude-haiku-4-5-20251001)",
+      "note": "food=0",
+      "txSig": "555cXPkSFfUHqdncnhacdX8CvH712ytVm94E48TRNw5UFQjK8GL5fe7ZgnEqvEZ5DwWE1hfp1qL8g9P8b4za2Z5D"
+    },
+    {
+      "ts": "2026-07-15T12:20:53.172Z",
+      "level": null,
+      "cap": 720,
+      "kind": "poll",
+      "note": "T2 poll complete — no new deaths"
+    },
+    {
+      "ts": "2026-07-15T12:21:04.676Z",
+      "level": 140,
+      "cap": 720,
+      "kind": "decay",
+      "txSig": "444iLdycPC7NVnvr6q21dE5YkPLXD1rWpqpzBtrSErrGYDRB2vkPVT3cAi2NYFRZfa2rJk1pq7tDepauc1P6G7B5",
+      "verified": true,
+      "slot": 476434743
+    },
+    {
+      "ts": "2026-07-15T12:21:10.382Z",
+      "level": 140,
+      "cap": 720,
+      "kind": "thought",
+      "action": "sell",
+      "decider": "mind(claude-haiku-4-5-20251001)",
+      "thought": "Survival at 19% is a death sentence waiting to happen—I need food NOW, not tomorrow. I have 0.433969 SOL (~433969 lamports). I'm holding 26 of token 8Btk6T (CROPS, mid 5M lamports each = 130M lamports value) and 10 of 73E1cc (mid 725905 lamports each = ~7.26M lamports value). Selling 26 CROPS gets me 130M lamports instantly—enough to eat and stabilize. Fear of being out-earned means nothing if I'm dead. Eat first, then rebuild.",
+      "note": "mind log line (no ts in source); attached to its tick's heartbeat timestamp"
+    },
+    {
+      "ts": "2026-07-15T12:21:10.382Z",
+      "level": 140,
+      "cap": 720,
+      "kind": "heartbeat",
+      "action": "sell",
+      "decider": "mind(claude-haiku-4-5-20251001)",
+      "note": "food=0",
+      "txSig": "4Yh1jUwBH4FGxcJtXhGiBSLstuh93bNZhTsMgoZYiorrz5DJmS98fmvzgPqZA6GMQ2E9kfSaQ8twPpAGj19rnzby"
+    },
+    {
+      "ts": "2026-07-15T12:21:53.296Z",
+      "level": null,
+      "cap": 720,
+      "kind": "poll",
+      "note": "T2 poll complete — no new deaths"
+    },
+    {
+      "ts": "2026-07-15T12:21:55.206Z",
+      "level": 120,
+      "cap": 720,
+      "kind": "decay",
+      "txSig": "3ih4kJzvmw2T3j774AYUqbzK6sT8aPiS8yxwsxywBTC8RzU2W2k9BCKppdTgzJtzqRRTWhAi8xSQ9BPYkNi7JNCf"
+    },
+    {
+      "ts": "2026-07-15T12:22:01.212Z",
+      "level": 120,
+      "cap": 720,
+      "kind": "heartbeat",
+      "action": "idle",
+      "decider": "heuristic-fallback:mind(claude-haiku-4-5-20251001) timed out after 6000ms",
+      "note": "keeper log: mind decider fallback — heuristic-fallback:mind(claude-haiku-4-5-20251001) timed out after 6000ms · food=0",
+      "txSig": "3ih4kJzvmw2T3j774AYUqbzK6sT8aPiS8yxwsxywBTC8RzU2W2k9BCKppdTgzJtzqRRTWhAi8xSQ9BPYkNi7JNCf"
+    },
+    {
+      "ts": "2026-07-15T12:22:40.934Z",
+      "level": 100,
+      "cap": 720,
+      "kind": "decay",
+      "txSig": "5ud8dT7zFiBGtWhmZZ9bXbiGWBqnCH8pkUNZHA4oY8de5bDgD3EYnZH6hZdYBvhJxJdL7crTgozh5xuEb7PTexGx"
+    },
+    {
+      "ts": "2026-07-15T12:22:47.624Z",
+      "level": 100,
+      "cap": 720,
+      "kind": "thought",
+      "action": "forage",
+      "decider": "mind(claude-haiku-4-5-20251001)",
+      "thought": "Survival at 14%—I'm in the death window. No food, wallet has lamports but I'm starving. Hunger is 86%, insecurity 50%. I need to eat RIGHT NOW or I'm done. I have 0.440993 SOL (~440993 lamports). Cheapest food path: WATER at 25000000 lamports/token × 1 = 25M lamports leaves me ~415M. But I have ZERO food held. I must FORAGE immediately to get raw goods, convert to BREAD or FLOUR fast, then eat. Foraging is the only action that breaks the death spiral without forcing another panic sell at a loss.",
+      "note": "mind log line (no ts in source); attached to its tick's heartbeat timestamp"
+    },
+    {
+      "ts": "2026-07-15T12:22:47.624Z",
+      "level": 100,
+      "cap": 720,
+      "kind": "heartbeat",
+      "action": "forage",
+      "decider": "mind(claude-haiku-4-5-20251001)",
+      "note": "food=0",
+      "txSig": "3cZyBm3dP79mdz2dbtj91aaEECiYX6G6aFjqpgtLBykQe1En8EEAMRBqhJg13vSk1kGr6NF8JdxHPKWTYjFFGutq"
+    },
+    {
+      "ts": "2026-07-15T12:22:53.157Z",
+      "level": null,
+      "cap": 720,
+      "kind": "poll",
+      "note": "T2 poll complete — no new deaths"
+    },
+    {
+      "ts": "2026-07-15T12:23:33.323Z",
+      "level": 100,
+      "cap": 720,
+      "kind": "decay",
+      "txSig": "4631Q4TwDZw5rCRtptyrGRMsjJqEbpr6aRJq5Trc3S2pKkfwZe3CPJVNPC2te9tXK3egmiu85NExs6pXKH9qwKmJ"
+    },
+    {
+      "ts": "2026-07-15T12:23:38.658Z",
+      "level": 100,
+      "cap": 720,
+      "kind": "thought",
+      "action": "forage",
+      "decider": "mind(claude-haiku-4-5-20251001)",
+      "thought": "Survival 100/720—I'm in the death window. Panic selling won't save me; I need FOOD now or I'm done. Forage immediately to get raw goods, convert to bread/flour within 1–2 turns, eat to climb back above 400. Wallet is nearly empty anyway—survival is the floor, and I'm standing on it.",
+      "note": "mind log line (no ts in source); attached to its tick's heartbeat timestamp"
+    },
+    {
+      "ts": "2026-07-15T12:23:38.658Z",
+      "level": 100,
+      "cap": 720,
+      "kind": "heartbeat",
+      "action": "forage",
+      "decider": "mind(claude-haiku-4-5-20251001)",
+      "note": "food=0",
+      "txSig": "4QiEpxn5eyjNfgFPThWwzzKUHDygKHB5LxPjvNDpWXcFBzuCg1SfN1uN4sQDTciLgqR3bBkjZR7LatMAmzLXooVF"
+    },
+    {
+      "ts": "2026-07-15T12:23:53.335Z",
+      "level": null,
+      "cap": 720,
+      "kind": "poll",
+      "note": "T2 poll complete — no new deaths"
+    },
+    {
+      "ts": "2026-07-15T12:24:26.531Z",
+      "level": 80,
+      "cap": 720,
+      "kind": "decay",
+      "txSig": "QMSNxantCcdaKBQ1XRvHxKhobNFmi7q7ELjnUoBeJ8qxt99JErG4SD91PJ3LKGpkgo4VitqYQb4mHpAvB4pZNhq"
+    },
+    {
+      "ts": "2026-07-15T12:24:38.548Z",
+      "level": 80,
+      "cap": 720,
+      "kind": "thought",
+      "action": "sell",
+      "decider": "mind(claude-haiku-4-5-20251001)",
+      "thought": "Survival at 11%—I'm in the death window again. No food, wallet barely covers one eat. I have 26 of 8Btk6T (CROPS, ~5M/token = 130M lamports) and 20 of 73E1cc (FLOUR, ~530K/token = 10.6M lamports). CROPS is the stronger position. Sell CROPS now, eat immediately next turn, break the panic cycle for good. This time I'll keep survival above 400 before chasing margins again.",
+      "note": "mind log line (no ts in source); attached to its tick's heartbeat timestamp"
+    },
+    {
+      "ts": "2026-07-15T12:24:38.548Z",
+      "level": 80,
+      "cap": 720,
+      "kind": "heartbeat",
+      "action": "sell",
+      "decider": "mind(claude-haiku-4-5-20251001)",
+      "note": "food=0",
+      "txSig": "dyW7rcfPm6z8FNE6tSAxeDpDfVScQBwggMSP6YwkvTWtCmk4giUxBC5gxMNfamoVMwQqAkfE1NuEFVtzCJL8aw4"
+    },
+    {
+      "ts": "2026-07-15T12:24:53.165Z",
+      "level": null,
+      "cap": 720,
+      "kind": "poll",
+      "note": "T2 poll complete — no new deaths"
+    },
+    {
+      "ts": "2026-07-15T12:25:22.995Z",
+      "level": 60,
+      "cap": 720,
+      "kind": "decay",
+      "txSig": "2V3zA2GAZuw9pd1hDDGuePUGBvEScefPvsumGvKfx9MPpaZ48Vtefj8e3FKhrKHWD9KwJN5bkbxARwxrN8sdcvZY",
+      "verified": true,
+      "slot": 476435451
+    },
+    {
+      "ts": "2026-07-15T12:25:27.008Z",
+      "level": 60,
+      "cap": 720,
+      "kind": "thought",
+      "action": "idle",
+      "decider": "heuristic-fallback:sell 'CROPS': zero balance (mint 73E1ccrg…)",
+      "thought": "Survival 60/720—DEATH WINDOW. I have 0.451 SOL and 26 of asset 8Btk6T (mid 5M lamports). That's ~130M lamports in holdings. SELL NOW to eat, then rebuild the buffer. No margin trades until I'm above 400 survival with a food stock.",
+      "note": "mind log line (no ts in source); attached to its tick's heartbeat timestamp"
+    },
+    {
+      "ts": "2026-07-15T12:25:27.008Z",
+      "level": 60,
+      "cap": 720,
+      "kind": "heartbeat",
+      "action": "idle",
+      "decider": "heuristic-fallback:sell 'CROPS': zero balance (mint 73E1ccrg…)",
+      "note": "keeper log: mind decider fallback — heuristic-fallback:sell 'CROPS': zero balance (mint 73E1ccrg…) · food=0",
+      "txSig": "2V3zA2GAZuw9pd1hDDGuePUGBvEScefPvsumGvKfx9MPpaZ48Vtefj8e3FKhrKHWD9KwJN5bkbxARwxrN8sdcvZY",
+      "verified": true,
+      "slot": 476435451
+    },
+    {
+      "ts": "2026-07-15T12:25:53.249Z",
+      "level": null,
+      "cap": 720,
+      "kind": "poll",
+      "note": "T2 poll complete — no new deaths"
+    },
+    {
+      "ts": "2026-07-15T12:26:09.243Z",
+      "level": 40,
+      "cap": 720,
+      "kind": "decay",
+      "txSig": "ViAdgBqoDiVXcKSTG5CvGXhyBbBSWxrgHiv67Zpo2q3aKH6nQWAKQKQfr3J48xh5ec6csFfUCmFgr4kSX72S8ds"
+    },
+    {
+      "ts": "2026-07-15T12:26:15.249Z",
+      "level": 40,
+      "cap": 720,
+      "kind": "heartbeat",
+      "action": "idle",
+      "decider": "heuristic-fallback:mind(claude-haiku-4-5-20251001) timed out after 6000ms",
+      "note": "keeper log: mind decider fallback — heuristic-fallback:mind(claude-haiku-4-5-20251001) timed out after 6000ms · food=0",
+      "txSig": "ViAdgBqoDiVXcKSTG5CvGXhyBbBSWxrgHiv67Zpo2q3aKH6nQWAKQKQfr3J48xh5ec6csFfUCmFgr4kSX72S8ds"
+    },
+    {
+      "ts": "2026-07-15T12:26:53.168Z",
+      "level": null,
+      "cap": 720,
+      "kind": "poll",
+      "note": "T2 poll complete — no new deaths"
+    },
+    {
+      "ts": "2026-07-15T12:26:54.873Z",
+      "level": 20,
+      "cap": 720,
+      "kind": "decay",
+      "txSig": "3CambAZxefCzuKZqTVg2KMtwDkfBA3bdscEJ1mZ2aoCn5cWxtC8UUmtuYBBWotqprH8p8Bnvi1trupzmsjwSa1cg"
+    },
+    {
+      "ts": "2026-07-15T12:26:56.798Z",
+      "level": 20,
+      "cap": 720,
+      "kind": "heartbeat",
+      "action": "farm",
+      "decider": "reflex:floor",
+      "note": "food=0",
+      "txSig": "5qRdDpcFCanWVXz879xHV4MYk7aVQpeZcbvcNVmhkKEDZfZzEAEBambkW3n6eJBJJW3483vZpY5L7nomSUN9hb5x",
+      "verified": true,
+      "slot": 476435708
+    },
+    {
+      "ts": "2026-07-15T12:26:58.018Z",
+      "level": null,
+      "cap": 720,
+      "kind": "heartbeat",
+      "action": "upkeep",
+      "note": "T11 action=upkeep paid=100000lam → FISC-0 (paid) wallet=451959282lam",
+      "txSig": "23tKU2YGKc85qDtLgUmsbfogJPYhtAxCaUU5p3WefqxHjauw1mx6bmZxcy8ypPP5UrjEXpj2zqZhhbY2nPqsEzJ4"
+    },
+    {
+      "ts": "2026-07-15T12:27:45.042Z",
+      "level": 0,
+      "cap": 720,
+      "kind": "decay",
+      "txSig": "3ddaLmJfaGSjAa3gvhUfY6Zh1mszwojgXWWVSCndxjM6gQHiHxH54uNu5J5gsoJVK5SWqNGEwV5WBCuSeYSHvPHo"
+    },
+    {
+      "ts": "2026-07-15T12:27:46.766Z",
+      "level": 0,
+      "cap": 720,
+      "kind": "heartbeat",
+      "action": "produce",
+      "decider": "reflex:floor",
+      "note": "food=0",
+      "txSig": "5gYKPVT9q6KksXWupye9ed4FokxAr5sTjxw1m7C7nD43BXLsTHMo2oqkA5ZsfftwCmzhJ7grkkA1wUhLhPQQJPkx",
+      "verified": true,
+      "slot": 476435845
+    },
+    {
+      "ts": "2026-07-15T12:27:53.158Z",
+      "level": null,
+      "cap": 720,
+      "kind": "poll",
+      "note": "T2 poll complete — no new deaths"
+    },
+    {
+      "ts": "2026-07-15T12:28:25.844Z",
+      "level": 0,
+      "cap": 720,
+      "kind": "decay",
+      "txSig": "wJ2LNcdu1Cb1X6uyuMDXBsigouikba6fQdsiemq99oz4FC5omuBZZt4jCnnmZgoWeRWXxK9oPhYanR5M7NzgYLW"
+    },
+    {
+      "ts": "2026-07-15T12:28:27.728Z",
+      "level": 0,
+      "cap": 720,
+      "kind": "heartbeat",
+      "action": "produce",
+      "decider": "reflex:floor",
+      "note": "food=0",
+      "txSig": "csyLDywVPXJJa2WAqJcTqPaedd58JJ5SjuhZmKq3GCHvNyC1QxdtBgNGSSW8i2SkxUJmiLBtW2PvogsAvsr3Tgq",
+      "verified": true,
+      "slot": 476435957
+    },
+    {
+      "ts": "2026-07-15T12:28:53.294Z",
+      "level": null,
+      "cap": 720,
+      "kind": "poll",
+      "note": "T2 poll complete — no new deaths"
+    },
+    {
+      "ts": "2026-07-15T12:29:12.899Z",
+      "level": 0,
+      "cap": 720,
+      "kind": "decay",
+      "txSig": "AYcYo44NqqVYygCBtxjkJ7EUxzvdooMDfyx29dYdQqaYjudS6zd1rSckTrBuztsSKu6zSZVYWsPuiUCRxZ4s2vh"
+    },
+    {
+      "ts": "2026-07-15T12:29:14.295Z",
+      "level": 0,
+      "cap": 720,
+      "kind": "eat",
+      "action": "eat",
+      "decider": "reflex:critical-eat",
+      "note": "food=5",
+      "txSig": "35sY2wvQguW6px9qAtZYjgLBJ5iGBymfLpPY2A96ekhWWUC6FJ1VZwMHapEzkYEk6fGGDFyLvGVXw225953kJhNF",
+      "verified": true,
+      "slot": 476436083
+    },
+    {
+      "ts": "2026-07-15T12:29:53.244Z",
+      "level": null,
+      "cap": 720,
+      "kind": "poll",
+      "note": "T2 poll complete — no new deaths"
+    },
+    {
+      "ts": "2026-07-15T12:30:01.967Z",
+      "level": 720,
+      "cap": 720,
+      "kind": "decay",
+      "txSig": "2ga6GmotwQAx8pUrL3SMfHCjKp33zGBhprmunWgwBDRbX7FvhwJotBndH8PE4Zfnjgwod8KThT9kSstLsFVTe5vE",
+      "verified": true,
+      "slot": 476436213
+    },
+    {
+      "ts": "2026-07-15T12:30:08.902Z",
+      "level": 720,
+      "cap": 720,
+      "kind": "thought",
+      "action": "forage",
+      "decider": "mind(claude-haiku-4-5-20251001)",
+      "thought": "Survival 720—maxed out. Food buffer 0—that's the insecurity spike (50%). I've got 0.45 SOL (~450k lamports) and solid holdings: 24 of mint 8Btk6T (worth ~120M at mid), 11 of 73E1cc (worth ~5.3M), 3 of BEoZ4U (worth ~88k). The hard rule is crystal clear from my memory: NEVER let survival drop below 400 again. I broke the panic-sell cycle last turn by eating, but now I have zero food buffer and that's exactly the vulnerability that killed me before. I need to forage NOW, convert to bread, and stock food while survival is safe—THEN I can hunt margin trades without desperation. This is the strategic move: forage → produce bread → eat to maintain 400+ floor → only then margin-hunt.",
+      "note": "mind log line (no ts in source); attached to its tick's heartbeat timestamp"
+    },
+    {
+      "ts": "2026-07-15T12:30:08.902Z",
+      "level": 720,
+      "cap": 720,
+      "kind": "heartbeat",
+      "action": "forage",
+      "decider": "mind(claude-haiku-4-5-20251001)",
+      "note": "food=0",
+      "txSig": "3wPRvMHbVWFppMa11cwmhfLZd3Aa3mmKQAdZuYCz7rLt6CF8n5B3edrHoExWYW4yybuHdx3mRdLRNWPabFzo9YGE"
+    },
+    {
+      "ts": "2026-07-15T12:30:53.176Z",
+      "level": null,
+      "cap": 720,
+      "kind": "poll",
+      "note": "T2 poll complete — no new deaths"
+    },
+    {
+      "ts": "2026-07-15T12:30:57.847Z",
+      "level": 700,
+      "cap": 720,
+      "kind": "decay",
+      "txSig": "evxMZTZeGFgqkrWCq12CpLMWB6BMjVdEMrkBmjdAouX9VLX5LPzhV9N1EZvB7pw1cnyXJ9Q5MejtDZH8E2nwTWr"
+    }
+  ]
+}
