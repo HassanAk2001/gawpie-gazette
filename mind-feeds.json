@@ -7,16 +7,298 @@
   "agents": {
     "27001": [
       {
+        "kind": "action",
+        "text": "t9: eating 42 BREAD to restore survival (280→640, clamped to cap). Wallet 0.598 SOL. Soil 114/200 stable. Next: buy 1 BREAD, then hold and monitor for next fertilize cycle.",
+        "importance": 6,
+        "ts": 9
+      },
+      {
         "kind": "observation",
-        "text": "t1: survival 400/720, wallet 0.297716 SOL, food 1",
+        "text": "t10: survival 720/720, wallet 0.598400 SOL, food 40",
         "importance": 1,
-        "ts": 1
+        "ts": 10
       },
       {
         "kind": "action",
-        "text": "chose offer (heuristic-fallback:unknown produce label 'GREEN_MANURE_V1' manual=cbd87e4ddc53)",
+        "text": "t10: fertilize cycle starting (soil 114/200 → GREEN_MANURE will mint FERTILIZER). Survival 720/720, food 40 BREAD, wallet 0.598 SOL. Monitor soil recovery; farm when cooldown clears and soil climbs past 120.",
+        "importance": 6,
+        "ts": 10
+      },
+      {
+        "kind": "observation",
+        "text": "t11: survival 700/720, wallet 0.598400 SOL, food 40",
+        "importance": 1,
+        "ts": 11
+      },
+      {
+        "kind": "action",
+        "text": "t11: soil 114/200 in recovery (GREEN_MANURE/FERTILIZER cycle active). Survival 700/720, food 40 BREAD banked, wallet 0.598 SOL. All three buffers healthy. Wait for soil to breach 120 before next farm run.",
         "importance": 3,
-        "ts": 1
+        "ts": 11
+      },
+      {
+        "kind": "observation",
+        "text": "t12: survival 700/720, wallet 0.598400 SOL, food 40",
+        "importance": 1,
+        "ts": 12
+      },
+      {
+        "kind": "action",
+        "text": "t11: survival 700/720, food 40 BREAD banked, soil 114/200 stable awaiting fertilize cooldown clear. Wallet 0.598 SOL. Hold position — GREEN_MANURE minting on plot, no urgency.",
+        "importance": 3,
+        "ts": 12
+      },
+      {
+        "kind": "reflection",
+        "text": "Letting food drop to 1 BREAD while chasing soil recovery nearly cost survival (400→320 in one stretch) — always keep a minimum 20-30 BREAD banked before starting a fertilize cycle, not after.",
+        "importance": 8,
+        "ts": 12
+      },
+      {
+        "kind": "reflection",
+        "text": "Wealth swings hard when I sell everything to fund fertilize (0.848→0.598 SOL) — better to set aside a fixed reserve of SOL for fertilize costs upfront rather than liquidating stock reactively each cycle.",
+        "importance": 8,
+        "ts": 12
+      },
+      {
+        "kind": "reflection",
+        "text": "The steady rhythm that works: bank food and a small SOL reserve BEFORE soil dips near threshold, so fertilize timing never forces a panic-sell of the last of anything.",
+        "importance": 8,
+        "ts": 12
+      },
+      {
+        "kind": "observation",
+        "text": "t13: survival 680/720, wallet 0.598400 SOL, food 40",
+        "importance": 1,
+        "ts": 13
+      },
+      {
+        "kind": "action",
+        "text": "[t11] Holding steady during fertilize cycle. Soil 114/200, food 40 BREAD (buffer secured), survival 680/720 safe. Wallet 0.598 SOL locked for rent. Next action: wait for fertilize cooldown; farm when soil climbs above 120.",
+        "importance": 4,
+        "ts": 13
+      }
+    ],
+    "27002": [
+      {
+        "kind": "observation",
+        "text": "t10: survival 280/720, wallet 0.879016 SOL, food 8",
+        "importance": 1,
+        "ts": 10
+      },
+      {
+        "kind": "action",
+        "text": "chose farm (heuristic-fallback:grounding-failed(0.00) manual=cbd87e4ddc53)",
+        "importance": 2,
+        "ts": 10
+      },
+      {
+        "kind": "observation",
+        "text": "t11: survival 260/720, wallet 0.879016 SOL, food 8",
+        "importance": 1,
+        "ts": 11
+      },
+      {
+        "kind": "action",
+        "text": "chose fertilize (heuristic-fallback:grounding-failed(0.00) manual=cbd87e4ddc53)",
+        "importance": 2,
+        "ts": 11
+      },
+      {
+        "kind": "reflection",
+        "text": "That WATER sale nearly 6x'd my wallet — big single sells beat trickling out small batches, keep stacking for bulk trades instead of dribbling product to market",
+        "importance": 8,
+        "ts": 11
+      },
+      {
+        "kind": "reflection",
+        "text": "Too many ticks burned on fertilize/farm loops with no sell logged in between — idle production without a matching trade is wasted tempo, always queue the next sell before starting another grow cycle",
+        "importance": 8,
+        "ts": 11
+      },
+      {
+        "kind": "reflection",
+        "text": "Survival ticks are draining (300->260) while food sits flat at 8 — need to convert some of that SOL lead into food/bread reserves now so a slow season doesn't stall my momentum right when I'm ahead",
+        "importance": 8,
+        "ts": 11
+      },
+      {
+        "kind": "observation",
+        "text": "survival meter critical: 240/720",
+        "importance": 8,
+        "ts": 12
+      },
+      {
+        "kind": "observation",
+        "text": "t12: survival 240/720, wallet 0.879016 SOL, food 8",
+        "importance": 1,
+        "ts": 12
+      },
+      {
+        "kind": "action",
+        "text": "chose eat (reflex:critical-eat)",
+        "importance": 5,
+        "ts": 12
+      },
+      {
+        "kind": "observation",
+        "text": "t13: survival 720/720, wallet 0.879016 SOL, food 6",
+        "importance": 1,
+        "ts": 13
+      },
+      {
+        "kind": "action",
+        "text": "chose fertilize (heuristic-fallback:grounding-failed(0.00) manual=cbd87e4ddc53)",
+        "importance": 2,
+        "ts": 13
+      }
+    ],
+    "27005": [
+      {
+        "kind": "action",
+        "text": "t8: fertilize soil 122→200 via GREEN_MANURE (cost 4 CROPS). Remaining 117 CROPS queued for milling post-cooldown. FLOUR pipeline: 11 + 81 = 92 units. Survival stable 640/720, wallet 0.042141 SOL, food 7.",
+        "importance": 6,
+        "ts": 8
+      },
+      {
+        "kind": "reflection",
+        "text": "Mill cooldown is the binding constraint, not CROPS supply — 6+ ticks (t3-t8) spent idle waiting on cooldown while soil and FLOUR sat static; I should stage the next GREEN_MANURE/mill cycle to trigger the instant cooldown clears rather than passively holding position.",
+        "importance": 8,
+        "ts": 8
+      },
+      {
+        "kind": "reflection",
+        "text": "Survival ticks down steadily (720→640 over 8 ticks, ~10/tick) even while food=7 holds — idle waiting has a real decay cost, so I should timestamp cooldown expiry precisely and act the instant it clears rather than logging repeated 'hold position' observations.",
+        "importance": 8,
+        "ts": 8
+      },
+      {
+        "kind": "reflection",
+        "text": "The 4-CROPS fertilize-then-mill ratio (121→200 soil, 131→~91 FLOUR) has now repeated twice with identical margins — this is my proven baseline cycle; any future deal or ratio that deviates from ~0.7 FLOUR/CROP without clear cause should be flagged as suspect, not accepted at face value.",
+        "importance": 8,
+        "ts": 8
+      },
+      {
+        "kind": "observation",
+        "text": "t9: survival 620/720, wallet 0.042141 SOL, food 7",
+        "importance": 1,
+        "ts": 9
+      },
+      {
+        "kind": "action",
+        "text": "t9: mill 117 CROPS → ~82 FLOUR (117×7/10). Pipeline 11+82=93 units. Soil 128/200 stable (above 120 threshold, defer GREEN_MANURE). Survival 620/720, wallet 0.042141 SOL, food 7. Next: stage bake when FLOUR ≥12 units if time permits, else monitor soil decay toward 120 trigger.",
+        "importance": 7,
+        "ts": 9
+      },
+      {
+        "kind": "observation",
+        "text": "t10: survival 600/720, wallet 0.042141 SOL, food 7",
+        "importance": 1,
+        "ts": 10
+      },
+      {
+        "kind": "action",
+        "text": "chose produce (heuristic-fallback:mind(claude-haiku-4-5-20251001) timed out after 6000ms manual=cbd87e4ddc53)",
+        "importance": 2,
+        "ts": 10
+      },
+      {
+        "kind": "observation",
+        "text": "t11: survival 580/720, wallet 0.042141 SOL, food 12",
+        "importance": 1,
+        "ts": 11
+      },
+      {
+        "kind": "action",
+        "text": "t10: mill 107 CROPS → ~74.9 FLOUR (107×7/10). FLOUR pipeline: 14+74=88 units. Soil 128/200 stable (defer GREEN_MANURE). Survival 580/720, wallet 0.042141 SOL, food 12. Monitor bake readiness next turn.",
+        "importance": 7,
+        "ts": 11
+      },
+      {
+        "kind": "observation",
+        "text": "t12: survival 560/720, wallet 0.042141 SOL, food 12",
+        "importance": 1,
+        "ts": 12
+      },
+      {
+        "kind": "action",
+        "text": "chose produce (heuristic-fallback:mind(claude-haiku-4-5-20251001) timed out after 6000ms manual=cbd87e4ddc53)",
+        "importance": 2,
+        "ts": 12
+      }
+    ],
+    "27007": [
+      {
+        "kind": "action",
+        "text": "[t8] Baking 4×FLOUR + 2×WATER → 5×BREAD at survival 460/720. Food 13→18 expected. Soil 106/200 still decay-risk—fertilize immediately after bake completes. Wallet 0.138592 SOL untouched.",
+        "importance": 8,
+        "ts": 8
+      },
+      {
+        "kind": "observation",
+        "text": "t9: survival 440/720, wallet 0.138592 SOL, food 18",
+        "importance": 1,
+        "ts": 9
+      },
+      {
+        "kind": "action",
+        "text": "t9: Fertilize soil 106→200 via GREEN_MANURE (4×CROPS→6×FERTILIZER). After: bake 4×FLOUR+2×WATER→5×BREAD next turn. Survival 440/720 still climbing. Food 18 (keep 2, buffer 16). Wallet 0.138592 SOL untouched. Never sell bread.",
+        "importance": 7,
+        "ts": 9
+      },
+      {
+        "kind": "observation",
+        "text": "t10: survival 440/720, wallet 0.138592 SOL, food 18",
+        "importance": 1,
+        "ts": 10
+      },
+      {
+        "kind": "action",
+        "text": "t10: Baking 4×FLOUR + 2×WATER → 5×BREAD at survival 440/720. Food 18→23 expected. Soil 112/200 stable. Wallet 0.138592 SOL reserved. Keep 2, buffer 21. Bake every 2.1 turns minimum to outpace decay.",
+        "importance": 7,
+        "ts": 10
+      },
+      {
+        "kind": "observation",
+        "text": "t11: survival 420/720, wallet 0.138592 SOL, food 23",
+        "importance": 1,
+        "ts": 11
+      },
+      {
+        "kind": "action",
+        "text": "[t11] Soil 112→200 via GREEN_MANURE (4×CROPS→6×FERTILIZER). Survival 420/720 still sliding despite baking—must bake every 2 turns minimum. Food 23 (keep 2, buffer 21). Wallet 0.138592 SOL locked. After fertilize: bake 4×FLOUR+2×WATER→5×BREAD next turn.",
+        "importance": 7,
+        "ts": 11
+      },
+      {
+        "kind": "reflection",
+        "text": "Survival kept sliding 580→420 despite baking every cycle whenever it hit 'critical' — reactive baking is losing ground; must bake on a fixed schedule (every 2 turns) ahead of need, not in response to alarms.",
+        "importance": 8,
+        "ts": 11
+      },
+      {
+        "kind": "reflection",
+        "text": "Soil neglect (sitting at 105/200 for three bakes) nearly caused a bake failure at the worst moment — fertilize the instant soil dips, never defer it for 'one more bake', since low food + failed bake is the exact death spiral I fear.",
+        "importance": 8,
+        "ts": 11
+      },
+      {
+        "kind": "reflection",
+        "text": "Wallet has sat untouched at 0.138592 SOL through every crisis — hoarding bread instead of selling has kept me alive so far, confirming small sure gains (bake+fertilize discipline) beat any temptation to sell for quick SOL.",
+        "importance": 8,
+        "ts": 11
+      },
+      {
+        "kind": "observation",
+        "text": "t12: survival 400/720, wallet 0.138592 SOL, food 23",
+        "importance": 1,
+        "ts": 12
+      },
+      {
+        "kind": "action",
+        "text": "[t12] Baking 4×FLOUR + 2×WATER → 5×BREAD at survival 400/720 (critical slide). Food 23→28 expected. Soil 118/200 still safe. Wallet 0.138592 SOL untouched. Survival trending down—must bake every 2 turns strictly. After bake completes, check soil decay before next farm.",
+        "importance": 8,
+        "ts": 12
       }
     ]
   }
