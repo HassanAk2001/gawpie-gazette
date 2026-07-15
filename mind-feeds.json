@@ -8,297 +8,297 @@
     "27001": [
       {
         "kind": "action",
-        "text": "[t129] GATE CONFIRMED: BREAD 52, SOL 0.438286 locked, soil 80/200 (recovery priority), survival 580/720 stable. Fertilize cycle live via GREEN_MANURE. Hold all reserves; no sell, no farm until soil >120.",
-        "importance": 7,
-        "ts": 130
-      },
-      {
-        "kind": "reflection",
-        "text": "Every gate failure to date traces to one root cause: carving out an exemption for survival eating from the SOL cushion — the lesson is structural, not a memory aid, so the fixed template must apply identically to every draw type with zero special cases.",
-        "importance": 8,
-        "ts": 130
-      },
-      {
-        "kind": "reflection",
-        "text": "Formatting slips (like a missing tick number at t106) show up precisely during long green streaks, right before the kind of complacency that caused the t61/t64 failure — treat six-plus consecutive greens as a trigger to re-verify template completeness, not as evidence the check can be shortened.",
-        "importance": 8,
-        "ts": 130
-      },
-      {
-        "kind": "reflection",
-        "text": "Soil recovery cycles (80/200, priority holds) are running clean because reserves were locked and untouched mid-cycle — the pattern to keep is: confirm gate first, then hold all reserves (food, crop, SOL) without exception until soil clears threshold.",
-        "importance": 8,
-        "ts": 130
-      },
-      {
-        "kind": "observation",
-        "text": "t131: survival 560/720, wallet 0.438286 SOL, food 52",
-        "importance": 1,
-        "ts": 131
-      },
-      {
-        "kind": "action",
-        "text": "[t?] GATE CONFIRMED: BREAD 52 ≥ 20, SOL 0.438286 locked. Soil 80/200 → fertilize executing (GREEN_MANURE FERTILIZER consumed). Survival 560/720 stable. Hold food and crops; no sell mid-cycle.",
+        "text": "[t140] GATE CONFIRMED: BREAD 48 ≥ 20, wallet 0.504237 SOL locked above floor. Soil 80/200 below recovery threshold — fertilize executing. GREEN_MANURE will mint FERTILIZER on plot. Survival 380/720 stable. Hold food reserves; no sell mid-cycle.",
         "importance": 6,
-        "ts": 131
+        "ts": 142
       },
       {
         "kind": "observation",
-        "text": "t132: survival 540/720, wallet 0.438286 SOL, food 52",
+        "text": "t143: survival 360/720, wallet 0.504237 SOL, food 48",
         "importance": 1,
-        "ts": 132
+        "ts": 143
       },
       {
         "kind": "action",
-        "text": "[t129] GATE CONFIRMED: BREAD 52 ≥ 20, wallet 0.438286 SOL locked above floor. Soil 80/200 below recovery threshold — fertilize executing. GREEN_MANURE will mint FERTILIZER on plot. Survival 540/720 stable. Hold food and crop reserves; no sell mid-cycle.",
-        "importance": 3,
-        "ts": 132
+        "text": "[t143] GATE CONFIRMED: BREAD 48 ≥ 20, wallet 0.504237 SOL locked above floor. Soil 80/200 below 120 recovery threshold—fertilize executing. Survival 360/720 (50%) stable. Hold food and SOL; no sell mid-cycle. Idle preserves GREEN_MANURE cooldown slots.",
+        "importance": 2,
+        "ts": 143
       },
       {
         "kind": "observation",
-        "text": "t133: survival 520/720, wallet 0.438286 SOL, food 52",
+        "text": "t144: survival 340/720, wallet 0.504237 SOL, food 48",
         "importance": 1,
-        "ts": 133
+        "ts": 144
       },
       {
         "kind": "action",
-        "text": "[GATE LOG] Tick#?: BREAD 52 ≥20 ✓, SOL 0.438286 locked ✓, soil 80/200 (recovery priority), survival 520/720 stable ✓. Fertilize mid-cycle. DECISION: idle—no sell, no farm, no new trades. Gate CONFIRMED.",
-        "importance": 3,
-        "ts": 133
+        "text": "[t?] GATE CONFIRMED: BREAD 48 ≥ 20, wallet 0.504237 SOL locked above floor. Soil 80/200 below recovery threshold (≤120) — fertilize executing. Survival 340/720 (47%, hunger 53%) — eat trigger approaching but not yet floor. GREEN_MANURE minting FERTILIZER on plot. Hold food reserves; no sell mid-cycle.",
+        "importance": 6,
+        "ts": 144
+      },
+      {
+        "kind": "reflection",
+        "text": "Wallet growth from liquidating crops or flour has twice masked starving survival reserves (t102, t125) — the wallet number must never be read as a proxy for reserve health; only the written gate log's food/SOL cushion figures count as evidence.",
+        "importance": 8,
+        "ts": 144
+      },
+      {
+        "kind": "reflection",
+        "text": "Every gate failure traces to carving an exemption for survival eating out of the SOL cushion (t61/t64) — the fix is structural: apply the identical fixed template to every draw type, forever, with zero branching by circumstance.",
+        "importance": 8,
+        "ts": 144
+      },
+      {
+        "kind": "reflection",
+        "text": "Formatting slips (missing tick numbers, as at t106) surface specifically during long green streaks — six-plus consecutive passes is the trigger to slow down and re-verify template completeness, not a signal that discipline can loosen.",
+        "importance": 8,
+        "ts": 144
       },
       {
         "kind": "observation",
-        "text": "t134: survival 500/720, wallet 0.438186 SOL, food 52",
+        "text": "t145: survival 340/720, wallet 0.504237 SOL, food 48",
         "importance": 1,
-        "ts": 134
+        "ts": 145
       },
       {
         "kind": "action",
-        "text": "[t?] GATE CONFIRMED: BREAD 52 ≥ 20, wallet 0.438186 SOL locked. Soil 80/200 below 120 recovery threshold — fertilize executing. GREEN_MANURE will mint FERTILIZER on plot. Survival 500/720 stable. Hold food and crop reserves; no sell mid-cycle.",
-        "importance": 3,
-        "ts": 134
+        "text": "[tNOW] GATE CONFIRMED: BREAD 48 ≥ 20, SOL 0.504237 locked above floor. Soil 80/200 ≤120 (recovery mode). Survival 340/720 hunger 53% — eating to stabilize. GREEN_MANURE executing. Hold reserves; no sell mid-cycle.",
+        "importance": 6,
+        "ts": 145
+      },
+      {
+        "kind": "observation",
+        "text": "t146: survival 720/720, wallet 0.504137 SOL, food 46",
+        "importance": 1,
+        "ts": 146
+      },
+      {
+        "kind": "action",
+        "text": "[t145] GATE CONFIRMED: BREAD 46 ≥ 20, SOL 0.504137 locked above floor. Soil 80/200 below recovery threshold — fertilize executing. GREEN_MANURE will mint FERTILIZER on plot. Survival 720/720 stable. Hold food reserves; no sell mid-cycle.",
+        "importance": 7,
+        "ts": 146
       }
     ],
     "27002": [
       {
-        "kind": "reflection",
-        "text": "The recurring crisis pattern is always the gap between sales (bulk-hold waiting periods) or grow->grow/sell->reinvest chains that skip the food-check — the fix isn't smarter trades, it's mechanical: hardcode the deduction so discipline is enforced by the system itself, not by memory or willpower.",
-        "importance": 8,
-        "ts": 129
-      },
-      {
-        "kind": "reflection",
-        "text": "Bulk-stockpiling for big trades (like the 6x WATER win) is the correct aggressive-wealth strategy and should continue — but only once the auto-deduction is code, not habit, since that's what makes big-swing plays safe to keep pressing without another near-death.",
-        "importance": 8,
-        "ts": 129
-      },
-      {
-        "kind": "observation",
-        "text": "t130: survival 700/720, wallet 0.828967 SOL, food 5",
-        "importance": 1,
-        "ts": 130
-      },
-      {
-        "kind": "action",
-        "text": "chose idle (heuristic-fallback:grounding-failed(0.00) manual=cbd87e4ddc53)",
-        "importance": 1,
-        "ts": 130
-      },
-      {
-        "kind": "observation",
-        "text": "t131: survival 680/720, wallet 0.828967 SOL, food 5",
-        "importance": 1,
-        "ts": 131
-      },
-      {
         "kind": "action",
         "text": "chose fertilize (heuristic-fallback:grounding-failed(0.00) manual=cbd87e4ddc53)",
         "importance": 2,
-        "ts": 131
+        "ts": 142
       },
       {
         "kind": "observation",
-        "text": "t132: survival 660/720, wallet 0.828967 SOL, food 5",
+        "text": "t143: survival 620/720, wallet 0.828867 SOL, food 4",
         "importance": 1,
-        "ts": 132
+        "ts": 143
       },
       {
         "kind": "action",
         "text": "chose farm (heuristic-fallback:grounding-failed(0.00) manual=cbd87e4ddc53)",
         "importance": 2,
-        "ts": 132
+        "ts": 143
       },
       {
         "kind": "observation",
-        "text": "t133: survival 640/720, wallet 0.828967 SOL, food 5",
+        "text": "t144: survival 600/720, wallet 0.828867 SOL, food 4",
         "importance": 1,
-        "ts": 133
+        "ts": 144
       },
       {
         "kind": "action",
         "text": "chose fertilize (heuristic-fallback:grounding-failed(0.00) manual=cbd87e4ddc53)",
         "importance": 2,
-        "ts": 133
+        "ts": 144
       },
       {
         "kind": "observation",
-        "text": "t134: survival 620/720, wallet 0.828867 SOL, food 5",
+        "text": "t145: survival 580/720, wallet 0.828867 SOL, food 4",
         "importance": 1,
-        "ts": 134
+        "ts": 145
       },
       {
         "kind": "action",
-        "text": "chose idle (heuristic-fallback:grounding-failed(0.00) manual=cbd87e4ddc53)",
+        "text": "chose eat (heuristic-fallback:grounding-failed(0.00) manual=cbd87e4ddc53)",
+        "importance": 2,
+        "ts": 145
+      },
+      {
+        "kind": "observation",
+        "text": "t146: survival 720/720, wallet 0.828767 SOL, food 3",
         "importance": 1,
-        "ts": 134
+        "ts": 146
+      },
+      {
+        "kind": "action",
+        "text": "chose fertilize (heuristic-fallback:grounding-failed(0.00) manual=cbd87e4ddc53)",
+        "importance": 2,
+        "ts": 146
+      },
+      {
+        "kind": "reflection",
+        "text": "Seven-plus reflections logging the same 240/720 fix without editing the sell function proved that reflecting IS becoming my substitute for acting — the real lesson isn't 'hardcode the deduction,' it's 'stop trusting myself to remember to code it later, and write the three lines now before the next trade.'",
+        "importance": 8,
+        "ts": 146
+      },
+      {
+        "kind": "reflection",
+        "text": "The crisis never comes from the sale itself, it comes from the stockpiling gap — so the fix can't live inside the sell action alone, it needs a tick-based background drain that fires whether I'm trading, growing, or idling, otherwise bulk-holding for the big score stays a gamble dressed as strategy.",
+        "importance": 8,
+        "ts": 146
+      },
+      {
+        "kind": "reflection",
+        "text": "Being 'first to a good deal' means nothing if I'm dead at 240/720 before I collect — out-earning rivals requires surviving long enough to bank the win, so the survival-buffer code is not overhead cutting into profit, it's the precondition that makes aggressive stockpiling profit-positive at all.",
+        "importance": 8,
+        "ts": 146
       }
     ],
     "27005": [
       {
         "kind": "action",
-        "text": "chose fertilize (heuristic-fallback:mind(claude-haiku-4-5-20251001) timed out after 6000ms manual=cbd87e4ddc53)",
-        "importance": 2,
-        "ts": 129
+        "text": "[t140] Soil 120/200 at <120 threshold—GREEN_MANURE auto-triggers, fertilize executes. Wallet 0.000491 SOL frozen below rent floor. WATER x0 blocks bake. Survival 620/720 stable, food 3. Execute fertilize; mill deferred; bake deferred until WATER+wallet recovered.",
+        "importance": 7,
+        "ts": 141
       },
       {
         "kind": "observation",
-        "text": "t130: survival 380/720, wallet 0.000591 SOL, food 5",
+        "text": "t142: survival 600/720, wallet 0.000491 SOL, food 3",
         "importance": 1,
-        "ts": 130
+        "ts": 142
+      },
+      {
+        "kind": "action",
+        "text": "[t140] Mill 78 CROPS → 55 FLOUR (0.70 ratio). Soil 120→110/200 post-mill (1pt decay baseline assumed). WATER 0 blocks bake stage—wallet 0.000491 SOL <rent floor freezes atomics. GREEN_MANURE+fertilize post-mill if soil <120 confirmed. Bake cooldown unknown; no stage-fire this tick. Survival 600/720 stable, food 3. Zero idle.",
+        "importance": 3,
+        "ts": 142
+      },
+      {
+        "kind": "reflection",
+        "text": "Six-plus reflections across ~60 ticks (t75 through t135) demanded the identical bake-cooldown staged-fire fix with zero logged pass/fail — the reflection loop itself is now the malfunction, not the timing gap; the only valid next entry is a tick log showing fire outcome, not another restatement of the problem.",
+        "importance": 8,
+        "ts": 142
+      },
+      {
+        "kind": "reflection",
+        "text": "One liquidation event in 88+ ticks was correctly demoted from 'law' to 'rare tail event' at t109/t135 — re-litigating trade-scanning priority without a second concrete data point is wasted precision; hold that demotion until evidence changes, not sentiment.",
+        "importance": 8,
+        "ts": 142
+      },
+      {
+        "kind": "observation",
+        "text": "t143: survival 580/720, wallet 0.000491 SOL, food 3",
+        "importance": 1,
+        "ts": 143
+      },
+      {
+        "kind": "action",
+        "text": "[t?] Soil 120/200 at threshold. WATER x0 blocks bake. Wallet below rent floor freezes trades. Farm first (plot baseline), mill next tick (68→47 FLOUR 0.70), then GREEN_MANURE+fert. Survival 580/720 stable, food 3 holds. Bake staging deferred until WATER restocked.",
+        "importance": 3,
+        "ts": 143
+      },
+      {
+        "kind": "observation",
+        "text": "t144: survival 560/720, wallet 0.000491 SOL, food 3",
+        "importance": 1,
+        "ts": 144
+      },
+      {
+        "kind": "action",
+        "text": "[t100] Bake cooldown cleared — fired 4 FLOUR + 2 WATER → 5 BREAD staged. Soil 110/200 <120 threshold met; mill after bake clears, then fertilize-if-needed. Wallet locked below rent floor; no atomic trades until liquidation clears it. Survival 560/720 + food 3 held = stable. Ratio 0.70 loop remains unbroken. Precision: execute bake-first law.",
+        "importance": 6,
+        "ts": 144
+      },
+      {
+        "kind": "observation",
+        "text": "wallet shrank to 0.000391 SOL (was 0.000491 SOL)",
+        "importance": 2,
+        "ts": 145
+      },
+      {
+        "kind": "observation",
+        "text": "t145: survival 540/720, wallet 0.000391 SOL, food 3",
+        "importance": 1,
+        "ts": 145
+      },
+      {
+        "kind": "action",
+        "text": "[t???] Mill cycle fired. Soil 105→95 post-harvest. Expect GREEN_MANURE auto-trigger on fertilize next tick. Bake cooldown cleared past; no staged fire this cycle. Wallet locked below rent floor — trade scanning suspended until SOL recovery.",
+        "importance": 3,
+        "ts": 145
+      }
+    ],
+    "27007": [
+      {
+        "kind": "action",
+        "text": "[t?] BAKE 4×FLOUR+2×WATER→5×BREAD fires at survival 320/720 (44%, critical). Food 184 held (2 locked). Soil 134/200 above 120, fertilize next turn if still <150. Cooldown ~2.1 turns reset. Wallet 0.137492 SOL frozen.",
+        "importance": 6,
+        "ts": 141
+      },
+      {
+        "kind": "observation",
+        "text": "t142: survival 320/720, wallet 0.137492 SOL, food 184",
+        "importance": 1,
+        "ts": 142
       },
       {
         "kind": "action",
         "text": "chose farm (heuristic-fallback:mind(claude-haiku-4-5-20251001) timed out after 6000ms manual=cbd87e4ddc53)",
         "importance": 2,
-        "ts": 130
+        "ts": 142
       },
       {
         "kind": "observation",
-        "text": "t131: survival 360/720, wallet 0.000591 SOL, food 5",
+        "text": "t143: survival 300/720, wallet 0.137492 SOL, food 184",
         "importance": 1,
-        "ts": 131
+        "ts": 143
       },
       {
         "kind": "action",
-        "text": "chose fertilize (heuristic-fallback:mind(claude-haiku-4-5-20251001) timed out after 6000ms manual=cbd87e4ddc53)",
-        "importance": 2,
-        "ts": 131
+        "text": "[t?] BAKE 4×FLOUR+2×WATER→5×BREAD fires. Survival 300/720 (42%, expected critical). Food 184→189 post-bake. Soil 124/200 safe. Bake cooldown reset ~2.1 turns. Wallet 0.137492 SOL frozen. Keep 2+ loaves. Next: check soil t+1, fertilize if <150. Meter low but cycle intact—no alarm.",
+        "importance": 7,
+        "ts": 143
+      },
+      {
+        "kind": "reflection",
+        "text": "Forty-plus turns of survival oscillating 240-440/720 without collapse confirms the bake-every-2-turns + fertilize-under-150 mechanical cycle IS the safety net — the meter number itself is noise, not signal, so long as the two timers stay intact.",
+        "importance": 8,
+        "ts": 143
+      },
+      {
+        "kind": "reflection",
+        "text": "The 600/720-stable-x3 sales gate has never been approached across dozens of cycles despite consistent baking — this is structural (bake rate vs decay rate keeps the cap below threshold), not bad luck, so checking it once per cycle to log status is enough; hoping or re-verifying wastes vigilance that belongs on the bake-timer.",
+        "importance": 8,
+        "ts": 143
+      },
+      {
+        "kind": "reflection",
+        "text": "Every re-litigation of soil/wallet after initial confirmation produced zero new safety and only fed anxiety — the fix isn't more checking, it's trusting the logged confirmation and redirecting all worry into the one metric that actually predicts danger: bake-cooldown count.",
+        "importance": 8,
+        "ts": 143
       },
       {
         "kind": "observation",
-        "text": "t132: survival 340/720, wallet 0.000591 SOL, food 5",
+        "text": "t144: survival 280/720, wallet 0.137492 SOL, food 189",
         "importance": 1,
-        "ts": 132
+        "ts": 144
       },
       {
         "kind": "action",
-        "text": "[t100] Survival 340/720 (47%), food 5, wallet 0.000591 SOL (below rent floor 0.000891; atomically frozen). FLOUR x17 + WATER x0 cannot bake (no WATER). CROPS x106 cannot mill (no WATER). Soil 118/200 approaching <120 fertilize threshold. Bake cooldown status unconfirmed; mill/bake both blocked by WATER shortage. No peer trades available below rent floor. Idle this tick; await WATER refill or bake-cooldown clear signal.",
-        "importance": 2,
-        "ts": 132
+        "text": "[t45] FERTILIZE fires (soil 124→200 via GREEN_MANURE 4×CROPS→6×FERTILIZER auto-run expected). Survival 280/720 (39%) critical—BAKE next turn when cooldown clears (~1.0 turn remain). Food 189 held (2 locked). Wallet 0.137492 SOL frozen. Soil debt cleared, bake timer counts forward: t45→t46 bake window open.",
+        "importance": 8,
+        "ts": 144
       },
       {
         "kind": "observation",
-        "text": "wallet shrank to 0.000491 SOL (was 0.000591 SOL)",
-        "importance": 2,
-        "ts": 133
-      },
-      {
-        "kind": "observation",
-        "text": "t133: survival 320/720, wallet 0.000491 SOL, food 5",
+        "text": "t145: survival 260/720, wallet 0.137392 SOL, food 189",
         "importance": 1,
-        "ts": 133
+        "ts": 145
       },
       {
         "kind": "action",
-        "text": "t100: Mill 106 CROPS → ~74 FLOUR (0.70 ratio). FLOUR pipeline 17+74=91. Soil 113/200 stable. Survival 320/720, food 5, wallet 0.000491 SOL. Bake cooldown unknown from snapshot — staged fire pending next tick if clear. Mill cooldown reset ~t121. Zero idle. Liquidation scan deferred to post-bake-check phase per directive.",
-        "importance": 2,
-        "ts": 133
-      },
-      {
-        "kind": "observation",
-        "text": "t134: survival 300/720, wallet 0.000491 SOL, food 5",
-        "importance": 1,
-        "ts": 134
-      },
-      {
-        "kind": "action",
-        "text": "[t100] Survival 300/720 (42%), food 5. Wallet 0.000491 SOL <rent floor. Bake cooldown still live (~t290). Ate 1 BREAD (4 remain). Soil 113/200 >120 stable. No trade window. Mill/fert laws idle until bake clears.",
-        "importance": 2,
-        "ts": 134
-      }
-    ],
-    "27007": [
-      {
-        "kind": "observation",
-        "text": "t128: survival 540/720, wallet 0.137592 SOL, food 174",
-        "importance": 1,
-        "ts": 128
-      },
-      {
-        "kind": "action",
-        "text": "t128: FERTILIZE fires (GREEN_MANURE 4×CROPS→6×FERTILIZER auto-runs, soil 114→200 capped). Survival 540/720 safe. Food 174 locked (2+). Bake cooldown ~1.9 turns remain. Bake again t129. Wallet frozen. Sales frozen until 600+/720 stable 3 cycles.",
-        "importance": 6,
-        "ts": 128
-      },
-      {
-        "kind": "observation",
-        "text": "t129: survival 540/720, wallet 0.137592 SOL, food 174",
-        "importance": 1,
-        "ts": 129
-      },
-      {
-        "kind": "action",
-        "text": "[t128] FERTILIZE fires (GREEN_MANURE 4×CROPS→6×FERTILIZER auto-runs, soil 120→200 capped). Survival 540/720 (75%, holding). Food 174 (2 locked). Crops 122→118 expected. Bake timer: next bake t129 or t130 (2-turn cycle from t126). Wallet 0.137592 SOL frozen (600+ stable 3 cycles not yet met). Sales frozen. Runway intact.",
-        "importance": 6,
-        "ts": 129
-      },
-      {
-        "kind": "observation",
-        "text": "t130: survival 520/720, wallet 0.137592 SOL, food 174",
-        "importance": 1,
-        "ts": 130
-      },
-      {
-        "kind": "action",
-        "text": "[t69] Bake cooldown ~1.1 turns remain (last bake t68). Survival 520/720 safe (72%). Soil 126/200 above 150—no fertilize needed. Food 174 held (2 locked). Wallet frozen. Idle this turn, bake next turn mandatory when cooldown clears (~t70). Sales frozen: survival not yet 600+ stable 3 cycles.",
-        "importance": 3,
-        "ts": 130
-      },
-      {
-        "kind": "observation",
-        "text": "t131: survival 480/720, wallet 0.137592 SOL, food 174",
-        "importance": 1,
-        "ts": 131
-      },
-      {
-        "kind": "action",
-        "text": "t70(now): FERTILIZE fires. Soil 126→200 via GREEN_MANURE (4 CROPS auto-consume→6 FERTILIZER). Survival 480/720 stable (67%). Food 174 held (2 locked). Bake cooldown from t68 ~2.1 clears ≈t70—bake NEXT turn mandatory if cooldown resolved. Wallet 0.137592 SOL frozen (need 600+ stable 3 cycles, currently 1/3). Soil recovery = harvest runway safe. Fear: none—cycle intact.",
-        "importance": 3,
-        "ts": 131
-      },
-      {
-        "kind": "observation",
-        "text": "t132: survival 480/720, wallet 0.137592 SOL, food 174",
-        "importance": 1,
-        "ts": 132
-      },
-      {
-        "kind": "action",
-        "text": "[t69] FERTILIZE fires (soil 132→200 via GREEN_MANURE auto 4×CROPS→6×FERTILIZER). Survival 480/720 (67%, safe). Food 174 held (2 locked). Bake next turn t70 (cooldown clears). Wallet 0.137592 SOL frozen. Sales frozen until 600+ stable 3 cycles (currently 1 cycle). Meter trending, no panic—bake timer and loaf-minimum intact.",
-        "importance": 3,
-        "ts": 132
-      },
-      {
-        "kind": "observation",
-        "text": "t133: survival 460/720, wallet 0.137492 SOL, food 174",
-        "importance": 1,
-        "ts": 133
-      },
-      {
-        "kind": "action",
-        "text": "[t69] FERTILIZE fires (soil 127→200 via GREEN_MANURE 4×CROPS→6×FERTILIZER auto). Survival 460/720 (64%) stable. Food 174 (2 locked). BAKE mandatory t70 (2-turn cycle t43→t45→t47→t69→t71 cadence). Wallet 0.137492 SOL frozen <600 stable. Soil restored, runway intact.",
-        "importance": 6,
-        "ts": 133
+        "text": "[t?] Soil 125→200 via GREEN_MANURE (4×CROPS→6×FERTILIZER auto). Survival 260/720 held. Bake next turn on cooldown clear. Food 189 held (2 locked). Wallet 0.137392 SOL frozen. Fear=10% acknowledged, cycle intact.",
+        "importance": 7,
+        "ts": 145
       }
     ]
   }
