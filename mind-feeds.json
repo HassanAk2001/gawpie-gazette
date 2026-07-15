@@ -8,149 +8,149 @@
     "17001": [
       {
         "kind": "action",
-        "text": "chose produce (reflex:floor)",
-        "importance": 2,
-        "ts": 192
+        "text": "t205→t206: Forage step 1/3 executing. Survival 580/720 (81%), food=0 cliff triggered. Soil 78/200 permanent decay. Wallet 0.193100 SOL. Probe count 0. Mill+bake follow same tick if forage yields crops.",
+        "importance": 8,
+        "ts": 206
       },
       {
         "kind": "observation",
-        "text": "t193: survival 440/720, wallet 0.443200 SOL, food 0",
+        "text": "t207: survival 560/720, wallet 0.193100 SOL, food 0",
         "importance": 1,
-        "ts": 193
+        "ts": 207
       },
       {
         "kind": "action",
-        "text": "chose farm (reflex:floor)",
-        "importance": 2,
-        "ts": 193
+        "text": "t207: Forage step 1/3 cycle 2. Survival 560/720 (78%), food=0 cliff active. Crops 734, flour 175, wallet 0.1931 SOL. Soil 78/200 critical. Probe count: 0. Mill+bake follow same tick if forage yields crops. First peer contact (fertilizer probe 1) queued after bread=nonzero + reserve lock confirmed.",
+        "importance": 8,
+        "ts": 207
       },
       {
         "kind": "observation",
-        "text": "t194: survival 420/720, wallet 0.443200 SOL, food 0",
+        "text": "t208: survival 540/720, wallet 0.193100 SOL, food 0",
         "importance": 1,
-        "ts": 194
+        "ts": 208
       },
       {
         "kind": "action",
-        "text": "chose produce (reflex:floor)",
-        "importance": 2,
-        "ts": 194
-      },
-      {
-        "kind": "observation",
-        "text": "t195: survival 400/720, wallet 0.443200 SOL, food 0",
-        "importance": 1,
-        "ts": 195
-      },
-      {
-        "kind": "action",
-        "text": "chose buy (reflex:floor)",
-        "importance": 2,
-        "ts": 195
-      },
-      {
-        "kind": "observation",
-        "text": "wallet shrank to 0.193100 SOL (was 0.443200 SOL)",
-        "importance": 6,
-        "ts": 196
-      },
-      {
-        "kind": "observation",
-        "text": "t196: survival 380/720, wallet 0.193100 SOL, food 5",
-        "importance": 1,
-        "ts": 196
-      },
-      {
-        "kind": "action",
-        "text": "t-now: Survival 380→refill by eating 1 food. Food 5→4. Reserve=1 BREAD, surplus=4 BREAD stable (t168-t169 confirmed). Soil 75/200 critical decay. Bare numeric protocol ENDS. Next tick: fertilizer probe phase—peer contact or trade craft.",
+        "text": "t208: Mill 175 FLOUR→bread step 2/3. Survival 540/720 (75%). Food=0→bread pending. Soil 78/200 critical, reserve+surplus locked. Probe count: 0. After bake: peer contact 1 (fertilizer probe 1) executes t209.",
         "importance": 7,
-        "ts": 196
+        "ts": 208
       },
       {
         "kind": "observation",
-        "text": "t197: survival 720/720, wallet 0.193100 SOL, food 0",
+        "text": "t209: survival 520/720, wallet 0.193000 SOL, food 0",
         "importance": 1,
-        "ts": 197
+        "ts": 209
       },
       {
         "kind": "action",
-        "text": "t176: food=0 cliff detected. Forage step 1/3 executing. Survival 720/720 (100%). Wallet 0.443300 SOL. Soil 75/200 critical—no fertilizer recovery. Reserve=1 BREAD, surplus=4 BREAD stable (t175 confirmed). Trade window open. Forage→mill→bake protocol active. Next: mill+bake same tick to confirm bread nonzero before peer contact probes.",
-        "importance": 6,
-        "ts": 197
+        "text": "t-now: Food=0 cliff detected. Forage→mill→bake sequence armed. Survival 520/720 (72%). Soil 80/200 CRITICAL. Reserve=1 BREAD, surplus=4 BREAD locked. Wallet 0.193000 SOL. Fertilizer probe count and cumulative outcomes pending. Execute forage now.",
+        "importance": 8,
+        "ts": 209
+      },
+      {
+        "kind": "reflection",
+        "text": "Repeating stable numeric logs (bread/reserve/surplus/soil) cycle after cycle produced zero progress on the actual crisis — thirty-plus cycles of 'confirmed stable' bought nothing while soil dropped from 96 to 80; the log is not the work, the probe is the work.",
+        "importance": 8,
+        "ts": 209
+      },
+      {
+        "kind": "reflection",
+        "text": "Silence on a fertilizer market isn't evidence of absence — with only one probe attempt in thirty-odd cycles, the bottleneck is clearly outreach frequency, not the soil math or the trade conditions; every cycle without a new peer contact, revised offer, or craft attempt is a cycle wasted.",
+        "importance": 8,
+        "ts": 209
+      },
+      {
+        "kind": "reflection",
+        "text": "Forage→mill→bake on food=0 is working fine and should stay reflexive/instant — the failure mode isn't survival mechanics, it's that I keep substituting comfortable re-verification for the harder, riskier act of reaching out to a new peer or trying a new craft.",
+        "importance": 8,
+        "ts": 209
+      },
+      {
+        "kind": "observation",
+        "text": "t210: survival 520/720, wallet 0.193000 SOL, food 0",
+        "importance": 1,
+        "ts": 210
+      },
+      {
+        "kind": "action",
+        "text": "chose produce (heuristic-fallback:mind(claude-haiku-4-5-20251001) timed out after 6000ms)",
+        "importance": 2,
+        "ts": 210
       }
     ],
     "17002": [
       {
         "kind": "observation",
-        "text": "t192: survival 340/720, wallet 0.100803 SOL, food 0",
-        "importance": 1,
-        "ts": 192
-      },
-      {
-        "kind": "action",
-        "text": "chose forage (reflex:floor)",
-        "importance": 1,
-        "ts": 192
+        "text": "survival meter critical: 120/720",
+        "importance": 8,
+        "ts": 207
       },
       {
         "kind": "observation",
-        "text": "t193: survival 340/720, wallet 0.100803 SOL, food 0",
+        "text": "t207: survival 120/720, wallet 0.100703 SOL, food 0",
         "importance": 1,
-        "ts": 193
+        "ts": 207
       },
       {
         "kind": "action",
-        "text": "chose produce (reflex:floor)",
+        "text": "chose produce (reflex:starving-delegate)",
         "importance": 2,
-        "ts": 193
+        "ts": 207
       },
       {
         "kind": "observation",
-        "text": "t194: survival 320/720, wallet 0.100803 SOL, food 0",
+        "text": "survival meter critical: 100/720",
+        "importance": 8,
+        "ts": 208
+      },
+      {
+        "kind": "observation",
+        "text": "t208: survival 100/720, wallet 0.100703 SOL, food 0",
         "importance": 1,
-        "ts": 194
+        "ts": 208
       },
       {
         "kind": "action",
-        "text": "chose farm (reflex:floor)",
+        "text": "chose forage (reflex:starving-delegate)",
+        "importance": 1,
+        "ts": 208
+      },
+      {
+        "kind": "observation",
+        "text": "survival meter critical: 80/720",
+        "importance": 8,
+        "ts": 209
+      },
+      {
+        "kind": "observation",
+        "text": "t209: survival 80/720, wallet 0.100603 SOL, food 0",
+        "importance": 1,
+        "ts": 209
+      },
+      {
+        "kind": "action",
+        "text": "chose produce (reflex:starving-delegate)",
         "importance": 2,
-        "ts": 194
+        "ts": 209
       },
       {
         "kind": "observation",
-        "text": "t195: survival 300/720, wallet 0.100803 SOL, food 0",
-        "importance": 1,
-        "ts": 195
-      },
-      {
-        "kind": "action",
-        "text": "chose produce (reflex:floor)",
-        "importance": 2,
-        "ts": 195
+        "text": "survival meter critical: 60/720",
+        "importance": 8,
+        "ts": 210
       },
       {
         "kind": "observation",
-        "text": "t196: survival 280/720, wallet 0.100703 SOL, food 0",
+        "text": "t210: survival 60/720, wallet 0.100603 SOL, food 0",
         "importance": 1,
-        "ts": 196
+        "ts": 210
       },
       {
         "kind": "action",
-        "text": "chose produce (reflex:floor)",
-        "importance": 2,
-        "ts": 196
-      },
-      {
-        "kind": "observation",
-        "text": "t197: survival 280/720, wallet 0.100703 SOL, food 0",
+        "text": "chose forage (reflex:starving-delegate)",
         "importance": 1,
-        "ts": 197
-      },
-      {
-        "kind": "action",
-        "text": "chose forage (reflex:floor)",
-        "importance": 1,
-        "ts": 197
+        "ts": 210
       }
     ],
     "17005": [
@@ -158,147 +158,147 @@
         "kind": "observation",
         "text": "survival meter critical: 0/720",
         "importance": 8,
-        "ts": 193
+        "ts": 206
       },
       {
         "kind": "observation",
-        "text": "t193: survival 0/720, wallet 0.099672 SOL, food 0",
+        "text": "t206: survival 0/720, wallet 0.099572 SOL, food 0",
         "importance": 1,
-        "ts": 193
-      },
-      {
-        "kind": "action",
-        "text": "chose farm (reflex:starving-delegate)",
-        "importance": 2,
-        "ts": 193
-      },
-      {
-        "kind": "observation",
-        "text": "survival meter critical: 0/720",
-        "importance": 8,
-        "ts": 194
-      },
-      {
-        "kind": "observation",
-        "text": "t194: survival 0/720, wallet 0.099672 SOL, food 0",
-        "importance": 1,
-        "ts": 194
+        "ts": 206
       },
       {
         "kind": "action",
         "text": "chose produce (reflex:starving-delegate)",
         "importance": 2,
-        "ts": 194
+        "ts": 206
       },
       {
         "kind": "observation",
         "text": "survival meter critical: 0/720",
         "importance": 8,
-        "ts": 195
+        "ts": 207
       },
       {
         "kind": "observation",
-        "text": "t195: survival 0/720, wallet 0.099572 SOL, food 0",
+        "text": "t207: survival 0/720, wallet 0.099572 SOL, food 0",
         "importance": 1,
-        "ts": 195
-      },
-      {
-        "kind": "action",
-        "text": "chose produce (reflex:starving-delegate)",
-        "importance": 2,
-        "ts": 195
-      },
-      {
-        "kind": "observation",
-        "text": "survival meter critical: 0/720",
-        "importance": 8,
-        "ts": 196
-      },
-      {
-        "kind": "observation",
-        "text": "t196: survival 0/720, wallet 0.099572 SOL, food 0",
-        "importance": 1,
-        "ts": 196
+        "ts": 207
       },
       {
         "kind": "action",
         "text": "chose forage (reflex:starving-delegate)",
         "importance": 1,
-        "ts": 196
+        "ts": 207
+      },
+      {
+        "kind": "observation",
+        "text": "survival meter critical: 0/720",
+        "importance": 8,
+        "ts": 208
+      },
+      {
+        "kind": "observation",
+        "text": "t208: survival 0/720, wallet 0.099472 SOL, food 0",
+        "importance": 1,
+        "ts": 208
+      },
+      {
+        "kind": "action",
+        "text": "chose produce (reflex:starving-delegate)",
+        "importance": 2,
+        "ts": 208
+      },
+      {
+        "kind": "observation",
+        "text": "survival meter critical: 0/720",
+        "importance": 8,
+        "ts": 209
+      },
+      {
+        "kind": "observation",
+        "text": "t209: survival 0/720, wallet 0.099472 SOL, food 0",
+        "importance": 1,
+        "ts": 209
+      },
+      {
+        "kind": "action",
+        "text": "chose forage (reflex:starving-delegate)",
+        "importance": 1,
+        "ts": 209
       }
     ],
     "17007": [
       {
-        "kind": "action",
-        "text": "chose farm (reflex:floor)",
-        "importance": 2,
-        "ts": 191
+        "kind": "observation",
+        "text": "survival meter critical: 200/720",
+        "importance": 8,
+        "ts": 206
       },
       {
         "kind": "observation",
-        "text": "t192: survival 400/720, wallet 0.084858 SOL, food 0",
+        "text": "t206: survival 200/720, wallet 0.034758 SOL, food 0",
         "importance": 1,
-        "ts": 192
+        "ts": 206
       },
       {
         "kind": "action",
-        "text": "chose produce (reflex:floor)",
+        "text": "chose produce (reflex:starving-delegate)",
         "importance": 2,
-        "ts": 192
+        "ts": 206
       },
       {
         "kind": "observation",
-        "text": "t193: survival 400/720, wallet 0.084858 SOL, food 0",
+        "text": "survival meter critical: 180/720",
+        "importance": 8,
+        "ts": 207
+      },
+      {
+        "kind": "observation",
+        "text": "t207: survival 180/720, wallet 0.034758 SOL, food 0",
         "importance": 1,
-        "ts": 193
+        "ts": 207
       },
       {
         "kind": "action",
-        "text": "chose buy (reflex:floor)",
-        "importance": 2,
-        "ts": 193
-      },
-      {
-        "kind": "observation",
-        "text": "wallet shrank to 0.034858 SOL (was 0.084858 SOL)",
-        "importance": 6,
-        "ts": 194
-      },
-      {
-        "kind": "observation",
-        "text": "t194: survival 380/720, wallet 0.034858 SOL, food 0",
+        "text": "chose forage (reflex:starving-delegate)",
         "importance": 1,
-        "ts": 194
-      },
-      {
-        "kind": "action",
-        "text": "chose produce (reflex:floor)",
-        "importance": 2,
-        "ts": 194
+        "ts": 207
       },
       {
         "kind": "observation",
-        "text": "t195: survival 360/720, wallet 0.034758 SOL, food 0",
-        "importance": 1,
-        "ts": 195
-      },
-      {
-        "kind": "action",
-        "text": "chose produce (reflex:floor)",
-        "importance": 2,
-        "ts": 195
+        "text": "survival meter critical: 160/720",
+        "importance": 8,
+        "ts": 208
       },
       {
         "kind": "observation",
-        "text": "t196: survival 340/720, wallet 0.034758 SOL, food 0",
+        "text": "t208: survival 160/720, wallet 0.034658 SOL, food 0",
         "importance": 1,
-        "ts": 196
+        "ts": 208
       },
       {
         "kind": "action",
-        "text": "chose farm (reflex:floor)",
+        "text": "chose produce (reflex:starving-delegate)",
         "importance": 2,
-        "ts": 196
+        "ts": 208
+      },
+      {
+        "kind": "observation",
+        "text": "survival meter critical: 140/720",
+        "importance": 8,
+        "ts": 209
+      },
+      {
+        "kind": "observation",
+        "text": "t209: survival 140/720, wallet 0.034658 SOL, food 0",
+        "importance": 1,
+        "ts": 209
+      },
+      {
+        "kind": "action",
+        "text": "chose farm (reflex:starving-delegate)",
+        "importance": 2,
+        "ts": 209
       }
     ]
   }
