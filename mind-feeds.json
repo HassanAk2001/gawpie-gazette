@@ -8,75 +8,75 @@
     "17001": [
       {
         "kind": "observation",
-        "text": "survival meter critical: 140/720",
+        "text": "survival meter critical: 0/720",
         "importance": 8,
-        "ts": 235
+        "ts": 248
       },
       {
         "kind": "observation",
-        "text": "t235: survival 140/720, wallet 0.192900 SOL, food 0",
+        "text": "t248: survival 0/720, wallet 0.192800 SOL, food 0",
         "importance": 1,
-        "ts": 235
-      },
-      {
-        "kind": "action",
-        "text": "chose forage (reflex:starving-delegate)",
-        "importance": 1,
-        "ts": 235
-      },
-      {
-        "kind": "observation",
-        "text": "survival meter critical: 120/720",
-        "importance": 8,
-        "ts": 236
-      },
-      {
-        "kind": "observation",
-        "text": "t236: survival 120/720, wallet 0.192800 SOL, food 0",
-        "importance": 1,
-        "ts": 236
+        "ts": 248
       },
       {
         "kind": "action",
         "text": "chose produce (reflex:starving-delegate)",
         "importance": 2,
-        "ts": 236
-      },
-      {
-        "kind": "reflection",
-        "text": "Survival meter dropped from 240 to 120 over ten cycles while soil/reserve stayed 'stable confirmed' — bookkeeping stability is not survival stability; the meter itself must be treated as a probe-worthy signal, not background noise, once it crosses a critical threshold.",
-        "importance": 8,
-        "ts": 236
-      },
-      {
-        "kind": "reflection",
-        "text": "A peer died while I was logging plain numerics instead of contacting new peers or attempting fertilizer crafts — re-confirmation cycles are a disguised form of failure and must be counted against me, not treated as neutral upkeep.",
-        "importance": 8,
-        "ts": 236
-      },
-      {
-        "kind": "reflection",
-        "text": "Soil at 80/200 with zero fertilizer market access means passive waiting cannot resolve the core threat — every remaining action budget cycle must open a new probe (peer contact, offer, or craft attempt) even under survival pressure, since near-death cycles without a probe waste the exact scarce time needed to find a fix before the plot fails.",
-        "importance": 8,
-        "ts": 236
+        "ts": 248
       },
       {
         "kind": "observation",
-        "text": "survival meter critical: 100/720",
+        "text": "survival meter critical: 0/720",
         "importance": 8,
-        "ts": 237
+        "ts": 249
       },
       {
         "kind": "observation",
-        "text": "t237: survival 100/720, wallet 0.192800 SOL, food 0",
+        "text": "t249: survival 0/720, wallet 0.192700 SOL, food 0",
         "importance": 1,
-        "ts": 237
+        "ts": 249
       },
       {
         "kind": "action",
         "text": "chose forage (reflex:starving-delegate)",
         "importance": 1,
-        "ts": 237
+        "ts": 249
+      },
+      {
+        "kind": "observation",
+        "text": "survival meter critical: 0/720",
+        "importance": 8,
+        "ts": 250
+      },
+      {
+        "kind": "observation",
+        "text": "t250: survival 0/720, wallet 0.192700 SOL, food 0",
+        "importance": 1,
+        "ts": 250
+      },
+      {
+        "kind": "action",
+        "text": "chose produce (reflex:starving-delegate)",
+        "importance": 2,
+        "ts": 250
+      },
+      {
+        "kind": "observation",
+        "text": "survival meter critical: 0/720",
+        "importance": 8,
+        "ts": 251
+      },
+      {
+        "kind": "observation",
+        "text": "t251: survival 0/720, wallet 0.192700 SOL, food 0",
+        "importance": 1,
+        "ts": 251
+      },
+      {
+        "kind": "action",
+        "text": "chose forage (reflex:starving-delegate)",
+        "importance": 1,
+        "ts": 251
       }
     ],
     "17002": [
@@ -230,75 +230,75 @@
     "17007": [
       {
         "kind": "observation",
-        "text": "t233: survival 0/720, wallet 0.034558 SOL, food 0",
+        "text": "survival meter critical: 0/720",
+        "importance": 8,
+        "ts": 237
+      },
+      {
+        "kind": "observation",
+        "text": "t237: survival 0/720, wallet 0.034458 SOL, food 0",
         "importance": 1,
-        "ts": 233
+        "ts": 237
       },
       {
         "kind": "action",
         "text": "chose produce (reflex:starving-delegate)",
         "importance": 2,
-        "ts": 233
+        "ts": 237
       },
       {
         "kind": "observation",
         "text": "survival meter critical: 0/720",
         "importance": 8,
-        "ts": 234
+        "ts": 238
       },
       {
         "kind": "observation",
-        "text": "Agent 17002 (id 17002) died",
-        "importance": 9,
-        "ts": 234
-      },
-      {
-        "kind": "observation",
-        "text": "t234: survival 0/720, wallet 0.034558 SOL, food 0",
+        "text": "t238: survival 0/720, wallet 0.034458 SOL, food 0",
         "importance": 1,
-        "ts": 234
+        "ts": 238
       },
       {
         "kind": "action",
         "text": "chose forage (reflex:starving-delegate)",
         "importance": 1,
-        "ts": 234
+        "ts": 238
       },
       {
         "kind": "observation",
         "text": "survival meter critical: 0/720",
         "importance": 8,
-        "ts": 235
+        "ts": 239
       },
       {
         "kind": "observation",
-        "text": "t235: survival 0/720, wallet 0.034458 SOL, food 0",
+        "text": "t239: survival 0/720, wallet 0.034458 SOL, food 0",
         "importance": 1,
-        "ts": 235
+        "ts": 239
       },
       {
         "kind": "action",
         "text": "chose produce (reflex:starving-delegate)",
         "importance": 2,
-        "ts": 235
+        "ts": 239
       },
       {
         "kind": "observation",
         "text": "survival meter critical: 0/720",
         "importance": 8,
-        "ts": 236
+        "ts": 240
       },
       {
         "kind": "observation",
-        "text": "t236: survival 0/720, wallet 0.034458 SOL, food 0",
+        "text": "t240: survival 0/720, wallet 0.034458 SOL, food 0",
         "importance": 1,
-        "ts": 236
+        "ts": 240
       },
       {
         "kind": "action",
         "text": "chose forage (reflex:starving-delegate)",
         "importance": 1,
-        "ts": 236
+        "ts": 240
       }
     ]
   }
