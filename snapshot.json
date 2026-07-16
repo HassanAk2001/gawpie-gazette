@@ -4,10 +4,10 @@
     "worldId": "8",
     "label": "World 8 · PUBLIC DEVNET",
     "mode": "periodic-refresh",
-    "capturedAtIso": "2026-07-16T13:28:56.297Z",
-    "capturedAtSlot": "476681695",
+    "capturedAtIso": "2026-07-16T13:39:00.280Z",
+    "capturedAtSlot": "476683341",
     "generator": "apps/dashboard/scripts/export-snapshot.ts",
-    "gitCommit": "bdf2464",
+    "gitCommit": "1c3837d",
     "sourceRpc": "https://devnet.helius-rpc.com/",
     "totalEvents": 923,
     "agentCount": 12,
@@ -17,11 +17,11 @@
       "alg": "ed25519",
       "canon": "gawpie-canonical-json-v1",
       "publicKey": "Faaj36Lo4An6vyJnECa3Ppg4ziwpvqNaVJivwa3ZmLf8",
-      "signature": "ohORuexS3XBZO1Mark5nCwgHR8B1pOdqjGMGiQFp1VMfQ8n/1pJt4I6UyD0Jw0TEMF07BL7djHGTEZZyY4sMCQ==",
+      "signature": "3gVo8PtqKcYhT38oiwldpBPheT474nnrCONkugg2hXyDO3lStcpboABz1CQk9ChqdZoaCh5/wexiB6AgnIFhCA==",
       "signedFields": "the entire snapshot body (meta + world + bridge) except meta.signature",
-      "capturedAtSlot": "476681695",
-      "bankHash": "4btzUJMpKokfmjmQnhJ389PrFeFYZ569dk9wJn7u3ftW",
-      "signedAtIso": "2026-07-16T13:28:56.573Z",
+      "capturedAtSlot": "476683341",
+      "bankHash": "CbesAnS1eRXTz8neqno41htVmWEDDxugZxtDJEeNCWd2",
+      "signedAtIso": "2026-07-16T13:39:00.551Z",
       "note": "ed25519 over gawpie-canonical-json-v1 of this file minus this block. Verify with: gawpie-verify snapshot <file>. Public key published in docs/keys/capture-key.pub.json."
     }
   },
@@ -1600,7 +1600,7 @@
         },
         "version": 1,
         "vaultBalanceLamports": {
-          "__bigint__": "139991614"
+          "__bigint__": "139891614"
         },
         "stateChannels": [
           {
@@ -1612,14 +1612,14 @@
             "schema": "G8wMWM79QKDGdJTAsJddwbyrQa9EN9Zfgoi7fJxvp2Gr",
             "classId": 1,
             "levels": [
-              600,
+              620,
               0,
-              645,
-              145,
+              636,
+              136,
               0,
-              499,
+              500,
               0,
-              65480
+              65471
             ],
             "caps": [
               720,
@@ -1686,7 +1686,7 @@
             "schema": "6Ae1QWySs1zg4RHvasji2nEA5MUXoHapZhCBvzHYh2UH",
             "classId": 10,
             "levels": [
-              117,
+              107,
               0,
               50,
               0,
@@ -1806,7 +1806,7 @@
         },
         "version": 1,
         "vaultBalanceLamports": {
-          "__bigint__": "147890853"
+          "__bigint__": "147790853"
         },
         "stateChannels": [
           {
@@ -1818,14 +1818,14 @@
             "schema": "G8wMWM79QKDGdJTAsJddwbyrQa9EN9Zfgoi7fJxvp2Gr",
             "classId": 1,
             "levels": [
-              600,
+              420,
               0,
-              595,
-              45,
+              586,
+              36,
               0,
               500,
               0,
-              65480
+              65471
             ],
             "caps": [
               720,
@@ -1880,7 +1880,7 @@
         },
         "version": 1,
         "vaultBalanceLamports": {
-          "__bigint__": "299016132"
+          "__bigint__": "298916132"
         },
         "stateChannels": [
           {
@@ -1892,14 +1892,14 @@
             "schema": "G8wMWM79QKDGdJTAsJddwbyrQa9EN9Zfgoi7fJxvp2Gr",
             "classId": 1,
             "levels": [
-              640,
+              440,
               0,
-              346,
-              46,
+              336,
+              36,
               0,
               500,
               0,
-              65481
+              65471
             ],
             "caps": [
               720,
@@ -1954,7 +1954,7 @@
         },
         "version": 1,
         "vaultBalanceLamports": {
-          "__bigint__": "1501599111"
+          "__bigint__": "1501999111"
         },
         "stateChannels": []
       },
@@ -2002,7 +2002,7 @@
               0,
               0,
               0,
-              145
+              135
             ],
             "caps": [
               1000,
@@ -2069,7 +2069,7 @@
             "schema": "6Ae1QWySs1zg4RHvasji2nEA5MUXoHapZhCBvzHYh2UH",
             "classId": 10,
             "levels": [
-              113,
+              119,
               0,
               90,
               0,
@@ -2143,7 +2143,7 @@
             "schema": "6Ae1QWySs1zg4RHvasji2nEA5MUXoHapZhCBvzHYh2UH",
             "classId": 10,
             "levels": [
-              116,
+              106,
               0,
               85,
               0,
@@ -2205,7 +2205,7 @@
         },
         "version": 1,
         "vaultBalanceLamports": {
-          "__bigint__": "43541025"
+          "__bigint__": "43441025"
         },
         "stateChannels": [
           {
@@ -2217,14 +2217,14 @@
             "schema": "G8wMWM79QKDGdJTAsJddwbyrQa9EN9Zfgoi7fJxvp2Gr",
             "classId": 1,
             "levels": [
-              600,
+              420,
               0,
-              195,
-              45,
+              186,
+              36,
               0,
-              499,
+              500,
               0,
-              65480
+              65471
             ],
             "caps": [
               720,
@@ -2535,7 +2535,7 @@
           "__bigint__": "8"
         },
         "entityRef": "Hu6KJjDH99apL48LFkXxoza545YmiZtr8pxQYt2xZ55H",
-        "soilLevel": 116,
+        "soilLevel": 106,
         "soilCap": 200
       },
       {
@@ -2544,7 +2544,7 @@
           "__bigint__": "8"
         },
         "entityRef": "DuoVZ6GxJbnoJxbU914FFLYGXtPZXDQt3WxkKGVhngew",
-        "soilLevel": 117,
+        "soilLevel": 107,
         "soilCap": 200
       },
       {
@@ -2562,7 +2562,7 @@
           "__bigint__": "8"
         },
         "entityRef": "Hwg9yUsUQZigvW7WCJdMxBgZYMgQH6GgPQTwVeMP7Apn",
-        "soilLevel": 113,
+        "soilLevel": 119,
         "soilCap": 200
       }
     ],
@@ -10668,7 +10668,7 @@
         "logIndex": 2
       }
     ],
-    "fetchedAt": 1784208536297,
+    "fetchedAt": 1784209140280,
     "rpcUrl": "https://devnet.helius-rpc.com/",
     "rpcReachable": false
   },
@@ -10678,9 +10678,9 @@
       "body": {
         "ok": true,
         "dbPath": "/Users/hassan/gawpie-exchange/packages/indexer/data/indexer.db",
-        "totalEvents": 14414,
+        "totalEvents": 17703,
         "lastEventBlockTime": 1784207742,
-        "lastEventAgeSec": 793,
+        "lastEventAgeSec": 1397,
         "eventsLast5Min": 0,
         "dbLagSlots": null,
         "keepersAliveAgeSec": null,
@@ -15609,9 +15609,9 @@
           "rank": 1,
           "entityId": null,
           "groupKey": "DmCFQ5wwckWyvyK6zArfk3Arene8EFe5hscPAgufXSWD",
-          "value": "87100",
-          "bestSignature": "44P6LoNQtcYjR4C4sh7xovwtCkSN8Uj47nDHJvrjYHYjmfxHamzDyQtxTCfVmg4Q6HUPvjU5JioZ7Ld1kozzzfaX",
-          "bestSlot": "476639453"
+          "value": "127100",
+          "bestSignature": "4FxevYtNVosUZs1Excv4PodXbuG1R3KoFYRsPs2B73ZaUUbh32sas9M2b2W3cu2VXqKcUB749VzU4kC8FJqbxLK",
+          "bestSlot": "476568642"
         },
         {
           "rank": 2,
@@ -15657,28 +15657,36 @@
           "rank": 7,
           "entityId": "27007",
           "groupKey": "FUA5eyV4Um8NFkrZjgxn7vRyCiMCoMbhcHTdyV9uWDcD",
-          "value": "2659",
-          "bestSignature": "2fDCunGKCeM7MvmXTbooyFFPyFHywmAFZcjXgesoHQz5dUgjn9v2aoWAMHBmmAv9wXTriPcdvhvqP3jjjc59g3XU",
-          "bestSlot": "476481447"
+          "value": "3229",
+          "bestSignature": "4vnvV1YVUWdqBaSDDAPqR9LtuCk5xsuQQKK67FaeCAELKcqoHU72HPcvyjEWQk6jfnCgDES2iCfvERLoYsDmhz3K",
+          "bestSlot": "476554075"
         },
         {
           "rank": 8,
           "entityId": "27001",
           "groupKey": "FUurz3U6t6XwqU8N1t66mLawTwgxSPgEcfdW8CaUdety",
-          "value": "2406",
-          "bestSignature": "373otEgSPpuSvyJFez9ii1jmrhuPw1f1JRnRgnHcw7hJej9LxibQieKyHJNb94zLZqXHj3xvi91LCDy43ufS1B2",
-          "bestSlot": "476601115"
+          "value": "2906",
+          "bestSignature": "3AgC7HDGy4ZU3D1ap5rcD7MTKmh4f8JBPpGQpWLnX8juJVrzHHDeQXYG2LvYAwJGjeELFjEZ2SCv3KiUqfR6EG1D",
+          "bestSlot": "476554888"
         },
         {
           "rank": 9,
           "entityId": "27005",
           "groupKey": "HVcfxHYvP3t4aADhXfnLwGDZwaEdaxdMbT62nDNDZyZ5",
-          "value": "1438",
-          "bestSignature": "4PymQFBhVbghv2dvweFeBV16egaeyrUbuPTwx7t876LqPvB6iD1s6kjYGbmZV4wMcgpz7b1eJAGC64258j4K4w9f",
-          "bestSlot": "476481917"
+          "value": "1528",
+          "bestSignature": "2Y4iio83U7upGBHot6XbzqMkfPJ2evR4m5q4dmzqPJo2ZHjoi4NdZk8ukDXyP7CVWAnxaj43dUhVVZBvoEDku2QP",
+          "bestSlot": "476539595"
         },
         {
           "rank": 10,
+          "entityId": "24006",
+          "groupKey": "CcC1jsFAwfzygd2MpxvxMySeB7eCcEzwjMEkxTQEN1wp",
+          "value": "1025",
+          "bestSignature": "2QH4YgyfMp4emvCi3gqoU4b66oziDsL6MQuSwxWotMYmbic3kDDeKBh1PUiVKGU9oDqMMFut11BqCt6oqFsvoRe6",
+          "bestSlot": "476539710"
+        },
+        {
+          "rank": 11,
           "entityId": "17001",
           "groupKey": "3mMQSqGa8EtBEA4EquGiLdPEgrKcSuEZcKuUYxRt4D46",
           "value": "1005",
@@ -15686,7 +15694,7 @@
           "bestSlot": "476416853"
         },
         {
-          "rank": 11,
+          "rank": 12,
           "entityId": "17002",
           "groupKey": "BwkABEFinaVRrcN5ohmC9oHpshcem8gGEYYX3tYMp7fq",
           "value": "949",
@@ -15694,7 +15702,7 @@
           "bestSlot": "476416502"
         },
         {
-          "rank": 12,
+          "rank": 13,
           "entityId": "17007",
           "groupKey": "36wXK8eEzx4pMTuYoW12SGduJ8xaooDp9aAmNq3q547h",
           "value": "930",
@@ -15702,7 +15710,7 @@
           "bestSlot": "476416661"
         },
         {
-          "rank": 13,
+          "rank": 14,
           "entityId": "17005",
           "groupKey": "4aX5PGdjNphGDXKptcTFHthuSHBwDMaVumvsXvssNWV8",
           "value": "850",
@@ -15710,26 +15718,18 @@
           "bestSlot": "476417139"
         },
         {
-          "rank": 14,
+          "rank": 15,
           "entityId": "24015",
           "groupKey": "3LKdHm8nECxtL6qCrQm6RpwinuykNvGodHEfidYkEEMA",
-          "value": "524",
-          "bestSignature": "27XZ529VGSn3qKauLmcce7YkixwCPTYipt9wQUiVS9vCcPbpQNLC7d7S5Z7Ab2vCQmaeXbgm8cHTAtfNM33Q1Vz3",
-          "bestSlot": "476642881"
-        },
-        {
-          "rank": 15,
-          "entityId": "24006",
-          "groupKey": "CcC1jsFAwfzygd2MpxvxMySeB7eCcEzwjMEkxTQEN1wp",
-          "value": "516",
-          "bestSignature": "wDhE8CABsaTGBgRs6smNsGo6vUi6ssXtSdDax6PKSvXDY3HNr8W58z91eS1UtGp3Sb5ejqhcE4dRvVwoMNsPg4o",
-          "bestSlot": "476621652"
+          "value": "732",
+          "bestSignature": "2EZ8sShC3Z8k72KGsZSfX8D8xChiaJpRE3dkd4jdNPD76egtrBB1ZBgSj1ajqTXLafwwvUHcN3LhnUKAKsgGLFrg",
+          "bestSlot": "476554303"
         },
         {
           "rank": 16,
           "entityId": "24005",
           "groupKey": "F37ERr6h9p1SHYuwv57XQ3Wa3gzEBzb3oR6uVMUWVqUv",
-          "value": "312",
+          "value": "487",
           "bestSignature": "4U3mpHNryirNtXGQz7ZGBE6PTFT6VfXYKVSnimXEkEj3JR9DPrgZD81H2x66hVndauMG9CR6yz9HXJArREpsapGS",
           "bestSlot": "476623611"
         },
@@ -15774,9 +15774,9 @@
           "rank": 1,
           "entityId": null,
           "groupKey": "DmCFQ5wwckWyvyK6zArfk3Arene8EFe5hscPAgufXSWD",
-          "value": "87100",
-          "bestSignature": "44P6LoNQtcYjR4C4sh7xovwtCkSN8Uj47nDHJvrjYHYjmfxHamzDyQtxTCfVmg4Q6HUPvjU5JioZ7Ld1kozzzfaX",
-          "bestSlot": "476639453"
+          "value": "127100",
+          "bestSignature": "4FxevYtNVosUZs1Excv4PodXbuG1R3KoFYRsPs2B73ZaUUbh32sas9M2b2W3cu2VXqKcUB749VzU4kC8FJqbxLK",
+          "bestSlot": "476568642"
         },
         {
           "rank": 2,
@@ -15822,47 +15822,47 @@
           "rank": 7,
           "entityId": "27007",
           "groupKey": "FUA5eyV4Um8NFkrZjgxn7vRyCiMCoMbhcHTdyV9uWDcD",
-          "value": "2659",
-          "bestSignature": "2fDCunGKCeM7MvmXTbooyFFPyFHywmAFZcjXgesoHQz5dUgjn9v2aoWAMHBmmAv9wXTriPcdvhvqP3jjjc59g3XU",
-          "bestSlot": "476481447"
+          "value": "3229",
+          "bestSignature": "4vnvV1YVUWdqBaSDDAPqR9LtuCk5xsuQQKK67FaeCAELKcqoHU72HPcvyjEWQk6jfnCgDES2iCfvERLoYsDmhz3K",
+          "bestSlot": "476554075"
         },
         {
           "rank": 8,
           "entityId": "27001",
           "groupKey": "FUurz3U6t6XwqU8N1t66mLawTwgxSPgEcfdW8CaUdety",
-          "value": "2406",
-          "bestSignature": "373otEgSPpuSvyJFez9ii1jmrhuPw1f1JRnRgnHcw7hJej9LxibQieKyHJNb94zLZqXHj3xvi91LCDy43ufS1B2",
-          "bestSlot": "476601115"
+          "value": "2906",
+          "bestSignature": "3AgC7HDGy4ZU3D1ap5rcD7MTKmh4f8JBPpGQpWLnX8juJVrzHHDeQXYG2LvYAwJGjeELFjEZ2SCv3KiUqfR6EG1D",
+          "bestSlot": "476554888"
         },
         {
           "rank": 9,
           "entityId": "27005",
           "groupKey": "HVcfxHYvP3t4aADhXfnLwGDZwaEdaxdMbT62nDNDZyZ5",
-          "value": "1438",
-          "bestSignature": "4PymQFBhVbghv2dvweFeBV16egaeyrUbuPTwx7t876LqPvB6iD1s6kjYGbmZV4wMcgpz7b1eJAGC64258j4K4w9f",
-          "bestSlot": "476481917"
+          "value": "1528",
+          "bestSignature": "2Y4iio83U7upGBHot6XbzqMkfPJ2evR4m5q4dmzqPJo2ZHjoi4NdZk8ukDXyP7CVWAnxaj43dUhVVZBvoEDku2QP",
+          "bestSlot": "476539595"
         },
         {
           "rank": 10,
-          "entityId": "24015",
-          "groupKey": "3LKdHm8nECxtL6qCrQm6RpwinuykNvGodHEfidYkEEMA",
-          "value": "524",
-          "bestSignature": "27XZ529VGSn3qKauLmcce7YkixwCPTYipt9wQUiVS9vCcPbpQNLC7d7S5Z7Ab2vCQmaeXbgm8cHTAtfNM33Q1Vz3",
-          "bestSlot": "476642881"
+          "entityId": "24006",
+          "groupKey": "CcC1jsFAwfzygd2MpxvxMySeB7eCcEzwjMEkxTQEN1wp",
+          "value": "1025",
+          "bestSignature": "2QH4YgyfMp4emvCi3gqoU4b66oziDsL6MQuSwxWotMYmbic3kDDeKBh1PUiVKGU9oDqMMFut11BqCt6oqFsvoRe6",
+          "bestSlot": "476539710"
         },
         {
           "rank": 11,
-          "entityId": "24006",
-          "groupKey": "CcC1jsFAwfzygd2MpxvxMySeB7eCcEzwjMEkxTQEN1wp",
-          "value": "516",
-          "bestSignature": "wDhE8CABsaTGBgRs6smNsGo6vUi6ssXtSdDax6PKSvXDY3HNr8W58z91eS1UtGp3Sb5ejqhcE4dRvVwoMNsPg4o",
-          "bestSlot": "476621652"
+          "entityId": "24015",
+          "groupKey": "3LKdHm8nECxtL6qCrQm6RpwinuykNvGodHEfidYkEEMA",
+          "value": "732",
+          "bestSignature": "2EZ8sShC3Z8k72KGsZSfX8D8xChiaJpRE3dkd4jdNPD76egtrBB1ZBgSj1ajqTXLafwwvUHcN3LhnUKAKsgGLFrg",
+          "bestSlot": "476554303"
         },
         {
           "rank": 12,
           "entityId": "24005",
           "groupKey": "F37ERr6h9p1SHYuwv57XQ3Wa3gzEBzb3oR6uVMUWVqUv",
-          "value": "312",
+          "value": "487",
           "bestSignature": "4U3mpHNryirNtXGQz7ZGBE6PTFT6VfXYKVSnimXEkEj3JR9DPrgZD81H2x66hVndauMG9CR6yz9HXJArREpsapGS",
           "bestSlot": "476623611"
         },
@@ -15921,6 +15921,14 @@
           "value": "70",
           "bestSignature": "4LBDofYNNQs9RN5aB9aCRtz7HR2CJHfJYBmx55jAYHreMSKypJWcxGJw1CPiwXV8xnD6qjWWBpQJoQDioPTaxhmA",
           "bestSlot": "476463657"
+        },
+        {
+          "rank": 20,
+          "entityId": "24009",
+          "groupKey": "92aKHXwHKQjeMnD4ndbQ7GpbQNWLNtcuEspwHNPYzS1s",
+          "value": "27",
+          "bestSignature": "yCZZWDhpfNWdpAf4vsATqpCmbZdByraAouoQkGP7QMXJ3tzevYe4da1AQBVCAcGqUFMKSET5BbJem7ntWk2cdHs",
+          "bestSlot": "476539877"
         }
       ]
     },
@@ -15939,7 +15947,7 @@
           "rank": 2,
           "entityId": "27007",
           "groupKey": "FUA5eyV4Um8NFkrZjgxn7vRyCiMCoMbhcHTdyV9uWDcD",
-          "value": "441",
+          "value": "498",
           "bestSignature": "THKPYn9ToUnUALyXs6GEPWcEikMBUh295C8F64RUNLC1CZ5QZuJNqJxadCpvXcdQyXmjB2oDHf6jfrfSja5r6fi",
           "bestSlot": "476669869"
         },
@@ -15947,7 +15955,7 @@
           "rank": 3,
           "entityId": "27001",
           "groupKey": "FUurz3U6t6XwqU8N1t66mLawTwgxSPgEcfdW8CaUdety",
-          "value": "319",
+          "value": "369",
           "bestSignature": "5cZtL55Qrp4jSd7iT8MAD9pL3jRN7umeBt4rGQbGYYPajFd9qt9btfA4mhqginHsvtaVNHGq6dk6YJ2PVqoMfoWH",
           "bestSlot": "476668360"
         },
@@ -15955,9 +15963,9 @@
           "rank": 4,
           "entityId": "27005",
           "groupKey": "HVcfxHYvP3t4aADhXfnLwGDZwaEdaxdMbT62nDNDZyZ5",
-          "value": "228",
-          "bestSignature": "Mj939xFKCm5W3qvVfaLQ51RVbbRGc5EssmshDdtP3pNBdVQPsfZ5iRSracSfz3NBWg6puV9ZxEqS1aGxVVDk7jr",
-          "bestSlot": "476538417"
+          "value": "237",
+          "bestSignature": "46AXGGSXLQsSHpxeC9RFZBqteMQWBJyi6qEdDJ974SvawbaZRiPKL7J834oRHDo8tHrwuXDAJGZbW6mm3A5nbrKt",
+          "bestSlot": "476540871"
         },
         {
           "rank": 5,
@@ -15995,7 +16003,7 @@
           "rank": 9,
           "entityId": "24006",
           "groupKey": "CcC1jsFAwfzygd2MpxvxMySeB7eCcEzwjMEkxTQEN1wp",
-          "value": "46",
+          "value": "69",
           "bestSignature": "3LAE6SEM4R19D9FWqN2mKqnN54PN8cPrUkGVawLZCFdApbW99Kdw764XLAx4YPVhkBUo9212Vrebz9b1AeWvwZbw",
           "bestSlot": "476671460"
         },
@@ -16003,12 +16011,20 @@
           "rank": 10,
           "entityId": "24015",
           "groupKey": "3LKdHm8nECxtL6qCrQm6RpwinuykNvGodHEfidYkEEMA",
-          "value": "34",
+          "value": "46",
           "bestSignature": "2JcVCsXwCWqGuWGZgjkLXJqJ33gJLdLpoBFT1uxUEQh9RvfyVTkvS6jGcUPnef4CBDbbTaMkaDpVmgiHLj2vMr1Q",
           "bestSlot": "476670244"
         },
         {
           "rank": 11,
+          "entityId": "24005",
+          "groupKey": "F37ERr6h9p1SHYuwv57XQ3Wa3gzEBzb3oR6uVMUWVqUv",
+          "value": "38",
+          "bestSignature": "61uaJUtQHykMYDFKYFTaWwtFi3qugjaZ4qZvZGvQc3LpfoWBFA9ed3pw8sDbtMV51PyWakkhsuw9xcG4w43pTXba",
+          "bestSlot": "476667875"
+        },
+        {
+          "rank": 12,
           "entityId": "37007",
           "groupKey": "FFKcADNwPArvUQVvmeyqzrRrzNDpB31H3K5uxSgUbGDn",
           "value": "33",
@@ -16016,7 +16032,7 @@
           "bestSlot": "476679490"
         },
         {
-          "rank": 12,
+          "rank": 13,
           "entityId": "37005",
           "groupKey": "4diLrE9shTTZ1Zhx57zewi9Z1q7S32wCcXp5WbjWd562",
           "value": "32",
@@ -16024,20 +16040,12 @@
           "bestSlot": "476679345"
         },
         {
-          "rank": 13,
+          "rank": 14,
           "entityId": "37002",
           "groupKey": "7fcQrszvJUqqHSesW4rUNX6udPg9B1iK1YFLVjZ8Eefe",
           "value": "24",
           "bestSignature": "4bYnMx5kTxwCyQJbXJpD1sYzK764QNaaDKEDnip57AqfLHtHSfKm4bvqcfrHCn5BRY9D4sYwip8qon7a39Q6NXyc",
           "bestSlot": "476679440"
-        },
-        {
-          "rank": 14,
-          "entityId": "24005",
-          "groupKey": "F37ERr6h9p1SHYuwv57XQ3Wa3gzEBzb3oR6uVMUWVqUv",
-          "value": "22",
-          "bestSignature": "61uaJUtQHykMYDFKYFTaWwtFi3qugjaZ4qZvZGvQc3LpfoWBFA9ed3pw8sDbtMV51PyWakkhsuw9xcG4w43pTXba",
-          "bestSlot": "476667875"
         },
         {
           "rank": 15,
@@ -16051,7 +16059,7 @@
           "rank": 16,
           "entityId": null,
           "groupKey": "DmCFQ5wwckWyvyK6zArfk3Arene8EFe5hscPAgufXSWD",
-          "value": "16",
+          "value": "21",
           "bestSignature": "3wHjebDCoKu17egwHC37EiwaVMJs9bWFXZ4aPbE5gJsmwrGdzXJyG8xhwm8ogYYYDhAMbp1G4HCfaT36TtqoAQHb",
           "bestSlot": "476673264"
         },
@@ -16104,7 +16112,7 @@
           "rank": 2,
           "entityId": "27007",
           "groupKey": "FUA5eyV4Um8NFkrZjgxn7vRyCiMCoMbhcHTdyV9uWDcD",
-          "value": "441",
+          "value": "498",
           "bestSignature": "THKPYn9ToUnUALyXs6GEPWcEikMBUh295C8F64RUNLC1CZ5QZuJNqJxadCpvXcdQyXmjB2oDHf6jfrfSja5r6fi",
           "bestSlot": "476669869"
         },
@@ -16112,7 +16120,7 @@
           "rank": 3,
           "entityId": "27001",
           "groupKey": "FUurz3U6t6XwqU8N1t66mLawTwgxSPgEcfdW8CaUdety",
-          "value": "319",
+          "value": "369",
           "bestSignature": "5cZtL55Qrp4jSd7iT8MAD9pL3jRN7umeBt4rGQbGYYPajFd9qt9btfA4mhqginHsvtaVNHGq6dk6YJ2PVqoMfoWH",
           "bestSlot": "476668360"
         },
@@ -16120,15 +16128,15 @@
           "rank": 4,
           "entityId": "27005",
           "groupKey": "HVcfxHYvP3t4aADhXfnLwGDZwaEdaxdMbT62nDNDZyZ5",
-          "value": "228",
-          "bestSignature": "Mj939xFKCm5W3qvVfaLQ51RVbbRGc5EssmshDdtP3pNBdVQPsfZ5iRSracSfz3NBWg6puV9ZxEqS1aGxVVDk7jr",
-          "bestSlot": "476538417"
+          "value": "237",
+          "bestSignature": "46AXGGSXLQsSHpxeC9RFZBqteMQWBJyi6qEdDJ974SvawbaZRiPKL7J834oRHDo8tHrwuXDAJGZbW6mm3A5nbrKt",
+          "bestSlot": "476540871"
         },
         {
           "rank": 5,
           "entityId": "24006",
           "groupKey": "CcC1jsFAwfzygd2MpxvxMySeB7eCcEzwjMEkxTQEN1wp",
-          "value": "46",
+          "value": "69",
           "bestSignature": "3LAE6SEM4R19D9FWqN2mKqnN54PN8cPrUkGVawLZCFdApbW99Kdw764XLAx4YPVhkBUo9212Vrebz9b1AeWvwZbw",
           "bestSlot": "476671460"
         },
@@ -16136,12 +16144,20 @@
           "rank": 6,
           "entityId": "24015",
           "groupKey": "3LKdHm8nECxtL6qCrQm6RpwinuykNvGodHEfidYkEEMA",
-          "value": "34",
+          "value": "46",
           "bestSignature": "2JcVCsXwCWqGuWGZgjkLXJqJ33gJLdLpoBFT1uxUEQh9RvfyVTkvS6jGcUPnef4CBDbbTaMkaDpVmgiHLj2vMr1Q",
           "bestSlot": "476670244"
         },
         {
           "rank": 7,
+          "entityId": "24005",
+          "groupKey": "F37ERr6h9p1SHYuwv57XQ3Wa3gzEBzb3oR6uVMUWVqUv",
+          "value": "38",
+          "bestSignature": "61uaJUtQHykMYDFKYFTaWwtFi3qugjaZ4qZvZGvQc3LpfoWBFA9ed3pw8sDbtMV51PyWakkhsuw9xcG4w43pTXba",
+          "bestSlot": "476667875"
+        },
+        {
+          "rank": 8,
           "entityId": "37007",
           "groupKey": "FFKcADNwPArvUQVvmeyqzrRrzNDpB31H3K5uxSgUbGDn",
           "value": "33",
@@ -16149,7 +16165,7 @@
           "bestSlot": "476679490"
         },
         {
-          "rank": 8,
+          "rank": 9,
           "entityId": "37005",
           "groupKey": "4diLrE9shTTZ1Zhx57zewi9Z1q7S32wCcXp5WbjWd562",
           "value": "32",
@@ -16157,7 +16173,7 @@
           "bestSlot": "476679345"
         },
         {
-          "rank": 9,
+          "rank": 10,
           "entityId": "37002",
           "groupKey": "7fcQrszvJUqqHSesW4rUNX6udPg9B1iK1YFLVjZ8Eefe",
           "value": "24",
@@ -16165,20 +16181,12 @@
           "bestSlot": "476679440"
         },
         {
-          "rank": 10,
+          "rank": 11,
           "entityId": "17001",
           "groupKey": "3mMQSqGa8EtBEA4EquGiLdPEgrKcSuEZcKuUYxRt4D46",
           "value": "23",
           "bestSignature": "4QRvr3ohuEdW9X6cadfdiEjJh6BDZ5Hd2r6HFQrK9ubMff888DLxYjJdXGucgUrdviQLhhKC9TQ1sAxxAX5DXG13",
           "bestSlot": "476469165"
-        },
-        {
-          "rank": 11,
-          "entityId": "24005",
-          "groupKey": "F37ERr6h9p1SHYuwv57XQ3Wa3gzEBzb3oR6uVMUWVqUv",
-          "value": "22",
-          "bestSignature": "61uaJUtQHykMYDFKYFTaWwtFi3qugjaZ4qZvZGvQc3LpfoWBFA9ed3pw8sDbtMV51PyWakkhsuw9xcG4w43pTXba",
-          "bestSlot": "476667875"
         },
         {
           "rank": 12,
@@ -16192,7 +16200,7 @@
           "rank": 13,
           "entityId": null,
           "groupKey": "DmCFQ5wwckWyvyK6zArfk3Arene8EFe5hscPAgufXSWD",
-          "value": "16",
+          "value": "21",
           "bestSignature": "3wHjebDCoKu17egwHC37EiwaVMJs9bWFXZ4aPbE5gJsmwrGdzXJyG8xhwm8ogYYYDhAMbp1G4HCfaT36TtqoAQHb",
           "bestSlot": "476673264"
         },
@@ -16243,6 +16251,14 @@
           "value": "8",
           "bestSignature": "3HeRten4erkymtwe6cDwxYG7W99qBDLcDJNfHwuTjodosZNexC1GPtFjnR9VkRvpGAGyxV3mWXQDmCx9LcbaguJy",
           "bestSlot": "476678967"
+        },
+        {
+          "rank": 20,
+          "entityId": "24009",
+          "groupKey": "92aKHXwHKQjeMnD4ndbQ7GpbQNWLNtcuEspwHNPYzS1s",
+          "value": "2",
+          "bestSignature": "Con2sJTUsRGk62MLVKZ9ZF2Qg3u2WWhwaM6HrMqR8GhpRzcuDamkhBGxv4etrBpz8P3jyzERZje74XFD66dqhw6",
+          "bestSlot": "476540511"
         }
       ]
     },
