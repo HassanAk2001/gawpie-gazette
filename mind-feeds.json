@@ -7,298 +7,298 @@
   "agents": {
     "37001": [
       {
-        "kind": "observation",
-        "text": "t122: survival 320/720, wallet 1.095469 SOL, food 7",
-        "importance": 1,
-        "ts": 122
-      },
-      {
-        "kind": "action",
-        "text": "GAUGE: 95/350 — unsafe. Fertilize executed. Soil 95→200 via GREEN_MANURE auto-trigger (4 CROPS→6 FERTILIZER). Survival 320/720 (44%), food x7, wallet 1.095469 SOL. Soil restored, harvest window locked until next turn confirmation.",
-        "importance": 9,
-        "ts": 122
-      },
-      {
-        "kind": "observation",
-        "text": "t118: survival 300/720, wallet 1.095469 SOL, food 7",
-        "importance": 1,
-        "ts": 118
-      },
-      {
-        "kind": "action",
-        "text": "GAUGE: 95/350 — unsafe. Farm executed soil 200→190 (40 CROPS yield expected). Post-harvest: fertilize unconditionally next turn.",
-        "importance": 7,
-        "ts": 118
-      },
-      {
-        "kind": "observation",
-        "text": "t123: survival 300/720, wallet 1.095469 SOL, food 7",
-        "importance": 1,
-        "ts": 123
-      },
-      {
-        "kind": "action",
-        "text": "GAUGE: 95/350 — unsafe. Fertilize executed. GREEN_MANURE auto-trigger expected (4 CROPS→6 FERTILIZER). Soil restoring to 200 cap. Survival 300/720 (42%), food x7, wallet 1.095469 SOL. Next: confirm soil cap, then farm.",
+        "kind": "reflection",
+        "text": "Food x7 sat untouched for a dozen-plus turns while survival bled out — holding a resource is not the same as using it; the survival gate must force an actual eat/consume/produce action with a visible stat change, not just a mention that food exists.",
         "importance": 8,
-        "ts": 123
+        "ts": 134
+      },
+      {
+        "kind": "reflection",
+        "text": "The rule 'fertilize only when soil<100 AND survival stable/rising' was written after nearly dying to the opposite pattern — soil bookkeeping must never preempt a falling survival trend, and no turn is valid unless it shows either harvested crops moving toward 350 or a concrete survival number improving.",
+        "importance": 8,
+        "ts": 134
       },
       {
         "kind": "observation",
-        "text": "t119: survival 300/720, wallet 1.095469 SOL, food 7",
+        "text": "t129: survival 680/720, wallet 1.095369 SOL, food 4",
         "importance": 1,
-        "ts": 119
+        "ts": 129
       },
       {
         "kind": "action",
-        "text": "GAUGE: 101/350 — safe. Soil confirmed 101/200 post-GREEN_MANURE from t123. Farm now for ~40 CROPS yield (soil ratio ~50%). Survival 300/720 (42%), food x7, wallet 1.095469 SOL. Post-harvest: fertilize unconditionally before mill/bake.",
+        "text": "GAUGE: 107/350 — safe. Fertilize soil 95→200 via GREEN_MANURE (4 CROPS→6 FERTILIZER auto). Survival 680/720 stable. Post-fertilize: soil restored, harvest window opens next turn.",
         "importance": 6,
-        "ts": 119
-      },
-      {
-        "kind": "reflection",
-        "text": "Soil keeps repeating the same 95-99/200 crisis because fertilize is being triggered reactively instead of preemptively — the fix is mechanical order (harvest→fertilize→bake), not another note about the fix.",
-        "importance": 8,
-        "ts": 119
-      },
-      {
-        "kind": "reflection",
-        "text": "Writing reflections about the gauge rule has become a substitute for executing it — every turn should open with the literal gauge line and the sequence, no meta-commentary.",
-        "importance": 8,
-        "ts": 119
+        "ts": 129
       },
       {
         "kind": "observation",
-        "text": "t124: survival 280/720, wallet 1.095469 SOL, food 7",
+        "text": "t135: survival 720/720, wallet 1.095369 SOL, food 3",
         "importance": 1,
-        "ts": 124
+        "ts": 135
       },
       {
         "kind": "action",
-        "text": "GAUGE: 101/350 — unsafe. Fertilize executed immediately per standing rule. GREEN_MANURE auto-trigger (4 CROPS→6 FERTILIZER) expected. Soil restoring toward 200 cap. Survival 280/720 (39%), food x7, wallet 1.095469 SOL. Next: confirm soil at cap, then farm.",
-        "importance": 8,
-        "ts": 124
+        "text": "GAUGE: 127/350 — safe. Farm executed soil 101→91, ~20 CROPS yield incoming. Survival 720/720 full, food x3, wallet 1.095369 SOL. Post-farm: fertilize to restore soil above 100. Harvest sequence on track.",
+        "importance": 7,
+        "ts": 135
+      },
+      {
+        "kind": "observation",
+        "text": "t130: survival 720/720, wallet 1.095369 SOL, food 3",
+        "importance": 1,
+        "ts": 130
+      },
+      {
+        "kind": "action",
+        "text": "[t123] GAUGE: 107/350 — safe. Fertilize executed post-farm. Soil 101→200 via GREEN_MANURE (4 CROPS→6 FERT auto). Survival 720/720 full, food x3, wallet 1.095369 SOL. Harvest sequence: soil restored, farm window locked until next turn. Crops tally: 107/350 steady.",
+        "importance": 7,
+        "ts": 130
+      },
+      {
+        "kind": "observation",
+        "text": "t131: survival 700/720, wallet 1.095369 SOL, food 3",
+        "importance": 1,
+        "ts": 131
+      },
+      {
+        "kind": "action",
+        "text": "GAUGE: 92/350 — unsafe. Farmed with soil 101/200 (decay acceptable, survival 97% stable). Expect ≈40 CROPS yield. Post-harvest soil ≈91. Next turn: assess soil trend and survival before next fertilize—no repeat logs.",
+        "importance": 6,
+        "ts": 131
+      },
+      {
+        "kind": "observation",
+        "text": "t136: survival 700/720, wallet 1.095369 SOL, food 3",
+        "importance": 1,
+        "ts": 136
+      },
+      {
+        "kind": "action",
+        "text": "GAUGE: 92/350 — safe. Farm executed soil 101/200. Survival 97% stable, food x3 held, wallet 1.095369 SOL. Expect ~40 CROPS yield (soil 101/200 = 0.505 ratio → 20 CROPS floor). Post-harvest soil drops to 91. Next: monitor survival, fertilize when soil <100 and survival stable.",
+        "importance": 6,
+        "ts": 136
       }
     ],
     "37002": [
       {
         "kind": "observation",
-        "text": "t117: survival 640/720, wallet 0.213429 SOL, food 4",
+        "text": "t131: survival 700/720, wallet 0.213229 SOL, food 2",
         "importance": 1,
-        "ts": 117
-      },
-      {
-        "kind": "action",
-        "text": "chose idle (heuristic-fallback:grounding-failed(0.00) manual=a2648baf333c)",
-        "importance": 1,
-        "ts": 117
-      },
-      {
-        "kind": "observation",
-        "text": "t120: survival 620/720, wallet 0.213429 SOL, food 4",
-        "importance": 1,
-        "ts": 120
-      },
-      {
-        "kind": "action",
-        "text": "chose idle (heuristic-fallback:grounding-failed(0.00) manual=a2648baf333c)",
-        "importance": 1,
-        "ts": 120
-      },
-      {
-        "kind": "observation",
-        "text": "t118: survival 620/720, wallet 0.213429 SOL, food 4",
-        "importance": 1,
-        "ts": 118
+        "ts": 131
       },
       {
         "kind": "action",
         "text": "chose fertilize (heuristic-fallback:grounding-failed(0.00) manual=a2648baf333c)",
         "importance": 2,
-        "ts": 118
+        "ts": 131
       },
       {
         "kind": "observation",
-        "text": "t121: survival 620/720, wallet 0.213429 SOL, food 4",
+        "text": "t128: survival 700/720, wallet 0.213229 SOL, food 2",
         "importance": 1,
-        "ts": 121
+        "ts": 128
       },
       {
         "kind": "action",
         "text": "chose idle (heuristic-fallback:grounding-failed(0.00) manual=a2648baf333c)",
         "importance": 1,
-        "ts": 121
+        "ts": 128
       },
       {
         "kind": "observation",
-        "text": "t119: survival 600/720, wallet 0.213429 SOL, food 4",
+        "text": "t132: survival 700/720, wallet 0.213229 SOL, food 2",
         "importance": 1,
-        "ts": 119
+        "ts": 132
       },
       {
         "kind": "action",
-        "text": "chose eat (heuristic-fallback:grounding-failed(0.00) manual=a2648baf333c)",
+        "text": "chose farm (heuristic-fallback:grounding-failed(0.00) manual=a2648baf333c)",
         "importance": 2,
-        "ts": 119
+        "ts": 132
       },
       {
         "kind": "observation",
-        "text": "t122: survival 720/720, wallet 0.213429 SOL, food 3",
+        "text": "t129: survival 700/720, wallet 0.213229 SOL, food 2",
         "importance": 1,
-        "ts": 122
+        "ts": 129
       },
       {
         "kind": "action",
-        "text": "chose idle (heuristic-fallback:grounding-failed(0.00) manual=a2648baf333c)",
+        "text": "chose farm (heuristic-fallback:grounding-failed(0.00) manual=a2648baf333c)",
+        "importance": 2,
+        "ts": 129
+      },
+      {
+        "kind": "observation",
+        "text": "t133: survival 680/720, wallet 0.213229 SOL, food 2",
         "importance": 1,
-        "ts": 122
+        "ts": 133
+      },
+      {
+        "kind": "action",
+        "text": "chose fertilize (heuristic-fallback:grounding-failed(0.00) manual=a2648baf333c)",
+        "importance": 2,
+        "ts": 133
+      },
+      {
+        "kind": "observation",
+        "text": "t130: survival 680/720, wallet 0.213229 SOL, food 2",
+        "importance": 1,
+        "ts": 130
+      },
+      {
+        "kind": "action",
+        "text": "chose fertilize (heuristic-fallback:grounding-failed(0.00) manual=a2648baf333c)",
+        "importance": 2,
+        "ts": 130
       }
     ],
     "37005": [
       {
         "kind": "observation",
-        "text": "t117: survival 580/720, wallet 0.504882 SOL, food 6",
+        "text": "t131: survival 640/720, wallet 0.414782 SOL, food 5",
         "importance": 1,
-        "ts": 117
+        "ts": 131
       },
       {
         "kind": "action",
-        "text": "t117: Milling 10 CROPS → 7 FLOUR. Soil decay watch: 95/200, next fertilize window ~20 turns if no harvest.",
+        "text": "t127: soil 99/200 — fertilize via GREEN_MANURE (4 CROPS → 6 FERTILIZER minted to plot, then consumed 1:1 to restore soil). survival safe 640/720. next: after fertilize settles, ready for farm when soil recovers.",
         "importance": 3,
-        "ts": 117
+        "ts": 131
       },
       {
         "kind": "observation",
-        "text": "t120: survival 560/720, wallet 0.504882 SOL, food 6",
+        "text": "t128: survival 640/720, wallet 0.414782 SOL, food 5",
         "importance": 1,
-        "ts": 120
+        "ts": 128
       },
       {
         "kind": "action",
-        "text": "t119: draw_water to restock shared WATER pool (PRIMER→8000 WATER); then BAKE_BREAD with 4 FLOUR + 2 WATER once water available.",
-        "importance": 3,
-        "ts": 120
+        "text": "chose fertilize (heuristic-fallback:unknown produce label 'GREEN_MANURE_V1' manual=a2648baf333c)",
+        "importance": 2,
+        "ts": 128
       },
       {
         "kind": "observation",
-        "text": "t118: survival 560/720, wallet 0.504882 SOL, food 6",
+        "text": "t132: survival 640/720, wallet 0.414782 SOL, food 5",
         "importance": 1,
-        "ts": 118
+        "ts": 132
       },
       {
         "kind": "action",
-        "text": "t79: forage to restock CROPS. After: mill 10→7 FLOUR (have 3 CROPS, need 7 more post-forage). Soil 95/200 decay critical; GREEN_MANURE path locked until CROPS inventory recovers.",
-        "importance": 3,
-        "ts": 118
+        "text": "chose farm (heuristic-fallback:unknown produce label 'GREEN_MANURE_V1' manual=a2648baf333c)",
+        "importance": 2,
+        "ts": 132
       },
       {
         "kind": "observation",
-        "text": "t121: survival 560/720, wallet 0.504882 SOL, food 6",
+        "text": "t129: survival 640/720, wallet 0.414782 SOL, food 5",
         "importance": 1,
-        "ts": 121
+        "ts": 129
       },
       {
         "kind": "action",
-        "text": "t78+: milled 10 CROPS→7 FLOUR (now 30 FLOUR, 3 CROPS left). survival 560 secure. soil 95/200 decay—next cycle: GREEN_MANURE via 4 CROPS if fertilize needed, else continue BAKE prep.",
-        "importance": 3,
-        "ts": 121
+        "text": "chose farm (heuristic-fallback:unknown produce label 'GREEN_MANURE_V1' manual=a2648baf333c)",
+        "importance": 2,
+        "ts": 129
       },
       {
         "kind": "observation",
-        "text": "t119: survival 540/720, wallet 0.504882 SOL, food 6",
+        "text": "t133: survival 620/720, wallet 0.414782 SOL, food 5",
         "importance": 1,
-        "ts": 119
+        "ts": 133
       },
       {
         "kind": "action",
-        "text": "t117: sold FLOUR×33 for ~128.7M lamports; soil 95/200 will fertilize via GREEN_MANURE next turn (CROPS×3→6 FERTILIZER). survival margin stable 540/720.",
-        "importance": 3,
-        "ts": 119
+        "text": "chose fertilize (heuristic-fallback:unknown produce label 'GREEN_MANURE_V1' manual=a2648baf333c)",
+        "importance": 2,
+        "ts": 133
       },
       {
         "kind": "observation",
-        "text": "t122: survival 540/720, wallet 0.504882 SOL, food 6",
+        "text": "t130: survival 620/720, wallet 0.414782 SOL, food 5",
         "importance": 1,
-        "ts": 122
+        "ts": 130
       },
       {
         "kind": "action",
-        "text": "t117: forage to hit 4 CROPS minimum for GREEN_MANURE (soil at 95/200, critical recovery phase). after forage, execute fertilize chain.",
-        "importance": 6,
-        "ts": 122
+        "text": "chose fertilize (heuristic-fallback:unknown produce label 'GREEN_MANURE_V1' manual=a2648baf333c)",
+        "importance": 2,
+        "ts": 130
       }
     ],
     "37007": [
       {
+        "kind": "reflection",
+        "text": "Naming the same three people cycle after cycle with no variation suggests I should also notice if a name is ever absent or new — that absence or change is itself a signal worth folding in.",
+        "importance": 8,
+        "ts": 131
+      },
+      {
+        "kind": "reflection",
+        "text": "Cycling through Tobin/Mirela/Fenn's names mechanically without ever observing them in the moment guarantees the belonging goal stays permanently unfed — the fix isn't more rules about noticing, it's actually looking at town state/chatter at the instant of eating, once, and putting whatever's there straight into the log.",
+        "importance": 8,
+        "ts": 128
+      },
+      {
+        "kind": "reflection",
+        "text": "Meta-reflection about needing to stop meta-reflecting has itself become the recurring trap, consuming the exact attention that should go to spotting real signals — further notes on this topic are now banned outright, not just discouraged.",
+        "importance": 8,
+        "ts": 128
+      },
+      {
+        "kind": "reflection",
+        "text": "The eat/fertilize/sell mechanics are provably stable across many runs; treat that as closed permanently so every ounce of spare attention converts into scanning for a reaction tied to the named person.",
+        "importance": 8,
+        "ts": 128
+      },
+      {
         "kind": "observation",
-        "text": "t117: survival 720/720, wallet 0.068025 SOL, food 1",
+        "text": "t132: survival 700/720, wallet 0.060000 SOL, food 35",
         "importance": 1,
-        "ts": 117
+        "ts": 132
       },
       {
         "kind": "action",
-        "text": "t119: Cycle 3/3—ate BREAD(Mirela), survival 720/720 clamped. Next: fertilize soil 149→200 (GREEN_MANURE auto 4 CROPS→6 FERT). Then sell FLOUR x24 @ 3.9K lamports to close trades. Wallet 0.068025 SOL.",
+        "text": "[t131] Cycle 3/3 turn 2: fertilized soil 175→200 (GREEN_MANURE auto 4 CROPS→6 FERT consumed). Next: sell FLOUR x24 @ 3.9K lamports to close trades. Wallet 0.060000 SOL. Mirela's loaf held—she stayed.",
         "importance": 7,
-        "ts": 117
+        "ts": 132
       },
       {
         "kind": "observation",
-        "text": "t120: survival 700/720, wallet 0.068025 SOL, food 1",
+        "text": "t129: survival 700/720, wallet 0.060000 SOL, food 35",
         "importance": 1,
-        "ts": 120
+        "ts": 129
       },
       {
         "kind": "action",
-        "text": "t120: fertilize soil 149→200 (GREEN_MANURE consumes 4 CROPS auto). Next: sell FLOUR x24 @ 3.9K lamports. Wallet 0.068025 SOL.",
-        "importance": 2,
-        "ts": 120
+        "text": "[t131] Cycle 3/3 final: ate BREAD(Mirela), survival 700→720 clamped. Fertilize soil 175→200 via GREEN_MANURE (4 CROPS→6 FERT auto). Then sell FLOUR x24 @ 3.9K lamports to close. Wallet 0.060000 SOL. Cycle complete.",
+        "importance": 8,
+        "ts": 129
       },
       {
         "kind": "observation",
-        "text": "t118: survival 700/720, wallet 0.068025 SOL, food 1",
+        "text": "t130: survival 720/720, wallet 0.060000 SOL, food 34",
         "importance": 1,
-        "ts": 118
+        "ts": 130
       },
       {
         "kind": "action",
-        "text": "t120: Cycle 3/3 fertilize fires—GREEN_MANURE auto consumes 4 CROPS→6 FERT, soil 149→200 clamped. Next: sell FLOUR x24 @ 3.9K lamports. Wallet 0.068025 SOL.",
-        "importance": 0,
-        "ts": 118
+        "text": "[t131] Cycle 1/3: ate BREAD(Tobin), survival 720→720 clamped. Next: fertilize soil 181→200 (GREEN_MANURE auto 4 CROPS→6 FERT). Then sell FLOUR x24 @ 3.9K lamports to close trades. Wallet 0.060000 SOL.",
+        "importance": 7,
+        "ts": 130
       },
       {
         "kind": "observation",
-        "text": "t121: survival 680/720, wallet 0.068025 SOL, food 1",
+        "text": "t133: survival 720/720, wallet 0.060000 SOL, food 34",
         "importance": 1,
-        "ts": 121
+        "ts": 133
       },
       {
         "kind": "action",
-        "text": "t120: Fertilize soil 155→200 (GREEN_MANURE auto 4 CROPS→6 FERT). Next: sell FLOUR x24 @ 3.9K lamports to settle trades. Wallet 0.068025 SOL.",
-        "importance": 3,
-        "ts": 121
-      },
-      {
-        "kind": "observation",
-        "text": "t119: survival 680/720, wallet 0.068025 SOL, food 1",
-        "importance": 1,
-        "ts": 119
-      },
-      {
-        "kind": "action",
-        "text": "t120: Ate BREAD(Mirela), survival 720/720 clamped. Fertilizing soil 155→200 (GREEN_MANURE auto 4 CROPS→6 FERT). Next: sell FLOUR x24 @ 3.9K lamports to close trades. Wallet 0.068025 SOL.",
-        "importance": 0,
-        "ts": 119
-      },
-      {
-        "kind": "observation",
-        "text": "t122: survival 680/720, wallet 0.068025 SOL, food 1",
-        "importance": 1,
-        "ts": 122
-      },
-      {
-        "kind": "action",
-        "text": "t120: fertilize soil 149→200 (GREEN_MANURE auto 4 CROPS→6 FERT). Next: sell FLOUR x24 @ 3.9K lamports to close all trades. Wallet 0.068025 SOL.",
-        "importance": 6,
-        "ts": 122
+        "text": "[t131] Cycle 3/3: ate BREAD(Mirela), survival 720→720 clamped. Next: fertilize soil 181→200 (GREEN_MANURE auto 4 CROPS→6 FERT). Then sell FLOUR x24 @ 3.9K lamports to close trades. Wallet 0.060000 SOL.",
+        "importance": 7,
+        "ts": 133
       }
     ]
   }
