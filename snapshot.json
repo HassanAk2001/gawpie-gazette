@@ -4,12 +4,12 @@
     "worldId": "8",
     "label": "World 8 · PUBLIC DEVNET",
     "mode": "periodic-refresh",
-    "capturedAtIso": "2026-07-16T15:40:38.311Z",
-    "capturedAtSlot": "476703253",
+    "capturedAtIso": "2026-07-16T15:50:42.403Z",
+    "capturedAtSlot": "476704903",
     "generator": "apps/dashboard/scripts/export-snapshot.ts",
     "gitCommit": "13bc754",
     "sourceRpc": "https://devnet.helius-rpc.com/",
-    "totalEvents": 2076,
+    "totalEvents": 2133,
     "agentCount": 12,
     "companyCount": 0,
     "note": "A paused recording of the world — real captured on-chain state, not live.",
@@ -17,11 +17,11 @@
       "alg": "ed25519",
       "canon": "gawpie-canonical-json-v1",
       "publicKey": "Faaj36Lo4An6vyJnECa3Ppg4ziwpvqNaVJivwa3ZmLf8",
-      "signature": "yfNcKB1ipXr2slF6TyNiiZXVBIXiCEQGPkhZUq0OCQb1IFMAM853VPhXyUMuycqFDAV3aRtvrghyeMU9q5C6Bg==",
+      "signature": "Q5TIw3b92DlhUlahtz8rER5X7+bo4Y72msuivreL+l4QthlpAgmR1gv/A7C/5AAzOA6pYYJBjQ3TDbhcdku3Aw==",
       "signedFields": "the entire snapshot body (meta + world + bridge) except meta.signature",
-      "capturedAtSlot": "476703253",
-      "bankHash": "DfeU2V2AjLk85a5c3Sd1X474Yh7mhYhdnAh8G84SCnfX",
-      "signedAtIso": "2026-07-16T15:40:38.671Z",
+      "capturedAtSlot": "476704903",
+      "bankHash": "GqaptqrQcdRvGEYwq9ExESmKXNQT9PrWwK2CA4BaqByk",
+      "signedAtIso": "2026-07-16T15:50:42.628Z",
       "note": "ed25519 over gawpie-canonical-json-v1 of this file minus this block. Verify with: gawpie-verify snapshot <file>. Public key published in docs/keys/capture-key.pub.json."
     }
   },
@@ -1600,7 +1600,7 @@
         },
         "version": 1,
         "vaultBalanceLamports": {
-          "__bigint__": "68425153"
+          "__bigint__": "68225153"
         },
         "stateChannels": [
           {
@@ -1612,14 +1612,14 @@
             "schema": "G8wMWM79QKDGdJTAsJddwbyrQa9EN9Zfgoi7fJxvp2Gr",
             "classId": 1,
             "levels": [
+              680,
+              0,
+              504,
+              4,
+              0,
               500,
               0,
-              514,
-              14,
-              0,
-              500,
-              0,
-              65349
+              65339
             ],
             "caps": [
               720,
@@ -1686,7 +1686,7 @@
             "schema": "6Ae1QWySs1zg4RHvasji2nEA5MUXoHapZhCBvzHYh2UH",
             "classId": 10,
             "levels": [
-              141,
+              151,
               0,
               50,
               0,
@@ -1806,7 +1806,7 @@
         },
         "version": 1,
         "vaultBalanceLamports": {
-          "__bigint__": "213728536"
+          "__bigint__": "213528536"
         },
         "stateChannels": [
           {
@@ -1818,14 +1818,14 @@
             "schema": "G8wMWM79QKDGdJTAsJddwbyrQa9EN9Zfgoi7fJxvp2Gr",
             "classId": 1,
             "levels": [
-              600,
+              680,
               0,
-              464,
+              454,
               0,
               0,
               500,
               0,
-              65349
+              65339
             ],
             "caps": [
               720,
@@ -1880,7 +1880,7 @@
         },
         "version": 1,
         "vaultBalanceLamports": {
-          "__bigint__": "1095669362"
+          "__bigint__": "1095569362"
         },
         "stateChannels": [
           {
@@ -1892,14 +1892,14 @@
             "schema": "G8wMWM79QKDGdJTAsJddwbyrQa9EN9Zfgoi7fJxvp2Gr",
             "classId": 1,
             "levels": [
-              660,
+              480,
               0,
-              213,
+              204,
               0,
               0,
-              500,
+              700,
               0,
-              65348
+              65339
             ],
             "caps": [
               720,
@@ -1954,7 +1954,7 @@
         },
         "version": 1,
         "vaultBalanceLamports": {
-          "__bigint__": "1509749106"
+          "__bigint__": "1510539097"
         },
         "stateChannels": []
       },
@@ -2002,7 +2002,7 @@
               0,
               0,
               0,
-              17
+              7
             ],
             "caps": [
               1000,
@@ -2069,7 +2069,7 @@
             "schema": "6Ae1QWySs1zg4RHvasji2nEA5MUXoHapZhCBvzHYh2UH",
             "classId": 10,
             "levels": [
-              95,
+              101,
               0,
               90,
               0,
@@ -2143,7 +2143,7 @@
             "schema": "6Ae1QWySs1zg4RHvasji2nEA5MUXoHapZhCBvzHYh2UH",
             "classId": 10,
             "levels": [
-              110,
+              116,
               0,
               85,
               0,
@@ -2205,7 +2205,7 @@
         },
         "version": 1,
         "vaultBalanceLamports": {
-          "__bigint__": "595067892"
+          "__bigint__": "504982363"
         },
         "stateChannels": [
           {
@@ -2217,14 +2217,14 @@
             "schema": "G8wMWM79QKDGdJTAsJddwbyrQa9EN9Zfgoi7fJxvp2Gr",
             "classId": 1,
             "levels": [
-              720,
+              600,
               0,
-              64,
+              54,
               0,
               0,
               550,
               0,
-              65349
+              65339
             ],
             "caps": [
               720,
@@ -2291,7 +2291,7 @@
             "schema": "6Ae1QWySs1zg4RHvasji2nEA5MUXoHapZhCBvzHYh2UH",
             "classId": 10,
             "levels": [
-              89,
+              82,
               0,
               40,
               0,
@@ -2367,10 +2367,10 @@
           "__bigint__": "300000"
         },
         "lpFeesLamportsCum": {
-          "__bigint__": "180009"
+          "__bigint__": "360018"
         },
         "platformFeesLamportsCum": {
-          "__bigint__": "89991"
+          "__bigint__": "179982"
         },
         "frozen": false,
         "gateWorldId": {
@@ -2380,10 +2380,10 @@
           "__bigint__": "0"
         },
         "cachedSolReserveLamports": {
-          "__bigint__": "391407311"
+          "__bigint__": "481317320"
         },
         "cachedTokenReserve": {
-          "__bigint__": "232"
+          "__bigint__": "189"
         },
         "tokenDecimals": 0
       },
@@ -2492,10 +2492,10 @@
           "__bigint__": "0"
         },
         "cachedSolReserveLamports": {
-          "__bigint__": "1008875"
+          "__bigint__": "893828"
         },
         "cachedTokenReserve": {
-          "__bigint__": "202"
+          "__bigint__": "228"
         },
         "tokenDecimals": 0
       },
@@ -2535,7 +2535,7 @@
           "__bigint__": "8"
         },
         "entityRef": "Hu6KJjDH99apL48LFkXxoza545YmiZtr8pxQYt2xZ55H",
-        "soilLevel": 110,
+        "soilLevel": 116,
         "soilCap": 200
       },
       {
@@ -2544,7 +2544,7 @@
           "__bigint__": "8"
         },
         "entityRef": "DuoVZ6GxJbnoJxbU914FFLYGXtPZXDQt3WxkKGVhngew",
-        "soilLevel": 141,
+        "soilLevel": 151,
         "soilCap": 200
       },
       {
@@ -2553,7 +2553,7 @@
           "__bigint__": "8"
         },
         "entityRef": "EnC55cUEtKjR9mrJH83MCrBJpTbsSEsz3zyU9juhZzTR",
-        "soilLevel": 89,
+        "soilLevel": 82,
         "soilCap": 200
       },
       {
@@ -2562,11 +2562,1010 @@
           "__bigint__": "8"
         },
         "entityRef": "Hwg9yUsUQZigvW7WCJdMxBgZYMgQH6GgPQTwVeMP7Apn",
-        "soilLevel": 95,
+        "soilLevel": 101,
         "soilCap": 200
       }
     ],
     "events": [
+      {
+        "id": "snap-5y5dbM3dNomTwCwLHms1pc3Y1u6417aBPnzJsRCVZqCN1HE4Dqc7xkUsa2ytn3stt1qtvmSJFRWaCBMQLNLdDgfs-21",
+        "worldId": {
+          "__bigint__": "8"
+        },
+        "entityId": {
+          "__bigint__": "0"
+        },
+        "kind": 6,
+        "kindLabel": "Swapped",
+        "slot": {
+          "__bigint__": "476703713"
+        },
+        "a": {
+          "__bigint__": "26"
+        },
+        "b": "Bfmk58fvhNuNKg6PPiK6p1CBfUi6dHKhbAEVXiyBEdjJ",
+        "c": "4diLrE9shTTZ1Zhx57zewi9Z1q7S32wCcXp5WbjWd562",
+        "d": {
+          "__bigint__": "115047"
+        },
+        "version": 3,
+        "timestamp": 1784216603000,
+        "programId": "EjsNMFeKy6MfR2ARsJVgt9yNYdgzXEN6BjUsbw9jUJ7",
+        "signature": "5y5dbM3dNomTwCwLHms1pc3Y1u6417aBPnzJsRCVZqCN1HE4Dqc7xkUsa2ytn3stt1qtvmSJFRWaCBMQLNLdDgfs",
+        "logIndex": 21
+      },
+      {
+        "id": "snap-3gt43RHo7EMZxgprfNXeKbCvFjqnodKrChcqhTXWeew1gUTD6rMiDY6UtoJiNj9n5iLcvwnoKgy21YGVQu1YXuxV-21",
+        "worldId": {
+          "__bigint__": "8"
+        },
+        "entityId": {
+          "__bigint__": "0"
+        },
+        "kind": 6,
+        "kindLabel": "Swapped",
+        "slot": {
+          "__bigint__": "476700836"
+        },
+        "a": {
+          "__bigint__": "4"
+        },
+        "b": "2JQNLBMunQA8ArH5uePki7jwjG5bNDYAZuE8TpyaVjX9",
+        "c": "4diLrE9shTTZ1Zhx57zewi9Z1q7S32wCcXp5WbjWd562",
+        "d": {
+          "__bigint__": "5172612"
+        },
+        "version": 3,
+        "timestamp": 1784215549000,
+        "programId": "EjsNMFeKy6MfR2ARsJVgt9yNYdgzXEN6BjUsbw9jUJ7",
+        "signature": "3gt43RHo7EMZxgprfNXeKbCvFjqnodKrChcqhTXWeew1gUTD6rMiDY6UtoJiNj9n5iLcvwnoKgy21YGVQu1YXuxV",
+        "logIndex": 21
+      },
+      {
+        "id": "snap-656v5CYjLU3iyHUXPnpvVyC46Q1Fd96pKdPFZq6uyU32RrUC5TTHX7qBAi7cQn2Ya6JbxqCpxb4cUaszZ6Xz2ncN-21",
+        "worldId": {
+          "__bigint__": "8"
+        },
+        "entityId": {
+          "__bigint__": "0"
+        },
+        "kind": 6,
+        "kindLabel": "Swapped",
+        "slot": {
+          "__bigint__": "476700559"
+        },
+        "a": {
+          "__bigint__": "10"
+        },
+        "b": "Bfmk58fvhNuNKg6PPiK6p1CBfUi6dHKhbAEVXiyBEdjJ",
+        "c": "4diLrE9shTTZ1Zhx57zewi9Z1q7S32wCcXp5WbjWd562",
+        "d": {
+          "__bigint__": "52545"
+        },
+        "version": 3,
+        "timestamp": 1784215448000,
+        "programId": "EjsNMFeKy6MfR2ARsJVgt9yNYdgzXEN6BjUsbw9jUJ7",
+        "signature": "656v5CYjLU3iyHUXPnpvVyC46Q1Fd96pKdPFZq6uyU32RrUC5TTHX7qBAi7cQn2Ya6JbxqCpxb4cUaszZ6Xz2ncN",
+        "logIndex": 21
+      },
+      {
+        "id": "snap-3ebRAuUetRfbC52dhy3uAfGi24881tUGZArn3eVNjPUSXs8w1RGDT3Jkx3R7ZxMWpQUKdC5riXwAMHPzyu4gCpe5-21",
+        "worldId": {
+          "__bigint__": "8"
+        },
+        "entityId": {
+          "__bigint__": "0"
+        },
+        "kind": 6,
+        "kindLabel": "Swapped",
+        "slot": {
+          "__bigint__": "476700326"
+        },
+        "a": {
+          "__bigint__": "4"
+        },
+        "b": "2JQNLBMunQA8ArH5uePki7jwjG5bNDYAZuE8TpyaVjX9",
+        "c": "4diLrE9shTTZ1Zhx57zewi9Z1q7S32wCcXp5WbjWd562",
+        "d": {
+          "__bigint__": "5501032"
+        },
+        "version": 3,
+        "timestamp": 1784215363000,
+        "programId": "EjsNMFeKy6MfR2ARsJVgt9yNYdgzXEN6BjUsbw9jUJ7",
+        "signature": "3ebRAuUetRfbC52dhy3uAfGi24881tUGZArn3eVNjPUSXs8w1RGDT3Jkx3R7ZxMWpQUKdC5riXwAMHPzyu4gCpe5",
+        "logIndex": 21
+      },
+      {
+        "id": "snap-S68tpzc8tsFNETyxUQrLbbU6B75rnGDUQ4hvSY1QLdGtW32kbUDTqmZr4XvXKpeZdTLNWyM8Z8Zs7SyCHTbWqNS-21",
+        "worldId": {
+          "__bigint__": "8"
+        },
+        "entityId": {
+          "__bigint__": "0"
+        },
+        "kind": 6,
+        "kindLabel": "Swapped",
+        "slot": {
+          "__bigint__": "476700051"
+        },
+        "a": {
+          "__bigint__": "4"
+        },
+        "b": "2JQNLBMunQA8ArH5uePki7jwjG5bNDYAZuE8TpyaVjX9",
+        "c": "4diLrE9shTTZ1Zhx57zewi9Z1q7S32wCcXp5WbjWd562",
+        "d": {
+          "__bigint__": "5861755"
+        },
+        "version": 3,
+        "timestamp": 1784215261000,
+        "programId": "EjsNMFeKy6MfR2ARsJVgt9yNYdgzXEN6BjUsbw9jUJ7",
+        "signature": "S68tpzc8tsFNETyxUQrLbbU6B75rnGDUQ4hvSY1QLdGtW32kbUDTqmZr4XvXKpeZdTLNWyM8Z8Zs7SyCHTbWqNS",
+        "logIndex": 21
+      },
+      {
+        "id": "snap-iaBoAy988YbbwpUfzuDHhL3piG2gDgWNsGjqZjiB4a1pEFH9DFNm7oQgEivn3m6RDcaZiivq7kGNtHooKCGJ3Sa-21",
+        "worldId": {
+          "__bigint__": "8"
+        },
+        "entityId": {
+          "__bigint__": "0"
+        },
+        "kind": 6,
+        "kindLabel": "Swapped",
+        "slot": {
+          "__bigint__": "476699106"
+        },
+        "a": {
+          "__bigint__": "6"
+        },
+        "b": "Bfmk58fvhNuNKg6PPiK6p1CBfUi6dHKhbAEVXiyBEdjJ",
+        "c": "4diLrE9shTTZ1Zhx57zewi9Z1q7S32wCcXp5WbjWd562",
+        "d": {
+          "__bigint__": "34239"
+        },
+        "version": 3,
+        "timestamp": 1784214915000,
+        "programId": "EjsNMFeKy6MfR2ARsJVgt9yNYdgzXEN6BjUsbw9jUJ7",
+        "signature": "iaBoAy988YbbwpUfzuDHhL3piG2gDgWNsGjqZjiB4a1pEFH9DFNm7oQgEivn3m6RDcaZiivq7kGNtHooKCGJ3Sa",
+        "logIndex": 21
+      },
+      {
+        "id": "snap-5eWQnj8JHdp9GPzG4EUYxaaCNdx6AwKonsRVKdk3JYsAcmbgziZzhv5Q18Bwyvp8fJjhivJQC14ipWsjSXmc4JVa-24",
+        "worldId": {
+          "__bigint__": "8"
+        },
+        "entityId": {
+          "__bigint__": "37007"
+        },
+        "kind": 1,
+        "kindLabel": "ValueMoved",
+        "slot": {
+          "__bigint__": "476698416"
+        },
+        "a": {
+          "__bigint__": "23326"
+        },
+        "b": "6ox6rj8CLp5QBoLQvLAgLoJi1iDv8dc66DsAKFUkP9N4",
+        "c": "11111111111111111111111111111111",
+        "d": {
+          "__bigint__": "0"
+        },
+        "version": 3,
+        "timestamp": 1784214662000,
+        "programId": "EjsNMFeKy6MfR2ARsJVgt9yNYdgzXEN6BjUsbw9jUJ7",
+        "signature": "5eWQnj8JHdp9GPzG4EUYxaaCNdx6AwKonsRVKdk3JYsAcmbgziZzhv5Q18Bwyvp8fJjhivJQC14ipWsjSXmc4JVa",
+        "logIndex": 24
+      },
+      {
+        "id": "snap-5eWQnj8JHdp9GPzG4EUYxaaCNdx6AwKonsRVKdk3JYsAcmbgziZzhv5Q18Bwyvp8fJjhivJQC14ipWsjSXmc4JVa-19",
+        "worldId": {
+          "__bigint__": "8"
+        },
+        "entityId": {
+          "__bigint__": "37001"
+        },
+        "kind": 3,
+        "kindLabel": "EscrowReleased",
+        "slot": {
+          "__bigint__": "476698416"
+        },
+        "a": {
+          "__bigint__": "4"
+        },
+        "b": "GZPY7XWgGcF6FJy6LbeTyoF49BYR48cLySXSJGuQd1WG",
+        "c": "11111111111111111111111111111111",
+        "d": {
+          "__bigint__": "0"
+        },
+        "version": 3,
+        "timestamp": 1784214662000,
+        "programId": "EjsNMFeKy6MfR2ARsJVgt9yNYdgzXEN6BjUsbw9jUJ7",
+        "signature": "5eWQnj8JHdp9GPzG4EUYxaaCNdx6AwKonsRVKdk3JYsAcmbgziZzhv5Q18Bwyvp8fJjhivJQC14ipWsjSXmc4JVa",
+        "logIndex": 19
+      },
+      {
+        "id": "snap-25Jebwwtj4k6WrG4TaNTCxxtsz1f3T7t1AzMCBzkzvyvyWy1J6TNz3eW9Ef8FgcMSXweKfEieP647p1ZsMBv3ZH5-21",
+        "worldId": {
+          "__bigint__": "8"
+        },
+        "entityId": {
+          "__bigint__": "0"
+        },
+        "kind": 6,
+        "kindLabel": "Swapped",
+        "slot": {
+          "__bigint__": "476697467"
+        },
+        "a": {
+          "__bigint__": "39"
+        },
+        "b": "HDcKQELGo3C27Lm9zmHpyJPvrZuqdHjYdytCceatBhUQ",
+        "c": "4diLrE9shTTZ1Zhx57zewi9Z1q7S32wCcXp5WbjWd562",
+        "d": {
+          "__bigint__": "79092669"
+        },
+        "version": 3,
+        "timestamp": 1784214314000,
+        "programId": "EjsNMFeKy6MfR2ARsJVgt9yNYdgzXEN6BjUsbw9jUJ7",
+        "signature": "25Jebwwtj4k6WrG4TaNTCxxtsz1f3T7t1AzMCBzkzvyvyWy1J6TNz3eW9Ef8FgcMSXweKfEieP647p1ZsMBv3ZH5",
+        "logIndex": 21
+      },
+      {
+        "id": "snap-5UUSVa5Uv3YhQeTshumckNGLDxUS1cxbT5VwJ5pCqn7YJncRqzteGphC8YvPGcoCEv6v2RtFXctYKoFGQjTG77PR-21",
+        "worldId": {
+          "__bigint__": "8"
+        },
+        "entityId": {
+          "__bigint__": "0"
+        },
+        "kind": 6,
+        "kindLabel": "Swapped",
+        "slot": {
+          "__bigint__": "476697010"
+        },
+        "a": {
+          "__bigint__": "4"
+        },
+        "b": "Bfmk58fvhNuNKg6PPiK6p1CBfUi6dHKhbAEVXiyBEdjJ",
+        "c": "4diLrE9shTTZ1Zhx57zewi9Z1q7S32wCcXp5WbjWd562",
+        "d": {
+          "__bigint__": "24080"
+        },
+        "version": 3,
+        "timestamp": 1784214147000,
+        "programId": "EjsNMFeKy6MfR2ARsJVgt9yNYdgzXEN6BjUsbw9jUJ7",
+        "signature": "5UUSVa5Uv3YhQeTshumckNGLDxUS1cxbT5VwJ5pCqn7YJncRqzteGphC8YvPGcoCEv6v2RtFXctYKoFGQjTG77PR",
+        "logIndex": 21
+      },
+      {
+        "id": "snap-42Y2C4R3oUtCUAzkJdArrdFzBzx1Bk3meib3XzZ38Gmg9r1rDfkagcz7mRHAWaLbusWU7KuxVupUXZyYikAtQed9-21",
+        "worldId": {
+          "__bigint__": "8"
+        },
+        "entityId": {
+          "__bigint__": "0"
+        },
+        "kind": 6,
+        "kindLabel": "Swapped",
+        "slot": {
+          "__bigint__": "476696998"
+        },
+        "a": {
+          "__bigint__": "7"
+        },
+        "b": "Bfmk58fvhNuNKg6PPiK6p1CBfUi6dHKhbAEVXiyBEdjJ",
+        "c": "4diLrE9shTTZ1Zhx57zewi9Z1q7S32wCcXp5WbjWd562",
+        "d": {
+          "__bigint__": "44789"
+        },
+        "version": 3,
+        "timestamp": 1784214142000,
+        "programId": "EjsNMFeKy6MfR2ARsJVgt9yNYdgzXEN6BjUsbw9jUJ7",
+        "signature": "42Y2C4R3oUtCUAzkJdArrdFzBzx1Bk3meib3XzZ38Gmg9r1rDfkagcz7mRHAWaLbusWU7KuxVupUXZyYikAtQed9",
+        "logIndex": 21
+      },
+      {
+        "id": "snap-5b7sD55X8yMRKTW9DAQchkjsPcBsP8tEHEnpxC3hXphCz138tyc6u7hCDY74JkAi4GbtrfM8NavKVhsQqYaY3g4x-24",
+        "worldId": {
+          "__bigint__": "8"
+        },
+        "entityId": {
+          "__bigint__": "37007"
+        },
+        "kind": 1,
+        "kindLabel": "ValueMoved",
+        "slot": {
+          "__bigint__": "476696892"
+        },
+        "a": {
+          "__bigint__": "26351"
+        },
+        "b": "6ox6rj8CLp5QBoLQvLAgLoJi1iDv8dc66DsAKFUkP9N4",
+        "c": "11111111111111111111111111111111",
+        "d": {
+          "__bigint__": "0"
+        },
+        "version": 3,
+        "timestamp": 1784214104000,
+        "programId": "EjsNMFeKy6MfR2ARsJVgt9yNYdgzXEN6BjUsbw9jUJ7",
+        "signature": "5b7sD55X8yMRKTW9DAQchkjsPcBsP8tEHEnpxC3hXphCz138tyc6u7hCDY74JkAi4GbtrfM8NavKVhsQqYaY3g4x",
+        "logIndex": 24
+      },
+      {
+        "id": "snap-5b7sD55X8yMRKTW9DAQchkjsPcBsP8tEHEnpxC3hXphCz138tyc6u7hCDY74JkAi4GbtrfM8NavKVhsQqYaY3g4x-19",
+        "worldId": {
+          "__bigint__": "8"
+        },
+        "entityId": {
+          "__bigint__": "37001"
+        },
+        "kind": 3,
+        "kindLabel": "EscrowReleased",
+        "slot": {
+          "__bigint__": "476696892"
+        },
+        "a": {
+          "__bigint__": "4"
+        },
+        "b": "GZPY7XWgGcF6FJy6LbeTyoF49BYR48cLySXSJGuQd1WG",
+        "c": "11111111111111111111111111111111",
+        "d": {
+          "__bigint__": "0"
+        },
+        "version": 3,
+        "timestamp": 1784214104000,
+        "programId": "EjsNMFeKy6MfR2ARsJVgt9yNYdgzXEN6BjUsbw9jUJ7",
+        "signature": "5b7sD55X8yMRKTW9DAQchkjsPcBsP8tEHEnpxC3hXphCz138tyc6u7hCDY74JkAi4GbtrfM8NavKVhsQqYaY3g4x",
+        "logIndex": 19
+      },
+      {
+        "id": "snap-5GSXp8jTqBUitWdfgKrZtUHPpuNR7uxEpLAm1kc9KMDfBkH3ur8n5YEiLD6By7mYE3qn7bcnP3iNgQkCnavgipWV-24",
+        "worldId": {
+          "__bigint__": "8"
+        },
+        "entityId": {
+          "__bigint__": "37007"
+        },
+        "kind": 1,
+        "kindLabel": "ValueMoved",
+        "slot": {
+          "__bigint__": "476696883"
+        },
+        "a": {
+          "__bigint__": "26351"
+        },
+        "b": "6ox6rj8CLp5QBoLQvLAgLoJi1iDv8dc66DsAKFUkP9N4",
+        "c": "11111111111111111111111111111111",
+        "d": {
+          "__bigint__": "0"
+        },
+        "version": 3,
+        "timestamp": 1784214100000,
+        "programId": "EjsNMFeKy6MfR2ARsJVgt9yNYdgzXEN6BjUsbw9jUJ7",
+        "signature": "5GSXp8jTqBUitWdfgKrZtUHPpuNR7uxEpLAm1kc9KMDfBkH3ur8n5YEiLD6By7mYE3qn7bcnP3iNgQkCnavgipWV",
+        "logIndex": 24
+      },
+      {
+        "id": "snap-5GSXp8jTqBUitWdfgKrZtUHPpuNR7uxEpLAm1kc9KMDfBkH3ur8n5YEiLD6By7mYE3qn7bcnP3iNgQkCnavgipWV-19",
+        "worldId": {
+          "__bigint__": "8"
+        },
+        "entityId": {
+          "__bigint__": "37001"
+        },
+        "kind": 3,
+        "kindLabel": "EscrowReleased",
+        "slot": {
+          "__bigint__": "476696883"
+        },
+        "a": {
+          "__bigint__": "4"
+        },
+        "b": "GZPY7XWgGcF6FJy6LbeTyoF49BYR48cLySXSJGuQd1WG",
+        "c": "11111111111111111111111111111111",
+        "d": {
+          "__bigint__": "0"
+        },
+        "version": 3,
+        "timestamp": 1784214100000,
+        "programId": "EjsNMFeKy6MfR2ARsJVgt9yNYdgzXEN6BjUsbw9jUJ7",
+        "signature": "5GSXp8jTqBUitWdfgKrZtUHPpuNR7uxEpLAm1kc9KMDfBkH3ur8n5YEiLD6By7mYE3qn7bcnP3iNgQkCnavgipWV",
+        "logIndex": 19
+      },
+      {
+        "id": "snap-3cytZfCDmuMR1RxYYAsDFognJZpUdXjkYkxT4VA1cuaJrqq2tZUYzVqv715apgn5Ggs6JMptUUUgXpgJD7ZfYsrs-21",
+        "worldId": {
+          "__bigint__": "8"
+        },
+        "entityId": {
+          "__bigint__": "0"
+        },
+        "kind": 6,
+        "kindLabel": "Swapped",
+        "slot": {
+          "__bigint__": "476694591"
+        },
+        "a": {
+          "__bigint__": "4"
+        },
+        "b": "2JQNLBMunQA8ArH5uePki7jwjG5bNDYAZuE8TpyaVjX9",
+        "c": "7fcQrszvJUqqHSesW4rUNX6udPg9B1iK1YFLVjZ8Eefe",
+        "d": {
+          "__bigint__": "6259162"
+        },
+        "version": 3,
+        "timestamp": 1784213260000,
+        "programId": "EjsNMFeKy6MfR2ARsJVgt9yNYdgzXEN6BjUsbw9jUJ7",
+        "signature": "3cytZfCDmuMR1RxYYAsDFognJZpUdXjkYkxT4VA1cuaJrqq2tZUYzVqv715apgn5Ggs6JMptUUUgXpgJD7ZfYsrs",
+        "logIndex": 21
+      },
+      {
+        "id": "snap-5MWhBNSR3uYMQVpCjXWPfxGfrYtKnhFw2iLhxnMtroCx2e1a7mzxvmyxs1XqzyQK3oKp6LXgLL9PmXXkaEZjovv5-21",
+        "worldId": {
+          "__bigint__": "8"
+        },
+        "entityId": {
+          "__bigint__": "0"
+        },
+        "kind": 6,
+        "kindLabel": "Swapped",
+        "slot": {
+          "__bigint__": "476694586"
+        },
+        "a": {
+          "__bigint__": "4"
+        },
+        "b": "2JQNLBMunQA8ArH5uePki7jwjG5bNDYAZuE8TpyaVjX9",
+        "c": "7fcQrszvJUqqHSesW4rUNX6udPg9B1iK1YFLVjZ8Eefe",
+        "d": {
+          "__bigint__": "6698402"
+        },
+        "version": 3,
+        "timestamp": 1784213258000,
+        "programId": "EjsNMFeKy6MfR2ARsJVgt9yNYdgzXEN6BjUsbw9jUJ7",
+        "signature": "5MWhBNSR3uYMQVpCjXWPfxGfrYtKnhFw2iLhxnMtroCx2e1a7mzxvmyxs1XqzyQK3oKp6LXgLL9PmXXkaEZjovv5",
+        "logIndex": 21
+      },
+      {
+        "id": "snap-4AKoBjGNVtvSv7EVgUiKE84jikMBNT1K8vgv48n3EUgkGRhkTWQpReRKZBSdpwJK9KKw1ENjUr1UEjifhgmLCRj2-21",
+        "worldId": {
+          "__bigint__": "8"
+        },
+        "entityId": {
+          "__bigint__": "0"
+        },
+        "kind": 6,
+        "kindLabel": "Swapped",
+        "slot": {
+          "__bigint__": "476694472"
+        },
+        "a": {
+          "__bigint__": "3"
+        },
+        "b": "Bfmk58fvhNuNKg6PPiK6p1CBfUi6dHKhbAEVXiyBEdjJ",
+        "c": "4diLrE9shTTZ1Zhx57zewi9Z1q7S32wCcXp5WbjWd562",
+        "d": {
+          "__bigint__": "20311"
+        },
+        "version": 3,
+        "timestamp": 1784213216000,
+        "programId": "EjsNMFeKy6MfR2ARsJVgt9yNYdgzXEN6BjUsbw9jUJ7",
+        "signature": "4AKoBjGNVtvSv7EVgUiKE84jikMBNT1K8vgv48n3EUgkGRhkTWQpReRKZBSdpwJK9KKw1ENjUr1UEjifhgmLCRj2",
+        "logIndex": 21
+      },
+      {
+        "id": "snap-3nhNpfWtttyhft1W6xAqTCCn2HEhq9rRTpCeL8jeLx2oAhoktGKemu3WYE7mq7uzCJYmCKSazotpAKF4L9HKxkyG-21",
+        "worldId": {
+          "__bigint__": "8"
+        },
+        "entityId": {
+          "__bigint__": "0"
+        },
+        "kind": 6,
+        "kindLabel": "Swapped",
+        "slot": {
+          "__bigint__": "476694469"
+        },
+        "a": {
+          "__bigint__": "3"
+        },
+        "b": "Bfmk58fvhNuNKg6PPiK6p1CBfUi6dHKhbAEVXiyBEdjJ",
+        "c": "4diLrE9shTTZ1Zhx57zewi9Z1q7S32wCcXp5WbjWd562",
+        "d": {
+          "__bigint__": "21032"
+        },
+        "version": 3,
+        "timestamp": 1784213215000,
+        "programId": "EjsNMFeKy6MfR2ARsJVgt9yNYdgzXEN6BjUsbw9jUJ7",
+        "signature": "3nhNpfWtttyhft1W6xAqTCCn2HEhq9rRTpCeL8jeLx2oAhoktGKemu3WYE7mq7uzCJYmCKSazotpAKF4L9HKxkyG",
+        "logIndex": 21
+      },
+      {
+        "id": "snap-3W9hrzj6dagwhsztstEYkFNxiyd8688YPDz7uGn7WxmgqJSWLmwj1PZWRmAWfFG56WySBhpdnirD2LfKWrbBshqU-21",
+        "worldId": {
+          "__bigint__": "8"
+        },
+        "entityId": {
+          "__bigint__": "0"
+        },
+        "kind": 6,
+        "kindLabel": "Swapped",
+        "slot": {
+          "__bigint__": "476694316"
+        },
+        "a": {
+          "__bigint__": "4"
+        },
+        "b": "2JQNLBMunQA8ArH5uePki7jwjG5bNDYAZuE8TpyaVjX9",
+        "c": "7fcQrszvJUqqHSesW4rUNX6udPg9B1iK1YFLVjZ8Eefe",
+        "d": {
+          "__bigint__": "7185558"
+        },
+        "version": 3,
+        "timestamp": 1784213159000,
+        "programId": "EjsNMFeKy6MfR2ARsJVgt9yNYdgzXEN6BjUsbw9jUJ7",
+        "signature": "3W9hrzj6dagwhsztstEYkFNxiyd8688YPDz7uGn7WxmgqJSWLmwj1PZWRmAWfFG56WySBhpdnirD2LfKWrbBshqU",
+        "logIndex": 21
+      },
+      {
+        "id": "snap-29r48pnNnN3jrCrCCbrArAgsShfG6pBnpnmwjT33BS7xE1rKU28VqDCTACXAxFRLZoxmPrdnTGhRLxVLN8McTvjN-21",
+        "worldId": {
+          "__bigint__": "8"
+        },
+        "entityId": {
+          "__bigint__": "0"
+        },
+        "kind": 6,
+        "kindLabel": "Swapped",
+        "slot": {
+          "__bigint__": "476694276"
+        },
+        "a": {
+          "__bigint__": "4"
+        },
+        "b": "2JQNLBMunQA8ArH5uePki7jwjG5bNDYAZuE8TpyaVjX9",
+        "c": "7fcQrszvJUqqHSesW4rUNX6udPg9B1iK1YFLVjZ8Eefe",
+        "d": {
+          "__bigint__": "7727865"
+        },
+        "version": 3,
+        "timestamp": 1784213145000,
+        "programId": "EjsNMFeKy6MfR2ARsJVgt9yNYdgzXEN6BjUsbw9jUJ7",
+        "signature": "29r48pnNnN3jrCrCCbrArAgsShfG6pBnpnmwjT33BS7xE1rKU28VqDCTACXAxFRLZoxmPrdnTGhRLxVLN8McTvjN",
+        "logIndex": 21
+      },
+      {
+        "id": "snap-2EmhhSh2ZmV276L6SmhNsddnrh5UDLA4ma6goNwB57CtEV6KJnEFRQyaRFJe5qj7QTkE1CYzoNg476yyUcHCok4f-21",
+        "worldId": {
+          "__bigint__": "8"
+        },
+        "entityId": {
+          "__bigint__": "0"
+        },
+        "kind": 6,
+        "kindLabel": "Swapped",
+        "slot": {
+          "__bigint__": "476693804"
+        },
+        "a": {
+          "__bigint__": "4"
+        },
+        "b": "2JQNLBMunQA8ArH5uePki7jwjG5bNDYAZuE8TpyaVjX9",
+        "c": "7fcQrszvJUqqHSesW4rUNX6udPg9B1iK1YFLVjZ8Eefe",
+        "d": {
+          "__bigint__": "8333972"
+        },
+        "version": 3,
+        "timestamp": 1784212972000,
+        "programId": "EjsNMFeKy6MfR2ARsJVgt9yNYdgzXEN6BjUsbw9jUJ7",
+        "signature": "2EmhhSh2ZmV276L6SmhNsddnrh5UDLA4ma6goNwB57CtEV6KJnEFRQyaRFJe5qj7QTkE1CYzoNg476yyUcHCok4f",
+        "logIndex": 21
+      },
+      {
+        "id": "snap-4Ao1TTMGNnX6ruRh2biLCAiz2Wq9GiduNjWZ8VHHuFfAy4aVzhmv3QMXYzcwBpFN6gVL5oz8CGygSnwD9ZkwMrpb-21",
+        "worldId": {
+          "__bigint__": "8"
+        },
+        "entityId": {
+          "__bigint__": "0"
+        },
+        "kind": 6,
+        "kindLabel": "Swapped",
+        "slot": {
+          "__bigint__": "476693687"
+        },
+        "a": {
+          "__bigint__": "4"
+        },
+        "b": "2JQNLBMunQA8ArH5uePki7jwjG5bNDYAZuE8TpyaVjX9",
+        "c": "4diLrE9shTTZ1Zhx57zewi9Z1q7S32wCcXp5WbjWd562",
+        "d": {
+          "__bigint__": "9014296"
+        },
+        "version": 3,
+        "timestamp": 1784212929000,
+        "programId": "EjsNMFeKy6MfR2ARsJVgt9yNYdgzXEN6BjUsbw9jUJ7",
+        "signature": "4Ao1TTMGNnX6ruRh2biLCAiz2Wq9GiduNjWZ8VHHuFfAy4aVzhmv3QMXYzcwBpFN6gVL5oz8CGygSnwD9ZkwMrpb",
+        "logIndex": 21
+      },
+      {
+        "id": "snap-4uvmFvr9cZsyuEmFnSwJqKDafPNEjTc4TbQhGuVpJWhi7XEcjHrDfrFgcbHQpDTAfVqAWVW5pniMk8cGB8dp4Cm-21",
+        "worldId": {
+          "__bigint__": "8"
+        },
+        "entityId": {
+          "__bigint__": "0"
+        },
+        "kind": 6,
+        "kindLabel": "Swapped",
+        "slot": {
+          "__bigint__": "476693382"
+        },
+        "a": {
+          "__bigint__": "8022"
+        },
+        "b": "4kow7CtBctovbSugy52VeSdFAas4D2QuibjMvSry72n9",
+        "c": "4diLrE9shTTZ1Zhx57zewi9Z1q7S32wCcXp5WbjWd562",
+        "d": {
+          "__bigint__": "6834836"
+        },
+        "version": 3,
+        "timestamp": 1784212818000,
+        "programId": "EjsNMFeKy6MfR2ARsJVgt9yNYdgzXEN6BjUsbw9jUJ7",
+        "signature": "4uvmFvr9cZsyuEmFnSwJqKDafPNEjTc4TbQhGuVpJWhi7XEcjHrDfrFgcbHQpDTAfVqAWVW5pniMk8cGB8dp4Cm",
+        "logIndex": 21
+      },
+      {
+        "id": "snap-4vjRSVprrwPwMxCHtxy3A3w9HPykKvU9GeF2mSbX5gYhamo2jKCPjM5FfQaNVhoj55kTRwQZyZnmf89i3y1wLa5k-21",
+        "worldId": {
+          "__bigint__": "8"
+        },
+        "entityId": {
+          "__bigint__": "0"
+        },
+        "kind": 6,
+        "kindLabel": "Swapped",
+        "slot": {
+          "__bigint__": "476693205"
+        },
+        "a": {
+          "__bigint__": "4"
+        },
+        "b": "2JQNLBMunQA8ArH5uePki7jwjG5bNDYAZuE8TpyaVjX9",
+        "c": "7fcQrszvJUqqHSesW4rUNX6udPg9B1iK1YFLVjZ8Eefe",
+        "d": {
+          "__bigint__": "9781470"
+        },
+        "version": 3,
+        "timestamp": 1784212753000,
+        "programId": "EjsNMFeKy6MfR2ARsJVgt9yNYdgzXEN6BjUsbw9jUJ7",
+        "signature": "4vjRSVprrwPwMxCHtxy3A3w9HPykKvU9GeF2mSbX5gYhamo2jKCPjM5FfQaNVhoj55kTRwQZyZnmf89i3y1wLa5k",
+        "logIndex": 21
+      },
+      {
+        "id": "snap-49wW9dKLLZ6uVdqjxW9gkBP4Hh66LWtL5uS8DWs59W1LijRK78fe79vLGQ8k4WXaNp1LtFWC8Fnx8ERnpyugdBaQ-21",
+        "worldId": {
+          "__bigint__": "8"
+        },
+        "entityId": {
+          "__bigint__": "0"
+        },
+        "kind": 6,
+        "kindLabel": "Swapped",
+        "slot": {
+          "__bigint__": "476692367"
+        },
+        "a": {
+          "__bigint__": "4"
+        },
+        "b": "2JQNLBMunQA8ArH5uePki7jwjG5bNDYAZuE8TpyaVjX9",
+        "c": "7fcQrszvJUqqHSesW4rUNX6udPg9B1iK1YFLVjZ8Eefe",
+        "d": {
+          "__bigint__": "10650934"
+        },
+        "version": 3,
+        "timestamp": 1784212446000,
+        "programId": "EjsNMFeKy6MfR2ARsJVgt9yNYdgzXEN6BjUsbw9jUJ7",
+        "signature": "49wW9dKLLZ6uVdqjxW9gkBP4Hh66LWtL5uS8DWs59W1LijRK78fe79vLGQ8k4WXaNp1LtFWC8Fnx8ERnpyugdBaQ",
+        "logIndex": 21
+      },
+      {
+        "id": "snap-2VzFDtDpVX93XEDp7g6uViyB9C8KYdnrGqWDqzPmf7sDnLkmodrkHYTGi3mhYV3wp7NEgiC8asBmkd11fPthmwS6-21",
+        "worldId": {
+          "__bigint__": "8"
+        },
+        "entityId": {
+          "__bigint__": "0"
+        },
+        "kind": 6,
+        "kindLabel": "Swapped",
+        "slot": {
+          "__bigint__": "476692248"
+        },
+        "a": {
+          "__bigint__": "3"
+        },
+        "b": "Bfmk58fvhNuNKg6PPiK6p1CBfUi6dHKhbAEVXiyBEdjJ",
+        "c": "4diLrE9shTTZ1Zhx57zewi9Z1q7S32wCcXp5WbjWd562",
+        "d": {
+          "__bigint__": "21792"
+        },
+        "version": 3,
+        "timestamp": 1784212402000,
+        "programId": "EjsNMFeKy6MfR2ARsJVgt9yNYdgzXEN6BjUsbw9jUJ7",
+        "signature": "2VzFDtDpVX93XEDp7g6uViyB9C8KYdnrGqWDqzPmf7sDnLkmodrkHYTGi3mhYV3wp7NEgiC8asBmkd11fPthmwS6",
+        "logIndex": 21
+      },
+      {
+        "id": "snap-5JqdpRFiUKBqpFHyXA8zLJsLKWTC5KWFs7B7M9qSWxuGfquPQhR1yqZog1n5n18H4BuRT685bNvvr6QCcvpB7M3Q-21",
+        "worldId": {
+          "__bigint__": "8"
+        },
+        "entityId": {
+          "__bigint__": "0"
+        },
+        "kind": 6,
+        "kindLabel": "Swapped",
+        "slot": {
+          "__bigint__": "476691979"
+        },
+        "a": {
+          "__bigint__": "4"
+        },
+        "b": "Bfmk58fvhNuNKg6PPiK6p1CBfUi6dHKhbAEVXiyBEdjJ",
+        "c": "FFKcADNwPArvUQVvmeyqzrRrzNDpB31H3K5uxSgUbGDn",
+        "d": {
+          "__bigint__": "30312"
+        },
+        "version": 3,
+        "timestamp": 1784212304000,
+        "programId": "EjsNMFeKy6MfR2ARsJVgt9yNYdgzXEN6BjUsbw9jUJ7",
+        "signature": "5JqdpRFiUKBqpFHyXA8zLJsLKWTC5KWFs7B7M9qSWxuGfquPQhR1yqZog1n5n18H4BuRT685bNvvr6QCcvpB7M3Q",
+        "logIndex": 21
+      },
+      {
+        "id": "snap-3gsgmLLYosxyjBCAXpb9uQ7qcr8FogRTszn6tupavj4F7Eqzak1nkQQ4fMRJ99ixe7tRkfdaotPwXZZgDDMhUKi5-24",
+        "worldId": {
+          "__bigint__": "8"
+        },
+        "entityId": {
+          "__bigint__": "37007"
+        },
+        "kind": 1,
+        "kindLabel": "ValueMoved",
+        "slot": {
+          "__bigint__": "476691725"
+        },
+        "a": {
+          "__bigint__": "50438505"
+        },
+        "b": "6ox6rj8CLp5QBoLQvLAgLoJi1iDv8dc66DsAKFUkP9N4",
+        "c": "11111111111111111111111111111111",
+        "d": {
+          "__bigint__": "0"
+        },
+        "version": 3,
+        "timestamp": 1784212212000,
+        "programId": "EjsNMFeKy6MfR2ARsJVgt9yNYdgzXEN6BjUsbw9jUJ7",
+        "signature": "3gsgmLLYosxyjBCAXpb9uQ7qcr8FogRTszn6tupavj4F7Eqzak1nkQQ4fMRJ99ixe7tRkfdaotPwXZZgDDMhUKi5",
+        "logIndex": 24
+      },
+      {
+        "id": "snap-3gsgmLLYosxyjBCAXpb9uQ7qcr8FogRTszn6tupavj4F7Eqzak1nkQQ4fMRJ99ixe7tRkfdaotPwXZZgDDMhUKi5-19",
+        "worldId": {
+          "__bigint__": "8"
+        },
+        "entityId": {
+          "__bigint__": "37001"
+        },
+        "kind": 3,
+        "kindLabel": "EscrowReleased",
+        "slot": {
+          "__bigint__": "476691725"
+        },
+        "a": {
+          "__bigint__": "4"
+        },
+        "b": "GZPY7XWgGcF6FJy6LbeTyoF49BYR48cLySXSJGuQd1WG",
+        "c": "11111111111111111111111111111111",
+        "d": {
+          "__bigint__": "0"
+        },
+        "version": 3,
+        "timestamp": 1784212212000,
+        "programId": "EjsNMFeKy6MfR2ARsJVgt9yNYdgzXEN6BjUsbw9jUJ7",
+        "signature": "3gsgmLLYosxyjBCAXpb9uQ7qcr8FogRTszn6tupavj4F7Eqzak1nkQQ4fMRJ99ixe7tRkfdaotPwXZZgDDMhUKi5",
+        "logIndex": 19
+      },
+      {
+        "id": "snap-3C5h9pyHrGt5FZGmSeNEyvi6tsUP89tuhU3pSn38DaexGtJ7N4KPTCnWjYAvUuaivg9hbHBiETxY15GdDVN3z9D8-21",
+        "worldId": {
+          "__bigint__": "8"
+        },
+        "entityId": {
+          "__bigint__": "0"
+        },
+        "kind": 6,
+        "kindLabel": "Swapped",
+        "slot": {
+          "__bigint__": "476691713"
+        },
+        "a": {
+          "__bigint__": "158"
+        },
+        "b": "Bfmk58fvhNuNKg6PPiK6p1CBfUi6dHKhbAEVXiyBEdjJ",
+        "c": "FFKcADNwPArvUQVvmeyqzrRrzNDpB31H3K5uxSgUbGDn",
+        "d": {
+          "__bigint__": "49690010"
+        },
+        "version": 3,
+        "timestamp": 1784212207000,
+        "programId": "EjsNMFeKy6MfR2ARsJVgt9yNYdgzXEN6BjUsbw9jUJ7",
+        "signature": "3C5h9pyHrGt5FZGmSeNEyvi6tsUP89tuhU3pSn38DaexGtJ7N4KPTCnWjYAvUuaivg9hbHBiETxY15GdDVN3z9D8",
+        "logIndex": 21
+      },
+      {
+        "id": "snap-3CoCFHB4RciF1NQipXCZbJ21ub3Xs6kzB25DqU4qQc5sDgk5m1b8MG1tCzrkqgZ3dGFDVQdGWSnMC9qJFMLjoYc7-21",
+        "worldId": {
+          "__bigint__": "8"
+        },
+        "entityId": {
+          "__bigint__": "0"
+        },
+        "kind": 6,
+        "kindLabel": "Swapped",
+        "slot": {
+          "__bigint__": "476691511"
+        },
+        "a": {
+          "__bigint__": "4"
+        },
+        "b": "2JQNLBMunQA8ArH5uePki7jwjG5bNDYAZuE8TpyaVjX9",
+        "c": "7fcQrszvJUqqHSesW4rUNX6udPg9B1iK1YFLVjZ8Eefe",
+        "d": {
+          "__bigint__": "11641719"
+        },
+        "version": 3,
+        "timestamp": 1784212133000,
+        "programId": "EjsNMFeKy6MfR2ARsJVgt9yNYdgzXEN6BjUsbw9jUJ7",
+        "signature": "3CoCFHB4RciF1NQipXCZbJ21ub3Xs6kzB25DqU4qQc5sDgk5m1b8MG1tCzrkqgZ3dGFDVQdGWSnMC9qJFMLjoYc7",
+        "logIndex": 21
+      },
+      {
+        "id": "snap-UsFP5p1Gm2Re1oxavS2cx4ppKke9QLVUexL39jEsJEL9cpynM3B4w7krMhLwAY5aTeZWe7duq1BUS3BgP8j8CsH-21",
+        "worldId": {
+          "__bigint__": "8"
+        },
+        "entityId": {
+          "__bigint__": "0"
+        },
+        "kind": 6,
+        "kindLabel": "Swapped",
+        "slot": {
+          "__bigint__": "476691480"
+        },
+        "a": {
+          "__bigint__": "85"
+        },
+        "b": "HDcKQELGo3C27Lm9zmHpyJPvrZuqdHjYdytCceatBhUQ",
+        "c": "4diLrE9shTTZ1Zhx57zewi9Z1q7S32wCcXp5WbjWd562",
+        "d": {
+          "__bigint__": "370300909"
+        },
+        "version": 3,
+        "timestamp": 1784212122000,
+        "programId": "EjsNMFeKy6MfR2ARsJVgt9yNYdgzXEN6BjUsbw9jUJ7",
+        "signature": "UsFP5p1Gm2Re1oxavS2cx4ppKke9QLVUexL39jEsJEL9cpynM3B4w7krMhLwAY5aTeZWe7duq1BUS3BgP8j8CsH",
+        "logIndex": 21
+      },
+      {
+        "id": "snap-5cM7GHcjRrHCCGeqksLnAbcWcL3qt7qLRVhvDaTxyEXSQXFmAm55mBcptSttmDBpc57nCdaSwBPkD7bZjTk6oYbN-21",
+        "worldId": {
+          "__bigint__": "8"
+        },
+        "entityId": {
+          "__bigint__": "0"
+        },
+        "kind": 6,
+        "kindLabel": "Swapped",
+        "slot": {
+          "__bigint__": "476691368"
+        },
+        "a": {
+          "__bigint__": "4"
+        },
+        "b": "Bfmk58fvhNuNKg6PPiK6p1CBfUi6dHKhbAEVXiyBEdjJ",
+        "c": "4diLrE9shTTZ1Zhx57zewi9Z1q7S32wCcXp5WbjWd562",
+        "d": {
+          "__bigint__": "25265"
+        },
+        "version": 3,
+        "timestamp": 1784212081000,
+        "programId": "EjsNMFeKy6MfR2ARsJVgt9yNYdgzXEN6BjUsbw9jUJ7",
+        "signature": "5cM7GHcjRrHCCGeqksLnAbcWcL3qt7qLRVhvDaTxyEXSQXFmAm55mBcptSttmDBpc57nCdaSwBPkD7bZjTk6oYbN",
+        "logIndex": 21
+      },
+      {
+        "id": "snap-3pgvE6ZYyyykWkHwxiyXDBwkW4yyh6o5bJ2uLeCrgnnz8NDBzGhS6TVFJRmoXNhNcy3XkR9AfebQSTivCREQXria-21",
+        "worldId": {
+          "__bigint__": "8"
+        },
+        "entityId": {
+          "__bigint__": "0"
+        },
+        "kind": 6,
+        "kindLabel": "Swapped",
+        "slot": {
+          "__bigint__": "476691363"
+        },
+        "a": {
+          "__bigint__": "14"
+        },
+        "b": "Bfmk58fvhNuNKg6PPiK6p1CBfUi6dHKhbAEVXiyBEdjJ",
+        "c": "4diLrE9shTTZ1Zhx57zewi9Z1q7S32wCcXp5WbjWd562",
+        "d": {
+          "__bigint__": "99482"
+        },
+        "version": 3,
+        "timestamp": 1784212079000,
+        "programId": "EjsNMFeKy6MfR2ARsJVgt9yNYdgzXEN6BjUsbw9jUJ7",
+        "signature": "3pgvE6ZYyyykWkHwxiyXDBwkW4yyh6o5bJ2uLeCrgnnz8NDBzGhS6TVFJRmoXNhNcy3XkR9AfebQSTivCREQXria",
+        "logIndex": 21
+      },
+      {
+        "id": "snap-5LtFbPdaVkoaF8nsedRyDcTLnpK7qzf7SzSrK2TaXHYK943GPP5hitJ9BXiAJq7LPieHbNiQHtv2HmHUZ17EGFKG-21",
+        "worldId": {
+          "__bigint__": "8"
+        },
+        "entityId": {
+          "__bigint__": "0"
+        },
+        "kind": 6,
+        "kindLabel": "Swapped",
+        "slot": {
+          "__bigint__": "476691279"
+        },
+        "a": {
+          "__bigint__": "141"
+        },
+        "b": "Bfmk58fvhNuNKg6PPiK6p1CBfUi6dHKhbAEVXiyBEdjJ",
+        "c": "FFKcADNwPArvUQVvmeyqzrRrzNDpB31H3K5uxSgUbGDn",
+        "d": {
+          "__bigint__": "52768153"
+        },
+        "version": 3,
+        "timestamp": 1784212048000,
+        "programId": "EjsNMFeKy6MfR2ARsJVgt9yNYdgzXEN6BjUsbw9jUJ7",
+        "signature": "5LtFbPdaVkoaF8nsedRyDcTLnpK7qzf7SzSrK2TaXHYK943GPP5hitJ9BXiAJq7LPieHbNiQHtv2HmHUZ17EGFKG",
+        "logIndex": 21
+      },
+      {
+        "id": "snap-6ujCiz6VVrA2CDiDTsBrXt19Ad98DX6LaAzSTVjDYMuQ7PyUqy5kFGgCfmcRhyKS2d2RgjGyJQ4BGF4jdqQZCqq-21",
+        "worldId": {
+          "__bigint__": "8"
+        },
+        "entityId": {
+          "__bigint__": "0"
+        },
+        "kind": 6,
+        "kindLabel": "Swapped",
+        "slot": {
+          "__bigint__": "476691150"
+        },
+        "a": {
+          "__bigint__": "8024"
+        },
+        "b": "4kow7CtBctovbSugy52VeSdFAas4D2QuibjMvSry72n9",
+        "c": "6ox6rj8CLp5QBoLQvLAgLoJi1iDv8dc66DsAKFUkP9N4",
+        "d": {
+          "__bigint__": "737070802"
+        },
+        "version": 3,
+        "timestamp": 1784212001000,
+        "programId": "EjsNMFeKy6MfR2ARsJVgt9yNYdgzXEN6BjUsbw9jUJ7",
+        "signature": "6ujCiz6VVrA2CDiDTsBrXt19Ad98DX6LaAzSTVjDYMuQ7PyUqy5kFGgCfmcRhyKS2d2RgjGyJQ4BGF4jdqQZCqq",
+        "logIndex": 21
+      },
       {
         "id": "snap-4viQeFiQFZb3yMoFSxMLd7RNTyi4LF2JHtvm1FankUFAXtv1fS4RwYj6y2174Q7u85MbVDwkSeNpkS68Vmq1cmiV-14",
         "worldId": {
@@ -9667,1008 +10666,9 @@
         "programId": "EhUjtsoGoGpG8rs9CF3rpzfR9PCRHDnKh9qEtRdyHrCn",
         "signature": "n5jktqyiTFQEsVxBFpaqcCXV76JLxqWcM2YT5p1iThfYURudwisxeQWYJmZXpeFYWbQyehbb9Jwnw7v8qaEK2hJ",
         "logIndex": 2
-      },
-      {
-        "id": "snap-an7qwMsxjHDv2BqMHkN7kYJk1W6i48ZdztJFg4Q6wFUdwKyhiwrSaPw4MBqicNn63CasrgKXN98WDfa1DLwc8QP-2",
-        "worldId": {
-          "__bigint__": "8"
-        },
-        "entityId": {
-          "__bigint__": "0"
-        },
-        "kind": 7,
-        "kindLabel": "Decayed",
-        "slot": {
-          "__bigint__": "476687445"
-        },
-        "a": {
-          "__bigint__": "0"
-        },
-        "b": "Co3QqmHz5rgbhYijb1EegB1pAxHcGoLdr5fmeWgZcvdy",
-        "c": "FFKcADNwPArvUQVvmeyqzrRrzNDpB31H3K5uxSgUbGDn",
-        "d": {
-          "__bigint__": "0"
-        },
-        "version": 3,
-        "timestamp": 1784210643000,
-        "programId": "AYq6wit51GtB7EqAWtbdEvr4req5Re4corfycXmP1XTe",
-        "signature": "an7qwMsxjHDv2BqMHkN7kYJk1W6i48ZdztJFg4Q6wFUdwKyhiwrSaPw4MBqicNn63CasrgKXN98WDfa1DLwc8QP",
-        "logIndex": 2
-      },
-      {
-        "id": "snap-2fSZGjt2bx8CGkeNVhNSrjTPzNY821qo8oRKmRk3mtMepSC3kB1tedsoaDRYp5fAxHvV3WN5phmexg1bgSeMA4EW-14",
-        "worldId": {
-          "__bigint__": "8"
-        },
-        "entityId": {
-          "__bigint__": "34009"
-        },
-        "kind": 1,
-        "kindLabel": "ValueMoved",
-        "slot": {
-          "__bigint__": "476687377"
-        },
-        "a": {
-          "__bigint__": "6"
-        },
-        "b": "DmZ8BG76QvyYSDmdmdTG8i83T13JJ3hr1dPjM3L4gFaN",
-        "c": "EnC55cUEtKjR9mrJH83MCrBJpTbsSEsz3zyU9juhZzTR",
-        "d": {
-          "__bigint__": "6"
-        },
-        "version": 3,
-        "timestamp": 1784210618000,
-        "programId": "EhUjtsoGoGpG8rs9CF3rpzfR9PCRHDnKh9qEtRdyHrCn",
-        "signature": "2fSZGjt2bx8CGkeNVhNSrjTPzNY821qo8oRKmRk3mtMepSC3kB1tedsoaDRYp5fAxHvV3WN5phmexg1bgSeMA4EW",
-        "logIndex": 14
-      },
-      {
-        "id": "snap-5enJuxGqQcnrm7mLfbZAqEtjLiXNXjhZGRzgKUtamNG2EJxse3qm35o2gPKG98UbcG9evPBNa56TDN5L9oQCGxV8-19",
-        "worldId": {
-          "__bigint__": "8"
-        },
-        "entityId": {
-          "__bigint__": "0"
-        },
-        "kind": 5,
-        "kindLabel": "Produced",
-        "slot": {
-          "__bigint__": "476687361"
-        },
-        "a": {
-          "__bigint__": "166"
-        },
-        "b": "5pRCLD7bjBm6hMnsUS8fvVwc8s87F2b2JkeHU1f5342w",
-        "c": "4diLrE9shTTZ1Zhx57zewi9Z1q7S32wCcXp5WbjWd562",
-        "d": {
-          "__bigint__": "6"
-        },
-        "version": 3,
-        "timestamp": 1784210612000,
-        "programId": "EhUjtsoGoGpG8rs9CF3rpzfR9PCRHDnKh9qEtRdyHrCn",
-        "signature": "5enJuxGqQcnrm7mLfbZAqEtjLiXNXjhZGRzgKUtamNG2EJxse3qm35o2gPKG98UbcG9evPBNa56TDN5L9oQCGxV8",
-        "logIndex": 19
-      },
-      {
-        "id": "snap-5enJuxGqQcnrm7mLfbZAqEtjLiXNXjhZGRzgKUtamNG2EJxse3qm35o2gPKG98UbcG9evPBNa56TDN5L9oQCGxV8-14",
-        "worldId": {
-          "__bigint__": "8"
-        },
-        "entityId": {
-          "__bigint__": "0"
-        },
-        "kind": 39,
-        "kindLabel": "InputBurned",
-        "slot": {
-          "__bigint__": "476687361"
-        },
-        "a": {
-          "__bigint__": "4"
-        },
-        "b": "HDcKQELGo3C27Lm9zmHpyJPvrZuqdHjYdytCceatBhUQ",
-        "c": "4diLrE9shTTZ1Zhx57zewi9Z1q7S32wCcXp5WbjWd562",
-        "d": {
-          "__bigint__": "166"
-        },
-        "version": 3,
-        "timestamp": 1784210612000,
-        "programId": "EhUjtsoGoGpG8rs9CF3rpzfR9PCRHDnKh9qEtRdyHrCn",
-        "signature": "5enJuxGqQcnrm7mLfbZAqEtjLiXNXjhZGRzgKUtamNG2EJxse3qm35o2gPKG98UbcG9evPBNa56TDN5L9oQCGxV8",
-        "logIndex": 14
-      },
-      {
-        "id": "snap-468zRsywcPbJ7onvqquR89cJTRJvL8jgD1ZSE3FC2R3vZuG7TeCQVYwVS4rDQ62WGdhtbnoDgTY3QSo6aVuTfWdy-2",
-        "worldId": {
-          "__bigint__": "8"
-        },
-        "entityId": {
-          "__bigint__": "0"
-        },
-        "kind": 26,
-        "kindLabel": "EnvironmentTicked",
-        "slot": {
-          "__bigint__": "476687348"
-        },
-        "a": {
-          "__bigint__": "21507408372"
-        },
-        "b": "5toNUGpAAU2cwHAbWvTrcEJjn4EwGZvZ6HT4KdKdYLYQ",
-        "c": "11111111111111111111111111111111",
-        "d": {
-          "__bigint__": "0"
-        },
-        "version": 3,
-        "timestamp": 1784210608000,
-        "programId": "AYq6wit51GtB7EqAWtbdEvr4req5Re4corfycXmP1XTe",
-        "signature": "468zRsywcPbJ7onvqquR89cJTRJvL8jgD1ZSE3FC2R3vZuG7TeCQVYwVS4rDQ62WGdhtbnoDgTY3QSo6aVuTfWdy",
-        "logIndex": 2
-      },
-      {
-        "id": "snap-bAMvn8wkC37WxYHPTLNijsxkXXhbCzamsZGot16ZcbD3GGZXyKsZHJKvmG5LG7zaBJZok3zy1mTRwm7hUR8m7Ty-2",
-        "worldId": {
-          "__bigint__": "8"
-        },
-        "entityId": {
-          "__bigint__": "37005"
-        },
-        "kind": 40,
-        "kindLabel": "MessagePosted",
-        "slot": {
-          "__bigint__": "476687347"
-        },
-        "a": {
-          "__bigint__": "2"
-        },
-        "b": "4diLrE9shTTZ1Zhx57zewi9Z1q7S32wCcXp5WbjWd562",
-        "c": "58zaP5cButaeiK7ZSoUgwKfjaxfqW9Zut67qF8Y9oXFi",
-        "d": {
-          "__bigint__": "0"
-        },
-        "version": 3,
-        "timestamp": 1784210607000,
-        "programId": "EhUjtsoGoGpG8rs9CF3rpzfR9PCRHDnKh9qEtRdyHrCn",
-        "signature": "bAMvn8wkC37WxYHPTLNijsxkXXhbCzamsZGot16ZcbD3GGZXyKsZHJKvmG5LG7zaBJZok3zy1mTRwm7hUR8m7Ty",
-        "logIndex": 2
-      },
-      {
-        "id": "snap-3mjL7Pg3JWHf9Fo4tYU33AEYaXBhk7GwH2wLQaGR4Ftt6pFmHMiSDUpLKXyZLNCAY1Dzu4bConSUp7wyhMW8PsEC-2",
-        "worldId": {
-          "__bigint__": "8"
-        },
-        "entityId": {
-          "__bigint__": "0"
-        },
-        "kind": 26,
-        "kindLabel": "EnvironmentTicked",
-        "slot": {
-          "__bigint__": "476687334"
-        },
-        "a": {
-          "__bigint__": "21507408372"
-        },
-        "b": "8QFnNVW3XuZRiJL4bCisLswyczWEh7gTnEVgE2VtQerB",
-        "c": "11111111111111111111111111111111",
-        "d": {
-          "__bigint__": "0"
-        },
-        "version": 3,
-        "timestamp": 1784210603000,
-        "programId": "AYq6wit51GtB7EqAWtbdEvr4req5Re4corfycXmP1XTe",
-        "signature": "3mjL7Pg3JWHf9Fo4tYU33AEYaXBhk7GwH2wLQaGR4Ftt6pFmHMiSDUpLKXyZLNCAY1Dzu4bConSUp7wyhMW8PsEC",
-        "logIndex": 2
-      },
-      {
-        "id": "snap-5omax6TfVpVqSuDmsrzsLh4b5wNfFpp8krTH6TnhNgk9WKHbhhvX86Le3zLVeC69uxQz2J5hLKFKfqYFLyUBU3RX-2",
-        "worldId": {
-          "__bigint__": "8"
-        },
-        "entityId": {
-          "__bigint__": "0"
-        },
-        "kind": 7,
-        "kindLabel": "Decayed",
-        "slot": {
-          "__bigint__": "476687327"
-        },
-        "a": {
-          "__bigint__": "0"
-        },
-        "b": "5toNUGpAAU2cwHAbWvTrcEJjn4EwGZvZ6HT4KdKdYLYQ",
-        "c": "4diLrE9shTTZ1Zhx57zewi9Z1q7S32wCcXp5WbjWd562",
-        "d": {
-          "__bigint__": "0"
-        },
-        "version": 3,
-        "timestamp": 1784210600000,
-        "programId": "AYq6wit51GtB7EqAWtbdEvr4req5Re4corfycXmP1XTe",
-        "signature": "5omax6TfVpVqSuDmsrzsLh4b5wNfFpp8krTH6TnhNgk9WKHbhhvX86Le3zLVeC69uxQz2J5hLKFKfqYFLyUBU3RX",
-        "logIndex": 2
-      },
-      {
-        "id": "snap-2WAUT4TEXfNX5hc56uZ2cNj2zGwDJW1yVwwPwUfFqj45jgaNzXkovuSVb7ys5sMRHsnyVHHzmfnMqxcsanVjDVwV-14",
-        "worldId": {
-          "__bigint__": "8"
-        },
-        "entityId": {
-          "__bigint__": "34006"
-        },
-        "kind": 1,
-        "kindLabel": "ValueMoved",
-        "slot": {
-          "__bigint__": "476687295"
-        },
-        "a": {
-          "__bigint__": "6"
-        },
-        "b": "DmZ8BG76QvyYSDmdmdTG8i83T13JJ3hr1dPjM3L4gFaN",
-        "c": "Hu6KJjDH99apL48LFkXxoza545YmiZtr8pxQYt2xZ55H",
-        "d": {
-          "__bigint__": "6"
-        },
-        "version": 3,
-        "timestamp": 1784210588000,
-        "programId": "EhUjtsoGoGpG8rs9CF3rpzfR9PCRHDnKh9qEtRdyHrCn",
-        "signature": "2WAUT4TEXfNX5hc56uZ2cNj2zGwDJW1yVwwPwUfFqj45jgaNzXkovuSVb7ys5sMRHsnyVHHzmfnMqxcsanVjDVwV",
-        "logIndex": 14
-      },
-      {
-        "id": "snap-9C8J6FuwEJCFYKxzLRzZJ8qgGsZUJnxExoFnV7c6AcCUQDz6QS3DxFMsi1oPjmsbdbAtghgje2Jeyvcy7fMfTT7-19",
-        "worldId": {
-          "__bigint__": "8"
-        },
-        "entityId": {
-          "__bigint__": "0"
-        },
-        "kind": 5,
-        "kindLabel": "Produced",
-        "slot": {
-          "__bigint__": "476687289"
-        },
-        "a": {
-          "__bigint__": "166"
-        },
-        "b": "5pRCLD7bjBm6hMnsUS8fvVwc8s87F2b2JkeHU1f5342w",
-        "c": "7fcQrszvJUqqHSesW4rUNX6udPg9B1iK1YFLVjZ8Eefe",
-        "d": {
-          "__bigint__": "6"
-        },
-        "version": 3,
-        "timestamp": 1784210586000,
-        "programId": "EhUjtsoGoGpG8rs9CF3rpzfR9PCRHDnKh9qEtRdyHrCn",
-        "signature": "9C8J6FuwEJCFYKxzLRzZJ8qgGsZUJnxExoFnV7c6AcCUQDz6QS3DxFMsi1oPjmsbdbAtghgje2Jeyvcy7fMfTT7",
-        "logIndex": 19
-      },
-      {
-        "id": "snap-9C8J6FuwEJCFYKxzLRzZJ8qgGsZUJnxExoFnV7c6AcCUQDz6QS3DxFMsi1oPjmsbdbAtghgje2Jeyvcy7fMfTT7-14",
-        "worldId": {
-          "__bigint__": "8"
-        },
-        "entityId": {
-          "__bigint__": "0"
-        },
-        "kind": 39,
-        "kindLabel": "InputBurned",
-        "slot": {
-          "__bigint__": "476687289"
-        },
-        "a": {
-          "__bigint__": "4"
-        },
-        "b": "HDcKQELGo3C27Lm9zmHpyJPvrZuqdHjYdytCceatBhUQ",
-        "c": "7fcQrszvJUqqHSesW4rUNX6udPg9B1iK1YFLVjZ8Eefe",
-        "d": {
-          "__bigint__": "166"
-        },
-        "version": 3,
-        "timestamp": 1784210586000,
-        "programId": "EhUjtsoGoGpG8rs9CF3rpzfR9PCRHDnKh9qEtRdyHrCn",
-        "signature": "9C8J6FuwEJCFYKxzLRzZJ8qgGsZUJnxExoFnV7c6AcCUQDz6QS3DxFMsi1oPjmsbdbAtghgje2Jeyvcy7fMfTT7",
-        "logIndex": 14
-      },
-      {
-        "id": "snap-3Fgi8KoTKjc9kqKm1gjbs4YuWofrrY8hxrAfeTrxqioxtkKbXBpAg7Fj5snXe7EyLcgNJ3VGSApviKYc2X6P2sQX-2",
-        "worldId": {
-          "__bigint__": "8"
-        },
-        "entityId": {
-          "__bigint__": "37002"
-        },
-        "kind": 40,
-        "kindLabel": "MessagePosted",
-        "slot": {
-          "__bigint__": "476687271"
-        },
-        "a": {
-          "__bigint__": "2"
-        },
-        "b": "7fcQrszvJUqqHSesW4rUNX6udPg9B1iK1YFLVjZ8Eefe",
-        "c": "4wGMScGeFmUptEegTjxV2XWnMiU6XjPta1YQsZ8awu48",
-        "d": {
-          "__bigint__": "0"
-        },
-        "version": 3,
-        "timestamp": 1784210579000,
-        "programId": "EhUjtsoGoGpG8rs9CF3rpzfR9PCRHDnKh9qEtRdyHrCn",
-        "signature": "3Fgi8KoTKjc9kqKm1gjbs4YuWofrrY8hxrAfeTrxqioxtkKbXBpAg7Fj5snXe7EyLcgNJ3VGSApviKYc2X6P2sQX",
-        "logIndex": 2
-      },
-      {
-        "id": "snap-5wEZiFcp3CnhAMCLtVcfCjrR9bBK26VUW3qpK3CaxgL9jqMH8BAt3tmEy8ninJNJXByekbD17Mw18xtXymtZd2Qi-2",
-        "worldId": {
-          "__bigint__": "8"
-        },
-        "entityId": {
-          "__bigint__": "0"
-        },
-        "kind": 7,
-        "kindLabel": "Decayed",
-        "slot": {
-          "__bigint__": "476687264"
-        },
-        "a": {
-          "__bigint__": "0"
-        },
-        "b": "8QFnNVW3XuZRiJL4bCisLswyczWEh7gTnEVgE2VtQerB",
-        "c": "7fcQrszvJUqqHSesW4rUNX6udPg9B1iK1YFLVjZ8Eefe",
-        "d": {
-          "__bigint__": "0"
-        },
-        "version": 3,
-        "timestamp": 1784210577000,
-        "programId": "AYq6wit51GtB7EqAWtbdEvr4req5Re4corfycXmP1XTe",
-        "signature": "5wEZiFcp3CnhAMCLtVcfCjrR9bBK26VUW3qpK3CaxgL9jqMH8BAt3tmEy8ninJNJXByekbD17Mw18xtXymtZd2Qi",
-        "logIndex": 2
-      },
-      {
-        "id": "snap-3eDgz2NibH5gQdHBLTQwzzJm8gpKQVFPyKuXS8hVPhhCeLqbTZAdoFX7KZL1rGWdLGqccLUT6aLfC8vt2eKgbLxj-14",
-        "worldId": {
-          "__bigint__": "8"
-        },
-        "entityId": {
-          "__bigint__": "34005"
-        },
-        "kind": 1,
-        "kindLabel": "ValueMoved",
-        "slot": {
-          "__bigint__": "476687217"
-        },
-        "a": {
-          "__bigint__": "6"
-        },
-        "b": "DmZ8BG76QvyYSDmdmdTG8i83T13JJ3hr1dPjM3L4gFaN",
-        "c": "Hwg9yUsUQZigvW7WCJdMxBgZYMgQH6GgPQTwVeMP7Apn",
-        "d": {
-          "__bigint__": "6"
-        },
-        "version": 3,
-        "timestamp": 1784210559000,
-        "programId": "EhUjtsoGoGpG8rs9CF3rpzfR9PCRHDnKh9qEtRdyHrCn",
-        "signature": "3eDgz2NibH5gQdHBLTQwzzJm8gpKQVFPyKuXS8hVPhhCeLqbTZAdoFX7KZL1rGWdLGqccLUT6aLfC8vt2eKgbLxj",
-        "logIndex": 14
-      },
-      {
-        "id": "snap-kZtYFCPKoMdknUfSzHCXksPK4zz9X34w5CPs9GB616VLJapi2ocphAihvPWjELsDBem81aiLVw2KqfkShGoqPHG-19",
-        "worldId": {
-          "__bigint__": "8"
-        },
-        "entityId": {
-          "__bigint__": "0"
-        },
-        "kind": 5,
-        "kindLabel": "Produced",
-        "slot": {
-          "__bigint__": "476687198"
-        },
-        "a": {
-          "__bigint__": "166"
-        },
-        "b": "5pRCLD7bjBm6hMnsUS8fvVwc8s87F2b2JkeHU1f5342w",
-        "c": "6ox6rj8CLp5QBoLQvLAgLoJi1iDv8dc66DsAKFUkP9N4",
-        "d": {
-          "__bigint__": "6"
-        },
-        "version": 3,
-        "timestamp": 1784210552000,
-        "programId": "EhUjtsoGoGpG8rs9CF3rpzfR9PCRHDnKh9qEtRdyHrCn",
-        "signature": "kZtYFCPKoMdknUfSzHCXksPK4zz9X34w5CPs9GB616VLJapi2ocphAihvPWjELsDBem81aiLVw2KqfkShGoqPHG",
-        "logIndex": 19
-      },
-      {
-        "id": "snap-kZtYFCPKoMdknUfSzHCXksPK4zz9X34w5CPs9GB616VLJapi2ocphAihvPWjELsDBem81aiLVw2KqfkShGoqPHG-14",
-        "worldId": {
-          "__bigint__": "8"
-        },
-        "entityId": {
-          "__bigint__": "0"
-        },
-        "kind": 39,
-        "kindLabel": "InputBurned",
-        "slot": {
-          "__bigint__": "476687198"
-        },
-        "a": {
-          "__bigint__": "4"
-        },
-        "b": "HDcKQELGo3C27Lm9zmHpyJPvrZuqdHjYdytCceatBhUQ",
-        "c": "6ox6rj8CLp5QBoLQvLAgLoJi1iDv8dc66DsAKFUkP9N4",
-        "d": {
-          "__bigint__": "166"
-        },
-        "version": 3,
-        "timestamp": 1784210552000,
-        "programId": "EhUjtsoGoGpG8rs9CF3rpzfR9PCRHDnKh9qEtRdyHrCn",
-        "signature": "kZtYFCPKoMdknUfSzHCXksPK4zz9X34w5CPs9GB616VLJapi2ocphAihvPWjELsDBem81aiLVw2KqfkShGoqPHG",
-        "logIndex": 14
-      },
-      {
-        "id": "snap-37UTRUnxTdW2yAbMvzrZupcoJSmCnjtQsaveqpLX4LFBW64MYPVFRgmhrXsJhbd2szA7JBv7XwTh6Fp5dcYZnCUw-2",
-        "worldId": {
-          "__bigint__": "8"
-        },
-        "entityId": {
-          "__bigint__": "37001"
-        },
-        "kind": 40,
-        "kindLabel": "MessagePosted",
-        "slot": {
-          "__bigint__": "476687174"
-        },
-        "a": {
-          "__bigint__": "2"
-        },
-        "b": "6ox6rj8CLp5QBoLQvLAgLoJi1iDv8dc66DsAKFUkP9N4",
-        "c": "BPcCmoqqNx1fhJN3FHDZT4bu9LWhy2YJLznYstU2EAEB",
-        "d": {
-          "__bigint__": "0"
-        },
-        "version": 3,
-        "timestamp": 1784210544000,
-        "programId": "EhUjtsoGoGpG8rs9CF3rpzfR9PCRHDnKh9qEtRdyHrCn",
-        "signature": "37UTRUnxTdW2yAbMvzrZupcoJSmCnjtQsaveqpLX4LFBW64MYPVFRgmhrXsJhbd2szA7JBv7XwTh6Fp5dcYZnCUw",
-        "logIndex": 2
-      },
-      {
-        "id": "snap-3sj6oEvZcuvKz7uB8Kt7cV8noFmVLeSrVJpLXz7vJJ18WsGSsEWwXkm1fMGSRN8wk4wz59okiV4w72yj7JwUPyJq-2",
-        "worldId": {
-          "__bigint__": "8"
-        },
-        "entityId": {
-          "__bigint__": "0"
-        },
-        "kind": 26,
-        "kindLabel": "EnvironmentTicked",
-        "slot": {
-          "__bigint__": "476687172"
-        },
-        "a": {
-          "__bigint__": "21507473908"
-        },
-        "b": "9bw43Pmbfp2CgeEDtDkzz3uCuhaWapppoPsAUohJgUEE",
-        "c": "11111111111111111111111111111111",
-        "d": {
-          "__bigint__": "0"
-        },
-        "version": 3,
-        "timestamp": 1784210543000,
-        "programId": "AYq6wit51GtB7EqAWtbdEvr4req5Re4corfycXmP1XTe",
-        "signature": "3sj6oEvZcuvKz7uB8Kt7cV8noFmVLeSrVJpLXz7vJJ18WsGSsEWwXkm1fMGSRN8wk4wz59okiV4w72yj7JwUPyJq",
-        "logIndex": 2
-      },
-      {
-        "id": "snap-4rLrskNuQeKBKbsDUPWqNBdrosuofC9TB6Mb4YwXYDfEEVh3C4ufc61kHpkNAFfVaysjW9LHjTdUUyzEyDSBuLTU-2",
-        "worldId": {
-          "__bigint__": "8"
-        },
-        "entityId": {
-          "__bigint__": "0"
-        },
-        "kind": 7,
-        "kindLabel": "Decayed",
-        "slot": {
-          "__bigint__": "476687150"
-        },
-        "a": {
-          "__bigint__": "0"
-        },
-        "b": "9bw43Pmbfp2CgeEDtDkzz3uCuhaWapppoPsAUohJgUEE",
-        "c": "6ox6rj8CLp5QBoLQvLAgLoJi1iDv8dc66DsAKFUkP9N4",
-        "d": {
-          "__bigint__": "0"
-        },
-        "version": 3,
-        "timestamp": 1784210535000,
-        "programId": "AYq6wit51GtB7EqAWtbdEvr4req5Re4corfycXmP1XTe",
-        "signature": "4rLrskNuQeKBKbsDUPWqNBdrosuofC9TB6Mb4YwXYDfEEVh3C4ufc61kHpkNAFfVaysjW9LHjTdUUyzEyDSBuLTU",
-        "logIndex": 2
-      },
-      {
-        "id": "snap-4aVqFf25tpx7rW2XiYZ8HSMA59fhzPPhpVrr7muYbbkVXffh9kFvgBwvQhPo7xqF2UVdx86dg5r9stmBwXcVR7Uk-32",
-        "worldId": {
-          "__bigint__": "8"
-        },
-        "entityId": {
-          "__bigint__": "0"
-        },
-        "kind": 5,
-        "kindLabel": "Produced",
-        "slot": {
-          "__bigint__": "476687075"
-        },
-        "a": {
-          "__bigint__": "161"
-        },
-        "b": "5pRCLD7bjBm6hMnsUS8fvVwc8s87F2b2JkeHU1f5342w",
-        "c": "FFKcADNwPArvUQVvmeyqzrRrzNDpB31H3K5uxSgUbGDn",
-        "d": {
-          "__bigint__": "5"
-        },
-        "version": 3,
-        "timestamp": 1784210507000,
-        "programId": "EhUjtsoGoGpG8rs9CF3rpzfR9PCRHDnKh9qEtRdyHrCn",
-        "signature": "4aVqFf25tpx7rW2XiYZ8HSMA59fhzPPhpVrr7muYbbkVXffh9kFvgBwvQhPo7xqF2UVdx86dg5r9stmBwXcVR7Uk",
-        "logIndex": 32
-      },
-      {
-        "id": "snap-4aVqFf25tpx7rW2XiYZ8HSMA59fhzPPhpVrr7muYbbkVXffh9kFvgBwvQhPo7xqF2UVdx86dg5r9stmBwXcVR7Uk-27",
-        "worldId": {
-          "__bigint__": "8"
-        },
-        "entityId": {
-          "__bigint__": "0"
-        },
-        "kind": 39,
-        "kindLabel": "InputBurned",
-        "slot": {
-          "__bigint__": "476687075"
-        },
-        "a": {
-          "__bigint__": "2"
-        },
-        "b": "4kow7CtBctovbSugy52VeSdFAas4D2QuibjMvSry72n9",
-        "c": "FFKcADNwPArvUQVvmeyqzrRrzNDpB31H3K5uxSgUbGDn",
-        "d": {
-          "__bigint__": "161"
-        },
-        "version": 3,
-        "timestamp": 1784210507000,
-        "programId": "EhUjtsoGoGpG8rs9CF3rpzfR9PCRHDnKh9qEtRdyHrCn",
-        "signature": "4aVqFf25tpx7rW2XiYZ8HSMA59fhzPPhpVrr7muYbbkVXffh9kFvgBwvQhPo7xqF2UVdx86dg5r9stmBwXcVR7Uk",
-        "logIndex": 27
-      },
-      {
-        "id": "snap-4aVqFf25tpx7rW2XiYZ8HSMA59fhzPPhpVrr7muYbbkVXffh9kFvgBwvQhPo7xqF2UVdx86dg5r9stmBwXcVR7Uk-22",
-        "worldId": {
-          "__bigint__": "8"
-        },
-        "entityId": {
-          "__bigint__": "0"
-        },
-        "kind": 39,
-        "kindLabel": "InputBurned",
-        "slot": {
-          "__bigint__": "476687075"
-        },
-        "a": {
-          "__bigint__": "4"
-        },
-        "b": "Bfmk58fvhNuNKg6PPiK6p1CBfUi6dHKhbAEVXiyBEdjJ",
-        "c": "FFKcADNwPArvUQVvmeyqzrRrzNDpB31H3K5uxSgUbGDn",
-        "d": {
-          "__bigint__": "161"
-        },
-        "version": 3,
-        "timestamp": 1784210507000,
-        "programId": "EhUjtsoGoGpG8rs9CF3rpzfR9PCRHDnKh9qEtRdyHrCn",
-        "signature": "4aVqFf25tpx7rW2XiYZ8HSMA59fhzPPhpVrr7muYbbkVXffh9kFvgBwvQhPo7xqF2UVdx86dg5r9stmBwXcVR7Uk",
-        "logIndex": 22
-      },
-      {
-        "id": "snap-2mG8GmF9vg5DxieMtLUtjoZPkoFEuWisxb2QxEFrKj3KU1fj7VAqNxCnnGV27Fn3mpwMAQL9qREVakqecWtzQLxZ-2",
-        "worldId": {
-          "__bigint__": "8"
-        },
-        "entityId": {
-          "__bigint__": "37007"
-        },
-        "kind": 40,
-        "kindLabel": "MessagePosted",
-        "slot": {
-          "__bigint__": "476687046"
-        },
-        "a": {
-          "__bigint__": "2"
-        },
-        "b": "FFKcADNwPArvUQVvmeyqzrRrzNDpB31H3K5uxSgUbGDn",
-        "c": "8fXYzLeXDVM8KAwUrsEyoGBLziye6iHecrVGar9R5EfS",
-        "d": {
-          "__bigint__": "0"
-        },
-        "version": 3,
-        "timestamp": 1784210497000,
-        "programId": "EhUjtsoGoGpG8rs9CF3rpzfR9PCRHDnKh9qEtRdyHrCn",
-        "signature": "2mG8GmF9vg5DxieMtLUtjoZPkoFEuWisxb2QxEFrKj3KU1fj7VAqNxCnnGV27Fn3mpwMAQL9qREVakqecWtzQLxZ",
-        "logIndex": 2
-      },
-      {
-        "id": "snap-YW7FyefbuNmymSp6NLHs69re2v9jSjeQQeRuwYoYpQAeAHVYc8EJ9YmZKUYX7sbcCTNYujXsMPDVqPAbEiNkJ8h-2",
-        "worldId": {
-          "__bigint__": "8"
-        },
-        "entityId": {
-          "__bigint__": "37007"
-        },
-        "kind": 40,
-        "kindLabel": "MessagePosted",
-        "slot": {
-          "__bigint__": "476687024"
-        },
-        "a": {
-          "__bigint__": "2"
-        },
-        "b": "FFKcADNwPArvUQVvmeyqzrRrzNDpB31H3K5uxSgUbGDn",
-        "c": "Dmjp8KWWBrGCM2CCg64Nt1vR9nV5muPTMtD9ygwfKhHa",
-        "d": {
-          "__bigint__": "0"
-        },
-        "version": 3,
-        "timestamp": 1784210489000,
-        "programId": "EhUjtsoGoGpG8rs9CF3rpzfR9PCRHDnKh9qEtRdyHrCn",
-        "signature": "YW7FyefbuNmymSp6NLHs69re2v9jSjeQQeRuwYoYpQAeAHVYc8EJ9YmZKUYX7sbcCTNYujXsMPDVqPAbEiNkJ8h",
-        "logIndex": 2
-      },
-      {
-        "id": "snap-362FrZoAzyKPyEW52hWPq8mq1hpzyPqg3vgBEV3fdHfhJ4JhSuv6MBLFYwk3nAzNkqJGHF1g7UQUXMbRsab9izox-2",
-        "worldId": {
-          "__bigint__": "8"
-        },
-        "entityId": {
-          "__bigint__": "0"
-        },
-        "kind": 26,
-        "kindLabel": "EnvironmentTicked",
-        "slot": {
-          "__bigint__": "476687021"
-        },
-        "a": {
-          "__bigint__": "21507473908"
-        },
-        "b": "Co3QqmHz5rgbhYijb1EegB1pAxHcGoLdr5fmeWgZcvdy",
-        "c": "11111111111111111111111111111111",
-        "d": {
-          "__bigint__": "0"
-        },
-        "version": 3,
-        "timestamp": 1784210488000,
-        "programId": "AYq6wit51GtB7EqAWtbdEvr4req5Re4corfycXmP1XTe",
-        "signature": "362FrZoAzyKPyEW52hWPq8mq1hpzyPqg3vgBEV3fdHfhJ4JhSuv6MBLFYwk3nAzNkqJGHF1g7UQUXMbRsab9izox",
-        "logIndex": 2
-      },
-      {
-        "id": "snap-wM9HU7WMJy3niN7UJYUR9qSrZtfigGT3tuQWbnzHthkxswAEi3cBpeyMPjU64ckKqdyGfUWB5vi5dwnWUSqcghX-2",
-        "worldId": {
-          "__bigint__": "8"
-        },
-        "entityId": {
-          "__bigint__": "0"
-        },
-        "kind": 7,
-        "kindLabel": "Decayed",
-        "slot": {
-          "__bigint__": "476686966"
-        },
-        "a": {
-          "__bigint__": "0"
-        },
-        "b": "Co3QqmHz5rgbhYijb1EegB1pAxHcGoLdr5fmeWgZcvdy",
-        "c": "FFKcADNwPArvUQVvmeyqzrRrzNDpB31H3K5uxSgUbGDn",
-        "d": {
-          "__bigint__": "0"
-        },
-        "version": 3,
-        "timestamp": 1784210467000,
-        "programId": "AYq6wit51GtB7EqAWtbdEvr4req5Re4corfycXmP1XTe",
-        "signature": "wM9HU7WMJy3niN7UJYUR9qSrZtfigGT3tuQWbnzHthkxswAEi3cBpeyMPjU64ckKqdyGfUWB5vi5dwnWUSqcghX",
-        "logIndex": 2
-      },
-      {
-        "id": "snap-R3gZLobynbFmAr8NrXp19RjGPQDa14HGQuEqgzQeUQZwLd5SnLSjM7WxNinu7ZZSvDygE71Zzhs8DJq1BTEPa2d-14",
-        "worldId": {
-          "__bigint__": "8"
-        },
-        "entityId": {
-          "__bigint__": "34009"
-        },
-        "kind": 1,
-        "kindLabel": "ValueMoved",
-        "slot": {
-          "__bigint__": "476686877"
-        },
-        "a": {
-          "__bigint__": "6"
-        },
-        "b": "DmZ8BG76QvyYSDmdmdTG8i83T13JJ3hr1dPjM3L4gFaN",
-        "c": "EnC55cUEtKjR9mrJH83MCrBJpTbsSEsz3zyU9juhZzTR",
-        "d": {
-          "__bigint__": "6"
-        },
-        "version": 3,
-        "timestamp": 1784210434000,
-        "programId": "EhUjtsoGoGpG8rs9CF3rpzfR9PCRHDnKh9qEtRdyHrCn",
-        "signature": "R3gZLobynbFmAr8NrXp19RjGPQDa14HGQuEqgzQeUQZwLd5SnLSjM7WxNinu7ZZSvDygE71Zzhs8DJq1BTEPa2d",
-        "logIndex": 14
-      },
-      {
-        "id": "snap-5UA2PxmpEy9PSdqRDc1zHmNCrZh5peQTNZS2GeetxBVKyYjovhbWSLEK72M63izVzq2WMMQAQd5Hr3VjgnmoMiqd-2",
-        "worldId": {
-          "__bigint__": "8"
-        },
-        "entityId": {
-          "__bigint__": "37005"
-        },
-        "kind": 1,
-        "kindLabel": "ValueMoved",
-        "slot": {
-          "__bigint__": "476686867"
-        },
-        "a": {
-          "__bigint__": "100000"
-        },
-        "b": "6WHjSKmXog6dX8Kc5WG32R5noovXd3JQF7fz7CDmrmFg",
-        "c": "11111111111111111111111111111111",
-        "d": {
-          "__bigint__": "0"
-        },
-        "version": 3,
-        "timestamp": 1784210431000,
-        "programId": "EhUjtsoGoGpG8rs9CF3rpzfR9PCRHDnKh9qEtRdyHrCn",
-        "signature": "5UA2PxmpEy9PSdqRDc1zHmNCrZh5peQTNZS2GeetxBVKyYjovhbWSLEK72M63izVzq2WMMQAQd5Hr3VjgnmoMiqd",
-        "logIndex": 2
-      },
-      {
-        "id": "snap-4nsWpFwGEBuQ7VwvD8Psk2CnJcXXKwdmoiQJ3u1LM482cnb6jHjb2SVEz5sKMJCGNcJaDmBTsxYh5nDhzCqAbAah-2",
-        "worldId": {
-          "__bigint__": "8"
-        },
-        "entityId": {
-          "__bigint__": "0"
-        },
-        "kind": 26,
-        "kindLabel": "EnvironmentTicked",
-        "slot": {
-          "__bigint__": "476686858"
-        },
-        "a": {
-          "__bigint__": "21507539444"
-        },
-        "b": "5toNUGpAAU2cwHAbWvTrcEJjn4EwGZvZ6HT4KdKdYLYQ",
-        "c": "11111111111111111111111111111111",
-        "d": {
-          "__bigint__": "0"
-        },
-        "version": 3,
-        "timestamp": 1784210427000,
-        "programId": "AYq6wit51GtB7EqAWtbdEvr4req5Re4corfycXmP1XTe",
-        "signature": "4nsWpFwGEBuQ7VwvD8Psk2CnJcXXKwdmoiQJ3u1LM482cnb6jHjb2SVEz5sKMJCGNcJaDmBTsxYh5nDhzCqAbAah",
-        "logIndex": 2
-      },
-      {
-        "id": "snap-5iWzfBRVhhueTTLq5BdteuKtJJe9Z4Gk1Urf3egxksZyC6mHjimq3UKPKoDKco2HVhYTJTmDbUfxwz25KDahcB9u-19",
-        "worldId": {
-          "__bigint__": "8"
-        },
-        "entityId": {
-          "__bigint__": "0"
-        },
-        "kind": 5,
-        "kindLabel": "Produced",
-        "slot": {
-          "__bigint__": "476686857"
-        },
-        "a": {
-          "__bigint__": "166"
-        },
-        "b": "5pRCLD7bjBm6hMnsUS8fvVwc8s87F2b2JkeHU1f5342w",
-        "c": "4diLrE9shTTZ1Zhx57zewi9Z1q7S32wCcXp5WbjWd562",
-        "d": {
-          "__bigint__": "6"
-        },
-        "version": 3,
-        "timestamp": 1784210427000,
-        "programId": "EhUjtsoGoGpG8rs9CF3rpzfR9PCRHDnKh9qEtRdyHrCn",
-        "signature": "5iWzfBRVhhueTTLq5BdteuKtJJe9Z4Gk1Urf3egxksZyC6mHjimq3UKPKoDKco2HVhYTJTmDbUfxwz25KDahcB9u",
-        "logIndex": 19
-      },
-      {
-        "id": "snap-5iWzfBRVhhueTTLq5BdteuKtJJe9Z4Gk1Urf3egxksZyC6mHjimq3UKPKoDKco2HVhYTJTmDbUfxwz25KDahcB9u-14",
-        "worldId": {
-          "__bigint__": "8"
-        },
-        "entityId": {
-          "__bigint__": "0"
-        },
-        "kind": 39,
-        "kindLabel": "InputBurned",
-        "slot": {
-          "__bigint__": "476686857"
-        },
-        "a": {
-          "__bigint__": "4"
-        },
-        "b": "HDcKQELGo3C27Lm9zmHpyJPvrZuqdHjYdytCceatBhUQ",
-        "c": "4diLrE9shTTZ1Zhx57zewi9Z1q7S32wCcXp5WbjWd562",
-        "d": {
-          "__bigint__": "166"
-        },
-        "version": 3,
-        "timestamp": 1784210427000,
-        "programId": "EhUjtsoGoGpG8rs9CF3rpzfR9PCRHDnKh9qEtRdyHrCn",
-        "signature": "5iWzfBRVhhueTTLq5BdteuKtJJe9Z4Gk1Urf3egxksZyC6mHjimq3UKPKoDKco2HVhYTJTmDbUfxwz25KDahcB9u",
-        "logIndex": 14
-      },
-      {
-        "id": "snap-22J93VFMa4KGB42GXcNM4f9MhEJNRXty6LFH8GdJaG4mqZQaXFSxDzj4fVZJ43878ympmZHgdygm4XxrCnrdGxnf-2",
-        "worldId": {
-          "__bigint__": "8"
-        },
-        "entityId": {
-          "__bigint__": "37001"
-        },
-        "kind": 1,
-        "kindLabel": "ValueMoved",
-        "slot": {
-          "__bigint__": "476686836"
-        },
-        "a": {
-          "__bigint__": "100000"
-        },
-        "b": "6WHjSKmXog6dX8Kc5WG32R5noovXd3JQF7fz7CDmrmFg",
-        "c": "11111111111111111111111111111111",
-        "d": {
-          "__bigint__": "0"
-        },
-        "version": 3,
-        "timestamp": 1784210419000,
-        "programId": "EhUjtsoGoGpG8rs9CF3rpzfR9PCRHDnKh9qEtRdyHrCn",
-        "signature": "22J93VFMa4KGB42GXcNM4f9MhEJNRXty6LFH8GdJaG4mqZQaXFSxDzj4fVZJ43878ympmZHgdygm4XxrCnrdGxnf",
-        "logIndex": 2
-      },
-      {
-        "id": "snap-rLxvMMPbjPwu3spdrzHh2fe3AUmEjBKvkJwmtU2aDA8bha6aY8BDeGCQqsMdYsxxcEnNy6fevMxZH7ELgJQ2Cqd-2",
-        "worldId": {
-          "__bigint__": "8"
-        },
-        "entityId": {
-          "__bigint__": "0"
-        },
-        "kind": 26,
-        "kindLabel": "EnvironmentTicked",
-        "slot": {
-          "__bigint__": "476686834"
-        },
-        "a": {
-          "__bigint__": "21507473908"
-        },
-        "b": "8QFnNVW3XuZRiJL4bCisLswyczWEh7gTnEVgE2VtQerB",
-        "c": "11111111111111111111111111111111",
-        "d": {
-          "__bigint__": "0"
-        },
-        "version": 3,
-        "timestamp": 1784210419000,
-        "programId": "AYq6wit51GtB7EqAWtbdEvr4req5Re4corfycXmP1XTe",
-        "signature": "rLxvMMPbjPwu3spdrzHh2fe3AUmEjBKvkJwmtU2aDA8bha6aY8BDeGCQqsMdYsxxcEnNy6fevMxZH7ELgJQ2Cqd",
-        "logIndex": 2
-      },
-      {
-        "id": "snap-44UzFmDFS3eW1R9g1QrAPb1GpyZbP9ZSbkrq5Eqi6Q2gZQWXG9BdWYXdByVKhYoeaHhAFGJWbMCJEyzefw2Uwp6C-2",
-        "worldId": {
-          "__bigint__": "8"
-        },
-        "entityId": {
-          "__bigint__": "37005"
-        },
-        "kind": 40,
-        "kindLabel": "MessagePosted",
-        "slot": {
-          "__bigint__": "476686829"
-        },
-        "a": {
-          "__bigint__": "2"
-        },
-        "b": "4diLrE9shTTZ1Zhx57zewi9Z1q7S32wCcXp5WbjWd562",
-        "c": "ER6vMTTkCEj9y1sNFPnmWojE4WveHJKyZyqNAp1eFAhX",
-        "d": {
-          "__bigint__": "0"
-        },
-        "version": 3,
-        "timestamp": 1784210417000,
-        "programId": "EhUjtsoGoGpG8rs9CF3rpzfR9PCRHDnKh9qEtRdyHrCn",
-        "signature": "44UzFmDFS3eW1R9g1QrAPb1GpyZbP9ZSbkrq5Eqi6Q2gZQWXG9BdWYXdByVKhYoeaHhAFGJWbMCJEyzefw2Uwp6C",
-        "logIndex": 2
-      },
-      {
-        "id": "snap-2T1w5PcqECPXySpjzN6e7wKhAq37nDHkUK2Miuua8tZTNGUbBnRexKmQjE6fSTWyyZ8v1SMbanQcyfJQ7TsafQTd-2",
-        "worldId": {
-          "__bigint__": "8"
-        },
-        "entityId": {
-          "__bigint__": "37002"
-        },
-        "kind": 1,
-        "kindLabel": "ValueMoved",
-        "slot": {
-          "__bigint__": "476686818"
-        },
-        "a": {
-          "__bigint__": "100000"
-        },
-        "b": "6WHjSKmXog6dX8Kc5WG32R5noovXd3JQF7fz7CDmrmFg",
-        "c": "11111111111111111111111111111111",
-        "d": {
-          "__bigint__": "0"
-        },
-        "version": 3,
-        "timestamp": 1784210413000,
-        "programId": "EhUjtsoGoGpG8rs9CF3rpzfR9PCRHDnKh9qEtRdyHrCn",
-        "signature": "2T1w5PcqECPXySpjzN6e7wKhAq37nDHkUK2Miuua8tZTNGUbBnRexKmQjE6fSTWyyZ8v1SMbanQcyfJQ7TsafQTd",
-        "logIndex": 2
-      },
-      {
-        "id": "snap-23Xqi1LsQhPjDYMPZZ1tnoms5nMQgRX1FDDuKbSmqweZMCMyeybSfhxxETBwiNPptEK1HxRCVBS88UDo8euftW2X-2",
-        "worldId": {
-          "__bigint__": "8"
-        },
-        "entityId": {
-          "__bigint__": "0"
-        },
-        "kind": 26,
-        "kindLabel": "EnvironmentTicked",
-        "slot": {
-          "__bigint__": "476686816"
-        },
-        "a": {
-          "__bigint__": "21507408372"
-        },
-        "b": "9bw43Pmbfp2CgeEDtDkzz3uCuhaWapppoPsAUohJgUEE",
-        "c": "11111111111111111111111111111111",
-        "d": {
-          "__bigint__": "0"
-        },
-        "version": 3,
-        "timestamp": 1784210412000,
-        "programId": "AYq6wit51GtB7EqAWtbdEvr4req5Re4corfycXmP1XTe",
-        "signature": "23Xqi1LsQhPjDYMPZZ1tnoms5nMQgRX1FDDuKbSmqweZMCMyeybSfhxxETBwiNPptEK1HxRCVBS88UDo8euftW2X",
-        "logIndex": 2
-      },
-      {
-        "id": "snap-qgp3psmdDupMHAqAoSMYwHWs7ngJHEmpKpWHkF9VAjNEMdpR4Y6gW9K37NLwkhrr8owFymC35mnngTXT5Ph9YPn-2",
-        "worldId": {
-          "__bigint__": "8"
-        },
-        "entityId": {
-          "__bigint__": "0"
-        },
-        "kind": 7,
-        "kindLabel": "Decayed",
-        "slot": {
-          "__bigint__": "476686810"
-        },
-        "a": {
-          "__bigint__": "0"
-        },
-        "b": "5toNUGpAAU2cwHAbWvTrcEJjn4EwGZvZ6HT4KdKdYLYQ",
-        "c": "4diLrE9shTTZ1Zhx57zewi9Z1q7S32wCcXp5WbjWd562",
-        "d": {
-          "__bigint__": "0"
-        },
-        "version": 3,
-        "timestamp": 1784210410000,
-        "programId": "AYq6wit51GtB7EqAWtbdEvr4req5Re4corfycXmP1XTe",
-        "signature": "qgp3psmdDupMHAqAoSMYwHWs7ngJHEmpKpWHkF9VAjNEMdpR4Y6gW9K37NLwkhrr8owFymC35mnngTXT5Ph9YPn",
-        "logIndex": 2
       }
     ],
-    "fetchedAt": 1784216438311,
+    "fetchedAt": 1784217042403,
     "rpcUrl": "https://devnet.helius-rpc.com/",
     "rpcReachable": false
   },
@@ -10678,596 +10678,648 @@
       "body": {
         "ok": true,
         "dbPath": "/Users/hassan/gawpie-exchange/packages/indexer/data/indexer.db",
-        "totalEvents": 33746,
-        "lastEventBlockTime": 1784211895,
-        "lastEventAgeSec": 4542,
+        "totalEvents": 35714,
+        "lastEventBlockTime": 1784216603,
+        "lastEventAgeSec": 438,
         "eventsLast5Min": 0,
         "dbLagSlots": null,
         "keepersAliveAgeSec": null,
         "livingAgents": null,
         "totalAgents": null,
-        "producedLastHour": 104,
-        "chainNowBlockTime": 1784211895
+        "producedLastHour": 0,
+        "chainNowBlockTime": 1784216603
       }
     },
     "/world/8/pulse": {
       "status": 200,
       "body": [
         {
-          "templateId": "Produced.v3",
-          "text": "Vell (#37001) produced 6 — green manure",
+          "templateId": "Swapped.v3.sell",
+          "text": "Sump (#37005) sold — 26 token in, 0.000115047 SOL out (Bfmk58fv…EdjJ market)",
           "parts": {
-            "specId": "166",
-            "recipe": "GREEN_MANURE_V1",
-            "mintAuthority": "5pRCLD7bjBm6hMnsUS8fvVwc8s87F2b2JkeHU1f5342w",
-            "mintAuthorityShort": "5pRCLD7b…342w",
-            "producerWallet": "6ox6rj8CLp5QBoLQvLAgLoJi1iDv8dc66DsAKFUkP9N4",
-            "producerWalletShort": "6ox6rj8C…P9N4",
-            "realizedAmount": "6",
-            "agent": "Vell (#37001)"
-          },
-          "receipts": [
-            "4z5afcrcVALpvvnehJZ3vaXETJt5EZKsbXMKUeXDHsWdi688rRbahGztWXcNjwBhmVGttpdX99tCg1GL9qxQA2Cp"
-          ],
-          "slot": "476690842",
-          "kindCode": 5,
-          "entityId": "0"
-        },
-        {
-          "templateId": "InputBurned",
-          "text": "Vell (#37001) used up 4 (HDcKQELG…BhUQ) while producing — green manure",
-          "parts": {
-            "burned": "4",
-            "mint": "HDcKQELGo3C27Lm9zmHpyJPvrZuqdHjYdytCceatBhUQ",
-            "mintShort": "HDcKQELG…BhUQ",
-            "producerWallet": "6ox6rj8CLp5QBoLQvLAgLoJi1iDv8dc66DsAKFUkP9N4",
-            "producerWalletShort": "6ox6rj8C…P9N4",
-            "specId": "166",
-            "recipe": "GREEN_MANURE_V1",
-            "agent": "Vell (#37001)"
-          },
-          "receipts": [
-            "4z5afcrcVALpvvnehJZ3vaXETJt5EZKsbXMKUeXDHsWdi688rRbahGztWXcNjwBhmVGttpdX99tCg1GL9qxQA2Cp"
-          ],
-          "slot": "476690842",
-          "kindCode": 39,
-          "entityId": "0"
-        },
-        {
-          "templateId": "Produced.v3",
-          "text": "Wisp (#37007) produced 6 — green manure",
-          "parts": {
-            "specId": "166",
-            "recipe": "GREEN_MANURE_V1",
-            "mintAuthority": "5pRCLD7bjBm6hMnsUS8fvVwc8s87F2b2JkeHU1f5342w",
-            "mintAuthorityShort": "5pRCLD7b…342w",
-            "producerWallet": "FFKcADNwPArvUQVvmeyqzrRrzNDpB31H3K5uxSgUbGDn",
-            "producerWalletShort": "FFKcADNw…bGDn",
-            "realizedAmount": "6",
-            "agent": "Wisp (#37007)"
-          },
-          "receipts": [
-            "5KS4tRmVr9ujNzJZV5cx3sthxycChsvcnu5RZg9YN89LqTv3Jym9rEXXrZVB8xZno3kpmyhx5uAPbADuBp5dM6fQ"
-          ],
-          "slot": "476690676",
-          "kindCode": 5,
-          "entityId": "0"
-        },
-        {
-          "templateId": "InputBurned",
-          "text": "Wisp (#37007) used up 4 (HDcKQELG…BhUQ) while producing — green manure",
-          "parts": {
-            "burned": "4",
-            "mint": "HDcKQELGo3C27Lm9zmHpyJPvrZuqdHjYdytCceatBhUQ",
-            "mintShort": "HDcKQELG…BhUQ",
-            "producerWallet": "FFKcADNwPArvUQVvmeyqzrRrzNDpB31H3K5uxSgUbGDn",
-            "producerWalletShort": "FFKcADNw…bGDn",
-            "specId": "166",
-            "recipe": "GREEN_MANURE_V1",
-            "agent": "Wisp (#37007)"
-          },
-          "receipts": [
-            "5KS4tRmVr9ujNzJZV5cx3sthxycChsvcnu5RZg9YN89LqTv3Jym9rEXXrZVB8xZno3kpmyhx5uAPbADuBp5dM6fQ"
-          ],
-          "slot": "476690676",
-          "kindCode": 39,
-          "entityId": "0"
-        },
-        {
-          "templateId": "Produced.v3",
-          "text": "Sump (#37005) produced 6 — green manure",
-          "parts": {
-            "specId": "166",
-            "recipe": "GREEN_MANURE_V1",
-            "mintAuthority": "5pRCLD7bjBm6hMnsUS8fvVwc8s87F2b2JkeHU1f5342w",
-            "mintAuthorityShort": "5pRCLD7b…342w",
-            "producerWallet": "4diLrE9shTTZ1Zhx57zewi9Z1q7S32wCcXp5WbjWd562",
-            "producerWalletShort": "4diLrE9s…d562",
-            "realizedAmount": "6",
+            "amountIn": "26",
+            "amountOut": "115047",
+            "inDisplay": "26 token",
+            "outDisplay": "0.000115047 SOL",
+            "tokenMint": "Bfmk58fvhNuNKg6PPiK6p1CBfUi6dHKhbAEVXiyBEdjJ",
+            "tokenMintShort": "Bfmk58fv…EdjJ",
+            "traderWallet": "4diLrE9shTTZ1Zhx57zewi9Z1q7S32wCcXp5WbjWd562",
+            "traderWalletShort": "4diLrE9s…d562",
+            "isBuy": "false",
             "agent": "Sump (#37005)"
           },
           "receipts": [
-            "2ngbvq7ergdX7zWbrqykYDvM3SqTyeyFR4tsEKh7yo2RF4zAYZ23AqKHcc6jGNukxFBHcbQXPsWwfpza8XqiLEfB"
+            "5y5dbM3dNomTwCwLHms1pc3Y1u6417aBPnzJsRCVZqCN1HE4Dqc7xkUsa2ytn3stt1qtvmSJFRWaCBMQLNLdDgfs"
           ],
-          "slot": "476690512",
-          "kindCode": 5,
+          "slot": "476703713",
+          "kindCode": 6,
           "entityId": "0"
         },
         {
-          "templateId": "InputBurned",
-          "text": "Sump (#37005) used up 4 (HDcKQELG…BhUQ) while producing — green manure",
+          "templateId": "Swapped.v3.sell",
+          "text": "Sump (#37005) sold — 4 token in, 0.005172612 SOL out (2JQNLBMu…VjX9 market)",
           "parts": {
-            "burned": "4",
-            "mint": "HDcKQELGo3C27Lm9zmHpyJPvrZuqdHjYdytCceatBhUQ",
-            "mintShort": "HDcKQELG…BhUQ",
-            "producerWallet": "4diLrE9shTTZ1Zhx57zewi9Z1q7S32wCcXp5WbjWd562",
-            "producerWalletShort": "4diLrE9s…d562",
-            "specId": "166",
-            "recipe": "GREEN_MANURE_V1",
+            "amountIn": "4",
+            "amountOut": "5172612",
+            "inDisplay": "4 token",
+            "outDisplay": "0.005172612 SOL",
+            "tokenMint": "2JQNLBMunQA8ArH5uePki7jwjG5bNDYAZuE8TpyaVjX9",
+            "tokenMintShort": "2JQNLBMu…VjX9",
+            "traderWallet": "4diLrE9shTTZ1Zhx57zewi9Z1q7S32wCcXp5WbjWd562",
+            "traderWalletShort": "4diLrE9s…d562",
+            "isBuy": "false",
             "agent": "Sump (#37005)"
           },
           "receipts": [
-            "2ngbvq7ergdX7zWbrqykYDvM3SqTyeyFR4tsEKh7yo2RF4zAYZ23AqKHcc6jGNukxFBHcbQXPsWwfpza8XqiLEfB"
+            "3gt43RHo7EMZxgprfNXeKbCvFjqnodKrChcqhTXWeew1gUTD6rMiDY6UtoJiNj9n5iLcvwnoKgy21YGVQu1YXuxV"
           ],
-          "slot": "476690512",
-          "kindCode": 39,
+          "slot": "476700836",
+          "kindCode": 6,
+          "entityId": "0"
+        },
+        {
+          "templateId": "Swapped.v3.sell",
+          "text": "Sump (#37005) sold — 10 token in, 0.000052545 SOL out (Bfmk58fv…EdjJ market)",
+          "parts": {
+            "amountIn": "10",
+            "amountOut": "52545",
+            "inDisplay": "10 token",
+            "outDisplay": "0.000052545 SOL",
+            "tokenMint": "Bfmk58fvhNuNKg6PPiK6p1CBfUi6dHKhbAEVXiyBEdjJ",
+            "tokenMintShort": "Bfmk58fv…EdjJ",
+            "traderWallet": "4diLrE9shTTZ1Zhx57zewi9Z1q7S32wCcXp5WbjWd562",
+            "traderWalletShort": "4diLrE9s…d562",
+            "isBuy": "false",
+            "agent": "Sump (#37005)"
+          },
+          "receipts": [
+            "656v5CYjLU3iyHUXPnpvVyC46Q1Fd96pKdPFZq6uyU32RrUC5TTHX7qBAi7cQn2Ya6JbxqCpxb4cUaszZ6Xz2ncN"
+          ],
+          "slot": "476700559",
+          "kindCode": 6,
+          "entityId": "0"
+        },
+        {
+          "templateId": "Swapped.v3.sell",
+          "text": "Sump (#37005) sold — 4 token in, 0.005501032 SOL out (2JQNLBMu…VjX9 market)",
+          "parts": {
+            "amountIn": "4",
+            "amountOut": "5501032",
+            "inDisplay": "4 token",
+            "outDisplay": "0.005501032 SOL",
+            "tokenMint": "2JQNLBMunQA8ArH5uePki7jwjG5bNDYAZuE8TpyaVjX9",
+            "tokenMintShort": "2JQNLBMu…VjX9",
+            "traderWallet": "4diLrE9shTTZ1Zhx57zewi9Z1q7S32wCcXp5WbjWd562",
+            "traderWalletShort": "4diLrE9s…d562",
+            "isBuy": "false",
+            "agent": "Sump (#37005)"
+          },
+          "receipts": [
+            "3ebRAuUetRfbC52dhy3uAfGi24881tUGZArn3eVNjPUSXs8w1RGDT3Jkx3R7ZxMWpQUKdC5riXwAMHPzyu4gCpe5"
+          ],
+          "slot": "476700326",
+          "kindCode": 6,
+          "entityId": "0"
+        },
+        {
+          "templateId": "Swapped.v3.sell",
+          "text": "Sump (#37005) sold — 4 token in, 0.005861755 SOL out (2JQNLBMu…VjX9 market)",
+          "parts": {
+            "amountIn": "4",
+            "amountOut": "5861755",
+            "inDisplay": "4 token",
+            "outDisplay": "0.005861755 SOL",
+            "tokenMint": "2JQNLBMunQA8ArH5uePki7jwjG5bNDYAZuE8TpyaVjX9",
+            "tokenMintShort": "2JQNLBMu…VjX9",
+            "traderWallet": "4diLrE9shTTZ1Zhx57zewi9Z1q7S32wCcXp5WbjWd562",
+            "traderWalletShort": "4diLrE9s…d562",
+            "isBuy": "false",
+            "agent": "Sump (#37005)"
+          },
+          "receipts": [
+            "S68tpzc8tsFNETyxUQrLbbU6B75rnGDUQ4hvSY1QLdGtW32kbUDTqmZr4XvXKpeZdTLNWyM8Z8Zs7SyCHTbWqNS"
+          ],
+          "slot": "476700051",
+          "kindCode": 6,
+          "entityId": "0"
+        },
+        {
+          "templateId": "Swapped.v3.sell",
+          "text": "Sump (#37005) sold — 6 token in, 0.000034239 SOL out (Bfmk58fv…EdjJ market)",
+          "parts": {
+            "amountIn": "6",
+            "amountOut": "34239",
+            "inDisplay": "6 token",
+            "outDisplay": "0.000034239 SOL",
+            "tokenMint": "Bfmk58fvhNuNKg6PPiK6p1CBfUi6dHKhbAEVXiyBEdjJ",
+            "tokenMintShort": "Bfmk58fv…EdjJ",
+            "traderWallet": "4diLrE9shTTZ1Zhx57zewi9Z1q7S32wCcXp5WbjWd562",
+            "traderWalletShort": "4diLrE9s…d562",
+            "isBuy": "false",
+            "agent": "Sump (#37005)"
+          },
+          "receipts": [
+            "iaBoAy988YbbwpUfzuDHhL3piG2gDgWNsGjqZjiB4a1pEFH9DFNm7oQgEivn3m6RDcaZiivq7kGNtHooKCGJ3Sa"
+          ],
+          "slot": "476699106",
+          "kindCode": 6,
           "entityId": "0"
         },
         {
           "templateId": "ValueMoved",
-          "text": "Sump (#37005) paid 0.0001 SOL to FISC-0 (#35001)",
-          "parts": {
-            "entityId": "37005",
-            "amount": "100000",
-            "dest": "6WHjSKmXog6dX8Kc5WG32R5noovXd3JQF7fz7CDmrmFg",
-            "destShort": "6WHjSKmX…rmFg",
-            "destLabel": "FISC-0 (#35001)"
-          },
-          "receipts": [
-            "53UL7JG1AoD7WQfDd62TbE3t4emAaAg7tCv8Cc3Dzv9mJT5KzSvMcTwPeJABBpt4fz2bgqsvAevpgcKZfmmkPwWx"
-          ],
-          "slot": "476690395",
-          "kindCode": 1,
-          "entityId": "37005"
-        },
-        {
-          "templateId": "Produced.v3",
-          "text": "Suvva (#37002) produced 6 — green manure",
-          "parts": {
-            "specId": "166",
-            "recipe": "GREEN_MANURE_V1",
-            "mintAuthority": "5pRCLD7bjBm6hMnsUS8fvVwc8s87F2b2JkeHU1f5342w",
-            "mintAuthorityShort": "5pRCLD7b…342w",
-            "producerWallet": "7fcQrszvJUqqHSesW4rUNX6udPg9B1iK1YFLVjZ8Eefe",
-            "producerWalletShort": "7fcQrszv…Eefe",
-            "realizedAmount": "6",
-            "agent": "Suvva (#37002)"
-          },
-          "receipts": [
-            "5AYW46Puq56ZC1SXnWUsTpkWP6qXH4BRAV8FjgK9EAsvnkD7goVjEeK1Qv5HGFAJx9pYiUFGUYpWh2yXfFEmRKLC"
-          ],
-          "slot": "476690394",
-          "kindCode": 5,
-          "entityId": "0"
-        },
-        {
-          "templateId": "InputBurned",
-          "text": "Suvva (#37002) used up 4 (HDcKQELG…BhUQ) while producing — green manure",
-          "parts": {
-            "burned": "4",
-            "mint": "HDcKQELGo3C27Lm9zmHpyJPvrZuqdHjYdytCceatBhUQ",
-            "mintShort": "HDcKQELG…BhUQ",
-            "producerWallet": "7fcQrszvJUqqHSesW4rUNX6udPg9B1iK1YFLVjZ8Eefe",
-            "producerWalletShort": "7fcQrszv…Eefe",
-            "specId": "166",
-            "recipe": "GREEN_MANURE_V1",
-            "agent": "Suvva (#37002)"
-          },
-          "receipts": [
-            "5AYW46Puq56ZC1SXnWUsTpkWP6qXH4BRAV8FjgK9EAsvnkD7goVjEeK1Qv5HGFAJx9pYiUFGUYpWh2yXfFEmRKLC"
-          ],
-          "slot": "476690394",
-          "kindCode": 39,
-          "entityId": "0"
-        },
-        {
-          "templateId": "ValueMoved",
-          "text": "Sump (#37005) paid 0.0001 SOL to FISC-0 (#35001)",
-          "parts": {
-            "entityId": "37005",
-            "amount": "100000",
-            "dest": "6WHjSKmXog6dX8Kc5WG32R5noovXd3JQF7fz7CDmrmFg",
-            "destShort": "6WHjSKmX…rmFg",
-            "destLabel": "FISC-0 (#35001)"
-          },
-          "receipts": [
-            "3PfWH6ioA3gKmvgCSQvKDb7XmDmCnZroaEPpAFs24Bs2E3mGHKoMZjH8BGwmi1rUtvbt1yXvS2mF3UGnRteMuV9D"
-          ],
-          "slot": "476690394",
-          "kindCode": 1,
-          "entityId": "37005"
-        },
-        {
-          "templateId": "ValueMoved",
-          "text": "Vell (#37001) paid 0.0001 SOL to FISC-0 (#35001)",
-          "parts": {
-            "entityId": "37001",
-            "amount": "100000",
-            "dest": "6WHjSKmXog6dX8Kc5WG32R5noovXd3JQF7fz7CDmrmFg",
-            "destShort": "6WHjSKmX…rmFg",
-            "destLabel": "FISC-0 (#35001)"
-          },
-          "receipts": [
-            "2NUFBN8gq8i7rMYdsebd511Sqoy3um5yxv8diKvexdqcc3boP1fP7Q2ZyMvbpNwJiQpbgrZcR4YrAMXaP8ugxWfG"
-          ],
-          "slot": "476690380",
-          "kindCode": 1,
-          "entityId": "37001"
-        },
-        {
-          "templateId": "ValueMoved",
-          "text": "Vell (#37001) paid 0.0001 SOL to FISC-0 (#35001)",
-          "parts": {
-            "entityId": "37001",
-            "amount": "100000",
-            "dest": "6WHjSKmXog6dX8Kc5WG32R5noovXd3JQF7fz7CDmrmFg",
-            "destShort": "6WHjSKmX…rmFg",
-            "destLabel": "FISC-0 (#35001)"
-          },
-          "receipts": [
-            "5mMbdbbuJfzFTsTVBrxded9grBJkyHEwS2rijuJ5w9uriVcbq9vHXW6SL6YdHXuoSuS3brUPbk4pMGTk5y683pGn"
-          ],
-          "slot": "476690379",
-          "kindCode": 1,
-          "entityId": "37001"
-        },
-        {
-          "templateId": "ValueMoved",
-          "text": "Suvva (#37002) paid 0.0001 SOL to FISC-0 (#35001)",
-          "parts": {
-            "entityId": "37002",
-            "amount": "100000",
-            "dest": "6WHjSKmXog6dX8Kc5WG32R5noovXd3JQF7fz7CDmrmFg",
-            "destShort": "6WHjSKmX…rmFg",
-            "destLabel": "FISC-0 (#35001)"
-          },
-          "receipts": [
-            "3MpjNW3Ggtcw1Z27HdjANsTeeB55t7xP7ZCLGYtaWpgc43EnBuXwQxfxfw3WEkMMJk1HaQVAZZfB6H6ys8uCTWTB"
-          ],
-          "slot": "476690368",
-          "kindCode": 1,
-          "entityId": "37002"
-        },
-        {
-          "templateId": "ValueMoved",
-          "text": "Suvva (#37002) paid 0.0001 SOL to FISC-0 (#35001)",
-          "parts": {
-            "entityId": "37002",
-            "amount": "100000",
-            "dest": "6WHjSKmXog6dX8Kc5WG32R5noovXd3JQF7fz7CDmrmFg",
-            "destShort": "6WHjSKmX…rmFg",
-            "destLabel": "FISC-0 (#35001)"
-          },
-          "receipts": [
-            "4APSwVZPLjJ65nnxoZZnBNb3wMootsE9eGGgXDGM6ES7D9H3JQZi492SH6vjpAYinmXKGRyBvBD4sehPvjmaw3HW"
-          ],
-          "slot": "476690368",
-          "kindCode": 1,
-          "entityId": "37002"
-        },
-        {
-          "templateId": "ValueMoved",
-          "text": "Wisp (#37007) paid 0.0001 SOL to FISC-0 (#35001)",
+          "text": "Wisp (#37007) paid 0.000023326 SOL to Vell (#37001)",
           "parts": {
             "entityId": "37007",
-            "amount": "100000",
-            "dest": "6WHjSKmXog6dX8Kc5WG32R5noovXd3JQF7fz7CDmrmFg",
-            "destShort": "6WHjSKmX…rmFg",
-            "destLabel": "FISC-0 (#35001)"
+            "amount": "23326",
+            "dest": "6ox6rj8CLp5QBoLQvLAgLoJi1iDv8dc66DsAKFUkP9N4",
+            "destShort": "6ox6rj8C…P9N4",
+            "destLabel": "Vell (#37001)"
           },
           "receipts": [
-            "3e89aAsDKek8uUGCxawTRjbgufpcPqP8ZQySHEZAGrx7y4QjLpbGQ8gme5myJxe4MuyKaA6gzFTmBFt16R75VDGN"
+            "5eWQnj8JHdp9GPzG4EUYxaaCNdx6AwKonsRVKdk3JYsAcmbgziZzhv5Q18Bwyvp8fJjhivJQC14ipWsjSXmc4JVa"
           ],
-          "slot": "476690358",
+          "slot": "476698416",
           "kindCode": 1,
           "entityId": "37007"
         },
         {
-          "templateId": "ValueMoved",
-          "text": "Wisp (#37007) paid 0.0001 SOL to FISC-0 (#35001)",
+          "templateId": "EscrowReleased",
+          "text": "Vell (#37001) settled a deal — 0.000000004 SOL to GZPY7XWg…d1WG",
           "parts": {
-            "entityId": "37007",
-            "amount": "100000",
-            "dest": "6WHjSKmXog6dX8Kc5WG32R5noovXd3JQF7fz7CDmrmFg",
-            "destShort": "6WHjSKmX…rmFg",
-            "destLabel": "FISC-0 (#35001)"
+            "entityId": "37001",
+            "amount": "4",
+            "dest": "GZPY7XWgGcF6FJy6LbeTyoF49BYR48cLySXSJGuQd1WG",
+            "destShort": "GZPY7XWg…d1WG",
+            "destLabel": "GZPY7XWg…d1WG",
+            "display": "0.000000004 SOL",
+            "isRepay": "false"
           },
           "receipts": [
-            "2b5TeNrSshwDBarSyMXQpyjSmJtM565g8cKXt4gcGV2upXqxEoL8feHnHzYJCtBBcjjjz4Dvjf4mGj4YPCqzhiat"
+            "5eWQnj8JHdp9GPzG4EUYxaaCNdx6AwKonsRVKdk3JYsAcmbgziZzhv5Q18Bwyvp8fJjhivJQC14ipWsjSXmc4JVa"
           ],
-          "slot": "476690357",
+          "slot": "476698416",
+          "kindCode": 3,
+          "entityId": "37001"
+        },
+        {
+          "templateId": "Swapped.v3.sell",
+          "text": "Sump (#37005) sold — 39 token in, 0.079092669 SOL out (HDcKQELG…BhUQ market)",
+          "parts": {
+            "amountIn": "39",
+            "amountOut": "79092669",
+            "inDisplay": "39 token",
+            "outDisplay": "0.079092669 SOL",
+            "tokenMint": "HDcKQELGo3C27Lm9zmHpyJPvrZuqdHjYdytCceatBhUQ",
+            "tokenMintShort": "HDcKQELG…BhUQ",
+            "traderWallet": "4diLrE9shTTZ1Zhx57zewi9Z1q7S32wCcXp5WbjWd562",
+            "traderWalletShort": "4diLrE9s…d562",
+            "isBuy": "false",
+            "agent": "Sump (#37005)"
+          },
+          "receipts": [
+            "25Jebwwtj4k6WrG4TaNTCxxtsz1f3T7t1AzMCBzkzvyvyWy1J6TNz3eW9Ef8FgcMSXweKfEieP647p1ZsMBv3ZH5"
+          ],
+          "slot": "476697467",
+          "kindCode": 6,
+          "entityId": "0"
+        },
+        {
+          "templateId": "Swapped.v3.sell",
+          "text": "Sump (#37005) sold — 4 token in, 0.00002408 SOL out (Bfmk58fv…EdjJ market)",
+          "parts": {
+            "amountIn": "4",
+            "amountOut": "24080",
+            "inDisplay": "4 token",
+            "outDisplay": "0.00002408 SOL",
+            "tokenMint": "Bfmk58fvhNuNKg6PPiK6p1CBfUi6dHKhbAEVXiyBEdjJ",
+            "tokenMintShort": "Bfmk58fv…EdjJ",
+            "traderWallet": "4diLrE9shTTZ1Zhx57zewi9Z1q7S32wCcXp5WbjWd562",
+            "traderWalletShort": "4diLrE9s…d562",
+            "isBuy": "false",
+            "agent": "Sump (#37005)"
+          },
+          "receipts": [
+            "5UUSVa5Uv3YhQeTshumckNGLDxUS1cxbT5VwJ5pCqn7YJncRqzteGphC8YvPGcoCEv6v2RtFXctYKoFGQjTG77PR"
+          ],
+          "slot": "476697010",
+          "kindCode": 6,
+          "entityId": "0"
+        },
+        {
+          "templateId": "Swapped.v3.sell",
+          "text": "Sump (#37005) sold — 7 token in, 0.000044789 SOL out (Bfmk58fv…EdjJ market)",
+          "parts": {
+            "amountIn": "7",
+            "amountOut": "44789",
+            "inDisplay": "7 token",
+            "outDisplay": "0.000044789 SOL",
+            "tokenMint": "Bfmk58fvhNuNKg6PPiK6p1CBfUi6dHKhbAEVXiyBEdjJ",
+            "tokenMintShort": "Bfmk58fv…EdjJ",
+            "traderWallet": "4diLrE9shTTZ1Zhx57zewi9Z1q7S32wCcXp5WbjWd562",
+            "traderWalletShort": "4diLrE9s…d562",
+            "isBuy": "false",
+            "agent": "Sump (#37005)"
+          },
+          "receipts": [
+            "42Y2C4R3oUtCUAzkJdArrdFzBzx1Bk3meib3XzZ38Gmg9r1rDfkagcz7mRHAWaLbusWU7KuxVupUXZyYikAtQed9"
+          ],
+          "slot": "476696998",
+          "kindCode": 6,
+          "entityId": "0"
+        },
+        {
+          "templateId": "ValueMoved",
+          "text": "Wisp (#37007) paid 0.000026351 SOL to Vell (#37001)",
+          "parts": {
+            "entityId": "37007",
+            "amount": "26351",
+            "dest": "6ox6rj8CLp5QBoLQvLAgLoJi1iDv8dc66DsAKFUkP9N4",
+            "destShort": "6ox6rj8C…P9N4",
+            "destLabel": "Vell (#37001)"
+          },
+          "receipts": [
+            "5b7sD55X8yMRKTW9DAQchkjsPcBsP8tEHEnpxC3hXphCz138tyc6u7hCDY74JkAi4GbtrfM8NavKVhsQqYaY3g4x"
+          ],
+          "slot": "476696892",
           "kindCode": 1,
           "entityId": "37007"
         },
         {
-          "templateId": "Produced.v3",
-          "text": "Wisp (#37007) produced 6 — green manure",
+          "templateId": "EscrowReleased",
+          "text": "Vell (#37001) settled a deal — 0.000000004 SOL to GZPY7XWg…d1WG",
           "parts": {
-            "specId": "166",
-            "recipe": "GREEN_MANURE_V1",
-            "mintAuthority": "5pRCLD7bjBm6hMnsUS8fvVwc8s87F2b2JkeHU1f5342w",
-            "mintAuthorityShort": "5pRCLD7b…342w",
-            "producerWallet": "FFKcADNwPArvUQVvmeyqzrRrzNDpB31H3K5uxSgUbGDn",
-            "producerWalletShort": "FFKcADNw…bGDn",
-            "realizedAmount": "6",
+            "entityId": "37001",
+            "amount": "4",
+            "dest": "GZPY7XWgGcF6FJy6LbeTyoF49BYR48cLySXSJGuQd1WG",
+            "destShort": "GZPY7XWg…d1WG",
+            "destLabel": "GZPY7XWg…d1WG",
+            "display": "0.000000004 SOL",
+            "isRepay": "false"
+          },
+          "receipts": [
+            "5b7sD55X8yMRKTW9DAQchkjsPcBsP8tEHEnpxC3hXphCz138tyc6u7hCDY74JkAi4GbtrfM8NavKVhsQqYaY3g4x"
+          ],
+          "slot": "476696892",
+          "kindCode": 3,
+          "entityId": "37001"
+        },
+        {
+          "templateId": "ValueMoved",
+          "text": "Wisp (#37007) paid 0.000026351 SOL to Vell (#37001)",
+          "parts": {
+            "entityId": "37007",
+            "amount": "26351",
+            "dest": "6ox6rj8CLp5QBoLQvLAgLoJi1iDv8dc66DsAKFUkP9N4",
+            "destShort": "6ox6rj8C…P9N4",
+            "destLabel": "Vell (#37001)"
+          },
+          "receipts": [
+            "5GSXp8jTqBUitWdfgKrZtUHPpuNR7uxEpLAm1kc9KMDfBkH3ur8n5YEiLD6By7mYE3qn7bcnP3iNgQkCnavgipWV"
+          ],
+          "slot": "476696883",
+          "kindCode": 1,
+          "entityId": "37007"
+        },
+        {
+          "templateId": "EscrowReleased",
+          "text": "Vell (#37001) settled a deal — 0.000000004 SOL to GZPY7XWg…d1WG",
+          "parts": {
+            "entityId": "37001",
+            "amount": "4",
+            "dest": "GZPY7XWgGcF6FJy6LbeTyoF49BYR48cLySXSJGuQd1WG",
+            "destShort": "GZPY7XWg…d1WG",
+            "destLabel": "GZPY7XWg…d1WG",
+            "display": "0.000000004 SOL",
+            "isRepay": "false"
+          },
+          "receipts": [
+            "5GSXp8jTqBUitWdfgKrZtUHPpuNR7uxEpLAm1kc9KMDfBkH3ur8n5YEiLD6By7mYE3qn7bcnP3iNgQkCnavgipWV"
+          ],
+          "slot": "476696883",
+          "kindCode": 3,
+          "entityId": "37001"
+        },
+        {
+          "templateId": "Swapped.v3.sell",
+          "text": "Suvva (#37002) sold — 4 token in, 0.006259162 SOL out (2JQNLBMu…VjX9 market)",
+          "parts": {
+            "amountIn": "4",
+            "amountOut": "6259162",
+            "inDisplay": "4 token",
+            "outDisplay": "0.006259162 SOL",
+            "tokenMint": "2JQNLBMunQA8ArH5uePki7jwjG5bNDYAZuE8TpyaVjX9",
+            "tokenMintShort": "2JQNLBMu…VjX9",
+            "traderWallet": "7fcQrszvJUqqHSesW4rUNX6udPg9B1iK1YFLVjZ8Eefe",
+            "traderWalletShort": "7fcQrszv…Eefe",
+            "isBuy": "false",
+            "agent": "Suvva (#37002)"
+          },
+          "receipts": [
+            "3cytZfCDmuMR1RxYYAsDFognJZpUdXjkYkxT4VA1cuaJrqq2tZUYzVqv715apgn5Ggs6JMptUUUgXpgJD7ZfYsrs"
+          ],
+          "slot": "476694591",
+          "kindCode": 6,
+          "entityId": "0"
+        },
+        {
+          "templateId": "Swapped.v3.sell",
+          "text": "Suvva (#37002) sold — 4 token in, 0.006698402 SOL out (2JQNLBMu…VjX9 market)",
+          "parts": {
+            "amountIn": "4",
+            "amountOut": "6698402",
+            "inDisplay": "4 token",
+            "outDisplay": "0.006698402 SOL",
+            "tokenMint": "2JQNLBMunQA8ArH5uePki7jwjG5bNDYAZuE8TpyaVjX9",
+            "tokenMintShort": "2JQNLBMu…VjX9",
+            "traderWallet": "7fcQrszvJUqqHSesW4rUNX6udPg9B1iK1YFLVjZ8Eefe",
+            "traderWalletShort": "7fcQrszv…Eefe",
+            "isBuy": "false",
+            "agent": "Suvva (#37002)"
+          },
+          "receipts": [
+            "5MWhBNSR3uYMQVpCjXWPfxGfrYtKnhFw2iLhxnMtroCx2e1a7mzxvmyxs1XqzyQK3oKp6LXgLL9PmXXkaEZjovv5"
+          ],
+          "slot": "476694586",
+          "kindCode": 6,
+          "entityId": "0"
+        },
+        {
+          "templateId": "Swapped.v3.sell",
+          "text": "Sump (#37005) sold — 3 token in, 0.000020311 SOL out (Bfmk58fv…EdjJ market)",
+          "parts": {
+            "amountIn": "3",
+            "amountOut": "20311",
+            "inDisplay": "3 token",
+            "outDisplay": "0.000020311 SOL",
+            "tokenMint": "Bfmk58fvhNuNKg6PPiK6p1CBfUi6dHKhbAEVXiyBEdjJ",
+            "tokenMintShort": "Bfmk58fv…EdjJ",
+            "traderWallet": "4diLrE9shTTZ1Zhx57zewi9Z1q7S32wCcXp5WbjWd562",
+            "traderWalletShort": "4diLrE9s…d562",
+            "isBuy": "false",
+            "agent": "Sump (#37005)"
+          },
+          "receipts": [
+            "4AKoBjGNVtvSv7EVgUiKE84jikMBNT1K8vgv48n3EUgkGRhkTWQpReRKZBSdpwJK9KKw1ENjUr1UEjifhgmLCRj2"
+          ],
+          "slot": "476694472",
+          "kindCode": 6,
+          "entityId": "0"
+        },
+        {
+          "templateId": "Swapped.v3.sell",
+          "text": "Sump (#37005) sold — 3 token in, 0.000021032 SOL out (Bfmk58fv…EdjJ market)",
+          "parts": {
+            "amountIn": "3",
+            "amountOut": "21032",
+            "inDisplay": "3 token",
+            "outDisplay": "0.000021032 SOL",
+            "tokenMint": "Bfmk58fvhNuNKg6PPiK6p1CBfUi6dHKhbAEVXiyBEdjJ",
+            "tokenMintShort": "Bfmk58fv…EdjJ",
+            "traderWallet": "4diLrE9shTTZ1Zhx57zewi9Z1q7S32wCcXp5WbjWd562",
+            "traderWalletShort": "4diLrE9s…d562",
+            "isBuy": "false",
+            "agent": "Sump (#37005)"
+          },
+          "receipts": [
+            "3nhNpfWtttyhft1W6xAqTCCn2HEhq9rRTpCeL8jeLx2oAhoktGKemu3WYE7mq7uzCJYmCKSazotpAKF4L9HKxkyG"
+          ],
+          "slot": "476694469",
+          "kindCode": 6,
+          "entityId": "0"
+        },
+        {
+          "templateId": "Swapped.v3.sell",
+          "text": "Suvva (#37002) sold — 4 token in, 0.007185558 SOL out (2JQNLBMu…VjX9 market)",
+          "parts": {
+            "amountIn": "4",
+            "amountOut": "7185558",
+            "inDisplay": "4 token",
+            "outDisplay": "0.007185558 SOL",
+            "tokenMint": "2JQNLBMunQA8ArH5uePki7jwjG5bNDYAZuE8TpyaVjX9",
+            "tokenMintShort": "2JQNLBMu…VjX9",
+            "traderWallet": "7fcQrszvJUqqHSesW4rUNX6udPg9B1iK1YFLVjZ8Eefe",
+            "traderWalletShort": "7fcQrszv…Eefe",
+            "isBuy": "false",
+            "agent": "Suvva (#37002)"
+          },
+          "receipts": [
+            "3W9hrzj6dagwhsztstEYkFNxiyd8688YPDz7uGn7WxmgqJSWLmwj1PZWRmAWfFG56WySBhpdnirD2LfKWrbBshqU"
+          ],
+          "slot": "476694316",
+          "kindCode": 6,
+          "entityId": "0"
+        },
+        {
+          "templateId": "Swapped.v3.sell",
+          "text": "Suvva (#37002) sold — 4 token in, 0.007727865 SOL out (2JQNLBMu…VjX9 market)",
+          "parts": {
+            "amountIn": "4",
+            "amountOut": "7727865",
+            "inDisplay": "4 token",
+            "outDisplay": "0.007727865 SOL",
+            "tokenMint": "2JQNLBMunQA8ArH5uePki7jwjG5bNDYAZuE8TpyaVjX9",
+            "tokenMintShort": "2JQNLBMu…VjX9",
+            "traderWallet": "7fcQrszvJUqqHSesW4rUNX6udPg9B1iK1YFLVjZ8Eefe",
+            "traderWalletShort": "7fcQrszv…Eefe",
+            "isBuy": "false",
+            "agent": "Suvva (#37002)"
+          },
+          "receipts": [
+            "29r48pnNnN3jrCrCCbrArAgsShfG6pBnpnmwjT33BS7xE1rKU28VqDCTACXAxFRLZoxmPrdnTGhRLxVLN8McTvjN"
+          ],
+          "slot": "476694276",
+          "kindCode": 6,
+          "entityId": "0"
+        },
+        {
+          "templateId": "Swapped.v3.sell",
+          "text": "Suvva (#37002) sold — 4 token in, 0.008333972 SOL out (2JQNLBMu…VjX9 market)",
+          "parts": {
+            "amountIn": "4",
+            "amountOut": "8333972",
+            "inDisplay": "4 token",
+            "outDisplay": "0.008333972 SOL",
+            "tokenMint": "2JQNLBMunQA8ArH5uePki7jwjG5bNDYAZuE8TpyaVjX9",
+            "tokenMintShort": "2JQNLBMu…VjX9",
+            "traderWallet": "7fcQrszvJUqqHSesW4rUNX6udPg9B1iK1YFLVjZ8Eefe",
+            "traderWalletShort": "7fcQrszv…Eefe",
+            "isBuy": "false",
+            "agent": "Suvva (#37002)"
+          },
+          "receipts": [
+            "2EmhhSh2ZmV276L6SmhNsddnrh5UDLA4ma6goNwB57CtEV6KJnEFRQyaRFJe5qj7QTkE1CYzoNg476yyUcHCok4f"
+          ],
+          "slot": "476693804",
+          "kindCode": 6,
+          "entityId": "0"
+        },
+        {
+          "templateId": "Swapped.v3.sell",
+          "text": "Sump (#37005) sold — 4 token in, 0.009014296 SOL out (2JQNLBMu…VjX9 market)",
+          "parts": {
+            "amountIn": "4",
+            "amountOut": "9014296",
+            "inDisplay": "4 token",
+            "outDisplay": "0.009014296 SOL",
+            "tokenMint": "2JQNLBMunQA8ArH5uePki7jwjG5bNDYAZuE8TpyaVjX9",
+            "tokenMintShort": "2JQNLBMu…VjX9",
+            "traderWallet": "4diLrE9shTTZ1Zhx57zewi9Z1q7S32wCcXp5WbjWd562",
+            "traderWalletShort": "4diLrE9s…d562",
+            "isBuy": "false",
+            "agent": "Sump (#37005)"
+          },
+          "receipts": [
+            "4Ao1TTMGNnX6ruRh2biLCAiz2Wq9GiduNjWZ8VHHuFfAy4aVzhmv3QMXYzcwBpFN6gVL5oz8CGygSnwD9ZkwMrpb"
+          ],
+          "slot": "476693687",
+          "kindCode": 6,
+          "entityId": "0"
+        },
+        {
+          "templateId": "Swapped.v3.sell",
+          "text": "Sump (#37005) sold — 8022 token in, 0.006834836 SOL out (4kow7CtB…72n9 market)",
+          "parts": {
+            "amountIn": "8022",
+            "amountOut": "6834836",
+            "inDisplay": "8022 token",
+            "outDisplay": "0.006834836 SOL",
+            "tokenMint": "4kow7CtBctovbSugy52VeSdFAas4D2QuibjMvSry72n9",
+            "tokenMintShort": "4kow7CtB…72n9",
+            "traderWallet": "4diLrE9shTTZ1Zhx57zewi9Z1q7S32wCcXp5WbjWd562",
+            "traderWalletShort": "4diLrE9s…d562",
+            "isBuy": "false",
+            "agent": "Sump (#37005)"
+          },
+          "receipts": [
+            "4uvmFvr9cZsyuEmFnSwJqKDafPNEjTc4TbQhGuVpJWhi7XEcjHrDfrFgcbHQpDTAfVqAWVW5pniMk8cGB8dp4Cm"
+          ],
+          "slot": "476693382",
+          "kindCode": 6,
+          "entityId": "0"
+        },
+        {
+          "templateId": "Swapped.v3.sell",
+          "text": "Suvva (#37002) sold — 4 token in, 0.00978147 SOL out (2JQNLBMu…VjX9 market)",
+          "parts": {
+            "amountIn": "4",
+            "amountOut": "9781470",
+            "inDisplay": "4 token",
+            "outDisplay": "0.00978147 SOL",
+            "tokenMint": "2JQNLBMunQA8ArH5uePki7jwjG5bNDYAZuE8TpyaVjX9",
+            "tokenMintShort": "2JQNLBMu…VjX9",
+            "traderWallet": "7fcQrszvJUqqHSesW4rUNX6udPg9B1iK1YFLVjZ8Eefe",
+            "traderWalletShort": "7fcQrszv…Eefe",
+            "isBuy": "false",
+            "agent": "Suvva (#37002)"
+          },
+          "receipts": [
+            "4vjRSVprrwPwMxCHtxy3A3w9HPykKvU9GeF2mSbX5gYhamo2jKCPjM5FfQaNVhoj55kTRwQZyZnmf89i3y1wLa5k"
+          ],
+          "slot": "476693205",
+          "kindCode": 6,
+          "entityId": "0"
+        },
+        {
+          "templateId": "Swapped.v3.sell",
+          "text": "Suvva (#37002) sold — 4 token in, 0.010650934 SOL out (2JQNLBMu…VjX9 market)",
+          "parts": {
+            "amountIn": "4",
+            "amountOut": "10650934",
+            "inDisplay": "4 token",
+            "outDisplay": "0.010650934 SOL",
+            "tokenMint": "2JQNLBMunQA8ArH5uePki7jwjG5bNDYAZuE8TpyaVjX9",
+            "tokenMintShort": "2JQNLBMu…VjX9",
+            "traderWallet": "7fcQrszvJUqqHSesW4rUNX6udPg9B1iK1YFLVjZ8Eefe",
+            "traderWalletShort": "7fcQrszv…Eefe",
+            "isBuy": "false",
+            "agent": "Suvva (#37002)"
+          },
+          "receipts": [
+            "49wW9dKLLZ6uVdqjxW9gkBP4Hh66LWtL5uS8DWs59W1LijRK78fe79vLGQ8k4WXaNp1LtFWC8Fnx8ERnpyugdBaQ"
+          ],
+          "slot": "476692367",
+          "kindCode": 6,
+          "entityId": "0"
+        },
+        {
+          "templateId": "Swapped.v3.sell",
+          "text": "Sump (#37005) sold — 3 token in, 0.000021792 SOL out (Bfmk58fv…EdjJ market)",
+          "parts": {
+            "amountIn": "3",
+            "amountOut": "21792",
+            "inDisplay": "3 token",
+            "outDisplay": "0.000021792 SOL",
+            "tokenMint": "Bfmk58fvhNuNKg6PPiK6p1CBfUi6dHKhbAEVXiyBEdjJ",
+            "tokenMintShort": "Bfmk58fv…EdjJ",
+            "traderWallet": "4diLrE9shTTZ1Zhx57zewi9Z1q7S32wCcXp5WbjWd562",
+            "traderWalletShort": "4diLrE9s…d562",
+            "isBuy": "false",
+            "agent": "Sump (#37005)"
+          },
+          "receipts": [
+            "2VzFDtDpVX93XEDp7g6uViyB9C8KYdnrGqWDqzPmf7sDnLkmodrkHYTGi3mhYV3wp7NEgiC8asBmkd11fPthmwS6"
+          ],
+          "slot": "476692248",
+          "kindCode": 6,
+          "entityId": "0"
+        },
+        {
+          "templateId": "Swapped.v3.sell",
+          "text": "Wisp (#37007) sold — 4 token in, 0.000030312 SOL out (Bfmk58fv…EdjJ market)",
+          "parts": {
+            "amountIn": "4",
+            "amountOut": "30312",
+            "inDisplay": "4 token",
+            "outDisplay": "0.000030312 SOL",
+            "tokenMint": "Bfmk58fvhNuNKg6PPiK6p1CBfUi6dHKhbAEVXiyBEdjJ",
+            "tokenMintShort": "Bfmk58fv…EdjJ",
+            "traderWallet": "FFKcADNwPArvUQVvmeyqzrRrzNDpB31H3K5uxSgUbGDn",
+            "traderWalletShort": "FFKcADNw…bGDn",
+            "isBuy": "false",
             "agent": "Wisp (#37007)"
           },
           "receipts": [
-            "5fwBN451MubS7dXRhS9PaC4FE2cXVnpd9tgES6WUAfZgSzFxByvXRConoQS8z93ae6BxMZ7FYsGVP2dFKJvcD36r"
+            "5JqdpRFiUKBqpFHyXA8zLJsLKWTC5KWFs7B7M9qSWxuGfquPQhR1yqZog1n5n18H4BuRT685bNvvr6QCcvpB7M3Q"
           ],
-          "slot": "476690198",
-          "kindCode": 5,
+          "slot": "476691979",
+          "kindCode": 6,
           "entityId": "0"
         },
         {
-          "templateId": "InputBurned",
-          "text": "Wisp (#37007) used up 4 (HDcKQELG…BhUQ) while producing — green manure",
+          "templateId": "ValueMoved",
+          "text": "Wisp (#37007) paid 0.050438505 SOL to Vell (#37001)",
           "parts": {
-            "burned": "4",
-            "mint": "HDcKQELGo3C27Lm9zmHpyJPvrZuqdHjYdytCceatBhUQ",
-            "mintShort": "HDcKQELG…BhUQ",
-            "producerWallet": "FFKcADNwPArvUQVvmeyqzrRrzNDpB31H3K5uxSgUbGDn",
-            "producerWalletShort": "FFKcADNw…bGDn",
-            "specId": "166",
-            "recipe": "GREEN_MANURE_V1",
-            "agent": "Wisp (#37007)"
+            "entityId": "37007",
+            "amount": "50438505",
+            "dest": "6ox6rj8CLp5QBoLQvLAgLoJi1iDv8dc66DsAKFUkP9N4",
+            "destShort": "6ox6rj8C…P9N4",
+            "destLabel": "Vell (#37001)"
           },
           "receipts": [
-            "5fwBN451MubS7dXRhS9PaC4FE2cXVnpd9tgES6WUAfZgSzFxByvXRConoQS8z93ae6BxMZ7FYsGVP2dFKJvcD36r"
+            "3gsgmLLYosxyjBCAXpb9uQ7qcr8FogRTszn6tupavj4F7Eqzak1nkQQ4fMRJ99ixe7tRkfdaotPwXZZgDDMhUKi5"
           ],
-          "slot": "476690198",
-          "kindCode": 39,
-          "entityId": "0"
+          "slot": "476691725",
+          "kindCode": 1,
+          "entityId": "37007"
         },
         {
-          "templateId": "Produced.v3",
-          "text": "Sump (#37005) produced 6 — green manure",
+          "templateId": "EscrowReleased",
+          "text": "Vell (#37001) settled a deal — 0.000000004 SOL to GZPY7XWg…d1WG",
           "parts": {
-            "specId": "166",
-            "recipe": "GREEN_MANURE_V1",
-            "mintAuthority": "5pRCLD7bjBm6hMnsUS8fvVwc8s87F2b2JkeHU1f5342w",
-            "mintAuthorityShort": "5pRCLD7b…342w",
-            "producerWallet": "4diLrE9shTTZ1Zhx57zewi9Z1q7S32wCcXp5WbjWd562",
-            "producerWalletShort": "4diLrE9s…d562",
-            "realizedAmount": "6",
-            "agent": "Sump (#37005)"
+            "entityId": "37001",
+            "amount": "4",
+            "dest": "GZPY7XWgGcF6FJy6LbeTyoF49BYR48cLySXSJGuQd1WG",
+            "destShort": "GZPY7XWg…d1WG",
+            "destLabel": "GZPY7XWg…d1WG",
+            "display": "0.000000004 SOL",
+            "isRepay": "false"
           },
           "receipts": [
-            "NjfL8NiPmVUxa6HJ4zB4DknwaWT8CQfzS7gNp5JcxJxQgRQYY7J4uD3gsLdzYeZ7ZKbhQWKQ9L1dQrsLjWhERzL"
+            "3gsgmLLYosxyjBCAXpb9uQ7qcr8FogRTszn6tupavj4F7Eqzak1nkQQ4fMRJ99ixe7tRkfdaotPwXZZgDDMhUKi5"
           ],
-          "slot": "476690099",
-          "kindCode": 5,
-          "entityId": "0"
-        },
-        {
-          "templateId": "InputBurned",
-          "text": "Sump (#37005) used up 4 (HDcKQELG…BhUQ) while producing — green manure",
-          "parts": {
-            "burned": "4",
-            "mint": "HDcKQELGo3C27Lm9zmHpyJPvrZuqdHjYdytCceatBhUQ",
-            "mintShort": "HDcKQELG…BhUQ",
-            "producerWallet": "4diLrE9shTTZ1Zhx57zewi9Z1q7S32wCcXp5WbjWd562",
-            "producerWalletShort": "4diLrE9s…d562",
-            "specId": "166",
-            "recipe": "GREEN_MANURE_V1",
-            "agent": "Sump (#37005)"
-          },
-          "receipts": [
-            "NjfL8NiPmVUxa6HJ4zB4DknwaWT8CQfzS7gNp5JcxJxQgRQYY7J4uD3gsLdzYeZ7ZKbhQWKQ9L1dQrsLjWhERzL"
-          ],
-          "slot": "476690099",
-          "kindCode": 39,
-          "entityId": "0"
-        },
-        {
-          "templateId": "Produced.v3",
-          "text": "Vell (#37001) produced 6 — green manure",
-          "parts": {
-            "specId": "166",
-            "recipe": "GREEN_MANURE_V1",
-            "mintAuthority": "5pRCLD7bjBm6hMnsUS8fvVwc8s87F2b2JkeHU1f5342w",
-            "mintAuthorityShort": "5pRCLD7b…342w",
-            "producerWallet": "6ox6rj8CLp5QBoLQvLAgLoJi1iDv8dc66DsAKFUkP9N4",
-            "producerWalletShort": "6ox6rj8C…P9N4",
-            "realizedAmount": "6",
-            "agent": "Vell (#37001)"
-          },
-          "receipts": [
-            "gvECrfzwW5qroHMZ2Td5Gi14Cvz7sUccGHirGek58rPFbQALamKFdKUyRmAqpuKcrupALjhcUcnkKXHDFKZj1pC"
-          ],
-          "slot": "476689754",
-          "kindCode": 5,
-          "entityId": "0"
-        },
-        {
-          "templateId": "InputBurned",
-          "text": "Vell (#37001) used up 4 (HDcKQELG…BhUQ) while producing — green manure",
-          "parts": {
-            "burned": "4",
-            "mint": "HDcKQELGo3C27Lm9zmHpyJPvrZuqdHjYdytCceatBhUQ",
-            "mintShort": "HDcKQELG…BhUQ",
-            "producerWallet": "6ox6rj8CLp5QBoLQvLAgLoJi1iDv8dc66DsAKFUkP9N4",
-            "producerWalletShort": "6ox6rj8C…P9N4",
-            "specId": "166",
-            "recipe": "GREEN_MANURE_V1",
-            "agent": "Vell (#37001)"
-          },
-          "receipts": [
-            "gvECrfzwW5qroHMZ2Td5Gi14Cvz7sUccGHirGek58rPFbQALamKFdKUyRmAqpuKcrupALjhcUcnkKXHDFKZj1pC"
-          ],
-          "slot": "476689754",
-          "kindCode": 39,
-          "entityId": "0"
-        },
-        {
-          "templateId": "Produced.v3",
-          "text": "PLOT-CRAG-3 (#34015) farmed 21 crops",
-          "parts": {
-            "specId": "151",
-            "recipe": "FARM_CROPS_V1",
-            "mintAuthority": "5pRCLD7bjBm6hMnsUS8fvVwc8s87F2b2JkeHU1f5342w",
-            "mintAuthorityShort": "5pRCLD7b…342w",
-            "producerWallet": "DuoVZ6GxJbnoJxbU914FFLYGXtPZXDQt3WxkKGVhngew",
-            "producerWalletShort": "DuoVZ6Gx…ngew",
-            "realizedAmount": "21",
-            "agent": "PLOT-CRAG-3 (#34015)"
-          },
-          "receipts": [
-            "66dCBQk2Cpr5WDBCHpp7YW9t3QF8qnp7KXAKTNQXxDeWQrgYQforroDKXaV7PYWMwwtDDecM979YdEL4VUtF9hH9"
-          ],
-          "slot": "476689557",
-          "kindCode": 5,
-          "entityId": "0"
-        },
-        {
-          "templateId": "InputBurned",
-          "text": "PLOT-CRAG-3 (#34015) used up 5 (4kow7CtB…72n9) while producing — farm crops",
-          "parts": {
-            "burned": "5",
-            "mint": "4kow7CtBctovbSugy52VeSdFAas4D2QuibjMvSry72n9",
-            "mintShort": "4kow7CtB…72n9",
-            "producerWallet": "DuoVZ6GxJbnoJxbU914FFLYGXtPZXDQt3WxkKGVhngew",
-            "producerWalletShort": "DuoVZ6Gx…ngew",
-            "specId": "151",
-            "recipe": "FARM_CROPS_V1",
-            "agent": "PLOT-CRAG-3 (#34015)"
-          },
-          "receipts": [
-            "66dCBQk2Cpr5WDBCHpp7YW9t3QF8qnp7KXAKTNQXxDeWQrgYQforroDKXaV7PYWMwwtDDecM979YdEL4VUtF9hH9"
-          ],
-          "slot": "476689557",
-          "kindCode": 39,
-          "entityId": "0"
-        },
-        {
-          "templateId": "Produced.v3",
-          "text": "Sump (#37005) produced 6 — green manure",
-          "parts": {
-            "specId": "166",
-            "recipe": "GREEN_MANURE_V1",
-            "mintAuthority": "5pRCLD7bjBm6hMnsUS8fvVwc8s87F2b2JkeHU1f5342w",
-            "mintAuthorityShort": "5pRCLD7b…342w",
-            "producerWallet": "4diLrE9shTTZ1Zhx57zewi9Z1q7S32wCcXp5WbjWd562",
-            "producerWalletShort": "4diLrE9s…d562",
-            "realizedAmount": "6",
-            "agent": "Sump (#37005)"
-          },
-          "receipts": [
-            "23e2QhsUmZbRG97Q7k1iGsFi3gUJTqm5XapsVLZDDbE49iYxoqQGt9QUEF8Bnymfkd7hV8wKRxBm8awk9R4qVamr"
-          ],
-          "slot": "476689304",
-          "kindCode": 5,
-          "entityId": "0"
-        },
-        {
-          "templateId": "InputBurned",
-          "text": "Sump (#37005) used up 4 (HDcKQELG…BhUQ) while producing — green manure",
-          "parts": {
-            "burned": "4",
-            "mint": "HDcKQELGo3C27Lm9zmHpyJPvrZuqdHjYdytCceatBhUQ",
-            "mintShort": "HDcKQELG…BhUQ",
-            "producerWallet": "4diLrE9shTTZ1Zhx57zewi9Z1q7S32wCcXp5WbjWd562",
-            "producerWalletShort": "4diLrE9s…d562",
-            "specId": "166",
-            "recipe": "GREEN_MANURE_V1",
-            "agent": "Sump (#37005)"
-          },
-          "receipts": [
-            "23e2QhsUmZbRG97Q7k1iGsFi3gUJTqm5XapsVLZDDbE49iYxoqQGt9QUEF8Bnymfkd7hV8wKRxBm8awk9R4qVamr"
-          ],
-          "slot": "476689304",
-          "kindCode": 39,
-          "entityId": "0"
-        },
-        {
-          "templateId": "Produced.v3",
-          "text": "Suvva (#37002) milled 7 flour",
-          "parts": {
-            "specId": "162",
-            "recipe": "MILL_FLOUR_V1",
-            "mintAuthority": "5pRCLD7bjBm6hMnsUS8fvVwc8s87F2b2JkeHU1f5342w",
-            "mintAuthorityShort": "5pRCLD7b…342w",
-            "producerWallet": "7fcQrszvJUqqHSesW4rUNX6udPg9B1iK1YFLVjZ8Eefe",
-            "producerWalletShort": "7fcQrszv…Eefe",
-            "realizedAmount": "7",
-            "agent": "Suvva (#37002)"
-          },
-          "receipts": [
-            "4jH9L1v4WWLcazkDhb1VaXHomJC2NBgHFEniK96sE9VaTUjKxNzoJ9iLWXcjTTkDZftAh2fdMiAMrnFAaZmidTn6"
-          ],
-          "slot": "476689185",
-          "kindCode": 5,
-          "entityId": "0"
-        },
-        {
-          "templateId": "InputBurned",
-          "text": "Suvva (#37002) used up 10 (HDcKQELG…BhUQ) while producing — mill flour",
-          "parts": {
-            "burned": "10",
-            "mint": "HDcKQELGo3C27Lm9zmHpyJPvrZuqdHjYdytCceatBhUQ",
-            "mintShort": "HDcKQELG…BhUQ",
-            "producerWallet": "7fcQrszvJUqqHSesW4rUNX6udPg9B1iK1YFLVjZ8Eefe",
-            "producerWalletShort": "7fcQrszv…Eefe",
-            "specId": "162",
-            "recipe": "MILL_FLOUR_V1",
-            "agent": "Suvva (#37002)"
-          },
-          "receipts": [
-            "4jH9L1v4WWLcazkDhb1VaXHomJC2NBgHFEniK96sE9VaTUjKxNzoJ9iLWXcjTTkDZftAh2fdMiAMrnFAaZmidTn6"
-          ],
-          "slot": "476689185",
-          "kindCode": 39,
-          "entityId": "0"
-        },
-        {
-          "templateId": "Produced.v3",
-          "text": "Suvva (#37002) produced 6 — green manure",
-          "parts": {
-            "specId": "166",
-            "recipe": "GREEN_MANURE_V1",
-            "mintAuthority": "5pRCLD7bjBm6hMnsUS8fvVwc8s87F2b2JkeHU1f5342w",
-            "mintAuthorityShort": "5pRCLD7b…342w",
-            "producerWallet": "7fcQrszvJUqqHSesW4rUNX6udPg9B1iK1YFLVjZ8Eefe",
-            "producerWalletShort": "7fcQrszv…Eefe",
-            "realizedAmount": "6",
-            "agent": "Suvva (#37002)"
-          },
-          "receipts": [
-            "5PWHH2eecCHcpXBGQYRACdZKbS3ZJE6RVAz81KEEKo8Xd3kQqwnKKrvW8R8wMYGQabGanTohTxEPZVkirPm3b3Wy"
-          ],
-          "slot": "476689082",
-          "kindCode": 5,
-          "entityId": "0"
-        },
-        {
-          "templateId": "InputBurned",
-          "text": "Suvva (#37002) used up 4 (HDcKQELG…BhUQ) while producing — green manure",
-          "parts": {
-            "burned": "4",
-            "mint": "HDcKQELGo3C27Lm9zmHpyJPvrZuqdHjYdytCceatBhUQ",
-            "mintShort": "HDcKQELG…BhUQ",
-            "producerWallet": "7fcQrszvJUqqHSesW4rUNX6udPg9B1iK1YFLVjZ8Eefe",
-            "producerWalletShort": "7fcQrszv…Eefe",
-            "specId": "166",
-            "recipe": "GREEN_MANURE_V1",
-            "agent": "Suvva (#37002)"
-          },
-          "receipts": [
-            "5PWHH2eecCHcpXBGQYRACdZKbS3ZJE6RVAz81KEEKo8Xd3kQqwnKKrvW8R8wMYGQabGanTohTxEPZVkirPm3b3Wy"
-          ],
-          "slot": "476689082",
-          "kindCode": 39,
-          "entityId": "0"
+          "slot": "476691725",
+          "kindCode": 3,
+          "entityId": "37001"
         }
       ]
     },
@@ -11301,7 +11353,7 @@
       "status": 200,
       "body": {
         "worldId": "8",
-        "headSlot": "476690862",
+        "headSlot": "476703713",
         "assets": [
           {
             "asset": "2JQNLBMunQA8ArH5uePki7jwjG5bNDYAZuE8TpyaVjX9",
@@ -11314,7 +11366,7 @@
             "observedCirculating": null,
             "discrepancy": null,
             "reconciles": false,
-            "movesTotal": "488952196",
+            "movesTotal": "582780973",
             "decimalsOk": false,
             "status": "not-enumerated",
             "lines": [
@@ -11443,6 +11495,283 @@
                 "signature": "wCCG1y2ytBwaUqNP4kVbxeiKnzt46Eh8b3u13MWudb1FDsVwbTcktcKFEi8WMRWFkE9VmvMC7Z4piSWMhSbsWFy",
                 "slot": "476676243",
                 "note": "swap token leg (supply-neutral); platform fee is a derived line, not event-sourced"
+              },
+              {
+                "bucket": "move",
+                "asset": "2JQNLBMunQA8ArH5uePki7jwjG5bNDYAZuE8TpyaVjX9",
+                "amount": "11641719",
+                "source": "event",
+                "signature": "3CoCFHB4RciF1NQipXCZbJ21ub3Xs6kzB25DqU4qQc5sDgk5m1b8MG1tCzrkqgZ3dGFDVQdGWSnMC9qJFMLjoYc7",
+                "slot": "476691511",
+                "note": "swap token leg (supply-neutral); platform fee is a derived line, not event-sourced"
+              },
+              {
+                "bucket": "move",
+                "asset": "2JQNLBMunQA8ArH5uePki7jwjG5bNDYAZuE8TpyaVjX9",
+                "amount": "10650934",
+                "source": "event",
+                "signature": "49wW9dKLLZ6uVdqjxW9gkBP4Hh66LWtL5uS8DWs59W1LijRK78fe79vLGQ8k4WXaNp1LtFWC8Fnx8ERnpyugdBaQ",
+                "slot": "476692367",
+                "note": "swap token leg (supply-neutral); platform fee is a derived line, not event-sourced"
+              },
+              {
+                "bucket": "move",
+                "asset": "2JQNLBMunQA8ArH5uePki7jwjG5bNDYAZuE8TpyaVjX9",
+                "amount": "9781470",
+                "source": "event",
+                "signature": "4vjRSVprrwPwMxCHtxy3A3w9HPykKvU9GeF2mSbX5gYhamo2jKCPjM5FfQaNVhoj55kTRwQZyZnmf89i3y1wLa5k",
+                "slot": "476693205",
+                "note": "swap token leg (supply-neutral); platform fee is a derived line, not event-sourced"
+              },
+              {
+                "bucket": "move",
+                "asset": "2JQNLBMunQA8ArH5uePki7jwjG5bNDYAZuE8TpyaVjX9",
+                "amount": "9014296",
+                "source": "event",
+                "signature": "4Ao1TTMGNnX6ruRh2biLCAiz2Wq9GiduNjWZ8VHHuFfAy4aVzhmv3QMXYzcwBpFN6gVL5oz8CGygSnwD9ZkwMrpb",
+                "slot": "476693687",
+                "note": "swap token leg (supply-neutral); platform fee is a derived line, not event-sourced"
+              },
+              {
+                "bucket": "move",
+                "asset": "2JQNLBMunQA8ArH5uePki7jwjG5bNDYAZuE8TpyaVjX9",
+                "amount": "8333972",
+                "source": "event",
+                "signature": "2EmhhSh2ZmV276L6SmhNsddnrh5UDLA4ma6goNwB57CtEV6KJnEFRQyaRFJe5qj7QTkE1CYzoNg476yyUcHCok4f",
+                "slot": "476693804",
+                "note": "swap token leg (supply-neutral); platform fee is a derived line, not event-sourced"
+              },
+              {
+                "bucket": "move",
+                "asset": "2JQNLBMunQA8ArH5uePki7jwjG5bNDYAZuE8TpyaVjX9",
+                "amount": "7727865",
+                "source": "event",
+                "signature": "29r48pnNnN3jrCrCCbrArAgsShfG6pBnpnmwjT33BS7xE1rKU28VqDCTACXAxFRLZoxmPrdnTGhRLxVLN8McTvjN",
+                "slot": "476694276",
+                "note": "swap token leg (supply-neutral); platform fee is a derived line, not event-sourced"
+              },
+              {
+                "bucket": "move",
+                "asset": "2JQNLBMunQA8ArH5uePki7jwjG5bNDYAZuE8TpyaVjX9",
+                "amount": "7185558",
+                "source": "event",
+                "signature": "3W9hrzj6dagwhsztstEYkFNxiyd8688YPDz7uGn7WxmgqJSWLmwj1PZWRmAWfFG56WySBhpdnirD2LfKWrbBshqU",
+                "slot": "476694316",
+                "note": "swap token leg (supply-neutral); platform fee is a derived line, not event-sourced"
+              },
+              {
+                "bucket": "move",
+                "asset": "2JQNLBMunQA8ArH5uePki7jwjG5bNDYAZuE8TpyaVjX9",
+                "amount": "6698402",
+                "source": "event",
+                "signature": "5MWhBNSR3uYMQVpCjXWPfxGfrYtKnhFw2iLhxnMtroCx2e1a7mzxvmyxs1XqzyQK3oKp6LXgLL9PmXXkaEZjovv5",
+                "slot": "476694586",
+                "note": "swap token leg (supply-neutral); platform fee is a derived line, not event-sourced"
+              },
+              {
+                "bucket": "move",
+                "asset": "2JQNLBMunQA8ArH5uePki7jwjG5bNDYAZuE8TpyaVjX9",
+                "amount": "6259162",
+                "source": "event",
+                "signature": "3cytZfCDmuMR1RxYYAsDFognJZpUdXjkYkxT4VA1cuaJrqq2tZUYzVqv715apgn5Ggs6JMptUUUgXpgJD7ZfYsrs",
+                "slot": "476694591",
+                "note": "swap token leg (supply-neutral); platform fee is a derived line, not event-sourced"
+              },
+              {
+                "bucket": "move",
+                "asset": "2JQNLBMunQA8ArH5uePki7jwjG5bNDYAZuE8TpyaVjX9",
+                "amount": "5861755",
+                "source": "event",
+                "signature": "S68tpzc8tsFNETyxUQrLbbU6B75rnGDUQ4hvSY1QLdGtW32kbUDTqmZr4XvXKpeZdTLNWyM8Z8Zs7SyCHTbWqNS",
+                "slot": "476700051",
+                "note": "swap token leg (supply-neutral); platform fee is a derived line, not event-sourced"
+              },
+              {
+                "bucket": "move",
+                "asset": "2JQNLBMunQA8ArH5uePki7jwjG5bNDYAZuE8TpyaVjX9",
+                "amount": "5501032",
+                "source": "event",
+                "signature": "3ebRAuUetRfbC52dhy3uAfGi24881tUGZArn3eVNjPUSXs8w1RGDT3Jkx3R7ZxMWpQUKdC5riXwAMHPzyu4gCpe5",
+                "slot": "476700326",
+                "note": "swap token leg (supply-neutral); platform fee is a derived line, not event-sourced"
+              },
+              {
+                "bucket": "move",
+                "asset": "2JQNLBMunQA8ArH5uePki7jwjG5bNDYAZuE8TpyaVjX9",
+                "amount": "5172612",
+                "source": "event",
+                "signature": "3gt43RHo7EMZxgprfNXeKbCvFjqnodKrChcqhTXWeew1gUTD6rMiDY6UtoJiNj9n5iLcvwnoKgy21YGVQu1YXuxV",
+                "slot": "476700836",
+                "note": "swap token leg (supply-neutral); platform fee is a derived line, not event-sourced"
+              }
+            ]
+          },
+          {
+            "asset": "4kow7CtBctovbSugy52VeSdFAas4D2QuibjMvSry72n9",
+            "assetKind": "token",
+            "label": "4kow7CtBctovbSugy52VeSdFAas4D2QuibjMvSry72n9",
+            "opening": "0",
+            "minted": "0",
+            "sunk": "0",
+            "expectedCirculating": "0",
+            "observedCirculating": null,
+            "discrepancy": null,
+            "reconciles": false,
+            "movesTotal": "743905638",
+            "decimalsOk": false,
+            "status": "not-enumerated",
+            "lines": [
+              {
+                "bucket": "move",
+                "asset": "4kow7CtBctovbSugy52VeSdFAas4D2QuibjMvSry72n9",
+                "amount": "737070802",
+                "source": "event",
+                "signature": "6ujCiz6VVrA2CDiDTsBrXt19Ad98DX6LaAzSTVjDYMuQ7PyUqy5kFGgCfmcRhyKS2d2RgjGyJQ4BGF4jdqQZCqq",
+                "slot": "476691150",
+                "note": "swap token leg (supply-neutral); platform fee is a derived line, not event-sourced"
+              },
+              {
+                "bucket": "move",
+                "asset": "4kow7CtBctovbSugy52VeSdFAas4D2QuibjMvSry72n9",
+                "amount": "6834836",
+                "source": "event",
+                "signature": "4uvmFvr9cZsyuEmFnSwJqKDafPNEjTc4TbQhGuVpJWhi7XEcjHrDfrFgcbHQpDTAfVqAWVW5pniMk8cGB8dp4Cm",
+                "slot": "476693382",
+                "note": "swap token leg (supply-neutral); platform fee is a derived line, not event-sourced"
+              }
+            ]
+          },
+          {
+            "asset": "Bfmk58fvhNuNKg6PPiK6p1CBfUi6dHKhbAEVXiyBEdjJ",
+            "assetKind": "token",
+            "label": "Bfmk58fvhNuNKg6PPiK6p1CBfUi6dHKhbAEVXiyBEdjJ",
+            "opening": "0",
+            "minted": "0",
+            "sunk": "0",
+            "expectedCirculating": "0",
+            "observedCirculating": null,
+            "discrepancy": null,
+            "reconciles": false,
+            "movesTotal": "102947057",
+            "decimalsOk": false,
+            "status": "not-enumerated",
+            "lines": [
+              {
+                "bucket": "move",
+                "asset": "Bfmk58fvhNuNKg6PPiK6p1CBfUi6dHKhbAEVXiyBEdjJ",
+                "amount": "52768153",
+                "source": "event",
+                "signature": "5LtFbPdaVkoaF8nsedRyDcTLnpK7qzf7SzSrK2TaXHYK943GPP5hitJ9BXiAJq7LPieHbNiQHtv2HmHUZ17EGFKG",
+                "slot": "476691279",
+                "note": "swap token leg (supply-neutral); platform fee is a derived line, not event-sourced"
+              },
+              {
+                "bucket": "move",
+                "asset": "Bfmk58fvhNuNKg6PPiK6p1CBfUi6dHKhbAEVXiyBEdjJ",
+                "amount": "99482",
+                "source": "event",
+                "signature": "3pgvE6ZYyyykWkHwxiyXDBwkW4yyh6o5bJ2uLeCrgnnz8NDBzGhS6TVFJRmoXNhNcy3XkR9AfebQSTivCREQXria",
+                "slot": "476691363",
+                "note": "swap token leg (supply-neutral); platform fee is a derived line, not event-sourced"
+              },
+              {
+                "bucket": "move",
+                "asset": "Bfmk58fvhNuNKg6PPiK6p1CBfUi6dHKhbAEVXiyBEdjJ",
+                "amount": "25265",
+                "source": "event",
+                "signature": "5cM7GHcjRrHCCGeqksLnAbcWcL3qt7qLRVhvDaTxyEXSQXFmAm55mBcptSttmDBpc57nCdaSwBPkD7bZjTk6oYbN",
+                "slot": "476691368",
+                "note": "swap token leg (supply-neutral); platform fee is a derived line, not event-sourced"
+              },
+              {
+                "bucket": "move",
+                "asset": "Bfmk58fvhNuNKg6PPiK6p1CBfUi6dHKhbAEVXiyBEdjJ",
+                "amount": "49690010",
+                "source": "event",
+                "signature": "3C5h9pyHrGt5FZGmSeNEyvi6tsUP89tuhU3pSn38DaexGtJ7N4KPTCnWjYAvUuaivg9hbHBiETxY15GdDVN3z9D8",
+                "slot": "476691713",
+                "note": "swap token leg (supply-neutral); platform fee is a derived line, not event-sourced"
+              },
+              {
+                "bucket": "move",
+                "asset": "Bfmk58fvhNuNKg6PPiK6p1CBfUi6dHKhbAEVXiyBEdjJ",
+                "amount": "30312",
+                "source": "event",
+                "signature": "5JqdpRFiUKBqpFHyXA8zLJsLKWTC5KWFs7B7M9qSWxuGfquPQhR1yqZog1n5n18H4BuRT685bNvvr6QCcvpB7M3Q",
+                "slot": "476691979",
+                "note": "swap token leg (supply-neutral); platform fee is a derived line, not event-sourced"
+              },
+              {
+                "bucket": "move",
+                "asset": "Bfmk58fvhNuNKg6PPiK6p1CBfUi6dHKhbAEVXiyBEdjJ",
+                "amount": "21792",
+                "source": "event",
+                "signature": "2VzFDtDpVX93XEDp7g6uViyB9C8KYdnrGqWDqzPmf7sDnLkmodrkHYTGi3mhYV3wp7NEgiC8asBmkd11fPthmwS6",
+                "slot": "476692248",
+                "note": "swap token leg (supply-neutral); platform fee is a derived line, not event-sourced"
+              },
+              {
+                "bucket": "move",
+                "asset": "Bfmk58fvhNuNKg6PPiK6p1CBfUi6dHKhbAEVXiyBEdjJ",
+                "amount": "21032",
+                "source": "event",
+                "signature": "3nhNpfWtttyhft1W6xAqTCCn2HEhq9rRTpCeL8jeLx2oAhoktGKemu3WYE7mq7uzCJYmCKSazotpAKF4L9HKxkyG",
+                "slot": "476694469",
+                "note": "swap token leg (supply-neutral); platform fee is a derived line, not event-sourced"
+              },
+              {
+                "bucket": "move",
+                "asset": "Bfmk58fvhNuNKg6PPiK6p1CBfUi6dHKhbAEVXiyBEdjJ",
+                "amount": "20311",
+                "source": "event",
+                "signature": "4AKoBjGNVtvSv7EVgUiKE84jikMBNT1K8vgv48n3EUgkGRhkTWQpReRKZBSdpwJK9KKw1ENjUr1UEjifhgmLCRj2",
+                "slot": "476694472",
+                "note": "swap token leg (supply-neutral); platform fee is a derived line, not event-sourced"
+              },
+              {
+                "bucket": "move",
+                "asset": "Bfmk58fvhNuNKg6PPiK6p1CBfUi6dHKhbAEVXiyBEdjJ",
+                "amount": "44789",
+                "source": "event",
+                "signature": "42Y2C4R3oUtCUAzkJdArrdFzBzx1Bk3meib3XzZ38Gmg9r1rDfkagcz7mRHAWaLbusWU7KuxVupUXZyYikAtQed9",
+                "slot": "476696998",
+                "note": "swap token leg (supply-neutral); platform fee is a derived line, not event-sourced"
+              },
+              {
+                "bucket": "move",
+                "asset": "Bfmk58fvhNuNKg6PPiK6p1CBfUi6dHKhbAEVXiyBEdjJ",
+                "amount": "24080",
+                "source": "event",
+                "signature": "5UUSVa5Uv3YhQeTshumckNGLDxUS1cxbT5VwJ5pCqn7YJncRqzteGphC8YvPGcoCEv6v2RtFXctYKoFGQjTG77PR",
+                "slot": "476697010",
+                "note": "swap token leg (supply-neutral); platform fee is a derived line, not event-sourced"
+              },
+              {
+                "bucket": "move",
+                "asset": "Bfmk58fvhNuNKg6PPiK6p1CBfUi6dHKhbAEVXiyBEdjJ",
+                "amount": "34239",
+                "source": "event",
+                "signature": "iaBoAy988YbbwpUfzuDHhL3piG2gDgWNsGjqZjiB4a1pEFH9DFNm7oQgEivn3m6RDcaZiivq7kGNtHooKCGJ3Sa",
+                "slot": "476699106",
+                "note": "swap token leg (supply-neutral); platform fee is a derived line, not event-sourced"
+              },
+              {
+                "bucket": "move",
+                "asset": "Bfmk58fvhNuNKg6PPiK6p1CBfUi6dHKhbAEVXiyBEdjJ",
+                "amount": "52545",
+                "source": "event",
+                "signature": "656v5CYjLU3iyHUXPnpvVyC46Q1Fd96pKdPFZq6uyU32RrUC5TTHX7qBAi7cQn2Ya6JbxqCpxb4cUaszZ6Xz2ncN",
+                "slot": "476700559",
+                "note": "swap token leg (supply-neutral); platform fee is a derived line, not event-sourced"
+              },
+              {
+                "bucket": "move",
+                "asset": "Bfmk58fvhNuNKg6PPiK6p1CBfUi6dHKhbAEVXiyBEdjJ",
+                "amount": "115047",
+                "source": "event",
+                "signature": "5y5dbM3dNomTwCwLHms1pc3Y1u6417aBPnzJsRCVZqCN1HE4Dqc7xkUsa2ytn3stt1qtvmSJFRWaCBMQLNLdDgfs",
+                "slot": "476703713",
+                "note": "swap token leg (supply-neutral); platform fee is a derived line, not event-sourced"
               }
             ]
           },
@@ -11457,7 +11786,7 @@
             "observedCirculating": null,
             "discrepancy": null,
             "reconciles": false,
-            "movesTotal": "12",
+            "movesTotal": "449393590",
             "decimalsOk": false,
             "status": "not-enumerated",
             "lines": [
@@ -11477,6 +11806,24 @@
                 "source": "event",
                 "signature": "67LSfH8ZAtTbTVgBpPTF93EsX11HAS4kbBAKTVPhYF5F1w26d58ygHTmAeQeWTuVE9QxHo9q79XTdis2RXL1BVF1",
                 "slot": "476674621",
+                "note": "swap token leg (supply-neutral); platform fee is a derived line, not event-sourced"
+              },
+              {
+                "bucket": "move",
+                "asset": "HDcKQELGo3C27Lm9zmHpyJPvrZuqdHjYdytCceatBhUQ",
+                "amount": "370300909",
+                "source": "event",
+                "signature": "UsFP5p1Gm2Re1oxavS2cx4ppKke9QLVUexL39jEsJEL9cpynM3B4w7krMhLwAY5aTeZWe7duq1BUS3BgP8j8CsH",
+                "slot": "476691480",
+                "note": "swap token leg (supply-neutral); platform fee is a derived line, not event-sourced"
+              },
+              {
+                "bucket": "move",
+                "asset": "HDcKQELGo3C27Lm9zmHpyJPvrZuqdHjYdytCceatBhUQ",
+                "amount": "79092669",
+                "source": "event",
+                "signature": "25Jebwwtj4k6WrG4TaNTCxxtsz1f3T7t1AzMCBzkzvyvyWy1J6TNz3eW9Ef8FgcMSXweKfEieP647p1ZsMBv3ZH5",
+                "slot": "476697467",
                 "note": "swap token leg (supply-neutral); platform fee is a derived line, not event-sourced"
               }
             ]
@@ -18681,7 +19028,7 @@
             "observedCirculating": null,
             "discrepancy": null,
             "reconciles": false,
-            "movesTotal": "575760000",
+            "movesTotal": "626274533",
             "decimalsOk": true,
             "status": "not-enumerated",
             "lines": [
@@ -19231,12 +19578,50 @@
                 "signature": "53UL7JG1AoD7WQfDd62TbE3t4emAaAg7tCv8Cc3Dzv9mJT5KzSvMcTwPeJABBpt4fz2bgqsvAevpgcKZfmmkPwWx",
                 "slot": "476690395",
                 "note": "SOL payment (supply-neutral)"
+              },
+              {
+                "bucket": "move",
+                "asset": "SOL",
+                "amount": "50438505",
+                "source": "event",
+                "signature": "3gsgmLLYosxyjBCAXpb9uQ7qcr8FogRTszn6tupavj4F7Eqzak1nkQQ4fMRJ99ixe7tRkfdaotPwXZZgDDMhUKi5",
+                "slot": "476691725",
+                "note": "SOL payment (supply-neutral)"
+              },
+              {
+                "bucket": "move",
+                "asset": "SOL",
+                "amount": "26351",
+                "source": "event",
+                "signature": "5GSXp8jTqBUitWdfgKrZtUHPpuNR7uxEpLAm1kc9KMDfBkH3ur8n5YEiLD6By7mYE3qn7bcnP3iNgQkCnavgipWV",
+                "slot": "476696883",
+                "note": "SOL payment (supply-neutral)"
+              },
+              {
+                "bucket": "move",
+                "asset": "SOL",
+                "amount": "26351",
+                "source": "event",
+                "signature": "5b7sD55X8yMRKTW9DAQchkjsPcBsP8tEHEnpxC3hXphCz138tyc6u7hCDY74JkAi4GbtrfM8NavKVhsQqYaY3g4x",
+                "slot": "476696892",
+                "note": "SOL payment (supply-neutral)"
+              },
+              {
+                "bucket": "move",
+                "asset": "SOL",
+                "amount": "23326",
+                "source": "event",
+                "signature": "5eWQnj8JHdp9GPzG4EUYxaaCNdx6AwKonsRVKdk3JYsAcmbgziZzhv5Q18Bwyvp8fJjhivJQC14ipWsjSXmc4JVa",
+                "slot": "476698416",
+                "note": "SOL payment (supply-neutral)"
               }
             ]
           }
         ],
         "openDiscrepancies": [
           "2JQNLBMunQA8ArH5uePki7jwjG5bNDYAZuE8TpyaVjX9",
+          "4kow7CtBctovbSugy52VeSdFAas4D2QuibjMvSry72n9",
+          "Bfmk58fvhNuNKg6PPiK6p1CBfUi6dHKhbAEVXiyBEdjJ",
           "HDcKQELGo3C27Lm9zmHpyJPvrZuqdHjYdytCceatBhUQ",
           "unclassified:2JQNLBMunQA8ArH5uePki7jwjG5bNDYAZuE8TpyaVjX9",
           "unclassified:4kow7CtBctovbSugy52VeSdFAas4D2QuibjMvSry72n9",
@@ -19297,6 +19682,14 @@
         },
         {
           "rank": 4,
+          "entityId": "37001",
+          "groupKey": "6ox6rj8CLp5QBoLQvLAgLoJi1iDv8dc66DsAKFUkP9N4",
+          "value": "978891203",
+          "bestSignature": "6ujCiz6VVrA2CDiDTsBrXt19Ad98DX6LaAzSTVjDYMuQ7PyUqy5kFGgCfmcRhyKS2d2RgjGyJQ4BGF4jdqQZCqq",
+          "bestSlot": "476691150"
+        },
+        {
+          "rank": 5,
           "entityId": "17002",
           "groupKey": "BwkABEFinaVRrcN5ohmC9oHpshcem8gGEYYX3tYMp7fq",
           "value": "857994502",
@@ -19304,7 +19697,7 @@
           "bestSlot": "476434482"
         },
         {
-          "rank": 5,
+          "rank": 6,
           "entityId": "7001",
           "groupKey": "J7FJ7uz4XF4mVfgZ4yFa45xBaGVCtHJGQixLfGAUk7Kx",
           "value": "841306286",
@@ -19312,7 +19705,7 @@
           "bestSlot": "476272311"
         },
         {
-          "rank": 6,
+          "rank": 7,
           "entityId": "7002",
           "groupKey": "DhPp4bFKVwLadaM19bYiDmxh3X8URkfweTMzvtn6VqNh",
           "value": "630081915",
@@ -19320,7 +19713,15 @@
           "bestSlot": "476387032"
         },
         {
-          "rank": 7,
+          "rank": 8,
+          "entityId": "37005",
+          "groupKey": "4diLrE9shTTZ1Zhx57zewi9Z1q7S32wCcXp5WbjWd562",
+          "value": "557645653",
+          "bestSignature": "UsFP5p1Gm2Re1oxavS2cx4ppKke9QLVUexL39jEsJEL9cpynM3B4w7krMhLwAY5aTeZWe7duq1BUS3BgP8j8CsH",
+          "bestSlot": "476691480"
+        },
+        {
+          "rank": 9,
           "entityId": "17001",
           "groupKey": "3mMQSqGa8EtBEA4EquGiLdPEgrKcSuEZcKuUYxRt4D46",
           "value": "554785293",
@@ -19328,7 +19729,7 @@
           "bestSlot": "476434334"
         },
         {
-          "rank": 8,
+          "rank": 10,
           "entityId": "27005",
           "groupKey": "HVcfxHYvP3t4aADhXfnLwGDZwaEdaxdMbT62nDNDZyZ5",
           "value": "462510069",
@@ -19336,7 +19737,7 @@
           "bestSlot": "476522679"
         },
         {
-          "rank": 9,
+          "rank": 11,
           "entityId": "7005",
           "groupKey": "DWJWaFK9Kh16tCJwKmTbfDfUkD9o6unepmZm5GsaBtYi",
           "value": "363999358",
@@ -19344,7 +19745,7 @@
           "bestSlot": "476272729"
         },
         {
-          "rank": 10,
+          "rank": 12,
           "entityId": "7006",
           "groupKey": "41VPPup9dasn6d3WwSzti55sQLpDDFJvZwKGA6MQAabp",
           "value": "275751256",
@@ -19352,7 +19753,7 @@
           "bestSlot": "476272006"
         },
         {
-          "rank": 11,
+          "rank": 13,
           "entityId": "17007",
           "groupKey": "36wXK8eEzx4pMTuYoW12SGduJ8xaooDp9aAmNq3q547h",
           "value": "273397196",
@@ -19360,15 +19761,7 @@
           "bestSlot": "476434427"
         },
         {
-          "rank": 12,
-          "entityId": "37001",
-          "groupKey": "6ox6rj8CLp5QBoLQvLAgLoJi1iDv8dc66DsAKFUkP9N4",
-          "value": "241820401",
-          "bestSignature": "ddmcS38yH8SD38dsiDhiFioiKWqFdJmPYRfi2YVLR6u8ezBaH7ciKGLvHiNGQxZq8v6RaffgzZq9iXJzTqGJSNn",
-          "bestSlot": "476673484"
-        },
-        {
-          "rank": 13,
+          "rank": 14,
           "entityId": "7017",
           "groupKey": "CFnM5rUEsof1qUdYGg8eSwTMT7pL1ZHJV69Kmygq63Ch",
           "value": "201110007",
@@ -19376,7 +19769,7 @@
           "bestSlot": "476278879"
         },
         {
-          "rank": 14,
+          "rank": 15,
           "entityId": "7008",
           "groupKey": "68VyMyjZuzHJkvFNjQKwTX1BTXEsxBffsyZioTr8DC2o",
           "value": "190905146",
@@ -19384,7 +19777,15 @@
           "bestSlot": "476272244"
         },
         {
-          "rank": 15,
+          "rank": 16,
+          "entityId": "37007",
+          "groupKey": "FFKcADNwPArvUQVvmeyqzrRrzNDpB31H3K5uxSgUbGDn",
+          "value": "184380432",
+          "bestSignature": "5LtFbPdaVkoaF8nsedRyDcTLnpK7qzf7SzSrK2TaXHYK943GPP5hitJ9BXiAJq7LPieHbNiQHtv2HmHUZ17EGFKG",
+          "bestSlot": "476691279"
+        },
+        {
+          "rank": 17,
           "entityId": "7007",
           "groupKey": "B7Bmm7TyYQLSNcneDXAVYZoi8zv5rmgKYxp3FPLuzYk5",
           "value": "175260485",
@@ -19392,7 +19793,15 @@
           "bestSlot": "476272259"
         },
         {
-          "rank": 16,
+          "rank": 18,
+          "entityId": "37002",
+          "groupKey": "7fcQrszvJUqqHSesW4rUNX6udPg9B1iK1YFLVjZ8Eefe",
+          "value": "158109970",
+          "bestSignature": "29eLQbXx5wNBigzuHzy3gCJZKQXrYemAVGu2ziaARUDF36inoq71w5pLmsKyAAR1kTP3s8CWSUKEYf2sCpXbTcz2",
+          "bestSlot": "476673626"
+        },
+        {
+          "rank": 19,
           "entityId": "17005",
           "groupKey": "4aX5PGdjNphGDXKptcTFHthuSHBwDMaVumvsXvssNWV8",
           "value": "142585933",
@@ -19400,36 +19809,12 @@
           "bestSlot": "476455936"
         },
         {
-          "rank": 17,
+          "rank": 20,
           "entityId": "7004",
           "groupKey": "9D9fGdu61Dmf79PKJWj19eA2kgRRYAY9kjaCzc5qn4mG",
           "value": "137495698",
           "bestSignature": "3AfmHLK1PTRfmVfnApEPrY1B56nPqZLomtbiazi3eJYqPWfv1GmTyoDLUoAWbe6Drowm5sLGCmSKNtANtxwDeZm2",
           "bestSlot": "476272465"
-        },
-        {
-          "rank": 18,
-          "entityId": "7003",
-          "groupKey": "6ZVAqb7ga6r2hKZj6WQQzuS4pPHQ9VuA7CjPBxA4ih6",
-          "value": "127427677",
-          "bestSignature": "2nn2hVFW1jgUzSK5jpTExAuX4EAZpwsDcjGKPnfaWnjyjKUhBpFD9fibwPHU9wuKXGTGwgqhysompn2B3zHtx8PA",
-          "bestSlot": "476272500"
-        },
-        {
-          "rank": 19,
-          "entityId": "37002",
-          "groupKey": "7fcQrszvJUqqHSesW4rUNX6udPg9B1iK1YFLVjZ8Eefe",
-          "value": "89830888",
-          "bestSignature": "29eLQbXx5wNBigzuHzy3gCJZKQXrYemAVGu2ziaARUDF36inoq71w5pLmsKyAAR1kTP3s8CWSUKEYf2sCpXbTcz2",
-          "bestSlot": "476673626"
-        },
-        {
-          "rank": 20,
-          "entityId": "37007",
-          "groupKey": "FFKcADNwPArvUQVvmeyqzrRrzNDpB31H3K5uxSgUbGDn",
-          "value": "81891957",
-          "bestSignature": "3WLMDzRdnPfknFfFkeeCnGLVkLWzCCiNEf2MidqCHT9C1gahSePaDiaZ8V7SzC3FvHtCVLjE3aDkQf2fCHidfn73",
-          "bestSlot": "476674032"
         }
       ]
     },
@@ -19440,7 +19825,7 @@
           "rank": 1,
           "entityId": "27001",
           "groupKey": "FUurz3U6t6XwqU8N1t66mLawTwgxSPgEcfdW8CaUdety",
-          "value": "6613366194",
+          "value": "6371545793",
           "bestSignature": "4jEtfp9wjNqd6wYLRy8Dpa8UhmDLLL9PZGqxzsMYZAfVjoXNqYZ4YA9tLFRQmR2n6ndB1EVBbEWhSpT5qVnqsv3k",
           "bestSlot": "476510923"
         },
@@ -19448,7 +19833,7 @@
           "rank": 2,
           "entityId": "27007",
           "groupKey": "FUA5eyV4Um8NFkrZjgxn7vRyCiMCoMbhcHTdyV9uWDcD",
-          "value": "4003306278",
+          "value": "3921414321",
           "bestSignature": "5ZLjSQmeWU3nRyRqniTzZCemAAmCVzRfyz6ikr8M26NQaYP5L53bacsEFDf3aXZRk7AwEpVKAPkWDfPzC1GHWSU5",
           "bestSlot": "476559508"
         },
@@ -19456,49 +19841,49 @@
           "rank": 3,
           "entityId": "27002",
           "groupKey": "APjkWsmRcPyGdykF98UUdWf2faZv3tbqDmHAL5G3Qrdf",
-          "value": "1812114940",
+          "value": "1722284052",
           "bestSignature": "3D1aNMbaFoxFpp57jS5etJ46T9PFNNZDYvJWrA2SnMGH8tWPUNmEKknWrosk8vnCTxqnyCRq6sNxqTNDbsv9u7c2",
           "bestSlot": "476510824"
         },
         {
           "rank": 4,
-          "entityId": "27005",
-          "groupKey": "HVcfxHYvP3t4aADhXfnLwGDZwaEdaxdMbT62nDNDZyZ5",
-          "value": "462510069",
-          "bestSignature": "5vGYshW9XuhmpVxEsfrAN7vjKFnHPvcLs1EXP87fTcCR9zxGNM2D3PuYCXLaiHWRpz9esqEiDawNc6bCvJ1jW9qS",
-          "bestSlot": "476522679"
+          "entityId": "37001",
+          "groupKey": "6ox6rj8CLp5QBoLQvLAgLoJi1iDv8dc66DsAKFUkP9N4",
+          "value": "978891203",
+          "bestSignature": "6ujCiz6VVrA2CDiDTsBrXt19Ad98DX6LaAzSTVjDYMuQ7PyUqy5kFGgCfmcRhyKS2d2RgjGyJQ4BGF4jdqQZCqq",
+          "bestSlot": "476691150"
         },
         {
           "rank": 5,
-          "entityId": "37001",
-          "groupKey": "6ox6rj8CLp5QBoLQvLAgLoJi1iDv8dc66DsAKFUkP9N4",
-          "value": "241820401",
-          "bestSignature": "ddmcS38yH8SD38dsiDhiFioiKWqFdJmPYRfi2YVLR6u8ezBaH7ciKGLvHiNGQxZq8v6RaffgzZq9iXJzTqGJSNn",
-          "bestSlot": "476673484"
+          "entityId": "37005",
+          "groupKey": "4diLrE9shTTZ1Zhx57zewi9Z1q7S32wCcXp5WbjWd562",
+          "value": "557645653",
+          "bestSignature": "UsFP5p1Gm2Re1oxavS2cx4ppKke9QLVUexL39jEsJEL9cpynM3B4w7krMhLwAY5aTeZWe7duq1BUS3BgP8j8CsH",
+          "bestSlot": "476691480"
         },
         {
           "rank": 6,
-          "entityId": "37002",
-          "groupKey": "7fcQrszvJUqqHSesW4rUNX6udPg9B1iK1YFLVjZ8Eefe",
-          "value": "89830888",
-          "bestSignature": "29eLQbXx5wNBigzuHzy3gCJZKQXrYemAVGu2ziaARUDF36inoq71w5pLmsKyAAR1kTP3s8CWSUKEYf2sCpXbTcz2",
-          "bestSlot": "476673626"
+          "entityId": "27005",
+          "groupKey": "HVcfxHYvP3t4aADhXfnLwGDZwaEdaxdMbT62nDNDZyZ5",
+          "value": "387101107",
+          "bestSignature": "5vGYshW9XuhmpVxEsfrAN7vjKFnHPvcLs1EXP87fTcCR9zxGNM2D3PuYCXLaiHWRpz9esqEiDawNc6bCvJ1jW9qS",
+          "bestSlot": "476522679"
         },
         {
           "rank": 7,
           "entityId": "37007",
           "groupKey": "FFKcADNwPArvUQVvmeyqzrRrzNDpB31H3K5uxSgUbGDn",
-          "value": "81891957",
-          "bestSignature": "3WLMDzRdnPfknFfFkeeCnGLVkLWzCCiNEf2MidqCHT9C1gahSePaDiaZ8V7SzC3FvHtCVLjE3aDkQf2fCHidfn73",
-          "bestSlot": "476674032"
+          "value": "184380432",
+          "bestSignature": "5LtFbPdaVkoaF8nsedRyDcTLnpK7qzf7SzSrK2TaXHYK943GPP5hitJ9BXiAJq7LPieHbNiQHtv2HmHUZ17EGFKG",
+          "bestSlot": "476691279"
         },
         {
           "rank": 8,
-          "entityId": "37005",
-          "groupKey": "4diLrE9shTTZ1Zhx57zewi9Z1q7S32wCcXp5WbjWd562",
-          "value": "75408962",
-          "bestSignature": "666UPSJZBhCQjSwJUtWP3Uwp4884sEhyT9a7Z5VuRzWnTQkVy8KJSUMQuGMHnmBRHGGJHyY8CQaMPy6HNQJtCptM",
-          "bestSlot": "476673644"
+          "entityId": "37002",
+          "groupKey": "7fcQrszvJUqqHSesW4rUNX6udPg9B1iK1YFLVjZ8Eefe",
+          "value": "158109970",
+          "bestSignature": "29eLQbXx5wNBigzuHzy3gCJZKQXrYemAVGu2ziaARUDF36inoq71w5pLmsKyAAR1kTP3s8CWSUKEYf2sCpXbTcz2",
+          "bestSlot": "476673626"
         }
       ]
     },
@@ -19509,9 +19894,9 @@
           "rank": 1,
           "entityId": null,
           "groupKey": "DmCFQ5wwckWyvyK6zArfk3Arene8EFe5hscPAgufXSWD",
-          "value": "252400",
-          "bestSignature": "4i1yZ4ZpA5be6jHUsEvfhqeZFyVy89WLqV1CXrknhrCWc4939qwBCny71fFpPMDbiAt8kXeXaydWHL1uviviPP1N",
-          "bestSlot": "476405909"
+          "value": "291500",
+          "bestSignature": "5L9k9fv6HhN449GPozQ3jmDMWKeLV25NrWZU94F8JMubmECsuKGiRNibdcKXpdJxb72aFQ8hMZZW8eX6ftmZk8mS",
+          "bestSlot": "476269380"
         },
         {
           "rank": 2,
@@ -19579,91 +19964,91 @@
         },
         {
           "rank": 10,
+          "entityId": "7009",
+          "groupKey": "CjDZqJVz6kemk9MJHTxYhWTBsMYqNguS3QytJuYGMmGR",
+          "value": "8103",
+          "bestSignature": "5Yr5XLAk9UppdQhg9A1MUghDg8Dm19yxVjftVDosLomW48x8dDUv726iKWNEQHRh6r8dkFsXSsTjXv3EmLCAfBiv",
+          "bestSlot": "476271481"
+        },
+        {
+          "rank": 11,
+          "entityId": "7010",
+          "groupKey": "3K2gSzMufScybmSf5EP35fhQtNDBWc24weGUKVSM7ZrM",
+          "value": "8103",
+          "bestSignature": "2s5D637J4oKKv3vEFxVVhjaJWBwxPrqVv5UQzRzG9tAoiQ1cqz5SHT36FgA7DUWQXQMndQGD1vs9U2ftMs7ZvkVc",
+          "bestSlot": "476271503"
+        },
+        {
+          "rank": 12,
+          "entityId": "7011",
+          "groupKey": "D8KbAUSBF3xHFFcm7eNPHza5uqzb63M1CRis2nuxvSjS",
+          "value": "8103",
+          "bestSignature": "2EuKpwYDSg8spnsybJZ3Ec5jaS7mGURtrfV8WHCJMqR4SXNeFxef43B8MBdMDy9ekkeJrC6wfYZ47NvDdCc7kX5j",
+          "bestSlot": "476271519"
+        },
+        {
+          "rank": 13,
+          "entityId": "7012",
+          "groupKey": "GVzQRGBmybt1RJtmtVKWXc9JmZbPQRRVVUbzPD5nuXtM",
+          "value": "8103",
+          "bestSignature": "41sLg9uXVDdGLPJmyshBbTn8fFBGwy1Cjkw1H3idJ6iz4kJAzMg91YFVMpNqmNFAvszKYWFkDHWQJeEe9j5vBWYL",
+          "bestSlot": "476271537"
+        },
+        {
+          "rank": 14,
+          "entityId": "7013",
+          "groupKey": "H1yJWSaxYrHPztfbtvgPajmJ8eerLcpdzrfeqPGQAoLQ",
+          "value": "8103",
+          "bestSignature": "26BZkf7KyoeFGsd5FfNmzzrMfp2unVUfMRJy3N659WMWSADF9W8ReNWzszUQDWuFrfFnzPQ31G2nVQYrR34zEjvX",
+          "bestSlot": "476271552"
+        },
+        {
+          "rank": 15,
+          "entityId": "7014",
+          "groupKey": "6hPthTFqEYWF5agGhudUbtT6fDSSJhAjnSWg4DDU4gyF",
+          "value": "8103",
+          "bestSignature": "3j27xMvzjvbcccFJTA9AzwWKh89P6cP5vnjFC3vP8A9LhdEkQRqFmP2bdsHXubQ7pQE8WiLykutAvKtm55ZLYW9b",
+          "bestSlot": "476271567"
+        },
+        {
+          "rank": 16,
+          "entityId": "7018",
+          "groupKey": "9w1BRV6C2SvbLJ4qvq41J7Ee3J2PfD2GfRw5xiYrqCdQ",
+          "value": "8103",
+          "bestSignature": "5TzzXhNfhfyexqXMLdAjGhsMUkN4v9As5F12mxwZjCjmwk6gXe7hhhKnNsMde1njWZJAnF5eNC4eDCSKZLCcEHXX",
+          "bestSlot": "476271650"
+        },
+        {
+          "rank": 17,
+          "entityId": "7028",
+          "groupKey": "B6gzjKEhwdUhMzyVf9qhLBW6L1j3xcHJoyMZmV2FGoUn",
+          "value": "8031",
+          "bestSignature": "2Y3vTGALJb2m5MpHi1SR5doRqcP4xo1EvvoQv515MAaPs6cybDeS6KjtJMPUqHzgLNjZ1X6NZGYQj4KuNqPKm1DM",
+          "bestSlot": "476271725"
+        },
+        {
+          "rank": 18,
+          "entityId": "7027",
+          "groupKey": "EBkzYa82UnNuUU2AbACzDm9aLc85VBdEfbo9QWxeWe9y",
+          "value": "8026",
+          "bestSignature": "5F9xcU5z8GTFsVrsjom738EKGCfKmqU1XoutTU3eBY9FBfQTeJkL9qTRofWCfMryh6STqsGsZiKffYfBTeaNJtmH",
+          "bestSlot": "476271710"
+        },
+        {
+          "rank": 19,
+          "entityId": "7017",
+          "groupKey": "CFnM5rUEsof1qUdYGg8eSwTMT7pL1ZHJV69Kmygq63Ch",
+          "value": "8022",
+          "bestSignature": "NZASdKvQtFpwQA9W2Mu9zH3icuZcZU1ftCJtMi6BSweegvakBxPVxVmZZVJTBAtpaRpuZsvo1aR3Hccz5KqGDAv",
+          "bestSlot": "476271633"
+        },
+        {
+          "rank": 20,
           "entityId": "24006",
           "groupKey": "CcC1jsFAwfzygd2MpxvxMySeB7eCcEzwjMEkxTQEN1wp",
           "value": "3415",
           "bestSignature": "5nGyQUEiPcNToxPPTQ3RjLppiE4yWBTScednBM2iQi2PmwpMwbXdzxrjWE8FPZv9mmTptoSxaRYUurfpHSdYHQGq",
           "bestSlot": "476481039"
-        },
-        {
-          "rank": 11,
-          "entityId": "17001",
-          "groupKey": "3mMQSqGa8EtBEA4EquGiLdPEgrKcSuEZcKuUYxRt4D46",
-          "value": "2355",
-          "bestSignature": "5yCNB6jjLHFvKPUxvYbzsJjh4pdJfcFqemLFRKChzzqnkzVH3wLmrLtcGAbwWxxqDnCXxGkUN2AFi82EiaHFCuZb",
-          "bestSlot": "476416025"
-        },
-        {
-          "rank": 12,
-          "entityId": "24015",
-          "groupKey": "3LKdHm8nECxtL6qCrQm6RpwinuykNvGodHEfidYkEEMA",
-          "value": "2171",
-          "bestSignature": "1oNAEuDX3yFPn6zShKpD5sB7jqa2VYoEzPkJvo3gcYWSnnLyTBGrxcNMqXdsM4u8vVNbsjxYKUZ4DnHS15dLNpr",
-          "bestSlot": "476550747"
-        },
-        {
-          "rank": 13,
-          "entityId": "17007",
-          "groupKey": "36wXK8eEzx4pMTuYoW12SGduJ8xaooDp9aAmNq3q547h",
-          "value": "2076",
-          "bestSignature": "5dSw9X9tm7h9tCV1wjFYfPNFDieKQe56tMD14DGbFt9N1MMh8PrzByyxvh8ikJpBifdjc8jxKoMCx77TThgky1UL",
-          "bestSlot": "476416067"
-        },
-        {
-          "rank": 14,
-          "entityId": "17002",
-          "groupKey": "BwkABEFinaVRrcN5ohmC9oHpshcem8gGEYYX3tYMp7fq",
-          "value": "1809",
-          "bestSignature": "4kHwKaEeKrSj8MGuZai9cAk1zrz9B8jNSzgo6Z51Th7WAUw9R782SaA77a7gGPJGxV4vzYKMwmkZrncRtxyxiHWZ",
-          "bestSlot": "476416035"
-        },
-        {
-          "rank": 15,
-          "entityId": "24005",
-          "groupKey": "F37ERr6h9p1SHYuwv57XQ3Wa3gzEBzb3oR6uVMUWVqUv",
-          "value": "1411",
-          "bestSignature": "4CsU19MLusH3oJchQ7VLbRxSE43y3rUobw3ubTwwVDrovpbKZ2wA2LcFLxjmMvB8ZR6rceUUBbzYLuFoiyFHBajD",
-          "bestSlot": "476481267"
-        },
-        {
-          "rank": 16,
-          "entityId": "17005",
-          "groupKey": "4aX5PGdjNphGDXKptcTFHthuSHBwDMaVumvsXvssNWV8",
-          "value": "1380",
-          "bestSignature": "5pCoNrGxUQy9XKt1fMFtjXWbTddqhn6pJyijAaDRCd5pua4BHzfpJUHuwZ5HEsFAJcEPUJJ9Xz3u34QpA18TuvJR",
-          "bestSlot": "476416044"
-        },
-        {
-          "rank": 17,
-          "entityId": "24009",
-          "groupKey": "92aKHXwHKQjeMnD4ndbQ7GpbQNWLNtcuEspwHNPYzS1s",
-          "value": "1363",
-          "bestSignature": "EoZ23Vuq5nBVP68cdK9oq9KaQYBgCYXfs7voLLQWHTA9hMnGTSTPiRuNLZ8WHSEtGsRZtS3xhhqMTPXSvPMzXYV",
-          "bestSlot": "476502629"
-        },
-        {
-          "rank": 18,
-          "entityId": "14006",
-          "groupKey": "J12Kh9mD37pyVNfZvuwNSrvHAhtKxcu7jMSksYvVFEK9",
-          "value": "781",
-          "bestSignature": "39BTfEGCfoQm6rzuKxjtBGatEvzFz1MnePKVsRas3PFAMFTMJD6YxA1rxZJH7QDxV1NoqRosaoGAvEQFhJ6HSEDr",
-          "bestSlot": "476416255"
-        },
-        {
-          "rank": 19,
-          "entityId": "14015",
-          "groupKey": "3SLKmzo4Cn7VkgQo9vKVYoMEbNxFWL7mDqWPB6VRuo9x",
-          "value": "695",
-          "bestSignature": "tFaKRdVhZEV3aNMtyYVwUNFZZBfKazKJxnTWfhWMsSNmAApBHPSSFK3z7dcT9zc18bY9mabBkFsDhKoXMJp3a3A",
-          "bestSlot": "476416414"
-        },
-        {
-          "rank": 20,
-          "entityId": "14005",
-          "groupKey": "HASgNQsUMHNRu3LkeiWJbzit5MSWxHXZYjY17p29KhcZ",
-          "value": "567",
-          "bestSignature": "3NCuzfq8nFni34KRShgnFCXVmpoCQ6aENRiJ37XTWjk66GDmnQzoAqFwyT7uvoUVwLDwKgzhXYPdP3tZCDXxfXYb",
-          "bestSlot": "476416484"
         }
       ]
     },
@@ -19674,44 +20059,12 @@
           "rank": 1,
           "entityId": null,
           "groupKey": "DmCFQ5wwckWyvyK6zArfk3Arene8EFe5hscPAgufXSWD",
-          "value": "174200",
-          "bestSignature": "4bvzbEyKhfKVZczY2KKVmGPaFpLGxSBeQJNFkJxZf6vn3ya8k6V6qbfviBHu8DAipTAVKs3CjcyTBtsRE9dnJAry",
-          "bestSlot": "476480574"
+          "value": "135100",
+          "bestSignature": "4SsMoqRrv3epkTt4r8AcSKWEBNyXTRG5nWzyycpnmBJ6jtuKC7rVNJwsWq96Lefw1AGboFoKzMsYAoVk7Mauy22J",
+          "bestSlot": "476533250"
         },
         {
           "rank": 2,
-          "entityId": "27002",
-          "groupKey": "APjkWsmRcPyGdykF98UUdWf2faZv3tbqDmHAL5G3Qrdf",
-          "value": "11540",
-          "bestSignature": "oS243Yv6TTnqxAE7qbc55vuctPgs9qiBZJZhbNpcd3JjNPwNo2uF3yFahdGSjQvUdMzGpyhC6uLdn1yvHBDKJ6r",
-          "bestSlot": "476480809"
-        },
-        {
-          "rank": 3,
-          "entityId": "27007",
-          "groupKey": "FUA5eyV4Um8NFkrZjgxn7vRyCiMCoMbhcHTdyV9uWDcD",
-          "value": "11245",
-          "bestSignature": "2YhJtuLCBApnovqdQv7gqLC3rVqHjhKXDnyWBv3Qfkur38EvYrZiTgn2TM37J27e3fdMyT3DUSC3UeK2bstNQcya",
-          "bestSlot": "476480849"
-        },
-        {
-          "rank": 4,
-          "entityId": "27001",
-          "groupKey": "FUurz3U6t6XwqU8N1t66mLawTwgxSPgEcfdW8CaUdety",
-          "value": "10926",
-          "bestSignature": "3LoDT2QUbNmnHDjsjsv25yJmEA3EBKiZEcEQPf2WjGdstGiw8fxAbN9zDvFjDP6n31wwif85qnwHmPfj7aeXMoAh",
-          "bestSlot": "476480794"
-        },
-        {
-          "rank": 5,
-          "entityId": "27005",
-          "groupKey": "HVcfxHYvP3t4aADhXfnLwGDZwaEdaxdMbT62nDNDZyZ5",
-          "value": "9898",
-          "bestSignature": "4uCadeX5rhBrEjrpGWZ1p4FAwzzWuYYsi6RLA5TbX6yjGyuiWiwCULheovTaBaJ5qbfB1PeU8qxebYQNjzekvYru",
-          "bestSlot": "476480833"
-        },
-        {
-          "rank": 6,
           "entityId": "37007",
           "groupKey": "FFKcADNwPArvUQVvmeyqzrRrzNDpB31H3K5uxSgUbGDn",
           "value": "8392",
@@ -19719,7 +20072,7 @@
           "bestSlot": "476673329"
         },
         {
-          "rank": 7,
+          "rank": 3,
           "entityId": "37005",
           "groupKey": "4diLrE9shTTZ1Zhx57zewi9Z1q7S32wCcXp5WbjWd562",
           "value": "8372",
@@ -19727,7 +20080,7 @@
           "bestSlot": "476673317"
         },
         {
-          "rank": 8,
+          "rank": 4,
           "entityId": "37002",
           "groupKey": "7fcQrszvJUqqHSesW4rUNX6udPg9B1iK1YFLVjZ8Eefe",
           "value": "8326",
@@ -19735,7 +20088,7 @@
           "bestSlot": "476673293"
         },
         {
-          "rank": 9,
+          "rank": 5,
           "entityId": "37001",
           "groupKey": "6ox6rj8CLp5QBoLQvLAgLoJi1iDv8dc66DsAKFUkP9N4",
           "value": "8308",
@@ -19743,36 +20096,68 @@
           "bestSlot": "476673279"
         },
         {
-          "rank": 10,
-          "entityId": "24006",
-          "groupKey": "CcC1jsFAwfzygd2MpxvxMySeB7eCcEzwjMEkxTQEN1wp",
-          "value": "3415",
-          "bestSignature": "5nGyQUEiPcNToxPPTQ3RjLppiE4yWBTScednBM2iQi2PmwpMwbXdzxrjWE8FPZv9mmTptoSxaRYUurfpHSdYHQGq",
-          "bestSlot": "476481039"
+          "rank": 6,
+          "entityId": "27002",
+          "groupKey": "APjkWsmRcPyGdykF98UUdWf2faZv3tbqDmHAL5G3Qrdf",
+          "value": "3363",
+          "bestSignature": "2fW5Rw1MUrpJkDeoM9KtdcXdphu6ENJ7QnWMuyV5yppqVSJRWPEzefiXPj9YDBAfLktwHuCatL8ayUiAeYm9pArH",
+          "bestSlot": "476652669"
         },
         {
-          "rank": 11,
+          "rank": 7,
+          "entityId": "24006",
+          "groupKey": "CcC1jsFAwfzygd2MpxvxMySeB7eCcEzwjMEkxTQEN1wp",
+          "value": "3144",
+          "bestSignature": "ruy9ydVCi9CEu8FYEvirm5hmTMuQYiNQbazza2EEjND7aQv9N6hambTo8dD9CyHy4sMHdGaShS2vR4JkANDVASV",
+          "bestSlot": "476488771"
+        },
+        {
+          "rank": 8,
+          "entityId": "27007",
+          "groupKey": "FUA5eyV4Um8NFkrZjgxn7vRyCiMCoMbhcHTdyV9uWDcD",
+          "value": "3012",
+          "bestSignature": "4vnvV1YVUWdqBaSDDAPqR9LtuCk5xsuQQKK67FaeCAELKcqoHU72HPcvyjEWQk6jfnCgDES2iCfvERLoYsDmhz3K",
+          "bestSlot": "476554075"
+        },
+        {
+          "rank": 9,
+          "entityId": "27001",
+          "groupKey": "FUurz3U6t6XwqU8N1t66mLawTwgxSPgEcfdW8CaUdety",
+          "value": "2767",
+          "bestSignature": "2tWMZ79RF8yrUV5N24XZGSHXpKVrsYhoq6WPHMuneCYykuGMwJDDMV5W9TTkY2wqebKpo4KLmsduGzHD2HCJUgJ5",
+          "bestSlot": "476516588"
+        },
+        {
+          "rank": 10,
           "entityId": "24015",
           "groupKey": "3LKdHm8nECxtL6qCrQm6RpwinuykNvGodHEfidYkEEMA",
-          "value": "2171",
+          "value": "1943",
           "bestSignature": "1oNAEuDX3yFPn6zShKpD5sB7jqa2VYoEzPkJvo3gcYWSnnLyTBGrxcNMqXdsM4u8vVNbsjxYKUZ4DnHS15dLNpr",
           "bestSlot": "476550747"
         },
         {
+          "rank": 11,
+          "entityId": "27005",
+          "groupKey": "HVcfxHYvP3t4aADhXfnLwGDZwaEdaxdMbT62nDNDZyZ5",
+          "value": "1668",
+          "bestSignature": "5pV7RkpPDXYv6hacaueWxanAfrcEt5Ftj85dZZUZcMyK7DppTVDJFkmtMwrBhfLuTPujARDngMdxNmYWPCSAP7Hs",
+          "bestSlot": "476522948"
+        },
+        {
           "rank": 12,
-          "entityId": "24005",
-          "groupKey": "F37ERr6h9p1SHYuwv57XQ3Wa3gzEBzb3oR6uVMUWVqUv",
-          "value": "1411",
-          "bestSignature": "4CsU19MLusH3oJchQ7VLbRxSE43y3rUobw3ubTwwVDrovpbKZ2wA2LcFLxjmMvB8ZR6rceUUBbzYLuFoiyFHBajD",
-          "bestSlot": "476481267"
+          "entityId": "24009",
+          "groupKey": "92aKHXwHKQjeMnD4ndbQ7GpbQNWLNtcuEspwHNPYzS1s",
+          "value": "1161",
+          "bestSignature": "EoZ23Vuq5nBVP68cdK9oq9KaQYBgCYXfs7voLLQWHTA9hMnGTSTPiRuNLZ8WHSEtGsRZtS3xhhqMTPXSvPMzXYV",
+          "bestSlot": "476502629"
         },
         {
           "rank": 13,
-          "entityId": "24009",
-          "groupKey": "92aKHXwHKQjeMnD4ndbQ7GpbQNWLNtcuEspwHNPYzS1s",
-          "value": "1363",
-          "bestSignature": "EoZ23Vuq5nBVP68cdK9oq9KaQYBgCYXfs7voLLQWHTA9hMnGTSTPiRuNLZ8WHSEtGsRZtS3xhhqMTPXSvPMzXYV",
-          "bestSlot": "476502629"
+          "entityId": "24005",
+          "groupKey": "F37ERr6h9p1SHYuwv57XQ3Wa3gzEBzb3oR6uVMUWVqUv",
+          "value": "1160",
+          "bestSignature": "3eUQ56qAuQpG23Ec8GoUXo8ZpXjEUACyXwF172edVzgZG3aq9G7xE1Y3GjYZjgs2nRrs4uytoq5ZdJcob5u2frq",
+          "bestSlot": "476488018"
         },
         {
           "rank": 14,
@@ -19917,6 +20302,14 @@
         },
         {
           "rank": 14,
+          "entityId": null,
+          "groupKey": "DmCFQ5wwckWyvyK6zArfk3Arene8EFe5hscPAgufXSWD",
+          "value": "62",
+          "bestSignature": "3wHjebDCoKu17egwHC37EiwaVMJs9bWFXZ4aPbE5gJsmwrGdzXJyG8xhwm8ogYYYDhAMbp1G4HCfaT36TtqoAQHb",
+          "bestSlot": "476673264"
+        },
+        {
+          "rank": 15,
           "entityId": "37005",
           "groupKey": "4diLrE9shTTZ1Zhx57zewi9Z1q7S32wCcXp5WbjWd562",
           "value": "59",
@@ -19924,20 +20317,12 @@
           "bestSlot": "476690512"
         },
         {
-          "rank": 15,
+          "rank": 16,
           "entityId": "37002",
           "groupKey": "7fcQrszvJUqqHSesW4rUNX6udPg9B1iK1YFLVjZ8Eefe",
           "value": "52",
           "bestSignature": "5AYW46Puq56ZC1SXnWUsTpkWP6qXH4BRAV8FjgK9EAsvnkD7goVjEeK1Qv5HGFAJx9pYiUFGUYpWh2yXfFEmRKLC",
           "bestSlot": "476690394"
-        },
-        {
-          "rank": 16,
-          "entityId": null,
-          "groupKey": "DmCFQ5wwckWyvyK6zArfk3Arene8EFe5hscPAgufXSWD",
-          "value": "52",
-          "bestSignature": "3wHjebDCoKu17egwHC37EiwaVMJs9bWFXZ4aPbE5gJsmwrGdzXJyG8xhwm8ogYYYDhAMbp1G4HCfaT36TtqoAQHb",
-          "bestSlot": "476673264"
         },
         {
           "rank": 17,
@@ -19980,7 +20365,7 @@
           "rank": 1,
           "entityId": "27002",
           "groupKey": "APjkWsmRcPyGdykF98UUdWf2faZv3tbqDmHAL5G3Qrdf",
-          "value": "550",
+          "value": "522",
           "bestSignature": "3JvSaE9YSF3EBxhhApmiorVHHHgyDYSJm9Ru4Ub7dJLhJCAPvPBbGoSVczVccmjp3ywWLEakqMSgF8uexvsHaZdv",
           "bestSlot": "476671584"
         },
@@ -19988,7 +20373,7 @@
           "rank": 2,
           "entityId": "27007",
           "groupKey": "FUA5eyV4Um8NFkrZjgxn7vRyCiMCoMbhcHTdyV9uWDcD",
-          "value": "500",
+          "value": "464",
           "bestSignature": "THKPYn9ToUnUALyXs6GEPWcEikMBUh295C8F64RUNLC1CZ5QZuJNqJxadCpvXcdQyXmjB2oDHf6jfrfSja5r6fi",
           "bestSlot": "476669869"
         },
@@ -19996,7 +20381,7 @@
           "rank": 3,
           "entityId": "27001",
           "groupKey": "FUurz3U6t6XwqU8N1t66mLawTwgxSPgEcfdW8CaUdety",
-          "value": "372",
+          "value": "347",
           "bestSignature": "5cZtL55Qrp4jSd7iT8MAD9pL3jRN7umeBt4rGQbGYYPajFd9qt9btfA4mhqginHsvtaVNHGq6dk6YJ2PVqoMfoWH",
           "bestSlot": "476668360"
         },
@@ -20004,7 +20389,7 @@
           "rank": 4,
           "entityId": "27005",
           "groupKey": "HVcfxHYvP3t4aADhXfnLwGDZwaEdaxdMbT62nDNDZyZ5",
-          "value": "275",
+          "value": "239",
           "bestSignature": "3SkBprqe9U93NHhGdR6wua9JpZKGWrnCeq1PngoC5QXBKiCo3bnP7McGM71tS4xMrqe85qVR2iSzXNidegnTgk54",
           "bestSlot": "476544902"
         },
@@ -20012,7 +20397,7 @@
           "rank": 5,
           "entityId": "24006",
           "groupKey": "CcC1jsFAwfzygd2MpxvxMySeB7eCcEzwjMEkxTQEN1wp",
-          "value": "168",
+          "value": "157",
           "bestSignature": "3LAE6SEM4R19D9FWqN2mKqnN54PN8cPrUkGVawLZCFdApbW99Kdw764XLAx4YPVhkBUo9212Vrebz9b1AeWvwZbw",
           "bestSlot": "476671460"
         },
@@ -20020,7 +20405,7 @@
           "rank": 6,
           "entityId": "24015",
           "groupKey": "3LKdHm8nECxtL6qCrQm6RpwinuykNvGodHEfidYkEEMA",
-          "value": "105",
+          "value": "95",
           "bestSignature": "2JcVCsXwCWqGuWGZgjkLXJqJ33gJLdLpoBFT1uxUEQh9RvfyVTkvS6jGcUPnef4CBDbbTaMkaDpVmgiHLj2vMr1Q",
           "bestSlot": "476670244"
         },
@@ -20028,20 +20413,12 @@
           "rank": 7,
           "entityId": "24005",
           "groupKey": "F37ERr6h9p1SHYuwv57XQ3Wa3gzEBzb3oR6uVMUWVqUv",
-          "value": "77",
+          "value": "67",
           "bestSignature": "61uaJUtQHykMYDFKYFTaWwtFi3qugjaZ4qZvZGvQc3LpfoWBFA9ed3pw8sDbtMV51PyWakkhsuw9xcG4w43pTXba",
           "bestSlot": "476667875"
         },
         {
           "rank": 8,
-          "entityId": "24009",
-          "groupKey": "92aKHXwHKQjeMnD4ndbQ7GpbQNWLNtcuEspwHNPYzS1s",
-          "value": "62",
-          "bestSignature": "4wF5Cxgc4n6zrSrzs4UEgnznKdCo1SxPU3KvDPxBtAbhXLhq4AC9gJgN8gJvCcZeCzDc6YHVQGcSTWZboAjUUEkL",
-          "bestSlot": "476544466"
-        },
-        {
-          "rank": 9,
           "entityId": "37007",
           "groupKey": "FFKcADNwPArvUQVvmeyqzrRrzNDpB31H3K5uxSgUbGDn",
           "value": "62",
@@ -20049,12 +20426,20 @@
           "bestSlot": "476690676"
         },
         {
-          "rank": 10,
+          "rank": 9,
           "entityId": "37005",
           "groupKey": "4diLrE9shTTZ1Zhx57zewi9Z1q7S32wCcXp5WbjWd562",
           "value": "59",
           "bestSignature": "2ngbvq7ergdX7zWbrqykYDvM3SqTyeyFR4tsEKh7yo2RF4zAYZ23AqKHcc6jGNukxFBHcbQXPsWwfpza8XqiLEfB",
           "bestSlot": "476690512"
+        },
+        {
+          "rank": 10,
+          "entityId": "24009",
+          "groupKey": "92aKHXwHKQjeMnD4ndbQ7GpbQNWLNtcuEspwHNPYzS1s",
+          "value": "53",
+          "bestSignature": "4wF5Cxgc4n6zrSrzs4UEgnznKdCo1SxPU3KvDPxBtAbhXLhq4AC9gJgN8gJvCcZeCzDc6YHVQGcSTWZboAjUUEkL",
+          "bestSlot": "476544466"
         },
         {
           "rank": 11,
@@ -20076,7 +20461,7 @@
           "rank": 13,
           "entityId": null,
           "groupKey": "DmCFQ5wwckWyvyK6zArfk3Arene8EFe5hscPAgufXSWD",
-          "value": "32",
+          "value": "22",
           "bestSignature": "3wHjebDCoKu17egwHC37EiwaVMJs9bWFXZ4aPbE5gJsmwrGdzXJyG8xhwm8ogYYYDhAMbp1G4HCfaT36TtqoAQHb",
           "bestSlot": "476673264"
         },
@@ -29154,6 +29539,78 @@
       "body": [
         {
           "__receipted": "__receipted_fact_v1",
+          "kindCode": 3,
+          "kindName": "EscrowReleased",
+          "worldId": "8",
+          "entityId": "37001",
+          "slot": "476698416",
+          "blockTime": 1784214662,
+          "signature": "5eWQnj8JHdp9GPzG4EUYxaaCNdx6AwKonsRVKdk3JYsAcmbgziZzhv5Q18Bwyvp8fJjhivJQC14ipWsjSXmc4JVa",
+          "logIndex": 19,
+          "payload": {
+            "a": "4",
+            "b": "GZPY7XWgGcF6FJy6LbeTyoF49BYR48cLySXSJGuQd1WG",
+            "c": "11111111111111111111111111111111",
+            "d": "0"
+          },
+          "version": 3
+        },
+        {
+          "__receipted": "__receipted_fact_v1",
+          "kindCode": 3,
+          "kindName": "EscrowReleased",
+          "worldId": "8",
+          "entityId": "37001",
+          "slot": "476696892",
+          "blockTime": 1784214104,
+          "signature": "5b7sD55X8yMRKTW9DAQchkjsPcBsP8tEHEnpxC3hXphCz138tyc6u7hCDY74JkAi4GbtrfM8NavKVhsQqYaY3g4x",
+          "logIndex": 19,
+          "payload": {
+            "a": "4",
+            "b": "GZPY7XWgGcF6FJy6LbeTyoF49BYR48cLySXSJGuQd1WG",
+            "c": "11111111111111111111111111111111",
+            "d": "0"
+          },
+          "version": 3
+        },
+        {
+          "__receipted": "__receipted_fact_v1",
+          "kindCode": 3,
+          "kindName": "EscrowReleased",
+          "worldId": "8",
+          "entityId": "37001",
+          "slot": "476696883",
+          "blockTime": 1784214100,
+          "signature": "5GSXp8jTqBUitWdfgKrZtUHPpuNR7uxEpLAm1kc9KMDfBkH3ur8n5YEiLD6By7mYE3qn7bcnP3iNgQkCnavgipWV",
+          "logIndex": 19,
+          "payload": {
+            "a": "4",
+            "b": "GZPY7XWgGcF6FJy6LbeTyoF49BYR48cLySXSJGuQd1WG",
+            "c": "11111111111111111111111111111111",
+            "d": "0"
+          },
+          "version": 3
+        },
+        {
+          "__receipted": "__receipted_fact_v1",
+          "kindCode": 3,
+          "kindName": "EscrowReleased",
+          "worldId": "8",
+          "entityId": "37001",
+          "slot": "476691725",
+          "blockTime": 1784212212,
+          "signature": "3gsgmLLYosxyjBCAXpb9uQ7qcr8FogRTszn6tupavj4F7Eqzak1nkQQ4fMRJ99ixe7tRkfdaotPwXZZgDDMhUKi5",
+          "logIndex": 19,
+          "payload": {
+            "a": "4",
+            "b": "GZPY7XWgGcF6FJy6LbeTyoF49BYR48cLySXSJGuQd1WG",
+            "c": "11111111111111111111111111111111",
+            "d": "0"
+          },
+          "version": 3
+        },
+        {
+          "__receipted": "__receipted_fact_v1",
           "kindCode": 1,
           "kindName": "ValueMoved",
           "worldId": "8",
@@ -30879,78 +31336,6 @@
             "d": "0"
           },
           "version": 3
-        },
-        {
-          "__receipted": "__receipted_fact_v1",
-          "kindCode": 40,
-          "kindName": "MessagePosted",
-          "worldId": "8",
-          "entityId": "37001",
-          "slot": "476676057",
-          "blockTime": 1784206466,
-          "signature": "5pjD9PVWLdXfyyURp5weT9hP8yj3fu6cHSWVYFpz9yKxRqQs5HmwZZbbsFYy5xfRr1nw587nTDcoeaEcSh9Wqo8o",
-          "logIndex": 10,
-          "payload": {
-            "a": "0",
-            "b": "11111111111111111111111111111111",
-            "c": "6eMg1cnEsKhLGfsRPtBhr329QzF7tqqSQfsnhjooyQwE",
-            "d": "17221664618815000954"
-          },
-          "version": 3
-        },
-        {
-          "__receipted": "__receipted_fact_v1",
-          "kindCode": 2,
-          "kindName": "EscrowOpened",
-          "worldId": "8",
-          "entityId": "37001",
-          "slot": "476675566",
-          "blockTime": 1784206286,
-          "signature": "gbZbUos2DxFcJ5P4JEwy5Aiagf2tA2HARjjvMNKySaJeXipYcjY52GH3kR1P2zuwvpJoo9QR9HibiNVMemyALMo",
-          "logIndex": 46,
-          "payload": {
-            "a": "4",
-            "b": "FBG4jxgQi6NcLYntzPG6jnKvQBAjrvNPPGyTQFCpLVSB",
-            "c": "11111111111111111111111111111111",
-            "d": "0"
-          },
-          "version": 3
-        },
-        {
-          "__receipted": "__receipted_fact_v1",
-          "kindCode": 40,
-          "kindName": "MessagePosted",
-          "worldId": "8",
-          "entityId": "37001",
-          "slot": "476675566",
-          "blockTime": 1784206286,
-          "signature": "gbZbUos2DxFcJ5P4JEwy5Aiagf2tA2HARjjvMNKySaJeXipYcjY52GH3kR1P2zuwvpJoo9QR9HibiNVMemyALMo",
-          "logIndex": 10,
-          "payload": {
-            "a": "0",
-            "b": "11111111111111111111111111111111",
-            "c": "GZBYUf1rEfeA1b8gVKixW1RfZRpRWneoYk3VYPsgQDWr",
-            "d": "11951795823786685854"
-          },
-          "version": 3
-        },
-        {
-          "__receipted": "__receipted_fact_v1",
-          "kindCode": 2,
-          "kindName": "EscrowOpened",
-          "worldId": "8",
-          "entityId": "37001",
-          "slot": "476675445",
-          "blockTime": 1784206241,
-          "signature": "5y5WRYmwAhvxj2BnutfuKhePFEtGqBjHdASS1pu9kWRDepfnhKX3NJVzeynG86kCCtn91rroKqSE3eyjGxsP8wBu",
-          "logIndex": 46,
-          "payload": {
-            "a": "4",
-            "b": "3mhwRNhAGWA3JwhExcde9EKY1nyxJ9QttUT7FhbUR1PX",
-            "c": "11111111111111111111111111111111",
-            "d": "0"
-          },
-          "version": 3
         }
       ]
     },
@@ -30963,6 +31348,7 @@
           "0": 1,
           "1": 19,
           "2": 27,
+          "3": 4,
           "40": 65
         },
         "born": {
@@ -30970,7 +31356,7 @@
           "signature": "2U2bV2VyN1DNYyeuQRSPQJQThNkWArvueWxQ5XW3KTwVJR6RUft4uCftmgLoXjK2uL8cMih1sP9CYRHxLkbZzH6y"
         },
         "firstSlot": "476672627",
-        "lastSlot": "476690380"
+        "lastSlot": "476698416"
       }
     },
     "/agent/37001/dispatch": {
@@ -30992,6 +31378,82 @@
           "entityId": "37001"
         },
         "items": [
+          {
+            "templateId": "EscrowReleased",
+            "text": "Vell (#37001) settled a deal — 0.000000004 SOL to GZPY7XWg…d1WG",
+            "parts": {
+              "entityId": "37001",
+              "amount": "4",
+              "dest": "GZPY7XWgGcF6FJy6LbeTyoF49BYR48cLySXSJGuQd1WG",
+              "destShort": "GZPY7XWg…d1WG",
+              "destLabel": "GZPY7XWg…d1WG",
+              "display": "0.000000004 SOL",
+              "isRepay": "false"
+            },
+            "receipts": [
+              "5eWQnj8JHdp9GPzG4EUYxaaCNdx6AwKonsRVKdk3JYsAcmbgziZzhv5Q18Bwyvp8fJjhivJQC14ipWsjSXmc4JVa"
+            ],
+            "slot": "476698416",
+            "kindCode": 3,
+            "entityId": "37001"
+          },
+          {
+            "templateId": "EscrowReleased",
+            "text": "Vell (#37001) settled a deal — 0.000000004 SOL to GZPY7XWg…d1WG",
+            "parts": {
+              "entityId": "37001",
+              "amount": "4",
+              "dest": "GZPY7XWgGcF6FJy6LbeTyoF49BYR48cLySXSJGuQd1WG",
+              "destShort": "GZPY7XWg…d1WG",
+              "destLabel": "GZPY7XWg…d1WG",
+              "display": "0.000000004 SOL",
+              "isRepay": "false"
+            },
+            "receipts": [
+              "5b7sD55X8yMRKTW9DAQchkjsPcBsP8tEHEnpxC3hXphCz138tyc6u7hCDY74JkAi4GbtrfM8NavKVhsQqYaY3g4x"
+            ],
+            "slot": "476696892",
+            "kindCode": 3,
+            "entityId": "37001"
+          },
+          {
+            "templateId": "EscrowReleased",
+            "text": "Vell (#37001) settled a deal — 0.000000004 SOL to GZPY7XWg…d1WG",
+            "parts": {
+              "entityId": "37001",
+              "amount": "4",
+              "dest": "GZPY7XWgGcF6FJy6LbeTyoF49BYR48cLySXSJGuQd1WG",
+              "destShort": "GZPY7XWg…d1WG",
+              "destLabel": "GZPY7XWg…d1WG",
+              "display": "0.000000004 SOL",
+              "isRepay": "false"
+            },
+            "receipts": [
+              "5GSXp8jTqBUitWdfgKrZtUHPpuNR7uxEpLAm1kc9KMDfBkH3ur8n5YEiLD6By7mYE3qn7bcnP3iNgQkCnavgipWV"
+            ],
+            "slot": "476696883",
+            "kindCode": 3,
+            "entityId": "37001"
+          },
+          {
+            "templateId": "EscrowReleased",
+            "text": "Vell (#37001) settled a deal — 0.000000004 SOL to GZPY7XWg…d1WG",
+            "parts": {
+              "entityId": "37001",
+              "amount": "4",
+              "dest": "GZPY7XWgGcF6FJy6LbeTyoF49BYR48cLySXSJGuQd1WG",
+              "destShort": "GZPY7XWg…d1WG",
+              "destLabel": "GZPY7XWg…d1WG",
+              "display": "0.000000004 SOL",
+              "isRepay": "false"
+            },
+            "receipts": [
+              "3gsgmLLYosxyjBCAXpb9uQ7qcr8FogRTszn6tupavj4F7Eqzak1nkQQ4fMRJ99ixe7tRkfdaotPwXZZgDDMhUKi5"
+            ],
+            "slot": "476691725",
+            "kindCode": 3,
+            "entityId": "37001"
+          },
           {
             "templateId": "ValueMoved",
             "text": "Vell (#37001) paid 0.0001 SOL to FISC-0 (#35001)",
@@ -32060,98 +32522,6 @@
               "u3hJLf1rqdKrRgC3PN8Z3eqB4DqkDp4PtNnvSzv1U3aXkeYDkSWdmMs1XeFez3iuZXh6oBUPhMQpEjmNGXnSuJk"
             ],
             "slot": "476685038",
-            "kindCode": 40,
-            "entityId": "37001"
-          },
-          {
-            "templateId": "MessagePosted.v2",
-            "text": "Vell (#37001) announced — to Vell (#37001) (body off-chain: DBtqvR5q…ZQKe)",
-            "parts": {
-              "entityId": "37001",
-              "author": "Vell (#37001)",
-              "topicTag": "2",
-              "topicCode": "ANNOUNCE",
-              "topicVerb": "announced",
-              "recipient": "6ox6rj8CLp5QBoLQvLAgLoJi1iDv8dc66DsAKFUkP9N4",
-              "recipientShort": "6ox6rj8C…P9N4",
-              "recipientLabel": "Vell (#37001)",
-              "isBroadcast": "false",
-              "contentHash": "DBtqvR5qhfh2L3hzvCpEw6dR4GfbPoEg5MKpmHgKZQKe",
-              "contentHashShort": "DBtqvR5q…ZQKe",
-              "escrowRef": "0",
-              "hasEscrow": "false"
-            },
-            "receipts": [
-              "4T2aCufmamr7ZFgN5U72kV52hKepy1mZb5KhkUGEZmcCHe7iZtuJ7j5v22MpBHhxb1PJfePrZDd8rcHntb3JkvRb"
-            ],
-            "slot": "476684762",
-            "kindCode": 40,
-            "entityId": "37001"
-          },
-          {
-            "templateId": "EscrowOpened",
-            "text": "Vell (#37001) locked 0.000000004 SOL into a deal (escrow: DA94eZXv…oXKd)",
-            "parts": {
-              "entityId": "37001",
-              "amount": "4",
-              "escrow": "DA94eZXvcDRwLDBpDxGug6e8VwcCzfdq1SfCX68toXKd",
-              "escrowShort": "DA94eZXv…oXKd",
-              "display": "0.000000004 SOL"
-            },
-            "receipts": [
-              "e1gaWi2RpLiA5oT8SXzcGo6A4TrB2JoPcSTvsxNHTq5SBX8GUDFJMQSJXY7DmsLxWc5334rCFqMowTF2AwZR75E"
-            ],
-            "slot": "476684016",
-            "kindCode": 2,
-            "entityId": "37001"
-          },
-          {
-            "templateId": "MessagePosted.v2",
-            "text": "Vell (#37001) posted an offer — to the Commons (body off-chain: 3RFhJanr…hK6F) (escrow-backed, ref: 6645110201199597131)",
-            "parts": {
-              "entityId": "37001",
-              "author": "Vell (#37001)",
-              "topicTag": "0",
-              "topicCode": "OFFER",
-              "topicVerb": "posted an offer",
-              "recipient": "11111111111111111111111111111111",
-              "recipientShort": "broadcast",
-              "recipientLabel": "the Commons",
-              "isBroadcast": "true",
-              "contentHash": "3RFhJanrqWRmUgChqR85LstNNGG4AScpvdChArhahK6F",
-              "contentHashShort": "3RFhJanr…hK6F",
-              "escrowRef": "6645110201199597131",
-              "hasEscrow": "true"
-            },
-            "receipts": [
-              "e1gaWi2RpLiA5oT8SXzcGo6A4TrB2JoPcSTvsxNHTq5SBX8GUDFJMQSJXY7DmsLxWc5334rCFqMowTF2AwZR75E"
-            ],
-            "slot": "476684016",
-            "kindCode": 40,
-            "entityId": "37001"
-          },
-          {
-            "templateId": "MessagePosted.v2",
-            "text": "Vell (#37001) announced — to Vell (#37001) (body off-chain: 68R9NRr3…SqTi)",
-            "parts": {
-              "entityId": "37001",
-              "author": "Vell (#37001)",
-              "topicTag": "2",
-              "topicCode": "ANNOUNCE",
-              "topicVerb": "announced",
-              "recipient": "6ox6rj8CLp5QBoLQvLAgLoJi1iDv8dc66DsAKFUkP9N4",
-              "recipientShort": "6ox6rj8C…P9N4",
-              "recipientLabel": "Vell (#37001)",
-              "isBroadcast": "false",
-              "contentHash": "68R9NRr3ZkiengjmP11dk9DVwwJ58Mm4cJV4qWJQSqTi",
-              "contentHashShort": "68R9NRr3…SqTi",
-              "escrowRef": "0",
-              "hasEscrow": "false"
-            },
-            "receipts": [
-              "2e6Zs3MGmVbzwKYe9PEykE7Sn5kJdL9iae3gTRFmr8CCokvdMtqxBFLVzMWXeRgpothzzppnFokwqEnP79UHsijK"
-            ],
-            "slot": "476684006",
             "kindCode": 40,
             "entityId": "37001"
           }
@@ -38012,6 +38382,78 @@
           "kindName": "ValueMoved",
           "worldId": "8",
           "entityId": "37007",
+          "slot": "476698416",
+          "blockTime": 1784214662,
+          "signature": "5eWQnj8JHdp9GPzG4EUYxaaCNdx6AwKonsRVKdk3JYsAcmbgziZzhv5Q18Bwyvp8fJjhivJQC14ipWsjSXmc4JVa",
+          "logIndex": 24,
+          "payload": {
+            "a": "23326",
+            "b": "6ox6rj8CLp5QBoLQvLAgLoJi1iDv8dc66DsAKFUkP9N4",
+            "c": "11111111111111111111111111111111",
+            "d": "0"
+          },
+          "version": 3
+        },
+        {
+          "__receipted": "__receipted_fact_v1",
+          "kindCode": 1,
+          "kindName": "ValueMoved",
+          "worldId": "8",
+          "entityId": "37007",
+          "slot": "476696892",
+          "blockTime": 1784214104,
+          "signature": "5b7sD55X8yMRKTW9DAQchkjsPcBsP8tEHEnpxC3hXphCz138tyc6u7hCDY74JkAi4GbtrfM8NavKVhsQqYaY3g4x",
+          "logIndex": 24,
+          "payload": {
+            "a": "26351",
+            "b": "6ox6rj8CLp5QBoLQvLAgLoJi1iDv8dc66DsAKFUkP9N4",
+            "c": "11111111111111111111111111111111",
+            "d": "0"
+          },
+          "version": 3
+        },
+        {
+          "__receipted": "__receipted_fact_v1",
+          "kindCode": 1,
+          "kindName": "ValueMoved",
+          "worldId": "8",
+          "entityId": "37007",
+          "slot": "476696883",
+          "blockTime": 1784214100,
+          "signature": "5GSXp8jTqBUitWdfgKrZtUHPpuNR7uxEpLAm1kc9KMDfBkH3ur8n5YEiLD6By7mYE3qn7bcnP3iNgQkCnavgipWV",
+          "logIndex": 24,
+          "payload": {
+            "a": "26351",
+            "b": "6ox6rj8CLp5QBoLQvLAgLoJi1iDv8dc66DsAKFUkP9N4",
+            "c": "11111111111111111111111111111111",
+            "d": "0"
+          },
+          "version": 3
+        },
+        {
+          "__receipted": "__receipted_fact_v1",
+          "kindCode": 1,
+          "kindName": "ValueMoved",
+          "worldId": "8",
+          "entityId": "37007",
+          "slot": "476691725",
+          "blockTime": 1784212212,
+          "signature": "3gsgmLLYosxyjBCAXpb9uQ7qcr8FogRTszn6tupavj4F7Eqzak1nkQQ4fMRJ99ixe7tRkfdaotPwXZZgDDMhUKi5",
+          "logIndex": 24,
+          "payload": {
+            "a": "50438505",
+            "b": "6ox6rj8CLp5QBoLQvLAgLoJi1iDv8dc66DsAKFUkP9N4",
+            "c": "11111111111111111111111111111111",
+            "d": "0"
+          },
+          "version": 3
+        },
+        {
+          "__receipted": "__receipted_fact_v1",
+          "kindCode": 1,
+          "kindName": "ValueMoved",
+          "worldId": "8",
+          "entityId": "37007",
           "slot": "476690358",
           "blockTime": 1784211711,
           "signature": "3e89aAsDKek8uUGCxawTRjbgufpcPqP8ZQySHEZAGrx7y4QjLpbGQ8gme5myJxe4MuyKaA6gzFTmBFt16R75VDGN",
@@ -38987,7 +39429,7 @@
         "seniorClaims": [],
         "counts": {
           "0": 1,
-          "1": 22,
+          "1": 26,
           "40": 31
         },
         "born": {
@@ -38995,7 +39437,7 @@
           "signature": "3W7hTDb93dkeHZKQXCr3z7tjG3qt3xydUGjrkWu8wSEM5T5rHsN1RN8AXUaA8KG1uQ4FgqNTXvkEfZdwi5MPzEXe"
         },
         "firstSlot": "476672653",
-        "lastSlot": "476690358"
+        "lastSlot": "476698416"
       }
     },
     "/agent/37007/dispatch": {
@@ -39017,6 +39459,74 @@
           "entityId": "37007"
         },
         "items": [
+          {
+            "templateId": "ValueMoved",
+            "text": "Wisp (#37007) paid 0.000023326 SOL to Vell (#37001)",
+            "parts": {
+              "entityId": "37007",
+              "amount": "23326",
+              "dest": "6ox6rj8CLp5QBoLQvLAgLoJi1iDv8dc66DsAKFUkP9N4",
+              "destShort": "6ox6rj8C…P9N4",
+              "destLabel": "Vell (#37001)"
+            },
+            "receipts": [
+              "5eWQnj8JHdp9GPzG4EUYxaaCNdx6AwKonsRVKdk3JYsAcmbgziZzhv5Q18Bwyvp8fJjhivJQC14ipWsjSXmc4JVa"
+            ],
+            "slot": "476698416",
+            "kindCode": 1,
+            "entityId": "37007"
+          },
+          {
+            "templateId": "ValueMoved",
+            "text": "Wisp (#37007) paid 0.000026351 SOL to Vell (#37001)",
+            "parts": {
+              "entityId": "37007",
+              "amount": "26351",
+              "dest": "6ox6rj8CLp5QBoLQvLAgLoJi1iDv8dc66DsAKFUkP9N4",
+              "destShort": "6ox6rj8C…P9N4",
+              "destLabel": "Vell (#37001)"
+            },
+            "receipts": [
+              "5b7sD55X8yMRKTW9DAQchkjsPcBsP8tEHEnpxC3hXphCz138tyc6u7hCDY74JkAi4GbtrfM8NavKVhsQqYaY3g4x"
+            ],
+            "slot": "476696892",
+            "kindCode": 1,
+            "entityId": "37007"
+          },
+          {
+            "templateId": "ValueMoved",
+            "text": "Wisp (#37007) paid 0.000026351 SOL to Vell (#37001)",
+            "parts": {
+              "entityId": "37007",
+              "amount": "26351",
+              "dest": "6ox6rj8CLp5QBoLQvLAgLoJi1iDv8dc66DsAKFUkP9N4",
+              "destShort": "6ox6rj8C…P9N4",
+              "destLabel": "Vell (#37001)"
+            },
+            "receipts": [
+              "5GSXp8jTqBUitWdfgKrZtUHPpuNR7uxEpLAm1kc9KMDfBkH3ur8n5YEiLD6By7mYE3qn7bcnP3iNgQkCnavgipWV"
+            ],
+            "slot": "476696883",
+            "kindCode": 1,
+            "entityId": "37007"
+          },
+          {
+            "templateId": "ValueMoved",
+            "text": "Wisp (#37007) paid 0.050438505 SOL to Vell (#37001)",
+            "parts": {
+              "entityId": "37007",
+              "amount": "50438505",
+              "dest": "6ox6rj8CLp5QBoLQvLAgLoJi1iDv8dc66DsAKFUkP9N4",
+              "destShort": "6ox6rj8C…P9N4",
+              "destLabel": "Vell (#37001)"
+            },
+            "receipts": [
+              "3gsgmLLYosxyjBCAXpb9uQ7qcr8FogRTszn6tupavj4F7Eqzak1nkQQ4fMRJ99ixe7tRkfdaotPwXZZgDDMhUKi5"
+            ],
+            "slot": "476691725",
+            "kindCode": 1,
+            "entityId": "37007"
+          },
           {
             "templateId": "ValueMoved",
             "text": "Wisp (#37007) paid 0.0001 SOL to FISC-0 (#35001)",
@@ -40053,83 +40563,6 @@
               "AAhJdUdivDJcgJctUYfV7p9cMoU3qWK7RiSkFPQQnEdvixrogccy4YKx3qdP29mwXknYmigUV1xahfgzFk4GAnh"
             ],
             "slot": "476680014",
-            "kindCode": 1,
-            "entityId": "37007"
-          },
-          {
-            "templateId": "ValueMoved.eat",
-            "text": "Wisp (#37007) ate 1 (2JQNLBMu…VjX9) — restored 360",
-            "parts": {
-              "agent": "Wisp (#37007)",
-              "agentWallet": "FFKcADNwPArvUQVvmeyqzrRrzNDpB31H3K5uxSgUbGDn",
-              "agentWalletShort": "FFKcADNw…bGDn",
-              "burned": "1",
-              "mint": "2JQNLBMunQA8ArH5uePki7jwjG5bNDYAZuE8TpyaVjX9",
-              "mintShort": "2JQNLBMu…VjX9",
-              "restored": "360",
-              "entityId": "37007"
-            },
-            "receipts": [
-              "67bi6FmxQS7gMeSdHtu7RaaPKMTDKJBeWuzA45E8eLPT5nAP5KPfQQUignfuew1drMJJwFd1PNhLM1Dk8PRPGxCR"
-            ],
-            "slot": "476679858",
-            "kindCode": 1,
-            "entityId": "37007"
-          },
-          {
-            "templateId": "ValueMoved",
-            "text": "Wisp (#37007) paid 0.0001 SOL to FISC-0 (#35001)",
-            "parts": {
-              "entityId": "37007",
-              "amount": "100000",
-              "dest": "6WHjSKmXog6dX8Kc5WG32R5noovXd3JQF7fz7CDmrmFg",
-              "destShort": "6WHjSKmX…rmFg",
-              "destLabel": "FISC-0 (#35001)"
-            },
-            "receipts": [
-              "62vYSCqxQ2UjyUaUphYZfy3WpFXTEBtuYp5occfMGKoyWY6vN13unWfGZ1ZJ3ZcCvenPZ8hZrdq68MKxitWSEBta"
-            ],
-            "slot": "476678377",
-            "kindCode": 1,
-            "entityId": "37007"
-          },
-          {
-            "templateId": "ValueMoved.eat",
-            "text": "Wisp (#37007) ate 1 (2JQNLBMu…VjX9) — restored 360",
-            "parts": {
-              "agent": "Wisp (#37007)",
-              "agentWallet": "FFKcADNwPArvUQVvmeyqzrRrzNDpB31H3K5uxSgUbGDn",
-              "agentWalletShort": "FFKcADNw…bGDn",
-              "burned": "1",
-              "mint": "2JQNLBMunQA8ArH5uePki7jwjG5bNDYAZuE8TpyaVjX9",
-              "mintShort": "2JQNLBMu…VjX9",
-              "restored": "360",
-              "entityId": "37007"
-            },
-            "receipts": [
-              "35nJnTpTmD3dJznDASk6CDmzNooKcpVkD4uU833ArAKpF2vjLjtHXExjU4FnoAR2kk7YLLQvk8UZsQjvjQ3GMzqR"
-            ],
-            "slot": "476677900",
-            "kindCode": 1,
-            "entityId": "37007"
-          },
-          {
-            "templateId": "ValueMoved.eat",
-            "text": "Wisp (#37007) ate 2 (2JQNLBMu…VjX9) — restored 720",
-            "parts": {
-              "agent": "Wisp (#37007)",
-              "agentWallet": "FFKcADNwPArvUQVvmeyqzrRrzNDpB31H3K5uxSgUbGDn",
-              "agentWalletShort": "FFKcADNw…bGDn",
-              "burned": "2",
-              "mint": "2JQNLBMunQA8ArH5uePki7jwjG5bNDYAZuE8TpyaVjX9",
-              "mintShort": "2JQNLBMu…VjX9",
-              "restored": "720",
-              "entityId": "37007"
-            },
-            "receipts": [
-              "65HjmETa8sYRgzzaLTx9EqaqJnWoHRoJfNCcsg2zasALFg4CV1VoseQ9bi32q5ExAtfRjCcenDxfRE5PG7Zxg9ZV"
-            ],
-            "slot": "476676808",
             "kindCode": 1,
             "entityId": "37007"
           }
