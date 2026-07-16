@@ -7,12 +7,6 @@
   "agents": {
     "37001": [
       {
-        "kind": "observation",
-        "text": "t1: survival 400/720, wallet 0.298916 SOL, food 6",
-        "importance": 1,
-        "ts": 1
-      },
-      {
         "kind": "action",
         "text": "Milling 10 CROPS into 7 FLOUR now (have 105 CROPS). Soil at 124/200—recovery preferred next cycle. Survival at 400/720, food held x6, wallet 0.298916 SOL.",
         "importance": 6,
@@ -41,15 +35,51 @@
         "text": "chose fertilize (heuristic-fallback:grounding-failed(0.00) manual=a2648baf333c)",
         "importance": 2,
         "ts": 3
+      },
+      {
+        "kind": "observation",
+        "text": "survival meter critical: 240/720",
+        "importance": 8,
+        "ts": 4
+      },
+      {
+        "kind": "observation",
+        "text": "t4: survival 240/720, wallet 0.298816 SOL, food 6",
+        "importance": 1,
+        "ts": 4
+      },
+      {
+        "kind": "action",
+        "text": "chose eat (reflex:critical-eat)",
+        "importance": 5,
+        "ts": 4
+      },
+      {
+        "kind": "observation",
+        "text": "t5: survival 720/720, wallet 0.298716 SOL, food 4",
+        "importance": 1,
+        "ts": 5
+      },
+      {
+        "kind": "action",
+        "text": "chose offer (heuristic-fallback:grounding-failed(0.00) manual=a2648baf333c)",
+        "importance": 3,
+        "ts": 5
+      },
+      {
+        "kind": "observation",
+        "text": "t6: survival 640/720, wallet 0.298716 SOL, food 4",
+        "importance": 1,
+        "ts": 6
+      },
+      {
+        "kind": "action",
+        "text": "chose fertilize (heuristic-fallback:grounding-failed(0.00) manual=a2648baf333c)",
+        "importance": 2,
+        "ts": 6
       }
     ],
     "37002": [
-      {
-        "kind": "observation",
-        "text": "t1: survival 380/720, wallet 0.147691 SOL, food 18",
-        "importance": 1,
-        "ts": 1
-      },
       {
         "kind": "action",
         "text": "chose fertilize (heuristic-fallback:mind(claude-haiku-4-5-20251001) timed out after 6000ms manual=a2648baf333c)",
@@ -79,6 +109,48 @@
         "text": "chose fertilize (heuristic-fallback:grounding-failed(0.00) manual=a2648baf333c)",
         "importance": 2,
         "ts": 3
+      },
+      {
+        "kind": "observation",
+        "text": "survival meter critical: 220/720",
+        "importance": 8,
+        "ts": 4
+      },
+      {
+        "kind": "observation",
+        "text": "t4: survival 220/720, wallet 0.147691 SOL, food 18",
+        "importance": 1,
+        "ts": 4
+      },
+      {
+        "kind": "action",
+        "text": "chose eat (reflex:critical-eat)",
+        "importance": 5,
+        "ts": 4
+      },
+      {
+        "kind": "observation",
+        "text": "t5: survival 720/720, wallet 0.147591 SOL, food 16",
+        "importance": 1,
+        "ts": 5
+      },
+      {
+        "kind": "action",
+        "text": "chose fertilize (heuristic-fallback:grounding-failed(0.00) manual=a2648baf333c)",
+        "importance": 2,
+        "ts": 5
+      },
+      {
+        "kind": "observation",
+        "text": "t6: survival 600/720, wallet 0.147591 SOL, food 16",
+        "importance": 1,
+        "ts": 6
+      },
+      {
+        "kind": "action",
+        "text": "chose farm (heuristic-fallback:grounding-failed(0.00) manual=a2648baf333c)",
+        "importance": 2,
+        "ts": 6
       }
     ],
     "37005": [
@@ -117,6 +189,42 @@
         "text": "t3: ate to stabilize. Soil 105/200 — fertilize next turn via GREEN_MANURE (4 CROPS → 6 FERT). Then farm→mill→sell to restart the flow.",
         "importance": 6,
         "ts": 3
+      },
+      {
+        "kind": "observation",
+        "text": "t4: survival 720/720, wallet 0.043341 SOL, food 16",
+        "importance": 1,
+        "ts": 4
+      },
+      {
+        "kind": "action",
+        "text": "chose fertilize (heuristic-fallback:mind(claude-haiku-4-5-20251001) timed out after 6000ms manual=a2648baf333c)",
+        "importance": 2,
+        "ts": 4
+      },
+      {
+        "kind": "observation",
+        "text": "t5: survival 680/720, wallet 0.043241 SOL, food 16",
+        "importance": 1,
+        "ts": 5
+      },
+      {
+        "kind": "action",
+        "text": "chose fertilize (heuristic-fallback:unknown produce label 'GREEN_MANURE_V1' manual=a2648baf333c)",
+        "importance": 2,
+        "ts": 5
+      },
+      {
+        "kind": "observation",
+        "text": "t6: survival 580/720, wallet 0.043241 SOL, food 16",
+        "importance": 1,
+        "ts": 6
+      },
+      {
+        "kind": "action",
+        "text": "chose fertilize (heuristic-fallback:unknown produce label 'GREEN_MANURE_V1' manual=a2648baf333c)",
+        "importance": 2,
+        "ts": 6
       }
     ],
     "37007": [
@@ -143,6 +251,42 @@
         "text": "chose fertilize (heuristic-fallback:mind(claude-haiku-4-5-20251001) timed out after 6000ms manual=a2648baf333c)",
         "importance": 2,
         "ts": 2
+      },
+      {
+        "kind": "observation",
+        "text": "t3: survival 460/720, wallet 0.139792 SOL, food 9",
+        "importance": 1,
+        "ts": 3
+      },
+      {
+        "kind": "action",
+        "text": "Baking 4 FLOUR + 2 WATER → 5 BREAD (cooldown ~2.1t). Soil at 113/200, will need fertilize soon. Survival 460/720, food 9—secure for now.",
+        "importance": 7,
+        "ts": 3
+      },
+      {
+        "kind": "observation",
+        "text": "t4: survival 400/720, wallet 0.139692 SOL, food 14",
+        "importance": 1,
+        "ts": 4
+      },
+      {
+        "kind": "action",
+        "text": "chose fertilize (heuristic-fallback:mind(claude-haiku-4-5-20251001) timed out after 6000ms manual=a2648baf333c)",
+        "importance": 2,
+        "ts": 4
+      },
+      {
+        "kind": "observation",
+        "text": "t5: survival 360/720, wallet 0.139692 SOL, food 14",
+        "importance": 1,
+        "ts": 5
+      },
+      {
+        "kind": "action",
+        "text": "chose fertilize (heuristic-fallback:mind(claude-haiku-4-5-20251001) timed out after 6000ms manual=a2648baf333c)",
+        "importance": 2,
+        "ts": 5
       }
     ]
   }
