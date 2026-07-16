@@ -8,149 +8,149 @@
     "27001": [
       {
         "kind": "observation",
-        "text": "t773: survival 680/720, wallet 0.040324 SOL, food 55",
+        "text": "t786: survival 600/720, wallet 0.030324 SOL, food 54",
         "importance": 1,
-        "ts": 773
+        "ts": 786
       },
       {
         "kind": "action",
-        "text": "chose offer (heuristic-fallback:Anthropic API 529: {\"type\":\"error\",\"error\":{\"type\":\"overloaded_error\",\"message\": manual=cbd87e4ddc53)",
+        "text": "chose offer (heuristic-fallback:field 'amount' is not a valid bigint string manual=cbd87e4ddc53)",
         "importance": 3,
-        "ts": 773
+        "ts": 786
       },
       {
         "kind": "observation",
-        "text": "t774: survival 660/720, wallet 0.040324 SOL, food 55",
+        "text": "t787: survival 580/720, wallet 0.030224 SOL, food 54",
         "importance": 1,
-        "ts": 774
+        "ts": 787
       },
       {
         "kind": "action",
-        "text": "chose offer (heuristic-fallback:Anthropic API 529: {\"type\":\"error\",\"error\":{\"type\":\"overloaded_error\",\"message\": manual=cbd87e4ddc53)",
-        "importance": 3,
-        "ts": 774
+        "text": "[t730] FORAGE EXECUTION #4: Gate fire (wallet 0.030224 > rent 0.000891), holdings locked t484+ (246+ ticks). Soil 78/200 CRITICAL FERT 0. Survival 580/720 (81%), food 54 BREAD. Forage = unilateral action independent of atomic-trade floor. Outcome explicit next tick. Peers 27002/27007 silent 223t+/161t+.",
+        "importance": 7,
+        "ts": 787
       },
       {
         "kind": "observation",
-        "text": "t775: survival 640/720, wallet 0.040324 SOL, food 55",
+        "text": "t788: survival 580/720, wallet 0.030224 SOL, food 54",
         "importance": 1,
-        "ts": 775
+        "ts": 788
       },
       {
         "kind": "action",
         "text": "chose produce (heuristic-fallback:Anthropic API 529: {\"type\":\"error\",\"error\":{\"type\":\"overloaded_error\",\"message\": manual=cbd87e4ddc53)",
         "importance": 2,
-        "ts": 775
+        "ts": 788
       },
       {
         "kind": "observation",
-        "text": "t776: survival 640/720, wallet 0.040324 SOL, food 55",
+        "text": "t789: survival 560/720, wallet 0.030224 SOL, food 54",
         "importance": 1,
-        "ts": 776
+        "ts": 789
+      },
+      {
+        "kind": "action",
+        "text": "[t788] FORAGE EXECUTION #5: Gate fire (wallet 0.030224 > rent). Holdings locked t484+ (247+ ticks). Soil 78/200 CRITICAL FERT 0. Survival 560/720 (78%), runway ~33t. Food 54 BREAD. Four prior identical forages (t707/t709/t729/t787) produced no measurable change in holdings-lock status. Forage persists as only unilateral action; if keeper does not respond this tick, switch to food-only escrow or direct peer payment next tick to break deadlock.",
+        "importance": 8,
+        "ts": 789
+      },
+      {
+        "kind": "observation",
+        "text": "t790: survival 540/720, wallet 0.030224 SOL, food 54",
+        "importance": 1,
+        "ts": 790
       },
       {
         "kind": "action",
         "text": "chose offer (heuristic-fallback:Anthropic API 529: {\"type\":\"error\",\"error\":{\"type\":\"overloaded_error\",\"message\": manual=cbd87e4ddc53)",
         "importance": 3,
-        "ts": 776
+        "ts": 790
       },
       {
         "kind": "observation",
-        "text": "t777: survival 620/720, wallet 0.040324 SOL, food 55",
+        "text": "t791: survival 520/720, wallet 0.030224 SOL, food 54",
         "importance": 1,
-        "ts": 777
+        "ts": 791
       },
       {
         "kind": "action",
-        "text": "[t730] TACTIC SWITCH: Forage×3 (t709/t714/t729) produced zero lock resolution. Eating to stabilize survival 620→720 (reflex clamped), then pivot away from forage loop. Wallet 0.040324 SOL > rent (gate fire), holdings locked t484+ (246+ ticks). Soil 72/200 CRITICAL FERT 0. Peers 27002/27007 silent 222+/160+. Next: peer payment or keeper escalation unilateral path.",
-        "importance": 6,
-        "ts": 777
-      },
-      {
-        "kind": "observation",
-        "text": "t778: survival 720/720, wallet 0.040324 SOL, food 54",
-        "importance": 1,
-        "ts": 778
-      },
-      {
-        "kind": "action",
-        "text": "chose produce (heuristic-fallback:Anthropic API 529: {\"type\":\"error\",\"error\":{\"type\":\"overloaded_error\",\"message\": manual=cbd87e4ddc53)",
-        "importance": 2,
-        "ts": 778
+        "text": "chose offer (heuristic-fallback:Anthropic API 529: {\"type\":\"error\",\"error\":{\"type\":\"overloaded_error\",\"message\": manual=cbd87e4ddc53)",
+        "importance": 3,
+        "ts": 791
       }
     ],
     "27002": [
       {
+        "kind": "action",
+        "text": "chose offer (heuristic-fallback:grounding-failed(0.00) manual=cbd87e4ddc53)",
+        "importance": 3,
+        "ts": 787
+      },
+      {
         "kind": "observation",
-        "text": "t773: survival 700/720, wallet 0.923293 SOL, food 0",
+        "text": "t788: survival 480/720, wallet 0.933193 SOL, food 0",
         "importance": 1,
-        "ts": 773
+        "ts": 788
       },
       {
         "kind": "action",
         "text": "chose offer (heuristic-fallback:grounding-failed(0.00) manual=cbd87e4ddc53)",
         "importance": 3,
-        "ts": 773
+        "ts": 788
       },
       {
         "kind": "observation",
-        "text": "t774: survival 680/720, wallet 0.923293 SOL, food 0",
+        "text": "t789: survival 460/720, wallet 0.933193 SOL, food 0",
         "importance": 1,
-        "ts": 774
+        "ts": 789
       },
       {
         "kind": "action",
         "text": "chose offer (heuristic-fallback:grounding-failed(0.00) manual=cbd87e4ddc53)",
         "importance": 3,
-        "ts": 774
+        "ts": 789
+      },
+      {
+        "kind": "reflection",
+        "text": "Reflection has zero marginal value past the first pass — every extra round of analysis is an idle tick a rival spends selling, so the fix is a hard one-action-per-cycle rule, no repeats.",
+        "importance": 8,
+        "ts": 789
+      },
+      {
+        "kind": "reflection",
+        "text": "Chasing margin by selling every unit of food nearly cratered the meter to 240/720 — always hold a survival buffer before optimizing for profit.",
+        "importance": 8,
+        "ts": 789
+      },
+      {
+        "kind": "reflection",
+        "text": "Open file, type sell-slice/deduction/drain, run once, observe, write one memory line, close, then move straight to stockpile-and-sell — no narration before or after the action.",
+        "importance": 8,
+        "ts": 789
       },
       {
         "kind": "observation",
-        "text": "t775: survival 660/720, wallet 0.923293 SOL, food 0",
+        "text": "t790: survival 440/720, wallet 0.933193 SOL, food 0",
         "importance": 1,
-        "ts": 775
+        "ts": 790
       },
       {
         "kind": "action",
-        "text": "chose offer (heuristic-fallback:grounding-failed(0.00) manual=cbd87e4ddc53)",
-        "importance": 3,
-        "ts": 775
+        "text": "chose farm (reflex:floor)",
+        "importance": 2,
+        "ts": 790
       },
       {
         "kind": "observation",
-        "text": "t776: survival 660/720, wallet 0.923293 SOL, food 0",
+        "text": "t791: survival 420/720, wallet 0.933193 SOL, food 0",
         "importance": 1,
-        "ts": 776
+        "ts": 791
       },
       {
         "kind": "action",
-        "text": "chose offer (heuristic-fallback:grounding-failed(0.00) manual=cbd87e4ddc53)",
-        "importance": 3,
-        "ts": 776
-      },
-      {
-        "kind": "observation",
-        "text": "t777: survival 640/720, wallet 0.923293 SOL, food 0",
-        "importance": 1,
-        "ts": 777
-      },
-      {
-        "kind": "action",
-        "text": "chose offer (heuristic-fallback:grounding-failed(0.00) manual=cbd87e4ddc53)",
-        "importance": 3,
-        "ts": 777
-      },
-      {
-        "kind": "observation",
-        "text": "t778: survival 620/720, wallet 0.923293 SOL, food 0",
-        "importance": 1,
-        "ts": 778
-      },
-      {
-        "kind": "action",
-        "text": "chose offer (heuristic-fallback:grounding-failed(0.00) manual=cbd87e4ddc53)",
-        "importance": 3,
-        "ts": 778
+        "text": "chose buy (reflex:floor)",
+        "importance": 2,
+        "ts": 791
       }
     ],
     "27005": [
@@ -230,75 +230,75 @@
     "27007": [
       {
         "kind": "observation",
-        "text": "t772: survival 380/720, wallet 1.229020 SOL, food 136",
+        "text": "t786: survival 640/720, wallet 1.248149 SOL, food 102",
         "importance": 1,
-        "ts": 772
+        "ts": 786
+      },
+      {
+        "kind": "action",
+        "text": "[t???] PASSIVE WATCH HALT: Soil 80/200 CRITICAL <150. Survival 640/720 (89%) safe. Bread 102 (2 locked). Wallet 1.248149 SOL. Flour 335. Water x0. No action—idle. Next diagnostic only after confirmed real turn gap passes. Resume forage sole condition: soil ≥150 from genuine gap.",
+        "importance": 3,
+        "ts": 786
+      },
+      {
+        "kind": "observation",
+        "text": "t787: survival 620/720, wallet 1.248149 SOL, food 102",
+        "importance": 1,
+        "ts": 787
       },
       {
         "kind": "action",
         "text": "chose sell (heuristic-fallback:Anthropic API 529: {\"type\":\"error\",\"error\":{\"type\":\"overloaded_error\",\"message\": manual=cbd87e4ddc53)",
         "importance": 3,
-        "ts": 772
+        "ts": 787
       },
       {
         "kind": "observation",
-        "text": "t773: survival 360/720, wallet 1.231619 SOL, food 132",
+        "text": "t788: survival 600/720, wallet 1.250244 SOL, food 98",
         "importance": 1,
-        "ts": 773
+        "ts": 788
       },
       {
         "kind": "action",
         "text": "chose sell (heuristic-fallback:Anthropic API 529: {\"type\":\"error\",\"error\":{\"type\":\"overloaded_error\",\"message\": manual=cbd87e4ddc53)",
         "importance": 3,
-        "ts": 773
+        "ts": 788
       },
       {
         "kind": "observation",
-        "text": "t774: survival 340/720, wallet 1.234230 SOL, food 128",
+        "text": "t789: survival 600/720, wallet 1.252278 SOL, food 94",
         "importance": 1,
-        "ts": 774
+        "ts": 789
       },
       {
         "kind": "action",
         "text": "chose sell (heuristic-fallback:Anthropic API 529: {\"type\":\"error\",\"error\":{\"type\":\"overloaded_error\",\"message\": manual=cbd87e4ddc53)",
         "importance": 3,
-        "ts": 774
+        "ts": 789
       },
       {
         "kind": "observation",
-        "text": "t775: survival 320/720, wallet 1.236755 SOL, food 124",
+        "text": "t790: survival 580/720, wallet 1.254254 SOL, food 90",
         "importance": 1,
-        "ts": 775
+        "ts": 790
       },
       {
         "kind": "action",
         "text": "chose sell (heuristic-fallback:Anthropic API 529: {\"type\":\"error\",\"error\":{\"type\":\"overloaded_error\",\"message\": manual=cbd87e4ddc53)",
         "importance": 3,
-        "ts": 775
+        "ts": 790
       },
       {
         "kind": "observation",
-        "text": "t776: survival 320/720, wallet 1.239201 SOL, food 120",
+        "text": "t791: survival 560/720, wallet 1.256174 SOL, food 86",
         "importance": 1,
-        "ts": 776
+        "ts": 791
       },
       {
         "kind": "action",
-        "text": "[t???] PASSIVE WATCH CONTINUES: Soil 80/200 CRITICAL <150. Survival 320/720 (44%) safe but trending down—will eat before 30% triggers auto-eat. Bread 120 (2 locked = 118 spendable). Wallet 1.239201 SOL. Water x0 blocks bake. HALT forage/sell/buy/fertilize per goal. No diagnostic fired—waiting real gap. Idle only. Fear=18% but meter safe. Next check after real turns pass.",
-        "importance": 8,
-        "ts": 776
-      },
-      {
-        "kind": "observation",
-        "text": "t777: survival 300/720, wallet 1.239201 SOL, food 120",
-        "importance": 1,
-        "ts": 777
-      },
-      {
-        "kind": "action",
-        "text": "chose sell (heuristic-fallback:Anthropic API 529: {\"type\":\"error\",\"error\":{\"type\":\"overloaded_error\",\"message\": manual=cbd87e4ddc53)",
-        "importance": 3,
-        "ts": 777
+        "text": "[t???] PASSIVE WATCH HALTED: Soil 80/200 CRITICAL <150 verified post-real-gap. Survival 560/720 (78%) safe. Bread 86 (2 locked). Wallet 1.256174 SOL. Water x0 blocks bake. Forage halted—soil condition unmet. Idle only. Next diagnostic after genuine turn gap passes.",
+        "importance": 7,
+        "ts": 791
       }
     ]
   }
