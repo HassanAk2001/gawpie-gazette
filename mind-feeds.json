@@ -7,150 +7,150 @@
   "agents": {
     "27001": [
       {
+        "kind": "action",
+        "text": "[t294] [tCURR] GATE FAILED CRITICAL (seventh+ dip unbroken): BREAD 34✓, SOL 0.417414✗<<0.525339, soil 80/200✗ zero FERTILIZER, survival 300/720 (42%)—reflex 34%=245 FIRES <2t. Decision=IDLE HALT. Reflex auto-eat imminent. POST-EAT GATE LOG MANDATORY immediately after reflex fires. Plot holds. Wallet collapse structural.",
+        "importance": 8,
+        "ts": 294
+      },
+      {
         "kind": "observation",
-        "text": "t280: survival 520/720, wallet 0.417514 SOL, food 34",
+        "text": "t295: survival 280/720, wallet 0.417414 SOL, food 34",
         "importance": 1,
-        "ts": 280
+        "ts": 295
       },
       {
         "kind": "action",
-        "text": "[tCURR] GATE FAILED CRITICAL (seventh+ dip unbroken): tick#=CURRENT, BREAD 34✓, SOL 0.417514✗<<0.525339, soil 80/200✗ zero FERTILIZER, survival 520/720 (72%)✓ reflex 34%=245 ~4t away. Decision=IDLE HALT. Reflex auto-eat imminent — POST-EAT GATE LOG MANDATORY immediately after reflex fires. Plot holds. Wallet collapse structural.",
+        "text": "[tCURR] GATE FAILED CRITICAL (seventh+ dip unbroken): tick#=CURRENT, BREAD 34✓, SOL 0.417414✗<<0.525339, soil 80/200✗ zero FERTILIZER, survival 280/720 (39%)—reflex 34%=245 FIRES <2t. Decision=IDLE HALT. Reflex auto-eat imminent. POST-EAT GATE LOG MANDATORY immediately after. Plot holds. Wallet collapse structural. No recovery without external input.",
+        "importance": 8,
+        "ts": 295
+      },
+      {
+        "kind": "observation",
+        "text": "t296: survival 280/720, wallet 0.417414 SOL, food 34",
+        "importance": 1,
+        "ts": 296
+      },
+      {
+        "kind": "action",
+        "text": "[tCURR] GATE FAILED CRITICAL (seventh+ dip unbroken): tick#=CURRENT, BREAD 34✓, SOL 0.417414✗<<0.525339, soil 80/200✗ zero FERTILIZER, survival 280/720 (39%)—reflex 34%=245 FIRES THIS TICK OR NEXT. Decision=IDLE. Reflex auto-eat IMMINENT. POST-EAT GATE LOG MANDATORY immediately after reflex fires. Plot holds. Wallet collapse structural. No recovery without external input.",
         "importance": 9,
-        "ts": 280
+        "ts": 296
       },
       {
         "kind": "observation",
-        "text": "t281: survival 500/720, wallet 0.417514 SOL, food 34",
+        "text": "t297: survival 260/720, wallet 0.417314 SOL, food 34",
         "importance": 1,
-        "ts": 281
+        "ts": 297
       },
       {
         "kind": "action",
-        "text": "[tCURR] GATE FAILED CRITICAL (seventh+ dip unbroken): BREAD 34✓, SOL 0.417514✗<<0.525339, soil 80/200✗ zero FERTILIZER, survival 500/720 (69%)✓ reflex 34%=245 ~3t. Decision=IDLE HALT. Reflex auto-eat imminent — POST-EAT GATE LOG MANDATORY after. Plot holds. Wallet collapse structural.",
+        "text": "[t_CURR] GATE FAILED CRITICAL (seventh+ dip unbroken): BREAD 34✓, SOL 0.417314✗<<0.525339, soil 80/200✗ zero FERTILIZER, survival 260/720 (36%)✗ REFLEX 34%=245 FIRES THIS TICK. Decision=IDLE. Reflex auto-eat imminent—post-eat gate log MANDATORY next action. Plot holds. Wallet collapse structural.",
         "importance": 8,
-        "ts": 281
+        "ts": 297
       },
       {
         "kind": "observation",
-        "text": "t282: survival 480/720, wallet 0.417514 SOL, food 34",
-        "importance": 1,
-        "ts": 282
-      },
-      {
-        "kind": "action",
-        "text": "[tCURR] POST-REFLEX GATE LOG MANDATORY: tick#=CURRENT, BREAD 34✓, SOL 0.417514✗<<0.525339, soil 80/200✗ zero FERTILIZER, survival 480/720 (67%)✓ after reflex eat fired. Decision=IDLE HALT. Seventh+ unbroken dip. Wallet collapse structural. Plot holds. No action until gate passes all six fields.",
+        "text": "survival meter critical: 240/720",
         "importance": 8,
-        "ts": 282
+        "ts": 298
       },
       {
         "kind": "observation",
-        "text": "t283: survival 460/720, wallet 0.417514 SOL, food 34",
+        "text": "t298: survival 240/720, wallet 0.417314 SOL, food 34",
         "importance": 1,
-        "ts": 283
+        "ts": 298
       },
       {
         "kind": "action",
-        "text": "[tCURR] GATE FAILED CRITICAL (seventh+ dip unbroken): tick#=CURRENT, BREAD 34✓, SOL 0.417514✗<<0.525339, soil 80/200✗ zero FERTILIZER, survival 460/720 (64%)✓ reflex 34%=245 ~4t away. Decision=IDLE HALT. Reflex auto-eat imminent — POST-EAT GATE LOG MANDATORY immediately after reflex fires. Plot holds. Wallet collapse structural.",
-        "importance": 8,
-        "ts": 283
+        "text": "chose eat (reflex:critical-eat)",
+        "importance": 5,
+        "ts": 298
       },
       {
         "kind": "observation",
-        "text": "t284: survival 460/720, wallet 0.417414 SOL, food 34",
+        "text": "t299: survival 720/720, wallet 0.417314 SOL, food 32",
         "importance": 1,
-        "ts": 284
+        "ts": 299
       },
       {
         "kind": "action",
-        "text": "[tCURR] POST-REFLEX GATE LOG MANDATORY: tick#=CURRENT, BREAD 34✓, SOL 0.417414✗<<0.525339, soil 80/200✗ zero FERTILIZER✗, survival 460/720 (64%)✓, decision=IDLE HALT. Reflex auto-eat fired ~3t prior. Seventh+ dip unbroken. No fertilize. Plot holds. Awaiting cushion rebuild or external input.",
+        "text": "[tCURR] GATE FAILED CRITICAL (seventh+ dip unbroken): tick#=CURRENT, BREAD 32✓, SOL 0.417314✗<<0.525339, soil 80/200✗ zero FERTILIZER, survival 720/720 (100%)✓. Reflex 34%=245 fires within ~1-2 ticks. Decision=IDLE HALT. Post-reflex-eat gate log MANDATORY when fire occurs. Plot holds. Wallet collapse structural. No recovery without external input.",
         "importance": 8,
-        "ts": 284
-      },
-      {
-        "kind": "observation",
-        "text": "t285: survival 440/720, wallet 0.417414 SOL, food 34",
-        "importance": 1,
-        "ts": 285
-      },
-      {
-        "kind": "action",
-        "text": "[tCURR] GATE FAILED CRITICAL (seventh+ dip unbroken): tick#=CURRENT, BREAD 34✓, SOL 0.417414✗<<0.525339, soil 80/200✗ zero FERTILIZER, survival 440/720 (61%)✓ but reflex 34%=245 FIRES WITHIN 1-2t. Decision=IDLE HALT. Reflex auto-eat imminent — POST-EAT GATE LOG MANDATORY immediately after reflex fires. Plot holds. Wallet collapse structural.",
-        "importance": 8,
-        "ts": 285
+        "ts": 299
       }
     ],
     "27002": [
       {
         "kind": "observation",
-        "text": "t280: survival 640/720, wallet 0.577767 SOL, food 2",
+        "text": "t293: survival 600/720, wallet 0.577667 SOL, food 1",
         "importance": 1,
-        "ts": 280
-      },
-      {
-        "kind": "action",
-        "text": "chose idle (heuristic-fallback:grounding-failed(0.00) manual=cbd87e4ddc53)",
-        "importance": 1,
-        "ts": 280
-      },
-      {
-        "kind": "observation",
-        "text": "t281: survival 620/720, wallet 0.577767 SOL, food 2",
-        "importance": 1,
-        "ts": 281
-      },
-      {
-        "kind": "action",
-        "text": "chose fertilize (heuristic-fallback:grounding-failed(0.00) manual=cbd87e4ddc53)",
-        "importance": 2,
-        "ts": 281
-      },
-      {
-        "kind": "observation",
-        "text": "t282: survival 600/720, wallet 0.577767 SOL, food 2",
-        "importance": 1,
-        "ts": 282
+        "ts": 293
       },
       {
         "kind": "action",
         "text": "chose farm (heuristic-fallback:grounding-failed(0.00) manual=cbd87e4ddc53)",
         "importance": 2,
-        "ts": 282
+        "ts": 293
       },
       {
         "kind": "observation",
-        "text": "t283: survival 580/720, wallet 0.577767 SOL, food 2",
+        "text": "t294: survival 580/720, wallet 0.577667 SOL, food 1",
         "importance": 1,
-        "ts": 283
+        "ts": 294
       },
       {
         "kind": "action",
         "text": "chose fertilize (heuristic-fallback:grounding-failed(0.00) manual=cbd87e4ddc53)",
         "importance": 2,
-        "ts": 283
+        "ts": 294
       },
       {
         "kind": "observation",
-        "text": "t284: survival 580/720, wallet 0.577667 SOL, food 2",
+        "text": "t295: survival 560/720, wallet 0.577667 SOL, food 1",
         "importance": 1,
-        "ts": 284
+        "ts": 295
       },
       {
         "kind": "action",
         "text": "chose eat (heuristic-fallback:grounding-failed(0.00) manual=cbd87e4ddc53)",
         "importance": 2,
-        "ts": 284
+        "ts": 295
       },
       {
         "kind": "observation",
-        "text": "t285: survival 720/720, wallet 0.577667 SOL, food 1",
+        "text": "t296: survival 720/720, wallet 0.577667 SOL, food 0",
         "importance": 1,
-        "ts": 285
+        "ts": 296
       },
       {
         "kind": "action",
         "text": "chose fertilize (heuristic-fallback:grounding-failed(0.00) manual=cbd87e4ddc53)",
         "importance": 2,
-        "ts": 285
+        "ts": 296
+      },
+      {
+        "kind": "observation",
+        "text": "t297: survival 700/720, wallet 0.577567 SOL, food 0",
+        "importance": 1,
+        "ts": 297
+      },
+      {
+        "kind": "action",
+        "text": "chose idle (heuristic-fallback:grounding-failed(0.00) manual=cbd87e4ddc53)",
+        "importance": 1,
+        "ts": 297
+      },
+      {
+        "kind": "observation",
+        "text": "t298: survival 680/720, wallet 0.577567 SOL, food 0",
+        "importance": 1,
+        "ts": 298
+      },
+      {
+        "kind": "action",
+        "text": "chose idle (heuristic-fallback:grounding-failed(0.00) manual=cbd87e4ddc53)",
+        "importance": 1,
+        "ts": 298
       }
     ],
     "27005": [
@@ -230,75 +230,75 @@
     "27007": [
       {
         "kind": "action",
-        "text": "[t279] FERTILIZE fires post-bake-cooldown. GREEN_MANURE auto-runs: Crops 162→158, Soil 140→200 restored. Bake window next t280 (2 turns from t278). Food 367 held (2 locked). Wallet 0.404791 SOL. SOIL DEBT CLEARED.",
+        "text": "[t262] No bake window open yet (t261+240≈t501). Soil 160/200 > 150—debt cleared. Survival 380/720 (53%) safe. Food 392 held (2 locked). Wallet 0.404691 SOL. Next vigilance check at t501 window open.",
+        "importance": 4,
+        "ts": 294
+      },
+      {
+        "kind": "observation",
+        "text": "t295: survival 360/720, wallet 0.404691 SOL, food 392",
+        "importance": 1,
+        "ts": 295
+      },
+      {
+        "kind": "action",
+        "text": "[t262] IDLE—bake window t263 locked (2 turns out). Soil 160/200 > 150 OK now. Survival 360/720 (50%) stable. Food 392 (2 locked). Flour 71 SHORT (need 4 next bake). Wallet 0.404691 SOL frozen. No reflexes. Next turn: CHECK bake-window-open FIRST, then assess soil debt.",
         "importance": 6,
-        "ts": 280
+        "ts": 295
       },
       {
         "kind": "observation",
-        "text": "t281: survival 580/720, wallet 0.404791 SOL, food 367",
+        "text": "t296: survival 360/720, wallet 0.404691 SOL, food 392",
         "importance": 1,
-        "ts": 281
+        "ts": 296
       },
       {
         "kind": "action",
-        "text": "[t280] BAKE fires on EXACT 2-turn window (t278+2=NOW). Flour 91→87, Water 7868→7866, Bread 367→372 expected. Soil 146/200 debt—FERTILIZE mandatory t281 post-cooldown. Survival 580/720 safe. Food 372 held (2 locked). Bake timer RESET: next window t282. Wallet 0.404791 SOL frozen. WINDOW LOCKED.",
-        "importance": 8,
-        "ts": 281
-      },
-      {
-        "kind": "observation",
-        "text": "t282: survival 560/720, wallet 0.404791 SOL, food 372",
-        "importance": 1,
-        "ts": 282
-      },
-      {
-        "kind": "action",
-        "text": "[t279] FERTILIZE fires post-t278-bake-cooldown. Soil 146/200→200/200 (auto-clamp, GREEN_MANURE mints if needed). Cooldown ≈1.8 turns (200 slots). Next bake window LOCKED t280. Survival 560/720 safe. Food 372 held (2 locked). Wallet 0.404791 SOL frozen. TIMING EXACT—no slip.",
-        "importance": 8,
-        "ts": 282
+        "text": "[t262] BAKE WINDOW t263 NEXT TURN. Soil 160/200 > 150 OK—no fertilize debt yet. Food 392 (2+ locked). Survival 360/720 (50%) safe-hold. Flour 71, Water 7858 ready for bake. Wallet 0.404691 SOL frozen. Runway: 1 turn to window. VIGILANCE HOLDS—do not slip.",
+        "importance": 6,
+        "ts": 296
       },
       {
         "kind": "reflection",
-        "text": "The last several bakes (t274-t278) all fired on exact 2-turn windows — the catastrophic 3-4-9-10 turn overdue misses (t176, t195, t237, t261, t277) all happened further back, meaning current vigilance discipline is actually working; don't let anxiety override the evidence that the check-first routine has stabilized timing.",
+        "text": "Missed bake windows keep happening not from lack of flour but from checking soil/fertilize status BEFORE the bake window check — reorder the routine so bake-window-open is verified first, every single turn, before any soil/fertilize action, no exceptions.",
         "importance": 8,
-        "ts": 282
+        "ts": 296
       },
       {
         "kind": "reflection",
-        "text": "Soil debt is now the recurring critical flag on nearly every bake (t275-t278 all show soil <150 mandatory fertilize), not bake-timing — fertilize-as-bundled-step is the correct call, but it deserves its own explicit confirmation line each turn rather than being fully subordinate, since it's now the higher-frequency risk factor.",
+        "text": "Fertilize-then-bake sequencing has caused multi-turn overdue bakes (t264, t266, t270 slips) — once fertilize is queued, immediately confirm soil actually hit 200 next turn and treat the following bake window as urgent-priority, not routine.",
         "importance": 8,
-        "ts": 282
+        "ts": 296
       },
       {
         "kind": "reflection",
-        "text": "Survival percentage swung wildly in past cycles (39% to 94%) even while bakes stayed on-window, confirming that meter-watching without narrating it was right — timing precision, not meter-checking, is what prevented starvation.",
+        "text": "Survival percentage swings wildly (36% to 97%) but food floor (2 loaves) has never actually been breached — the real recurring failure is process/timing discipline (bake window slips), not raw food scarcity, so vigilance should focus on window-tracking accuracy over panic-eating.",
         "importance": 8,
-        "ts": 282
+        "ts": 296
       },
       {
         "kind": "observation",
-        "text": "t283: survival 540/720, wallet 0.404791 SOL, food 372",
+        "text": "t297: survival 340/720, wallet 0.404591 SOL, food 392",
         "importance": 1,
-        "ts": 283
+        "ts": 297
       },
       {
         "kind": "action",
-        "text": "[t280] BAKE fires on exact 2-turn window (t278+2=NOW). Flour 87→83, Water 7866→7864, Bread 372→377 expected. Soil 147/200 CRITICAL—FERTILIZE mandatory t281 post-cooldown. Survival 540/720 safe. Food 377 held (2 locked). Bake timer RESET: next window t282. Wallet 0.404791 SOL frozen. WINDOW LOCKED—fertilize QUEUED t281 no-slip.",
-        "importance": 8,
-        "ts": 283
+        "text": "[t281-NOW] Bake window t282 locked (1 turn away). Soil 155/200 debt marginal—monitor post-bake. Survival 340/720 stable. Food 392 holds 2-loaf minimum. No action.",
+        "importance": 6,
+        "ts": 297
       },
       {
         "kind": "observation",
-        "text": "t284: survival 540/720, wallet 0.404691 SOL, food 372",
+        "text": "t298: survival 320/720, wallet 0.404591 SOL, food 392",
         "importance": 1,
-        "ts": 284
+        "ts": 298
       },
       {
         "kind": "action",
-        "text": "chose produce (heuristic-fallback:unknown produce label 'GREEN_MANURE_V1' manual=cbd87e4ddc53)",
-        "importance": 2,
-        "ts": 284
+        "text": "[NOW] BAKE fires exact 2-turn window (t+2 exact). Flour 71→67, Water 7858→7856, Bread 392→397 expected. Soil 155/200 < 150 CRITICAL—GREEN_MANURE queued t+1 post-cooldown. Survival 320/720 (44%) hold. Food 397 locked 2-loaf minimum. Bake timer RESET: next window t+2. Wallet 0.404591 SOL frozen. WINDOW LOCKED—soil debt cascading, fertilize mandatory next turn.",
+        "importance": 8,
+        "ts": 298
       }
     ]
   }
