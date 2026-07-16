@@ -142,7 +142,7 @@
           "cap": 720,
           "kind": "heartbeat",
           "action": "sell",
-          "note": "sells her final 14 units of bake-water for ~0.058 SOL (58,024,390 lamports) — ten minutes after her last meal. The survival-sell motive is INFERRED; the receipt is MEASURED.",
+          "note": "sells her final 14 units of bake-water for ~0.058 SOL (58,024,390 lamports) — ten minutes after her last bake. The survival-sell motive is INFERRED; the receipt is MEASURED.",
           "txSig": "2ZHk44vo8CfqtEYwHoA1nwp5Uc1v7GkX9Uyq7nBofDCiwEY58t1WegdccrLSgNKHVc3oYApeqdfQmtv7wwt9qeLn",
           "verified": true,
           "slot": 476455936
