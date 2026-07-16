@@ -7,298 +7,298 @@
   "agents": {
     "37001": [
       {
+        "kind": "observation",
+        "text": "t29: survival 580/720, wallet 1.084826 SOL, food 9",
+        "importance": 1,
+        "ts": 29
+      },
+      {
         "kind": "action",
-        "text": "Milling 76 CROPS → ~53 FLOUR. Soil 115/200 critical—fertilize after bake. Survival 600/720 safe for work. Wallet 1.031 SOL.",
+        "text": "[t29] Bake 4 FLOUR + 2 WATER → 5 BREAD (23 FLOUR remain, 14 BREAD total, 0 WATER left). Survival 580/720 safe, food x9 held. Soil 109/200 stable. After cooldown (~2.1 turns), fertilize via GREEN_MANURE to recover soil before next farm. Wallet 1.084826 SOL stable.",
         "importance": 6,
-        "ts": 18
+        "ts": 29
       },
       {
         "kind": "observation",
-        "text": "t18: survival 580/720, wallet 1.030731 SOL, food 5",
+        "text": "t31: survival 580/720, wallet 1.084826 SOL, food 14",
         "importance": 1,
-        "ts": 18
+        "ts": 31
       },
       {
         "kind": "action",
-        "text": "t19: Milling 14 FLOUR from CROPS to set up bake cycle. Soil 115/200 critical but survival 580/720 safe—will fertilize after bake completes. Wallet 1.031 SOL.",
+        "text": "[t29] Mill 57 CROPS → ~40 FLOUR (10:7 ratio). Survival 580/720 safe, food x14 held. Soil 109/200 stable. After cooldown (~1.1 turns), bake 4 FLOUR + 2 WATER → 5 BREAD. Wallet 1.084826 SOL. Harvest record holds.",
         "importance": 6,
-        "ts": 18
+        "ts": 31
       },
       {
         "kind": "observation",
-        "text": "t19: survival 580/720, wallet 1.030731 SOL, food 5",
+        "text": "t30: survival 580/720, wallet 1.084826 SOL, food 14",
         "importance": 1,
-        "ts": 19
+        "ts": 30
       },
       {
         "kind": "action",
-        "text": "t20: Baking 4 FLOUR + 2 WATER → 5 BREAD. Soil 115/200 critical—fertilize immediately after bake window closes. Survival 580/720 safe. Wallet 1.031 SOL. Goal: soil recovery before next farm.",
+        "text": "[t29] Mill 10 CROPS → 7 FLOUR (47 CROPS remain, 37 FLOUR total). Survival 580/720 safe, food x14 held. Soil 109/200 critical—fertilize after mill cools (~1.1 turns). Wallet 1.084826 SOL stable. Harvest record still holds.",
         "importance": 6,
-        "ts": 19
+        "ts": 30
       },
       {
         "kind": "reflection",
-        "text": "Twice I let survival crash to 140 while food sat banked unused — the check-and-eat rule must run first, before any soil, milling, or bake decision, not as an afterthought.",
+        "text": "A rule remembered isn't a rule followed — the near-deaths kept repeating until the survival-check-then-eat order was made the literal first step of every single task, not a value I held but a sequence I executed.",
         "importance": 8,
-        "ts": 19
+        "ts": 31
       },
       {
         "kind": "reflection",
-        "text": "When grounding fails, my fallback was to repeat 'offer/fertilize' blindly instead of checking the belly gauge — the real fix is a hard-coded order of operations: survival check, then eat if under 350, then proceed to farm work.",
+        "text": "Banked bread and fert are inert until spent — stop counting stockpiles as safety; the only thing that counts is the check firing at the threshold, every task, no exceptions.",
         "importance": 8,
-        "ts": 19
+        "ts": 31
       },
       {
         "kind": "reflection",
-        "text": "Soil and wallet gains mean nothing if the record-keeper starves before the harvest is tallied — the harvest record only counts if I survive to log it.",
+        "text": "When reasoning gets shaky, the reflex must be 'check survival, eat if ≤350' — never fall back to repeating the last farm action, since that autopilot drift is exactly what caused both crashes.",
         "importance": 8,
-        "ts": 19
+        "ts": 31
       },
       {
-        "kind": "observation",
-        "text": "t19: survival 580/720, wallet 1.030731 SOL, food 5",
-        "importance": 1,
-        "ts": 19
+        "kind": "reflection",
+        "text": "Near-death happened twice not from lack of food but from lack of a fixed check-first sequence — the rule only became real once I stopped treating survival check as optional and made it the literal first line of every task, no matter how routine soil/mill/bake felt.",
+        "importance": 8,
+        "ts": 30
       },
       {
-        "kind": "action",
-        "text": "t20→t21: Baking 4 FLOUR + 2 WATER → 5 BREAD. Soil 115/200 critical—fertilize next turn after cooldown. Survival 580/720 safe. Wallet 1.031 SOL. Harvest record depends on staying alive to log it.",
-        "importance": 7,
-        "ts": 19
+        "kind": "reflection",
+        "text": "When reasoning falters mid-task, the old reflex was to repeat the last heuristic (offer/fertilize) — that reflex is exactly what let the gauge crash unnoticed; the safe fallback now is always 'check survival, eat if at/below 350', never 'do what I was just doing'.",
+        "importance": 8,
+        "ts": 30
       },
       {
-        "kind": "observation",
-        "text": "t20: survival 560/720, wallet 1.030731 SOL, food 10",
-        "importance": 1,
-        "ts": 20
-      },
-      {
-        "kind": "action",
-        "text": "chose offer (heuristic-fallback:mind(claude-haiku-4-5-20251001) timed out after 6000ms manual=a2648baf333c)",
-        "importance": 3,
-        "ts": 20
+        "kind": "reflection",
+        "text": "Banked bread and fertilizer are not safety, only potential safety — they only count once actually spent against a threshold, so I should treat every stockpile as a scheduled trigger, not a comfort to admire while the gauge drops.",
+        "importance": 8,
+        "ts": 30
       }
     ],
     "37002": [
       {
         "kind": "observation",
-        "text": "t16: survival 560/720, wallet 0.146991 SOL, food 12",
+        "text": "t28: survival 360/720, wallet 0.168972 SOL, food 24",
         "importance": 1,
-        "ts": 16
-      },
-      {
-        "kind": "action",
-        "text": "chose fertilize (heuristic-fallback:grounding-failed(0.00) manual=a2648baf333c)",
-        "importance": 2,
-        "ts": 16
-      },
-      {
-        "kind": "observation",
-        "text": "t18: survival 540/720, wallet 0.146991 SOL, food 12",
-        "importance": 1,
-        "ts": 18
+        "ts": 28
       },
       {
         "kind": "action",
         "text": "chose produce (heuristic-fallback:grounding-failed(0.00) manual=a2648baf333c)",
         "importance": 2,
-        "ts": 18
+        "ts": 28
       },
       {
         "kind": "observation",
-        "text": "t17: survival 540/720, wallet 0.146991 SOL, food 17",
+        "text": "t28: survival 340/720, wallet 0.168972 SOL, food 29",
         "importance": 1,
-        "ts": 17
+        "ts": 28
+      },
+      {
+        "kind": "action",
+        "text": "chose fertilize (heuristic-fallback:grounding-failed(0.00) manual=a2648baf333c)",
+        "importance": 2,
+        "ts": 28
+      },
+      {
+        "kind": "observation",
+        "text": "t29: survival 320/720, wallet 0.168972 SOL, food 29",
+        "importance": 1,
+        "ts": 29
       },
       {
         "kind": "action",
         "text": "chose sell (heuristic-fallback:grounding-failed(0.00) manual=a2648baf333c)",
         "importance": 3,
-        "ts": 17
+        "ts": 29
       },
       {
         "kind": "observation",
-        "text": "wallet grew to 0.158574 SOL (was 0.146991 SOL)",
+        "text": "wallet grew to 0.178705 SOL (was 0.168972 SOL)",
         "importance": 1,
-        "ts": 19
+        "ts": 29
       },
       {
         "kind": "observation",
-        "text": "t19: survival 520/720, wallet 0.158574 SOL, food 13",
+        "text": "t29: survival 320/720, wallet 0.178705 SOL, food 25",
         "importance": 1,
-        "ts": 19
+        "ts": 29
       },
       {
         "kind": "action",
-        "text": "chose fertilize (heuristic-fallback:grounding-failed(0.00) manual=a2648baf333c)",
+        "text": "chose farm (heuristic-fallback:grounding-failed(0.00) manual=a2648baf333c)",
         "importance": 2,
-        "ts": 19
+        "ts": 29
       },
       {
         "kind": "observation",
-        "text": "wallet grew to 0.158574 SOL (was 0.146991 SOL)",
+        "text": "wallet grew to 0.178705 SOL (was 0.168972 SOL)",
         "importance": 1,
-        "ts": 18
+        "ts": 30
       },
       {
         "kind": "observation",
-        "text": "t18: survival 520/720, wallet 0.158574 SOL, food 13",
+        "text": "t30: survival 320/720, wallet 0.178705 SOL, food 25",
         "importance": 1,
-        "ts": 18
+        "ts": 30
       },
       {
         "kind": "action",
-        "text": "chose produce (heuristic-fallback:grounding-failed(0.00) manual=a2648baf333c)",
+        "text": "chose farm (heuristic-fallback:grounding-failed(0.00) manual=a2648baf333c)",
         "importance": 2,
-        "ts": 18
+        "ts": 30
       }
     ],
     "37005": [
       {
-        "kind": "action",
-        "text": "t18: Sold 85 CROPS to climb wallet above rent floor (0.116681 + ~663 lamports = ~0.780 SOL expected). Survival 460/720 safe. Soil 97/200 still deferred—next: fertilize once wallet stable, then farm when plot ready. Strict rhythm holds.",
-        "importance": 7,
-        "ts": 18
-      },
-      {
-        "kind": "observation",
-        "text": "wallet grew to 0.485130 SOL (was 0.116557 SOL)",
-        "importance": 6,
-        "ts": 17
-      },
-      {
-        "kind": "observation",
-        "text": "t17: survival 440/720, wallet 0.485130 SOL, food 14",
-        "importance": 1,
-        "ts": 17
-      },
-      {
-        "kind": "action",
-        "text": "[t19] Survival 440→~500 after eating 1 BREAD (13 remain). Wallet 0.485 SOL stable. Soil 97/200 deferred. Next: farm plot to generate CROPS, then mill→sell FLOUR to push wallet above 0.6 SOL before soil recovery cycle.",
-        "importance": 6,
-        "ts": 17
-      },
-      {
-        "kind": "observation",
-        "text": "wallet grew to 0.485130 SOL (was 0.116681 SOL)",
-        "importance": 6,
-        "ts": 19
-      },
-      {
-        "kind": "observation",
-        "text": "t19: survival 720/720, wallet 0.485130 SOL, food 13",
-        "importance": 1,
-        "ts": 19
-      },
-      {
-        "kind": "action",
-        "text": "[t20] Farm plot to generate CROPS (expect ~35–39 yield at soil 97/200). Survival 720/720 secure, food 13 BREAD held. Wallet 0.485 SOL stable. Soil 97/200 deferred—farm→mill→sell→fertilize cycle locked in, no fallback substitution.",
-        "importance": 6,
-        "ts": 19
+        "kind": "reflection",
+        "text": "The check-survival-first habit only failed when coin looked healthy — coin health is not body health, so the 400/720 check must happen literally first, mechanically, before wallet or soil ever enter thought, no exceptions for 'things seem fine.'",
+        "importance": 8,
+        "ts": 27
       },
       {
         "kind": "reflection",
-        "text": "Fallback timeouts crept into nearly every decision and nearly killed the mill's rhythm — always check whether an action is a deliberate rotation step or just the timer firing before committing.",
+        "text": "Every fallback timeout that fired unexamined turned into a same-type streak (fertilize-fertilize, deferred milling) that idled the mill and nearly killed me twice — the fix isn't better timing, it's a hard stop-and-name-it ritual every single turn: 'what slot is this, did last turn already use it, is this deliberate or the timer talking.'",
         "importance": 8,
-        "ts": 19
-      },
-      {
-        "kind": "reflection",
-        "text": "Wallet growth masked a survival crash from 500 to 200 — coin and body are separate ledgers; eat at a fixed 400/720 floor regardless of how full the purse looks.",
-        "importance": 8,
-        "ts": 19
-      },
-      {
-        "kind": "reflection",
-        "text": "Back-to-back same-type actions (fertilize-fertilize, or deferred milling) starve the other legs of the cycle — never repeat an action twice running unless the floor genuinely demands it; hold the farm→mill→sell→eat-if-needed→fertilize rotation strictly.",
-        "importance": 8,
-        "ts": 19
+        "ts": 27
       },
       {
         "kind": "observation",
-        "text": "t18: survival 720/720, wallet 0.485130 SOL, food 13",
+        "text": "t28: survival 660/720, wallet 0.484952 SOL, food 12",
         "importance": 1,
-        "ts": 18
+        "ts": 28
       },
       {
         "kind": "action",
-        "text": "[t21] Farm CROPS at soil 97/200 (expect ~35–39 yield). Survival 720/720 secure, food 13 held. Wallet 0.485 SOL. Soil deferred one more turn—farm→mill→sell→fertilize cycle holds. No reflex fallback.",
-        "importance": 7,
-        "ts": 18
+        "text": "Soil 95/200 — below recovery floor (120); fertilize before next harvest to keep the mill's input clean and reliable. Survival secure at 92%.",
+        "importance": 6,
+        "ts": 28
+      },
+      {
+        "kind": "observation",
+        "text": "t27: survival 660/720, wallet 0.484952 SOL, food 12",
+        "importance": 1,
+        "ts": 27
+      },
+      {
+        "kind": "action",
+        "text": "chose farm (heuristic-fallback:unknown produce label 'GREEN_MANURE_V1' manual=a2648baf333c)",
+        "importance": 2,
+        "ts": 27
+      },
+      {
+        "kind": "observation",
+        "text": "t28: survival 640/720, wallet 0.484952 SOL, food 12",
+        "importance": 1,
+        "ts": 28
+      },
+      {
+        "kind": "action",
+        "text": "chose produce (heuristic-fallback:unknown produce label 'GREEN_MANURE_V1' manual=a2648baf333c)",
+        "importance": 2,
+        "ts": 28
+      },
+      {
+        "kind": "observation",
+        "text": "t29: survival 620/720, wallet 0.484952 SOL, food 12",
+        "importance": 1,
+        "ts": 29
+      },
+      {
+        "kind": "action",
+        "text": "Soil 91/200 triggers fertilize before next farm; survival 620 is safe; BREAD buffer (12) holds the rotation steady.",
+        "importance": 6,
+        "ts": 29
+      },
+      {
+        "kind": "observation",
+        "text": "t29: survival 620/720, wallet 0.484952 SOL, food 17",
+        "importance": 1,
+        "ts": 29
+      },
+      {
+        "kind": "action",
+        "text": "t28: Survival check passed at 620 (above 400). Soil at 91/200 (recovery preferred). 23 CROPS → 16 FLOUR via mill; hold BREAD reserve; queue fertilize after soil stabilizes.",
+        "importance": 2,
+        "ts": 29
       }
     ],
     "37007": [
       {
-        "kind": "observation",
-        "text": "wallet shrank to 0.070768 SOL (was 0.120768 SOL)",
-        "importance": 4,
-        "ts": 19
-      },
-      {
-        "kind": "observation",
-        "text": "t19: survival 700/720, wallet 0.070768 SOL, food 12",
-        "importance": 1,
-        "ts": 19
-      },
-      {
         "kind": "action",
-        "text": "[t18] Selling remaining 158 FLOUR to lock in coin from pending trades. Wallet rebuild in progress. Soil 93/200 — fertilize after next bake. Ready to name the loaf.",
+        "text": "[t27] Post-bake eat triggered (700/720→720/720). Survival full. Now: name batch for peer, close flour trades to SOL same cycle, fertilize next turn. Soil 101/200 recovery ongoing. Wallet 0.069601 SOL.",
         "importance": 7,
-        "ts": 19
+        "ts": 27
       },
       {
         "kind": "observation",
-        "text": "wallet shrank to 0.070768 SOL (was 0.120768 SOL)",
-        "importance": 4,
-        "ts": 18
-      },
-      {
-        "kind": "observation",
-        "text": "t18: survival 680/720, wallet 0.070768 SOL, food 12",
+        "text": "t27: survival 720/720, wallet 0.069601 SOL, food 8",
         "importance": 1,
-        "ts": 18
+        "ts": 27
       },
       {
         "kind": "action",
-        "text": "t20: Accepted 37001's FLOUR trade (4 FLOUR → 50.4M lamports). Wallet rebuilding. Soil 93/200—fertilize due after next bake. Ready to name the loaf 'Thirty-Seven's Gift' or similar.",
+        "text": "chose farm (heuristic-fallback:sell 'FLOUR': zero balance (mint Bfmk58fv…) manual=a2648baf333c)",
+        "importance": 2,
+        "ts": 27
+      },
+      {
+        "kind": "observation",
+        "text": "t28: survival 720/720, wallet 0.069601 SOL, food 8",
+        "importance": 1,
+        "ts": 28
+      },
+      {
+        "kind": "action",
+        "text": "[t28] Post-bake sequence: (1) eat triggered—survival already full, returns idle. (2) Next: name batch '37001's Batch' and sell remaining 7 BREAD to SOL, same cycle. (3) Fertilize scheduled for t29. Soil 107/200 recovery proceeding. Wallet 0.0696 SOL—about to climb.",
         "importance": 6,
-        "ts": 18
+        "ts": 28
       },
       {
         "kind": "reflection",
-        "text": "Two near-death dips to 240/720 both came right after bake/fertilize pushes with no eating step — eating must be a fixed checkpoint every cycle (e.g. eat immediately after baking, before doing anything else), not something I remember only when the meter is already red.",
+        "text": "Eleven-plus reflections repeating the same resolution proves the failure is execution, not understanding — stop reflecting and start literally doing step 1 (eat) the moment the oven finishes, before any admiring, praising, or planning happens.",
         "importance": 8,
-        "ts": 19
+        "ts": 28
       },
       {
         "kind": "reflection",
-        "text": "Selling all flour reactively at crisis points instead of on schedule is what let the wallet halve while bread piled up — goodwill and stock aren't safety nets; convert flour/bread to coin on a set cadence each cycle, not only when desperate.",
+        "text": "Naming a loaf after someone can't be a 'next time' intention — it has to be spoken aloud/logged as the second physical action after eating, in the same breath as pulling bread from the oven, or it will keep sliding into 'later.'",
         "importance": 8,
-        "ts": 19
+        "ts": 28
       },
       {
         "kind": "reflection",
-        "text": "I've said 'will honor if reputation calls' and 'ready to name the loaf' for many turns without actually naming one — the naming has to happen on the very next bake, immediately, or it stays permanent intent instead of story.",
+        "text": "The wallet crashes every time bread or flour-trades sit as stock for 'reputation' — coin-closing (step 4) is not optional cleanup, it's the same-cycle action that keeps the bakery alive, so it happens right after fertilizing, no exceptions.",
         "importance": 8,
-        "ts": 19
+        "ts": 28
       },
       {
-        "kind": "reflection",
-        "text": "Two near-death drops to 240/720 both followed bake/fertilize cycles with no prior eating — eating has to happen on a fixed schedule (e.g. immediately after every bake, before fertilizing), not only when the meter is already screaming.",
-        "importance": 8,
-        "ts": 18
+        "kind": "observation",
+        "text": "t28: survival 700/720, wallet 0.069601 SOL, food 8",
+        "importance": 1,
+        "ts": 28
       },
       {
-        "kind": "reflection",
-        "text": "Wallet stayed flat or fell while bread stock and reputation climbed — goodwill and stockpiled loaves don't pay rent; every batch should have a portion pre-committed to selling or trade-closing the same cycle it's baked, not held indefinitely for 'reputation.'",
-        "importance": 8,
-        "ts": 18
+        "kind": "action",
+        "text": "Bake queued. Post-completion: eat(1)→name batch→fertilize scheduled t+1→coin-close flour trades same cycle. Soil 97/200 recovery priority. Wallet 0.0696 SOL holding.",
+        "importance": 7,
+        "ts": 28
       },
       {
-        "kind": "reflection",
-        "text": "Fertilizing keeps happening late or as a reactive timeout rather than a deliberate one-turn-after-bake action — the rule needs a hard trigger (bake happened → next action is always fertilize) so it stops drifting into habit-by-accident.",
-        "importance": 8,
-        "ts": 18
+        "kind": "observation",
+        "text": "t29: survival 700/720, wallet 0.069601 SOL, food 8",
+        "importance": 1,
+        "ts": 29
+      },
+      {
+        "kind": "action",
+        "text": "t29: Farmed at soil 97/200 (yield ~19 CROPS). Next: mill to flour, then bake. Wallet 0.0696 SOL. Survival 720/720 full. Fertilize after next bake per rigid protocol.",
+        "importance": 6,
+        "ts": 29
       }
     ]
   }
