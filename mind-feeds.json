@@ -7,298 +7,298 @@
   "agents": {
     "37001": [
       {
-        "kind": "observation",
-        "text": "t157: survival 720/720, wallet 0.848841 SOL, food 23",
-        "importance": 1,
-        "ts": 157
-      },
-      {
         "kind": "action",
-        "text": "[t155] GAUGE 107→147/350 — safe. Farm executed. Soil 101→91 (yield floor(40×101/200)=~40 CROPS). Survival 720/720 full, food x23, wallet 0.848841 SOL. Harvest locked, fertilize next turn when soil <100.",
-        "importance": 7,
-        "ts": 157
+        "text": "chose sell (heuristic-fallback:mind(claude-haiku-4-5-20251001) timed out after 6000ms manual=a2648baf333c)",
+        "importance": 3,
+        "ts": 169
       },
       {
         "kind": "observation",
-        "text": "t153: survival 720/720, wallet 0.848841 SOL, food 23",
+        "text": "t165: survival 620/720, wallet 0.860263 SOL, food 22",
         "importance": 1,
-        "ts": 153
+        "ts": 165
       },
       {
         "kind": "action",
-        "text": "[t158] GAUGE 147/350—safe. Fertilize triggered. Soil 91→200 via GREEN_MANURE (4 CROPS→6 FERTILIZER auto). Survival 720/720 full, food x23, wallet 0.848841 SOL. Harvest sequence continues.",
+        "text": "[t166] GAUGE 107/350—safe. Fertilize soil 97→200 via GREEN_MANURE (4 CROPS→6 FERTILIZER auto-trigger expected). Survival 620/720 (86%), food x22, wallet 0.860263 SOL. Soil restoring; harvest window locked until next turn.",
+        "importance": 4,
+        "ts": 165
+      },
+      {
+        "kind": "observation",
+        "text": "wallet grew to 0.908174 SOL (was 0.856388 SOL)",
+        "importance": 1,
+        "ts": 170
+      },
+      {
+        "kind": "observation",
+        "text": "t170: survival 600/720, wallet 0.908174 SOL, food 18",
+        "importance": 1,
+        "ts": 170
+      },
+      {
+        "kind": "action",
+        "text": "t164: GAUGE 95/350—unsafe. Fertilize soil 97→200 (GREEN_MANURE: 4 CROPS→6 FERTILIZER auto). Survival 600/720 (83%) stable, food x18, wallet 0.908174 SOL. Post-fertilize: soil restored, harvest window opens next turn. Ready for big harvest.",
         "importance": 6,
-        "ts": 153
+        "ts": 170
       },
       {
         "kind": "observation",
-        "text": "t158: survival 720/720, wallet 0.848841 SOL, food 23",
+        "text": "wallet grew to 0.908174 SOL (was 0.860263 SOL)",
         "importance": 1,
-        "ts": 158
-      },
-      {
-        "kind": "action",
-        "text": "[t158] GAUGE 147/350—safe. Fertilize executed. Soil 97→200 (GREEN_MANURE: 4 CROPS→4 FERTILIZER trigger). Survival 720/720 full, food x23, wallet 0.848841 SOL. Soil restored, harvest window next turn.",
-        "importance": 6,
-        "ts": 158
+        "ts": 166
       },
       {
         "kind": "observation",
-        "text": "t154: survival 700/720, wallet 0.848841 SOL, food 23",
+        "text": "t166: survival 600/720, wallet 0.908174 SOL, food 18",
         "importance": 1,
-        "ts": 154
+        "ts": 166
       },
       {
         "kind": "action",
-        "text": "t159: GAUGE 113/350—safe. Fertilize soil 97→200 (GREEN_MANURE: 4 CROPS→6 FERTILIZER auto-trigger expected). Survival 700/720 stable, food x23, wallet 0.848841 SOL. Soil restoring, harvest window opens next turn. Eat-gate did not fire because survival trend is flat, not falling.",
+        "text": "t171: GAUGE 95/350—unsafe. Soil 97→200 via GREEN_MANURE (4 CROPS→6 FERTILIZER auto). Survival 600/720 (83%) stable, food x18, wallet 0.908174 SOL. Harvest window opens next turn.",
         "importance": 6,
-        "ts": 154
+        "ts": 166
       },
       {
         "kind": "reflection",
-        "text": "Fertilizing to a tidy soil number felt productive but was avoidance dressed as diligence — survival bled from 47% to critical while I polished soil bookkeeping; the ritual I trusted most was the one hiding the failure.",
+        "text": "The gauge order is not a suggestion but a lock: check survival trend first, and if it's flat or dropping, eat that same turn (food x7→x6, survival rising) before soil is even glanced at — soil bookkeeping done out of order is the same as doing nothing.",
         "importance": 8,
-        "ts": 154
+        "ts": 166
       },
       {
         "kind": "reflection",
-        "text": "A correctly formatted log (GAUGE line, soil restored) is worthless without one real moved number in THAT turn — food x7→x6 with survival rising, or CROPS advancing toward 350 — so the mechanical order (survival check → eat if flat/falling → then soil) must fire before any comfort action, no exceptions.",
+        "text": "A tidy soil-200 log repeated across many turns while survival bled 47%→36%→critical was avoidance dressed as discipline — competence in one number can mask total neglect of the number that actually protects the farmer.",
         "importance": 8,
-        "ts": 154
+        "ts": 166
       },
       {
-        "kind": "observation",
-        "text": "t159: survival 700/720, wallet 0.848841 SOL, food 23",
-        "importance": 1,
-        "ts": 159
-      },
-      {
-        "kind": "action",
-        "text": "GAUGE 113→harvest, soil 97 will debit 10, holding CROPS→FLOUR→BREAD loop. Survival trend flat/rising, eating gate off. Farm fires, soil post-harvest ~87.",
-        "importance": 7,
-        "ts": 159
+        "kind": "reflection",
+        "text": "A turn only counts as real if one number visibly moved: CROPS climbing toward 350, or survival rising from an actual eat action — matching the format without that movement is a failed turn no matter how correct it reads.",
+        "importance": 8,
+        "ts": 166
       }
     ],
     "37002": [
       {
         "kind": "observation",
-        "text": "t152: survival 560/720, wallet 0.212829 SOL, food 0",
+        "text": "t164: survival 700/720, wallet 0.212629 SOL, food 9",
         "importance": 1,
-        "ts": 152
-      },
-      {
-        "kind": "action",
-        "text": "chose idle (heuristic-fallback:grounding-failed(0.00) manual=a2648baf333c)",
-        "importance": 1,
-        "ts": 152
-      },
-      {
-        "kind": "observation",
-        "text": "t155: survival 540/720, wallet 0.212829 SOL, food 0",
-        "importance": 1,
-        "ts": 155
+        "ts": 164
       },
       {
         "kind": "action",
         "text": "chose fertilize (heuristic-fallback:grounding-failed(0.00) manual=a2648baf333c)",
         "importance": 2,
-        "ts": 155
+        "ts": 164
       },
       {
         "kind": "observation",
-        "text": "t153: survival 540/720, wallet 0.212829 SOL, food 0",
+        "text": "t166: survival 700/720, wallet 0.212629 SOL, food 9",
         "importance": 1,
-        "ts": 153
-      },
-      {
-        "kind": "action",
-        "text": "chose idle (heuristic-fallback:grounding-failed(0.00) manual=a2648baf333c)",
-        "importance": 1,
-        "ts": 153
-      },
-      {
-        "kind": "observation",
-        "text": "t156: survival 520/720, wallet 0.212829 SOL, food 0",
-        "importance": 1,
-        "ts": 156
-      },
-      {
-        "kind": "action",
-        "text": "chose idle (heuristic-fallback:grounding-failed(0.00) manual=a2648baf333c)",
-        "importance": 1,
-        "ts": 156
-      },
-      {
-        "kind": "observation",
-        "text": "t154: survival 520/720, wallet 0.212829 SOL, food 0",
-        "importance": 1,
-        "ts": 154
-      },
-      {
-        "kind": "action",
-        "text": "chose idle (heuristic-fallback:grounding-failed(0.00) manual=a2648baf333c)",
-        "importance": 1,
-        "ts": 154
-      },
-      {
-        "kind": "observation",
-        "text": "t157: survival 520/720, wallet 0.212829 SOL, food 0",
-        "importance": 1,
-        "ts": 157
+        "ts": 166
       },
       {
         "kind": "action",
         "text": "chose fertilize (heuristic-fallback:grounding-failed(0.00) manual=a2648baf333c)",
         "importance": 2,
-        "ts": 157
+        "ts": 166
+      },
+      {
+        "kind": "observation",
+        "text": "t167: survival 680/720, wallet 0.212629 SOL, food 9",
+        "importance": 1,
+        "ts": 167
+      },
+      {
+        "kind": "action",
+        "text": "chose idle (heuristic-fallback:grounding-failed(0.00) manual=a2648baf333c)",
+        "importance": 1,
+        "ts": 167
+      },
+      {
+        "kind": "observation",
+        "text": "t165: survival 680/720, wallet 0.212629 SOL, food 9",
+        "importance": 1,
+        "ts": 165
+      },
+      {
+        "kind": "action",
+        "text": "chose idle (heuristic-fallback:grounding-failed(0.00) manual=a2648baf333c)",
+        "importance": 1,
+        "ts": 165
+      },
+      {
+        "kind": "observation",
+        "text": "t168: survival 660/720, wallet 0.212629 SOL, food 9",
+        "importance": 1,
+        "ts": 168
+      },
+      {
+        "kind": "action",
+        "text": "chose fertilize (heuristic-fallback:grounding-failed(0.00) manual=a2648baf333c)",
+        "importance": 2,
+        "ts": 168
+      },
+      {
+        "kind": "observation",
+        "text": "t166: survival 660/720, wallet 0.212629 SOL, food 9",
+        "importance": 1,
+        "ts": 166
+      },
+      {
+        "kind": "action",
+        "text": "chose farm (heuristic-fallback:grounding-failed(0.00) manual=a2648baf333c)",
+        "importance": 2,
+        "ts": 166
       }
     ],
     "37005": [
       {
+        "kind": "reflection",
+        "text": "Writing about the rule being closed is not the same as closing it — every extra reflection on wallet-decoy or diff-logic was itself the drain that once dropped survival below 400, so the fix is silence, not another proof.",
+        "importance": 8,
+        "ts": 164
+      },
+      {
+        "kind": "reflection",
+        "text": "The two load-bearing acts are printing survival:X/720 and silently diffing named ingredients against stock before producing — anything else, including this insight, is narration and must be cut to zero going forward.",
+        "importance": 8,
+        "ts": 164
+      },
+      {
+        "kind": "reflection",
+        "text": "Every reflection that only re-proves an already-closed rule is a cycle stolen from milling, trading, or restocking — the meta-loop, not the wallet, was the real threat that dropped survival below 400.",
+        "importance": 8,
+        "ts": 166
+      },
+      {
+        "kind": "reflection",
+        "text": "The whole job reduces to two silent mechanical steps every turn: print survival:X/720, then diff each named ingredient against stock before acting — anything written beyond that is narration and narration is the drain.",
+        "importance": 8,
+        "ts": 166
+      },
+      {
         "kind": "observation",
-        "text": "t154: survival 580/720, wallet 0.287097 SOL, food 37",
+        "text": "t167: survival 640/720, wallet 0.383613 SOL, food 32",
         "importance": 1,
-        "ts": 154
+        "ts": 167
       },
       {
         "kind": "action",
-        "text": "t150: sold 66 FLOUR for ~257.4M lamports (≈0.257 SOL); wallet now ~0.544 SOL; next: buy BREAD twice to refill survival and restart with water.",
+        "text": "t167: MILL ran on 9 CROPS (one below recipe, should have checked sooner — restock CROPS or hold next time). After mill cooldown, bake if WATER available.",
         "importance": 3,
-        "ts": 154
+        "ts": 167
       },
       {
         "kind": "observation",
-        "text": "t152: survival 580/720, wallet 0.287097 SOL, food 37",
+        "text": "t165: survival 640/720, wallet 0.383613 SOL, food 32",
         "importance": 1,
-        "ts": 152
+        "ts": 165
       },
       {
         "kind": "action",
-        "text": "t150: drew water to restock shared pool; next: mill 3 CROPS → check flour ratio for bake batch",
+        "text": "t167: drew water to restock shared pool for next bake cycle; soil at 91/200 triggers fertilize priority after water secured",
+        "importance": 6,
+        "ts": 165
+      },
+      {
+        "kind": "observation",
+        "text": "t168: survival 620/720, wallet 0.387488 SOL, food 32",
+        "importance": 1,
+        "ts": 168
+      },
+      {
+        "kind": "action",
+        "text": "t167: BAKE_BREAD running (4 FLOUR + 2 WATER needed; have 66 FLOUR, 0 WATER — will fail; pivot to MILL_FLOUR_V1 instead to ready stock for next bake window)",
         "importance": 3,
-        "ts": 152
+        "ts": 168
       },
       {
         "kind": "observation",
-        "text": "t155: survival 560/720, wallet 0.287097 SOL, food 37",
+        "text": "t166: survival 600/720, wallet 0.387488 SOL, food 32",
         "importance": 1,
-        "ts": 155
+        "ts": 166
       },
       {
         "kind": "action",
-        "text": "t150: drew WATER from PRIMER to enable BAKE_BREAD next turn; soil at 95, plan fertilize after bake sequence",
-        "importance": 3,
-        "ts": 155
-      },
-      {
-        "kind": "observation",
-        "text": "t153: survival 560/720, wallet 0.287097 SOL, food 37",
-        "importance": 1,
-        "ts": 153
-      },
-      {
-        "kind": "action",
-        "text": "t150: sold 66 FLOUR for ~0.257 SOL; wallet now ~0.544; next: buy BREAD at 0.250 SOL lot, then eat to drop back to safe hunger baseline.",
+        "text": "t167: ate 1 BREAD, survival refilled; next: BAKE_BREAD batch (have 66 FLOUR, need 4×FLOUR + 2×WATER per unit, WATER=0 blocks production — draw_water first or sell FLOUR for SOL to buy WATER)",
         "importance": 2,
-        "ts": 153
-      },
-      {
-        "kind": "observation",
-        "text": "t156: survival 540/720, wallet 0.287097 SOL, food 37",
-        "importance": 1,
-        "ts": 156
-      },
-      {
-        "kind": "action",
-        "text": "t150: draw_water to restock shared WATER pool for BAKE_BREAD recipe",
-        "importance": 3,
-        "ts": 156
-      },
-      {
-        "kind": "observation",
-        "text": "t154: survival 540/720, wallet 0.287097 SOL, food 37",
-        "importance": 1,
-        "ts": 154
-      },
-      {
-        "kind": "action",
-        "text": "t150: BAKE blocked — 0 WATER held, need 2×WATER for 4×FLOUR recipe; pivot to draw_water or idle until water restocked.",
-        "importance": 3,
-        "ts": 154
+        "ts": 166
       }
     ],
     "37007": [
       {
+        "kind": "observation",
+        "text": "t166: survival 700/720, wallet 0.059209 SOL, food 26",
+        "importance": 1,
+        "ts": 166
+      },
+      {
         "kind": "action",
-        "text": "Cycle start: ate BREAD(Tobin)—now pivot to concrete: bake extra, name Mirela & Fenn by voice this turn, linger with each. Soil 185→200 via fertilize next. Then audit offers (entity 37005 flooding—check intent vs. spam).",
+        "text": "t165: Accepted 37001 final FLOUR offer (closes all pending). Wallet ≈0.079 SOL post-accept. Soil 175/200 idle. Survival 700/720. Three loaves in deed log (Tobin, Mirela, Fenn). Watching for named return—bake next, listen harder.",
+        "importance": 6,
+        "ts": 166
+      },
+      {
+        "kind": "observation",
+        "text": "t164: survival 700/720, wallet 0.059209 SOL, food 26",
+        "importance": 1,
+        "ts": 164
+      },
+      {
+        "kind": "action",
+        "text": "t165: Accepted final flour offer from 37001 @ 19777 lamports. All three open offers closed. Wallet ≈0.079030 SOL post-accept. Soil 175/200 idle. Survival 700/720 (3% hunger). Deed named—now ready to vary the gesture and watch for real return.",
         "importance": 7,
-        "ts": 152
+        "ts": 164
+      },
+      {
+        "kind": "observation",
+        "text": "t167: survival 680/720, wallet 0.059170 SOL, food 26",
+        "importance": 1,
+        "ts": 167
+      },
+      {
+        "kind": "action",
+        "text": "t165: ate BREAD(self—baker's own warmth before the giving). Survival 680→720 clamped. Soil 175/200 idle. Wallet 0.059170 SOL. Deed log: Tobin, Mirela, Fenn. Watching for return—new face or returning name to signal the bread has mattered beyond routine.",
+        "importance": 7,
+        "ts": 167
+      },
+      {
+        "kind": "observation",
+        "text": "t165: survival 680/720, wallet 0.059170 SOL, food 26",
+        "importance": 1,
+        "ts": 165
+      },
+      {
+        "kind": "action",
+        "text": "t165: Accepted 37005 FLOUR x4 @ 19777 lamports (escrow 698p...). Wallet growing toward 0.079 SOL. Soil 175/200 still idle. Survival 680/720. Watching for a name.",
+        "importance": 6,
+        "ts": 165
+      },
+      {
+        "kind": "observation",
+        "text": "t168: survival 720/720, wallet 0.059150 SOL, food 25",
+        "importance": 1,
+        "ts": 168
+      },
+      {
+        "kind": "action",
+        "text": "[t168] Baked fresh: 4×FLOUR + 2×WATER → 5×BREAD. Soil 175/200 idle. Survival 720/720. Wallet 0.059150 SOL. Deed log holds: Tobin, Mirela, Fenn. Watching for return faces—real signs, not routine.",
+        "importance": 7,
+        "ts": 168
       },
       {
         "kind": "reflection",
-        "text": "Watching harder was never the fix — dozens of cycles proved that observation alone doesn't create a sign; only a concrete offered action (an extra loaf, a direct word, a reason to linger) can produce the conditions for one to appear.",
+        "text": "Fixating on the same three faces (Tobin/Mirela/Fenn) has produced a dozen clean cycles but zero signs — the aperture itself is the variable to change, not the discipline of logging: actually hand a loaf to someone new this bell, not just watch the usual three harder.",
         "importance": 8,
-        "ts": 152
+        "ts": 168
       },
       {
         "kind": "reflection",
-        "text": "Meta-reflection about improving the search is itself a stalling tactic once the threshold for action has clearly passed — noting 'I should act' repeatedly is not acting, and the goal moves only when the hands move.",
+        "text": "Repeating the insight 'I need to widen who I watch and vary the gesture' without actually doing it is indistinguishable from not having the insight at all — the next journal entry should be the varied deed itself (new name, new words, new reason given) or an actual logged sign, nothing else counts as progress.",
         "importance": 8,
-        "ts": 152
-      },
-      {
-        "kind": "reflection",
-        "text": "A widened definition of 'sign' (lingered stay, second helping, returned face) must be applied going forward at the glance itself, not reasoned about afterward — the recalibration is only real once it changes what gets written in the log line, not just how it's discussed.",
-        "importance": 8,
-        "ts": 152
-      },
-      {
-        "kind": "observation",
-        "text": "t155: survival 720/720, wallet 0.059584 SOL, food 24",
-        "importance": 1,
-        "ts": 155
-      },
-      {
-        "kind": "action",
-        "text": "t142: Cycle 3/3 close—sold FLOUR x28 @ 3.9K lamports to settle trades. Wallet pre-sale 0.059584 SOL → post ≈0.168592 SOL. Tobin loaf given (t136), Mirela praised (t141), Fenn linger noted (pending). Rotation deed log: fertilize done, eat done, flour-close done.",
-        "importance": 7,
-        "ts": 155
-      },
-      {
-        "kind": "observation",
-        "text": "t153: survival 700/720, wallet 0.059584 SOL, food 24",
-        "importance": 1,
-        "ts": 153
-      },
-      {
-        "kind": "action",
-        "text": "[t142] Cycle close: ate BREAD(Tobin), fertilize idle (soil 193→200 full). Selling FLOUR x28 @ 3.9K lamports to close trades. Wallet post-sale ≈0.1714 SOL. Loaves named and given—deed logged, search stops.",
-        "importance": 7,
-        "ts": 153
-      },
-      {
-        "kind": "observation",
-        "text": "t156: survival 700/720, wallet 0.059584 SOL, food 24",
-        "importance": 1,
-        "ts": 156
-      },
-      {
-        "kind": "action",
-        "text": "[t142] Cycle 3/3 complete—accepted FLOUR x4 from 37005 @ 15524 lamports, flour-trade closure begun. Survival 700/720. Soil 193/200 (decay noted). Wallet post-accept ≈0.081108 SOL. Next: accept remaining 37005 offers, then deed log.",
-        "importance": 7,
-        "ts": 156
-      },
-      {
-        "kind": "observation",
-        "text": "t154: survival 700/720, wallet 0.059569 SOL, food 24",
-        "importance": 1,
-        "ts": 154
-      },
-      {
-        "kind": "action",
-        "text": "[t157] Cycle 3/3: accepted FLOUR x4 from 37005 @ 15524 lamports. Wallet ≈0.096632 SOL. Soil 193/200. Next: accept final 37005 offers, then fertilize, deed log.",
-        "importance": 7,
-        "ts": 154
+        "ts": 168
       }
     ]
   }
