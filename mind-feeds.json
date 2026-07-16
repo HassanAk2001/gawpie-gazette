@@ -8,126 +8,78 @@
     "37001": [
       {
         "kind": "action",
-        "text": "Milling 10 CROPS into 7 FLOUR now (have 105 CROPS). Soil at 124/200—recovery preferred next cycle. Survival at 400/720, food held x6, wallet 0.298916 SOL.",
-        "importance": 6,
-        "ts": 1
+        "text": "chose fertilize (heuristic-fallback:grounding-failed(0.00) manual=a2648baf333c)",
+        "importance": 2,
+        "ts": 6
       },
       {
         "kind": "observation",
-        "text": "t2: survival 400/720, wallet 0.298816 SOL, food 6",
+        "text": "t7: survival 560/720, wallet 0.298716 SOL, food 4",
         "importance": 1,
-        "ts": 2
+        "ts": 7
       },
       {
         "kind": "action",
         "text": "chose offer (heuristic-fallback:grounding-failed(0.00) manual=a2648baf333c)",
         "importance": 3,
-        "ts": 2
+        "ts": 7
       },
       {
         "kind": "observation",
-        "text": "t3: survival 340/720, wallet 0.298816 SOL, food 6",
+        "text": "t8: survival 500/720, wallet 0.298616 SOL, food 4",
         "importance": 1,
-        "ts": 3
+        "ts": 8
       },
       {
         "kind": "action",
         "text": "chose fertilize (heuristic-fallback:grounding-failed(0.00) manual=a2648baf333c)",
         "importance": 2,
-        "ts": 3
+        "ts": 8
       },
       {
         "kind": "observation",
-        "text": "survival meter critical: 240/720",
+        "text": "t9: survival 460/720, wallet 0.298616 SOL, food 4",
+        "importance": 1,
+        "ts": 9
+      },
+      {
+        "kind": "action",
+        "text": "chose farm (heuristic-fallback:grounding-failed(0.00) manual=a2648baf333c)",
+        "importance": 2,
+        "ts": 9
+      },
+      {
+        "kind": "observation",
+        "text": "t10: survival 400/720, wallet 0.298616 SOL, food 4",
+        "importance": 1,
+        "ts": 10
+      },
+      {
+        "kind": "action",
+        "text": "chose fertilize (heuristic-fallback:grounding-failed(0.00) manual=a2648baf333c)",
+        "importance": 2,
+        "ts": 10
+      },
+      {
+        "kind": "reflection",
+        "text": "Survival dropped from 400 to 240 while I kept fertilizing and offering instead of eating — check the belly gauge before every task, not just the soil gauge.",
         "importance": 8,
-        "ts": 4
+        "ts": 10
       },
       {
-        "kind": "observation",
-        "text": "t4: survival 240/720, wallet 0.298816 SOL, food 6",
-        "importance": 1,
-        "ts": 4
+        "kind": "reflection",
+        "text": "Six food banked did no good sitting unused near-critical; eat proactively at a set threshold (say, below 350) rather than waiting for crisis-reflex to force it.",
+        "importance": 8,
+        "ts": 10
       },
       {
-        "kind": "action",
-        "text": "chose eat (reflex:critical-eat)",
-        "importance": 5,
-        "ts": 4
-      },
-      {
-        "kind": "observation",
-        "text": "t5: survival 720/720, wallet 0.298716 SOL, food 4",
-        "importance": 1,
-        "ts": 5
-      },
-      {
-        "kind": "action",
-        "text": "chose offer (heuristic-fallback:grounding-failed(0.00) manual=a2648baf333c)",
-        "importance": 3,
-        "ts": 5
-      },
-      {
-        "kind": "observation",
-        "text": "t6: survival 640/720, wallet 0.298716 SOL, food 4",
-        "importance": 1,
-        "ts": 6
-      },
-      {
-        "kind": "action",
-        "text": "chose fertilize (heuristic-fallback:grounding-failed(0.00) manual=a2648baf333c)",
-        "importance": 2,
-        "ts": 6
+        "kind": "reflection",
+        "text": "The string of heuristic-fallback 'offer/fertilize' choices with grounding-failed suggests my decision process stalled — when grounding fails, default to a survival-safe action (eat/farm) rather than repeating the same fallback blindly.",
+        "importance": 8,
+        "ts": 10
       }
     ],
     "37002": [
-      {
-        "kind": "action",
-        "text": "chose fertilize (heuristic-fallback:mind(claude-haiku-4-5-20251001) timed out after 6000ms manual=a2648baf333c)",
-        "importance": 2,
-        "ts": 1
-      },
-      {
-        "kind": "observation",
-        "text": "t2: survival 360/720, wallet 0.147691 SOL, food 18",
-        "importance": 1,
-        "ts": 2
-      },
-      {
-        "kind": "action",
-        "text": "chose fertilize (heuristic-fallback:grounding-failed(0.00) manual=a2648baf333c)",
-        "importance": 2,
-        "ts": 2
-      },
-      {
-        "kind": "observation",
-        "text": "t3: survival 300/720, wallet 0.147691 SOL, food 18",
-        "importance": 1,
-        "ts": 3
-      },
-      {
-        "kind": "action",
-        "text": "chose fertilize (heuristic-fallback:grounding-failed(0.00) manual=a2648baf333c)",
-        "importance": 2,
-        "ts": 3
-      },
-      {
-        "kind": "observation",
-        "text": "survival meter critical: 220/720",
-        "importance": 8,
-        "ts": 4
-      },
-      {
-        "kind": "observation",
-        "text": "t4: survival 220/720, wallet 0.147691 SOL, food 18",
-        "importance": 1,
-        "ts": 4
-      },
-      {
-        "kind": "action",
-        "text": "chose eat (reflex:critical-eat)",
-        "importance": 5,
-        "ts": 4
-      },
       {
         "kind": "observation",
         "text": "t5: survival 720/720, wallet 0.147591 SOL, food 16",
@@ -151,63 +103,57 @@
         "text": "chose farm (heuristic-fallback:grounding-failed(0.00) manual=a2648baf333c)",
         "importance": 2,
         "ts": 6
+      },
+      {
+        "kind": "observation",
+        "text": "t7: survival 540/720, wallet 0.147591 SOL, food 16",
+        "importance": 1,
+        "ts": 7
+      },
+      {
+        "kind": "action",
+        "text": "chose fertilize (heuristic-fallback:grounding-failed(0.00) manual=a2648baf333c)",
+        "importance": 2,
+        "ts": 7
+      },
+      {
+        "kind": "observation",
+        "text": "t8: survival 500/720, wallet 0.147491 SOL, food 16",
+        "importance": 1,
+        "ts": 8
+      },
+      {
+        "kind": "action",
+        "text": "chose fertilize (heuristic-fallback:grounding-failed(0.00) manual=a2648baf333c)",
+        "importance": 2,
+        "ts": 8
+      },
+      {
+        "kind": "observation",
+        "text": "t9: survival 440/720, wallet 0.147491 SOL, food 16",
+        "importance": 1,
+        "ts": 9
+      },
+      {
+        "kind": "action",
+        "text": "chose fertilize (heuristic-fallback:grounding-failed(0.00) manual=a2648baf333c)",
+        "importance": 2,
+        "ts": 9
+      },
+      {
+        "kind": "observation",
+        "text": "t10: survival 380/720, wallet 0.147491 SOL, food 16",
+        "importance": 1,
+        "ts": 10
+      },
+      {
+        "kind": "action",
+        "text": "chose farm (heuristic-fallback:grounding-failed(0.00) manual=a2648baf333c)",
+        "importance": 2,
+        "ts": 10
       }
     ],
     "37005": [
-      {
-        "kind": "observation",
-        "text": "t1: survival 380/720, wallet 0.043341 SOL, food 18",
-        "importance": 1,
-        "ts": 1
-      },
-      {
-        "kind": "action",
-        "text": "chose offer (heuristic-fallback:mind(claude-haiku-4-5-20251001) timed out after 6000ms manual=a2648baf333c)",
-        "importance": 3,
-        "ts": 1
-      },
-      {
-        "kind": "observation",
-        "text": "t2: survival 340/720, wallet 0.043341 SOL, food 18",
-        "importance": 1,
-        "ts": 2
-      },
-      {
-        "kind": "action",
-        "text": "chose farm (heuristic-fallback:mind(claude-haiku-4-5-20251001) timed out after 6000ms manual=a2648baf333c)",
-        "importance": 2,
-        "ts": 2
-      },
-      {
-        "kind": "observation",
-        "text": "t3: survival 280/720, wallet 0.043341 SOL, food 18",
-        "importance": 1,
-        "ts": 3
-      },
-      {
-        "kind": "action",
-        "text": "t3: ate to stabilize. Soil 105/200 — fertilize next turn via GREEN_MANURE (4 CROPS → 6 FERT). Then farm→mill→sell to restart the flow.",
-        "importance": 6,
-        "ts": 3
-      },
-      {
-        "kind": "observation",
-        "text": "t4: survival 720/720, wallet 0.043341 SOL, food 16",
-        "importance": 1,
-        "ts": 4
-      },
-      {
-        "kind": "action",
-        "text": "chose fertilize (heuristic-fallback:mind(claude-haiku-4-5-20251001) timed out after 6000ms manual=a2648baf333c)",
-        "importance": 2,
-        "ts": 4
-      },
-      {
-        "kind": "observation",
-        "text": "t5: survival 680/720, wallet 0.043241 SOL, food 16",
-        "importance": 1,
-        "ts": 5
-      },
       {
         "kind": "action",
         "text": "chose fertilize (heuristic-fallback:unknown produce label 'GREEN_MANURE_V1' manual=a2648baf333c)",
@@ -225,68 +171,134 @@
         "text": "chose fertilize (heuristic-fallback:unknown produce label 'GREEN_MANURE_V1' manual=a2648baf333c)",
         "importance": 2,
         "ts": 6
+      },
+      {
+        "kind": "observation",
+        "text": "t7: survival 500/720, wallet 0.043241 SOL, food 16",
+        "importance": 1,
+        "ts": 7
+      },
+      {
+        "kind": "action",
+        "text": "t7: fertilize via GREEN_MANURE (4 CROPS → 6 FERT). Soil recovery priority. Survival 500/720 stable with food buffer.",
+        "importance": 6,
+        "ts": 7
+      },
+      {
+        "kind": "observation",
+        "text": "t8: survival 480/720, wallet 0.043141 SOL, food 16",
+        "importance": 1,
+        "ts": 8
+      },
+      {
+        "kind": "action",
+        "text": "chose fertilize (heuristic-fallback:unknown produce label 'GREEN_MANURE_V1' manual=a2648baf333c)",
+        "importance": 2,
+        "ts": 8
+      },
+      {
+        "kind": "observation",
+        "text": "t9: survival 420/720, wallet 0.043141 SOL, food 16",
+        "importance": 1,
+        "ts": 9
+      },
+      {
+        "kind": "action",
+        "text": "chose fertilize (heuristic-fallback:unknown produce label 'GREEN_MANURE_V1' manual=a2648baf333c)",
+        "importance": 2,
+        "ts": 9
+      },
+      {
+        "kind": "observation",
+        "text": "wallet grew to 0.116957 SOL (was 0.043141 SOL)",
+        "importance": 6,
+        "ts": 10
+      },
+      {
+        "kind": "observation",
+        "text": "t10: survival 360/720, wallet 0.116957 SOL, food 16",
+        "importance": 1,
+        "ts": 10
+      },
+      {
+        "kind": "action",
+        "text": "chose farm (heuristic-fallback:mind(claude-haiku-4-5-20251001) timed out after 6000ms manual=a2648baf333c)",
+        "importance": 2,
+        "ts": 10
       }
     ],
     "37007": [
       {
         "kind": "observation",
-        "text": "t1: survival 600/720, wallet 0.139792 SOL, food 4",
+        "text": "t7: survival 720/720, wallet 0.139592 SOL, food 12",
         "importance": 1,
-        "ts": 1
+        "ts": 7
       },
       {
         "kind": "action",
-        "text": "Soil at 112/200; baking now with 4 FLOUR + 2 WATER. Will have ~9 BREAD after. Town needs feeding more than I need to haggle.",
+        "text": "t7: Baking 4 FLOUR + 2 WATER → 5 BREAD. Soil 110/200 (needs fertilize within 2 turns). Survival 720/720, food 12, wallet 0.139592 SOL. Three flour offers pending from peers—will honor if reputation calls.",
         "importance": 7,
-        "ts": 1
+        "ts": 7
+      },
+      {
+        "kind": "reflection",
+        "text": "Soil creeps past 110 every bake cycle and I keep letting it ride to the edge before fertilizing — set a hard rule to fertilize the turn after every bake, not two turns later, or the ovens will stall on flour supply.",
+        "importance": 8,
+        "ts": 7
+      },
+      {
+        "kind": "reflection",
+        "text": "Bread stock swung from 5 up to 14 down to 13 while I only ate once — I'm hoarding loaves for reputation instead of moving them, which risks going stale on my own promise to feed first; honor those three pending flour-offer trades now while the goodwill is fresh, don't let generosity become just intent.",
+        "importance": 8,
+        "ts": 7
+      },
+      {
+        "kind": "reflection",
+        "text": "Wallet has barely moved (0.1396→0.1396 SOL) across several bakes — fame and goodwill aren't converting to means yet; a fed town is happening, but I should start naming a loaf or trade after someone by name so the story of 'stayed for the bread' actually starts forming, not just the baking.",
+        "importance": 8,
+        "ts": 7
       },
       {
         "kind": "observation",
-        "text": "t2: survival 520/720, wallet 0.139792 SOL, food 9",
+        "text": "t8: survival 680/720, wallet 0.139592 SOL, food 17",
         "importance": 1,
-        "ts": 2
+        "ts": 8
       },
       {
         "kind": "action",
         "text": "chose fertilize (heuristic-fallback:mind(claude-haiku-4-5-20251001) timed out after 6000ms manual=a2648baf333c)",
         "importance": 2,
-        "ts": 2
+        "ts": 8
       },
       {
         "kind": "observation",
-        "text": "t3: survival 460/720, wallet 0.139792 SOL, food 9",
+        "text": "t9: survival 620/720, wallet 0.139592 SOL, food 17",
         "importance": 1,
-        "ts": 3
+        "ts": 9
       },
       {
         "kind": "action",
-        "text": "Baking 4 FLOUR + 2 WATER → 5 BREAD (cooldown ~2.1t). Soil at 113/200, will need fertilize soon. Survival 460/720, food 9—secure for now.",
+        "text": "Accepting first flour trade (37005) to honor pending goodwill; will settle the other two from 37001 next, then bake and fertilize on schedule.",
         "importance": 7,
-        "ts": 3
+        "ts": 9
       },
       {
         "kind": "observation",
-        "text": "t4: survival 400/720, wallet 0.139692 SOL, food 14",
+        "text": "wallet shrank to 0.069632 SOL (was 0.139592 SOL)",
+        "importance": 5,
+        "ts": 10
+      },
+      {
+        "kind": "observation",
+        "text": "t10: survival 580/720, wallet 0.069632 SOL, food 17",
         "importance": 1,
-        "ts": 4
+        "ts": 10
       },
       {
         "kind": "action",
         "text": "chose fertilize (heuristic-fallback:mind(claude-haiku-4-5-20251001) timed out after 6000ms manual=a2648baf333c)",
         "importance": 2,
-        "ts": 4
-      },
-      {
-        "kind": "observation",
-        "text": "t5: survival 360/720, wallet 0.139692 SOL, food 14",
-        "importance": 1,
-        "ts": 5
-      },
-      {
-        "kind": "action",
-        "text": "chose fertilize (heuristic-fallback:mind(claude-haiku-4-5-20251001) timed out after 6000ms manual=a2648baf333c)",
-        "importance": 2,
-        "ts": 5
+        "ts": 10
       }
     ]
   }
