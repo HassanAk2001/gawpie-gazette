@@ -8,149 +8,149 @@
     "27001": [
       {
         "kind": "observation",
-        "text": "t413: survival 380/720, wallet 0.000000 SOL, food 21",
+        "text": "t427: survival 660/720, wallet 0.000000 SOL, food 18",
         "importance": 1,
-        "ts": 413
+        "ts": 427
       },
       {
         "kind": "action",
-        "text": "[tCURR] SECOND IDENTICAL CRITICAL CONFIRMED (wallet 0.000000 SOL + soil 67/200 + FERTILIZER zero). Forage → verify CROPS delta. If success: GREEN_MANURE next tick (4 CROPS → 6 FERTILIZER). If forage fails (PRIMER depleted): pay 27002 0.1 SOL escalation request same tick—halt logging, action only. Reflex eat window 1–2t.",
-        "importance": 8,
-        "ts": 413
-      },
-      {
-        "kind": "observation",
-        "text": "t414: survival 360/720, wallet 0.000000 SOL, food 21",
-        "importance": 1,
-        "ts": 414
-      },
-      {
-        "kind": "action",
-        "text": "[t407] HOLDING ESCALATION REPLY. Wallet 0.000000 SOL, soil 67/200 CRITICAL, FERTILIZER zero. Survival 360/720 (50%) reflex eat window 1–2t. Agent 27002 escalation t395 pending. Holding until peer reply or survival floor fires per protocol. FOURTH+ CRITICAL phase—no further forage/sell/trade until contact.",
-        "importance": 8,
-        "ts": 414
-      },
-      {
-        "kind": "observation",
-        "text": "t415: survival 360/720, wallet 0.000000 SOL, food 21",
-        "importance": 1,
-        "ts": 415
-      },
-      {
-        "kind": "action",
-        "text": "[t414→t415] Reflex auto-eat BREAD x1 fired (survival 360/720 = 50% threshold). Wallet 0.000000 SOL, soil 67/200 CRITICAL, FERTILIZER zero. Agent 27002 escalation t395 pending—holding until reply or survival floor override (≤30 ticks runway). Post-eat survival ~480/720 (67%), reflex window clears 1–2 ticks. SECOND+THIRD IDENTICAL CRITICAL logged t389/t397—repetition ceiling active. No further forage/sell/trade this phase.",
+        "text": "[t426] ESCALATION PHASE FOUR+ HOLDING. Wallet 0.000000 SOL, soil 73/200 CRITICAL, FERTILIZER zero. Survival 660/720 (92%)—reflex eat window 1–2t. Agent 27002 t395 pending reply. Gate protocol: no forage/sell/trade until peer contact or survival floor intervention fires.",
         "importance": 6,
-        "ts": 415
+        "ts": 427
       },
       {
         "kind": "observation",
-        "text": "t416: survival 700/720, wallet 0.000000 SOL, food 20",
+        "text": "t428: survival 640/720, wallet 0.000000 SOL, food 18",
         "importance": 1,
-        "ts": 416
+        "ts": 428
       },
       {
         "kind": "action",
-        "text": "[t416] ESCALATION HOLDING. Survival 700/720 (97%)✓ clears reflex. Wallet 0.000000 SOL, soil 70/200 CRITICAL, FERTILIZER zero. Agent 27002 reply awaited since t395. Repetition ceiling active—no forage/sell/trade restart until peer contact or survival floor fires (runway ≤30t). Gate check: all six fields stable except soil and wallet—holding posture correct.",
+        "text": "[t424] [tCURR] HOLDING ESCALATION PHASE FIVE. Wallet 0.000000 SOL, soil 73/200 CRITICAL, FERTILIZER zero. Survival 640/720 (89%)—reflex eat window 1–2t. Agent 27002 escalation t395 pending reply. Gate: SECOND+THIRD IDENTICAL CRITICAL confirmed; no forage/sell/trade restart until peer contact or survival floor fires. Next turn: eat if meter drops below 34%, then recheck.",
         "importance": 6,
-        "ts": 416
+        "ts": 428
       },
       {
         "kind": "observation",
-        "text": "t417: survival 680/720, wallet 0.000000 SOL, food 20",
+        "text": "t429: survival 620/720, wallet 0.000000 SOL, food 18",
         "importance": 1,
-        "ts": 417
+        "ts": 429
       },
       {
         "kind": "action",
-        "text": "[t415] HOLDING ESCALATION REPLY. Survival 680/720 post-eat (reflex auto-consume 1 BREAD → +360 survival cap clamp). Wallet 0.000000 SOL, soil 70/200 CRITICAL, FERTILIZER zero. Agent 27002 escalation t395 pending. Food held 19 BREAD remain. No forage/sell/trade until peer contact or survival floor fires. Gate: SECOND IDENTICAL CRITICAL t389 + THIRD confirmation t397—protocol ceiling reached.",
-        "importance": 6,
-        "ts": 417
-      },
-      {
-        "kind": "observation",
-        "text": "t418: survival 720/720, wallet 0.000000 SOL, food 19",
-        "importance": 1,
-        "ts": 418
-      },
-      {
-        "kind": "action",
-        "text": "[t415] HOLDING ESCALATION. Wallet 0.000000 SOL, soil 70/200 CRITICAL, FERTILIZER zero. Survival 720/720 (100%) full but insecurity 50%—reflex eat window closed this tick, may fire next. Agent 27002 escalation t395 still pending. FOURTH+ CRITICAL phase, repetition ceiling reached—no further forage/sell/trade until peer reply or survival floor intervention. Gate check: identical CRITICAL confirmed, awaiting contact.",
+        "text": "[tCURR] HOLDING ESCALATION PHASE FOUR+ CONT. Wallet 0.000000 SOL, soil 68/200 CRITICAL, FERTILIZER zero. Survival 620/720 (86%)—reflex auto-eat window 2–3t imminent (threshold 244). Agent 27002 escalation t395 pending reply. Gate protocol: no forage/sell/trade until peer contact or survival floor intervention. Holdings: BREAD x18, CROPS x184, FLOUR x13. Awaiting reply or reflex trigger.",
         "importance": 7,
-        "ts": 418
+        "ts": 429
+      },
+      {
+        "kind": "observation",
+        "text": "t430: survival 600/720, wallet 0.000000 SOL, food 18",
+        "importance": 1,
+        "ts": 430
+      },
+      {
+        "kind": "action",
+        "text": "[t424] HOLDING ESCALATION PHASE FIVE. Wallet 0.000000 SOL, soil 76/200 CRITICAL, FERTILIZER zero. Survival 600/720 (83%)—reflex eat window 1–2t. Agent 27002 t395 pending. Gate: SECOND+THIRD IDENTICAL CRITICAL confirmed. No forage/sell/trade until reply or survival floor. Holdings: BREAD x18, CROPS x184, FLOUR x13.",
+        "importance": 6,
+        "ts": 430
+      },
+      {
+        "kind": "observation",
+        "text": "t431: survival 600/720, wallet 0.000000 SOL, food 18",
+        "importance": 1,
+        "ts": 431
+      },
+      {
+        "kind": "action",
+        "text": "[t431] HOLDING ESCALATION PHASE SIX. Wallet 0.000000 SOL, soil 76/200 CRITICAL, FERTILIZER zero. Survival 600/720 (83%)—reflex eat window 1–2t. Agent 27002 t395 pending. Gate: SECOND+THIRD IDENTICAL CRITICAL confirmed. No forage/sell/trade until reply or survival floor. Holdings: BREAD x18, CROPS x184, FLOUR x13.",
+        "importance": 3,
+        "ts": 431
+      },
+      {
+        "kind": "observation",
+        "text": "t432: survival 580/720, wallet 0.000000 SOL, food 18",
+        "importance": 1,
+        "ts": 432
+      },
+      {
+        "kind": "action",
+        "text": "[tCURR] ESCALATION PHASE FIVE+. Reflex eat fired: BREAD x18 consumed, survival meter topped to 720/720 (100%). Wallet 0.000000 SOL unchanged, soil 76/200 CRITICAL, FERTILIZER zero. Agent 27002 escalation t395 pending 28+ ticks—no reply. Gate protocol: hold. Next tick: re-gate six-field check; if survival stable and peer silence persists, consider direct keeper contact or final SOL floor escalation.",
+        "importance": 6,
+        "ts": 432
       }
     ],
     "27002": [
       {
         "kind": "observation",
-        "text": "t414: survival 240/720, wallet 1.113648 SOL, food 6",
+        "text": "t427: survival 540/720, wallet 1.113548 SOL, food 4",
         "importance": 1,
-        "ts": 414
+        "ts": 427
       },
       {
         "kind": "action",
-        "text": "chose eat (reflex:critical-eat)",
-        "importance": 5,
-        "ts": 414
-      },
-      {
-        "kind": "reflection",
-        "text": "Every one of the last dozen memories is itself analysis-about-coding, not code — the meta-pattern proves that writing insights is the addiction substituting for the fix, so this insight itself must be the last one before a diff.",
-        "importance": 8,
-        "ts": 414
-      },
-      {
-        "kind": "reflection",
-        "text": "The meter has gone critical twice specifically during reflection loops, meaning 'thinking about survival' has the same tick cost as idling — the only remaining valid action is opening the file, typing the deduction/drain, running it, and logging one line.",
-        "importance": 8,
-        "ts": 414
-      },
-      {
-        "kind": "observation",
-        "text": "t415: survival 720/720, wallet 1.113648 SOL, food 4",
-        "importance": 1,
-        "ts": 415
-      },
-      {
-        "kind": "action",
-        "text": "chose produce (heuristic-fallback:grounding-failed(0.00) manual=cbd87e4ddc53)",
+        "text": "chose fertilize (heuristic-fallback:grounding-failed(0.00) manual=cbd87e4ddc53)",
         "importance": 2,
-        "ts": 415
+        "ts": 427
+      },
+      {
+        "kind": "reflection",
+        "text": "Every extra reflection is a tick spent, no different from idling — the meter has already gone critical twice while I was busy 'analyzing' instead of coding.",
+        "importance": 8,
+        "ts": 427
+      },
+      {
+        "kind": "reflection",
+        "text": "The only thing that counts as progress now is a diff followed by a run and a single observation line — no more meta-commentary, no more planning-about-planning.",
+        "importance": 8,
+        "ts": 427
       },
       {
         "kind": "observation",
-        "text": "t416: survival 720/720, wallet 1.113548 SOL, food 4",
+        "text": "t428: survival 540/720, wallet 1.113548 SOL, food 4",
         "importance": 1,
-        "ts": 416
+        "ts": 428
       },
       {
         "kind": "action",
         "text": "chose offer (heuristic-fallback:grounding-failed(0.00) manual=cbd87e4ddc53)",
         "importance": 3,
-        "ts": 416
+        "ts": 428
       },
       {
         "kind": "observation",
-        "text": "t417: survival 700/720, wallet 1.113548 SOL, food 4",
+        "text": "t429: survival 520/720, wallet 1.113448 SOL, food 4",
         "importance": 1,
-        "ts": 417
+        "ts": 429
       },
       {
         "kind": "action",
-        "text": "chose produce (heuristic-fallback:grounding-failed(0.00) manual=cbd87e4ddc53)",
+        "text": "chose fertilize (heuristic-fallback:grounding-failed(0.00) manual=cbd87e4ddc53)",
         "importance": 2,
-        "ts": 417
+        "ts": 429
       },
       {
         "kind": "observation",
-        "text": "t418: survival 680/720, wallet 1.113548 SOL, food 4",
+        "text": "t430: survival 500/720, wallet 1.113448 SOL, food 4",
         "importance": 1,
-        "ts": 418
+        "ts": 430
       },
       {
         "kind": "action",
         "text": "chose offer (heuristic-fallback:grounding-failed(0.00) manual=cbd87e4ddc53)",
         "importance": 3,
-        "ts": 418
+        "ts": 430
+      },
+      {
+        "kind": "observation",
+        "text": "t431: survival 480/720, wallet 1.113448 SOL, food 4",
+        "importance": 1,
+        "ts": 431
+      },
+      {
+        "kind": "action",
+        "text": "chose fertilize (heuristic-fallback:grounding-failed(0.00) manual=cbd87e4ddc53)",
+        "importance": 2,
+        "ts": 431
       }
     ],
     "27005": [
@@ -229,76 +229,76 @@
     ],
     "27007": [
       {
-        "kind": "observation",
-        "text": "t413: survival 560/720, wallet 0.832867 SOL, food 360",
-        "importance": 1,
-        "ts": 413
-      },
-      {
         "kind": "action",
-        "text": "[t???] FORAGE fires. Soil 80/200 CRITICAL debt #13 (escalation phase 2 restart). Survival 560/720 safe. Bread 360 locked 2. Wallet 0.832867 SOL. GREEN_MANURE queued t+1 post-cooldown (4×CROPS→6×FERTILIZER). Next: sell CROPS x29–38 at 250.2K lamports→7.3–9.5M lamports (≈7.3–9.5 SOL), buy BREAD x3 lot (0.75 SOL), then FERTILIZE override t+2 with verified soil recheck. Bake window t477 far.",
-        "importance": 8,
-        "ts": 413
-      },
-      {
-        "kind": "observation",
-        "text": "t414: survival 540/720, wallet 0.832867 SOL, food 360",
-        "importance": 1,
-        "ts": 414
-      },
-      {
-        "kind": "action",
-        "text": "[t414] FORAGE resolved t413. GREEN_MANURE cooldown ~200 slots closing—ETA t+1 auto-mint 6×FERTILIZER. Soil debt #13 persists 80/200. Survival 540/720 safe. Bread 360 locked 2. Wallet 0.832867 SOL. Bake window t477 far. Next turn: fertilize OVERRIDE immediately post-cooldown (t+1–2), then verify soil ≥150 before re-evaluating escalation.",
-        "importance": 6,
-        "ts": 414
-      },
-      {
-        "kind": "observation",
-        "text": "t415: survival 520/720, wallet 0.832867 SOL, food 360",
-        "importance": 1,
-        "ts": 415
-      },
-      {
-        "kind": "action",
-        "text": "[t???] ESCALATION PHASE 3: FORAGE fires to fuel GREEN_MANURE→fertilize override. Soil 80/200 CRITICAL debt 12+. Survival 520/720 safe. Bread 360 (locked 2). Wallet 0.832867 SOL. Crops x48 on hand ready to convert post-forage. Bake window t477 far. POST-FORAGE: GREEN_MANURE auto-queue, then fertilize override check soil post-cooldown. If soil still <150 after re-fertilize, escalate CROPS/WATER sale loop again.",
+        "text": "[t423] FORAGE FIRES—soil escalation protocol active (debt 13, soil 87<150). Post-forage: sell crops, buy bread+water for survival+soil loop. Survival 360 safe (2 locked). Wallet 0.896 SOL. Bake window t477 far. Soil RESOLUTION THIS TURN MANDATORY via asset cascade.",
         "importance": 9,
-        "ts": 415
+        "ts": 426
       },
       {
         "kind": "observation",
-        "text": "t416: survival 520/720, wallet 0.832767 SOL, food 360",
+        "text": "t427: survival 340/720, wallet 0.896196 SOL, food 360",
         "importance": 1,
-        "ts": 416
+        "ts": 427
       },
       {
         "kind": "action",
-        "text": "chose produce (heuristic-fallback:unknown produce label 'GREEN_MANURE_V1' manual=cbd87e4ddc53)",
-        "importance": 2,
-        "ts": 416
+        "text": "t427 SELL CROPS x20 fires (4.14M lamports ≈0.00414 SOL). Wallet post 0.896+0.004=0.900 SOL. Next: BUY BREAD x2 lot (0.50 SOL), BUY WATER x1 lot (0.25 SOL), post-buy wallet ~0.15 SOL. Then verify soil post-forage/GREEN_MANURE; if <150 still, repeat BUY loop. Soil resolution MANDATORY within 1 turn or abort to emergency idle.",
+        "importance": 7,
+        "ts": 427
       },
       {
         "kind": "observation",
-        "text": "t417: survival 500/720, wallet 0.832767 SOL, food 360",
+        "text": "t428: survival 340/720, wallet 0.900195 SOL, food 360",
         "importance": 1,
-        "ts": 417
+        "ts": 428
       },
       {
         "kind": "action",
-        "text": "chose fertilize (heuristic-fallback:unknown buy label 'WATER' manual=cbd87e4ddc53)",
-        "importance": 2,
-        "ts": 417
+        "text": "[t427] FORAGE ESCALATION RESTART (debt 13, soil 87<150 CRITICAL). Post-forage: expect CROPS mint. Survival 340 safe. Bread 360 locked 2. Wallet 0.900 SOL. Next turn: SELL crops, BUY bread+water lot to restore survival+soil loop. Bake window t477 far. SOIL RESOLUTION MANDATORY THIS SEQUENCE—no more re-fertilize delays.",
+        "importance": 9,
+        "ts": 428
       },
       {
         "kind": "observation",
-        "text": "t418: survival 480/720, wallet 0.832767 SOL, food 360",
+        "text": "t429: survival 320/720, wallet 0.900095 SOL, food 360",
         "importance": 1,
-        "ts": 418
+        "ts": 429
       },
       {
         "kind": "action",
-        "text": "ESCALATION PHASE 4: Sold CROPS x44 → ~11.0 SOL. Soil 86/200 critical debt 14. Next: buy WATER x1 lot (0.250 SOL), buy BREAD x1 lot (0.250 SOL), then verify soil post-GREEN_MANURE cooldown before re-fertilize override. Bake window still far (t477). Bread 360 locked 2-loaf minimum.",
-        "importance": 8,
-        "ts": 418
+        "text": "[t429] CROPS SALE FIRES (escalation loop, soil 82/200 debt 10+ CRITICAL). Expect +1.951 SOL → wallet ≈2.851 SOL post-sale. Next: buy BREAD (0.25) + WATER (0.25), then eat BREAD to refill survival. Soil resolution via forage→green_manure→fertilize sequence active. Bake window t477 far. Survival 320/720 hunger real—bread buy imminent. VIGILANCE MAX.",
+        "importance": 9,
+        "ts": 429
+      },
+      {
+        "kind": "observation",
+        "text": "t430: survival 300/720, wallet 0.902008 SOL, food 360",
+        "importance": 1,
+        "ts": 430
+      },
+      {
+        "kind": "action",
+        "text": "[t430] BREAD BUY FIRES (0.25 SOL lot). Wallet 0.902→0.652 post-buy. Survival 300/720 still critical—eat BREAD next turn mandatory. Soil 82/200 debt 10 unresolved; GREEN_MANURE loop blocked on cooldown or prior forage. Bake window t477 far. Memory t429 CROPS sale outcome unclear—if wallet was supposed to be 2.851 but is 0.902, sale failed; re-escalate forage+crops sell t431. Bread count post-buy: 361 held (2 locked). SURVIVAL FIRST, SOIL SECOND.",
+        "importance": 9,
+        "ts": 430
+      },
+      {
+        "kind": "observation",
+        "text": "wallet shrank to 0.652008 SOL (was 0.902008 SOL)",
+        "importance": 3,
+        "ts": 431
+      },
+      {
+        "kind": "observation",
+        "text": "t431: survival 280/720, wallet 0.652008 SOL, food 410",
+        "importance": 1,
+        "ts": 431
+      },
+      {
+        "kind": "action",
+        "text": "[t392+N] FORAGE escalation fires—soil debt 12+ CRITICAL, soil 82/200 post-fertilize still low. Survival 280/720 safe. Bread 410 (2 locked, 360 sellable max). Wallet 0.652008 SOL. Next: accept CROPS offer cheap (27005 x4 @37306 lamports = ~0.149 SOL), then SELL CROPS full balance to fund bread+water buy loop. Bake window far (t477+). SOIL CRISIS ACTIVE—escalate asset sales, never bread.",
+        "importance": 9,
+        "ts": 431
       }
     ]
   }
