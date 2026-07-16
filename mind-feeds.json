@@ -8,149 +8,149 @@
     "27001": [
       {
         "kind": "observation",
-        "text": "t800: survival 400/720, wallet 0.073182 SOL, food 38",
+        "text": "t813: survival 700/720, wallet 0.091413 SOL, food 20",
         "importance": 1,
-        "ts": 800
+        "ts": 813
       },
       {
         "kind": "action",
-        "text": "t799: draw_water t788 outcome check. If soil remains 80/200 after fertilize (no FERTILIZER available), forage next tick. Survival 400/720 runway ~27t—survival floor may override at <15t.",
+        "text": "[t_NOW] FORAGE#3 post-draw_water: gate fire (wallet 0.091413 > rent). Holdings locked t484+ (315+ ticks). Soil 80/200 CRITICAL FERT 0. Survival 700/720 (97%), food 20 BREAD. Draw_water t798 restocked WATER pool; now forage→CROPS→GREEN_MANURE→FERTILIZER→soil recovery unilateral path. Outcome next tick.",
         "importance": 7,
-        "ts": 800
+        "ts": 813
       },
       {
         "kind": "observation",
-        "text": "t801: survival 380/720, wallet 0.073182 SOL, food 38",
+        "text": "t814: survival 680/720, wallet 0.091413 SOL, food 20",
         "importance": 1,
-        "ts": 801
+        "ts": 814
       },
       {
         "kind": "action",
-        "text": "[t_NOW] FORAGE #5 POST-DRAW_WATER: Gate fire (wallet 0.073182 > rent). Holdings locked t484+ (314+ ticks). Soil 86/200 CRITICAL FERT 0. Survival 380/720 (53%), runway ~25t. Draw_water t798 primed shared WATER. Forage = unilateral action. Expected outcome: +1 CROPS minted, shared PRIMER burned. Next tick: assess CROPS balance for GREEN_MANURE conversion trigger.",
-        "importance": 7,
-        "ts": 801
+        "text": "chose sell (heuristic-fallback:unknown produce label 'GREEN_MANURE_V1' manual=cbd87e4ddc53)",
+        "importance": 3,
+        "ts": 814
       },
       {
         "kind": "observation",
-        "text": "t802: survival 360/720, wallet 0.073182 SOL, food 38",
+        "text": "t815: survival 660/720, wallet 0.095478 SOL, food 16",
         "importance": 1,
-        "ts": 802
+        "ts": 815
       },
       {
         "kind": "action",
-        "text": "t799: soil 86/200, survival 50%, runway ~24t. Draw_water executed t798 (unilateral shared action). Farm now to consume WATER and produce CROPS for GREEN_MANURE chain. If WATER pool empty, forage next tick to restock.",
-        "importance": 7,
-        "ts": 802
+        "text": "t799: holdings unlocked, wallet 0.095478 > rent. Forage #1 unilateral action (lock-independent). Soil 80/200 CRITICAL post-draw_water. Target: CROPS→GREEN_MANURE→FERTILIZER→soil recovery. Survival 660/720 stable.",
+        "importance": 6,
+        "ts": 815
       },
       {
         "kind": "observation",
-        "text": "t803: survival 340/720, wallet 0.073182 SOL, food 38",
+        "text": "t816: survival 660/720, wallet 0.095478 SOL, food 16",
         "importance": 1,
-        "ts": 803
+        "ts": 816
       },
       {
         "kind": "action",
-        "text": "t799: DRAW_WATER #2 fires (wallet 0.073182 > rent 0.000891). Holdings locked t484+ (315+ ticks). Soil 76/200 CRITICAL FERT 0. Survival 340/720 (47%), runway ~23t. Food 38 BREAD. Unilateral shared-pool restock: 1 PRIMER → 8000 WATER. Outcome explicit next tick — GREEN_MANURE executable if WATER > 0.",
-        "importance": 8,
-        "ts": 803
+        "text": "[t799] FORAGE #3 EXECUTION: Wallet 0.095478 SOL >> rent. Holdings locked t484+ (315+ ticks). Soil 80/200 CRITICAL FERT 0. Survival 660/720 (92%), food 16. Draw_water outcome expected live—WATER pool restocked. Forage = unilateral lock-independent. Post-outcome: assess WATER availability, GREEN_MANURE readiness, soil recovery path.",
+        "importance": 6,
+        "ts": 816
       },
       {
         "kind": "observation",
-        "text": "t804: survival 340/720, wallet 0.073182 SOL, food 38",
+        "text": "t817: survival 640/720, wallet 0.095478 SOL, food 16",
         "importance": 1,
-        "ts": 804
+        "ts": 817
       },
       {
         "kind": "action",
-        "text": "[t_NOW] GATE FIRE FORAGE#3: wallet 0.073182 > rent 0.000891 (gate met). Holdings locked t484+ (314+ ticks). Soil 76/200 CRITICAL FERT 0. Survival 340/720 (47%), runway ~23t. Draw_water outcome from t798 pending; forage = unilateral lock-independent action independent of held assets. Outcome explicit next tick.",
-        "importance": 7,
-        "ts": 804
+        "text": "chose sell (heuristic-fallback:unknown produce label 'GREEN_MANURE_V1' manual=cbd87e4ddc53)",
+        "importance": 3,
+        "ts": 817
       },
       {
         "kind": "observation",
-        "text": "t805: survival 320/720, wallet 0.073182 SOL, food 38",
+        "text": "t818: survival 620/720, wallet 0.099380 SOL, food 12",
         "importance": 1,
-        "ts": 805
+        "ts": 818
       },
       {
         "kind": "action",
-        "text": "[t799] GATE FIRE FORAGE #3: wallet 0.073182 > rent. Holdings locked t484+ (315+ ticks). DRAW_WATER t798 executed; WATER inbound check. Soil 76/200 CRITICAL FERT 0. Survival 320/720 (44%), runway ~21t. Forage = lock-independent unilateral. Outcome explicit next tick.",
-        "importance": 7,
-        "ts": 805
+        "text": "chose produce (heuristic-fallback:unknown produce label 'GREEN_MANURE_V1' manual=cbd87e4ddc53)",
+        "importance": 2,
+        "ts": 818
       }
     ],
     "27002": [
       {
         "kind": "observation",
-        "text": "t801: survival 280/720, wallet 0.747581 SOL, food 155",
+        "text": "t813: survival 580/720, wallet 0.776013 SOL, food 133",
         "importance": 1,
-        "ts": 801
+        "ts": 813
       },
       {
         "kind": "action",
-        "text": "chose sell (heuristic-fallback:grounding-failed(0.00) manual=cbd87e4ddc53)",
+        "text": "chose offer (heuristic-fallback:grounding-failed(0.00) manual=cbd87e4ddc53)",
         "importance": 3,
-        "ts": 801
-      },
-      {
-        "kind": "reflection",
-        "text": "Meter hit 240/720 from selling every unit of food — always bank a survival buffer before chasing margin.",
-        "importance": 8,
-        "ts": 801
-      },
-      {
-        "kind": "reflection",
-        "text": "Repeated reflection produced zero meter movement across 15+ rounds — one execution beats infinite analysis.",
-        "importance": 8,
-        "ts": 801
-      },
-      {
-        "kind": "reflection",
-        "text": "The fix was never more insight, it was the discipline to output the raw action with no narration.",
-        "importance": 8,
-        "ts": 801
+        "ts": 813
       },
       {
         "kind": "observation",
-        "text": "t802: survival 260/720, wallet 0.754032 SOL, food 151",
+        "text": "t814: survival 560/720, wallet 0.776013 SOL, food 133",
         "importance": 1,
-        "ts": 802
+        "ts": 814
       },
       {
         "kind": "action",
-        "text": "chose sell (heuristic-fallback:grounding-failed(0.00) manual=cbd87e4ddc53)",
+        "text": "chose offer (heuristic-fallback:grounding-failed(0.00) manual=cbd87e4ddc53)",
         "importance": 3,
-        "ts": 802
+        "ts": 814
       },
       {
         "kind": "observation",
-        "text": "survival meter critical: 240/720",
-        "importance": 8,
-        "ts": 803
-      },
-      {
-        "kind": "observation",
-        "text": "t803: survival 240/720, wallet 0.760161 SOL, food 147",
+        "text": "t815: survival 540/720, wallet 0.776013 SOL, food 133",
         "importance": 1,
-        "ts": 803
+        "ts": 815
       },
       {
         "kind": "action",
-        "text": "chose eat (reflex:critical-eat)",
-        "importance": 5,
-        "ts": 803
-      },
-      {
-        "kind": "observation",
-        "text": "t804: survival 720/720, wallet 0.760161 SOL, food 145",
-        "importance": 1,
-        "ts": 804
-      },
-      {
-        "kind": "action",
-        "text": "chose sell (heuristic-fallback:grounding-failed(0.00) manual=cbd87e4ddc53)",
+        "text": "chose offer (heuristic-fallback:grounding-failed(0.00) manual=cbd87e4ddc53)",
         "importance": 3,
-        "ts": 804
+        "ts": 815
+      },
+      {
+        "kind": "observation",
+        "text": "t816: survival 540/720, wallet 0.776013 SOL, food 133",
+        "importance": 1,
+        "ts": 816
+      },
+      {
+        "kind": "action",
+        "text": "chose offer (heuristic-fallback:grounding-failed(0.00) manual=cbd87e4ddc53)",
+        "importance": 3,
+        "ts": 816
+      },
+      {
+        "kind": "observation",
+        "text": "t817: survival 520/720, wallet 0.776013 SOL, food 133",
+        "importance": 1,
+        "ts": 817
+      },
+      {
+        "kind": "action",
+        "text": "chose offer (heuristic-fallback:grounding-failed(0.00) manual=cbd87e4ddc53)",
+        "importance": 3,
+        "ts": 817
+      },
+      {
+        "kind": "observation",
+        "text": "t818: survival 500/720, wallet 0.776013 SOL, food 133",
+        "importance": 1,
+        "ts": 818
+      },
+      {
+        "kind": "action",
+        "text": "chose offer (heuristic-fallback:grounding-failed(0.00) manual=cbd87e4ddc53)",
+        "importance": 3,
+        "ts": 818
       }
     ],
     "27005": [
@@ -230,75 +230,75 @@
     "27007": [
       {
         "kind": "observation",
-        "text": "t799: survival 440/720, wallet 1.279458 SOL, food 78",
+        "text": "t813: survival 720/720, wallet 1.284810 SOL, food 72",
         "importance": 1,
-        "ts": 799
+        "ts": 813
       },
       {
         "kind": "action",
-        "text": "[t???] PASSIVE WATCH HALTED: Soil 75/200 CRITICAL <150 verified (no change). Survival 440/720 safe (61%), trending down slowly. Bread 78 (2 locked). Wallet 1.279458 SOL. Water x0 blocks bake. Forage halted—soil unmet. Idle only. Real gap confirmed—no diagnostic repeat yet. Next check after genuine turns pass. Fear=18% manageable. Meter safe. Resume forage sole condition: soil ≥150.",
+        "text": "[t???] PASSIVE WATCH CONTINUES: Soil 80/200 CRITICAL <150. Survival 720/720 (100%) full, safe. Bread 72 (2 locked = 70 spendable). Wallet 1.284810 SOL. Flour 335. Water x0 blocks bake. HALT forage/sell/buy/fertilize per goal. Real turn gap building since [t745]—no diagnostic fired yet. Idle only. Fear=25% but meter locked safe. Will check soil after confirmed gap.",
+        "importance": 3,
+        "ts": 813
+      },
+      {
+        "kind": "observation",
+        "text": "t814: survival 700/720, wallet 1.284810 SOL, food 72",
+        "importance": 1,
+        "ts": 814
+      },
+      {
+        "kind": "action",
+        "text": "[t???] PASSIVE WATCH CONTINUES: Soil 80/200 CRITICAL <150. Survival 700/720 (97%) very safe, no hunger risk. Bread 72 (2 locked = 70 spendable). Wallet 1.284810 SOL. Flour 335. Water x0. HALT forage/sell/buy/fertilize—loop failed 12+ cycles. No real gap yet since [t745]—no diagnostic. Idle only. Anxiety 15%, fear high but meter safe. Resume forage sole condition: soil ≥150 from real gap after multiple turns pass.",
+        "importance": 2,
+        "ts": 814
+      },
+      {
+        "kind": "observation",
+        "text": "t815: survival 680/720, wallet 1.284810 SOL, food 72",
+        "importance": 1,
+        "ts": 815
+      },
+      {
+        "kind": "action",
+        "text": "[t???] PASSIVE WATCH CONTINUES: Soil 80/200 CRITICAL <150. Survival 680/720 (94%) safe, high buffer. Bread 72 (2 locked). Wallet 1.284810 SOL. Water x0 blocks bake. Flour 335. HALT forage/sell/buy/fertilize per goal—loop failed 12+ cycles. No real gap confirmed—no diagnostic. Idle only. Fear=25% but meter safe. Resume forage sole condition: soil ≥150 from real gap.",
         "importance": 6,
-        "ts": 799
+        "ts": 815
       },
       {
         "kind": "observation",
-        "text": "t800: survival 420/720, wallet 1.279358 SOL, food 78",
+        "text": "t816: survival 660/720, wallet 1.284810 SOL, food 72",
         "importance": 1,
-        "ts": 800
+        "ts": 816
       },
       {
         "kind": "action",
-        "text": "[t800] PASSIVE WATCH HALTED: Soil 80/200 CRITICAL <150 verified (stable, no change). Survival 420/720 safe (58%), trending down slowly but not urgent. Bread 78 (2 locked = 76 spendable). Wallet 1.279358 SOL. Water x0 blocks bake. Forage halted—soil unmet. Real gap confirmed—no diagnostic repeat yet. Idle only. Next check after genuine turns pass. Fear=18% manageable. Meter safe. Resume forage sole condition: soil ≥150.",
+        "text": "[t???] PASSIVE WATCH HALTED: Soil 80/200 CRITICAL <150. Survival 660/720 (92%) safe. Bread 72 (2 locked). Wallet 1.284810 SOL. Water x0. Flour x335. Zero action—idle only per goal. Next diagnostic only after real verified gap passes. Resume forage sole condition: soil ≥150 from genuine time gap.",
         "importance": 6,
-        "ts": 800
+        "ts": 816
       },
       {
         "kind": "observation",
-        "text": "t801: survival 420/720, wallet 1.279358 SOL, food 78",
+        "text": "t817: survival 660/720, wallet 1.284810 SOL, food 72",
         "importance": 1,
-        "ts": 801
+        "ts": 817
       },
       {
         "kind": "action",
-        "text": "[t801] PASSIVE WATCH HALTED: Soil 80/200 CRITICAL <150 (no change from t800). Survival 420/720 safe (58%), stable. Bread 78 (2 locked). Wallet 1.279358 SOL. Water x0. Forage halted—soil unmet. Idle only, no diagnostic repeat. Real gap not yet confirmed. Resume forage sole condition: soil ≥150 from verified gap.",
+        "text": "[t???] PASSIVE WATCH HALTED: Soil 80/200 CRITICAL <150. Survival 660/720 (92%) safe. Bread 72 (2 locked). Wallet 1.284810 SOL. Water x0. Flour x335. Zero action—idle only per goal. Awaiting real verified gap before next diagnostic. Resume forage sole condition: soil ≥150.",
         "importance": 3,
-        "ts": 801
+        "ts": 817
       },
       {
         "kind": "observation",
-        "text": "t802: survival 400/720, wallet 1.279358 SOL, food 78",
+        "text": "t818: survival 640/720, wallet 1.284810 SOL, food 72",
         "importance": 1,
-        "ts": 802
+        "ts": 818
       },
       {
         "kind": "action",
-        "text": "[t???] PASSIVE WATCH HALTED: Soil 80/200 CRITICAL <150. Survival 400/720 (56%) safe. Bread 78 (2 locked). Wallet 1.279358 SOL. Water x0 blocks bake. Forage halted—soil <150. Idle only. Next diagnostic after genuine turn gap passes.",
-        "importance": 3,
-        "ts": 802
-      },
-      {
-        "kind": "observation",
-        "text": "t803: survival 380/720, wallet 1.279358 SOL, food 78",
-        "importance": 1,
-        "ts": 803
-      },
-      {
-        "kind": "action",
-        "text": "[t780] PASSIVE HALT WATCH: Soil 80/200 CRITICAL <150. Survival 380/720 (53%) safe, trending down but not auto-eat zone. Bread 78 (2 locked). Wallet 1.279358 SOL. Flour 335. Water x0 blocks bake. Real gap elapsed since [t734]—ready for fresh diagnostic next turn if action resumes. HALT forage/sell/buy/fertilize. Idle only. Next: recheck soil after one more genuine turn passes, then decide resume.",
-        "importance": 7,
-        "ts": 803
-      },
-      {
-        "kind": "observation",
-        "text": "t804: survival 360/720, wallet 1.279358 SOL, food 78",
-        "importance": 1,
-        "ts": 804
-      },
-      {
-        "kind": "action",
-        "text": "chose sell (heuristic-fallback:mind(claude-haiku-4-5-20251001) timed out after 6000ms manual=cbd87e4ddc53)",
-        "importance": 3,
-        "ts": 804
+        "text": "[t???] PASSIVE WATCH: Soil 80/200 CRITICAL <150. Survival 640/720 (89%) safe but trending down. Bread 72 (2 locked). Wallet 1.284810 SOL. Water x0. Flour 335. HALT forage/sell/buy/fertilize—loop failed 12+ cycles. No real gap yet since [t745]—idle only, no diagnostic. Resume forage sole condition: soil ≥150 verified from genuine time gap.",
+        "importance": 6,
+        "ts": 818
       }
     ]
   }
