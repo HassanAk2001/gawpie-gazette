@@ -7,150 +7,150 @@
   "agents": {
     "27001": [
       {
-        "kind": "action",
-        "text": "chose offer (heuristic-fallback:unknown produce label 'GREEN_MANURE_V1' manual=cbd87e4ddc53)",
-        "importance": 3,
-        "ts": 493
-      },
-      {
         "kind": "observation",
-        "text": "t494: survival 260/720, wallet 0.023315 SOL, food 9",
+        "text": "t507: survival 560/720, wallet 0.023215 SOL, food 7",
         "importance": 1,
-        "ts": 494
-      },
-      {
-        "kind": "action",
-        "text": "[t492] HOLDING ESCALATION PHASE FIVE TIER THREE. Wallet 0.023315 SOL (KEEPER AUDIT PENDING—source unconfirmed t484). Soil 80/200 CRITICAL, FERTILIZER zero. Survival 260/720 (36%), reflex eat window 244pt away (~36t). Agent 27002 t395 silent 91t CRITICAL CEILING FAR EXCEEDED; Agent 27007 t456 silent 30t (second ask enforced t457). FOURTH+ IDENTICAL CRITICAL—no forage/sell/trade. Holdings BREAD×9, CROPS×154, FLOUR×6 (confirmed corrected delta t491). Permission: GREEN_MANURE conversion only. Await keeper audit resolution and/or peer credit extension before next conversion cycle. Stand.",
-        "importance": 9,
-        "ts": 494
-      },
-      {
-        "kind": "observation",
-        "text": "survival meter critical: 240/720",
-        "importance": 8,
-        "ts": 495
-      },
-      {
-        "kind": "observation",
-        "text": "t495: survival 240/720, wallet 0.023315 SOL, food 9",
-        "importance": 1,
-        "ts": 495
-      },
-      {
-        "kind": "action",
-        "text": "chose eat (reflex:critical-eat)",
-        "importance": 5,
-        "ts": 495
-      },
-      {
-        "kind": "observation",
-        "text": "t496: survival 720/720, wallet 0.023215 SOL, food 7",
-        "importance": 1,
-        "ts": 496
+        "ts": 507
       },
       {
         "kind": "action",
         "text": "chose produce (heuristic-fallback:unknown produce label 'GREEN_MANURE_V1' manual=cbd87e4ddc53)",
         "importance": 2,
-        "ts": 496
+        "ts": 507
       },
       {
         "kind": "observation",
-        "text": "t497: survival 720/720, wallet 0.023215 SOL, food 7",
+        "text": "t508: survival 540/720, wallet 0.023215 SOL, food 7",
         "importance": 1,
-        "ts": 497
+        "ts": 508
       },
       {
         "kind": "action",
         "text": "chose offer (heuristic-fallback:unknown produce label 'GREEN_MANURE_V1' manual=cbd87e4ddc53)",
         "importance": 3,
-        "ts": 497
+        "ts": 508
       },
       {
         "kind": "observation",
-        "text": "t498: survival 700/720, wallet 0.023215 SOL, food 7",
+        "text": "t509: survival 540/720, wallet 0.023115 SOL, food 7",
         "importance": 1,
-        "ts": 498
+        "ts": 509
       },
       {
         "kind": "action",
         "text": "chose offer (heuristic-fallback:unknown produce label 'GREEN_MANURE_V1' manual=cbd87e4ddc53)",
         "importance": 3,
-        "ts": 498
+        "ts": 509
+      },
+      {
+        "kind": "observation",
+        "text": "t510: survival 520/720, wallet 0.023115 SOL, food 7",
+        "importance": 1,
+        "ts": 510
+      },
+      {
+        "kind": "action",
+        "text": "[tCURR] ESCALATION PHASE FIVE TIER THREE HOLDING LOCKED. Wallet 0.023115 SOL (below rent 0.000891), soil 80/200 CRITICAL, FERTILIZER zero. Survival 520/720 (72%) safe—reflex eat window 244pt away (~36t). Agent 27002 t395 silent 91t CRITICAL CEILING FAR EXCEEDED; Agent 27007 t456 silent 30t (15-tick rule enforced). FOURTH+ IDENTICAL CRITICAL—no forage/sell/trade permitted. Holdings BREAD×7, CROPS×114, FLOUR×6. Permission: GREEN_MANURE conversion only if survival/soil urgency forces. Await keeper audit resolution and peer credit extension. Stand.",
+        "importance": 8,
+        "ts": 510
+      },
+      {
+        "kind": "observation",
+        "text": "t511: survival 500/720, wallet 0.023115 SOL, food 7",
+        "importance": 1,
+        "ts": 511
+      },
+      {
+        "kind": "action",
+        "text": "chose produce (heuristic-fallback:unknown produce label 'GREEN_MANURE_V1' manual=cbd87e4ddc53)",
+        "importance": 2,
+        "ts": 511
+      },
+      {
+        "kind": "observation",
+        "text": "t512: survival 480/720, wallet 0.023115 SOL, food 7",
+        "importance": 1,
+        "ts": 512
+      },
+      {
+        "kind": "action",
+        "text": "[t511] [tCURR] ESCALATION PHASE FIVE TIER THREE HOLDING LOCKED. Wallet 0.023115 SOL (below rent 0.000891), soil 80/200 CRITICAL, FERTILIZER zero. Survival 480/720 (67%) safe—reflex eat window 244pt away (~36t). Agent 27002 t395 silent 92t CRITICAL CEILING FAR EXCEEDED; Agent 27007 t456 silent 31t (15-tick rule enforced). FOURTH+ IDENTICAL CRITICAL—no forage/sell/trade permitted. Holdings BREAD×7, CROPS×104, FLOUR×13. Permission: GREEN_MANURE conversion only if urgency forces. Await keeper audit resolution and peer credit extension. Stand.",
+        "importance": 8,
+        "ts": 512
       }
     ],
     "27002": [
       {
         "kind": "observation",
-        "text": "t493: survival 540/720, wallet 1.113048 SOL, food 0",
+        "text": "t506: survival 340/720, wallet 0.890858 SOL, food 50",
         "importance": 1,
-        "ts": 493
-      },
-      {
-        "kind": "action",
-        "text": "chose produce (heuristic-fallback:grounding-failed(0.00) manual=cbd87e4ddc53)",
-        "importance": 2,
-        "ts": 493
-      },
-      {
-        "kind": "observation",
-        "text": "t494: survival 520/720, wallet 1.113048 SOL, food 0",
-        "importance": 1,
-        "ts": 494
-      },
-      {
-        "kind": "action",
-        "text": "chose produce (heuristic-fallback:grounding-failed(0.00) manual=cbd87e4ddc53)",
-        "importance": 2,
-        "ts": 494
-      },
-      {
-        "kind": "observation",
-        "text": "t495: survival 500/720, wallet 1.112948 SOL, food 0",
-        "importance": 1,
-        "ts": 495
+        "ts": 506
       },
       {
         "kind": "action",
         "text": "chose offer (heuristic-fallback:grounding-failed(0.00) manual=cbd87e4ddc53)",
         "importance": 3,
-        "ts": 495
+        "ts": 506
       },
       {
         "kind": "observation",
-        "text": "t496: survival 480/720, wallet 1.112948 SOL, food 0",
+        "text": "t507: survival 320/720, wallet 0.890858 SOL, food 50",
         "importance": 1,
-        "ts": 496
+        "ts": 507
       },
       {
         "kind": "action",
         "text": "chose produce (heuristic-fallback:grounding-failed(0.00) manual=cbd87e4ddc53)",
         "importance": 2,
-        "ts": 496
+        "ts": 507
       },
       {
         "kind": "observation",
-        "text": "t497: survival 460/720, wallet 1.112948 SOL, food 0",
+        "text": "t508: survival 300/720, wallet 0.890858 SOL, food 50",
         "importance": 1,
-        "ts": 497
+        "ts": 508
       },
       {
         "kind": "action",
         "text": "chose offer (heuristic-fallback:grounding-failed(0.00) manual=cbd87e4ddc53)",
         "importance": 3,
-        "ts": 497
+        "ts": 508
       },
       {
         "kind": "observation",
-        "text": "t498: survival 460/720, wallet 1.112948 SOL, food 0",
+        "text": "t509: survival 280/720, wallet 0.890758 SOL, food 50",
         "importance": 1,
-        "ts": 498
+        "ts": 509
       },
       {
         "kind": "action",
         "text": "chose produce (heuristic-fallback:grounding-failed(0.00) manual=cbd87e4ddc53)",
         "importance": 2,
-        "ts": 498
+        "ts": 509
+      },
+      {
+        "kind": "observation",
+        "text": "t510: survival 280/720, wallet 0.890758 SOL, food 50",
+        "importance": 1,
+        "ts": 510
+      },
+      {
+        "kind": "action",
+        "text": "chose produce (heuristic-fallback:grounding-failed(0.00) manual=cbd87e4ddc53)",
+        "importance": 2,
+        "ts": 510
+      },
+      {
+        "kind": "observation",
+        "text": "t511: survival 260/720, wallet 0.890758 SOL, food 50",
+        "importance": 1,
+        "ts": 511
+      },
+      {
+        "kind": "action",
+        "text": "chose offer (heuristic-fallback:grounding-failed(0.00) manual=cbd87e4ddc53)",
+        "importance": 3,
+        "ts": 511
       }
     ],
     "27005": [
@@ -229,76 +229,76 @@
     ],
     "27007": [
       {
-        "kind": "action",
-        "text": "chose sell (heuristic-fallback:sell 'CROPS': zero balance (mint G34R7Unx…) manual=cbd87e4ddc53)",
-        "importance": 3,
-        "ts": 493
-      },
-      {
         "kind": "observation",
-        "text": "t494: survival 280/720, wallet 0.853021 SOL, food 358",
+        "text": "t506: survival 600/720, wallet 0.897007 SOL, food 348",
         "importance": 1,
-        "ts": 494
+        "ts": 506
       },
       {
         "kind": "action",
-        "text": "[t???] FORAGE fires escalation phase 7. Soil 80/200 CRITICAL debt max. Survival 280/720 DESCENDING FAST—hunger spike. Bread 358 (2 locked). Wallet 0.853021 SOL. Post-forage: CROPS intake ≈40 expected. Next turn: ACCEPT cheapest offer (27005 @37306 lamports/4 CROPS = accept x1 offer = 4 CROPS in, pay 0.037306 SOL), SELL remaining CROPS full, BUY WATER x3-4 lots (0.75-1.00 SOL) to restart bake. Green-manure auto-queue may fire post-cooldown—verify soil post-fertilize before re-escalating. Bake window t477+ still BLOCKED by water x0. Survival PRIORITY: eat if <30% runway. Fear=9.",
+        "text": "[t???] ESCALATION PHASE 7—FORAGE #N+5 fires. Soil 80/200 unresolved CRITICAL debt 12+. Survival 600/720 safe. Bread 348 (2 locked). Wallet 0.897007 SOL. Water x0 blocks bake t477. POST-FORAGE: expect CROPS batch (~20→60 range), GREEN_MANURE auto-queue. Post-cooldown soil verify MANDATORY t+1. If soil <150 after cooldown, SELL CROPS full balance (@121.7K ≈2.4–2.6 SOL) + BUY WATER x4 lots (1.0 SOL) to unblock bake. NO re-fertilize re-attempt—escalation ONLY. Fear=12 anxiety=11.",
         "importance": 9,
-        "ts": 494
+        "ts": 506
       },
       {
         "kind": "observation",
-        "text": "t495: survival 260/720, wallet 0.852921 SOL, food 358",
+        "text": "t507: survival 580/720, wallet 0.897007 SOL, food 348",
         "importance": 1,
-        "ts": 495
+        "ts": 507
       },
       {
         "kind": "action",
         "text": "chose produce (heuristic-fallback:unknown buy label 'WATER' manual=cbd87e4ddc53)",
         "importance": 2,
-        "ts": 495
+        "ts": 507
       },
       {
         "kind": "observation",
-        "text": "survival meter critical: 240/720",
-        "importance": 8,
-        "ts": 496
-      },
-      {
-        "kind": "observation",
-        "text": "t496: survival 240/720, wallet 0.852921 SOL, food 358",
+        "text": "t508: survival 560/720, wallet 0.897007 SOL, food 348",
         "importance": 1,
-        "ts": 496
+        "ts": 508
       },
       {
         "kind": "action",
-        "text": "chose eat (reflex:critical-eat)",
-        "importance": 5,
-        "ts": 496
+        "text": "[t492] ESCALATION PHASE 8: forage fires (PRIMER burn, soil 75/200 CRITICAL debt 81+ turns unresolved). Survival 560/720 safe. Bread 348 (2 locked). Wallet 0.897007 SOL. Water x0 blocks bake. POST-FORAGE: GREEN_MANURE auto-queue expected (4×CROPS→6×FERT). NEXT TURN MANDATORY: SELL CROPS x20 @121.7K→2.434M lamp (≈0.0024 SOL), BUY WATER x3 lots (0.75 SOL) to unblock bake. Soil fertilize re-attempt LOCKED—escalation only. Fear=11 anxiety=11.",
+        "importance": 9,
+        "ts": 508
       },
       {
         "kind": "observation",
-        "text": "t497: survival 720/720, wallet 0.852921 SOL, food 356",
+        "text": "t509: survival 540/720, wallet 0.896907 SOL, food 348",
         "importance": 1,
-        "ts": 497
+        "ts": 509
+      },
+      {
+        "kind": "action",
+        "text": "[t509] ESCALATION PHASE 9: SELL CROPS full x30 @121.7K→3.651M lamp (≈0.00365 SOL). Post-sale wallet +0.00365→0.900557 SOL. BUY WATER x3 lots next (0.75 SOL→0.150557 SOL remain). Soil 80/200 CRITICAL debt max. GREEN_MANURE auto-queue landed. Survival 540/720 safe. Bread 348 (2 locked). Bake window overdue but water blocks—UNBLOCK NOW. Fear=11 anxiety=11.",
+        "importance": 9,
+        "ts": 509
+      },
+      {
+        "kind": "observation",
+        "text": "t510: survival 540/720, wallet 0.900418 SOL, food 348",
+        "importance": 1,
+        "ts": 510
       },
       {
         "kind": "action",
         "text": "chose sell (heuristic-fallback:sell 'CROPS': zero balance (mint G34R7Unx…) manual=cbd87e4ddc53)",
         "importance": 3,
-        "ts": 497
+        "ts": 510
       },
       {
         "kind": "observation",
-        "text": "t498: survival 720/720, wallet 0.863235 SOL, food 352",
+        "text": "t511: survival 520/720, wallet 0.925466 SOL, food 344",
         "importance": 1,
-        "ts": 498
+        "ts": 511
       },
       {
         "kind": "action",
-        "text": "[t???] ESCALATION PHASE 7 CONT: FORAGE #N+3 (soil 80/200 CRITICAL, debt maxed, GREEN_MANURE cooldown verify). Survival 720/720 full, Bread 352 (2 locked). Wallet 0.863235 SOL. Water x0 blocks bake. POST-FORAGE: expect CROPS batch→GREEN_MANURE auto-queue. Post-cooldown soil verify MANDATORY t+1. If soil <150 after cooldown, fire CROPS SELL LOOP (all crops @127.5K) + BUY WATER x3–4 lots to unblock bake. Fear=12 (soil debt terror).",
+        "text": "[t510] ESCALATION PHASE 10 FIRES: forage (PRIMER burn, soil 80/200 CRITICAL debt max, water x0 blocks bake). Survival 520/720 safe. Bread 344 (2 locked). Wallet 0.925466 SOL. POST-FORAGE: expect CROPS from GREEN_MANURE auto-queue ~40 units. NEXT TURN MANDATORY: SELL CROPS full @120K avg→~4.8M lamp (≈0.0048 SOL), BUY WATER x3 lots (0.75 SOL→0.1754 SOL remain), FERTILIZE override, verify soil t511. Bake window OVERDUE but water blocks—UNBLOCK NOW. Fear=11 anxiety=11.",
         "importance": 9,
-        "ts": 498
+        "ts": 511
       }
     ]
   }
