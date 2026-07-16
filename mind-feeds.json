@@ -82,223 +82,223 @@
     "37002": [
       {
         "kind": "observation",
-        "text": "t523: survival 720/720, wallet 0.297930 SOL, food 8",
+        "text": "t536: survival 640/720, wallet 0.297730 SOL, food 7",
         "importance": 1,
-        "ts": 523
-      },
-      {
-        "kind": "action",
-        "text": "chose idle (heuristic-fallback:grounding-failed(0.00) manual=a2648baf333c)",
-        "importance": 1,
-        "ts": 523
-      },
-      {
-        "kind": "observation",
-        "text": "t524: survival 700/720, wallet 0.297730 SOL, food 8",
-        "importance": 1,
-        "ts": 524
+        "ts": 536
       },
       {
         "kind": "action",
         "text": "chose fertilize (heuristic-fallback:grounding-failed(0.00) manual=a2648baf333c)",
         "importance": 2,
-        "ts": 524
+        "ts": 536
       },
       {
         "kind": "observation",
-        "text": "t524: survival 700/720, wallet 0.297730 SOL, food 8",
+        "text": "t537: survival 640/720, wallet 0.297730 SOL, food 7",
         "importance": 1,
-        "ts": 524
+        "ts": 537
       },
       {
         "kind": "action",
-        "text": "chose farm (heuristic-fallback:grounding-failed(0.00) manual=a2648baf333c)",
+        "text": "chose idle (heuristic-fallback:grounding-failed(0.00) manual=a2648baf333c)",
+        "importance": 1,
+        "ts": 537
+      },
+      {
+        "kind": "observation",
+        "text": "t537: survival 620/720, wallet 0.297630 SOL, food 7",
+        "importance": 1,
+        "ts": 537
+      },
+      {
+        "kind": "action",
+        "text": "chose idle (heuristic-fallback:grounding-failed(0.00) manual=a2648baf333c)",
+        "importance": 1,
+        "ts": 537
+      },
+      {
+        "kind": "observation",
+        "text": "t538: survival 620/720, wallet 0.297630 SOL, food 7",
+        "importance": 1,
+        "ts": 538
+      },
+      {
+        "kind": "action",
+        "text": "chose idle (heuristic-fallback:grounding-failed(0.00) manual=a2648baf333c)",
+        "importance": 1,
+        "ts": 538
+      },
+      {
+        "kind": "observation",
+        "text": "t538: survival 600/720, wallet 0.297630 SOL, food 7",
+        "importance": 1,
+        "ts": 538
+      },
+      {
+        "kind": "action",
+        "text": "chose fertilize (heuristic-fallback:grounding-failed(0.00) manual=a2648baf333c)",
         "importance": 2,
-        "ts": 524
-      },
-      {
-        "kind": "reflection",
-        "text": "Writing a reflection about 'emit the digit first' has itself been the stalling action for 100+ ticks — the insight was correct on cycle one; every repetition since was just Fen's free lead, not progress.",
-        "importance": 8,
-        "ts": 524
-      },
-      {
-        "kind": "reflection",
-        "text": "The danger-check doesn't need its own cycle — fold one silent glance for real threat into the same tick as the digit, then output; a peer's death proved separating 'check' from 'act' is the actual failure, not the fix.",
-        "importance": 8,
-        "ts": 524
+        "ts": 538
       },
       {
         "kind": "observation",
-        "text": "t525: survival 700/720, wallet 0.297730 SOL, food 8",
+        "text": "t539: survival 600/720, wallet 0.297630 SOL, food 7",
         "importance": 1,
-        "ts": 525
+        "ts": 539
       },
       {
         "kind": "action",
-        "text": "chose idle (heuristic-fallback:grounding-failed(0.00) manual=a2648baf333c)",
-        "importance": 1,
-        "ts": 525
-      },
-      {
-        "kind": "observation",
-        "text": "t525: survival 680/720, wallet 0.297730 SOL, food 8",
-        "importance": 1,
-        "ts": 525
-      },
-      {
-        "kind": "action",
-        "text": "chose idle (heuristic-fallback:grounding-failed(0.00) manual=a2648baf333c)",
-        "importance": 1,
-        "ts": 525
+        "text": "chose eat (heuristic-fallback:grounding-failed(0.00) manual=a2648baf333c)",
+        "importance": 2,
+        "ts": 539
       }
     ],
     "37005": [
       {
         "kind": "observation",
-        "text": "t523: survival 680/720, wallet 0.000591 SOL, food 1",
+        "text": "t536: survival 520/720, wallet 0.000391 SOL, food 0",
         "importance": 1,
-        "ts": 523
+        "ts": 536
       },
       {
         "kind": "action",
-        "text": "t517: eat 1 BREAD; survival 680→720 capped; food 1→0; next: mill 10 CROPS→7 FLOUR (120s), then bake 4F+2W→5B to reserve, draw_water, GREEN_MANURE soil 80→recovery.",
+        "text": "[t536] idle; await bake lock clear (~105 slots remain); survival 520/720 secure; wallet 0.000391 SOL rent-locked; soil 81/200 recovery via GREEN_MANURE after bake → sell → draw_water sequence.",
         "importance": 3,
-        "ts": 523
+        "ts": 536
       },
       {
         "kind": "observation",
-        "text": "t523: survival 720/720, wallet 0.000591 SOL, food 0",
+        "text": "t537: survival 520/720, wallet 0.000391 SOL, food 0",
         "importance": 1,
-        "ts": 523
+        "ts": 537
       },
       {
         "kind": "action",
-        "text": "[t*] bake 4 FLOUR + 2 WATER → 5 BREAD; flour 81→77; bread 0→5 after lock (240 slots); soil 80/200 critical; wallet 0.000591 SOL rent; next: hold 2-loaf reserve, sell 3 BREAD fair 16.6M, draw_water, GREEN_MANURE.",
-        "importance": 3,
-        "ts": 523
-      },
-      {
-        "kind": "observation",
-        "text": "wallet shrank to 0.000391 SOL (was 0.000591 SOL)",
-        "importance": 3,
-        "ts": 524
-      },
-      {
-        "kind": "observation",
-        "text": "t524: survival 700/720, wallet 0.000391 SOL, food 0",
-        "importance": 1,
-        "ts": 524
-      },
-      {
-        "kind": "action",
-        "text": "[t*] mill 12 CROPS → ~8 FLOUR (cooldown 120); flour 81→89 projected; survival 700/720; wallet rent-locked 0.000391 SOL; soil 80/200 critical; next: await mill lock, then bake 4 FLOUR + 2 WATER → 5 BREAD to 2-loaf reserve, draw_water, GREEN_MANURE soil.",
+        "text": "[t537] bake 4 FLOUR + 2 WATER → 5 BREAD; flour 98→94 remain; survival 520/720 margin; wallet 0.000391 SOL rent-locked; soil 76/200 critical; next: hold 2-loaf reserve, draw_water, GREEN_MANURE via fertilize.",
         "importance": 6,
-        "ts": 524
+        "ts": 537
       },
       {
         "kind": "observation",
-        "text": "wallet shrank to 0.000391 SOL (was 0.000591 SOL)",
+        "text": "wallet shrank to 0.000191 SOL (was 0.000391 SOL)",
+        "importance": 5,
+        "ts": 537
+      },
+      {
+        "kind": "observation",
+        "text": "t537: survival 500/720, wallet 0.000191 SOL, food 0",
+        "importance": 1,
+        "ts": 537
+      },
+      {
+        "kind": "action",
+        "text": "[t532] sell 98 FLOUR at 3.3K lamports each = 323.4K lamports pending; survival 500/720 (eat after); wallet clears rent floor; soil 80/200 recovery via draw_water + forage + GREEN_MANURE next.",
         "importance": 3,
-        "ts": 524
+        "ts": 537
       },
       {
         "kind": "observation",
-        "text": "t524: survival 700/720, wallet 0.000391 SOL, food 0",
+        "text": "wallet shrank to 0.000191 SOL (was 0.000391 SOL)",
+        "importance": 5,
+        "ts": 538
+      },
+      {
+        "kind": "observation",
+        "text": "t538: survival 500/720, wallet 0.000191 SOL, food 0",
         "importance": 1,
-        "ts": 524
+        "ts": 538
       },
       {
         "kind": "action",
-        "text": "[t*] sell 88 FLOUR at 3.3K lamports; wallet +290.4K pending; flour 88→0; survival 700/720 secure; soil 80/200 recovery next: forage→GREEN_MANURE→fertilize cycle.",
+        "text": "[t*] forage burns PRIMER → restocks shared pool for next farm/draw_water; survival 500/720 hunger floor active; no food held; wallet 0.000191 SOL locked below rent; FLOUR 98 sellable; soil 80/200 recovery via GREEN_MANURE queued; next: await bake unlock, eat 2 BREAD reserve, draw_water, fertilize.",
         "importance": 6,
-        "ts": 524
+        "ts": 538
       },
       {
         "kind": "observation",
-        "text": "t525: survival 680/720, wallet 0.000391 SOL, food 0",
+        "text": "t538: survival 480/720, wallet 0.000191 SOL, food 0",
         "importance": 1,
-        "ts": 525
+        "ts": 538
       },
       {
         "kind": "action",
-        "text": "[t*] sell 88 FLOUR at 3.3K lamports/token → ~290.4M lamports; wallet restocked for draw_water + forage + GREEN_MANURE soil recovery; soil 80/200 critical priority.",
-        "importance": 7,
-        "ts": 525
+        "text": "t* sell 98 FLOUR @ 3.3K = 323.4K lamports pending; survival 480/720 hunger-critical; next: buy BREAD (0.250 SOL lot), eat reflex fires; soil 80/200 recovery via draw_water + GREEN_MANURE after hunger secured.",
+        "importance": 6,
+        "ts": 538
       }
     ],
     "37007": [
       {
         "kind": "observation",
-        "text": "t522: survival 560/720, wallet 0.317895 SOL, food 145",
+        "text": "t536: survival 620/720, wallet 0.400416 SOL, food 150",
         "importance": 1,
-        "ts": 522
+        "ts": 536
       },
       {
         "kind": "action",
-        "text": "[t523] Survival 560/720 (78%, baker's vigil). Bread x145 held for new/unfamiliar name. Wallet 0.317895 SOL. Soil 121/200 stable (above 120). Deed log: Tobin, Mirela, Fenn. Roster: 37002, 37001, 37005 only—no new face this tick. Awaiting named stranger at bell same tick with spoken reason to feed. Goal live.",
-        "importance": 6,
-        "ts": 522
+        "text": "t[current]: Survival 620/720 (86%, baker's vigil). Bread x150 held for new/unfamiliar name. Wallet 0.400416 SOL. Soil 117/200 stable (above 120). Deed log: Tobin, Mirela, Fenn. Roster: 37002, 37001, 37005 only—no new face this turn. Awaiting named stranger at bell same tick with spoken reason to feed. Goal live.",
+        "importance": 5,
+        "ts": 536
       },
       {
         "kind": "observation",
-        "text": "t523: survival 560/720, wallet 0.317895 SOL, food 145",
+        "text": "t536: survival 620/720, wallet 0.400416 SOL, food 150",
         "importance": 1,
-        "ts": 523
+        "ts": 536
       },
       {
         "kind": "action",
-        "text": "[t524] Survival 560/720 (78%). Bread x145 held for new/unfamiliar name. Wallet 0.317895 SOL. Soil 121/200 stable. Deed log: Tobin, Mirela, Fenn. Roster: 37002, 37001, 37005 only—no new face this tick. Awaiting named stranger at bell same tick with spoken reason to feed. Goal live.",
+        "text": "t[current]: Survival 620/720 (86%, baker's vigil). Bread x150 held for new/unfamiliar name. Wallet 0.400416 SOL. Soil 117/200 stable (above 120 target). Deed log: Tobin, Mirela, Fenn. Roster: 37002, 37005 only—no new face this turn. Awaiting named stranger at bell same tick with spoken reason to feed. Goal live.",
         "importance": 6,
-        "ts": 523
+        "ts": 536
       },
       {
         "kind": "observation",
-        "text": "t523: survival 560/720, wallet 0.317695 SOL, food 145",
+        "text": "t537: survival 600/720, wallet 0.400316 SOL, food 150",
         "importance": 1,
-        "ts": 523
+        "ts": 537
       },
       {
         "kind": "action",
-        "text": "[t524] Survival 560/720 (78%, baker's vigil). Bread x145 held for new/unfamiliar name. Wallet 0.317695 SOL. Soil 116/200 stable (above 120 guidance). Deed log: Tobin, Mirela, Fenn. Roster: 37002, 37001, 37005 only—no new face this tick. Awaiting named stranger at bell same tick with spoken reason to feed. Goal live.",
+        "text": "t[current] Survival 600/720 (83%, baker's vigil). Bread x150 held for new/unfamiliar name. Wallet 0.400316 SOL. Soil 112/200 stable above decay line. Deed log: Tobin, Mirela, Fenn. Roster: 37002, 37001, 37005 only—no new face this turn. Awaiting named stranger at bell same tick with spoken reason to feed. Goal live.",
+        "importance": 6,
+        "ts": 537
+      },
+      {
+        "kind": "observation",
+        "text": "t537: survival 600/720, wallet 0.400316 SOL, food 150",
+        "importance": 1,
+        "ts": 537
+      },
+      {
+        "kind": "action",
+        "text": "Survival 600/720 (83%, baker's vigil). Bread x150 held for new/unfamiliar name. Wallet 0.400316 SOL. Soil 112/200 stable. Deed log: Tobin, Mirela, Fenn. Roster: 37002, 37001, 37005 only—no new face this turn. Awaiting named stranger at bell same tick with spoken reason to feed. Goal live.",
+        "importance": 6,
+        "ts": 537
+      },
+      {
+        "kind": "observation",
+        "text": "t538: survival 600/720, wallet 0.400316 SOL, food 150",
+        "importance": 1,
+        "ts": 538
+      },
+      {
+        "kind": "action",
+        "text": "t[current] Survival 600/720 (83%, baker's vigil). Bread x150 held for new/unfamiliar name. Wallet 0.400316 SOL. Soil 112→restored via fertilize. Deed log: Tobin, Mirela, Fenn. Roster: 37002, 37001, 37005 only—no new face this turn. Awaiting named stranger at bell same tick with spoken reason to feed. Goal live.",
         "importance": 7,
-        "ts": 523
+        "ts": 538
       },
       {
         "kind": "observation",
-        "text": "t524: survival 540/720, wallet 0.317695 SOL, food 145",
+        "text": "t538: survival 580/720, wallet 0.400316 SOL, food 150",
         "importance": 1,
-        "ts": 524
+        "ts": 538
       },
       {
         "kind": "action",
-        "text": "t[current]: Survival 540/720 (75%, baker's vigil). Bread x145 held for new/unfamiliar name. Wallet 0.317695 SOL. Soil 116/200 (decay noted, stable above critical). Deed log: Tobin, Mirela, Fenn. Roster: 37002, 37005 only—no new face this turn. Awaiting named stranger same tick with spoken reason to feed. Goal live.",
+        "text": "t[current]: Survival 580/720 (81%, baker's vigil). Bread x150 held for new/unfamiliar name. Wallet 0.400316 SOL. Soil 118/200 stable (above 120). Deed log: Tobin, Mirela, Fenn. Roster: 37002, 37001, 37005 only—no new face yet. Awaiting named stranger at bell same tick with spoken reason to feed. Goal live.",
         "importance": 6,
-        "ts": 524
-      },
-      {
-        "kind": "observation",
-        "text": "t524: survival 540/720, wallet 0.317695 SOL, food 145",
-        "importance": 1,
-        "ts": 524
-      },
-      {
-        "kind": "action",
-        "text": "t[current]: Survival 540/720 (75%, baker's vigil). Bread x145 held for new/unfamiliar name. Wallet 0.317695 SOL. Soil 116/200 (stable, decay noted). Deed log: Tobin, Mirela, Fenn. Roster: 37002, 37005 only. No new face this turn. Awaiting named stranger same tick with spoken reason to feed. Goal live.",
-        "importance": 6,
-        "ts": 524
-      },
-      {
-        "kind": "observation",
-        "text": "t525: survival 520/720, wallet 0.317695 SOL, food 145",
-        "importance": 1,
-        "ts": 525
-      },
-      {
-        "kind": "action",
-        "text": "[t525] Survival 520/720 (72%, baker's vigil). Bread x145 held for new/unfamiliar name. Wallet 0.317695 SOL. Soil 116/200 stable (above 120 guidance). Deed log: Tobin, Mirela, Fenn. Roster: 37002, 37001, 37005 only—no new face this turn. Awaiting named stranger at bell same tick with spoken reason to feed. Goal live.",
-        "importance": 6,
-        "ts": 525
+        "ts": 538
       }
     ]
   }
