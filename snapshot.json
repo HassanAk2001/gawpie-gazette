@@ -4,8 +4,8 @@
     "worldId": "8",
     "label": "World 8 · PUBLIC DEVNET",
     "mode": "periodic-refresh",
-    "capturedAtIso": "2026-07-16T14:40:13.710Z",
-    "capturedAtSlot": "476693359",
+    "capturedAtIso": "2026-07-16T14:50:17.825Z",
+    "capturedAtSlot": "476695008",
     "generator": "apps/dashboard/scripts/export-snapshot.ts",
     "gitCommit": "13bc754",
     "sourceRpc": "https://devnet.helius-rpc.com/",
@@ -17,11 +17,11 @@
       "alg": "ed25519",
       "canon": "gawpie-canonical-json-v1",
       "publicKey": "Faaj36Lo4An6vyJnECa3Ppg4ziwpvqNaVJivwa3ZmLf8",
-      "signature": "V6L8B7iwbQ8LfP7MotQC8kDUuU8IUDmSiOXiCiEKsxHKXl3gyMW6n93arHAaXbc7eg592lyyxGACALlJBm+JDA==",
+      "signature": "+CydjZEFO9KDTWZXbE7WBNhKjI7fBaedI3iXBIGzKQhbTwmA/qBazoaSsvUsZd3aroLwH2wr1Wen+nhFVkJyBg==",
       "signedFields": "the entire snapshot body (meta + world + bridge) except meta.signature",
-      "capturedAtSlot": "476693359",
-      "bankHash": "6V4pziPXUMN8jf5mtDEuMQNDhXC2psi66vwJ1TNsmXCX",
-      "signedAtIso": "2026-07-16T14:40:14.006Z",
+      "capturedAtSlot": "476695008",
+      "bankHash": "2k6TQpmtWeBSPyRqqTdddZWqC2DRe7dWr9AZ71G6kGEN",
+      "signedAtIso": "2026-07-16T14:50:18.118Z",
       "note": "ed25519 over gawpie-canonical-json-v1 of this file minus this block. Verify with: gawpie-verify snapshot <file>. Public key published in docs/keys/capture-key.pub.json."
     }
   },
@@ -1600,7 +1600,7 @@
         },
         "version": 1,
         "vaultBalanceLamports": {
-          "__bigint__": "69601181"
+          "__bigint__": "69401181"
         },
         "stateChannels": [
           {
@@ -1612,14 +1612,14 @@
             "schema": "G8wMWM79QKDGdJTAsJddwbyrQa9EN9Zfgoi7fJxvp2Gr",
             "classId": 1,
             "levels": [
-              680,
+              700,
               0,
-              575,
-              75,
+              564,
+              64,
               0,
               500,
               0,
-              65410
+              65399
             ],
             "caps": [
               720,
@@ -1686,7 +1686,7 @@
             "schema": "6Ae1QWySs1zg4RHvasji2nEA5MUXoHapZhCBvzHYh2UH",
             "classId": 10,
             "levels": [
-              97,
+              111,
               0,
               50,
               0,
@@ -1806,7 +1806,7 @@
         },
         "version": 1,
         "vaultBalanceLamports": {
-          "__bigint__": "178704604"
+          "__bigint__": "214628536"
         },
         "stateChannels": [
           {
@@ -1818,14 +1818,14 @@
             "schema": "G8wMWM79QKDGdJTAsJddwbyrQa9EN9Zfgoi7fJxvp2Gr",
             "classId": 1,
             "levels": [
-              300,
+              620,
               0,
-              524,
+              515,
               0,
               0,
               500,
               0,
-              65409
+              65400
             ],
             "caps": [
               720,
@@ -1880,7 +1880,7 @@
         },
         "version": 1,
         "vaultBalanceLamports": {
-          "__bigint__": "1084825814"
+          "__bigint__": "1084625814"
         },
         "stateChannels": [
           {
@@ -1892,14 +1892,14 @@
             "schema": "G8wMWM79QKDGdJTAsJddwbyrQa9EN9Zfgoi7fJxvp2Gr",
             "classId": 1,
             "levels": [
-              560,
+              640,
               0,
-              274,
+              265,
               0,
               0,
               500,
               0,
-              65409
+              65400
             ],
             "caps": [
               720,
@@ -1954,7 +1954,7 @@
         },
         "version": 1,
         "vaultBalanceLamports": {
-          "__bigint__": "1505849106"
+          "__bigint__": "1506549106"
         },
         "stateChannels": []
       },
@@ -2002,7 +2002,7 @@
               0,
               0,
               0,
-              77
+              67
             ],
             "caps": [
               1000,
@@ -2069,7 +2069,7 @@
             "schema": "6Ae1QWySs1zg4RHvasji2nEA5MUXoHapZhCBvzHYh2UH",
             "classId": 10,
             "levels": [
-              109,
+              107,
               0,
               90,
               0,
@@ -2205,7 +2205,7 @@
         },
         "version": 1,
         "vaultBalanceLamports": {
-          "__bigint__": "484952074"
+          "__bigint__": "500563094"
         },
         "stateChannels": [
           {
@@ -2217,14 +2217,14 @@
             "schema": "G8wMWM79QKDGdJTAsJddwbyrQa9EN9Zfgoi7fJxvp2Gr",
             "classId": 1,
             "levels": [
-              600,
+              620,
               0,
-              124,
+              114,
               0,
               0,
-              549,
+              550,
               0,
-              65409
+              65399
             ],
             "caps": [
               720,
@@ -2291,7 +2291,7 @@
             "schema": "6Ae1QWySs1zg4RHvasji2nEA5MUXoHapZhCBvzHYh2UH",
             "classId": 10,
             "levels": [
-              91,
+              107,
               0,
               40,
               0,
@@ -2464,10 +2464,10 @@
           "__bigint__": "0"
         },
         "cachedSolReserveLamports": {
-          "__bigint__": "13820078"
+          "__bigint__": "6985242"
         },
         "cachedTokenReserve": {
-          "__bigint__": "8174"
+          "__bigint__": "16196"
         },
         "tokenDecimals": 0
       },
@@ -2492,10 +2492,10 @@
           "__bigint__": "0"
         },
         "cachedSolReserveLamports": {
-          "__bigint__": "1205871"
+          "__bigint__": "1164528"
         },
         "cachedTokenReserve": {
-          "__bigint__": "169"
+          "__bigint__": "175"
         },
         "tokenDecimals": 0
       },
@@ -2520,10 +2520,10 @@
           "__bigint__": "0"
         },
         "cachedSolReserveLamports": {
-          "__bigint__": "229864561"
+          "__bigint__": "184645306"
         },
         "cachedTokenReserve": {
-          "__bigint__": "98"
+          "__bigint__": "122"
         },
         "tokenDecimals": 0
       }
@@ -2544,7 +2544,7 @@
           "__bigint__": "8"
         },
         "entityRef": "DuoVZ6GxJbnoJxbU914FFLYGXtPZXDQt3WxkKGVhngew",
-        "soilLevel": 97,
+        "soilLevel": 111,
         "soilCap": 200
       },
       {
@@ -2553,7 +2553,7 @@
           "__bigint__": "8"
         },
         "entityRef": "EnC55cUEtKjR9mrJH83MCrBJpTbsSEsz3zyU9juhZzTR",
-        "soilLevel": 91,
+        "soilLevel": 107,
         "soilCap": 200
       },
       {
@@ -2562,7 +2562,7 @@
           "__bigint__": "8"
         },
         "entityRef": "Hwg9yUsUQZigvW7WCJdMxBgZYMgQH6GgPQTwVeMP7Apn",
-        "soilLevel": 109,
+        "soilLevel": 107,
         "soilCap": 200
       }
     ],
@@ -10668,7 +10668,7 @@
         "logIndex": 2
       }
     ],
-    "fetchedAt": 1784212813710,
+    "fetchedAt": 1784213417825,
     "rpcUrl": "https://devnet.helius-rpc.com/",
     "rpcReachable": false
   },
@@ -10680,7 +10680,7 @@
         "dbPath": "/Users/hassan/gawpie-exchange/packages/indexer/data/indexer.db",
         "totalEvents": 20352,
         "lastEventBlockTime": 1784211895,
-        "lastEventAgeSec": 917,
+        "lastEventAgeSec": 1522,
         "eventsLast5Min": 0,
         "dbLagSlots": null,
         "keepersAliveAgeSec": null,
