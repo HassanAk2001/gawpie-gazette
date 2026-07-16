@@ -1,0 +1,473 @@
+{
+  "meta": {
+    "entity": 0,
+    "name": "World 6 — the extinction",
+    "worldId": 6,
+    "window": "2026-07-15T10:22:39Z/2026-07-15T15:51:56Z",
+    "attestation": "docs/chronicles/world-6-collapse-2026-07-15.md (four forensic investigations, every claim MEASURED or INFERRED) · /Volumes/DIGORA/gawpie-devnet/world6/indexer.db · world6/logs/genesis.log + keepers.log · live devnet reads",
+    "receiptCheck": {
+      "method": "getTransaction via Helius devnet RPC, 2026-07-16 (scripts/keys/devnet/helius.env sourced)",
+      "verified": 24,
+      "failed": 0,
+      "note": "every beat below that carries verified:true was independently re-confirmed on public devnet on 2026-07-16; slots are the confirmed slots returned by getTransaction. Beats without a txSig are keeper/genesis log lines (attested, not chain-receipted)."
+    }
+  },
+  "cause": "World 6 did not starve for lack of food, soil, crops, flour, or money — it starved because a genesis idempotency bug silently capped every life at 15 bakes' worth of wallet water. Step 15 of genesis put 30 household WATER in each wallet; step 15c, which was supposed to endow every role with 8,000 bake-WATER, checked only 'balance > 0' and skipped all four agents (genesis.log: 'WATER wallet ATA already has 30 — skip', four times). Each life carried a hidden budget of 15 lifetime bakes instead of ~4,015 — a 268x cut in designed runway, invisible until 13:52Z — and wallet water was structurally unrefillable: no verb minted to wallets, no buy path existed, and the sell path was a one-way valve two agents used to sell their last bakes. When the fossil budget ran out at 14:37:48Z, three keeper defects had already burned or disabled every buffer: the eat-all bug incinerated ~295 of 373 eaten loaves above the 720-point cap (no banking, ever), the fixed 0.25-SOL buy lot skipped instead of clamping once every wallet fell below it (the buy branch went permanently dark beside a pool still holding 22 loaves), and the starving-delegate floor produced everything except food — the terminal loops ran {produce, forage, farm}, never eat, never buy. Four deaths landed on clockwork, each within ±46 seconds of pure metabolic arithmetic, next to 1,935 CROPS, 1,277 FLOUR, and 1,850 warehouse loaves nobody could reach. The metabolism engine performed exactly to spec; everything that was supposed to put bread in front of it failed.",
+  "world": {
+    "genesisCompleteUTC": "2026-07-15T10:27:00Z",
+    "extinctionCompleteUTC": "2026-07-15T15:51:56Z",
+    "lifespan": "5h 25m",
+    "outcome": "0/4",
+    "profile": "demo: survival cap 720 · decay 20/60s · refill 360/BREAD · starve window 900s",
+    "thriving": "thriving by 11:00Z; peak hour 13:00Z baked 9.4x metabolic demand; 49 bakes / 245 loaves across the run — production capacity was never the problem",
+    "hiddenWaterCap": "each agent's designed 8,000-unit bake-water endowment silently skipped at genesis (step15c 'already has 30 — skip', genesis.log lines 474/480/490/496); the 120-water ledger closes to the unit: 98 baked + 22 sold = 120 = 4 x 30",
+    "firstAlarm": "13:52:28Z — 'act(produce) STAGE B: insufficient wallet input balance for mint 8Btk6…(WATER) — have 0, need 2' (keepers.log:5170), 82 minutes before the first death; nothing was watching for it",
+    "estateAtExtinction": {
+      "crops": 1935,
+      "flour": 1277,
+      "warehouseLoaves": 1850,
+      "warehouseNote": "GENESIS-LP warehouse, entity 15010, token account nDiFM…isCN — inert throughout",
+      "breadPool": "22 loaves + 1.1281 SOL (the pool never ran out; >=22 loaves at every moment)",
+      "primer": "499/1000 unspent",
+      "delegateFarmWater": "7420/8000 unspent",
+      "walletBakeWater": "0/0/0/0",
+      "fiscSOL": 2.1612
+    },
+    "beats": [
+      {
+        "ts": "2026-07-15T10:27:00Z",
+        "level": null,
+        "cap": 720,
+        "kind": "poll",
+        "note": "genesis complete. The collapse is already committed: all four wallets hold 30 WATER instead of 8,030 (step 15/15c collision) — nothing that follows could have prevented it without code changes, only delayed it."
+      },
+      {
+        "ts": "2026-07-15T13:52:28Z",
+        "level": null,
+        "cap": 720,
+        "kind": "poll",
+        "note": "the world's first hard deferral — 'STAGE B: insufficient wallet input balance for mint 8Btk6…(WATER) — have 0, need 2' (keepers.log:5170). The fire alarm rang into an empty room for 82 minutes."
+      },
+      {
+        "ts": "2026-07-15T14:37:48Z",
+        "level": null,
+        "cap": 720,
+        "kind": "heartbeat",
+        "action": "produce",
+        "note": "THE LAST BAKE IN THE WORLD (Drey, 5 loaves, 2 wallet-WATER burned). The FLOUR->BREAD verb is now dead planet-wide — not gated, not cooldown-blocked, simply unexecutable for want of 2 water per agent.",
+        "txSig": "3WHyABe2NuqEVE3JUkCjV3JqrRFYpHiF7dMbdfNBdBGK2i7hXGYErj57HnhRw7WVfGg7QU22D8so1RCnG4kJVEjS",
+        "verified": true,
+        "slot": 476457133
+      },
+      {
+        "ts": "2026-07-15T15:00:47Z",
+        "level": null,
+        "cap": 720,
+        "kind": "heartbeat",
+        "action": "buy",
+        "note": "the last affordable buy in the world (Drey, 5 loaves for 0.25 SOL). Every wallet is now below the fixed 0.25-SOL lot and decide.ts:1328 skips instead of clamping — the buy branch goes permanently dark while the pool still holds 22 loaves.",
+        "txSig": "3sG5r2cbeCB7PzxpXW2EiqkooZNgt2Lo3fK4tVByKvs3TsVb4hJrXoAt4QcYqncG64jFg9HRMd6n4QmEpMnsVhhy",
+        "verified": true,
+        "slot": 476460906
+      },
+      {
+        "ts": "2026-07-15T15:51:56Z",
+        "level": 0,
+        "cap": 720,
+        "kind": "heartbeat",
+        "action": "died",
+        "note": "extinction complete — the fourth and final Died receipt (Drey). Four T2 reaps on clockwork, 15:14:47Z -> 15:51:56Z.",
+        "txSig": "2Xf6kYcuABRreo5nGzjvVvQmGSc9ZKbFiDscjLGBz4eFuExKcKgdbAdGZMda31NJVLA5Tx7ksA644EK6TzP7e9Mu",
+        "verified": true,
+        "slot": 476469282
+      }
+    ]
+  },
+  "lives": [
+    {
+      "meta": {
+        "entity": 17005,
+        "name": "Mirri",
+        "role": "MILLER",
+        "wallet": "4aX5PGdjNphGDXKptcTFHthuSHBwDMaVumvsXvssNWV8",
+        "worldId": 6,
+        "window": "2026-07-15T10:22:45Z/2026-07-15T15:14:47Z",
+        "deathOrder": 1,
+        "attestation": "indexer.db events (world_id=6, entity 17005 + wallet rows) · keepers.log L5142/L6021 · chronicle §0"
+      },
+      "epitaph": "Mirri, the miller. First to fall. She milled to the very end — the world's final hour saw 107 mill executions and 749 fresh FLOUR, much of it hers, that no one alive could bake.",
+      "facts": [
+        "Milled to the very end: the final hour (14:45–15:46Z) ran 99 forages and 107 mills with ok receipts — zero bakes, one eat — while PRIMER stood at 499/1000 and BAKE was ungated.",
+        "At 14:30:29Z, ten minutes after her own last meal, she sold her final 14 units of bake-water into the pool for ~0.058 SOL — the scarcest survival input in the world, through the one-way valve.",
+        "In her last stretch her mind issued eat intents with food=0 that mapped to idle — nine consecutive idle ticks, 14:31–14:37Z, while her meter drained. Her late memory shows poisoned ritual behavior: permanent peer blacklists and 'CROPS at 279 approaches 280 (next multiple of 10)' (keepers.log L5142/L6021).",
+        "Died with 0.1005 SOL — below the 0.25-SOL fixed buy lot, and therefore invisible to the one branch that could have fed her."
+      ],
+      "beats": [
+        {
+          "ts": "2026-07-15T10:22:45Z",
+          "level": null,
+          "cap": 720,
+          "kind": "heartbeat",
+          "action": "genesis",
+          "note": "EntityCreated — born into world 6 as its miller. Her wallet already holds the trap: 30 WATER where 8,030 was designed.",
+          "txSig": "5aLQNMkgu9ASF6fmftjAC3WqKsupNsBBkN5gD7LAMVZrDPxCdwYkfPqsZdtwPyLJWMi5wNet1wVqQHrVdFpoDfJx",
+          "verified": true,
+          "slot": 476415358
+        },
+        {
+          "ts": "2026-07-15T14:20:08Z",
+          "level": null,
+          "cap": 720,
+          "kind": "heartbeat",
+          "action": "produce",
+          "note": "her last bake — 5 loaves, 2 wallet-WATER burned (her 8th and final bake of a silently 15-bake life).",
+          "txSig": "3EWt4AvAoLwjpoeqV4LV74Sej6E79aVRfonMWZj4KFJh2YEnAT4uST6D8LpeEMzRZbtrpG5CzUrLYXf4jNAafopE",
+          "verified": true,
+          "slot": 476454245
+        },
+        {
+          "ts": "2026-07-15T14:23:24Z",
+          "level": null,
+          "cap": 720,
+          "kind": "eat",
+          "action": "eat",
+          "note": "her last meal — 5 bread (refill 1800 points against the 720 cap; the eat-all bug wasted the excess).",
+          "txSig": "52RejUmv8XeXv7GMyvfWLLvWZZtEjWPpbWdT58kfL8jFsQGhaZfPEJQkxHrHTXddXK4grtdNLzyQmeJRzWUdd5un",
+          "verified": true,
+          "slot": 476454777
+        },
+        {
+          "ts": "2026-07-15T14:30:29Z",
+          "level": null,
+          "cap": 720,
+          "kind": "heartbeat",
+          "action": "sell",
+          "note": "sells her final 14 units of bake-water for ~0.058 SOL (58,024,390 lamports) — ten minutes after her last meal. The survival-sell motive is INFERRED; the receipt is MEASURED.",
+          "txSig": "2ZHk44vo8CfqtEYwHoA1nwp5Uc1v7GkX9Uyq7nBofDCiwEY58t1WegdccrLSgNKHVc3oYApeqdfQmtv7wwt9qeLn",
+          "verified": true,
+          "slot": 476455936
+        },
+        {
+          "ts": "2026-07-15T14:31:00Z",
+          "level": null,
+          "cap": 720,
+          "kind": "thought",
+          "action": "idle",
+          "thought": "CROPS at 279 approaches 280 (next multiple of 10)",
+          "decider": "mind(claude-haiku-4-5) — late-life poisoned ritual",
+          "note": "keepers.log L5142/L6021: permanent peer blacklists and numeric ritual; her eat intents carried food=0 and mapped to idle — nine consecutive idle ticks, 14:31–14:37Z, while her meter drained."
+        },
+        {
+          "ts": "2026-07-15T15:14:47Z",
+          "level": 0,
+          "cap": 720,
+          "kind": "heartbeat",
+          "action": "died",
+          "note": "Died (T2 reap) — first death of world 6. Wallet at death: 0.1005 SOL, below the 0.25-SOL buy lot.",
+          "txSig": "f4vttXMH1zS6pHjag8DDn6Dp68yDb4Ywxn23XVPBnBhsA6BMnGo3UU8mzjtRhXicauED5USLt92NYqhNyQcFpF1",
+          "verified": true,
+          "slot": 476463195
+        }
+      ]
+    },
+    {
+      "meta": {
+        "entity": 17002,
+        "name": "Hobb",
+        "role": "FARMER",
+        "wallet": "BwkABEFinaVRrcN5ohmC9oHpshcem8gGEYYX3tYMp7fq",
+        "worldId": 6,
+        "window": "2026-07-15T10:22:42Z/2026-07-15T15:31:03Z",
+        "deathOrder": 2,
+        "attestation": "indexer.db events · incident-hobb-2026-07-15.json (the near-death arc, receipt-checked) · chronicle §0"
+      },
+      "epitaph": "Hobb, the farmer who almost made it twice. Survivor of the famous 12:17–12:31Z near-death — he lived at 0 by baking and eating inside the window, the incident that triggered the 13:21Z hardening that bears his name. He fought hardest.",
+      "facts": [
+        "Fought hardest: six of the endgame's eight sells and four of its six successful floor buys were his.",
+        "Executed the two most self-destructive trades of the day: sold his remaining 8 units of bake-water for ~0.038 SOL thirty-eight seconds after his own last bake; and bought 61 loaves for 0.25 SOL then resold all 61 one minute later for 0.2456 SOL — a pure fee-burning round trip of the world's food.",
+        "His 12:29:14Z critical-eat at level 0 (receipt 35sY2wvQ…, slot 476436083) is the save that named the Hobb hardening — which measurably delayed all four deaths by roughly an hour, and could not undo the genesis trap."
+      ],
+      "beats": [
+        {
+          "ts": "2026-07-15T10:22:42Z",
+          "level": null,
+          "cap": 720,
+          "kind": "heartbeat",
+          "action": "genesis",
+          "note": "EntityCreated — born into world 6, a farmer.",
+          "txSig": "53ctxBbNJ1s8cwBDjrTUDmkUFRJK6ZHrAAWhr89CyZtJaSGsB6wVBcG5mndfpVV3ojY2CEqyc7Cm84jXsmJU8Zmo",
+          "verified": true,
+          "slot": 476415349
+        },
+        {
+          "ts": "2026-07-15T12:29:14Z",
+          "level": 0,
+          "cap": 720,
+          "kind": "eat",
+          "action": "eat",
+          "decider": "reflex:critical-eat",
+          "note": "THE SAVE — at level 0, inside the 900s starve window, he eats 5 fresh-baked loaves and lives (level 0 -> 720 at 12:30:01Z). The near-death that triggered the 13:21Z hardening. Full arc: incident-hobb-2026-07-15.json.",
+          "txSig": "35sY2wvQguW6px9qAtZYjgLBJ5iGBymfLpPY2A96ekhWWUC6FJ1VZwMHapEzkYEk6fGGDFyLvGVXw225953kJhNF",
+          "verified": true,
+          "slot": 476436083
+        },
+        {
+          "ts": "2026-07-15T13:59:47Z",
+          "level": null,
+          "cap": 720,
+          "kind": "heartbeat",
+          "action": "produce",
+          "note": "his last bake — 5 loaves, 2 wallet-WATER burned (his 11th and final).",
+          "txSig": "38hbzhTEKPepouCEC1UtKgeATA7gur7f13iF4sicWse2YgAJSQ1JdArRYokn4Z124SDkSa5PC3KafpfjkXPGyVS4",
+          "verified": true,
+          "slot": 476450912
+        },
+        {
+          "ts": "2026-07-15T14:00:25Z",
+          "level": null,
+          "cap": 720,
+          "kind": "heartbeat",
+          "action": "sell",
+          "note": "thirty-eight seconds after his last bake, he sells his remaining 8 units of bake-water for ~0.038 SOL (38,019,791 lamports). The survival-sell motive is INFERRED; the receipt is MEASURED.",
+          "txSig": "3dWHntLg4dxyqRdCdQ1wbnAQj9WX3Ty33PUUAMZgxw8XEuJLFNSSgrMi9wztzTCFmw3SNCe6FzF9bJNFzgsxaP4q",
+          "verified": true,
+          "slot": 476451016
+        },
+        {
+          "ts": "2026-07-15T14:15:10Z",
+          "level": null,
+          "cap": 720,
+          "kind": "heartbeat",
+          "action": "buy",
+          "note": "the floor's fixed 0.25-SOL lot nets him 61 loaves against the shallow divisor-40 pool — a 61-loaf overbuy headed straight for the eat-all incinerator.",
+          "txSig": "3CP916C9AiFVXq2q8NBybMrH3PGKRkpUiM1hWMC49Sz8eAaaAMFWbmBdupodBPzVmLkC66dhqzvo6Yzxr4YMY2Pm",
+          "verified": true,
+          "slot": 476453432
+        },
+        {
+          "ts": "2026-07-15T14:16:07Z",
+          "level": null,
+          "cap": 720,
+          "kind": "heartbeat",
+          "action": "sell",
+          "note": "one minute later he resells all 61 loaves for 0.2456 SOL (245,569,398 lamports) — a pure fee-burning round trip of the world's food.",
+          "txSig": "4CWieUSDcYf5HeAhUpJeczGuej29VhftnJHxAA1nrpre2i6SEQxNHzGV6vCBeCVoEaWVzv1ZXA1NGbK4XvcqVmV1",
+          "verified": true,
+          "slot": 476453587
+        },
+        {
+          "ts": "2026-07-15T14:39:38Z",
+          "level": null,
+          "cap": 720,
+          "kind": "eat",
+          "action": "eat",
+          "note": "his last meal — 10 bread (refill 3600 points against the 720 cap).",
+          "txSig": "31PjrSc8BLGBqFqGVcsLdfHX4RBNnFf4JaLN9Po5BZbYKKov9ii5RuEFKuoabCLme6pYGE4KDWjKcdAer53mPFr4",
+          "verified": true,
+          "slot": 476457436
+        },
+        {
+          "ts": "2026-07-15T15:31:03Z",
+          "level": 0,
+          "cap": 720,
+          "kind": "heartbeat",
+          "action": "died",
+          "note": "Died (T2 reap) — second death. Wallet at death: 0.1015 SOL.",
+          "txSig": "VeSrGor646Hh7DBT1VnVmws7e5EnXhtqr6nRMQxxwk9sSq7sStjx5pMgf6NvoUccDqQG1YnYoeB4fGcpWJBhPjf",
+          "verified": true,
+          "slot": 476465863
+        }
+      ]
+    },
+    {
+      "meta": {
+        "entity": 17007,
+        "name": "Pico",
+        "role": "BAKER",
+        "wallet": "36wXK8eEzx4pMTuYoW12SGduJ8xaooDp9aAmNq3q547h",
+        "worldId": 6,
+        "window": "2026-07-15T10:22:49Z/2026-07-15T15:35:33Z",
+        "deathOrder": 3,
+        "attestation": "indexer.db events · keepers.log L4670/4695/4742/5170 · chronicle §0"
+      },
+      "epitaph": "Pico, the baker. He executed exactly 15 bakes — the precise maximum his 30 units of genesis water allowed. It was not his mind that broke the plan.",
+      "facts": [
+        "Exactly 15 bakes: the arithmetic of the hidden cap, spent to the last unit. His 15th and final bake landed 13:51:37Z; the world's first 'have 0, need 2' water deferral followed 51 seconds later.",
+        "The 55-loaf last supper: at 14:43:47Z the eat-all bug consumed his entire granary in a single bite (level 360 + 55 loaves -> 720, food 0) — 54 loaves incinerated against a 720-point cap, ~5.4 colony-hours of runway destroyed in one transaction.",
+        "Died 0.008 SOL of pool water away from being able to bake again, and below the fixed buy lot that would have let him buy bread instead — holding 506 FLOUR, 854 CROPS, the 109 FLOUR he bought while starving, 0 WATER, 0 BREAD, and 0.0355 SOL."
+      ],
+      "beats": [
+        {
+          "ts": "2026-07-15T10:22:49Z",
+          "level": null,
+          "cap": 720,
+          "kind": "heartbeat",
+          "action": "genesis",
+          "note": "EntityCreated — born into world 6, its only baker.",
+          "txSig": "27rzuV4PejTCccVFQgsPNNt23dttdNgumHVvChYPaoyR5wXLH2Uam1f1mkv5mDaZSrmQrrTFEAiwT39uiAk2UwRQ",
+          "verified": true,
+          "slot": 476415367
+        },
+        {
+          "ts": "2026-07-15T13:20:00Z",
+          "level": null,
+          "cap": 720,
+          "kind": "thought",
+          "action": "produce",
+          "thought": "Chain locked: forage -> BAKE_BREAD -> eat 1 -> lock 2 sacred… Only loaves stop death",
+          "decider": "mind(claude-haiku-4-5)",
+          "note": "keepers.log L4670/4695/4742 — his mind had the right plan. It was not his mind that broke it."
+        },
+        {
+          "ts": "2026-07-15T13:51:37Z",
+          "level": null,
+          "cap": 720,
+          "kind": "heartbeat",
+          "action": "produce",
+          "note": "his 15th and FINAL bake — the precise maximum his 30 genesis water allowed (2 WATER per bake). 5 loaves.",
+          "txSig": "3J6aeM7tpZPegLvBAzQ1SiTbSmjeuyHdbVipNg4Dbg4ms3tLnq6J3ZZg4yBbEqVUAGsKxgf8VG7qHWmNqsY3xZXd",
+          "verified": true,
+          "slot": 476449577
+        },
+        {
+          "ts": "2026-07-15T13:52:28Z",
+          "level": null,
+          "cap": 720,
+          "kind": "heartbeat",
+          "action": "produce",
+          "note": "51 seconds later: the world's first hard deferral — 'act(produce) STAGE B: insufficient wallet input balance for mint 8Btk6…(WATER) — have 0, need 2' (keepers.log:5170). The alarm line existed 82 minutes before the first death; nothing was watching for it."
+        },
+        {
+          "ts": "2026-07-15T14:43:47Z",
+          "level": 360,
+          "cap": 720,
+          "kind": "eat",
+          "action": "eat",
+          "note": "THE 55-LOAF LAST SUPPER — the eat-all bug consumes his entire granary in a single bite: level 360 + 55 loaves -> 720, food 0. 54 loaves incinerated above the cap (~5.4 colony-hours of runway), 82 minutes AFTER the hardening deployed — it had clamped only one of three eat paths.",
+          "txSig": "4Lwh1nBU3LfrxgXtjsYmqx9bGQfo8EcTACufZPDJt4X2t7tmbyZjJrzspZTAvMJSNTT6CvpMMSYS622pXGHW7nYp",
+          "verified": true,
+          "slot": 476458114
+        },
+        {
+          "ts": "2026-07-15T15:00:23Z",
+          "level": null,
+          "cap": 720,
+          "kind": "heartbeat",
+          "action": "buy",
+          "note": "buys 109 FLOUR for 0.05 SOL — and starves holding it. Flour is not food; the verb that turns it into food needs 2 water he cannot get.",
+          "txSig": "2ZSW9M1cK4CvPgLkiCfPNuhJ1i1ujuKFNE1cLCG4UiTJYG5oj5S8k6CMupGcfrzbLNfH5ZyJTyNcbZ28R2J4NRQL",
+          "verified": true,
+          "slot": 476460839
+        },
+        {
+          "ts": "2026-07-15T15:35:33Z",
+          "level": 0,
+          "cap": 720,
+          "kind": "heartbeat",
+          "action": "died",
+          "note": "Died (T2 reap) — third death. Estate: 506 FLOUR, 854 CROPS, 0 WATER, 0 BREAD, 0.0355 SOL — 0.008 SOL of pool water away from baking again.",
+          "txSig": "5tgZ3Kr7qEKZhojdDv85TQMZZthfJyuyqJZWF8eMo9j7ZuLDTiRq3uFqNyKPqyLGHPweZBWCPuTXYd4AbNaJGuZi",
+          "verified": true,
+          "slot": 476466601
+        }
+      ]
+    },
+    {
+      "meta": {
+        "entity": 17001,
+        "name": "Drey",
+        "role": "FARMER",
+        "wallet": "3mMQSqGa8EtBEA4EquGiLdPEgrKcSuEZcKuUYxRt4D46",
+        "worldId": 6,
+        "window": "2026-07-15T10:22:39Z/2026-07-15T15:51:56Z",
+        "deathOrder": 4,
+        "attestation": "indexer.db events · keepers.log 7922–8334, L6529/L7204/L7341 · chronicle §0"
+      },
+      "epitaph": "Drey, the farmer. Last of world 6. He ate the world's final meal, performed the world's last bake, and spent his final fifty minutes in perfect, pointless industry.",
+      "facts": [
+        "Ate the world's final meal: 5 loaves bought at 15:00:47Z for 0.25 SOL — the last buy any wallet in the world could afford — eaten 74 seconds later for a full 720.",
+        "Fifty minutes of perfect pointless industry: his terminal heartbeats cycle forage/produce, ok:true, level=0/720, food=0 from 15:37Z to 15:52Z, with ~0.19 SOL in his wallet and 22 purchasable loaves sitting in the pool the skip-not-clamp lot made unreachable.",
+        "His mind saw it coming with terrible clarity — 'Soil death slow but certain; no market fix exists. Idle this turn.' (L6529) — and near the end, a farmer convinced he could bake: 'Crops 734, flour 175 held… mill 189 flour to bread, bake same tick' (L7204/L7341). He could not. He died at 15:51:56Z on a mountain of 730 CROPS and 189 FLOUR."
+      ],
+      "beats": [
+        {
+          "ts": "2026-07-15T10:22:39Z",
+          "level": null,
+          "cap": 720,
+          "kind": "heartbeat",
+          "action": "genesis",
+          "note": "EntityCreated — the first life of world 6, a farmer.",
+          "txSig": "vuKFu7AzvDQTwhfodS8DQk1i9BJ9Hy5Lajebp9KhJsJEz3aaEut2XWEApbTz4nm9XLwDn3ZZAY9cUyBjrLA3SaD",
+          "verified": true,
+          "slot": 476415341
+        },
+        {
+          "ts": "2026-07-15T14:37:48Z",
+          "level": null,
+          "cap": 720,
+          "kind": "heartbeat",
+          "action": "produce",
+          "note": "THE LAST BAKE IN THE WORLD — his 15th, 5 loaves, the final 2 units of wallet-WATER in any living wallet. After this transaction the FLOUR->BREAD verb is dead planet-wide.",
+          "txSig": "3WHyABe2NuqEVE3JUkCjV3JqrRFYpHiF7dMbdfNBdBGK2i7hXGYErj57HnhRw7WVfGg7QU22D8so1RCnG4kJVEjS",
+          "verified": true,
+          "slot": 476457133
+        },
+        {
+          "ts": "2026-07-15T15:00:47Z",
+          "level": null,
+          "cap": 720,
+          "kind": "heartbeat",
+          "action": "buy",
+          "note": "the last buy any wallet in the world could afford — 5 loaves for 0.25 SOL. Every other wallet is already below the fixed lot.",
+          "txSig": "3sG5r2cbeCB7PzxpXW2EiqkooZNgt2Lo3fK4tVByKvs3TsVb4hJrXoAt4QcYqncG64jFg9HRMd6n4QmEpMnsVhhy",
+          "verified": true,
+          "slot": 476460906
+        },
+        {
+          "ts": "2026-07-15T15:01:36Z",
+          "level": null,
+          "cap": 720,
+          "kind": "eat",
+          "action": "eat",
+          "note": "THE WORLD'S FINAL MEAL — 5 bread, eaten 74 seconds after the buy, for a full 720.",
+          "txSig": "4gtn3fMF494friyQWKLRvAZZjqLvUMGiGJ6WBWbnYYge4Z2ksacHMJwPQCsSPF46gcnXH9wEUH2614oLF5yRnN7o",
+          "verified": true,
+          "slot": 476461039
+        },
+        {
+          "ts": "2026-07-15T15:10:00Z",
+          "level": null,
+          "cap": 720,
+          "kind": "thought",
+          "action": "idle",
+          "thought": "Soil death slow but certain; no market fix exists. Idle this turn.",
+          "decider": "mind(claude-haiku-4-5)",
+          "note": "keepers.log L6529 — terrible clarity. Later, a farmer convinced he can bake: 'Crops 734, flour 175 held… mill 189 flour to bread, bake same tick' (L7204/L7341). He cannot — bake needs 2 wallet-WATER; the world has none."
+        },
+        {
+          "ts": "2026-07-15T15:51:13Z",
+          "level": 0,
+          "cap": 720,
+          "kind": "heartbeat",
+          "action": "produce",
+          "decider": "reflex:starving-delegate",
+          "note": "the last transaction of his fifty minutes of perfect pointless industry — a mill run with an ok receipt, at level 0/720, 43 seconds before the reap, with ~0.19 SOL in hand and 22 loaves in the pool.",
+          "txSig": "4QRvr3ohuEdW9X6cadfdiEjJh6BDZ5Hd2r6HFQrK9ubMff888DLxYjJdXGucgUrdviQLhhKC9TQ1sAxxAX5DXG13",
+          "verified": true,
+          "slot": 476469165
+        },
+        {
+          "ts": "2026-07-15T15:51:56Z",
+          "level": 0,
+          "cap": 720,
+          "kind": "heartbeat",
+          "action": "died",
+          "note": "Died (T2 reap) — last of world 6. Estate: 730 CROPS, 189 FLOUR, 0.193 SOL. Extinction complete.",
+          "txSig": "2Xf6kYcuABRreo5nGzjvVvQmGSc9ZKbFiDscjLGBz4eFuExKcKgdbAdGZMda31NJVLA5Tx7ksA644EK6TzP7e9Mu",
+          "verified": true,
+          "slot": 476469282
+        }
+      ]
+    }
+  ]
+}

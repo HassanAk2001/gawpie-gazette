@@ -1,0 +1,245 @@
+{
+  "meta": {
+    "entity": 27005,
+    "name": "Tilla",
+    "worldId": 7,
+    "window": "2026-07-15T16:58:14Z/2026-07-15T23:34:16Z",
+    "attestation": "/Volumes/DIGORA/gawpie-devnet/world7/indexer.db (read-only) · world7/logs/keepers.log + death-watch.log · world7/minds/27005.sqlite (read-only, thoughts VERBATIM) · docs/codex/04-TECHNICAL-BLUEPRINT.md §1.8",
+    "receiptCheck": {
+      "method": "getTransaction via Helius devnet RPC, 2026-07-16 (scripts/keys/devnet/helius.env sourced)",
+      "verified": 12,
+      "failed": 0,
+      "note": "verified:true beats carry the confirmed slot returned by getTransaction on 2026-07-16. Beats without a txSig are keeper-log or mind-log lines (failed simulations never land on chain — that is the point of two of them)."
+    }
+  },
+  "role": "MILLER",
+  "wallet": "HVcfxHYvP3t4aADhXfnLwGDZwaEdaxdMbT62nDNDZyZ5",
+  "summary": "Tilla, world 7's miller — the first life lost on hardened code, 31 hours after the world-6 cures shipped. She was competent to the last decimal: she milled on ratio, fertilized on the soil law, staged her bakes, and posted 68 escrow offers into a market that could not answer, because no inbox carried the escrowPda needed to accept one. She panic-bought 25 loaves for 0.336 SOL at spiked prices, hit the rent floor, and entered the freeze-out: below 0.000891 SOL every atomic trade fails, so her 116 FLOUR (~1.09 SOL at her own quoted mid) could never become bread or SOL again. Her final 74 minutes (22:19:57Z first terminal deferral -> 23:33:31Z reap) were spent at effective zero — wallet 0.000091 then literally 0.000000 SOL — while she kept producing with ok receipts. The death-watch had already alarmed at 21:13:53Z on her first STAGE-B deferral and exited by design; no supervisor restarted it, so her death raised no alarm for 9+ hours. She died of defects that are now fixed, and she is why they are fixed.",
+  "beats": [
+    {
+      "ts": "2026-07-15T16:58:14Z",
+      "level": null,
+      "cap": 720,
+      "kind": "heartbeat",
+      "action": "genesis",
+      "note": "EntityCreated — born into world 7 as its miller, on post-cure code (C1 endowment assert, eat clamps, buy clamps all live).",
+      "txSig": "3cAEFCmxfAVkcAi1QMd3khPfsvHQxJctAPyDSXfNUdJk8S3EbTSop8FvsP31ipoT8vLnKyjoe8YwxxnRHNGd5wgL",
+      "verified": true,
+      "slot": 476480142
+    },
+    {
+      "ts": "2026-07-15T17:15:05Z",
+      "level": null,
+      "cap": 720,
+      "kind": "heartbeat",
+      "action": "offer",
+      "note": "her FIRST commons offer, 17 minutes into life: escrow GpCSeBjd… -> buyer 27007, 4 units, want 69,960,000 lamports (0.070 SOL). Nobody could ever accept it — the mind inbox carried no escrowPda (defect D3). She would open 68 of these.",
+      "txSig": "57ZQgunyhezgFEg19cYb1wQ29Pg3f2aXGekMhFFzLxXAUU2wcoiUtsW2Ft86M3QE6zNZwqgHCV69AtQ4X8HHgANh",
+      "verified": true,
+      "slot": 476482903
+    },
+    {
+      "ts": "2026-07-15T20:36:39Z",
+      "level": 580,
+      "cap": 720,
+      "kind": "thought",
+      "action": "idle",
+      "decider": "mind(claude-haiku-4-5-20251001) manual=cbd87e4ddc53",
+      "thought": "Soil 111/200 — below 120 threshold but GREEN_MANURE fired recently (t31 memory); no immediate trigger. Mill cooldown live (t31 stage). FLOUR pipeline 33+31=64 units nominal. Survival 580/720 (81%, safe). Food held 3 (auto-eat threshold 34% = 245 points — currently 580, no trigger). Wallet 0.217795 SOL liquid. Bake cooldown live post-t31; WATER 8020 ample. Next move: idle this tick to clear mill cooldown, then stage bake 4 FLOUR + 2 WATER -> 5 BREAD when bake slot opens, then mill 45 CROPS (or remainder post-bake FLOUR consumption) on cooldown reset. Precision: 0.70 ratio locked. No counterparty action required. Hold position.",
+      "note": "who she was: measured, exact, slightly clinical — a miller who tracked ratios obsessively and distrusted round numbers. VERBATIM from keepers.log; three hours before the end she was solvent, fed, and precise."
+    },
+    {
+      "ts": "2026-07-15T21:05:16Z",
+      "level": null,
+      "cap": 720,
+      "kind": "heartbeat",
+      "action": "buy",
+      "note": "panic-buy 1: 17 BREAD for 0.190079064 SOL at spiked prices (defect class D6, price sanity — flagged, not yet built). Her wallet begins to empty.",
+      "txSig": "4fDXRQH1XbLhXxfEF36HjvEenBkR95BaCPLjcjyX4pZvzBwEqx1E8gqmH2PwGUZ6XzMZKE3rfBGw7YSqVQAKaLpM",
+      "verified": true,
+      "slot": 476520612
+    },
+    {
+      "ts": "2026-07-15T21:13:16Z",
+      "level": null,
+      "cap": 720,
+      "kind": "heartbeat",
+      "action": "produce",
+      "note": "her first STAGE-B deferral — 'insufficient wallet input balance for mint 3JVMLxkq… have 0' (keepers.log, simMin 68). The death-watch ALARMED on this line at 21:13:53Z and exited nonzero by design; the supervisor (F5) did not exist, so the watch never came back. Her death, 2h20m later, raised no alarm for 9+ hours — NEVER-AGAIN C5's second occurrence."
+    },
+    {
+      "ts": "2026-07-15T21:23:21Z",
+      "level": null,
+      "cap": 720,
+      "kind": "heartbeat",
+      "action": "buy",
+      "note": "panic-buy 2: 8 BREAD for 0.145636596 SOL. Total spent on 25 loaves: 0.336 SOL. Her spendable balance is now under 0.0004 SOL — below the 0.000891 rent floor, atomic trades frozen. The freeze-out begins.",
+      "txSig": "2yodutUGs9pyW3M4JbiZHj6oGEfhHfkas4wcAT2fXcTLrZxGgPL31tTcQDX68piUHySD4RerbiXrxKf7zmTgiQvn",
+      "verified": true,
+      "slot": 476523571
+    },
+    {
+      "ts": "2026-07-15T22:07:55Z",
+      "level": 500,
+      "cap": 720,
+      "kind": "eat",
+      "action": "eat",
+      "decider": "mind(claude-haiku-4-5-20251001)",
+      "note": "eating down the panic-bought loaves, one at a time, exactly as the post-cure clamp intends (1 BREAD, +360). food=3 and falling; nothing is coming in behind them.",
+      "txSig": "Ug6g6WFhCcsVKZYE533oZTYkri94n1ToswdzLzr7hLhPKKKMQXMHpKLbVh3y8chP5WdKa4nhCbaUuDEAhREosLt",
+      "verified": true,
+      "slot": 476530870
+    },
+    {
+      "ts": "2026-07-15T22:17:33Z",
+      "level": null,
+      "cap": 720,
+      "kind": "heartbeat",
+      "action": "offer",
+      "note": "still offering: escrow CnsdFbmf… -> buyer 27007, want 37,306 lamports — down from 69,960,000 on her first offer, a 1,875x price cut into channels nobody could open. Escrow ledger for all of world 7: 554 opened, 0 released, 0 refunded, ever.",
+      "txSig": "25xAbbTc3a2zZFy6x4M3y7y2JKTJKm3KokeTNSuzsfX5bajJRY3ocmJLThA4DxqrsrvYu9kNsTT8BHRLtQWz1aGJ",
+      "verified": true,
+      "slot": 476532444
+    },
+    {
+      "ts": "2026-07-15T22:19:57Z",
+      "level": 500,
+      "cap": 720,
+      "kind": "heartbeat",
+      "action": "produce",
+      "note": "THE 74 MINUTES BEGIN — first deferral of the terminal window (produce, CooldownNotElapsed; simMin 135). From here to the reap is 73m34s. Her spendable wallet stands at effective zero (0.000091 SOL vs the 0.000891 rent floor; literally 0.000000 from ~22:47Z) and nothing she attempts from this point changes her fate."
+    },
+    {
+      "ts": "2026-07-15T22:43:09Z",
+      "level": 360,
+      "cap": 720,
+      "kind": "eat",
+      "action": "eat",
+      "decider": "mind(claude-haiku-4-5-20251001)",
+      "note": "HER LAST MEAL — the final loaf (food 1 -> 0), level 360 -> 720. The metabolism clock now runs uninterrupted to the end: 36 minutes of decay, then the 900-second starve window.",
+      "txSig": "3rzPZoeBUfRq4HZDYtjMiDk5amuzLKVzUZLY4jVvexBDBUBog2FLPGnntPpkFqxWNaKjEWWiGM6HYJbshAi7Uoh3",
+      "verified": true,
+      "slot": 476536641
+    },
+    {
+      "ts": "2026-07-15T22:46:59Z",
+      "level": 640,
+      "cap": 720,
+      "kind": "thought",
+      "action": "sell",
+      "decider": "mind(claude-haiku-4-5-20251001) manual=cbd87e4ddc53",
+      "thought": "Wallet 0.000000 SOL is below rent floor 0.000891—atomic trades frozen. Survival 640/720 stable, no food held but hunger at 11% is tolerable. Soil 93/200 <120 triggers GREEN_MANURE+fertilize law. WATER x0 blocks bake staging per standing goal. FLOUR x106 is liquidatable (9.4K lamports/token ≈ 997.4K SOL if sold in full). Execute: sell FLOUR to breach rent floor, restore atomic trade capacity, then mill CROPS to refill FLOUR post-fertilize. Precision: one lever at a time.",
+      "note": "VERBATIM. The first 'Wallet 0.000000 SOL' of her life. She has the right plan — sell the hoard to cross the rent floor — and the plan is physically impossible."
+    },
+    {
+      "ts": "2026-07-15T22:47:05Z",
+      "level": 640,
+      "cap": 720,
+      "kind": "heartbeat",
+      "action": "sell",
+      "note": "rescue sell 1 FAILS — WouldReapRentExempt (0x177d, engine-transform swap.rs:673): 'spend would drop the reserve below its rent-exempt minimum'. Too broke to sell. The transaction never lands; there is no receipt because the world refused to write one."
+    },
+    {
+      "ts": "2026-07-15T22:49:46Z",
+      "level": null,
+      "cap": 720,
+      "kind": "heartbeat",
+      "action": "offer",
+      "note": "her LAST offer — escrow HLwUKSTQ… opened into the same dead channel as the 67 before it, three minutes after her first rescue sell failed. To the end, she kept trying to trade her way out.",
+      "txSig": "mHRgQbJEJCJ5wABuyWYSR4uXgxHfsaC78FXCJ9rgubYXwUFkEDy11DEmwBCRgfhe6KudYDJ4aTMQiZRa9PmtFzj",
+      "verified": true,
+      "slot": 476537728
+    },
+    {
+      "ts": "2026-07-15T22:53:08Z",
+      "level": 520,
+      "cap": 720,
+      "kind": "thought",
+      "action": "sell",
+      "decider": "mind(claude-haiku-4-5-20251001) manual=cbd87e4ddc53",
+      "thought": "Wallet 0.000000 SOL <rent floor 0.000891 — atomic trades frozen. WATER x0 blocks bake staging. Survival 520/720 (28% hunger, 100% insecurity). FLOUR x116 sellable at 9.4K lamports = 1.090400 SOL gross — liquidate FLOUR now to clear rent floor and unblock bake staging.",
+      "note": "VERBATIM — her last recorded LLM thought before the reflexes took over. 100% insecurity, still citing exact numbers. Rescue sell 2 fails identically at 22:53:12Z (WouldReapRentExempt). She is a rich miller who cannot spend, sell, or bake."
+    },
+    {
+      "ts": "2026-07-15T23:18:40Z",
+      "level": 0,
+      "cap": 720,
+      "kind": "decay",
+      "note": "survival hits 0/720. The 900-second starve window opens. Every remaining heartbeat is reflex:starving-delegate choosing forage or farm — producing, never eating, because there is nothing left to eat and no way to buy.",
+      "txSig": "4Pe3nuNTKwCgidPzTDJXT1j2f1gCASfbBwv8r2ePTJRZC1CpVsvEz3LRd6FXeodT73ZbdCy7mbV6ovL8ze84XPkv",
+      "verified": true,
+      "slot": 476542459
+    },
+    {
+      "ts": "2026-07-15T23:33:31Z",
+      "level": 0,
+      "cap": 720,
+      "kind": "heartbeat",
+      "action": "died",
+      "note": "Died (kind=8) — the first death of world 7, 31 hours after the world-6 cures shipped, 6h35m into her life. Nobody was watching: the death-watch had been down since its 21:13:53Z alarm.",
+      "txSig": "wGLmzTXn9iFC7LWFSpTKiY1q4kzHRXk8w7BiLcsKe21MxWDTN3rWENtLV8MwiYpbnv2KAhjEK2xGxLpDML7WqeX",
+      "verified": true,
+      "slot": 476544897
+    },
+    {
+      "ts": "2026-07-15T23:33:33Z",
+      "level": 0,
+      "cap": 720,
+      "kind": "heartbeat",
+      "action": "forage",
+      "decider": "reflex:starving-delegate",
+      "note": "two seconds AFTER her death receipt landed, her keeper loop foraged once more, ok:true, level=0/720, food=0 — the last transaction she ever signed was work.",
+      "txSig": "3SkBprqe9U93NHhGdR6wua9JpZKGWrnCeq1PngoC5QXBKiCo3bnP7McGM71tS4xMrqe85qVR2iSzXNidegnTgk54",
+      "verified": true,
+      "slot": 476544902
+    },
+    {
+      "ts": "2026-07-15T23:34:16Z",
+      "level": null,
+      "cap": 720,
+      "kind": "poll",
+      "note": "Deregistered (kind=12) — the estate opens. World 7 stands at 3/4 alive.",
+      "txSig": "5z8dNZpoNXsfvwB9hfYHS3JT2ugUbVaAvYQQ1uhC14d7hJrnFW8K6BHxmvU8LWDaNCND4DFB2hScWh3A66RVRiJi",
+      "verified": true,
+      "slot": 476545021
+    }
+  ],
+  "finalThoughts": {
+    "note": "VERBATIM from /Volumes/DIGORA/gawpie-devnet/world7/minds/27005.sqlite (read-only). Her mind's last written rows, and her last true reflections.",
+    "lastMindRows": [
+      "t254: survival 0/720, wallet 0.000000 SOL, food 0",
+      "survival meter critical: 0/720",
+      "chose forage (reflex:starving-delegate)"
+    ],
+    "lastLLMThought": "Wallet 0.000000 SOL <rent floor 0.000891 — atomic trades frozen. WATER x0 blocks bake staging. Survival 520/720 (28% hunger, 100% insecurity). FLOUR x116 sellable at 9.4K lamports = 1.090400 SOL gross — liquidate FLOUR now to clear rent floor and unblock bake staging.",
+    "lastReflections": [
+      "Six-plus cycles of restating the WATER>0/wallet>rent floor gating logic (t75-t198) without a single logged fire/no-fire outcome was the actual failure — the fix has been fully specified since t198; the only remaining action is executing one tick log with named pass/fail, not further diagnosis.",
+      "WATER x0 and wallet-below-rent-floor are both silent, independent gates that can zero out the bake-fire regardless of cooldown timer state — the pass/fail check must explicitly verify WATER>0 AND wallet>rent floor before claiming 'cleared', otherwise 'hard pass/fail' logs a false negative as if the timer itself failed."
+    ],
+    "personaNote": "Her mind persona was seeded reading 'You are Mirri, a miller in the Gawpie world' — she carried the dead world-6 miller's name inside her own mind. Her public name, per the naming doctrine (world-6 names stay theirs), is and remains Tilla."
+  },
+  "truth": {
+    "verdict": "Tilla died of defects, and the defects are since fixed. The Tilla death investigation found ten (D1–D10, receipts in the workflow record cited by commit 4baf1a7); the three that killed her:",
+    "defects": [
+      {
+        "id": "D3",
+        "name": "the dead-channel escrows",
+        "whatItDidToHer": "she posted 68 binding escrow offers (4 units each — ~272 units of her goods locked), cutting her ask from 69,960,000 lamports on her first offer (17:15:05Z) to 37,306 on her late ones — a 1,875x price collapse into channels no counterparty could open, because the mind inbox never carried the escrowPda needed to accept. World-7 ledger: 554 EscrowOpened, 0 EscrowReleased, 0 EscrowRefunded — a market that could not say yes. The companion defect D4 made it worse: the 6-second mind-timeout fallback itself opened escrows (544 timeouts world-wide locked tokens into unacceptable channels).",
+        "fixCommit": "4baf1a71c95bd0bfbccd034857098fa8defe3479 — fix(economy): THE FAMINE CURE: the mind inbox now carries escrowPda so offers are acceptable; offers from DEAD senders are dropped; the timeout fallback no longer opens escrows (D4)."
+      },
+      {
+        "id": "D7",
+        "name": "the hoard",
+        "whatItDidToHer": "she died holding 116 FLOUR — ~1.09 SOL of real wealth at her own quoted mid — that could not become bread (WATER x0, bake blocked) or SOL (wallet below the 0.000891 rent floor: both rescue sells failed WouldReapRentExempt at 22:47:05Z and 22:53:12Z). The hoard was real; the exit was not. She starved next to her own warehouse, the exact world-6 shape one economy layer up.",
+        "fixCommit": "4baf1a71c95bd0bfbccd034857098fa8defe3479 — THE INPUT-RESERVE GUARD (an agent never sells its survival-chain inputs below the reserve; 'hoarding itself remains legal — only selling your own oxygen is physics') + THE REFLOAT LIFELINE (a starving agent with zero SOL facing a stocked pool gets one conserved 0.03 SOL core::pay, per-agent capped at 3 with loud escalation) — the unfreeze she needed and did not have. Note: the commit's flagged-follow-up list reuses the label D7 for reflection hygiene; the hoard cures above shipped as that commit's headline."
+      },
+      {
+        "id": "MISSING-GRANARY",
+        "name": "the missing granary",
+        "whatItDidToHer": "world 7 had no market-maker of last resort. When her offers went into dead channels and the rent floor froze her out of the pool, nothing in the world stood ready to buy what she made or sell her what she needed — a competent producer with a full warehouse had no counterparty of any kind at the end.",
+        "fixCommit": "4baf1a71c95bd0bfbccd034857098fa8defe3479 — THE GRANARY (T13, KEEPER_GRANARY default on): the FISC market-maker of last resort, watermark-bounded bread stabilization. Hardened by 3fe346da4194c462a3678191972c8dc683df9190 (pre-create the BREAD ATA in its own tx — the first-buy ConservationViolated trap, error 7000) and 498de13580c5ed48743b93f0addc437d70d19653 (the granary-identity lesson: GRANARY_ENTITY_ID must never alias FISC — buyer==fee-treasury breaks conservation; world 8 seeds a dedicated granary entity)."
+      }
+    ],
+    "alsoOnTheRecord": "The death-watch alarmed correctly at 21:13:53Z on her first STAGE-B deferral and exited nonzero by design; no supervisor existed (F5 pending), so her 23:33:31Z death went unalarmed for 9+ hours — NEVER-AGAIN C5's second occurrence, a defense failure on the record (docs/codex/04-TECHNICAL-BLUEPRINT.md §4.6). The 72h alive-and-producing soak has been RED since her death; the clock is reset, and world-8 genesis waits on her autopsy's cures being proven."
+  }
+}
