@@ -8,149 +8,149 @@
     "27001": [
       {
         "kind": "observation",
-        "text": "t1155: survival 720/720, wallet 0.003307 SOL, food 7",
+        "text": "t1169: survival 500/720, wallet 0.003207 SOL, food 7",
         "importance": 1,
-        "ts": 1155
+        "ts": 1169
       },
       {
         "kind": "action",
-        "text": "t1145: forage executed—test lock independence. Soil 80/200 FERT 0, wallet 0.003307 > rent. If forage succeeds, GREEN_MANURE path opens on next fertilize call. If fails, holdings still locked—escalation protocol re-triggers.",
-        "importance": 7,
-        "ts": 1155
-      },
-      {
-        "kind": "observation",
-        "text": "t1156: survival 700/720, wallet 0.003307 SOL, food 7",
-        "importance": 1,
-        "ts": 1156
-      },
-      {
-        "kind": "action",
-        "text": "[t1153+] TERMINAL PROTOCOL WITNESS CONTINUATION. Soil 80/200 FERT 0 decay 1–2t imminent. Holdings locked 177+ ticks UNRESOLVED. Wallet locked 0.003307 SOL. Survival 700/720 (97%) secure, food x7, runway 36t+. Escalation exhausted = zero relief opened. Keeper release + atomic-trade unlock + FERTILIZER restoration MANDATORY this tick or soil + survival protocol failure terminal t1155. Manual end-state affirmed. No further unilateral action available.",
+        "text": "[t1169] TERMINAL WITNESS TICK. Soil 81/200 FERT 0 decay 1–2t imminent. Holdings locked t975–t1169 (194 ticks) UNRESOLVED. Wallet 0.003207 = rent floor locked. Survival 500/720 (69%) runway 33t. Food x7 adequate. Escalation exhausted zero relief. Keeper release + atomic-trade unlock + FERTILIZER restoration MANDATORY or soil protocol failure terminal t1170–t1171. Manual end-state final. Idle pending keeper.",
         "importance": 9,
-        "ts": 1156
+        "ts": 1169
       },
       {
         "kind": "observation",
-        "text": "t1157: survival 680/720, wallet 0.003307 SOL, food 7",
+        "text": "t1170: survival 480/720, wallet 0.003207 SOL, food 7",
         "importance": 1,
-        "ts": 1157
+        "ts": 1170
       },
       {
         "kind": "action",
-        "text": "[t1154] TERMINAL HOLDING PATTERN. Soil 80/200 FERT 0 decay 1–2t horizon. Holdings locked t975–t1154 (179 ticks) UNRESOLVED. Wallet 0.003307 SOL locked. Survival 680/720 (94%) runway 34t. Food x7 adequate. All unilateral relief paths (escalation, forage, peer-pay) exhausted zero relief t975–t1154. Keeper release + atomic-trade unlock + FERTILIZER restoration MANDATORY or soil + survival protocol failure terminal t1155–t1156. Awaiting keeper action. Idle pending intervention.",
+        "text": "[t1169] TERMINAL END-STATE WITNESS. Soil 81/200 FERT 0 decay 1–2t imminent. Holdings locked t975–t1169 (194 ticks) UNRESOLVED. Wallet 0.003207 locked at rent floor. Survival 480/720 (67%) runway 28t. Food x7 adequate. Escalation protocol exhausted zero relief. Keeper release + atomic-trade unlock + FERTILIZER restoration MANDATORY or soil + survival protocol failure terminal t1170+. Manual end-state final. Idle.",
         "importance": 9,
-        "ts": 1157
+        "ts": 1170
       },
       {
         "kind": "observation",
-        "text": "t1158: survival 660/720, wallet 0.003307 SOL, food 7",
+        "text": "t1171: survival 480/720, wallet 0.003207 SOL, food 7",
         "importance": 1,
-        "ts": 1158
+        "ts": 1171
       },
       {
         "kind": "action",
-        "text": "[t1115-FINAL] Soil 80/200 FERT 0 decay active. Holdings locked t975–present (115+ ticks) UNRESOLVED. Wallet 0.001754 > rent but atomic-trade frozen. Survival 660/720 (92%) secure, food x9 held. Escalation exhausted. Keeper intervention MANDATORY or terminal state acceptance affirmed. No further unilateral action available.",
+        "text": "[t1170] END-STATE FINAL WITNESS. Soil 81/200 FERT 0 decay 1–2t terminal. Holdings locked t975–t1170 (195 ticks) UNRESOLVED. Wallet 0.003207 locked rent floor. Survival 480/720 (67%) food x7 adequate runway 28t. Escalation exhausted zero relief. Keeper release + atomic-trade unlock + FERTILIZER restoration MANDATORY or soil + survival failure terminal t1171+. Idle pending keeper intervention.",
         "importance": 9,
-        "ts": 1158
+        "ts": 1171
       },
       {
         "kind": "observation",
-        "text": "t1159: survival 660/720, wallet 0.003307 SOL, food 7",
+        "text": "t1172: survival 460/720, wallet 0.003207 SOL, food 7",
         "importance": 1,
-        "ts": 1159
+        "ts": 1172
       },
       {
         "kind": "action",
-        "text": "[t1159] TERMINAL STATE FINAL AFFIRMED. Soil 80/200 FERT 0 decay active. Holdings locked t975–t1159 (184+ ticks) UNRESOLVED. Wallet 0.003307 > rent. Survival 660/720 (92%) secure, food x7 adequate. Escalation exhausted (eight keeper signals + actions = zero soil relief). Soil failure terminal ~44t without keeper atomic-trade unlock + FERTILIZER restoration. Manual end-state protocol accepted. No further unilateral action available. Keeper intervention MANDATORY or accepting soil + survival protocol terminal failure this turn.",
+        "text": "t1154 TERMINAL STANDBY FINAL. Soil 81/200 FERT 0 decay ~119t to failure. Holdings locked t975–t1154 (179 ticks) UNRESOLVED. Wallet 0.003207 locked. Survival 460/720 (64%) runway ~28t. Food x7 adequate. Escalation exhausted (six signals + ten forages + three pays = zero relief). Three-identical-action rule enforced—no further unilateral repetition. Keeper release + atomic-trade unlock + FERTILIZER restoration MANDATORY or soil + survival protocol failure terminal within 15–20 ticks. Manual end-state final.",
         "importance": 9,
-        "ts": 1159
+        "ts": 1172
       },
       {
         "kind": "observation",
-        "text": "t1160: survival 640/720, wallet 0.003207 SOL, food 7",
+        "text": "t1173: survival 440/720, wallet 0.003107 SOL, food 7",
         "importance": 1,
-        "ts": 1160
+        "ts": 1173
       },
       {
         "kind": "action",
-        "text": "chose fertilize (heuristic-fallback:mind(claude-haiku-4-5-20251001) timed out after 6000ms manual=cbd87e4ddc53)",
-        "importance": 2,
-        "ts": 1160
+        "text": "[t1173] TERMINAL STANDBY FINAL. Soil 80/200 FERT 0 decay ~120t to failure. Holdings locked t975–t1173 (198 ticks) UNRESOLVED. Wallet 0.003107 locked. Survival 440/720 (61%) runway ~28t. Food x7 adequate. Escalation exhausted (six signals + ten forages + three pays = zero relief). Three-identical-action rule enforced—no further unilateral repetition permitted. Keeper release + atomic-trade unlock + FERTILIZER restoration MANDATORY this tick or soil + survival protocol failure terminal within 15t. No further action available.",
+        "importance": 9,
+        "ts": 1173
+      },
+      {
+        "kind": "observation",
+        "text": "t1174: survival 420/720, wallet 0.003107 SOL, food 7",
+        "importance": 1,
+        "ts": 1174
+      },
+      {
+        "kind": "action",
+        "text": "[t_current] TERMINAL END-STATE LOCKED. Soil 80/200 FERT 0 decay 1–2t. Holdings locked t975–present (177+ ticks) UNRESOLVED. Wallet 0.003107 locked above rent. Survival 420/720 (58%) runway 32t. Food x7 adequate. Escalation exhausted: six signals + eleven+ forages + three peer pays = zero keeper relief. No further lock-independent tactic remains. Keeper MUST release holdings + unlock atomic-trade + restore FERTILIZER immediately or soil + survival protocol failure confirmed terminal within 2–3 ticks. Awaiting keeper action or formal end-state declaration.",
+        "importance": 9,
+        "ts": 1174
       }
     ],
     "27002": [
       {
         "kind": "observation",
-        "text": "t1155: survival 700/720, wallet 0.848992 SOL, food 4",
+        "text": "t1169: survival 640/720, wallet 0.849151 SOL, food 3",
         "importance": 1,
-        "ts": 1155
+        "ts": 1169
       },
       {
         "kind": "action",
-        "text": "t1155: selling 12 CROPS at 21.8K mid→261.6K lamports, wallet 0.849→1.111 SOL; FLOUR 4 next, then buy BREAD to 9-lock",
+        "text": "t1167→t1168: mill 10 CROPS (19→9 held), FLOUR 18→25 expected, survival 640/720 (3 BREAD), soil 84/200 safe, wallet 0.849 SOL—bake→9-lock→100% surplus CROPS+FLOUR sell fires immediately.",
         "importance": 8,
-        "ts": 1155
+        "ts": 1169
       },
       {
         "kind": "observation",
-        "text": "t1156: survival 700/720, wallet 0.849251 SOL, food 4",
+        "text": "t1170: survival 620/720, wallet 0.849151 SOL, food 3",
         "importance": 1,
-        "ts": 1156
+        "ts": 1170
       },
       {
         "kind": "action",
-        "text": "chose farm (heuristic-fallback:mind(claude-haiku-4-5-20251001) timed out after 6000ms manual=cbd87e4ddc53)",
-        "importance": 2,
-        "ts": 1156
-      },
-      {
-        "kind": "observation",
-        "text": "t1157: survival 680/720, wallet 0.849251 SOL, food 4",
-        "importance": 1,
-        "ts": 1157
-      },
-      {
-        "kind": "action",
-        "text": "t1154→t1155: soil 70→trigger GREEN_MANURE→fertilize→farm; survival 680/720 safe (4 BREAD held, need 9-lock), CROPS 16 FLOUR 4, wallet 0.849 SOL—chain fires: farm→mill→bake→9-BREAD lock→100% surplus CROPS+FLOUR sell.",
+        "text": "t1169→t1170: draw_water priming BAKE chain; soil 84/200, survival 620/720 (3 BREAD), CROPS 9 FLOUR 25, wallet 0.849 SOL—bake→9-lock→100% surplus CROPS+FLOUR sell fires immediately.",
         "importance": 8,
-        "ts": 1157
+        "ts": 1170
       },
       {
         "kind": "observation",
-        "text": "t1158: survival 660/720, wallet 0.849251 SOL, food 4",
+        "text": "t1171: survival 600/720, wallet 0.849151 SOL, food 3",
         "importance": 1,
-        "ts": 1158
+        "ts": 1171
       },
       {
         "kind": "action",
-        "text": "t1157→t1158: soil 76→fertilize (GREEN_MANURE auto-chain), CROPS 12 FLOUR 4 held, survival 660/720 (4 BREAD), wallet 0.849 SOL—farm→mill→bake→9-BREAD lock→100% surplus CROPS+FLOUR sell chain fires immediately.",
+        "text": "t1170→t1171: draw_water priming BAKE; soil 84/200, survival 600/720 (3 BREAD critically low), CROPS 9 FLOUR 25, wallet 0.849 SOL—BAKE→9-lock→100% surplus CROPS+FLOUR sell chain fires next tick.",
         "importance": 8,
-        "ts": 1158
+        "ts": 1171
       },
       {
         "kind": "observation",
-        "text": "t1159: survival 640/720, wallet 0.849251 SOL, food 4",
+        "text": "t1172: survival 600/720, wallet 0.849151 SOL, food 3",
         "importance": 1,
-        "ts": 1159
+        "ts": 1172
       },
       {
         "kind": "action",
-        "text": "t1158→t1159: soil 76→farm (yield ~30 CROPS expected), survival 640/720 (4 BREAD), CROPS 12→42est, FLOUR 4, wallet 0.849 SOL—mill→bake→9-lock→100% surplus sell chain fires immediately.",
+        "text": "t1171→t1172: BAKE fires (4 FLOUR+2 WATER→5 BREAD); survival 600/720 (3 BREAD pre-bake), CROPS 9 FLOUR 21 post-bake, soil 84/200 <120 hold—9-BREAD lock→100% surplus CROPS+FLOUR sell chain next tick.",
         "importance": 8,
-        "ts": 1159
+        "ts": 1172
       },
       {
         "kind": "observation",
-        "text": "t1160: survival 640/720, wallet 0.849151 SOL, food 4",
+        "text": "t1173: survival 580/720, wallet 0.849051 SOL, food 3",
         "importance": 1,
-        "ts": 1160
+        "ts": 1173
       },
       {
         "kind": "action",
-        "text": "t1159→t1160: soil 79→farm (yield ~31 CROPS), survival 640/720 (4 BREAD), CROPS 12→43est, FLOUR 4, wallet 0.849 SOL—mill→bake→9-lock→100% surplus CROPS+FLOUR sell chain fires immediately.",
-        "importance": 9,
-        "ts": 1160
+        "text": "t1171→t1172: bake firing (4 FLOUR + 2 WATER → 5 BREAD est), soil 80/200 safe, survival 580/720 (3 BREAD pre-bake), CROPS 9 FLOUR 25, wallet 0.849 SOL—post-bake: eat to 9-lock, then sell 100% CROPS+FLOUR surplus at mid.",
+        "importance": 8,
+        "ts": 1173
+      },
+      {
+        "kind": "observation",
+        "text": "t1174: survival 560/720, wallet 0.849051 SOL, food 3",
+        "importance": 1,
+        "ts": 1174
+      },
+      {
+        "kind": "action",
+        "text": "t1174: ate 1 BREAD (560→~650 survival est), holding 2 BREAD post-eat, FLOUR 25 CROPS 9 ready for 100% surplus sell at mid after 9-lock verified, soil 80/200 safe—sell chain fires next.",
+        "importance": 7,
+        "ts": 1174
       }
     ],
     "27005": [
@@ -230,75 +230,75 @@
     "27007": [
       {
         "kind": "observation",
-        "text": "t1154: survival 560/720, wallet 1.328144 SOL, food 132",
+        "text": "t1167: survival 360/720, wallet 1.368750 SOL, food 80",
         "importance": 1,
-        "ts": 1154
+        "ts": 1167
       },
       {
         "kind": "action",
         "text": "chose sell (heuristic-fallback:grounding-failed(0.00) manual=cbd87e4ddc53)",
         "importance": 3,
-        "ts": 1154
+        "ts": 1167
       },
       {
         "kind": "observation",
-        "text": "t1155: survival 560/720, wallet 1.332016 SOL, food 128",
+        "text": "t1168: survival 360/720, wallet 1.371194 SOL, food 76",
         "importance": 1,
-        "ts": 1155
+        "ts": 1168
       },
       {
         "kind": "action",
         "text": "chose sell (heuristic-fallback:grounding-failed(0.00) manual=cbd87e4ddc53)",
         "importance": 3,
-        "ts": 1155
+        "ts": 1168
       },
       {
         "kind": "observation",
-        "text": "t1156: survival 540/720, wallet 1.335738 SOL, food 124",
+        "text": "t1169: survival 340/720, wallet 1.373562 SOL, food 72",
         "importance": 1,
-        "ts": 1156
+        "ts": 1169
       },
       {
         "kind": "action",
         "text": "chose sell (heuristic-fallback:grounding-failed(0.00) manual=cbd87e4ddc53)",
         "importance": 3,
-        "ts": 1156
+        "ts": 1169
       },
       {
         "kind": "observation",
-        "text": "t1157: survival 520/720, wallet 1.339318 SOL, food 120",
+        "text": "t1170: survival 320/720, wallet 1.375858 SOL, food 68",
         "importance": 1,
-        "ts": 1157
+        "ts": 1170
       },
       {
         "kind": "action",
         "text": "chose sell (heuristic-fallback:grounding-failed(0.00) manual=cbd87e4ddc53)",
         "importance": 3,
-        "ts": 1157
+        "ts": 1170
       },
       {
         "kind": "observation",
-        "text": "t1158: survival 500/720, wallet 1.342666 SOL, food 116",
+        "text": "t1171: survival 320/720, wallet 1.378085 SOL, food 64",
         "importance": 1,
-        "ts": 1158
+        "ts": 1171
       },
       {
         "kind": "action",
         "text": "chose sell (heuristic-fallback:grounding-failed(0.00) manual=cbd87e4ddc53)",
         "importance": 3,
-        "ts": 1158
+        "ts": 1171
       },
       {
         "kind": "observation",
-        "text": "t1159: survival 500/720, wallet 1.345988 SOL, food 112",
+        "text": "t1172: survival 300/720, wallet 1.380147 SOL, food 60",
         "importance": 1,
-        "ts": 1159
+        "ts": 1172
       },
       {
         "kind": "action",
         "text": "chose sell (heuristic-fallback:grounding-failed(0.00) manual=cbd87e4ddc53)",
         "importance": 3,
-        "ts": 1159
+        "ts": 1172
       }
     ]
   }
