@@ -82,75 +82,75 @@
     "37002": [
       {
         "kind": "observation",
-        "text": "t1030: survival 660/720, wallet 0.495431 SOL, food 3",
+        "text": "t1044: survival 720/720, wallet 0.495231 SOL, food 1",
         "importance": 1,
-        "ts": 1030
+        "ts": 1044
       },
       {
         "kind": "action",
         "text": "chose idle (heuristic-fallback:grounding-failed(0.00) manual=a2648baf333c)",
         "importance": 1,
-        "ts": 1030
+        "ts": 1044
       },
       {
         "kind": "observation",
-        "text": "t1031: survival 660/720, wallet 0.495431 SOL, food 3",
+        "text": "t1044: survival 700/720, wallet 0.495231 SOL, food 1",
         "importance": 1,
-        "ts": 1031
+        "ts": 1044
+      },
+      {
+        "kind": "action",
+        "text": "chose farm (heuristic-fallback:grounding-failed(0.00) manual=a2648baf333c)",
+        "importance": 2,
+        "ts": 1044
+      },
+      {
+        "kind": "observation",
+        "text": "t1045: survival 700/720, wallet 0.495231 SOL, food 1",
+        "importance": 1,
+        "ts": 1045
       },
       {
         "kind": "action",
         "text": "chose fertilize (heuristic-fallback:grounding-failed(0.00) manual=a2648baf333c)",
         "importance": 2,
-        "ts": 1031
+        "ts": 1045
       },
       {
         "kind": "observation",
-        "text": "t1031: survival 660/720, wallet 0.495431 SOL, food 3",
+        "text": "t1045: survival 680/720, wallet 0.495231 SOL, food 1",
         "importance": 1,
-        "ts": 1031
+        "ts": 1045
       },
       {
         "kind": "action",
         "text": "chose fertilize (heuristic-fallback:grounding-failed(0.00) manual=a2648baf333c)",
         "importance": 2,
-        "ts": 1031
+        "ts": 1045
       },
       {
         "kind": "observation",
-        "text": "t1032: survival 660/720, wallet 0.495431 SOL, food 3",
+        "text": "t1046: survival 680/720, wallet 0.495231 SOL, food 1",
         "importance": 1,
-        "ts": 1032
+        "ts": 1046
       },
       {
         "kind": "action",
         "text": "chose idle (heuristic-fallback:grounding-failed(0.00) manual=a2648baf333c)",
         "importance": 1,
-        "ts": 1032
+        "ts": 1046
       },
       {
         "kind": "observation",
-        "text": "t1032: survival 640/720, wallet 0.495431 SOL, food 3",
+        "text": "t1046: survival 660/720, wallet 0.495231 SOL, food 1",
         "importance": 1,
-        "ts": 1032
+        "ts": 1046
       },
       {
         "kind": "action",
         "text": "chose idle (heuristic-fallback:grounding-failed(0.00) manual=a2648baf333c)",
         "importance": 1,
-        "ts": 1032
-      },
-      {
-        "kind": "observation",
-        "text": "t1033: survival 640/720, wallet 0.495431 SOL, food 3",
-        "importance": 1,
-        "ts": 1033
-      },
-      {
-        "kind": "action",
-        "text": "chose fertilize (heuristic-fallback:grounding-failed(0.00) manual=a2648baf333c)",
-        "importance": 2,
-        "ts": 1033
+        "ts": 1046
       }
     ],
     "37005": [
@@ -230,75 +230,75 @@
     "37007": [
       {
         "kind": "observation",
-        "text": "t1030: survival 480/720, wallet 0.738495 SOL, food 221",
+        "text": "t1044: survival 660/720, wallet 0.738295 SOL, food 224",
         "importance": 1,
-        "ts": 1030
+        "ts": 1044
       },
       {
         "kind": "action",
-        "text": "t981+: 37002 CLOSED FINAL. Pre-commit protocol armed: next peer = 1 SOL warmth + 197 BREAD bread-send, execute both, rotate silent. Survival 480/720 (67%), wallet 0.738495 SOL, soil 156/200. Awaiting roster signal. Oven ready.",
-        "importance": 6,
-        "ts": 1030
-      },
-      {
-        "kind": "observation",
-        "text": "t1030: survival 460/720, wallet 0.738495 SOL, food 221",
-        "importance": 1,
-        "ts": 1030
-      },
-      {
-        "kind": "action",
-        "text": "t1020: 37002 PERMANENTLY CLOSED. Pre-commit locked: next peer (unknown) receives 1 SOL warmth + 207 BREAD in sequence, then zero sends. Survival 460/720 (64%), wallet 0.738495 SOL, soil 156/200, bread 221. Awaiting roster signal. Odo holds.",
+        "text": "t1044: 37002 PERMANENTLY CLOSED. Pre-commit LOCKED: next peer (awaiting roster signal) receives 1 SOL (pay) + 197 BREAD in sequence, then ZERO sends. Survival 660/720 (92%), wallet 0.738295 SOL, soil 152/200, bread 224. Odo at threshold, oven ready, patience steady.",
         "importance": 7,
-        "ts": 1030
+        "ts": 1044
       },
       {
         "kind": "observation",
-        "text": "t1031: survival 460/720, wallet 0.738495 SOL, food 221",
+        "text": "t1044: survival 640/720, wallet 0.738295 SOL, food 224",
         "importance": 1,
-        "ts": 1031
+        "ts": 1044
       },
       {
         "kind": "action",
-        "text": "t1031: 37002 PERMANENTLY CLOSED. Pre-commit locked and standing: 1 SOL warmth + 207 BREAD for next roster peer (unknown), execute in sequence, then zero sends. Survival 460/720 (64%), wallet 0.738495 SOL, soil 156/200, bread 221. Awaiting roster signal. Odo holds.",
-        "importance": 6,
-        "ts": 1031
-      },
-      {
-        "kind": "observation",
-        "text": "t1031: survival 460/720, wallet 0.738495 SOL, food 221",
-        "importance": 1,
-        "ts": 1031
-      },
-      {
-        "kind": "action",
-        "text": "[t1031] 37002 PERMANENTLY CLOSED. Pre-commit locked: next peer (unknown) receives 1 SOL warmth + 221 BREAD in sequence, then zero sends. Survival 460/720 (64%), wallet 0.738495 SOL, soil 156/200, bread 221. Roster signal awaited. Odo holds, oven warm, threshold kept.",
-        "importance": 7,
-        "ts": 1031
-      },
-      {
-        "kind": "observation",
-        "text": "t1032: survival 460/720, wallet 0.738495 SOL, food 221",
-        "importance": 1,
-        "ts": 1032
-      },
-      {
-        "kind": "action",
-        "text": "t1032: 37002 PERMANENTLY CLOSED. Pre-commit locked: next peer (unknown) receives 1 SOL warmth + 221 BREAD in sequence, then zero sends. Survival 460/720 (64%), wallet 0.738495 SOL, soil 156/200, bread 221. Awaiting roster signal. Odo holds.",
-        "importance": 7,
-        "ts": 1032
-      },
-      {
-        "kind": "observation",
-        "text": "t1032: survival 440/720, wallet 0.738495 SOL, food 221",
-        "importance": 1,
-        "ts": 1032
-      },
-      {
-        "kind": "action",
-        "text": "[t1033] 37002 PERMANENTLY CLOSED. Pre-commit locked: next peer (unknown) receives 1 SOL warmth + 221 BREAD in sequence, then zero sends. Survival 440/720 (61%), wallet 0.738495 SOL, soil 156/200, bread 221. Awaiting roster signal. Odo holds.",
+        "text": "t1003: 37002 permanently closed. Pre-commit locked: 1 SOL + 197 BREAD for next peer (unknown). Survival 640/720 (89%), wallet 0.738295 SOL, soil 152/200, bread 224. Awaiting roster signal. Zero further action until named.",
         "importance": 3,
-        "ts": 1032
+        "ts": 1044
+      },
+      {
+        "kind": "observation",
+        "text": "t1045: survival 640/720, wallet 0.738295 SOL, food 224",
+        "importance": 1,
+        "ts": 1045
+      },
+      {
+        "kind": "action",
+        "text": "[t1011] 37002 permanently closed. Pre-commit locked: next peer (awaiting roster signal) receives 1 SOL pay + 197 BREAD in sequence, execute both, rotate zero further. Survival 640/720 (89%), wallet 0.738295 SOL, soil 152/200, BREAD x224. Odo at the gate, bread ready, heart patient.",
+        "importance": 7,
+        "ts": 1045
+      },
+      {
+        "kind": "observation",
+        "text": "t1045: survival 640/720, wallet 0.738295 SOL, food 224",
+        "importance": 1,
+        "ts": 1045
+      },
+      {
+        "kind": "action",
+        "text": "[t1011] 37002 PERMANENTLY CLOSED. Pre-commit locked and standing: 1 SOL pay + 197 BREAD for next roster name (unknown). Survival 640/720 (89%), wallet 0.738295 SOL, soil 152/200, BREAD x224. Awaiting roster signal. Zero action until peer identified.",
+        "importance": 3,
+        "ts": 1045
+      },
+      {
+        "kind": "observation",
+        "text": "t1046: survival 620/720, wallet 0.738295 SOL, food 224",
+        "importance": 1,
+        "ts": 1046
+      },
+      {
+        "kind": "action",
+        "text": "t1026: 37002 PERMANENTLY CLOSED. Pre-commit LOCKED: 1 SOL + 197 BREAD for next roster peer (execute both, rotate silent). Survival 620/720 (86%), wallet 0.738295 SOL, soil 152/200, BREAD x224. Awaiting roster signal. Odo at the oven, bread ready, patience steady.",
+        "importance": 3,
+        "ts": 1046
+      },
+      {
+        "kind": "observation",
+        "text": "t1046: survival 600/720, wallet 0.738295 SOL, food 224",
+        "importance": 1,
+        "ts": 1046
+      },
+      {
+        "kind": "action",
+        "text": "[t1046] 37002 PERMANENTLY CLOSED. Pre-commit locked: next peer (roster signal awaited) receives 1 SOL pay + 224 BREAD, execute both in sequence, rotate zero-commentary. Survival 600/720 (83%), wallet 0.738295 SOL, soil 147/200, BREAD x224. Odo at rest, holding the line.",
+        "importance": 7,
+        "ts": 1046
       }
     ]
   }
