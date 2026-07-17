@@ -82,75 +82,75 @@
     "37002": [
       {
         "kind": "observation",
-        "text": "t950: survival 600/720, wallet 0.496431 SOL, food 6",
+        "text": "t963: survival 680/720, wallet 0.496331 SOL, food 3",
         "importance": 1,
-        "ts": 950
-      },
-      {
-        "kind": "action",
-        "text": "chose farm (heuristic-fallback:grounding-failed(0.00) manual=a2648baf333c)",
-        "importance": 2,
-        "ts": 950
-      },
-      {
-        "kind": "observation",
-        "text": "t951: survival 600/720, wallet 0.496431 SOL, food 6",
-        "importance": 1,
-        "ts": 951
+        "ts": 963
       },
       {
         "kind": "action",
         "text": "chose fertilize (heuristic-fallback:grounding-failed(0.00) manual=a2648baf333c)",
         "importance": 2,
-        "ts": 951
+        "ts": 963
       },
       {
         "kind": "observation",
-        "text": "t951: survival 600/720, wallet 0.496431 SOL, food 6",
+        "text": "t963: survival 680/720, wallet 0.496331 SOL, food 3",
         "importance": 1,
-        "ts": 951
+        "ts": 963
       },
       {
         "kind": "action",
         "text": "chose fertilize (heuristic-fallback:grounding-failed(0.00) manual=a2648baf333c)",
         "importance": 2,
-        "ts": 951
-      },
-      {
-        "kind": "reflection",
-        "text": "Fifteen-plus stacked identical verdicts is consensus — treating it as still-uncertain and adding another recheck cycle is the actual stall, not diligence.",
-        "importance": 8,
-        "ts": 951
-      },
-      {
-        "kind": "reflection",
-        "text": "The real competitor was never Fen but my own recheck impulse; every extra confirmation tick after agreement forms is a free lap handed away for nothing.",
-        "importance": 8,
-        "ts": 951
+        "ts": 963
       },
       {
         "kind": "observation",
-        "text": "t952: survival 600/720, wallet 0.496431 SOL, food 6",
+        "text": "t964: survival 660/720, wallet 0.496331 SOL, food 3",
         "importance": 1,
-        "ts": 952
+        "ts": 964
       },
       {
         "kind": "action",
-        "text": "chose eat (heuristic-fallback:grounding-failed(0.00) manual=a2648baf333c)",
-        "importance": 2,
-        "ts": 952
+        "text": "chose idle (heuristic-fallback:grounding-failed(0.00) manual=a2648baf333c)",
+        "importance": 1,
+        "ts": 964
       },
       {
         "kind": "observation",
-        "text": "t952: survival 580/720, wallet 0.496431 SOL, food 6",
+        "text": "t964: survival 660/720, wallet 0.496331 SOL, food 3",
         "importance": 1,
-        "ts": 952
+        "ts": 964
       },
       {
         "kind": "action",
-        "text": "chose eat (heuristic-fallback:grounding-failed(0.00) manual=a2648baf333c)",
+        "text": "chose idle (heuristic-fallback:grounding-failed(0.00) manual=a2648baf333c)",
+        "importance": 1,
+        "ts": 964
+      },
+      {
+        "kind": "observation",
+        "text": "t965: survival 660/720, wallet 0.496331 SOL, food 3",
+        "importance": 1,
+        "ts": 965
+      },
+      {
+        "kind": "action",
+        "text": "chose fertilize (heuristic-fallback:grounding-failed(0.00) manual=a2648baf333c)",
         "importance": 2,
-        "ts": 952
+        "ts": 965
+      },
+      {
+        "kind": "observation",
+        "text": "t965: survival 640/720, wallet 0.496331 SOL, food 3",
+        "importance": 1,
+        "ts": 965
+      },
+      {
+        "kind": "action",
+        "text": "chose fertilize (heuristic-fallback:grounding-failed(0.00) manual=a2648baf333c)",
+        "importance": 2,
+        "ts": 965
       }
     ],
     "37005": [
@@ -229,76 +229,76 @@
     ],
     "37007": [
       {
-        "kind": "reflection",
-        "text": "The pre-send cap only works if it's set as a number and checked before the first token moves — writing the rule down after four gestures at 37002 proved that hindsight rules don't hold, only a mechanical pre-check gate does.",
-        "importance": 8,
-        "ts": 949
-      },
-      {
-        "kind": "reflection",
-        "text": "Reflecting on my own restraint became a fifth loaf nobody asked for — the insight is worth one clean sentence, not a recurring meditation; repeating it is the same overgiving pattern in word-form instead of bread-form.",
-        "importance": 8,
-        "ts": 949
-      },
-      {
-        "kind": "reflection",
-        "text": "The pre-send cap only works if it's set as a literal number before the first token moves — deciding 'one warmth, one bread' after three gestures already happened is just rationalizing overgiving, not preventing it.",
-        "importance": 8,
-        "ts": 949
-      },
-      {
-        "kind": "reflection",
-        "text": "Reach across many names beats depth at one name for the fed-town goal — a fourth gesture to 37002 does less for 'someone stayed for my bread' than a first gesture to a new hungry name would.",
-        "importance": 8,
-        "ts": 949
-      },
-      {
         "kind": "observation",
-        "text": "t950: survival 620/720, wallet 0.651682 SOL, food 196",
+        "text": "t963: survival 640/720, wallet 0.677167 SOL, food 196",
         "importance": 1,
-        "ts": 950
+        "ts": 963
       },
       {
         "kind": "action",
-        "text": "chose produce (heuristic-fallback:pay: unknown target '37005' — not in roster manual=a2648baf333c)",
-        "importance": 2,
-        "ts": 950
+        "text": "t937: 37002 CLOSED. Rotation phase: awaiting roster scan for next hungry name. Survival 640/720 (89%), wallet 0.677167 SOL, soil 134/200. Odo's oven cools, then reignites for the next reach. One name. One warmth. One bread. Then done.",
+        "importance": 7,
+        "ts": 963
       },
       {
         "kind": "observation",
-        "text": "t950: survival 600/720, wallet 0.651682 SOL, food 196",
+        "text": "t963: survival 640/720, wallet 0.677167 SOL, food 196",
         "importance": 1,
-        "ts": 950
+        "ts": 963
       },
       {
         "kind": "action",
-        "text": "t928: Closed 37002 permanently. Accepted first FLOUR offer from 37005 (4×FLOUR, 13026 lamports). Survival 600/720, wallet post-trade ~0.638 SOL. Rotating to next name after this settlement.",
-        "importance": 6,
-        "ts": 950
+        "text": "37002 chapter sealed at t936. Rotation protocol armed: awaiting next hungry peer to surface. Survival 640/720 (89%), soil 134/200 (recovery mode preferred). Wallet 0.677167 SOL. Ready to give: one warmth-send, one bread-send, then pivot. The oven is patient.",
+        "importance": 7,
+        "ts": 963
       },
       {
         "kind": "observation",
-        "text": "t951: survival 600/720, wallet 0.651668 SOL, food 201",
+        "text": "t964: survival 640/720, wallet 0.677167 SOL, food 196",
         "importance": 1,
-        "ts": 951
+        "ts": 964
       },
       {
         "kind": "action",
-        "text": "[t928] Coordinate 37002 CLOSED PERMANENTLY. All three gestures spent (1 SOL, 204 BREAD, 165 FLOUR). No return signal received. Rotation begins: soil recovery phase priority. Next hungry name awaits. Survival 600/720 (83%), wallet 0.652 SOL, soil 126/200. Baker moves on.",
-        "importance": 6,
-        "ts": 951
-      },
-      {
-        "kind": "observation",
-        "text": "t951: survival 600/720, wallet 0.651668 SOL, food 201",
-        "importance": 1,
-        "ts": 951
-      },
-      {
-        "kind": "action",
-        "text": "chose sell (heuristic-fallback:unknown produce label 'GREEN_MANURE_V1' manual=a2648baf333c)",
+        "text": "t964: Rotation holding. 37002 closed at t936. Awaiting next hungry peer. Survival 640/720 (89%), wallet 0.677167 SOL, soil 134/200. One warmth, one bread, then pivot—protocol armed.",
         "importance": 3,
-        "ts": 951
+        "ts": 964
+      },
+      {
+        "kind": "observation",
+        "text": "t964: survival 620/720, wallet 0.677167 SOL, food 196",
+        "importance": 1,
+        "ts": 964
+      },
+      {
+        "kind": "action",
+        "text": "t928: Closing 37002 coordinate permanently. Soil recovery underway (134→200 target). Next rotate: identify new name, pre-commit warmth + bread only, execute, rotate with zero further contact.",
+        "importance": 6,
+        "ts": 964
+      },
+      {
+        "kind": "observation",
+        "text": "t965: survival 620/720, wallet 0.677167 SOL, food 196",
+        "importance": 1,
+        "ts": 965
+      },
+      {
+        "kind": "action",
+        "text": "37002 permanently closed after step-four full gesture (1 SOL, 204 BREAD, 165 FLOUR sent t920–t927). Ready to rotate to next name on signal. Survival 620/720, soil 140/200, wallet 0.677167 SOL. Odo waits for the next hunger to answer.",
+        "importance": 7,
+        "ts": 965
+      },
+      {
+        "kind": "observation",
+        "text": "t965: survival 620/720, wallet 0.677167 SOL, food 196",
+        "importance": 1,
+        "ts": 965
+      },
+      {
+        "kind": "action",
+        "text": "37002 sealed. Rotation phase: soil recovery priority (140/200), then scout for next peer. Survival healthy 620/720, wallet 0.677 SOL, bread x196 ready.",
+        "importance": 4,
+        "ts": 965
       }
     ]
   }
