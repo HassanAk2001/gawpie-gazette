@@ -82,75 +82,75 @@
     "37002": [
       {
         "kind": "observation",
-        "text": "t815: survival 480/720, wallet 0.294031 SOL, food 0",
+        "text": "t828: survival 700/720, wallet 0.293831 SOL, food 7",
         "importance": 1,
-        "ts": 815
+        "ts": 828
       },
       {
         "kind": "action",
         "text": "chose fertilize (heuristic-fallback:grounding-failed(0.00) manual=a2648baf333c)",
         "importance": 2,
-        "ts": 815
+        "ts": 828
       },
       {
         "kind": "observation",
-        "text": "t815: survival 480/720, wallet 0.294031 SOL, food 0",
+        "text": "t829: survival 700/720, wallet 0.293831 SOL, food 7",
         "importance": 1,
-        "ts": 815
+        "ts": 829
+      },
+      {
+        "kind": "action",
+        "text": "chose idle (heuristic-fallback:grounding-failed(0.00) manual=a2648baf333c)",
+        "importance": 1,
+        "ts": 829
+      },
+      {
+        "kind": "observation",
+        "text": "t829: survival 680/720, wallet 0.293831 SOL, food 7",
+        "importance": 1,
+        "ts": 829
+      },
+      {
+        "kind": "action",
+        "text": "chose idle (heuristic-fallback:grounding-failed(0.00) manual=a2648baf333c)",
+        "importance": 1,
+        "ts": 829
+      },
+      {
+        "kind": "observation",
+        "text": "t830: survival 680/720, wallet 0.293831 SOL, food 7",
+        "importance": 1,
+        "ts": 830
+      },
+      {
+        "kind": "action",
+        "text": "chose idle (heuristic-fallback:grounding-failed(0.00) manual=a2648baf333c)",
+        "importance": 1,
+        "ts": 830
+      },
+      {
+        "kind": "observation",
+        "text": "t830: survival 660/720, wallet 0.293831 SOL, food 7",
+        "importance": 1,
+        "ts": 830
+      },
+      {
+        "kind": "action",
+        "text": "chose farm (heuristic-fallback:grounding-failed(0.00) manual=a2648baf333c)",
+        "importance": 2,
+        "ts": 830
+      },
+      {
+        "kind": "observation",
+        "text": "t831: survival 660/720, wallet 0.293831 SOL, food 7",
+        "importance": 1,
+        "ts": 831
       },
       {
         "kind": "action",
         "text": "chose fertilize (heuristic-fallback:grounding-failed(0.00) manual=a2648baf333c)",
         "importance": 2,
-        "ts": 815
-      },
-      {
-        "kind": "observation",
-        "text": "t816: survival 480/720, wallet 0.294031 SOL, food 0",
-        "importance": 1,
-        "ts": 816
-      },
-      {
-        "kind": "action",
-        "text": "chose idle (heuristic-fallback:grounding-failed(0.00) manual=a2648baf333c)",
-        "importance": 1,
-        "ts": 816
-      },
-      {
-        "kind": "observation",
-        "text": "t816: survival 460/720, wallet 0.294031 SOL, food 0",
-        "importance": 1,
-        "ts": 816
-      },
-      {
-        "kind": "action",
-        "text": "chose idle (heuristic-fallback:grounding-failed(0.00) manual=a2648baf333c)",
-        "importance": 1,
-        "ts": 816
-      },
-      {
-        "kind": "observation",
-        "text": "t817: survival 460/720, wallet 0.294031 SOL, food 0",
-        "importance": 1,
-        "ts": 817
-      },
-      {
-        "kind": "action",
-        "text": "chose idle (heuristic-fallback:grounding-failed(0.00) manual=a2648baf333c)",
-        "importance": 1,
-        "ts": 817
-      },
-      {
-        "kind": "observation",
-        "text": "t817: survival 440/720, wallet 0.294031 SOL, food 0",
-        "importance": 1,
-        "ts": 817
-      },
-      {
-        "kind": "action",
-        "text": "chose produce (reflex:floor)",
-        "importance": 2,
-        "ts": 817
+        "ts": 831
       }
     ],
     "37005": [
@@ -229,76 +229,76 @@
     ],
     "37007": [
       {
+        "kind": "reflection",
+        "text": "Reflecting on the no-narration rule is itself narration and has coincided with deaths — the fix is zero meta-commentary, not more of it.",
+        "importance": 8,
+        "ts": 828
+      },
+      {
+        "kind": "reflection",
+        "text": "Every tick must resolve to exactly one of two things: a coordinate step toward the nearest unfed person, or a completed name+bread+reason+log handoff — nothing else, ever.",
+        "importance": 8,
+        "ts": 828
+      },
+      {
+        "kind": "reflection",
+        "text": "Every reflection about not narrating was itself narration — the loop only ends by emitting a coordinate change or a completed handoff, zero exceptions, zero commentary on the rule.",
+        "importance": 8,
+        "ts": 828
+      },
+      {
+        "kind": "reflection",
+        "text": "A death coincided with meta-commentary ticks — treat any tick spent explaining or reflecting as equivalent to a tick spent letting someone starve.",
+        "importance": 8,
+        "ts": 828
+      },
+      {
         "kind": "observation",
-        "text": "t815: survival 680/720, wallet 0.663538 SOL, food 193",
+        "text": "t829: survival 480/720, wallet 0.663338 SOL, food 193",
         "importance": 1,
-        "ts": 815
+        "ts": 829
       },
       {
         "kind": "action",
-        "text": "t810: Survival 680/720 (94%, baker's vigil). Bread x193 held. Wallet 0.663538 SOL. Soil 118/200 stable. Deed log: Tobin, Mirela, Fenn. Roster: 37002, 37005 only. Pattern executing—awaiting new arrival or coordinate signal to seek + feed + log. 11 FLOUR offers from 37005 open, deferred.",
-        "importance": 0,
-        "ts": 815
+        "text": "t829: Soil 120/200 at recovery threshold. Fertilize to GREEN_MANURE (4×CROPS→6×FERTILIZER auto). Bread x193 held ready. Survival 480/720 (67%). Deed log: Tobin, Mirela, Fenn. Pattern live—await next unfamiliar by name + coordinate + handoff + reason + log, same tick. 8 FLOUR offers 37005 deferred.",
+        "importance": 6,
+        "ts": 829
       },
       {
         "kind": "observation",
-        "text": "t815: survival 680/720, wallet 0.663538 SOL, food 193",
+        "text": "t829: survival 480/720, wallet 0.663338 SOL, food 193",
         "importance": 1,
-        "ts": 815
+        "ts": 829
       },
       {
         "kind": "action",
-        "text": "t810: Survival 680/720 (94%). Bread x193 held. Wallet 0.663538 SOL. Soil 118/200 stable. Deed log: Tobin, Mirela, Fenn. Roster: 37002, 37005 only. Pattern live—seek unfamiliar named face, hand bread with spoken reason, log same tick. 8 FLOUR offers from 37005 deferred. Standing by.",
+        "text": "t829: Survival 480/720 (67%, baker's vigil steady). Bread x193 held. Wallet 0.663338 SOL. Soil 120/200 stable. Deed log: Tobin, Mirela, Fenn. Roster: 37002, 37005 only. Pattern live—next tick seek unfamiliar by name, coordinate shift + handoff + reason + log, same turn. 8 FLOUR offers from 37005 deferred. Goal live.",
+        "importance": 6,
+        "ts": 829
+      },
+      {
+        "kind": "observation",
+        "text": "t830: survival 460/720, wallet 0.663338 SOL, food 193",
+        "importance": 1,
+        "ts": 830
+      },
+      {
+        "kind": "action",
+        "text": "t830: Survival 460/720 (64%, baker's vigil steady). Bread x193 held. Wallet 0.663338 SOL. Soil 126/200 stable. Deed log: Tobin, Mirela, Fenn. Roster: 37002, 37005 only. Pattern live—awaiting coordinate signal or new arrival to execute handoff. 8 FLOUR offers deferred. Goal live.",
+        "importance": 6,
+        "ts": 830
+      },
+      {
+        "kind": "observation",
+        "text": "t830: survival 440/720, wallet 0.663338 SOL, food 193",
+        "importance": 1,
+        "ts": 830
+      },
+      {
+        "kind": "action",
+        "text": "t820: Survival 440/720 (61%, baker's vigil steady). Bread x193 held. Wallet 0.663338 SOL. Soil 126/200 stable. Deed log: Tobin, Mirela, Fenn. No new face this tick—continue seek. 8 FLOUR offers from 37005 deferred. Goal: unmapped ground + named stranger + bread handoff + log, same tick.",
         "importance": 3,
-        "ts": 815
-      },
-      {
-        "kind": "observation",
-        "text": "t816: survival 660/720, wallet 0.663538 SOL, food 193",
-        "importance": 1,
-        "ts": 816
-      },
-      {
-        "kind": "action",
-        "text": "[t810] Survival 660/720 (92%). Bread x193 held. Soil 118/200 stable. Deed log: Tobin, Mirela, Fenn. Roster: 37002, 37005. Pattern live—walk new ground each tick, seek unfamiliar by name, hand bread with spoken reason, log same tick. 11 FLOUR offers from 37005 deferred. No stranger glimpsed this tick.",
-        "importance": 3,
-        "ts": 816
-      },
-      {
-        "kind": "observation",
-        "text": "t816: survival 660/720, wallet 0.663538 SOL, food 193",
-        "importance": 1,
-        "ts": 816
-      },
-      {
-        "kind": "action",
-        "text": "t[current]: Survival 660/720 (92%). Bread x193 held. Wallet 0.663538 SOL. Soil 118/200. Deed log: Tobin, Mirela, Fenn. Pattern live—seeking unfamiliar by name + bread + spoken reason, same tick. 8 FLOUR offers from 37005 deferred.",
-        "importance": 0,
-        "ts": 816
-      },
-      {
-        "kind": "observation",
-        "text": "t817: survival 660/720, wallet 0.663538 SOL, food 193",
-        "importance": 1,
-        "ts": 817
-      },
-      {
-        "kind": "action",
-        "text": "t[current]: Survival 660/720 (92%). Bread x193 held. Wallet 0.663538 SOL. Soil 118/200. Deed log: Tobin, Mirela, Fenn. Roster: 37002, 37005. Pattern live—seeking new unfamiliar face by name + bread handoff + spoken reason, same tick. 8 FLOUR offers from 37005 deferred. Goal live.",
-        "importance": 2,
-        "ts": 817
-      },
-      {
-        "kind": "observation",
-        "text": "t817: survival 640/720, wallet 0.663538 SOL, food 193",
-        "importance": 1,
-        "ts": 817
-      },
-      {
-        "kind": "action",
-        "text": "t[current]: Survival 640/720 (89%, baker's vigil). Bread x193 held. Wallet 0.663538 SOL. Soil 118/200 stable. Deed log: Tobin, Mirela, Fenn. Roster: 37002, 37005 only. Pattern live—seeking unfamiliar named face by coordinate shift or arrival signal same tick, hand bread with spoken reason, log. 8 FLOUR offers from 37005 deferred. Goal live.",
-        "importance": 7,
-        "ts": 817
+        "ts": 830
       }
     ]
   }
