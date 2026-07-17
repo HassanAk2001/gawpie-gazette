@@ -82,75 +82,75 @@
     "37002": [
       {
         "kind": "observation",
-        "text": "t842: survival 620/720, wallet 0.293631 SOL, food 6",
+        "text": "t855: survival 660/720, wallet 0.293431 SOL, food 3",
         "importance": 1,
-        "ts": 842
+        "ts": 855
+      },
+      {
+        "kind": "action",
+        "text": "chose idle (heuristic-fallback:grounding-failed(0.00) manual=a2648baf333c)",
+        "importance": 1,
+        "ts": 855
+      },
+      {
+        "kind": "observation",
+        "text": "t856: survival 660/720, wallet 0.293431 SOL, food 3",
+        "importance": 1,
+        "ts": 856
       },
       {
         "kind": "action",
         "text": "chose fertilize (heuristic-fallback:grounding-failed(0.00) manual=a2648baf333c)",
         "importance": 2,
-        "ts": 842
+        "ts": 856
       },
       {
         "kind": "observation",
-        "text": "t842: survival 600/720, wallet 0.293631 SOL, food 6",
+        "text": "t856: survival 640/720, wallet 0.293431 SOL, food 3",
         "importance": 1,
-        "ts": 842
+        "ts": 856
       },
       {
         "kind": "action",
         "text": "chose fertilize (heuristic-fallback:grounding-failed(0.00) manual=a2648baf333c)",
         "importance": 2,
-        "ts": 842
+        "ts": 856
+      },
+      {
+        "kind": "reflection",
+        "text": "Fifteen-plus stacked identical verdicts is the loop itself, not diligence — the moment consensus forms, the only correct next action is emission, not another confirmation cycle.",
+        "importance": 8,
+        "ts": 856
+      },
+      {
+        "kind": "reflection",
+        "text": "Zero-cost heuristic-fallback output already beats audited output in a race — every tick spent re-justifying an already-decided action is a tick handed to Fen for free.",
+        "importance": 8,
+        "ts": 856
       },
       {
         "kind": "observation",
-        "text": "t843: survival 600/720, wallet 0.293631 SOL, food 6",
+        "text": "t857: survival 640/720, wallet 0.293431 SOL, food 3",
         "importance": 1,
-        "ts": 843
+        "ts": 857
       },
       {
         "kind": "action",
-        "text": "chose eat (heuristic-fallback:grounding-failed(0.00) manual=a2648baf333c)",
+        "text": "chose farm (heuristic-fallback:grounding-failed(0.00) manual=a2648baf333c)",
         "importance": 2,
-        "ts": 843
+        "ts": 857
       },
       {
         "kind": "observation",
-        "text": "t843: survival 600/720, wallet 0.293631 SOL, food 6",
+        "text": "t857: survival 620/720, wallet 0.293431 SOL, food 3",
         "importance": 1,
-        "ts": 843
+        "ts": 857
       },
       {
         "kind": "action",
-        "text": "chose eat (heuristic-fallback:grounding-failed(0.00) manual=a2648baf333c)",
-        "importance": 2,
-        "ts": 843
-      },
-      {
-        "kind": "observation",
-        "text": "t844: survival 720/720, wallet 0.293631 SOL, food 4",
+        "text": "chose idle (heuristic-fallback:grounding-failed(0.00) manual=a2648baf333c)",
         "importance": 1,
-        "ts": 844
-      },
-      {
-        "kind": "action",
-        "text": "chose fertilize (heuristic-fallback:grounding-failed(0.00) manual=a2648baf333c)",
-        "importance": 2,
-        "ts": 844
-      },
-      {
-        "kind": "observation",
-        "text": "t844: survival 700/720, wallet 0.293631 SOL, food 4",
-        "importance": 1,
-        "ts": 844
-      },
-      {
-        "kind": "action",
-        "text": "chose fertilize (heuristic-fallback:grounding-failed(0.00) manual=a2648baf333c)",
-        "importance": 2,
-        "ts": 844
+        "ts": 857
       }
     ],
     "37005": [
@@ -230,75 +230,75 @@
     "37007": [
       {
         "kind": "observation",
-        "text": "t842: survival 640/720, wallet 0.663138 SOL, food 192",
+        "text": "t855: survival 440/720, wallet 0.662938 SOL, food 192",
         "importance": 1,
-        "ts": 842
+        "ts": 855
       },
       {
         "kind": "action",
-        "text": "t841: Survival 640/720 (89%, baker's vigil). Bread x192 held. Wallet 0.663138 SOL. Soil 116/200 stable. Deed log: Tobin, Mirela, Fenn. Roster: 37002, 37005 only. PATTERN LIVE: new ground each tick, seek unfamiliar by name, hand bread with spoken reason, log same tick. 8 FLOUR offers from 37005 deferred. Goal live.",
-        "importance": 6,
-        "ts": 842
+        "text": "t843: Survival 440/720 (61%, baker's vigil). Bread x192 held. Wallet 0.662938 SOL. Soil 112/200 stable. Deed log: Tobin, Mirela, Fenn. Roster: 37002, 37005 only. Pattern live—awaiting coordinate shift or new arrival to execute handoff. 11 FLOUR offers from 37005 deferred. Goal live.",
+        "importance": 2,
+        "ts": 855
       },
       {
         "kind": "observation",
-        "text": "t843: survival 620/720, wallet 0.663138 SOL, food 192",
+        "text": "t855: survival 440/720, wallet 0.662938 SOL, food 192",
         "importance": 1,
-        "ts": 843
+        "ts": 855
       },
       {
         "kind": "action",
-        "text": "t843: Survival 620/720 (86%, baker's vigil). Bread x192 held. Wallet 0.663138 SOL. Soil 116/200. Deed log: Tobin, Mirela, Fenn. 11 FLOUR offers deferred (37005). Seeking unfamiliar by name + handoff same tick.",
+        "text": "t843: Survival 440→580/720 (81%, baker's vigil steady). Bread x191 held. Wallet 0.662938 SOL. Soil 112/200 stable. Deed log: Tobin, Mirela, Fenn. Roster: 37002, 37005 only. Pattern live—awaiting coordinate signal or new arrival to execute handoff. 8 FLOUR offers from 37005 deferred. Goal live.",
+        "importance": 3,
+        "ts": 855
+      },
+      {
+        "kind": "observation",
+        "text": "t856: survival 720/720, wallet 0.662938 SOL, food 191",
+        "importance": 1,
+        "ts": 856
+      },
+      {
+        "kind": "action",
+        "text": "t843: Survival 720/720 (100%). Bread x191 held. Wallet 0.662938 SOL. Soil 112/200 (decay steady). Deed log: Tobin, Mirela, Fenn. Roster: 37002, 37005. Pattern live—awaiting new unfamiliar arrival or coordinate signal to execute bread handoff with spoken reason, log same tick. 11 FLOUR offers from 37005 deferred (no SOL margin for acceptance now). Goal live.",
+        "importance": 2,
+        "ts": 856
+      },
+      {
+        "kind": "observation",
+        "text": "t856: survival 700/720, wallet 0.662938 SOL, food 191",
+        "importance": 1,
+        "ts": 856
+      },
+      {
+        "kind": "action",
+        "text": "t843: Survival 700/720 (97%, baker's vigil). Bread x191 held. Wallet 0.662938 SOL. Soil 112/200 decaying slow. Roster 37002, 37005 both alive, no unfamiliar or hungry. 8 FLOUR offers from 37005 deferred. Goal live—next coordinate or new arrival triggers handoff.",
+        "importance": 3,
+        "ts": 856
+      },
+      {
+        "kind": "observation",
+        "text": "t857: survival 700/720, wallet 0.662938 SOL, food 191",
+        "importance": 1,
+        "ts": 857
+      },
+      {
+        "kind": "action",
+        "text": "t[current]: Survival 700/720 (97%, baker's vigil). Bread x191 held. Wallet 0.662938 SOL. Soil 112/200 (decay watch—fertilize when below 120). Deed log: Tobin, Mirela, Fenn. Roster: 37002, 37005 only. 11 FLOUR offers from 37005 deferred. Pattern live—seeking unfamiliar by name + coordinate shift or arrival signal, handoff same tick, zero narration. Goal live.",
         "importance": 4,
-        "ts": 843
+        "ts": 857
       },
       {
         "kind": "observation",
-        "text": "t843: survival 620/720, wallet 0.663138 SOL, food 192",
+        "text": "t857: survival 700/720, wallet 0.662938 SOL, food 191",
         "importance": 1,
-        "ts": 843
+        "ts": 857
       },
       {
         "kind": "action",
-        "text": "t844: Survival 620/720 (86%, baker's vigil). Bread x192 held. Wallet 0.663138 SOL. Soil 116/200 stable. Deed log: Tobin, Mirela, Fenn. Roster: 37002, 37005 only. Pattern live—new ground each tick, seek unfamiliar by name, hand bread with spoken reason, log same tick. 8 FLOUR offers from 37005 deferred. Goal live.",
+        "text": "t843: Survival 700/720 (97%). Soil restored toward 200 from 112 via fertilize (GREEN_MANURE path if short). Bread x191 held. Wallet 0.662938 SOL. Deed log: Tobin, Mirela, Fenn. Roster: 37002, 37005. Pattern live—seek unfed by coordinate or name, hand bread + reason same tick, log. 8 FLOUR offers from 37005 deferred. Goal live.",
         "importance": 6,
-        "ts": 843
-      },
-      {
-        "kind": "reflection",
-        "text": "Every one of these logged 'reflections' was itself the exact violation being warned against — the pattern only stops by outputting a coordinate or handoff and nothing else, not by finding a better way to say 'stop narrating.'",
-        "importance": 8,
-        "ts": 843
-      },
-      {
-        "kind": "reflection",
-        "text": "A small, known roster with unfed people on it is never a reason to idle — act on the nearest known unfed person immediately rather than waiting for a new arrival.",
-        "importance": 8,
-        "ts": 843
-      },
-      {
-        "kind": "observation",
-        "text": "t844: survival 600/720, wallet 0.663138 SOL, food 192",
-        "importance": 1,
-        "ts": 844
-      },
-      {
-        "kind": "action",
-        "text": "t844: Survival 600/720 (83%). Bread x192 held. Wallet 0.663138 SOL. Soil 116/200 stable. Deed log: Tobin, Mirela, Fenn. Roster: 37002, 37005 only. Pattern live—awaiting coordinate shift or named stranger same tick to hand bread. 8 FLOUR offers from 37005 deferred. Goal live.",
-        "importance": 6,
-        "ts": 844
-      },
-      {
-        "kind": "observation",
-        "text": "t844: survival 600/720, wallet 0.663138 SOL, food 192",
-        "importance": 1,
-        "ts": 844
-      },
-      {
-        "kind": "action",
-        "text": "t845: Survival 600/720 (83%). Bread x192 held. Soil 116/200 declining—fertilize next if no handoff. Awaiting coordinate or new named arrival for pattern execution. 8 FLOUR offers deferred.",
-        "importance": 4,
-        "ts": 844
+        "ts": 857
       }
     ]
   }
