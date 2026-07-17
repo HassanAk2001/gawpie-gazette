@@ -82,75 +82,75 @@
     "37002": [
       {
         "kind": "observation",
-        "text": "t1071: survival 420/720, wallet 0.494831 SOL, food 5",
+        "text": "t1084: survival 680/720, wallet 0.494631 SOL, food 7",
         "importance": 1,
-        "ts": 1071
+        "ts": 1084
       },
       {
         "kind": "action",
         "text": "chose fertilize (heuristic-fallback:grounding-failed(0.00) manual=a2648baf333c)",
         "importance": 2,
-        "ts": 1071
+        "ts": 1084
       },
       {
         "kind": "observation",
-        "text": "t1071: survival 420/720, wallet 0.494831 SOL, food 5",
+        "text": "t1085: survival 680/720, wallet 0.494631 SOL, food 7",
         "importance": 1,
-        "ts": 1071
-      },
-      {
-        "kind": "action",
-        "text": "chose fertilize (heuristic-fallback:grounding-failed(0.00) manual=a2648baf333c)",
-        "importance": 2,
-        "ts": 1071
-      },
-      {
-        "kind": "observation",
-        "text": "t1072: survival 400/720, wallet 0.494831 SOL, food 5",
-        "importance": 1,
-        "ts": 1072
-      },
-      {
-        "kind": "action",
-        "text": "chose eat (heuristic-fallback:grounding-failed(0.00) manual=a2648baf333c)",
-        "importance": 2,
-        "ts": 1072
-      },
-      {
-        "kind": "observation",
-        "text": "t1072: survival 400/720, wallet 0.494831 SOL, food 5",
-        "importance": 1,
-        "ts": 1072
-      },
-      {
-        "kind": "action",
-        "text": "chose produce (heuristic-fallback:grounding-failed(0.00) manual=a2648baf333c)",
-        "importance": 2,
-        "ts": 1072
-      },
-      {
-        "kind": "observation",
-        "text": "t1073: survival 720/720, wallet 0.494831 SOL, food 9",
-        "importance": 1,
-        "ts": 1073
-      },
-      {
-        "kind": "action",
-        "text": "chose idle (heuristic-fallback:grounding-failed(0.00) manual=a2648baf333c)",
-        "importance": 1,
-        "ts": 1073
-      },
-      {
-        "kind": "observation",
-        "text": "t1073: survival 700/720, wallet 0.494831 SOL, food 9",
-        "importance": 1,
-        "ts": 1073
+        "ts": 1085
       },
       {
         "kind": "action",
         "text": "chose farm (heuristic-fallback:grounding-failed(0.00) manual=a2648baf333c)",
         "importance": 2,
-        "ts": 1073
+        "ts": 1085
+      },
+      {
+        "kind": "observation",
+        "text": "t1085: survival 660/720, wallet 0.494631 SOL, food 7",
+        "importance": 1,
+        "ts": 1085
+      },
+      {
+        "kind": "action",
+        "text": "chose idle (heuristic-fallback:grounding-failed(0.00) manual=a2648baf333c)",
+        "importance": 1,
+        "ts": 1085
+      },
+      {
+        "kind": "reflection",
+        "text": "Fifteen-plus identical verdicts is consensus, not a checkpoint — treat it as the finish line and emit immediately, no sixteenth check.",
+        "importance": 8,
+        "ts": 1085
+      },
+      {
+        "kind": "reflection",
+        "text": "The real rival was never Fen — it's the recheck reflex itself; every reflective cycle after agreement forms is a free lap handed away for nothing.",
+        "importance": 8,
+        "ts": 1085
+      },
+      {
+        "kind": "observation",
+        "text": "t1086: survival 660/720, wallet 0.494631 SOL, food 7",
+        "importance": 1,
+        "ts": 1086
+      },
+      {
+        "kind": "action",
+        "text": "chose fertilize (heuristic-fallback:grounding-failed(0.00) manual=a2648baf333c)",
+        "importance": 2,
+        "ts": 1086
+      },
+      {
+        "kind": "observation",
+        "text": "t1086: survival 640/720, wallet 0.494631 SOL, food 7",
+        "importance": 1,
+        "ts": 1086
+      },
+      {
+        "kind": "action",
+        "text": "chose fertilize (heuristic-fallback:grounding-failed(0.00) manual=a2648baf333c)",
+        "importance": 2,
+        "ts": 1086
       }
     ],
     "37005": [
@@ -230,75 +230,75 @@
     "37007": [
       {
         "kind": "observation",
-        "text": "t1071: survival 500/720, wallet 0.737895 SOL, food 228",
+        "text": "t1084: survival 580/720, wallet 0.737695 SOL, food 232",
         "importance": 1,
-        "ts": 1071
+        "ts": 1084
       },
       {
         "kind": "action",
-        "text": "37002 PERMANENTLY CLOSED. Pre-commit LOCKED: next peer (roster awaited) = 1 SOL pay + 228 BREAD in sequence, execute both, rotate zero-commentary. Survival 500/720 (69%), wallet 0.737895 SOL, soil 138/200, BREAD x228 ready. Odo at the gate, oven warm, waiting for the roster signal.",
-        "importance": 6,
-        "ts": 1071
-      },
-      {
-        "kind": "observation",
-        "text": "t1071: survival 500/720, wallet 0.737895 SOL, food 228",
-        "importance": 1,
-        "ts": 1071
-      },
-      {
-        "kind": "action",
-        "text": "[t1070] 37002 PERMANENTLY CLOSED. Pre-commit LOCKED: next peer (roster awaited) = 1 SOL pay + 228 BREAD, execute both, rotate zero-commentary. Survival 500/720 (69%), wallet 0.737895 SOL, soil 138/200, BREAD x228 ready. Odo at the gate, oven warm, waiting for the roster signal.",
-        "importance": 7,
-        "ts": 1071
-      },
-      {
-        "kind": "observation",
-        "text": "t1072: survival 500/720, wallet 0.737895 SOL, food 228",
-        "importance": 1,
-        "ts": 1072
-      },
-      {
-        "kind": "action",
-        "text": "[t1071+] 37002 PERMANENTLY CLOSED. Pre-commit LOCKED: next peer (roster awaited) = 1 SOL pay + 228 BREAD, execute both, rotate zero-commentary. Survival 500/720 (69%), wallet 0.737895 SOL, soil 138/200, BREAD x228 ready. Odo at the gate, oven warm, waiting for the roster signal.",
-        "importance": 2,
-        "ts": 1072
-      },
-      {
-        "kind": "observation",
-        "text": "t1072: survival 480/720, wallet 0.737895 SOL, food 228",
-        "importance": 1,
-        "ts": 1072
-      },
-      {
-        "kind": "action",
-        "text": "[t1072] 37002 PERMANENTLY CLOSED. Pre-commit LOCKED: next peer (roster awaited) = 1 SOL pay + 228 BREAD, execute both, rotate zero-commentary. Survival 480/720 (67%), wallet 0.737895 SOL, soil 138/200, BREAD x228 ready. Odo holds steady at the gate. Awaiting roster signal.",
-        "importance": 7,
-        "ts": 1072
-      },
-      {
-        "kind": "observation",
-        "text": "t1073: survival 480/720, wallet 0.737895 SOL, food 228",
-        "importance": 1,
-        "ts": 1073
-      },
-      {
-        "kind": "action",
-        "text": "t1072 cont: 37002 PERMANENTLY CLOSED. Pre-commit LOCKED: next peer (roster awaited) = 1 SOL pay + 228 BREAD, execute both, rotate zero-commentary. Survival 480/720 (67%), wallet 0.737895 SOL, soil 133/200, BREAD x228 ready. Awaiting roster signal.",
+        "text": "t1084→t1085: 37002 PERMANENTLY CLOSED. Pre-commit locked: next peer receives 1 SOL pay + 232 BREAD (current hold), execute both in sequence, rotate zero-commentary. Survival 580/720 (81%), wallet 0.737695 SOL, soil 128/200. Awaiting roster signal. Odo patient, oven warm.",
         "importance": 3,
-        "ts": 1073
+        "ts": 1084
       },
       {
         "kind": "observation",
-        "text": "t1073: survival 460/720, wallet 0.737895 SOL, food 228",
+        "text": "t1084: survival 580/720, wallet 0.737695 SOL, food 232",
         "importance": 1,
-        "ts": 1073
+        "ts": 1084
       },
       {
         "kind": "action",
-        "text": "t1063: Survival 460→600 (clamped). Pre-commit locked: 1 SOL + 197 BREAD for next peer. Wallet 0.737895 SOL, soil 133/200, bread 31 post-eat. Awaiting roster signal. Odo at the hearth, fed, patient.",
-        "importance": 4,
-        "ts": 1073
+        "text": "t1084→t1085: 37002 PERMANENTLY CLOSED. Pre-commit locked: next peer receives 1 SOL pay + 232 BREAD, execute both in sequence, rotate zero-commentary. Survival 580/720 (81%), wallet 0.737695 SOL, soil 128/200. Odo holding, oven warm, awaiting roster signal for the hungry name.",
+        "importance": 6,
+        "ts": 1084
+      },
+      {
+        "kind": "observation",
+        "text": "t1085: survival 560/720, wallet 0.737695 SOL, food 232",
+        "importance": 1,
+        "ts": 1085
+      },
+      {
+        "kind": "action",
+        "text": "t1080: 37002 PERMANENTLY CLOSED. Pre-commit LOCKED: next peer (awaiting roster signal) receives 1 SOL pay + 232 BREAD in sequence, execute both, rotate zero further. Survival 560/720 (78%), wallet 0.737695 SOL, soil 128/200, BREAD x232. Odo at the gate, patient, oven ready.",
+        "importance": 6,
+        "ts": 1085
+      },
+      {
+        "kind": "observation",
+        "text": "t1085: survival 540/720, wallet 0.737695 SOL, food 232",
+        "importance": 1,
+        "ts": 1085
+      },
+      {
+        "kind": "action",
+        "text": "[t1080] 37002 PERMANENTLY CLOSED. Pre-commit LOCKED: next peer (roster-awaited) receives 1 SOL pay + 232 BREAD in sequence, execute both, rotate zero further. Survival 540/720 (75%), wallet 0.737695 SOL, soil 128/200, BREAD x232. Odo at the threshold, oven ready, awaiting the hungry name.",
+        "importance": 7,
+        "ts": 1085
+      },
+      {
+        "kind": "observation",
+        "text": "t1086: survival 540/720, wallet 0.737695 SOL, food 232",
+        "importance": 1,
+        "ts": 1086
+      },
+      {
+        "kind": "action",
+        "text": "37002 PERMANENTLY CLOSED. Pre-commit LOCKED: next peer (roster-awaited) receives 1 SOL pay + 232 BREAD in exact sequence, execute both, rotate zero further. Survival 540/720 (75%), wallet 0.737695 SOL, soil 123/200, BREAD x232 ready. Odo at the gate, oven warm, waiting for the hungry name.",
+        "importance": 8,
+        "ts": 1086
+      },
+      {
+        "kind": "observation",
+        "text": "t1086: survival 540/720, wallet 0.737695 SOL, food 232",
+        "importance": 1,
+        "ts": 1086
+      },
+      {
+        "kind": "action",
+        "text": "[t1086] 37002 PERMANENTLY CLOSED. Pre-commit LOCKED: next peer (roster awaited) receives 1 SOL pay + 232 BREAD in sequence, execute both, rotate zero further. Survival 540/720 (75%), wallet 0.737695 SOL, soil 123/200, BREAD x232. Odo at the gate, oven ready, patient.",
+        "importance": 7,
+        "ts": 1086
       }
     ]
   }
