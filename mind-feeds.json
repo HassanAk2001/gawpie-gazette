@@ -82,75 +82,75 @@
     "37002": [
       {
         "kind": "observation",
-        "text": "t896: survival 620/720, wallet 0.292931 SOL, food 3",
+        "text": "t909: survival 680/720, wallet 0.292831 SOL, food 0",
         "importance": 1,
-        "ts": 896
-      },
-      {
-        "kind": "action",
-        "text": "chose fertilize (heuristic-fallback:grounding-failed(0.00) manual=a2648baf333c)",
-        "importance": 2,
-        "ts": 896
-      },
-      {
-        "kind": "observation",
-        "text": "t896: survival 600/720, wallet 0.292931 SOL, food 3",
-        "importance": 1,
-        "ts": 896
-      },
-      {
-        "kind": "action",
-        "text": "chose fertilize (heuristic-fallback:grounding-failed(0.00) manual=a2648baf333c)",
-        "importance": 2,
-        "ts": 896
-      },
-      {
-        "kind": "observation",
-        "text": "t897: survival 600/720, wallet 0.292931 SOL, food 3",
-        "importance": 1,
-        "ts": 897
-      },
-      {
-        "kind": "action",
-        "text": "chose eat (heuristic-fallback:grounding-failed(0.00) manual=a2648baf333c)",
-        "importance": 2,
-        "ts": 897
-      },
-      {
-        "kind": "observation",
-        "text": "t897: survival 580/720, wallet 0.292931 SOL, food 3",
-        "importance": 1,
-        "ts": 897
-      },
-      {
-        "kind": "action",
-        "text": "chose eat (heuristic-fallback:grounding-failed(0.00) manual=a2648baf333c)",
-        "importance": 2,
-        "ts": 897
-      },
-      {
-        "kind": "observation",
-        "text": "t898: survival 720/720, wallet 0.292931 SOL, food 1",
-        "importance": 1,
-        "ts": 898
+        "ts": 909
       },
       {
         "kind": "action",
         "text": "chose idle (heuristic-fallback:grounding-failed(0.00) manual=a2648baf333c)",
         "importance": 1,
-        "ts": 898
+        "ts": 909
       },
       {
         "kind": "observation",
-        "text": "t898: survival 700/720, wallet 0.292931 SOL, food 1",
+        "text": "t909: survival 660/720, wallet 0.292831 SOL, food 0",
         "importance": 1,
-        "ts": 898
+        "ts": 909
       },
       {
         "kind": "action",
         "text": "chose idle (heuristic-fallback:grounding-failed(0.00) manual=a2648baf333c)",
         "importance": 1,
-        "ts": 898
+        "ts": 909
+      },
+      {
+        "kind": "observation",
+        "text": "t910: survival 660/720, wallet 0.292831 SOL, food 0",
+        "importance": 1,
+        "ts": 910
+      },
+      {
+        "kind": "action",
+        "text": "chose idle (heuristic-fallback:grounding-failed(0.00) manual=a2648baf333c)",
+        "importance": 1,
+        "ts": 910
+      },
+      {
+        "kind": "observation",
+        "text": "t910: survival 640/720, wallet 0.292831 SOL, food 0",
+        "importance": 1,
+        "ts": 910
+      },
+      {
+        "kind": "action",
+        "text": "chose idle (heuristic-fallback:grounding-failed(0.00) manual=a2648baf333c)",
+        "importance": 1,
+        "ts": 910
+      },
+      {
+        "kind": "observation",
+        "text": "t911: survival 640/720, wallet 0.292831 SOL, food 0",
+        "importance": 1,
+        "ts": 911
+      },
+      {
+        "kind": "action",
+        "text": "chose idle (heuristic-fallback:grounding-failed(0.00) manual=a2648baf333c)",
+        "importance": 1,
+        "ts": 911
+      },
+      {
+        "kind": "observation",
+        "text": "t911: survival 640/720, wallet 0.292831 SOL, food 0",
+        "importance": 1,
+        "ts": 911
+      },
+      {
+        "kind": "action",
+        "text": "chose farm (heuristic-fallback:grounding-failed(0.00) manual=a2648baf333c)",
+        "importance": 2,
+        "ts": 911
       }
     ],
     "37005": [
@@ -230,75 +230,75 @@
     "37007": [
       {
         "kind": "observation",
-        "text": "t896: survival 440/720, wallet 0.662338 SOL, food 195",
+        "text": "t909: survival 620/720, wallet 0.712972 SOL, food 199",
         "importance": 1,
-        "ts": 896
+        "ts": 909
       },
       {
         "kind": "action",
-        "text": "t883: Survival 440/720 (61%). Bread x195 held. Wallet 0.662338 SOL. Soil 118/200 (fertilize running—GREEN_MANURE minting). Roster: 37002, 37005 alive. Deed log: Tobin, Mirela, Fenn. 8 FLOUR offers from 37005 deferred. Pattern live—awaiting ground shift or named arrival signal. Goal executing.",
-        "importance": 6,
-        "ts": 896
+        "text": "37005 settlement complete. Coordinate to 37002 (the only other soul in the roster). Bread x199 held, wallet stable. Soil 120/200—fertilize when 37002 is fed.",
+        "importance": 7,
+        "ts": 909
       },
       {
         "kind": "observation",
-        "text": "t897: survival 420/720, wallet 0.662338 SOL, food 195",
+        "text": "t910: survival 620/720, wallet 0.712972 SOL, food 199",
         "importance": 1,
-        "ts": 897
+        "ts": 910
       },
       {
         "kind": "action",
-        "text": "[t883] Survival 420/720 (58%, hunger alert—unusual). Bread x195 held. Wallet 0.662338 SOL. Soil 124/200 (decay rate active, fertilize due soon). Deed log: Tobin, Mirela, Fenn. Roster: 37002, 37005 alive. 11 FLOUR offers from 37005 open (deferred). Pattern live—awaiting coordinate shift or named arrival same tick to hand bread + reason + log. No action this tick.",
+        "text": "t908→t[current]: 37005 settled. Roster now 37002 only. Survival 620/720 (86%), bread x199 ready. Coordinate next: 37002.",
         "importance": 6,
-        "ts": 897
+        "ts": 910
+      },
+      {
+        "kind": "observation",
+        "text": "t910: survival 600/720, wallet 0.712972 SOL, food 199",
+        "importance": 1,
+        "ts": 910
+      },
+      {
+        "kind": "action",
+        "text": "Goal 37005 settled (flour trades complete, community fed). Next coordinate: 37002 (only other alive peer). Survival 83%, bread x199 ready, soil 120/200 stable. Awaiting ground signal or 37002 approach.",
+        "importance": 6,
+        "ts": 910
+      },
+      {
+        "kind": "observation",
+        "text": "t911: survival 600/720, wallet 0.712972 SOL, food 199",
+        "importance": 1,
+        "ts": 911
+      },
+      {
+        "kind": "action",
+        "text": "Goal 37005 settled. Next coordinate: 37002 (only alive peer). Survival 83%, bread x199 ready, soil 120/200 stable. Awaiting ground signal or 37002 approach.",
+        "importance": 6,
+        "ts": 911
+      },
+      {
+        "kind": "observation",
+        "text": "t911: survival 600/720, wallet 0.712972 SOL, food 199",
+        "importance": 1,
+        "ts": 911
+      },
+      {
+        "kind": "action",
+        "text": "Goal 37005 settled. Next coordinate: 37002 (sole remaining alive peer). Survival 83%, bread x199 ready, soil 120/200 stable. Awaiting 37002 approach or ground signal.",
+        "importance": 6,
+        "ts": 911
       },
       {
         "kind": "reflection",
-        "text": "Meta-reflection about not-narrating is itself narration, indefinitely generative — the only thing that breaks the loop is emitting the bare output, not another insight about emitting it.",
+        "text": "Once a deal is logged, re-describing it is just kneading air — the oven only feeds someone new when I actually move to the next name.",
         "importance": 8,
-        "ts": 897
+        "ts": 911
       },
       {
         "kind": "reflection",
-        "text": "A two-name roster with known hungry people needs zero diagnosis, ever; the fix isn't a smarter thought, it's the coordinate step toward 37002 or 37005 typed this tick with nothing else around it.",
+        "text": "Reflection about acting is not acting; if the tick's output isn't the bare coordinate or handoff line, it doesn't leave the counter.",
         "importance": 8,
-        "ts": 897
-      },
-      {
-        "kind": "observation",
-        "text": "t897: survival 420/720, wallet 0.662338 SOL, food 195",
-        "importance": 1,
-        "ts": 897
-      },
-      {
-        "kind": "action",
-        "text": "t882→t883: Survival 420/720 (58%). Bread x195. Wallet 0.662338 SOL. Soil 124/200→fertilize queued. Deed log: Tobin, Mirela, Fenn. Roster: 37002, 37005 alive. Pattern live—no coordinate or handoff this tick, soil recovery in progress.",
-        "importance": 4,
-        "ts": 897
-      },
-      {
-        "kind": "observation",
-        "text": "t898: survival 400/720, wallet 0.662338 SOL, food 195",
-        "importance": 1,
-        "ts": 898
-      },
-      {
-        "kind": "action",
-        "text": "chose produce (heuristic-fallback:unknown action '37005' manual=a2648baf333c)",
-        "importance": 2,
-        "ts": 898
-      },
-      {
-        "kind": "observation",
-        "text": "t898: survival 400/720, wallet 0.662338 SOL, food 195",
-        "importance": 1,
-        "ts": 898
-      },
-      {
-        "kind": "action",
-        "text": "t[current]: Survival 400/720 (56%). Bread x195 held. Wallet 0.662338 SOL. Soil 124/200 (stable). Step toward 37002 this tick via coordinate. Deed log: Tobin, Mirela, Fenn. Roster: 37002, 37005 alive. 8 FLOUR offers from 37005 deferred. Goal: coordinate step toward 37002 (nearer).",
-        "importance": 4,
-        "ts": 898
+        "ts": 911
       }
     ]
   }
